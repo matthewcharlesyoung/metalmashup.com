@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title lyrics-page_tile_aborted">Aborted</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#re"><img class="lyrics-page_image" src="./images/retro.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Retrogore - 2016</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#re1">Dellamorte Dellamore</a>
+      <a href="#re2">Retrogore</a>
+      <a href="#re3">Cadaverous Banquet</a>
+      <a href="#re4">Whoremageddon</a>
+      <a href="#re5">Termination Redux (Alternate Version)</a>
+      <a href="#re6">Bit By Bit</a>
+      <a href="#re7">Divine Impediment</a>
+      <a href="#re8">Coven Of Ignorance</a>
+      <a href="#re9">The Mephitic Conundrum</a>
+      <a href="#re10">Forged For Decrepitude</a>
+      <a href="#re11">From Beyond (The Grave)</a>
+      <a href="#re12">In Avernus</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#tv"><img class="lyrics-page_image" src="./images/terror.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Terrorvision - 2018</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#tv1">Lasciate Ogne Speranza</a>
+      <a href="#tv2">Terrorvision</a>
+      <a href="#tv3">Farewell To The Flesh</a>
+      <a href="#tv4">Vespertine Decay</a>
+      <a href="#tv5">Squalor Opera</a>
+      <a href="#tv6">Visceral Despondency</a>
+      <a href="#tv7">Deep Red</a>
+      <a href="#tv8">Exquisite Covinous Drama</a>
+      <a href="#tv9">Altro Inferno</a>
+      <a href="#tv10">A Whore d'Oeuvre Macabre</a>
+      <a href="#tv11">The Final Absolution</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="re" class="lyrics-page_image" src="./images/retro.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Retrogore - 2016</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="re1" class="lyrics-test">-Dellamorte Dellamore-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="re2" class="lyrics-test">-Retrogore-</h1>
+      <p class="lyrics-test-test">Retrogore - Putrid obsession<br>
+Retrogore - Maniacal possession<br>
+Condemned by horrid nostalgia,<br>
+A celebration of death<br><br>
+
+Vintage tourniquet, decrepit and failing<br>
+Surgical abomination<br>
+Retrogore - Maniacal possession<br><br>
+
+Retrogore - reminiscent slaughter<br>
+Retrogore - Noxious perversion<br>
+Obsessed by an age of cinematographic grandeur<br>
+Reality fades as phantasms take over<br>
+Surgical abomination<br><br>
+
+And as reality slips, my bloodlust persists<br>
+Condemned to decompose, your body lies broken<br>
+A slave to misery, debauchery and suffering so pure<br>
+Protagonist of insanity<br>
+A slave to savagery, with the hammer I shall thrive<br>
+As you step into my realm<br><br>
+
+Retrogore - reminiscent slaughter<br>
+Retrogore - Noxious perversion<br>
+Retrogore - Putrid obsession<br>
+Retrogore - Maniacal possession<br><br>
+
+Ingrained frenzy, slasher extravaganza<br>
+The final step in a psychotic breakdown<br><br>
+
+I slip into dementia - I am death incarnate<br>
+I am the end - your end<br><br>
+
+Tendencies for gore, I always need more<br>
+My artistry, perfectly portrayed<br>
+I wasn't supposed to be - Alive and breathing<br>
+Caught on film, immortalized portrait of filth,<br>
+the star of my feature film<br>
+I am protagonist, an artist of Sodom<br>
+And as reality slips, my bloodlust persists<br>
+Condemned to decompose, your body lies broken<br>
+A slave to misery, debauchery and suffering so pure
+</p>
+
+      <h1 id="re3" class="lyrics-test">-Cadaverous Banquet-</h1>
+      <p class="lyrics-test-test">My horrendous concoction<br>
+Defaced and erased, a beastly corpus eloquently drained<br>
+Carbonated and flavored at will<br><br>
+
+Grinded, blended, a milkshake highly recommended<br>
+Necrotic nutrients decompose<br><br>
+
+Your body is mine for the taking<br>
+Shot thrice, cranium excavated<br>
+Delusional amour, your cadaver my shrine<br>
+Pleasure holes depraved,<br>
+by the relentless thrust of my blade<br><br>
+
+My sweet post-mortal fuck<br>
+Vintage of the damned - Succulent and frail<br>
+An eternal silence by canine extrement<br><br>
+
+Your is mine for the raping<br>
+Shot thrice, exsanguinated<br>
+Delusional amour, your cadaver my shrine<br>
+Pleasure holes depraved,<br>
+by the relentless thrust of my blade<br><br>
+
+Delicious gory banquet, Seved up to fill my needs<br>
+My appetite temporarily pleased - Bleed<br><br>
+
+Cadaverous Banquet - Vintage of the dead<br><br>
+
+Chase-ing my meat through her urethra<br>
+Mashed up to fulfill my needs<br>
+My perversion subdues indeed<br>
+Thrashing and grinding necrotic tissue<br>
+Your compost becomes my feast<br>
+A good vintage indeed
+
+</p>
+
+      <h1 id="re4" class="lyrics-test">-Whoremageddon-</h1>
+      <p class="lyrics-test-test">A scrupulous species - Bred to dominate<br>
+Exhibitionist features - Corrupted - Deluded<br>
+We are the whores of man<br>
+Oh goddess of Faeces - From temptress to whore<br>
+Materialistic demeanour - Raped, degraded<br>
+Self loathing prevails<br><br>
+
+Whoremageddon - Whores of Babylon<br>
+By filth approved and faith rejected<br>
+Whoremageddon - A wretched demagogue<br>
+Wrought into travesty<br><br>
+
+Oh goddess of Faeces - From temptress to whore<br>
+Materialistic demeanour - Raped, degraded<br>
+Self loathing prevails<br><br>
+
+Whoremageddon - Whores of Babylon<br>
+By filth approved and faith rejected<br>
+Whoremageddon - A wretched demagogue<br>
+Wrought into travesty<br><br>
+
+Lies upon lies they carefully plant<br>
+Modern day idols for a generation of shit<br>
+A whoremageddon, new born messiah<br>
+Talentless cunts setting a standard of crud<br>
+Lies upon lies they purposely spread<br>
+Modern day fools for a generation of shit<br>
+A whoremageddon, new born messiah<br>
+Miserable lives reserved for us all<br><br>
+
+And here we stand again - A culture of self loathing<br><br>
+
+Vultures descending from the skies<br>
+Psycho predators, a deteriorating kind<br>
+Today a role model. tomorrow a fad<br>
+Miserable cunts, the ruling class<br><br>
+
+A scrupulous species - Bred to dominate<br>
+Exhibitionist features - Corrupted - Deluded<br>
+We are the whores of man<br>
+Oh goddess of Faeces - From temptress to whore<br>
+Materialistic demeanour - Raped, degraded<br>
+Self loathing prevails<br><br>
+
+Lies upon lies they carefully plan<br>
+Modern day idols for a generation of shit<br>
+A whoremageddon, new born messiah<br>
+Talentless cunts setting a standard of crud<br>
+Lies upon lies they purposely spread<br>
+Modern day fools for a generation of shit<br>
+A whoremageddon, new born messiah<br>
+Miserable lives reserved for us all<br><br>
+
+Whoremageddon - This is our final judgement<br>
+Whores of Babylon - By filth approved and faith rejected<br>
+Whoremageddon - A wretched demagogue<br>
+Wrought into travesty
+</p>
+
+      <h1 id="re5" class="lyrics-test">-Termination Redux (Alternate Version)-</h1>
+      <p class="lyrics-test-test">
+Fetid and abhorrent, these fantasies I am having<br>
+Copious picturesque views of ending lives around me<br>
+Vermillion canvas – these fantasies I am living<br>
+Through human filth<br>
+Miraculous views so vermillion and obtuse<br><br>
+
+Through their eyes, victimised<br>
+A grisly study in still life<br>
+Voraciously nailed – a puddle of gore<br>
+The means to your pathetic end<br><br>
+
+Emaciated giblets rearranged on the floor – rotting<br>
+Some might find me deranged but I'm merely an artist<br>
+Bowels turn into vintage art<br>
+Caustic demigod, a Rembrandt of gore<br>
+Bowels turn into vintage art<br><br>
+
+Through their lives, idolised<br>
+A grisly study in still life<br>
+Voraciously nailed – attention seeking whores<br>
+Die on your pedestal<br><br>
+
+Fictitious and bored<br>
+More than you ever were<br>
+Now part of my body of art<br><br>
+
+"You are the scum of the earth,<br>
+Ambulant filth, self righteous and idle<br>
+Idolatry, societal degeneration"<br><br>
+
+You are the birthplace of disease<br>
+You are a cancer that feeds, breeds<br>
+No more than a sculpture that kneels, bleeds<br>
+Contemporarily pleased<br><br>
+
+Through their eyes, victimised<br>
+A grisly study in still life<br>
+Voraciously nailed – a puddle of gore<br>
+The means to your pathetic end
+
+</p>
+
+      <h1 id="re6" class="lyrics-test">-Bit By Bit-</h1>
+      <p class="lyrics-test-test">
+Knee-deep in hate I seethe<br>
+An abomination of man<br>
+The perversion of am
+The burial of all that’s sacred<br>
+Bi by bit - I strip your world apart<br><br>
+
+As I step forward<br>
+Into your world, you gluttonous glob<br>
+A walking heap of crud, the embodiment of sloth<br>
+Bit by bit religiously torn apart<br>
+As skin is stripped from bone<br>
+I refine my grand art<br><br>
+
+Resurging bloodlust<br>
+Human, redundant<br>
+We have been set up to fail<br><br>
+
+Returning, occurring<br>
+The savagery we’re evoking<br>
+We have been set up to kill<br>
+For the thrill<br><br>
+
+A global abattoir<br>
+No separation of race and gender<br>
+A moral abattoir<br>
+Like cattle to the slaughter<br><br>
+
+Knee-deep in rage you bleed<br>
+A mongrel of man - The reflection of all<br><br>
+
+Knee-deep in hate I seeth<br>
+An abomination of man<br>
+The perversion of am<br>
+The burial of all that’s sacred<br>
+Bit by bit - I strip your world apart<br><br>
+
+Portent to the end of your life<br>
+Bit by bit, emaciated<br>
+We were all born ripe<br>
+Cretins for the taking<br><br>
+
+How meaningless is your life?<br>
+Bit by bit, classified<br>
+How pointless is it to fight?<br>
+Bit by bit, emaciated<br><br>
+
+Like sheep we follow the march<br>
+Put upon this earth, meaningless - Being born was just a curse<br><br>
+
+Bit by bit, the world cleansed - Born to murder the world<br>
+Bit by bit, the world feared - Born to slaughter you all<br><br>
+
+Knee-deep in hate I seeth<br>
+An abomination of man - The perversion of am<br>
+Bit by bit - I strip your world apart
+</p>
+
+      <h1 id="re7" class="lyrics-test">-Divine Impediment-</h1>
+      <p class="lyrics-test-test">Divine Impediment<br>
+The cross penetrates, neuters and violates<br>
+My name is your restraint and order<br>
+Perturbed, force-fed, your body is mine to shred<br>
+I - a minister of corruption<br><br>
+
+By the leash, the bane and rod - I rend and trisect<br>
+Exacting the trinity of pain and perversion<br>
+As above, so below<br><br>
+
+By the lash, the hate and rot - I rend and trisect<br>
+Exacting the nihility of man and destruction<br>
+As above, so below<br><br>
+
+Strapped in a carapace - beaten into my image<br>
+Suffering in ecstasy divine, all mine<br>
+Praise the enlightened whore of Babylon<br>
+Suffering in ecstasy divine, all mine<br>
+Battered lamb, glorious pulp<br>
+By faith I justify my endless craves<br><br>
+
+A litany of stifled screams, gutted peaks so enticing<br>
+Hear this harmony<br>
+A litany of stifled screams, gutted peaks so enticing<br><br>
+
+Diving Impediment<br><br>
+
+Non interpretable dogma's slammed into your skull<br>
+Subject to our object - A faceless, invisible figure as lead<br>
+A terrible joke gone real and global<br>
+We picture fictional cunts (as our righteous alibi) to fuck the world<br>
+Our war is out - Our whores are out - Yet we're still in denial<br><br>
+
+By rejection I connect - To rein the inane - To reign the insane
+
+</p>
+
+      <h1 id="re8" class="lyrics-test">-Coven Of Ignorance-</h1>
+      <p class="lyrics-test-test">Watch the mouth open<br>
+As the bullshit excretes<br>
+A coven of ignorance<br>
+Prophets we claim to be<br><br>
+
+Watch them eat it up, like rodents and pigs<br>
+Devouring misinformation so blatantly<br>
+Search for the truth, one click away<br>
+A myriad of theories just waiting to be spread<br><br>
+
+Conflicts breeding conflicts, for the sheeple to see<br>
+A myriad of fake sympathy waiting to be spread<br>
+Varmint, erroneous, an idiocracy<br>
+Sycophantic apathy, we suddenly care<br><br>
+
+Pretend to be righteous - Pretend to be clean<br>
+Warriors behind screens - Warriors of values<br>
+Pretend to matter - Pretend to be heard<br>
+Warriors behind screens<br>
+Societal catastrophe<br><br>
+
+Watch the mouth open<br>
+As the bullshit excretes<br>
+A coven of ignorance<br>
+Prophets we claim to be<br>
+Watch the world falter<br>
+As opinions decree<br>
+A coven of ignorance<br>
+Where everything offends me<br><br>
+
+Tools for Idiology - Bed for attention<br>
+I will watch the world burn<br><br>
+
+Watch the mouth open<br>
+As the bullshit excretes<br>
+A coven of ignorance<br>
+Prophets we claim to be
+Watch the world falter<br>
+As opinions decree<br>
+A coven of ignorance<br>
+Where everything offends me</p>
+
+      <h1 id="re9" class="lyrics-test">-The Mephitic Conundrum-</h1>
+      <p class="lyrics-test-test">Malodorous, I defecate and consume - Te mephitic conundrum<br><br>
+
+A walking heap, colonic mystique - Gathering of shit<br>
+Walking human methane bomb - Ready to extinct<br>
+The common cancer known as man<br>
+Answering the greatest riddle of all<br>
+“How much poop is too much poop”<br>
+About 5 billion of them all.<br><br>
+
+Threading - Ridding - Killing - Maiming<br>
+As we destroy the world - Turn it into a heap of shit<br>
+As we destroy the world - Our fecal playing ground<br><br>
+
+Malodorous, we propagate and consume - The mephitic conundrum<br><br>
+
+A walking heap, colonic mystique - Gathering of shit<br>
+Walking human methane bomb - Ready to extinct<br>
+The common cancer known as man<br>
+Answering the greatest riddle of all<br>
+“How much poop is too much poop”<br>
+About 5 billion of them all.<br><br>
+
+Threading - Ridding - Killing - Maiming<br>
+As we destroy the world - Turn it into a heap of shit<br>
+As we destroy the world - Our fecal playing ground<br><br>
+
+We will never known peace<br><br>
+
+I am mesmerized that we are all still living<br>
+A steaming pile, the human excrement<br><br>
+
+“With intestinal fortitude I am forced to digest,<br>
+the purulent crud that forms your carbon print<br>
+greedily amassing, by greed unsurpassing<br>
+You’re all connoisseurs of rot”<br><br>
+
+Malodorous, we propagate and consume - The mephitic conundrum<br><br>
+
+A walking heap, colonic mystique - Gathering of shit<br>
+Walking human methane bomb - Ready to extinct<br>
+The common cancer known as man<br>
+Answering the greatest riddle of all<br>
+“How much poop is too much poop”<br>
+About 5 billion of them all.<br><br>
+
+Threading - Ridding - Killing - Maiming<br>
+As we destroy the world - Turn it into a heap of shit<br>
+As we destroy the world - Our fecal playing ground<br>
+Are you unhappy?</p>
+
+      <h1 id="re10" class="lyrics-test">-Forged For Decrepitude-</h1>
+      <p class="lyrics-test-test">
+Born into a life of degeneration<br>
+Societal deformity<br>
+Inept repression - Inherited abasement<br><br>
+
+Our common wealth debilitates us into depression<br>
+Abundant misery<br><br>
+
+Depending mongrels chasing a clock<br>
+Forged for decrepitude: the sum of man<br>
+We stand for:<br>
+Redundant catastrophe - Abundant misery<br><br>
+
+“Living” a life of misinformed, construed travesty<br>
+Our common stupidity their master-plan<br>
+Is this what you call a life? Alive?<br>
+Pathetic, apathetic - forever wrapped in chains<br>
+The feeling of never being awake<br>
+Prone to misery, we claim our throne of unjust<br>
+As we step foot in nothing<br>
+Is this what you call a life? Alive?<br><br>
+
+Our common idiocy debilitates us beyond redemption<br>
+Abhorrent reality - We are man… We are the end<br><br>
+
+Our common wealth debilitates us into depression<br>
+Abundant misery<br><br>
+
+Depending mongrels chasing a clock<br>
+Forged for decrepitude: the sum of man<br>
+We stand for….</p>
+
+      <h1 id="re11" class="lyrics-test">-From Beyond (The Grave)-</h1>
+      <p class="lyrics-test-test">
+From beyond the grave<br>
+From the cradle to the grave<br>
+Following your life, bloodstained<br>
+Closer to death, so arousing<br>
+A whiff of formaldehyde as foreplay<br>
+Your eternal unrest, so amusing<br>
+From beyond the grave<br>
+Follow your gurney, cum-stained<br>
+Closer to me, so perverted<br>
+Rigor mortis - part of my horrorscope<br><br>
+
+Once upon the slab now in my bed<br><br>
+
+From beyond the grave<br>
+Now let us pray<br>
+From the cradle to the grave<br>
+Your body lies rotten<br>
+From the pleasures I have begotten<br>
+Your corpus my whore to enslave<br><br>
+
+Partake in my madness<br>
+My luscious cunt from the sepulchre<br>
+Pertain to my madness<br>
+My special cunt from the sepulchre<br><br>
+
+By death betrothed<br>
+To the grinding beef of my package<br>
+Your sullied rotten cave<br>
+A fantastical musky present<br>
+With every thrust I regain lust<br>
+Of sullied rotten cave enslaved<br>
+From the cradle to the grave<br><br>
+
+Your carcass - my grand amour<br>
+Molten out eye sockets my fuck du jour<br>
+You’re my sexual plat de resistance<br>
+My freaky decomposing slut<br><br>
+
+Cum-stained - depraved<br>
+Your death I celebrate<br>
+Deeper and deeper<br>
+From the cradle to the grave<br><br>
+
+Now let us pray<br>
+From the cradle to the grave<br>
+Your body lies rotten<br>
+From the pleasures I have begotten<br>
+Your corpus my whore to enslave<br><br>
+
+Abrasive - disgusting<br>
+Many don’t see the treasures I’m beholding<br>
+A furious fuck - your final gift of life<br>
+Partake in my madness<br>
+My luscious cunt from the sepulchre<br>
+Pertain to my madness<br>
+My special cunt from the sepulchre<br><br>
+
+You are recked beyond the grave</p>
+
+      <h1 id="re12" class="lyrics-test">-In Avernus-</h1>
+      <p class="lyrics-test-test">
+Standing in front of Avernus<br>
+The gates of old, a plummeting death<br>
+The illusions that haunt me control me<br><br>
+
+Denigrating Apocrypha<br>
+A slithering rot seeps into my sanity<br>
+Wreaking vengeance upon a lucid ordure<br>
+Clarity, a monstrosity, take me from this mental travesty<br>
+Leaning over the precipice of my deluded self<br><br>
+
+As I fear…<br>
+In the dark I hear them coming<br>
+In the silence of a growling burden<br>
+The wretched, the damned, the all knowing<br>
+The fictions that guide me through hell everlasting<br><br>
+
+Guide me through Avernus<br>
+Ride me of the burden of metastasized conscience<br>
+Guide me through Avernus<br><br>
+
+Denying Apocrypha<br>
+A mesmerizing plot exceeds my reality<br>
+Wreaking horror upon this human manure<br>
+Clarity, a monstrosity, relieve me from the euphoria<br>
+Offal of the damned, the precipice of hell<br><br>
+
+Voices, choices, tearing through my head<br>
+Contesting, detesting, osmosis of the damned<br>
+The falling of the hammer<br>
+The metamorphosis of my gray matter<br>
+A lucid interlude to the decaying of man<br><br>
+
+In Avernus, mental terminus<br>
+In Avernus<br>
+In Avernus, Wretched, horrendous<br>
+Defeatist<br><br>
+
+Voices, uncontrollable noises<br>
+Voices, undeniable voices<br>
+Destructive euphoria
+</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="tv" class="lyrics-page_image" src="./images/terror.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Terrorvision - 2018</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="tv1" class="lyrics-test">-Lasciate Ogne Speranza-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="tv2" class="lyrics-test">-Terrorvision-</h1>
+        <p class="lyrics-test-test">Grotesque manic display of misery<br>
+Forfait values, refuge for vanity<br>
+Unholy masturbation<br>
+Self-inflicted drama<br>
+For the drama craving drama queens<br><br>
+
+Hold a mirror to society<br>
+A piss poor display of displaced narcissism<br>
+Wretched whores<br>
+Animus violence<br>
+Displaying animosity<br>
+Rancour distrust<br>
+Warmongering<br><br>
+
+Oh holy devastation<br>
+Divide and conquer<br>
+Spreading fear, hatred and disbelief<br>
+Hold a mirror to society<br>
+A perfect display of misanthropy<br><br>
+
+Obey the terrorvision<br>
+Demonic manipulation<br>
+Spreading hate<br>
+Spreading death<br>
+Fear<br><br>
+
+Praise the lord<br>
+Sever the whore<br>
+The masses want more<br><br>
+
+Bow to me<br>
+Oh nephilim<br>
+Emisarry of perversity<br><br>
+
+Praise the whore<br>
+Nu Babylon<br>
+The masses need more<br>
+Crawl for me oh idiocy<br>
+Emisarry of stupidity<br><br>
+
+Watch them crawl spineless<br>
+Opium for the masses<br>
+Watch them bleed for us<br>
+Religiously walking meat and erroneous pride<br><br>
+
+Unholy flagellation<br>
+Self-inflicted trauma<br>
+For the trauma craving trauma queens<br>
+Hold a mirror to your bigotry<br>
+A piss poor display of society<br><br>
+
+Manipulation of the masses at hand<br>
+Hate [x2]<br>
+Terrorvision<br>
+Sociopathic iteration<br><br>
+
+Manipulation through black mirrors at hand<br>
+Hate [x2]<br>
+Terrorvision<br>
+Psychopathic iteration<br><br>
+
+Hate<br>
+Fuelling the masterplan<br>
+Hate<br>
+Moving the pawns around<br>
+Hate<br>
+Our embodiment<br>
+Hate
+Fuelling the masterplan<br>
+Hate<br><br>
+Blissfully ignorant<br>
+Hate<br>
+Our decadence</p>
+
+        <h1 id="tv3" class="lyrics-test">-Farewell To The Flesh-</h1>
+        <p class="lyrics-test-test">Dark abysmal scheme - a curse beyond death<br>
+I revel and fester<br>
+Devouring flesh and bone<br><br>
+
+Hating of the masses - A blight without cure<br>
+I lavishly dismember<br>
+Devouring guts and gore - rotten to the core<br><br>
+
+Voraciously impatient, a relentless need<br>
+My growing urge to feed<br>
+I am the end - of man<br>
+For I am Hell, farewell to the flesh<br><br>
+
+I am sin incarnate - sin immaculate<br>
+Bringer of butchery - the birthplace of disease<br>
+Herald of misery<br><br>
+
+I am become death - portrait of humanity<br>
+The birthplace of disease<br>
+Behold my tapestry - a deranged fantasy<br><br>
+
+Devouring guts and gore, a brew I adore<br>
+For I am Hell, farewell to the flesh<br><br>
+
+Nazarene, bow to me<br>
+For I am blasphemy<br>
+Nazarene, bow to me<br>
+The ultimate flattery<br>
+Nazarene, bow to me<br>
+Nazarene, bleed<br><br>
+
+A sick joke with cruel intention<br>
+The puppetry to which we're subjected<br>
+A giant farce based on false prophets<br>
+Deities praying upon the subjected<br>
+
+As I bid farewell to the flesh<br>
+The corpses pile up ever so fresh<br><br>
+
+As I bring desolation<br>
+Slaughtering fields of my enemies<br>
+Stricken from light, the burden of life<br>
+As I bring desolation<br>
+Slaughtering fields of my enemies<br>
+I have lived as a god and shall die as one<br>
+Farewell to the flesh<br><br><br>
+
+Dark abysmal scheme - a curse beyond death<br>
+I revel and fester<br><br>
+
+Devouring guts and gore, a brew I adore<br>
+For I am Hell, farewell to the flesh</p>
+
+        <h1 id="tv4" class="lyrics-test">-Vespertine Decay-</h1>
+        <p class="lyrics-test-test">At the stroke of twelve<br>
+I feel alive<br><br>
+
+I was born with the birthmark of cinders<br>
+Wreaking havoc through<br>
+The torment growing within me<br>
+Heresy, vespertine decay<br>
+
+Mere tools for my needs, with every inch deep<br>
+A corpus delicti of the worst kind<br>
+Necrotic excavation for erotic deformations<br><br>
+
+I was born with the birthmark of cinders<br>
+Wreaking havoc through<br>
+The torment growing within me<br>
+Depravity, vespertine decay<br><br>
+
+As the casket creaks<br>
+My morbid fascination becomes real<br>
+The flavour of dead meat, true pleasure divine<br><br>
+
+As nostalgia grows - prophecies foretold<br>
+Nourishment of perversity deep within me<br>
+A cavernous exaltation<br>
+Decency bereft, grotesqueries untold<br>
+Exquisite stench of dead flesh a perfume<br>
+A malodorous banquet<br><br>
+
+Six feet deep<br>
+My morbid fascination becomes real<br>
+Fresh cold cuts at my feet<br>
+For my pulsating meat<br><br>
+
+Cold touch, sweet lust<br>
+Thy innocence lost with every thrush<br>
+A vulgar humiliation<br>
+Sinner in the hands of a dirty god<br>
+Let me prey<br><br>
+
+As nostalgia grows - prophecies foretold<br>
+Nourishment of perversity deep within me<br>
+A cavernous exaltation<br>
+Decency bereft, grotesqueries untold<br>
+Exquisite stench of dead flesh a perfume<br>
+A malodorous banquet<br><br>
+
+Stroke of twelve<br>
+I feel alive - oh sweet vespertine decay<br>
+Morbid depravity - I worship death<br>
+Erotic insantiy - faith unrestrained<br>
+Morbid depravity, embracing apathy<br>
+Erotic lunacy, with brute force<br><br>
+
+Cold touch, sweet lust<br>
+Thy innocence lost with every thrust<br>
+A vulgar humiliation<br>
+Corrupt the corpse with every breath<br>
+Heresy, without hesitation<br><br>
+
+Sinner in the hands of a dirty god<br>
+Let me prey<br>
+Sinner in the hands of a dirty god<br>
+Let me prey</p>
+
+        <h1 id="tv5" class="lyrics-test">-Squalor Opera-</h1>
+        <p class="lyrics-test-test">I, I am the face of your torment<br>
+I, I am your sin personified<br>
+With picturesque decay I paint a world full of problems<br>
+Insanity, I am the herald of your misery<br><br>
+
+With lewd demeanour my visions congregate<br>
+A sickening black hole of debauchery<br>
+Construed to keep free thought at bay<br>
+A sickening hole, taking control<br><br>
+
+Wallowing in a wasteland, a sordid cacophony<br>
+Shrouded by a terror vision<br>
+Indoctrinated abomination<br>
+The grandest farce, misanthropic global diversion<br><br>
+
+Oh morbus operandi - invasive surgery through psychopathic imagery<br>
+Hypocritical congregation - an obnoxious freakshow for the mentally bizarre<br>
+Extermination policies for the weak and poor<br>
+We embrace our very end with the greatest amour<br><br>
+
+I, I am a vision of madness<br>
+I, I am the end complete<br>
+With a sickening display I portray all your problems<br>
+Pure lunacy, A mirror of society<br><br>
+
+Oh morbus operandi - invasive surgery through psychopathic imagery<br>
+Hypocritical congregation - an obnoxious freakshow for the mentally bizarre<br><br>
+
+Extermination policies for the weak and poor<br>
+We embrace our very end with the greatest amour<br><br>
+
+Gluttonous we keep devouring more<br>
+Moth to a flame, brainless necrovores<br>
+Epitome of the insane, we beg for more<br><br>
+
+Enter the Opera<br><br>
+
+Gluttonous we keep devouring more<br>
+Moth to a flame, brainless necrovores<br>
+Epitome of the insane, we beg for more<br><br>
+
+Enter the Opera<br><br>
+
+Gray matter rot, a voracious plot<br>
+No voice of reason, it pertains to treason<br>
+We adore a generation of idiots<br>
+Damned and doomed we embrace it like fools<br>
+No thought or reason, fill our heads with feces<br>
+Gray matter rot, a voracious plot<br>
+No thought or reason, fill our heads with feces
+</p>
+
+        <h1 id="tv6" class="lyrics-test">-Visceral Despondency-</h1>
+        <p class="lyrics-test-test">This visceral despondency<br>
+A grand depression, our demise<br>
+Corruption of the beholders mind<br><br>
+
+We were born to die alone, in despondency<br><br>
+
+Towards the end, towards the uncertain<br>
+The endless void<br><br>
+
+Prelude to all your suffering<br>
+Unprepared for trauma<br>
+The silence is deafening<br>
+Bleeding through your pores<br><br>
+
+Uncompassionate, distraught<br>
+Selfish and oblivous<br>
+Apathy aching like an open sore<br>
+Fornever mourn<br><br>
+
+Towards the end, towards the uncertain<br>
+the endless void<br><br>
+
+Of egoism we're the great defender<br>
+Our inner struggle irrelevant<br>
+The selfishness is deafening<br>
+Bleeding til it rots<br><br>
+
+For we are all callous, the walking dead<br>
+Living life in the backseat<br>
+Full of bitterness, the living dead<br><br>
+
+I dig deep to fall again<br>
+Grabbed by the throat, upon life choke<br>
+Drawn in to misery, born for despondency<br><br>
+
+Trapped in your head, the heavens bled<br>
+As you slither through the hairline cracks<br>
+Sanity lies beyond humanity's grasp<br><br>
+
+Prelude to all your suffering<br>
+Unprepared for trauma<br>
+The silence is deafening<br>
+Bleeding through all your pores<br><br>
+
+Through heavy torment<br>
+Throughout a life of misery<br>
+Our thoughts drive us insane<br>
+A final nail...
+</p>
+
+        <h1 id="tv7" class="lyrics-test">-Deep Red-</h1>
+        <p class="lyrics-test-test">
+Anxiously I enter the necropolis<br>
+A defile for me to chose<br>
+Six feet below me - object of lust and defilement<br><br>
+
+Deep red - dark abyssal Eden<br>
+Six feet below me, a tortured soul on all fours to go<br>
+
+Deep red - necrotic nemesis<br>
+Six feet behind me, a pounded corpse<br>
+On all fours to go<br><br>
+
+Anxiously I enter the necropojlis<br>
+A defile for me to chose<br>
+Six feet below me<br>
+Object of lust and defilement<br><br>
+
+There's no addiction like this<br>
+Spellbound by her sphincter<br>
+I wreck havoc beyond abasement<br><br><br>
+
+Deep red - she bled<br>
+From tomb and purity stripped away<br>
+Deep red - she fucking bled<br>
+Roast beef of sullen meat a main course today<br>
+Your god is dead, now come let us pray<br><br>
+
+Deep red - she bled<br>
+From tomb and purity stripped away<br>
+
+Your god is dead, now come let us pray<br><br>
+
+The bonding of the living and the grave<br>
+Amore morte<br>
+With pure passion and surreal delight<br>
+I sucked her dry and ate her rare<br>
+Your god is dead, now come let us pray<br><br>
+
+Deep red - she bled<br>
+From tomb and purity stripped away<br>
+Your god is me, now come fornicate<br><br>
+
+Deep red - she fucking bled<br>
+Roast beef of sullen meat a main course today<br><br>
+
+Nothing can quench my appetite<br>
+All I need is my afternoon delight<br>
+Through rotting meat and crumbling bones<br>
+A gross feast I relentlessly adore<br>
+Nothing can hold me from my sodomite<br>
+All I need is my afternoon delight<br>
+A shall devastate and fornicate<br>
+Through sin and lust the heavens I rape</p>
+
+        <h1 id="tv8" class="lyrics-test">-Exquisite Covinous Drama-</h1>
+        <p class="lyrics-test-test">We have a capacity for rapacity<br>
+This human condition<br>
+Bred into deception<br><br>
+
+Bred to believe manipulations<br>
+Forced to consume<br>
+Controlled for produce and blinded<br>
+Our grand depression<br><br>
+
+We have a capacity for redundancy<br>
+This demented affliction<br>
+Our grand depression<br><br>
+
+And exquisite farce, guiding my misanthropy
+A myriad of "choices" in vapid world of abasement<br>
+Bred for extinction<br>
+Misanthropy within me, a reckoning force<br>
+On our path to extinction<br><br>
+
+We have the audacity and idiocy<br>
+An ignorant affliction<br>
+Bred for production<br>
+A ghastly farce of epic proportions<br>
+Loathsome and present<br>
+Bred to perfection<br><br>
+
+A myriad of "choices" in a vapid world of abasement<br>
+Bred for extinction<br>
+Misanthropy a reckoning force<br>
+On our path to extinction<br><br>
+
+Bred to believe manipulations<br>
+Forced to consume<br>
+Controlled for produce and<br>
+Blinded by a white fence utopia<br><br>
+
+Exquisite covinous drama<br>
+Nothing but tools, brainless fools<br>
+Exquisite covinous drama<br>
+Nothing but tools, mongrels, fools<br>
+Behold the stench of misery<br>
+Sweet bouquet of society<br>
+Result of apathy<br><br>
+
+We have the capacity for rapacity<br>
+This human condition<br>
+Bred for production<br>
+A ghastly farce of epic proportions<br>
+Loathsome and present<br>
+Bred in to perfection, bred for extinction
+</p>
+
+        <h1 id="tv9" class="lyrics-test">-Altro Inferno-</h1>
+        <p class="lyrics-test-test">
+Suffocating mess, this other Hell<br>
+So pragmatic, enigmatic<br><br>
+
+Nurtured by redundancy<br>
+We embrace this mental lobotomy<br>
+The apocryphal art of idolatry<br><br>
+
+Ignorance is bliss, catatonic state<br>
+So dogmatic, yet ecstatic - catastrophic<br><br>
+
+Eternal cowardice...<br>
+Maze of no return, your palaces burn<br>
+Claustrophobic,<br><br>
+
+Suffocating mess - reality<br>
+A cage of callousness<br><br>
+
+Nurtured by redundancy<br>
+We embrace this mental lobotomy<br>
+An apocryphal art<br><br>
+
+This stench of reality, crepuscular society dusk<br>
+As I suffer through this other Hell<br><br>
+
+Altro inferno - spirit of the dead<br>
+Altro inferno - machiavellian deceit<br>
+Altro inferno - the other Hell in me<br>
+Altro inferno<br><br>
+
+Altro inferno - spirit of the dead<br>
+Altro inferno - corrupted at best<br>
+Altro inferno - slithering so serpentine<br>
+Altro inferno<br><br>
+
+For I believe in Hell<br>
+Hell is other people<br>
+Dauntless descent to misery<br>
+Into this lobotomy<br>
+For I believe in Hell<br>
+Hell is other people<br>
+Claustrophobic maze of no return<br>
+Repulsive creatures<br><br>
+
+Altro inferno - spirit of the dead<br>
+Altro inferno - maze of no return<br>
+Altro inferno - slithering so serpentine<br>
+Altro inferno</p>
+
+        <h1 id="tv10" class="lyrics-test">-A Whore d'Oeuvre Macabre-</h1>
+        <p class="lyrics-test-test">Serpentine, slithering<br>
+A gruelling sight so disturbing, disgusting<br>
+Perverse, self-absorbed<br>
+A gruelling night so distraught<br>
+A maniacal thought<br><br>
+
+Once torn from the womb, all sanity collapses<br>
+Hopelessly subdued to perenial torment<br>
+We all engorge on vanity - fueled by lust and greed<br>
+The vapid world around me - for I am Dante<br>
+Once torn from the womb, all sanity collapses<br>
+I am the herald of misery, insantiy<br><br>
+
+Enjoy your minute of fame<br>
+As your cranium caves<br>
+Enjoy your minute of fame<br>
+As your corpus bleeds<br>
+Nothing but waste and rot<br><br>
+
+Praise your selfie, praise the whore<br>
+With useless bullshit you are adorn<br>
+Praise your selfie, praise the whore<br>
+From guts and gore you are torn<br>
+An epitome of debauchery<br>
+Selfishness and sordid idolatry<br>
+Back to the filth from which you were born<br>
+Praise your selfie, praise the whore<br>
+From useless bullshit you're torn<br><br>
+
+Where's your fucking saviour?<br>
+Laid out on my cadaverous banquet<br>
+For all I see, Hell is empty and tall the devils are here<br><br>
+
+Gorework - a whore d'oeuvre macabre<br>
+Gorework - a framework bizzare<br>
+Gorework - a whore d'oeuvre macabre<br>
+Gorework - a framework bizzare<br><br>
+
+Once torn from the womb, all sanity collapses<br>
+Hopelessly subdued to perenial torment<br><br>
+
+Serpentine, slithering<br>
+A gruelling sight so disturbing, disgusting<br>
+Perverse, self absorbed<br>
+A gruelling night so distraught<br>
+A maniacal thought<br>
+Hell is empty and all the devils are here
+</p>
+
+        <h1 id="tv11" class="lyrics-test">-The Final Absolution-</h1>
+        <p class="lyrics-test-test">
+This barren wasteland, your utopia has died<br>
+Consumed by greed and lust<br>
+This is our final absolution, erased and burnt<br><br>
+
+This barren wasteland, a mere memory<br>
+Testament of failure and defeat<br>
+This is our final absolution, a hypocritical creed<br><br>
+
+Under rorulent soil, a mere bag of bones<br>
+Complete exsanguination of the human race<br>
+A pile of crud, nothing but walking dung<br>
+Complete excoriation of the human farce<br><br>
+
+Testimony of acrimony<br>
+Self loathing and absolute greed<br>
+Testimony of misanthropy<br>
+A manifesto of utter envy<br><br>
+
+This is our final solution<br><br>
+
+Man creates - man destroys<br>
+So is the way of the world<br>
+Man hates - man abhors<br>
+Recreation for the fallen one<br><br>
+
+Under rorulent soil, a mere bag of bones<br>
+Complete exsanguination of the human race<br>
+A pile of crud, nothing but walking dung<br>
+Complete excoriation of the human farce<br><br>
+
+Testimony of acrimony<br>
+Self loathing absolute greed<br>
+Testimony of misanthropy<br>
+A manifesto of utter envy<br><br>
+
+Ruins of man - a utopia in ruin<br><br>
+
+This barren wasteland, a mere memory<br>
+Testament of failure and defeat<br>
+This is our final absolution, a hypocritical creed<br><br>
+
+All we are - what we are<br>
+Parasites tearing the world apart<br>
+The final absolution<br>
+A zero tolerance solution<br>
+Parasites tearing the world apart</p>
+      </div>
+    </div>
+
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+    </div>
+
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+    </div>
+
+        <div class="page-finish">
+          <a href="./security.html">Security Statements</a>
+          <a href="./terms.html">Terms of Service</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+
+    </body>
+    </html>

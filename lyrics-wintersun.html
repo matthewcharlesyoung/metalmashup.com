@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Wintersun</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/wintersun.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Wintersun - 2004</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Beyond The Dark Sun</a>
+      <a href="#f2">Winter Madness</a>
+      <a href="#f3">Sleeping Stars</a>
+      <a href="#f4">Battle Against Time</a>
+      <a href="#f5">Death And The Healing</a>
+      <a href="#f6">Starchild</a>
+      <a href="#f7">Beautiful Death</a>
+      <a href="#f8">Sadness And Hate</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/time.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Time I - 2012</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">When Time Fades Away</a>
+      <a href="#s2">Sons Of Winter And Stars</a>
+      <a href="#s3">Land Of Snow And Sorrow</a>
+      <a href="#s4">Darkness And Frost</a>
+      <a href="#s5">Time</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/theforest.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Forest Seasons - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">Awaken From The Dark Slumber (Spring)</a>
+      <a href="#t2">The Forest That Weeps (Summer)</a>
+      <a href="#t3">Eternal Darkness (Autumn)</a>
+      <a href="#t4">Loneliness (Winter)</a>
+      <a href="#t5">Loneliness (Winter) (Acoustic Version)</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/wintersun.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Wintersun - 2004</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Beyond The Dark Sun-</h1>
+      <p class="lyrics-test-test">...For years I have traveled in coldness,<br>
+But my heart is warm as the darkened sun above me...<br>
+Nothing can never take away<br>
+What I've seen with these tired eyes<br>
+<br>
+Face of the weeping night<br>
+And the shade of the fading light<br>
+<br>
+The dawn will never rise again for my eyes<br>
+And I will never sleep again<br>
+I've lost my hope time after time<br>
+'Cause the light has vanished from the sky<br>
+<br>
+Now when the darkness has become part of me<br>
+I got to let my shadows free<br>
+'Cause I never looked behind, I never tried to find<br>
+Something that could have made me one<br>
+Now when the sorrow has taken control of me<br>
+I got to let my shadows free<br>
+'Cause I never looked behind, I never tried to find<br>
+Something that could have made me one<br>
+Something that I could reach the Sun</p>
+
+      <h1 id="f2" class="lyrics-test">-Winter Madness-</h1>
+      <p class="lyrics-test-test">Divine creations now<br>
+destroyed to uncover the haunted atmosphere<br>
+Strange visions of the ancient spirits, travesty of man appears<br>
+Coldness and the storming winds lurking for prey<br>
+The forces of the Winter reign in dreadful way,<br>
+there's no escape<br>
+<br>
+I'm following the mistress of night<br>
+Through the gates of snow we'll fly<br>
+We'll fly<br>
+<br>
+Winter - The realm of eternal ice<br>
+Snowfall and darkness descends upon the vales of time<br>
+Distant caress of the sun's fading light<br>
+The lands were painted white with the Winter's might<br>
+<br>
+My hands are frozen,<br>
+my mind is at the edge of madness<br>
+Oh how many nights and days,<br>
+I've been lost in this land of sadness<br>
+<br>
+From the primitive thoughts, under the glimmering snow<br>
+And burning stones - they'll rise -<br>
+The artful spirit: "You don't have to die,<br>
+You can rule in afterlife, just concede your soul to me,<br>
+(your life is cheap) - no price -"</p>
+
+      <h1 id="f3" class="lyrics-test">-Sleeping Stars-</h1>
+      <p class="lyrics-test-test">Oh sleeping stars, why are you so sad tonight<br>
+Oh sleeping stars, will you shine for me tonight<br>
+Oh sleeping stars<br>
+<br>
+Can you see them float in the night sky<br>
+Can you hear those echoes of their sweet cries, creating a tune<br>
+Can you see them shine so bright<br>
+Can you feel their loneliness<br>
+through their cold light, touching you<br>
+<br>
+My eyes feel so heavy when the stars are calling me<br>
+- Join with us eternally -<br>
+I'm falling in deep trance and my powers are weakening<br>
+I'm falling in a world between dreams and reality<br>
+<br>
+I am now alone in the silent light<br>
+And there's nothing but darkness around me<br>
+Deeper into unknown the strange light is guiding me<br>
+Wake me until it's too late<br>
+<br>
+Suddenly I feel a warmth go through my body<br>
+But I feel that a part of me has died,<br>
+I sense the change in me<br>
+I must have been away so long<br>
+So please stay with me for a while</p>
+
+      <h1 id="f4" class="lyrics-test">-Battle Against Time-</h1>
+      <p class="lyrics-test-test">... I'm sailing away to undiscovered seas...<br>
+<br>
+I see a golden light shining far away<br>
+I can't tell if I'll make it there someday<br>
+I reach my hands but there's no one on my path<br>
+I can't sleep 'cause my body is burning<br>
+Cold sweat, cannot breath, I'm loosing my mind<br>
+Reflection in the mirror shows a different man at night<br>
+And as hours and seconds pass by<br>
+I feel my every feeling wither and die<br>
+Do I really feel this pain<br>
+'cause sometimes I can't tell if I'm awake<br>
+<br>
+Watching to the night, the hope is gone<br>
+Carrying so much burden in my heart<br>
+Watching to the night with tired eyes<br>
+Waiting for nothing all my life<br>
+<br>
+Battle against time<br>
+I... battle against time<br>
+<br>
+I am covered with cold ice, I am flying in the black skies<br>
+Fighting everyday, but it feels like, it's just the same<br>
+Oh time... you cut my heart and soul<br>
+You carve my will and passion of life<br>
+'cause the days of emptiness are piercing through me like arrows<br>
+<br>
+I feel nothing, but hate and love<br>
+So much fire inside, so much left undone<br>
+Hate&Love<br>
+<br>
+... I'm sailing away and nothing will ever be the same...</p>
+
+      <h1 id="f5" class="lyrics-test">-Death And The Healing-</h1>
+      <p class="lyrics-test-test">A windstorm dropped a bird from the sky<br>
+It fell to the ground and it's wings broke and died<br>
+But when the time got by, back to sky it flied<br>
+'cause the wings healed in time and the bird was I<br>
+<br>
+Time is the death and the healing<br>
+Take your last breath, 'cause death is deceiving<br>
+Time is the past, now and tomorrow<br>
+Days fly so fast and it leaves me so hollow<br>
+<br>
+A snowstorm blew inside a wolf's eyes<br>
+And the frozen tears covered all the mountainsides<br>
+But then the time got by and the wolf died<br>
+And someday that wolf would be I</p>
+
+      <h1 id="f6" class="lyrics-test">-Starchild-</h1>
+      <p class="lyrics-test-test">[Part I (Wanderer of Time)]<br>
+<br>
+So mysterious is your world,<br>
+Concealed beyond the stars<br>
+Far away from the earth,<br>
+It flows one with time and dark as the night<br>
+Million shapes and colours<br>
+Are storming inside your mind<br>
+Creating endless dimensions<br>
+Forming universes without walls<br>
+<br>
+Let go! of the stars, the stars that fell into the sea<br>
+Let go! of your thoughts and dreams,<br>
+What can you see now<br>
+<br>
+You cannot save them anymore<br>
+- Wanderer of time -<br>
+It's too late now<br>
+- Creator of Dimensions -<br>
+Destroy the walls of time<br>
+Hands of the blind are holding your fate<br>
+Tides of life will take you away, will take you away<br>
+<br>
+Starchild!<br>
+Visions are born from the unknown force<br>
+It dominates the way of time<br>
+The dream only ends, when the worlds come to an end<br>
+Starchild!<br>
+You cannot escape to the dark streams of the sea,<br>
+To suppress your dreams<br>
+Nothing can keep you away from the need to create<br>
+'cause your path is free...<br>
+<br>
+[Part II (Burning Star)]<br>
+<br>
+I've hold the fire within myself<br>
+Years I've walked in the coldest winds<br>
+Through the deserts of sand and snow<br>
+The time is passing and I know;<br>
+That I'm wasting my life, destroying my dreams<br>
+I'm diving into the bottomless sea<br>
+From sorrow and pain I find my strength<br>
+The more pain I feel, the more I see<br>
+Now I'm watching my life flowing in the dark<br>
+Like streams of fear running through my heart<br>
+And it's wearing me down until I'm gone<br>
+Soon I'll join the endless whirls of stars<br>
+And I fall (something is dying, yet something is born)<br>
+deeper into the unknown voids<br>
+And I fall (when will I find my silent dawn)<br>
+into infinity like a burning star<br>
+I fall like a burning star!<br>
+<br>
+[Part III (The Creation)]<br>
+<br>
+The curtains of mist are fading<br>
+And the veils of star clouds are revealed<br>
+Storms of new energy<br>
+Flows in the depths of my mind<br>
+New constellations are born<br>
+In total harmony of perfection<br>
+And the dissonant unbalance was broken<br>
+As the colours fell straight from the light<br>
+<br>
+[Part IV (The Sea of Stars)]<br>
+<br>
+I'm floating in the sea of stars,<br>
+I'm drifting away from the shore<br>
+I will be lost in the dream when the dark days come<br>
+But I will make the time run backwards and<br>
+I'll make the stars shine again<br>
+I will light up the sky to a bright crimson nights<br>
+... And they'll shine together forever<br>
+With brilliant silver colours they'll shine forever<br>
+<br>
+[Part V (Finale)]<br>
+<br>
+The whirls of stars takes you now far away<br>
+Away from the cold nightmare<br>
+Let go of you thoughts and dreams<br>
+And you will feel the warmth once again<br>
+Starchild! in the Sea of Stars you fall<br>
+You fall like a burning star!<br>
+Starchild! in the Sea of Stars you fall<br>
+... But there is no end to creation</p>
+
+      <h1 id="f7" class="lyrics-test">-Beautiful Death-</h1>
+      <p class="lyrics-test-test">My face turned pale before<br>
+the cold eyes of death<br>
+My body was frozen by the stare from the dark<br>
+I don't want to think of anything,<br>
+but there's storm of thoughts in my head<br>
+I wasn't prepared for this, 'cause I'm not ready to die<br>
+Nothing could have prepared me for this<br>
+[backwards:] Only way out is through window of dreams<br>
+<br>
+Nothing but blood so red and deceased<br>
+Nothing but pain, I fall on my knees<br>
+Tormenting demons, I suffer and bleed<br>
+Only way out is through window of dreams<br>
+<br>
+The rain whips the lonely and crushed soul<br>
+The dark clouds are closing fast,<br>
+the wind is blowing the colours of life away<br>
+The growing shadow will darken my dreams,<br>
+and with the fire inside me it feeds<br>
+I'll be screaming in the stars when it's over<br>
+Storms are raging on the path to home,<br>
+once so silent and calm<br>
+The desperate glare of the dark<br>
+light is cast on the fallen one<br>
+And when the illusions sigh no more,<br>
+the journey to new dream will carry on<br>
+'Cause life is just a beautiful death<br>
+<br>
+Life turns a new and strange page<br>
+They will try to take everything away from me<br>
+You'll never know the future<br>
+Save me from the rain<br>
+Tell me what matters in life, if anything<br>
+I'm struggling with sickness<br>
+They will try to take everything away from me<br>
+Are you trying to hide from the end<br>
+Save me from the rain<br>
+Save me from the end<br>
+<br>
+'Cause life will always be withering away from us<br>
+I want to be alone with you<br>
+And I'll give my heart to you, before I go<br>
+'Cause life is just a beautiful, beautiful death</p>
+
+      <h1 id="f8" class="lyrics-test">-Sadness And Hate-</h1>
+      <p class="lyrics-test-test">Sad night, the weeper of starwind sky<br>
+Take me where the shimmering lights are fading out<br>
+Through the shadows of hate and through the fires of grace<br>
+I followed the voice in the night,<br>
+beautiful as black sky,<br>
+But nothing I found<br>
+<br>
+My thoughts are captured by the magical chants<br>
+Of the spirits, but I cannot see them with these dead eyes<br>
+Lost I am in these dismal streams<br>
+Lost I am forever in my life<br>
+<br>
+The snow is falling on the withering leaves,<br>
+I am left in the cold<br>
+The shadows are crying in the moonlight<br>
+Is this night the last of my life<br>
+<br>
+Have we arrived from our journey,<br>
+I must ask you now<br>
+At last I can cry,<br>
+'cause these sad words are calling me tonight<br>
+My eyes bleed for you my star,<br>
+my pride and the love of my heart<br>
+But why did you had to fly so far,<br>
+I raged and it tore me apart<br>
+I promise to you with sadness and hate<br>
+Wherever I might go, you will know...<br>
+<br>
+I give my life to the withering leaves<br>
+To the bleeding moonlight<br>
+To the crying shadows<br>
+I GIVE MY LIFE TO YOU</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/time.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Time I - 2012</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-When Time Fades Away-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s2" class="lyrics-test">-Sons Of Winter And Stars-</h1>
+        <p class="lyrics-test-test">[I Rain Of Stars]<br>
+<br>
+Behold the rain of stars - The awakening of darkened skies<br>
+Falling from the dark - The symphony of dying lights<br>
+Behold the rain of stars - The blazing fire came pouring down<br>
+Falling from the dark - And life and death became unbound<br>
+Sons of winter and stars - Rise!<br>
+Sons of winter and stars - Rise!<br>
+Sons of winter and stars! Rise! Rise!<br>
+Fly with us through the darkness<br>
+Sons of winter and stars! Rise! Rise!<br>
+And we shall embrace the stars<br>
+And we shall open the doors of time<br>
+<br>
+[II Surrounded By Darkness]<br>
+<br>
+I have awaken the darkness<br>
+Taste the fear! Taste the pain!<br>
+I am the one who seeks vengeance<br>
+Into the darkness we fly<br>
+Into the shadows they hide<br>
+Into the darkness we fly<br>
+They will never survive, they ́ll die<br>
+Oh they will die!<br>
+I sacrifice everything, just for one moment<br>
+I throw away everything that matters to me the most<br>
+I ́m flying through the darkness<br>
+The fire casts a shadow on me<br>
+I tear a part of my heart for creation of dimensions<br>
+And we fly beyond the restless shadows<br>
+We fly beyond the stars<br>
+We fly beyond the birth of the worlds<br>
+So old I ́ve become - Thousand years staring into emptiness<br>
+But now I realize - That it was just an illusion<br>
+All this time I thought it was you that would save the sun<br>
+Oh rain comes and washes the hate away<br>
+Now I am at the crossroads with questions<br>
+Somewhere, someday I will find what I am here for<br>
+Who am I<br>
+<br>
+[III Journey Inside A Dream]<br>
+<br>
+I ́m wondering now where will you take me<br>
+From the horizon the light comes alive<br>
+Into the mountains high we set our way<br>
+Will we find our way in this long winter night<br>
+I see the land of fading sun and rising mountains<br>
+And I finally feel that I ́ve found my home<br>
+But oh, how it feels so cold when<br>
+my dreams wither in fragments of time<br>
+Revealing that this land will die<br>
+Before the winds so cold<br>
+The world was shattered in the fragments of time<br>
+Before the autumn rains<br>
+The coldness will again awake<br>
+Falling snow, so soft and cold<br>
+Dying moon cast down so weak<br>
+Frozen lake, the dancing spirits<br>
+Calling me to join in the cosmic dream<br>
+The silence is tempting me now...<br>
+<br>
+[IV Sons Of Winter And Stars]<br>
+<br>
+We are the Sons of Winter and Stars<br>
+We ́ve come from a far beyond time<br>
+Forever the fire burns in our hearts<br>
+Our world shall never die<br>
+In the arms of the wind we ride till dawn<br>
+As the waves of the ocean grind so strong<br>
+We wander in the stars until we ́re gone<br>
+Our fate is sealed by eternal sun<br>
+Until we fade away - Fate will find it ́s way<br>
+Until we drift into the dark<br>
+It ́s not too late to find a way - Fate will find it ́s way<br>
+And fly in cold embrace of stars<br>
+Mysteries of time<br>
+Unfolding in cosmic dreams<br>
+Leaving life and death meaningless<br>
+Before the revelation of infinity<br>
+Embrace the stars!<br>
+The energy flows in me like a river of stars<br>
+I ́m surrounded by the circle of fire,<br>
+but eternal ice has frozen my heart<br>
+I ́m lost in the pathways of time<br>
+But now the time has come for us!<br>
+We are the Sons of Winter and Stars!
+</p>
+
+        <h1 id="s3" class="lyrics-test">-Land Of Snow And Sorrow-</h1>
+        <p class="lyrics-test-test">Far away there ́s a land of snow and sorrow<br>
+<br>
+Time has made the frozen tears fall like rain from the starlit sky<br>
+And I feel so cold, I can ́t make it tomorrow<br>
+Oh, but the night will see where this path will lead my life<br>
+Endless field of snow at the edge of the world and the wailing<br>
+Winds so cold scar my face, I ́m going insane<br>
+I am lost from the light - And the memories follow me in the night<br>
+I ́m left in the arms of winter and I am carried far away - Far away<br>
+Night is falling over my home<br>
+<br>
+The land of snow and sorrow, oh carry me away from the cold<br>
+And I fall asleep, I will dream the last dream<br>
+All I was, is gone now and sorrow is all I feel<br>
+And the white snow is falling from the starlit sky<br>
+And the stars are shining like your eyes<br>
+You are so beautiful<br>
+<br>
+And I will follow them in this cold winter night<br>
+So I ́d find my way to you this time<br>
+Drifting away from the warmth of the darkness<br>
+Caressed by the light of a million stars<br>
+The darkness will always be a part of my heart<br>
+Until I ́m carried away by the winter ́s arms<br>
+Night is falling over my home<br>
+<br>
+The land of snow and sorrow, oh carry me away from the cold<br>
+And I fall asleep and I will not be afraid<br>
+All I was, is gone now and sorrow is all I feel</p>
+
+        <h1 id="s4" class="lyrics-test">-Darkness And Frost-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s5" class="lyrics-test">-Time-</h1>
+        <p class="lyrics-test-test">Darkness and frost<br>
+are starting to reach<br>
+The heart of this land with a cold disease<br>
+Sleep now for a while before the storm awakes<br>
+And one day it will reward you for the burden of wait<br>
+The roots go deep into the frozen dead ground<br>
+Listen to the land of snow, it makes no sound<br>
+For ages searching the warmth of the sun<br>
+If it never finds me, I can die as one<br>
+Time will go on and we are drifting away in the night<br>
+I ́ve been searching so long,<br>
+but I will find you even if it takes my whole life<br>
+But tonight I feel so<br>
+alone and I know that you are forever gone<br>
+Oh time, don ́t fade away when I need you here,<br>
+oh please don ́t leave me now<br>
+TIME!<br>
+<br>
+Time! Fades away!<br>
+When time fades away!<br>
+And I ́ll never be the same<br>
+Time! Time! Time! Time!<br>
+You want so much from me<br>
+I feel nothing but grief and despair<br>
+How can I make you feel again<br>
+All my dreams are just visions I can ́t bear<br>
+You want something that I can ́t give<br>
+I cannot keep living in this bitter dream<br>
+And I don ́t care anymore<br>
+It feels like my life is ending<br>
+Oh, another year gone by<br>
+But nothing has changed in my life<br>
+And time goes on forever and ever<br>
+And it waits for no one<br>
+<br>
+Time fades away<br>
+And I fade away<br>
+And I ́ll never be the same<br>
+TIME! Fades away!<br>
+When time fades away!<br>
+And I ́ll never feel the same<br>
+And I fade away!<br>
+When time fades away!<br>
+And I ́ll never feel the same</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/theforest.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title"> - </h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-Awaken From The Dark Slumber (Spring)-</h1>
+          <p class="lyrics-test-test">[Part I The Dark Slumber]<br>
+<br>
+Beneath the murky soil<br>
+The draw of the ancient spell<br>
+Swallowing everything in the ground<br>
+And then there was no sound<br>
+<br>
+Twisting the roots of life<br>
+Distorting the obscure shapes<br>
+The day was creeping into night<br>
+And then there was no light<br>
+<br>
+The mist was rolling from the mountains<br>
+Creatures were crawling under the ground<br>
+The darkness fell from the sky<br>
+And then there was no life<br>
+<br>
+The spell was too strong<br>
+Too weak to resist its pull<br>
+The wind was frozen still as I took my last breath<br>
+But then there was no death<br>
+<br>
+The days turned into years<br>
+The years turned into eternity<br>
+The natural order was twisted into dark harmony<br>
+Dark dark harmony<br>
+<br>
+I created my own fears<br>
+The mist of sorrow encircled my thoughts<br>
+The demons came forth from the shadows bringing dark disease<br>
+Dark dark disease<br>
+<br>
+With a sudden roar the ground trembled and cried<br>
+As the fire burned a hole in the sky<br>
+The light was swallowed into the ground<br>
+and the colors were broken in the night<br>
+And all the stars' creations were left to die<br>
+<br>
+Now! Let the dark disease wipe out all the living<br>
+Oh! And let all the lands be filled with silence<br>
+In the night´s cold embrace you left me astray<br>
+And the hope of new life fades away<br>
+Now! Let all the lands be covered in black snow<br>
+Will the morning sun ever rise again<br>
+And let all the creatures of the forest turn into stone<br>
+The slow demise has begun<br>
+Will this be forever<br>
+<br>
+[Part II The Awakening]<br>
+<br>
+From the realms below we ride<br>
+And in terror they run and hide<br>
+From the shadows of old we rise<br>
+Awaken from the dark - from the dark slumber<br>
+<br>
+Over the ancient ruins we fly<br>
+Where the old kings go to die<br>
+And new kingdoms rising high<br>
+Awaken from the dark dark slumber<br>
+<br>
+Awaken from the dark - from the dark slumber<br>
+Awaken from the dark dark slumber<br>
+<br>
+Rise!<br>
+<br>
+Creatures of the dawn<br>
+Crawling from the depths of the frozen earth<br>
+As the shadows were twisting and turning beneath the sun<br>
+<br>
+The sound of the moaning beasts<br>
+Blaring through the forest<br>
+As they´re roaming wild beneath the morning sun<br>
+<br>
+Ride! Ride with us again!<br>
+Fight! And live as free men!<br>
+Die! And be born again!<br>
+<br>
+Ride! Ride!<br>
+Ride with us again!<br>
+Fight! Fight!<br>
+And live as free men!<br>
+Die! Die!<br>
+And be born again!<br>
+<br>
+Die and be born again!<br>
+<br>
+Centuries in darkness<br>
+Bound to ruthless ice and snow<br>
+As the dawn of the new world rises, we shall be free<br>
+<br>
+By the fire we live and die<br>
+And the light of the sun fills our eyes<br>
+From the fire beyond the ancient stars we are born<br>
+<br>
+From the realms below we ride<br>
+And in terror they run and hide<br>
+From the shadows of old we rise<br>
+Awaken from the dark - from the dark slumber<br>
+<br>
+Over the ancient ruins we fly<br>
+Where the old kings go to die<br>
+And new kingdoms rising high<br>
+Awaken from the dark dark slumber<br>
+<br>
+Awaken from the dark - from the dark slumber<br>
+<br>
+As the old worlds fall behind<br>
+Our spirit reaches wide<br>
+With no fear breathing new life<br>
+Awaken from the dark dark slumber
+</p>
+
+          <h1 id="t2" class="lyrics-test">-The Forest That Weeps (Summer)-</h1>
+          <p class="lyrics-test-test">I am the mist in the morning<br>
+I am the moss in the ground<br>
+You are the light that cuts through the stone<br>
+<br>
+I am the worms in the dirt<br>
+I am the branches reaching the sky<br>
+You are the source, the orchestrator of life<br>
+<br>
+In the dark rain the grey mountains sing<br>
+A sad song of winter and the howling wind<br>
+Visions of the past in the haunting dreams<br>
+Under the dead sky, under the withered trees<br>
+<br>
+The night falls upon the forest that weeps<br>
+Father of shadows that forever sleeps<br>
+<br>
+I saw the lakes that shimmer<br>
+I heard the clanging of the wild rivers<br>
+You are the voice that carries throughout the land<br>
+<br>
+I felt the strength of my ancestors<br>
+As I walked through the land of the dead<br>
+You are the fire that burns forever<br>
+<br>
+In the dark rain the grey mountains sing<br>
+A sad song of winter and the howling wind<br>
+Visions of the past in the haunting dreams<br>
+Under the dead sky, under the withered trees<br>
+<br>
+The night falls upon the forest that weeps<br>
+Father of shadows that forever sleeps<br>
+<br>
+In the dark rain the grey mountains sing<br>
+A sad song of winter and the howling wind<br>
+Visions of the past in the haunting dreams<br>
+Under the dead sky, under the withered trees<br>
+<br>
+The night falls upon the forest that weeps<br>
+Father of shadows that forever sleeps
+</p>
+
+          <h1 id="t3" class="lyrics-test">-Eternal Darkness (Autumn)-</h1>
+          <p class="lyrics-test-test">[Part I Haunting Darkness]<br>
+<br>
+Haunting darkness forming inside of man<br>
+Calling to return the blood of the earth<br>
+Baleful shadows gathering under the blackened sky<br>
+Reversing the evolution of the forbidden birth<br>
+<br>
+Devastation of the hollow universe<br>
+Executed by wrath and absolute power<br>
+Completion of the perfect chaos<br>
+The pure destruction of stars<br>
+<br>
+I am the immortal shadow<br>
+The ruler of dark dimensions<br>
+Behold my crimson nightmare<br>
+I am the creator of sorrow<br>
+Tormentor in the restless night<br>
+I am the hunter of fear, the bringer of despair<br>
+I am death<br>
+I am eternal darkness<br>
+<br>
+[Part II The Call of the Dark Dream]<br>
+<br>
+Unleash the dark dream, the essence of deception<br>
+The fantasy of life will blind you like the flaming sun<br>
+The clash of the opposite worlds<br>
+The cosmic war of the unnatural state has begun<br>
+<br>
+Embrace the suffering and prepare for transcendent attack<br>
+Obliterate the memories and smother the past<br>
+And face the unknown! And face the unknown!<br>
+<br>
+Hear the call of the final journey<br>
+Hear the call!<br>
+Hear the call of the dark dream<br>
+Calling from across the stars of old<br>
+Hear the call!<br>
+Hear the call of the dark dream<br>
+<br>
+[Part III Beyond the Infinite Universe]<br>
+<br>
+Wandering among the stars... Searching...<br>
+Beyond the infinite universe...<br>
+Tearing down the structures...<br>
+But I can only see darkness...<br>
+<br>
+Caressed by the radiant ocean<br>
+Soaring high in the waves of sadness<br>
+Obsessed by the deepest emotions<br>
+Lost in the beautiful silence<br>
+Oh the beautiful silence!<br>
+<br>
+Fall!<br>
+Falling through the layers of mind<br>
+Fall!<br>
+As the world is crumbling before my eyes<br>
+Falling through the caustic vortex<br>
+And my heart is burning by the ultimate lie<br>
+The ultimate lie!<br>
+<br>
+[Part IV Death]<br>
+<br>
+There is no end<br>
+There is no beginning<br>
+There is no truth<br>
+There is only darkness<br>
+<br>
+And I curse you into oblivion!<br>
+<br>
+I curse you for fulfilling your every desire<br>
+I curse you for your wild and relentless inner fire<br>
+Curse you for your need to breed and multiply<br>
+Curse you for your consciousness<br>
+The feeble rebellion<br>
+The great illusion<br>
+The cosmic war<br>
+<br>
+I am the immortal shadow<br>
+The ruler of dark dimensions<br>
+Behold my crimson nightmare<br>
+I am the creator of sorrow<br>
+Tormentor in the restless night<br>
+I am the hunter of pain, the bringer of rain<br>
+I am death<br>
+I am eternal darkness<br>
+<br>
+I am eternal<br>
+I am death
+</p>
+
+          <h1 id="t4" class="lyrics-test">-Loneliness (Winter)-</h1>
+          <p class="lyrics-test-test">Once I saw the light in your eyes<br>
+But nothing will be any longer the way I remember<br>
+I've become someone else and I can't go back, I tried<br>
+I'm lost in the fields of snow far from home<br>
+<br>
+Follow the coast under the frozen sky<br>
+With a growing sorrow in weary eyes<br>
+Swallow the ghost of the lucid dream<br>
+And silent will be the mournful sea<br>
+<br>
+The sands of life covered in white<br>
+From the darkest nights to the blinding light<br>
+I almost reached home, I was so close<br>
+But to be left alone is what hurts the most<br>
+<br>
+Am I the only one awake<br>
+Am I the one who is fading away<br>
+There was so much I wanted to say<br>
+Do I have a reason anymore to stay<br>
+<br>
+Washed away by the morning sun<br>
+Hear the howling call from the other side<br>
+And so much was left undone<br>
+The weight of the world quietly crushed the dying light<br>
+Washed away by the frozen stars<br>
+Feel the burning coldness of the falling snow<br>
+And one day when everything is gone<br>
+The trail in the snow disappears, am I finally home
+</p>
+
+          <h1 id="t5" class="lyrics-test">-Loneliness (Winter) (Acoustic Version)-</h1>
+          <p class="lyrics-test-test">Once I saw the light in your eyes<br>
+But nothing will be any longer the way I remember<br>
+I've become someone else and I can't go back, I tried<br>
+I'm lost in the fields of snow far from home<br>
+<br>
+Follow the coast under the frozen sky<br>
+With a growing sorrow in weary eyes<br>
+Swallow the ghost of the lucid dream<br>
+And silent will be the haunting sea<br>
+<br>
+The sands of life covered in white<br>
+From the darkest nights to the blinding light<br>
+I almost reached home, I was so close<br>
+But to be left alone is what hurts the most<br>
+<br>
+Am I the only one awake<br>
+Am I the one who is fading away<br>
+There was so much I wanted to say<br>
+Do I have a reason anymore to stay<br>
+<br>
+Washed away by the morning sun<br>
+Hear the howling call from the other side<br>
+And so much was left undone<br>
+The weight of the world quietly crushed the dying light<br>
+Washed away by the frozen stars<br>
+Feel the burning coldness of the falling snow<br>
+And one day when everything is gone<br>
+The trail in the snow disappears, am I finally home</p>
+        </div>
+      </div>
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+      </div>
+
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+      </div>
+
+          <div class="page-finish">
+            <a href="./security.html">Security Statements</a>
+            <a href="./terms.html">Terms of Service</a>
+            <a href="./privacy.html">Privacy Policy</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+
+      </body>
+      </html>

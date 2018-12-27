@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">The Royal</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/seven.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Seven - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Thunder</a>
+      <a href="#f2">Feeding Wolves</a>
+      <a href="#f3">Wildmind</a>
+      <a href="#f4">Creeds and the Vultures</a>
+      <a href="#f5">Counterculture</a>
+      <a href="#f6">Interlude</a>
+      <a href="#f7">Seven</a>
+      <a href="#f8">Life Breaker</a>
+      <a href="#f9">Thalassa</a>
+      <a href="#f10">Draining Veins</a>
+      <a href="#f11">Viridian</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/seven.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Seven - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Thunder-</h1>
+      <p class="lyrics-test-test">Black flags and bright minds<br>
+Fuel the fire in me<br>
+There is no running from this<br>
+With our hands up high we've watched as the world burned<br>
+<br>
+Take us to the gates<br>
+Let's bring and end to this endless suffering<br>
+Pick your battles, we are dead and recovering<br>
+<br>
+Dead and recovering<br>
+Embody flies to the flame<br>
+Sticks and stones<br>
+A maze of illusion<br>
+<br>
+Dead and recovering<br>
+Dead and recovering<br>
+<br>
+Ride the storm<br>
+Be death defiant<br>
+There's truth in honor and bliss<br>
+<br>
+Can't you see<br>
+We have none when the sun sets<br>
+Within the land of blistered tongues we reside<br>
+The house of the harvester<br>
+<br>
+Fear the untamed<br>
+For thunder is their game tonight<br>
+Shackles and chains<br>
+We are slaves to the light<br>
+<br>
+Tear out the heart<br>
+Rip the teeth from the beast<br>
+Erase the clouds that have conquered the masses<br>
+<br>
+Beneath a blood red sky<br>
+Cracks in the pavement<br>
+Dark days in our memory<br>
+<br>
+The bitter pills they gave me cries in the night<br>
+Lies so vile, infected reality<br>
+Behold the children of mischief<br>
+<br>
+Behold the children of mischief<br>
+<br>
+Fear the untamed<br>
+For thunder is their game tonight<br>
+Shackles and chains<br>
+We are slaves to the light<br>
+<br>
+Tear out the heart<br>
+Rip the teeth from the beast<br>
+Erase the clouds that have conquered the masses
+</p>
+
+      <h1 id="f2" class="lyrics-test">-Feeding Wolves-</h1>
+      <p class="lyrics-test-test">Take me out of the void!<br>
+<br>
+Trying to find my way out of this<br>
+So many directions<br>
+Only one way that will lead me out<br>
+The angels and demons are misleading me<br>
+<br>
+I'm stuck in this maze<br>
+Sight so blurry I can't follow the lines<br>
+Stuck in a maze<br>
+Backtrack the steps I've made<br>
+<br>
+I will find my way back home<br>
+<br>
+Veiled to the blind mind<br>
+I'm buried deep in the ground<br>
+They call me judge to the seminar<br>
+<br>
+Reigning from the heart I will resolve<br>
+Feeding the wolves<br>
+<br>
+Veiled to the blind mind<br>
+I'm buried deep in the ground<br>
+They call me judge to the seminar<br>
+<br>
+Reigning from the heart I will resolve<br>
+Feeding the wolves<br>
+<br>
+I will find my way back home<br>
+Veiled to the blind mind<br>
+I'm buried deep in the ground<br>
+They call me judge to the seminar<br>
+<br>
+Reigning from the heart I will resolve<br>
+Feeding the wolves<br>
+<br>
+Show me the way<br>
+Guide me through this judgement<br>
+My mind is clouded<br>
+Free me from the voices and visions<br>
+Haunting in my head<br>
+<br>
+Please stop me, please stop me<br>
+I'm falling<br>
+<br>
+Despite the fact that I feel like the owner of my own in this place<br>
+Conqueror of my fears in this broken reality<br>
+This is where my soul flies, this is where my soul flies<br>
+This is where my soul flies<br>
+<br>
+Defeat my inner demon there's no time to lose<br>
+But what if this was my only way out?<br>
+Because now it's the darkness that keeps me alive<br>
+<br>
+The perfect balance above the madness<br>
+<br>
+Purify me, purify me<br>
+<br>
+I will find my way back home<br>
+<br>
+Veiled to the blind mind<br>
+I'm buried deep in the ground<br>
+They call me judge to the seminar<br>
+<br>
+Reigning from the heart I will resolve<br>
+Feeding the wolves<br>
+<br>
+Veiled to the blind mind<br>
+I'm buried deep in the ground<br>
+They call me judge to the seminar<br>
+<br>
+Reigning from the heart I will resolve<br>
+Feeding the wolves<br>
+<br>
+I will follow my heart<br>
+For this will be my salvation<br>
+Beat by beat<br>
+I will find my way back home</p>
+
+      <h1 id="f3" class="lyrics-test">-Wildmind-</h1>
+      <p class="lyrics-test-test">Now, there is too much<br>
+light outside for those with hazy eyes.<br>
+Stare in to the past and crawl with in suspended time.<br>
+Ghosts in the mirror, send them back from whence they came.<br>
+Digging graves to comply, your heedless suicide.<br><br>
+Blame to justify, being a traitor to yourself.<br>
+This is an anthem to your name.<br>
+Bleeding out but I'm alive.<br>
+In the name of the selfless.<br><br>
+Aim for their mark.<br>
+Pray for the helpless.<br>
+Back from the dark.<br>
+Bury your dead in vain.<br>
+But light the fire within.<br>
+We drink the blood of our enemies.<br>
+Losing grip of any chance for us to save our sight.<br>
+Seconds to the end,<br><br>
+will we bow down or break the ties.<br>
+Changing course, set your goals,<br>
+we're here to take the dive.<br>
+Crashing waves, burning piles,<br>
+brace yourself or will you.<br>
+Blame to justify, being a traitor to yourself.<br>
+This is an anthem to your name.<br><br>
+Bleeding out but I'm a victim to mind control.<br>
+In the name of the selfless.<br>
+Aim for their mark.<br>
+Pray for the helpless.<br>
+Back from the dark.<br>
+Bury your dead in vain.<br>
+But light the fire within.<br><br>
+We drink the blood of our enemies.<br>
+Prove yourself, this is our dome.<br>
+Against the grain and the unforgiving.<br>
+Let your name ring out my friend.<br>
+We are the essence of innocence.<br>
+Enter the fields of gold.</p>
+
+      <h1 id="f4" class="lyrics-test">-Creeds and the Vultures-</h1>
+      <p class="lyrics-test-test">Lost in a distorted reality<br>
+Where time seems to be obsolete<br>
+Stuck in a world<br>
+Formed by broken dreams and twisted minds<br>
+A place for memories to leave behind<br>
+<br>
+I am the flame that burns through the storm<br>
+<br>
+I am the flame that burns through the storm<br>
+The time has come for those who hold on<br>
+Break free from the swarm<br>
+The course has been set for you to come home<br>
+<br>
+Breath in the fire<br>
+We fight to survive<br>
+Eyes see red but we will realize<br>
+<br>
+We're gold in the iris<br>
+Creeds and the vultures write<br>
+Chapters are filled with their blood<br>
+<br>
+I believe, I believe<br>
+There is a purpose to all of this<br>
+<br>
+I believe, I believe<br>
+There is rest for the weary<br>
+But when the hammer strikes<br>
+There is fear for the best of us<br>
+<br>
+Breath in the fire<br>
+We fight to survive<br>
+Eyes see red but we will realize<br>
+<br>
+We're gold in the iris<br>
+Creeds and the vultures write<br>
+Chapters are filled with their blood<br>
+<br>
+Breath in the fire<br>
+We fight to survive<br>
+Eyes see red but we will realize<br>
+<br>
+We're gold in the iris<br>
+Creeds and the vultures write<br>
+Chapters are filled with their blood<br>
+<br>
+This song is for the lost ones<br>
+Out of sight but not forgotten<br>
+This song is for the broken<br>
+To stand strong and start over<br>
+<br>
+This song is for the ones who can't see<br>
+Allow this melody to set you free<br>
+Together we will overcome and face reality<br>
+<br>
+This song is for the lost ones<br>
+Out of sight but not forgotten<br>
+This song is for the broken<br>
+To stand strong and start over<br>
+<br>
+This song is for the ones who can't see<br>
+Allow this melody to set you free<br>
+Together we will overcome and face reality
+</p>
+
+      <h1 id="f5" class="lyrics-test">-Counterculture-</h1>
+      <p class="lyrics-test-test">Brace yourselves<br>
+A man made disaster is coming<br>
+Closer and closer<br>
+<br>
+We trapped ourselves<br>
+Yet we refuse to believe<br>
+We grew fond of this pitfall<br>
+<br>
+Our protection is slowly crumbling down<br>
+While we sit down and wonder<br>
+We ignore the signs<br>
+<br>
+We hold the power to change the course of history<br>
+But we're unable to see<br>
+<br>
+Put your faith in denial<br>
+But if we sink, we will sink together<br>
+We are addicted to poison<br>
+Still we bleed and we still bleed together<br>
+Until our final breath<br>
+<br>
+Martyrs to murderers<br>
+Lead the infected to their graves<br>
+For they have suffered enough<br>
+<br>
+It's the blind men versus the deaf<br>
+Fighting a never ending battle<br>
+Our time is running out<br>
+<br>
+Put your faith in denial<br>
+But if we sink, we will sink together<br>
+We are addicted to poison<br>
+Still we bleed and we still bleed together<br>
+Until our final breath<br>
+<br>
+Our final breath<br>
+<br>
+What have we done<br>
+We are reaching a tipping point<br>
+What have we done<br>
+We turned our home into a living hell</p>
+
+      <h1 id="f6" class="lyrics-test">-Interlude-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f7" class="lyrics-test">-Seven-</h1>
+      <p class="lyrics-test-test">Back to the turning point<br>
+I wear my heart on my sleeve<br>
+Saved from judgement with a noose for my neck<br>
+They praise the champions of habit and wish death upon refugees<br>
+Only the soulless remain after the cleansing and wrath<br>
+After the cleansing and wrath<br>
+<br>
+Fly with your own kind<br>
+We all have something to prove<br>
+But there are few who dare to live<br>
+From the inside out<br>
+Fake conceptions challenge our reality<br>
+<br>
+Question your reality<br>
+<br>
+Beyond the boundaries that caged me<br>
+Behind the skyline of death<br>
+Within our reach yet so distant<br>
+Confront normality<br>
+<br>
+I've spent my days in the gutter<br>
+Trying to find myself beneath the bricks of my sanity<br>
+Between our shelter and shame lies a pathway that takes us home<br>
+<br>
+Fly with your own kind<br>
+We all have something to prove<br>
+But there are few who dare to live<br>
+From the inside out<br>
+Fake conceptions challenge our reality</p>
+
+      <h1 id="f8" class="lyrics-test">-Life Breaker-</h1>
+      <p class="lyrics-test-test">Silence will be forced upon the ignorant<br>
+For they are helpless<br>
+To understand the truth of life<br>
+<br>
+The time has come to stand up<br>
+And show them what is right<br>
+<br>
+Life breaker, face the storm that you've caused<br>
+To all you hollow minded<br>
+Fuck you, we all are the same<br>
+<br>
+We all are the same<br>
+<br>
+I am fearless<br>
+I will be the change<br>
+I can hear them calling<br>
+For they are chanting my name<br>
+We are fearless<br>
+We will be the change<br>
+<br>
+Our battle cries will be heard<br>
+For we are all the same<br>
+Our strength comes from the heart<br>
+We hold the foundation of agony<br>
+<br>
+Our pathways crossed one another<br>
+To discover and recover the cracks in the pavement<br>
+<br>
+Proudly we ill show them the march of the damned<br>
+For them to witness the strength of the pack<br>
+<br>
+We will stand tall<br>
+To watch them fall<br>
+Mark my words<br>
+This is the end of it all<br>
+<br>
+Life breaker<br>
+Step into the light<br>
+This is your last call<br>
+To break free and unite<br>
+<br>
+An eye for an eye<br>
+Will leave us all blind<br>
+Love is the cure<br>
+So rewind to rewrite your life</p>
+
+      <h1 id="f9" class="lyrics-test">-Thalassa-</h1>
+      <p class="lyrics-test-test">Imprisoned in a vicious cycle<br>
+Is this where your heart lies<br>
+Surrounded by four walls<br>
+That shrink from time to time<br>
+<br>
+We are slaves, we are slaves<br>
+We're all slaves from rise 'til dawn<br>
+<br>
+Many battles were fought<br>
+Some won, some lost<br>
+Do you even realize what you are fighting for<br>
+Afraid to lose, so we follow their command<br>
+Without knowing their intentions<br>
+<br>
+Stop, and take your time to evaluate<br>
+Question the present moment<br>
+Ask yourself, are you made for this<br>
+A decision that can make or break<br>
+Our strength is limitless<br>
+<br>
+Drop the weight of the world<br>
+<br>
+Find your voice in this saturated world<br>
+Don't let fear cast aside your dreams<br>
+Sacrifice to ride with the wind<br>
+<br>
+The ones who doubted you will see<br>
+That we all hold the strength to<br>
+Break free, break free<br>
+We hold the strength to break free<br>
+<br>
+We spread our wings to reach the unknown<br>
+And with our hands we can realize<br>
+Our hopes and dreams<br>
+Towards a new frontier<br>
+<br>
+Stop, and take your time to evaluate<br>
+Question the present moment<br>
+Ask yourself, are you made for this<br>
+A decision that can make or break<br>
+Our strength is limitless<br>
+<br>
+We are designed to be around each other<br>
+To learn and provide our knowledge<br>
+There are endless possibilities<br>
+But we're still moving into one direction<br>
+<br>
+Find your voice in this saturated world<br>
+Don't let fear cast aside your dreams<br>
+Sacrifice to ride with the wind<br>
+<br>
+The ones who doubted you will see<br>
+That we all hold the strength to<br>
+Break free, break free<br>
+We hold the strength to break free</p>
+
+      <h1 id="f10" class="lyrics-test">-Draining Veins-</h1>
+      <p class="lyrics-test-test">Distant<br>
+With a mouth so dry<br>
+I look for water but I am roaming in dry land<br>
+When the sun burns the dirt<br>
+I'm facing blistering silence without remedy<br>
+<br>
+Heartless<br>
+We are drifting through life<br>
+Like a sinking ship we will sail 'til the end<br>
+Restored the fractures<br>
+But we are unable to reach the promised land<br>
+<br>
+Dead men walk<br>
+Between the lines of the path that's laid down for us<br>
+Value fuels apathy<br>
+Never enough<br>
+They gave us hope to move forward<br>
+But we are taking two steps back<br>
+<br>
+Forever we stay broken<br>
+Wasting our time chasing an illusion<br>
+To provide and uphold<br>
+The leaders of the free world<br>
+<br>
+He who holds the power<br>
+Controls the game<br>
+Empty minds will fill the streets<br>
+With blurry eyes we stare into the dark<br>
+<br>
+We are the walking dead<br>
+We are the walking dead<br>
+<br>
+Forever we stay broken<br>
+Wasting our time chasing an illusion<br>
+To provide and uphold<br>
+The leaders of the free world<br>
+<br>
+He who holds the power<br>
+Controls the game<br>
+Empty minds will fill the streets<br>
+With blurry eyes we stare into the dark<br>
+<br>
+We knew it all along<br>
+But we'll never listen<br>
+To those who speak the truth<br>
+For we are dead and gone<br>
+<br>
+We knew it all along but we'll never listen</p>
+
+      <h1 id="f11" class="lyrics-test">-Viridian-</h1>
+      <p class="lyrics-test-test">Light up the beacons<br>
+The battle has been won<br>
+Step back<br>
+Take a breath<br>
+It's not a dream<br>
+Our time is now<br>
+<br>
+Bliss for the taking<br>
+We have arrived<br>
+United we stand<br>
+As one we will survive<br>
+<br>
+We will survive<br>
+<br>
+We are awakened<br>
+By vivid lights behind the darkest clouds<br>
+Embrace the warmth<br>
+Breath the fire<br>
+Trigger their hearts to burn as bright like the sun<br>
+Nothing can stop us now<br>
+Not even the rain can bring us down<br>
+<br>
+I feel the air in my lungs again<br>
+As the sunlight engulfs me<br>
+Stronger through struggle<br>
+We keep fighting for a better 'cause<br>
+This is serenity<br>
+<br>
+I turn my back to those who sow impurity<br>
+For they are not worth my time<br>
+Day after day you seek and destroy<br>
+But you will never break me<br>
+Never break me<br>
+<br>
+I feel the air in my lungs again<br>
+As the sunlight engulfs me<br>
+Stronger through struggle<br>
+We keep fighting for a better 'cause<br>
+This is serenity<br>
+<br>
+We will survive<br>
+<br>
+Fight for a change in life<br>
+Don't let your dreams fade away<br>
+Our time is finite<br>
+Move towards a different demeanor<br>
+Restore your concept and don't go astray<br>
+<br>
+Don't fly against the wind<br>
+Your wings are not made for this<br>
+Learn to observe and reflect<br>
+To obtain the wisdom of life<br>
+<br>
+Don't fly against the wind<br>
+Your wings are not made for this<br>
+Learn to observe and reflect<br>
+To obtain the wisdom of life</p>
+    </div>
+  </div>
+  <div class="lyrics-under">
+  <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+  </div>
+
+  <div class="lyrics-under">
+  <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+  </div>
+
+      <div class="page-finish">
+        <a href="./security.html">Security Statements</a>
+        <a href="./terms.html">Terms of Service</a>
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+
+  </body>
+  </html>

@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Enterprise Earth</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/patient0.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Patient Ø - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Shallow Breath</a>
+      <a href="#f2">Theophany</a>
+      <a href="#f3">Hollow Face</a>
+      <a href="#f4">Amid Vultures</a>
+      <a href="#f5">Porcelain Whore</a>
+      <a href="#f6">Kiss Of The Recluse</a>
+      <a href="#f7">Sus Cibum</a>
+      <a href="#f8">Transorbital Awakening</a>
+      <a href="#f9">Patient Zero</a>
+      <a href="#f10">Amorphous</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/embodiment.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Embodiment - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Shroud Of Flesh</a>
+      <a href="#s2">Mortem Incarnatum</a>
+      <a href="#s3">Temptress</a>
+      <a href="#s4">Never Forgive, Never Forget</a>
+      <a href="#s5">The Draconian Oculus</a>
+      <a href="#s6">Serpentiform</a>
+      <a href="#s7">Black Earth</a>
+      <a href="#s8">Embrace The Ashes</a>
+      <a href="#s9">Empty Sockets</a>
+      <a href="#f10">Deflesh To Unveil</a>
+      <a href="#s11">Father Of Abortion</a>
+      <a href="#s12">Cruciform</a>
+      <a href="#s13">Deathwind</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/patient0.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Patient Ø - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Shallow Breath-</h1>
+      <p class="lyrics-test-test">I've been watching your progress<br>
+You wouldn't know because I'm on the other side of the mirror<br>
+Observing you as you paint your reflection<br>
+<br>
+Have you ever felt my touch as you sleep?<br>
+Or hear the sound of my footsteps as the floorboards creek?<br>
+Do you feel alone or do you feel like something is there?<br>
+It wasn't the wind that caressed your hair<br>
+<br>
+You can lie to yourself but you can't lie to me<br>
+As I look through the glass all your thoughts can be seen<br>
+When you bow your head at night and bleed into a prayer<br>
+I am the only one who can hear<br>
+So close yet so far<br><br>
+
+I've been watching your progress<br>
+You wouldn't know because I'm on the other side of the mirror<br>
+Observing you as you paint your reflection<br><br>
+
+You can lie to yourself but you can't lie to me<br>
+As I look through the glass all your thoughts can be seen<br>
+When you bow your head at night and bleed into a prayer<br>
+I am the only one who can hear<br>
+You are not alone<br><br>
+
+Hold your breath on the way down<br>
+With every shallow breath you begin to drown<br>
+Swallow the blood, swim for air</p>
+
+      <h1 id="f2" class="lyrics-test">-Theophany-</h1>
+      <p class="lyrics-test-test">Go!<br>
+<br>
+Reality is shedding her skin,<br>
+slipping out of her dress with a sadistic grin<br>
+Feet flat on the floor,<br>
+clawing at the rusted hinges of the door<br>
+Pitch black eyes, baptized in flies, ordained to suffer<br>
+<br>
+The deceased lay scattered across the pavement,<br>
+their rotting flesh drips off their splintered bones<br>
+Decomposing smiles light up the room, allowing the maggots to bloom<br>
+Slithering up my spine, my veins are turning black<br>
+Death stares me in the eyes and tells me my life was a lie<br>
+<br>
+Manifesting before me,<br>
+materializing in front of my eyes,<br>
+the omnipresent God<br>
+<br>
+We are legion,<br>
+for we are many<br>
+We are legion,<br>
+for we are the true voice of God<br>
+<br>
+Reality is shedding her skin,<br>
+slipping out of her dress with a sadistic grin<br>
+Feet flat on the floor,<br>
+clawing at the rusted hinges of the door<br>
+I dip my finger in a skull full of blood,<br>
+scribing the words of lord across the wall<br>
+Holy scriptures adorned in the essence<br>
+of death to be reborn and given breath<br>
+You will be reborn and given breath<br>
+<br>
+Emanating from darkness, in darkness is truth<br>
+You will find your forgiveness hanging<br>
+from the end of your bed sheet noose<br>
+<br>
+Kick the chair, say a prayer,<br>
+let him know of your despair<br>
+In the end god never cared,<br>
+how does it feel to be forsaken?</p>
+
+      <h1 id="f3" class="lyrics-test">-Hollow Face-</h1>
+      <p class="lyrics-test-test">Staring at myself from the outside,<br>
+looking in.<br>
+A black widow crawls out of my mouth and down my bloody chin.<br>
+I am suspended with bed sheets constricting my throat.<br>
+Hanging from the bars in the window, watching myself decompose.<br><br>
+Perception without confinement, distorted interpretations.<br>
+Washed away by the blood that runs from my flesh,<br>
+a vision of death.<br><br>
+What I saw through the eyes of my flesh,<br>
+just a glimpse of what lies beneath the surface.<br>
+I can see through the blindfold,<br>
+shedding light on the lies that my eyes told.<br>
+Death embraces me tighter than my life ever did,<br>
+cradling my weary soul.<br>
+Filling the void, filling the hole.<br><br>
+I always had that feeling in the back of my head,<br>
+the feeling that I would be better off dead.<br>
+No home, nowhere to go, only an empty world to roam.<br>
+So desolate and cold, I am alone.<br>
+Bloated and rotting, the rats feed on my flesh.<br>
+To them I leave my inheritance.<br>
+They digest and shit me out,<br>
+returning my flesh to the earth.<br>
+Returning my flesh to the earth,<br>
+bloated and rotting.</p>
+
+      <h1 id="f4" class="lyrics-test">-Amid Vultures-</h1>
+      <p class="lyrics-test-test">I kneel by the bedside and bow my head,<br>
+murmuring a prayer in dread.<br>
+Either there is no god or god is dead,<br>
+was this all part of the plan?<br>
+To leave me here, amid the vultures?<br>
+Picking out the eyes of a broken man?<br>
+They think they're better than me,<br>
+so afraid of heresy.<br><br>
+Eradicating every divergent strand until<br>
+they come together and make a stand.<br>
+We stand on the earth divided,<br>
+we cannot resist, we cannot fight it.<br>
+Guided by the light of desire.<br>
+We cannot resist, we cannot fight it.<br>
+The vultures perch on my chest,<br>
+tearing my flesh, using my bones to make a nest.<br>
+They think that they follow a leader,<br>
+on their knees, sucking the dick of the reaper.<br><br>
+Feeding them lies as he shoots his load into their eyes.<br>
+They’re always begging for more,<br>
+slurping up the cum like worthless whores.<br>
+Guided by the light of desire,<br>
+fearing the kiss of a corrosive fire.<br>
+Rip out my tainted eyes,<br>
+feed upon my skin.<br>
+Regurgitate my flesh into your children's mouths,<br>
+regurgitate my flesh.<br>
+I'm the food for the new generation,<br>
+the new generation.
+
+</p>
+
+      <h1 id="f5" class="lyrics-test">-Porcelain Whore-</h1>
+      <p class="lyrics-test-test">[feat. Dickie Allen of Abiotic]<br>
+<br>
+A porcelain replica,<br>
+a manufactured mask plastered on your hollow skull.<br>
+There's nothing left anymore,<br><br>
+replicating at a rapid rate.<br>
+Herding together at your masters feet.<br>
+Licking the crumbs off the floor,<br>
+worshiping the porcelain whore.<br>
+You perceive the world as it's played out to be,<br>
+a preconceived showcase of reality.<br>
+Hypnotized by the lies that drown out the truth,<br>
+parents still think that they're raising the youth.<br>
+Mesmerized by the flies digesting decay,<br>
+consuming the light of day.<br><br>
+You will never be beautiful,<br><br>
+you will never be beautiful to me. What a disgrace.<br>
+They perceive the world as it's played out to be,<br>
+a preconceived showcase of reality.<br>
+Worship the porcelain whore,<br>
+rotting and spreading like spores,<br>
+sending the children into wars.<br><br>
+Hypnotized by the lies that drown out the truth,<br>
+parents still think that they're raising the youth.<br>
+Mesmerized by the flies digesting decay,<br>
+consuming the light of day.<br><br>
+<br>
+Bow before me, the bellowing beast.<br>
+Arise and worship, I the porcelain whore<br>.
+Your artificial idol in this materialistic society.<br>
+A nation of confusion,<br>
+overwhelmed in narcissistic decomposition.</p>
+
+      <h1 id="f6" class="lyrics-test">-Kiss Of The Recluse-</h1>
+      <p class="lyrics-test-test">Standing in the rain,<br>
+pushing through the crowd.<br>
+Watching them scrape up pieces of your brain<br>
+A world without you will never be the same.<br>
+You left the pain behind<br>
+Memories of you playing in my mind.<br>
+Your body will rot<br>
+Pretending you're asleep beneath the earth,<br>
+buried in a pretty box as if your corpse had any worth<br>
+They call it the coward’s way out,<br>
+I call it courage<br>
+Lifting up the sheet for the coroner,<br>
+I can't recognize you anymore<br>
+But I still think that you're gorgeous,<br>
+I still think that you're gorgeous<br>
+Your reconstructed face.<br>
+Pity, such beauty went to a putrid waste<br>
+The smell of death fuming from your rotting mouth<br>
+The tracks of stitches running underneath your blouse<br>
+I hope that you're watching this<br><br>
+as I give you one last kiss farewell,<br>
+we’ll meet again in hell<br>
+No matter how deep you fall,<br>
+I will hear your call.<br>
+Nothing can stand between us nothing at all<br>
+Burning slowly forever,<br>
+at least we're together,<br>
+hold my hand and close your eyes<br>
+Don't be afraid, everyone dies,<br><br>
+your body will rot<br>
+Pretending you're asleep beneath the earth,<br>
+buried in a pretty box as if your corpse had any worth<br>
+They call it the coward’s way out,<br>
+I call it courage<br>
+
+<br>
+I still think you're gorgeous,<br>
+the amber flames lick your tortured face. Our bodies melt<br>
+I still think you're gorgeous,<br>
+the amber flames lick your tortured face<br>
+Our bodies melt, and then interlace</p>
+
+      <h1 id="f7" class="lyrics-test">-Sus Cibum-</h1>
+      <p class="lyrics-test-test">I peer through your eyes,<br>
+wearing your flesh as a disguise.<br>
+You can see too<br>
+You witness your life rotting through and through<br>
+Everyone around you sees you for what you appear to be<br>
+They don't see what lies beneath, they don't see me<br>
+I peer through your eyes,<br>
+wearing your flesh as a disguise.<br>
+You can see too<br>
+You witness your life rotting through and through,<br>
+I am the demon that lives inside you<br>
+I'm feeding on you,<br>
+devouring every aspect of your life.<br>
+Hell<br><br>
+I'm fucking your wife,<br><br>
+I'm fucking your wife as you cry in the corner<br>
+You won’t exist much longer.<br>
+Losing control, trapped in your head<br>
+Take your pills and tuck yourself into bed<br>
+When the time is right I will spread my blackened wings<br>
+The flies swarm into the room,<br>
+licking the cuts, healing the wounds<br>
+When I am strong enough I won't need you,<br>
+I won't need you<br>
+I'll grind you up so the pigs can eat you</p>
+
+      <h1 id="f8" class="lyrics-test">-Transorbital Awakening-</h1>
+      <p class="lyrics-test-test">[feat. Joel Omans of Rings Of Saturn]<br>
+<br>
+Your limbs are tied to the bed<br>
+An apparatus is crowned on your head<br>
+I turn the dial & your eyes roll back into your skull<br>
+<br>
+The electric current flows through the twisted wires<br>
+A pungent smell of burnt skin enters my nostrils<br>
+The convulsing begins<br>
+<br>
+You cry out for your mother<br>
+You cry out to God<br>
+I am your God now<br>
+<br>
+I peel back your eyelids then force my fingers in<br>
+Between your eyes & their sockets<br>
+<br>
+I shove them further<br>
+Driving them through the thin layer of bone<br>
+Perforating & severing your cerebral cortex<br>
+<br>
+Black & bruised<br>
+You are discharging oose<br>
+You can feel the pain even through your comatic state<br>
+Black & bruised<br>
+Discharging ooze<br>
+You finally open your bleeding eyes<br>
+<br>
+Transorbital awakening<br>
+<br>
+I transcend the physical barrier<br>
+My larvae hatch<br>
+Intertwining our sentience<br>
+<br>
+Deep inside your mind it resides<br>
+Peering through your eyes<br>
+You're it's new disguise<br>
+Swimming through your blood like a flood<br>
+It gains control<br>
+It devours you whole</p>
+
+      <h1 id="f9" class="lyrics-test">-Patient Zero-</h1>
+      <p class="lyrics-test-test">Your fear is what we feed on<br>
+We feast, until our insides are exposed<br>
+<br>
+Banished into darkness,<br>
+severed wings thrown in the fire<br>
+Torn from the back of a worthless liar,<br>
+worthless liar<br>
+You walk the earth with your head down in shame,<br>
+with no one else but yourself to blame<br><br>
+You can't remember the good but you remember the pain<br>
+Standing behind the mirror,<br><br>
+watching life bloom then wilt away<br>
+Desperately wishing that it would stay.<br>
+I know that you’re watching,<br>
+I know that you’re looking down<br>
+Don't underestimate me,<br>
+I will burn your kingdom to the ground<br><br>
+Banished into darkness,<br>
+severed wings thrown in the fire<br>
+Worthless liar,<br>
+I won't put up with this anymore<br>
+Told to stand in line,<br>
+told to walk among the blind,<br>
+only to find myself wanting more<br>
+I exhume into darkness,<br>
+embracing the shadows as my home<br>
+Devouring flesh,<br>
+chewing on the bone,<br>
+I will make my throne</p>
+
+      <h1 id="f10" class="lyrics-test">-Amorphous-</h1>
+      <p class="lyrics-test-test">[feat. Adam Warren of Oceano]<br>
+<br>
+I can hear them breathing<br>
+Snarling in my ear<br>
+They are guiding my hand as I press the scalpel against your skin<br>
+<br>
+I drag the blade down your chest<br>
+A perfect incision between your breasts<br>
+<br>
+I stretched out the skin<br>
+Then begin to separate<br>
+Your ribs with a hacksaw<br>
+<br>
+The amorphic creature lurk in the shadows<br>
+Watching my every move<br>
+Silhouettes portraying the gallows<br>
+Flickering in fluorescent lights<br>
+<br>
+Amorphic entities<br>
+Creatures of darkness<br>
+Reaching out from another dimension<br>
+Probing deeper into the physical realm<br>
+<br>
+I can hear them breathing<br>
+Snarling in my ear<br>
+They are guiding my hand as I turn the key<br>
+Unlocking a gateway to Hell<br>
+<br>
+Unholy glyphs burn deep in your forehead<br>
+Completing a sacred crest<br>
+Blackened shadows pierce you like arrows<br>
+Filling the void in your severed chest<br>
+<br>
+Stitch by stitch<br>
+I sew up the wound<br>
+Containing the darkness<br>
+That dwells within<br>
+<br>
+Unworldly we are true Gods restrained to covet the human flesh<br>
+Fear my touch<br>
+Sense my presence<br>
+<br>
+Relapse in obedience<br>
+Allow me to molest your psyche<br>
+Penetrating this shallow womb called a body<br>
+Embedded we are now one<br>
+Embedded we are</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/embodiment.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Embodiment - 2017</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Shroud Of Flesh-</h1>
+        <p class="lyrics-test-test">I descend upon the earth<br>
+in the radiant flames of a craft unknown.<br>
+Ripping through the atmosphere<br>
+spreading panic as the audio drones.<br>
+All my essence is imprisoned in the comet<br>
+as it impacts with blinding light.<br>
+Shattering through colossal structures.<br>
+Nothing gets out alive.<br>
+<br>
+I was sent to this earth to observe humanity.<br>
+To perceive the universe with the eyes of mortality.<br>
+<br>
+I shroud myself in flesh.<br>
+Existence is governed by death.<br>
+I shroud myself in flesh.<br>
+<br>
+I descend upon the earth<br>
+in the radiant flames of a craft unknown.<br>
+Ripping through the atmosphere<br>
+spreading panic as the audio drones.<br>
+All my essence is imprisoned in the comet<br>
+as it impacts with blinding light.<br>
+Shattering through colossal structures.<br>
+Nothing gets out alive.<br>
+<br>
+Generating a perfect clone. I am reborn.<br>
+A wolf in sheep skin undetected. I am reborn.<br>
+What they want to see is projected. I am reborn.<br>
+<br>
+I can feel everything.<br>
+I walk through the flames.<br>
+New sensations. I feel the pain.<br>
+<br>
+The smoke fills my lungs.<br>
+They're staring clueless, biting their tongues.<br>
+If they knew what lies beneath my skin<br>
+they'd know that the one they judge,<br>
+is the one who will judge them all in the end.<br>
+<br>
+I descend upon the earth<br>
+in the radiant flames of a craft unknown.<br>
+Ripping through the atmosphere<br>
+spreading panic as the audio drones.<br>
+All my essence is imprisoned in the comet<br>
+as it impacts with blinding light.<br>
+Shattering through colossal structures.<br>
+Nothing gets out alive.<br>
+<br>
+I shroud myself in flesh.<br>
+I shroud myself in flesh.<br>
+I shroud myself in flesh.
+</p>
+
+        <h1 id="s2" class="lyrics-test">-Mortem Incarnatum-</h1>
+        <p class="lyrics-test-test">I am the observer.<br>
+Mortum Incarnatum.<br>
+I look down upon the world perched on a rooftop.<br>
+The wind blows through my cloak.<br>
+I observe the world as it carries on,<br>
+feeding on the carrion.<br><br>
+The flesh of their own, the flesh of their brothers,<br>
+clenched in their hungry teeth.<br>
+Power and glory is what the people seek.<br><br>
+They can't think on their own,<br>
+yet they perceive like they are alone.<br>
+This kingdom isn't made of stone.<br>
+This kingdom is made of flesh and bone.<br><br>
+Built on the graves of those who have fallen before them.<br>
+Masses of slaves waging war on themselves<br>
+in the name of the conclave.<br><br>
+Murderers. Adulterers.<br>
+Betraying one another.<br>
+Brother turned against each other.</p>
+
+        <h1 id="s3" class="lyrics-test">-Temptress-</h1>
+        <p class="lyrics-test-test">Sadistic infatuation.<br>
+Too hard to resist temptation.<br>
+It makes me feel alive.<br>
+Without the pain I feel deprived.<br>
+<br>
+My flesh is weak.<br>
+Cursing your name through my broken teeth.<br>
+Everything that you stand for makes me sick to my stomach.<br>
+I tilt my head back and swallow the vomit.<br>
+Your pathetic lies shine through your eyes.<br>
+Mesmerized like a piece of shit that attracts the flies.<br>
+<br>
+I let you in.<br>
+You're so close I couldn't live without you.<br>
+The pain is pure, the pain is true.<br>
+You were always there even when the world turned it's back on me.<br><br>
+<br>
+Sadistic infatuation.<br>
+Too hard to resist temptation.<br>
+It makes me feel alive.<br>
+Without the pain I feel deprived.<br>
+<br><br>
+It makes me feel alive.<br>
+I can see my reflection in your watery eyes.<br>
+I can see what I am by the way you agonize.<br>
+I'll always be your piece of shit no matter how hard I fucking try.<br>
+<br>
+I will always be your piece of shit.<br>
+<br>
+I've been itching to let the animal out. Lose control.<br>
+He's been watching through the eye holes of the portrait on the wall.<br>
+I am him, he is me.<br>
+Without each other what would I be?<br>
+<br>
+Sadistic infatuation.<br>
+Too hard to resist temptation.<br>
+It makes me feel alive.<br>
+Without the pain I feel deprived.
+</p>
+
+        <h1 id="s4" class="lyrics-test">-Never Forgive, Never Forget-</h1>
+        <p class="lyrics-test-test">I've been living with the guilt for so long.<br>
+I lost you. What went wrong?<br>
+If I would of done something different,<br>
+maybe you'd still be here, but I didn't.<br>
+Never forgive, never forget.<br>
+I live with the guilt. I live with the pain.<br>
+Life will never be the same without you.<br><br>
+I'm trying not to lose hope. I'm still trying to cope.<br>
+Maybe if I would have done something different,<br>
+you wouldn't be dead, but you are.<br>
+I wish it could have taken me instead.<br>
+I'm alive and I live with the pain every single day.<br>
+I can never forgive myself.<br>
+Every day without you is fucking hell.<br>
+Never forgive, never forget.<br>
+When I think of you, I think of you as you are.<br>
+Maggots eating away at your flesh.<br>
+When I put my ear to your lips there was no breath.<br>
+You've been taken from me, taken by death.<br><br>
+Never forgive, never forget.</p>
+
+        <h1 id="s5" class="lyrics-test">-The Draconian Oculus-</h1>
+        <p class="lyrics-test-test">They think that I'm crazy.<br>
+I know that I'm not,<br>
+but their words keep coming back to haunt me.<br>
+A book falls off the shelf.<br>
+How can I trust myself?<br>
+When I'm alone I'm never by myself.<br>
+I flip through the pages.<br>
+Every word is sedating.<br>
+The hairs stand up on the back of my neck,<br>
+the words read "Your heart is black."<br>
+I've decayed on the inside,<br><br>
+poisoned by the judgment of man.<br>
+I can feel the nails hammered in my hand.<br>
+Crucified like swine, but the meat goes to waste,<br>
+because you can't stand the taste.<br>
+Internal war wages.<br>
+I bled these words on to the pages.<br>
+The hair stands up on the back of my neck.<br>
+The words read "Your heart is black."<br>
+I'm starting to believe it my self.<br><br>
+The voices in my head need to be bled.<br>
+After a while of hearing "You're insane,"<br>
+You start to doubt yourself and wonder if it's in your head.<br>
+Maybe I am.<br>
+I pull out the nails hammered in my hand.<br>
+You're all laughing now,<br>
+but in the end we'll see who's laughing,<br>
+when the judgment you pass is what destroys you all.<br><br>
+Maybe I am insane.<br>
+I'll be pushing up daisies.<br>
+I know that I'll rot.<br>
+I'll rot the man I am,<br>
+not the man that they want me to be.</p>
+
+        <h1 id="s6" class="lyrics-test">-Serpentiform-</h1>
+        <p class="lyrics-test-test">The moonlight creeps through the window,<br>
+slithering up the sheets like a serpent.<br>
+Illuminating the scars and the wounds,<br>
+reminding me that death is coming soon.<br><br>
+This flesh is weak. I collapse at the serpent's feet.<br>
+Transcending mortality. Materializing in front of me.<br>
+Composing a vision of death.<br>
+When I ascend from the depths of my flesh.<br>
+Walk through the valley of the shadow of death.<br>
+I will transcend through the barrier.<br>
+I will be the bringer of hysteria.<br>
+I've come to terms with my death.<br>
+I'll be leaving this world in a body bag.<br><br>
+No one will ever remember my name.<br>
+Everything I've built will collapse in the end.<br>
+No one will ever remember my name.</p>
+
+        <h1 id="s7" class="lyrics-test">-Black Earth-</h1>
+        <p class="lyrics-test-test">In this world your beliefs are what plague you all<br>
+Kill each other until one is left, the rest will fall<br>
+Until the unbelievers are dead these rivers will always run red<br>
+<br>
+War<br>
+Never ending war<br>
+Exterminate to eradicate<br>
+You must think alike<br>
+Carbon copies of one another<br>
+Kill each other<br>
+I live in a cesspool<br>
+The divergent hide<br>
+The self-righteous rule<br>
+<br>
+I live in a cesspool<br>
+Cold-hearted<br><br>
+Full of fear and lethargic<br>
+Sedate me<br>
+Shove it down my throat<br>
+Fill my lungs until I choke<br>
+Is this what you want me to be?<br>
+Hands tied behind my back<br>
+Obedience is what I always lacked<br>
+If I don't give in,<br>
+If I don't comply<br>
+They'll shit me out like the rest<br>
+Sentenced to die<br>
+Sedate me</p>
+
+        <h1 id="s8" class="lyrics-test">-Embrace The Ashes-</h1>
+        <p class="lyrics-test-test">I want to change the world<br>
+but I can't trapped in the body of a man.<br>
+I can't expect seven billion corpses to understand.<br>
+There's nothing left for me here.<br>
+Embrace the ashes of what you hold dear.<br><br>
+Everyone that I've ever loved turned to ravenous creatures.<br>
+Starving, hungry for blood.<br>
+They betrayed me in the end.<br>
+A Judas kiss placed on my cheek by my friends.<br>
+They were in it for themselves.<br><br>
+That's what makes this world a fucking hell.<br>
+The flames illuminate in the night,<br>
+burning ever so bright.<br><br>
+Embrace the ashes of what you hold dear.
+</p>
+
+        <h1 id="s9" class="lyrics-test">-Empty Sockets-</h1>
+        <p class="lyrics-test-test">I don't see what they see.<br>
+They see a world of love.<br>
+I see a world of hate.<br>
+Do you see what I see?<br>
+Do you see the blood?<br>
+Do you see your fate?<br>
+You live life with blood on your hands.<br>
+At the end of the day, you kneel down and you pray,<br>
+but never it washes off the stains.<br><br>
+You blame your sins on the devil,<br>
+but you're the only one to blame.<br>
+You and Satan are one in the same.<br>
+He exists so you can sleep at night.<br>
+Say your prayers, everything will be alright.<br>
+Tuck your children into bed.<br>
+God will forgive every spiteful thing you've ever said.<br>
+You never eat where you shit,<br>
+but when you open your mouth, you're fucking full of it.<br><br>
+You're fucking full of shit.<br>
+You judge me. Take a look in the mirror.<br>
+Is the image becoming clearer?<br>
+Look yourself in the eyes.<br>
+Look past the barrier of lies.<br>
+Do you see the devil in your eyes?<br>
+Do you see your fate?</p>
+
+        <h1 id="s10" class="lyrics-test">-Deflesh To Unveil-</h1>
+        <p class="lyrics-test-test">eneath my skin.<br>
+I feel the hatred that burns within.<br>
+Everything that I've ever loved has been taken from me again.<br>
+I can never forgive this world.<br>
+Not until it gives me what I am owed.<br>
+I walk through this world alone.<br>
+Scars so deep they run straight to the bone.<br>
+This flesh is weak.<br><br>
+Serrated teeth cut through my skin to see what's underneath.<br>
+Unleash the hatred.<br>
+I won't let this life be wasted.<br>
+Sitting back while the world crushes me under it's weight.<br>
+Letting the fear I have control my destiny.<br>
+I won't the victim. I won't be the coward.<br>
+I won't hesitate to destroy you in my final hour.<br><br>
+I'm sick o bearing the weight on my shoulders,<br>
+waiting for something to change.<br>
+To no avail, it always remains the same.<br>
+I am the only one I can blame.<br>
+I am the only one who can change.<br>
+I won't be the victim.<br>
+I won't be the coward.<br>
+I won't hesitate to destroy you in my final hour.<br><br>
+I won't hesitate to destroy you in my final hour.<br><br>
+This earth belongs to me.<br>
+Nothing can stop me.<br>
+Decay and erosion.<br>
+I am the omen.</p>
+
+        <h1 id="s11" class="lyrics-test">-Father Of Abortion-</h1>
+        <p class="lyrics-test-test">Father, forgive them<br>
+They know not what they do<br>
+If I told you I don't want revenge<br>
+This wouldn't be true<br>
+As I hang from my cross<br>
+I see the hate in their eyes<br>
+These children are lost<br><br>
+Abort the bastards<br>
+Ignore their cries<br>
+There is no hope for a world inhabited by humanity<br>
+They rule with insanity<br>
+They are a plague wasting away<br>
+At our integrity of this sacred Earth<br>
+Father of abortion, destroy this perversion<br>
+Erase what you have conceived<br>
+This is the world that I perceive<br>
+Father, forgive them<br>
+They know not what they do<br>
+If I told you I don't want revenge<br>
+This wouldn't be true<br>
+Smite them, invite them to hang on the cross<br>
+With me beneath the blackened sky<br>
+Ignore their desperate criesv<br><br>
+Father of abortion destroy this perversion<br>
+Erase what you have conceived<br>
+This is what I perceive<br>
+You gave birth to a mistake<br>
+You breathed into their lungs<br>
+And they mocked you with their deceitful tongues<br>
+Creation<br>
+Abort this debauched creation</p>
+
+        <h1 id="s12" class="lyrics-test">-Cruciform-</h1>
+        <p class="lyrics-test-test">I spend my last day on earth enjoying the<br>
+last bit of beauty it has to offer.<br>
+Sitting in the sunlight as the<br>
+final nails are hammered into my coffin.<br>
+I accept my fate of damnation.<br>
+I await it with anticipation.<br><br>
+The crows perch on the trees above,<br>
+as if they could preconceive the spilling of my blood.<br>
+When I look into their faces.<br>
+I see the empty spaces.<br>
+The crows tore out their eyes.<br>
+Torn out before they could die.<br>
+My father had prepared a place for me.<br>
+Nailed to the wood of a rotting tree.<br><br>
+Placed upon my head. A crown of thorns.<br>
+All hail the king of the dead.<br>
+The fury of god strikes down upon the earth.<br>
+Marking the beginning of the planet's rebirth.</p>
+
+        <h1 id="s13" class="lyrics-test">-Deathwind-</h1>
+        <p class="lyrics-test-test">My flesh melts and drips off the bone,<br>
+de-fleshing the side of me that I have never shown.<br>
+Now you will know what I truly am.<br>
+I'm not the man I say I am.<br>
+For when I die my body transcends,<br>
+with the breath of the wind.<br><br>
+My ashes spread like the plague that I am.<br>
+I ignite the world in fire and sulfur,<br>
+in the names of all those who suffer.<br>
+Forged in the flames of damnation.<br>
+My gifts of demise is your salvation.<br>
+I welcome you to oblivion. You are not alone.<br><br>
+Beneath the piles of scorched<br>
+flesh and fragmented bones,<br>
+new life is seeded.<br>
+New life grows.<br><br>
+Fertilized by the carbonized waste,<br>
+growing through the skulls. New life is embraced.<br>
+Fear not the unknown.<br>
+The depths of nothingness in which you are thrown.<br>
+You are not alone.<br>
+Before it gets better, it always gets worse.<br>
+This is the way of the universe.<br>
+Everyday is a new day.<br><br>
+Transcending flesh. Transcending my skin like a serpent.<br>
+Death reigns from the sky on the culprit.<br>
+Burning in the fire you call out my name.<br>
+Withering into dust.<br>
+Boiling blood.<br>
+I am smiling from above.</p>
+      </div>
+    </div>
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+    </div>
+
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+    </div>
+
+        <div class="page-finish">
+          <a href="./security.html">Security Statements</a>
+          <a href="./terms.html">Terms of Service</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+
+    </body>
+    </html>

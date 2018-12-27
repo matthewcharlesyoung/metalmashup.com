@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Dissimulator</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/factions.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Factions - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">The Derelict</a>
+      <a href="#f2">Like Father, Like Son</a>
+      <a href="#f3">I Was Born With A Gun To My Head</a>
+      <a href="#f4">Butchered</a>
+      <a href="#f5">The Catalyst</a>
+      <a href="#f6">Crushed To Ashes (Interlude)</a>
+      <a href="#f7">Tale Of A Demon</a>
+      <a href="#f8">Forgotten Home</a>
+      <a href="#f9">Teeth Of The Shark</a>
+      <a href="#f10">The Descent</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/thisisdark.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">This Is Darkness - 2014</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">/Snāk/</a>
+      <a href="#s2">Death For The Dead</a>
+      <a href="#s3">Stray From The Lepers</a>
+      <a href="#s4">This Is Darkness</a>
+      <a href="#s5">Shadows</a>
+      <a href="#s6">Orphans</a>
+      <a href="#s7">The Day Satan Fell</a>
+      <a href="#s8">Killing Time</a>
+      <a href="#s9">Sycophant</a>
+      <a href="#f10">Thy Kingdom Come</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/factions.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Factions - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-The Derelict-</h1>
+      <p class="lyrics-test-test">You’ve lulled yourself into complacency<br>
+But the safety you feel is all in your head<br>
+<br>
+Step down from your pulpit<br>
+Look and see the generation that you’ve left for dead<br>
+Look and see the generation that you’ve left for dead<br>
+<br>
+Tear the veil from your eyes<br>
+And see that this is a war of attrition<br>
+No Father, tear the veil from their eyes<br>
+Give me strength to light the flame that<br>
+Will burn their world<br>
+(Tear the veil from your eyes, and you<br>
+will see the generation you have left for dead,<br>
+you have chosen to sit and watch from the sidelines,<br>
+you have forsaken your purpose.<br>
+Everywhere I turn, my brothers,<br>
+my sisters, all your children have closed their eyes,<br>
+they have lost their focus,<br>
+their hearts have grown cold,<br>
+just say the word and I will light the flame that will burn their world)<br>
+<br>
+You have fought the battle and bear the scars<br>
+And they turned you away cause you’re dangerous<br>
+But look around, you are not alone<br>
+You have fought the battles and bear the scars<br>
+And they turned you away because you’re dangerous<br>
+But look around, you are not alone<br>
+We will live forever!<br>
+Too many times have I seen someone come to you for guidance<br>
+Only to find a congregation who have turned their backs<br>
+Have you forgotten it’s not your place to turn his children away?<br>
+You cast judgment on the scars that mark them<br>
+<br>
+YOU WILL BURN<br>
+<br>
+Father, everywhere I turn, your people have closed their eyes</p>
+
+      <h1 id="f2" class="lyrics-test">-Like Father, Like Son-</h1>
+      <p class="lyrics-test-test">As I grasp onto your arm, I only look for acceptance and love<br>
+My heart is calling out to feel the warmth of my father (my father)<br>
+Is it too much to ask for you to wake up?<br>
+These scars on my face only remind me we live in a broken world<br>
+We live in a broken world<br>
+<br>
+You threaten me with everything in your reach<br>
+Can’t you see how pathetic you are?<br>
+You spit in my face and you call me trash<br>
+I look into your eyes and see nothing but anger<br>
+I look into your eyes and see nothing but anger<br>
+I can’t take it anymore<br>
+I can’t take this anymore<br>
+<br>
+In this broken home I stand<br>
+Staring at a blank wall that has been smashed in<br>
+I feel as though I am looking into a mirror<br>
+Of what’s inside of me, (of what’s inside of me)<br>
+<br>
+Running through the house I find myself running for my life<br>
+Why can’t this just be a dream (why can’t this just be a dream)<br>
+And when I think I’m safe you are right behind me<br>
+Ready to strike me<br>
+Daddy<br>
+<br>
+I wish I could run away, and never feel your hand again<br>
+<br>
+Oh no, daddy’s drunk again, and I’ve made a mess, why did I make a mess?<br>
+I try to hide in my room but he calls me out, why is daddy so mad at me?<br>
+I didn’t mean to upset you, I’m so sorry, please don’t hurt me<br>
+I didn’t mean to upset you, I’m so sorry, please don’t hurt me<br>
+<br>
+As you run away into the dark, you fall on your knees, begging Father please<br>
+Be the dad I never had<br>
+Be the dad I never had<br>
+<br>
+In this broken home I stand<br>
+Staring at a blank wall that has been smashed in<br>
+I feel as though I am looking into a mirror<br>
+Of what’s inside of me, (of what’s inside of me)<br>
+<br>
+Your hates inside my head<br>
+Your hates inside my head
+</p>
+
+      <h1 id="f3" class="lyrics-test">-I Was Born With A Gun To My Head-</h1>
+      <p class="lyrics-test-test">
+The hatred that I feel<br>
+Is born within this shell<br>
+The only redemption I have<br>
+Dwells within<br>
+<br>
+I was born with a gun to my head<br>
+The chamber’s loaded and there’s nowhere to run<br>
+Bullets forged by a malcontent cycle of life<br>
+I’ve disfigured all within that’s beautiful<br>
+<br>
+I’m losing grip on all that’s real and I begin to lose my mind<br>
+Where is my sanity?<br>
+Where is my sanity?<br>
+Running circles trapped inside a cage<br>
+Will you release me?<br>
+Oh God, release me!<br>
+<br>
+I was born with a gun to my head<br>
+I was born with a gun to my head<br>
+I was born with a gun to my head<br>
+The chamber’s loaded and the time has come<br>
+<br>
+Some people are born into tragedy<br>
+<br>
+I need to find a way out of this hell<br>
+Is this an oppression of the mind?<br>
+Or maybe it’s something else<br>
+<br>
+I feel you creeping upon me<br>
+Your claws digging deep in my skull<br>
+I will fight you with the strength of the One who died for me<br>
+<br>
+I will fight<br>
+I will fight<br>
+<br>
+He sends his demons in disguise<br>
+But we will not be deceived<br>
+They tear at our mind<br>
+But we will rip out their throats<br>
+<br>
+I’m losing grip<br>
+Where is my sanity?</p>
+
+      <h1 id="f4" class="lyrics-test">-Butchered-</h1>
+      <p class="lyrics-test-test">
+I was walking down a darkened stairway<br>
+I have never seen this place before<br>
+Rooms sealed by iron doors<br>
+Behind them lay unspeakable horrors<br>
+<br>
+The lay inside the fire<br>
+Their homes inside the fire<br>
+They lay inside the fire<br>
+<br>
+They lay inside the fire and they die and die again<br>
+All hope is lost<br>
+<br>
+For reasons I do not know I was shown all these despicable images<br>
+Have you ever looked into the eyes of a man as his guts spill from his side?<br>
+<br>
+Hanging from a hook like butchered flesh<br>
+He is lost, forever lost<br>
+<br>
+Walking down this darkened stairway<br>
+I have never seen this place before<br>
+Rooms sealed by iron doors<br>
+Behind them lay unspeakable horrors<br>
+<br>
+They lay inside the fire and they die and die again<br>
+All hope is lost<br>
+<br>
+They lay inside the fire<br>
+Their homes inside the fire<br>
+<br>
+Don’t make your home inside the fire<br>
+<br>
+For reasons I do not know<br>
+I was shown all these despicable images<br>
+Rooms sealed by iron doors<br>
+Behind them lay unspeakable horrors</p>
+
+      <h1 id="f5" class="lyrics-test">-The Catalyst-</h1>
+      <p class="lyrics-test-test">Father, take my eyes and hold them to the fire<br>
+My soul is black as night, and I can’t see you there<br>
+<br>
+Sever me; I need to bleed out this infection (I need to)<br>
+Cauterize, burn the flesh, and make me whole again<br>
+<br>
+Once again I throw myself onto shards of glass<br>
+Just leave me on the ground<br>
+I will just do it again for I am the destroyer<br>
+I am the catalyst; you will offer me a way out<br>
+And I am the destroyer; don’t expect me to ever be free<br>
+<br>
+My vision is darkening; I need to bleed out this infection (I need too)<br>
+I am the destroyer, I am the catalyst<br>
+<br>
+Sever me, I need to bleed, out this infection (I need too)<br>
+Cauterize, burn the flesh, and make me whole again<br>
+<br>
+IT’S TOO LATE (I will never survive)<br>
+JUST LEAVE ME ON THE GROUND (there’s nothing left inside)<br>
+THE CANCER HAS TAKE HOLD OF ME (into the ashes I fall)<br>
+THE CANCER HAS TAKEN ITS HOLD ON ME<br>
+<br>
+I am the cancer, I am the cancer<br>
+<br>
+I AM THE CANCER!</p>
+
+      <h1 id="f6" class="lyrics-test">-Crushed To Ashes (Interlude)-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f7" class="lyrics-test">-Tale Of A Demon-</h1>
+      <p class="lyrics-test-test">And behold there was a great earthquake<br>
+And the sun became black as night<br>
+And the moon became like blood<br>
+A great star fell from heaven<br>
+Burning like a torch<br>
+Destroying a third of the waters<br>
+Twinkle Twinkle Little Star<br>
+<br>
+Fall<br>
+Destroy everything<br>
+Crush the earth<br>
+Turn the oceans to blood</p>
+
+      <h1 id="f8" class="lyrics-test">-Forgotten Home-</h1>
+      <p class="lyrics-test-test">Yours was a soul that shined so bright<br>
+Now tainted and darkened<br>
+By another’s bitterness<br>
+By another’s bitterness<br>
+<br>
+Now you’re gone<br>
+Now you’re gone<br>
+<br>
+He took you by the hand and told you what you wanted to hear<br>
+You were lead away by a sirens song<br>
+Led away from a place that was made for you<br>
+Now you’re gone and I don’t know how to bring you back<br>
+<br>
+He closed your eyes and darkened your world<br>
+Now you’re gone and I don’t know how to bring you back<br>
+He took you by the hand and told you what you wanted to hear<br>
+You were led away from the place that was made for you<br>
+<br>
+He showed you a reality based purely on his own lust<br>
+He showed you a reality that you’ll never be freed from<br>
+There is a special place in Hell for those who defile His children<br>
+You are dead<br>
+<br>
+You are dead<br>
+Time is running out<br>
+You are dead<br>
+Dead and gone<br>
+<br>
+He closed your eyes and darkened your world<br>
+Now you’re gone and I don’t know how to bring you back<br>
+He took you by the hand and told you what you wanted to hear<br>
+You were led away from the place that was made for you<br>
+<br>
+I can’t bring you back<br>
+I can’t bring you back</p>
+
+      <h1 id="f9" class="lyrics-test">-Teeth Of The Shark-</h1>
+      <p class="lyrics-test-test">The world is dead<br>
+You’ve corrupted all<br>
+Your intentions have been warped and your words are false<br>
+You are ready to condemn all those who are suffering because of your hate<br>
+And I will not stand by<br>
+To watch you condemn all<br>
+The world is dead<br>
+<br>
+There you sit upon your pedestal<br>
+Built upon the souls you corrupted<br>
+With hate laced into the Word of God<br>
+Lucifer is calling you home<br>
+<br>
+Your vile words mean nothing to me<br>
+You will not infect my heart with hate<br>
+I hope that God will rip you from everything you love<br>
+And that you’ll become everything you despise<br>
+<br>
+Now you’ve fallen<br>
+How does it feel to be on the receiving end?<br>
+<br>
+How does it feel to know you’ve caused so much pain, hurt, and hate?<br>
+All the lives you’ve torn apart.<br>
+Your vile words mean nothing to me<br>
+You will not infect my heart with lies like you’ve done so many times<br>
+<br>
+If it were up to me, I would show you the wrath of God<br>
+I would tear your walls asunder and watch the vermin run<br>
+<br>
+I would tear your walls asunder and watch the vermin run<br>
+<br>
+I will not stand y and watch you condemn His children<br>
+<br>
+For all the lives you’ve destroyed, you’ve destroyed<br>
+<br>
+You will fall<br>
+You will fall<br>
+You will fall<br>
+You will fall<br>
+<br>
+Your time will come, you will be judged<br>
+Your time will come, you will be judged<br>
+God will rip you from your pedestal</p>
+
+      <h1 id="f10" class="lyrics-test">-The Descent-</h1>
+      <p class="lyrics-test-test">Lying here on my final day<br>
+I watched as the sky cracks open (burning red)<br>
+I stare at the earth as it falls down around my head<br>
+<br>
+Here I stand, with a choice to make, golden fields behind, dark forest ahead<br>
+I know I should turn away but it beckons me<br>
+So into the forest I tread<br>
+<br>
+Running through this forest endless and dark<br>
+Without a path to guide my way out<br>
+They told me I would never make it out alive<br>
+But I went in anyway; anyway, I couldn’t help myself<br>
+<br>
+Now I lay here, in a shrouded meadow<br>
+The mist trailing across my skin<br>
+Silently I watch as the forest closes in<br>
+<br>
+The darkness seeps into my mind as vines pull me from the ground<br>
+And hold me fast<br>
+
+Silent voices whisper from the shadows<br>
+Their eyes glitter in the dark with perverse intent<br>
+They told me in order to escape I must leave my souls behind<br>
+And for escape I gave it willingly<br>
+<br>
+I DESCEND<br>
+<br>
+Then their hands burst forth from the ground<br>
+Reeking of death<br>
+Grasping, possessing<br>
+They pull me down<br>
+<br>
+Now I find myself in a maze of prison bars, suspended on a bed of fire<br>
+My flesh is burning away, Oh my God what have I done<br>
+I’ve fallen into Hell, and now it’s too late</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/thisisdark.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">This Is Darkness - 2014</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-/Snāk/-</h1>
+        <p class="lyrics-test-test">Rain Down Fire<br>
+<br>
+Put on the crown that you made for yourself<br>
+You wear it so beautifully<br>
+Not a thought, not a care for anyone else<br>
+You're just a poison and we are the vaccine<br>
+<br>
+You're just a poison<br>
+Dripping off the fangs of a snake<br>
+You lack conviction<br>
+Your reign will end tonight<br>
+<br>
+And I watched you rise from nothing<br>
+Just like a peasant living off the land<br>
+<br>
+You think you're a god but you're barely a man<br>
+acting in charge when everything goes according to plan<br>
+as soon as you fail you quickly disappear<br>
+just like a snake hiding from the heat of the sun<br>
+<br>
+We will set your kingdom ablaze<br>
+Rain down fire<br>
+<br>
+Just like a poison we will bleed you from our veins<br>
+Cauterize the wound<br>
+Take your last breath tonight (take your last breath)<br>
+This will be the end, the end of you<br>
+<br>
+And I watched you rise from nothing<br>
+Just like a peasant living off the land<br>
+<br>
+Rain down fire<br>
+we will set your kingdom ablaze<br>
+Rain down fire<br>
+You lack conviction<br>
+
+You're just a poison<br> (X3)
+We will bleed you from our veins<br>
+You're just a poison<br>
+Your reign will end<br>
+<br>
+Rain Down Fire</p>
+
+        <h1 id="s2" class="lyrics-test">-Death For The Dead-</h1>
+        <p class="lyrics-test-test">When there's nothing left to say<br>
+When there's nothing more to do<br>
+Where your time has run out<br>
+This is death for the dead<br>
+<br>
+Death for the dead<br>
+Lying in your deathbed<br>
+So go, and feel the anger<br>
+shadows dance across the room<br>
+<br>
+Though you scream at the top of your lungs<br>
+There's no one there to save you<br>
+<br>
+I am the martyr<br>
+I lie here forever<br>
+They stand there laughing all around<br>
+<br>
+Will you return to me when you die?<br>
+So go on into the night<br>
+Just know I will never leave your side<br>
+My bride<br>
+<br>
+I am the martyr<br>
+Lie here forever<br>
+They stand there laughing all around<br>
+but I'll return when I am in the ground<br>
+<br>
+When there's nothing left to say<br>
+BEETLE JUICE<br>
+When there's nothing more to do<br>
+BEETLE JUICE<br>
+When your time has run out<br>
+BEETLE JUICE<br>
+<br>
+When there's nothing left to say<br>
+When there's nothing more to do<br>
+When time has run out<br>
+When time has run out<br>
+<br>
+I am the martyr<br>
+Lie here forever<br>
+<br>
+Will you return to me when you die?<br>
+So go on into the night<br>
+Just know I will never leave your side<br>
+My bride<br>
+<br>
+My bride<br>
+<br>
+Death for the dead<br>
+Death for the dead</p>
+
+        <h1 id="s3" class="lyrics-test">-Stray From The Lepers-</h1>
+        <p class="lyrics-test-test">Stray from the lepers<br>
+The hate that blinded you begins to dissolve<br>
+Pray for the diseased<br>
+That they may learn to embrace one another<br>
+<br>
+Stray from the lepers<br>
+<br>
+I see why you see the way that you do<br>
+This world hasn't given you much to hold on too<br>
+we're united as one and yet so torn apart<br>
+stray from the lepers<br>
+<br>
+We're so engulfed with all these thoughts of hatred<br>
+over and over and over again<br>
+The time has come to stand tall above it all<br>
+before it leads to murder<br>
+<br>
+Run and hide<br>
+terrified<br>
+<br>
+stray from the lepers<br>
+the cowards heart<br>
+<br>
+stray from the lepers<br>
+<br>
+stray from the lepers and run until your feet go numb<br>
+don't look back oh God never look back<br>
+their hatred blinds them like a knife piercing deep in their eyes<br>
+Pharisees<br>
+<br>
+stray from the lepers<br>
+the hate that blinded you begins to dissolve<br>
+pray for the diseased<br>
+that they may learn to embrace one another<br>
+<br>
+We're so engulfed with all these thoughts of hatred<br>
+over and over and over again<br>
+The time has come to stand tall above it all<br>
+before it leads to murder<br>
+<br>
+Hatred will bind your soul (destroy your shackles)<br>
+The cowards heart<br>
+Hatred will bind your soul (destroy your shackles)<br>
+The cowards heart<br>
+<br>
+Break free the shackles<br>
+Don't look back oh God never look back<br>
+Break free the shackles<br>
+Before it leads to murder<br>
+<br>
+Stray from the lepers</p>
+
+        <h1 id="s4" class="lyrics-test">-This Is Darkness-</h1>
+        <p class="lyrics-test-test">Will there be a dawn?<br>
+This unseen war approaches<br>
+Like prey we are stalked<br>
+This darkness falls upon us<br>
+<br>
+The darkness creeps in<br>
+They hide in the shadows<br>
+I can see them creeping<br>
+I can hear them breathing<br>
+<br>
+Be on the frontline<br>
+Beyond the crowd<br>
+Behind the dangerous who shake the ground<br>
+Be on the frontline<br>
+Beyond the crowd<br>
+Beneath the barriers they make no sound<br>
+<br>
+Do not be shaken<br>
+By the whisper of his name they will fear you<br>
+This is darkness approaching upon us<br>
+<br>
+There is a veil that shields their world from our own<br>
+Rip apart the veil<br>
+Replace this darkness with light<br>
+<br>
+Will there be a dawn?<br>
+Or are we forever fighting this unseen war<br>
+Resist the darkness<br>
+<br>
+I'll bring the fight to you again and again<br>
+You'll run in fear with your tail tucked between your legs<br>
+For the power behind us is greater<br>
+Now you will never stand in our way<br>
+<br>
+This unseen war approaches<br>
+Like prey we are stalked<br>
+This unseen war is upon us<br>
+<br>
+Will there be a dawn?<br>
+Will there be a dawn?<br>
+Will there be a dawn?<br>
+Will there be a dawn?<br>
+<br>
+Do not be shaken<br>
+You are not alone in the darkness<br>
+Do not be afraid<br>
+By the whisper of his name they will fear you<br>
+<br>
+This Is Darkness<br>
+This Is Darkness</p>
+
+        <h1 id="s5" class="lyrics-test">-Shadows-</h1>
+        <p class="lyrics-test-test">I spared your life today<br>
+That's a debt I intend to collect!<br>
+<br>
+Rewind the clocks<br>
+This is the hour<br>
+The tower of Babel<br>
+<br>
+Shoot your arrows towards the sky<br>
+You will Behold a king who will not be challenged<br>
+now you will wander until you die<br>
+<br>
+There's nothing new underneath the sun<br>
+we continue to fight, but the battle's already been won<br>
+As we continue to rebel we only bury ourselves deeper into hell<br>
+<br>
+Into hell<br>
+<br>
+Deeper and deeper into the darkness they descend<br>
+never to return<br>
+never to be seen again<br>
+<br>
+They bear the mark of the fallen angel<br>
+An army gathered from the darkest of places<br>
+they wrought death upon the land<br>
+their hatred consumes everything in their path<br>
+<br>
+They bear the mark of the fallen angel<br>
+An army gathered from the darkest of places<br>
+they wrought death upon the land<br>
+Against their corruption we must make a stand<br>
+<br>
+All hell cannot contain<br>
+The power of the risen king<br>
+Satan will be defeated<br>
+We will stand by and watch him fall<br>
+<br>
+They bear the mark of the fallen angel<br>
+They bear the mark of the fallen one<br>
+They bear the mark of the fallen angel<br>
+They bear the mark of the fallen one<br>
+<br>
+You bear the mark<br>
+<br>
+Deeper and deeper into the darkness they descend<br>
+Never to return, Never to be seen again<br>
+<br>
+I spared your life today<br>
+That's a debt I intend to collect<br>
+You bear the mark of the fallen angel (Fallen Angel)<br>
+Deeper and deeper into the darkness they will descend<br>
+Never to return, Never to be seen again</p>
+
+        <h1 id="s6" class="lyrics-test">-Orphans-</h1>
+        <p class="lyrics-test-test">Reform the vile retribution of anguish<br>
+Underneath the skin my blood is clogged<br>
+<br>
+My heart stops dead in its tracks<br>
+I cry out but no words form<br>
+My body is torn beyond the veil<br>
+<br>
+Help me to breathe again<br>
+My time is not up yet<br>
+I can offer you truth<br>
+<br>
+Here I stand a broken man<br>
+My life has come to this end<br>
+What legacy have I left behind for you<br>
+<br>
+Pick up your feet<br>
+No longer dwelling in the shadows<br>
+I cannot save you<br>
+I can only show you how<br>
+<br>
+Help me to breathe again<br>
+My time is not up yet<br>
+I can offer you truth<br>
+
+What legacy have I left behind for you<br>
+My King<br>
+My King<br>
+<br>
+Here I stand a broken man<br>
+My life has come to this end<br>
+What legacy have I left behind for you<br>
+<br>
+Cold and alone<br>
+We are all orphans<br>
+Cold and alone<br>
+<br>
+Pick up your feet<br>
+No longer dwelling in the shadows<br>
+<br>
+Cold and alone<br>
+We are all orphans</p>
+
+        <h1 id="s7" class="lyrics-test">-The Day Satan Fell-</h1>
+        <p class="lyrics-test-test">Show me heaven<br>
+Show me hell<br>
+Tell me of the day that satan fell<br>
+<br>
+Show me glory<br>
+Show me grace<br>
+let me gaze upon your sacred face<br>
+<br>
+If God was standing right in front of you,<br>
+would you spit out hate like you always do.<br>
+If God was standing right in front of you,<br>
+Would you try to change your fate<br>
+<br>
+Show me heaven<br>
+Show me heaven<br>
+<br>
+Show me heaven, show me your face.<br>
+Lift me up into your presence.<br>
+I want to see,<br>
+I want to see<br>
+<br>
+Satan Fall<br>
+Face to the ground as his crown was destroyed<br>
+Cast down to the earth by<br>
+The wrath of a king with the heart of a lion<br>
+<br>
+Did all of heaven weep,<br>
+or was there only silence?<br>
+When the hour came and his choice was made,<br>
+did he know that all his glory would fade?<br>
+<br>
+did he know that all his glory would fade?<br>
+Show me hell<br>
+<br>
+How does it feel to know that one day you will burn in hell<br>
+for a crime committed against the holy one.<br>
+Did you know you would not succeed,<br>
+you had too know you would fail against my God.<br>
+<br>
+If God was standing right in front of you,<br>
+would you spit out hate like you always do.<br>
+If God was standing right in front of you,<br>
+Would you try to change your fate<br>
+<br>
+Did all of heaven weep,<br>
+or was there only silence?<br>
+<br>
+Did all of heaven weep,<br>
+or was there only silence?<br>
+When the hour came and his choice was made,<br>
+did he know that all his glory would fade?<br>
+<br>
+Show me heaven<br>
+Show me hell<br>
+<br>
+Oh no!! my god has driven you away!</p>
+
+        <h1 id="s8" class="lyrics-test">-Killing Time-</h1>
+        <p class="lyrics-test-test">please God, can you spare some change for a beggar?<br>
+Night after night I scream but nobody's listening.<br>
+(Nobody's Listening)<br>
+We are headed down a path where the rocks peel the flesh from our feet.<br>
+(Nobody's Listening)<br>
+How much worse do things have to become before we rise up from the ruins.<br>
+<br>
+We are a generation that will stab you in the back just to get a piece of the pie<br>
+<br>
+Form a line to spare a dime as you watch countless children die<br>
+We are "moving forward" but we've never been so far behind<br>
+We're All just killing time by putting a knife through every clock that we find<br>
+We're all just killing time<br>
+<br>
+Can you hear the cries of desperation?<br>
+Can you hear the cries of desperation?<br>
+Can you see the fire reduce to embers.<br>
+<br>
+We are a generation that will stab you in the back just to get a piece of the pie<br>
+<br>
+Where did it all go wrong?<br>
+When did we lose our way?<br>
+How can we fight for each other when we can't even stand our ground?<br>
+Where did it all go wrong?<br>
+When did we lose our way?<br>
+Why do we run and hide as we watch our children die<br>
+<br>
+Can you hear the cries of desperation?<br>
+Can you see the fire reduce to embers.<br>
+Can you hear the cries of desperation?<br>
+Can you see the fire reduce to embers.<br>
+<br>
+Can you hear the cries of desperation?<br>
+See the face of starvation<br>
+<br>
+We Form a line to spare a dime as we watch countless children die<br>
+We're All just killing time by putting a knife through every clock that we find<br>
+
+KILLING TIME!!!</p>
+
+        <h1 id="s9" class="lyrics-test">-Sycophant-</h1>
+        <p class="lyrics-test-test">
+Can you ever forgive me?<br>
+I will never forgive myself<br>
+I've lost the one I held most dear<br>
+All because of my own selfish desires<br>
+<br>
+God forgive me, for I will never forgive myself<br>
+<br>
+Heal me<br>
+I scream at everything I am<br>
+broken<br>
+At everything I am<br>
+Free me<br>
+For I will never forgive myself<br>
+Cleanse me<br>
+For I am the disease<br>
+<br>
+I am anger<br>
+I am hate<br>
+I am hypocrisy (I'll crush your face)<br>
+<br>
+I am anger<br>
+I am hate<br>
+I am hypocrisy<br>
+Don't look at me<br>
+<br>
+You were all that I held most dear<br>
+Now all that I regret<br>
+My hate has torn you apart<br>
+God forgive me<br>
+I cannot forgive myself<br>
+<br>
+Heal me<br>
+I scream at everything I am<br>
+broken<br>
+At everything I am<br>
+Free me<br>
+For I will never forgive myself<br>
+Cleanse me<br>
+<br>
+God forgive me, for I will never forgive myself<br>
+I will never forgive myself<br>
+<br>
+You were all that I held most dear<br>
+Now all that I regret<br>
+My hate has torn you apart<br>
+God forgive me<br>
+I cannot forgive myself<br>
+<br>
+My hate has torn you apart<br>
+<br>
+God forgive me, I cannot forgive myself<br>
+God forgive me, I cannot forgive myself<br>
+God forgive me, I cannot forgive myself<br>
+God forgive me, I cannot forgive myself</p>
+
+        <h1 id="s10" class="lyrics-test">-Thy Kingdom Come-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+      </div>
+    </div>
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+    </div>
+
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+    </div>
+
+        <div class="page-finish">
+          <a href="./security.html">Security Statements</a>
+          <a href="./terms.html">Terms of Service</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+
+    </body>
+    </html>

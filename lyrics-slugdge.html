@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Slugdge</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/gastro.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Gastronomicon - 2014</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Dark Side Of The Shroom (Intro)</a>
+      <a href="#f2">Gastronomicon</a>
+      <a href="#f3">Lettuce Prey</a>
+      <a href="#f4">The Sound Of Mucus</a>
+      <a href="#f5">Slimewave Zero</a>
+      <a href="#f6">Invertahate</a>
+      <a href="#f7">Salters Of Madness</a>
+      <a href="#f8">Pax Aranea</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/dim.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Dim & Slimeridden Kingdoms - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Dim & Slimeridden Kingdoms</a>
+      <a href="#s2">Spore Ensemble</a>
+      <a href="#s3">The Toxic Salts</a>
+      <a href="#s4">Suffering Quahog</a>
+      <a href="#s5">Flying Snails</a>
+      <a href="#s6">The Chapter For Transforming Into A Slug</a>
+      <a href="#s7">Pellet In The Head</a>
+      <a href="#s8">Unchained Malady</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/eso.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Esoteric Malacology - 2018</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">War Squids</a>
+      <a href="#t2">Crop Killer</a>
+      <a href="#t3">The Spectral Burrows</a>
+      <a href="#t4">Slave Goo World</a>
+      <a href="#t5">Transilvanian Fungus</a>
+      <a href="#t6">Putrid Fairytale</a>
+      <a href="#t7">Salt Thrower</a>
+      <a href="#t8">Limo Vincit Omnia</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/gastro.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Gastronomicon - 2014</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Dark Side Of The Shroom (Intro)-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f2" class="lyrics-test">-Gastronomicon-</h1>
+      <p class="lyrics-test-test">Something stirs from an aeon ago<br>
+in the centre of a circle of cyclopean stones<br>
+Incantations from a mucus bound tome<br>
+as the cult makes preparations for their lord's welcome home<br>
+chanting dark and cacophonous rhymes<br>
+while the thunder and lightning rends a hole in the sky<br>
+rising tendrils of ash now encircle the sun<br>
+turning black from the blast of the Greatfather's drum<br>
+<br>
+For there can be only one..<br>
+<br>
+There's a pulsating heart in the midst of the void<br>
+Twisted maladous melodies which create and destroy<br>
+through a ritual of blood in a valley of doom<br>
+he assumes human form on an altar of shrooms<br>
+Expulsion of the outcast mind<br>
+Cursed to wander in the gardens of slish for all time<br>
+For this book is the key, and the psyche; a door<br>
+to a cosmic cornucopia of esoteric lore<br>
+<br>
+Cursed words, scribed in slime<br>
+Spoken in reverse when the stars are aligned<br>
+Only under the black sun, may these mortals partake in his conjuration<br>
+Trapped in a spell of the Gastronomicon..<br>
+<br>
+And beneath the shattered sky the earth will grieve<br>
+except for man, who shall be granted no reprieve<br>
+On this land which once gave life, now lies clear<br>
+In the poisoned depths the wreckage of ten thousand years<br>
+<br>
+Blasphemers of true nature<br>
+Hiding from the inner self<br>
+virtues that don't exist<br>
+deny genetic heritage<br>
+<br>
+the circle is complete<br>
+We must return to the earth<br>
+<br>
+Usurpers of your masters<br>
+You have become mere facades<br>
+Nought but pale reflections<br>
+A species in dejection<br>
+<br>
+The circle is complete<br>
+He is risen, all must suffer<br>
+<br>
+It has begun, the beginning of the end of all things to come</p>
+
+      <h1 id="f3" class="lyrics-test">-Lettuce Prey-</h1>
+      <p class="lyrics-test-test">Agrarian world bathed in blood from ages past<br>
+Fixated and strangulated<br>
+this twisted seed, a bastard breed<br>
+Sewn for surplus<br>
+Sustaining domination through extraction<br>
+a policy of scorched earth, imitating wilderness<br>
+<br>
+In disgust we have judged the propagator of this disease<br>
+Life undone, a broken trust, they've made a desert and called it peace<br>
+<br>
+Strangling hold, so called fields of gold<br>
+as far as the eyes can see<br>
+What you call life, I call blight, and it must end<br>
+For earth to breathe<br>
+<br>
+Poisonous streams<br>
+bathed in tears, cascade into an airless void<br>
+Faded and irradiated<br>
+feed death machines, such boundless greed<br>
+Desalinated, a fool's gambit<br>
+Their last defense is now removed<br>
+The slow march of death begins<br>
+This silence heralds the coming of their doom<br>
+<br>
+Trapped in a spiral of supply and demand<br>
+Feeding new mouths to in time work this land<br>
+at the crack of the whip they will dance to the tune<br>
+of the lies made by the madmen who extract and consume<br>
+<br>
+Whose tombs are lined with their gold yet are buried in the sludge<br>
+of a hewn and exploited world.<br>
+<br>
+Dark below where no light lies, shifting under iron hides<br>
+final bastion of the deep, taken to extremes<br>
+<br>
+Without the sun, they can endure, devourers of flame and stone<br>
+Mankind is weak; susceptible</p>
+
+      <h1 id="f4" class="lyrics-test">-he Sound Of Mucus-</h1>
+      <p class="lyrics-test-test">Starship Earth: five billion years<br>
+Life support malfunction<br>
+Wreckage adrift in outer space<br>
+Population: zero<br>
+<br>
+Desecrate, contaminate, erase<br>
+This twisted race<br>
+Torture earth, kill the seas and poison space<br>
+compelled by wretched faith<br>
+remains, we pray for him to rise again<br>
+and cleanse this land<br>
+Humanity will pay for its sins..<br>
+<br>
+Life remains, despite mankind<br>
+In the seeping hollows<br>
+Slithering through endless depths<br>
+Dreaming dark designs.<br>
+<br>
+Swimming through the void, the netherslug observes<br>
+and bides his time...<br>
+<br>
+Gazing over the pages of forbidden lore<br>
+Speaking in ancient dead tongues<br>
+<br>
+Opening portals to realms beyond the conscious mind<br>
+Unlocked through maddening songs</p>
+
+      <h1 id="f5" class="lyrics-test">-Slimewave Zero-</h1>
+      <p class="lyrics-test-test">Civilisation,<br>
+like locusts clad in suits they come<br>
+with their manifests in hand, engineered to corrupt<br>
+Machinations made to denude our mother's blood<br>
+grow their spawn upon the graves<br>
+where once our fallen brother's stood<br>
+<br>
+Idiotic selfish ambition of humanity<br>
+Narcissistic notions of transcending mortality<br>
+Far from K-selected, slaves to their defective prosencephalon<br>
+subject to morbid obsession with armageddon<br>
+<br>
+Technopathic necromancers do their worst<br>
+Nirate fixated posthuman filth of an abhorrent birth<br>
+Sowing terror, they only see death in the dirt<br>
+Ignorant to truth that it's the lifeblood of the earth<br>
+<br>
+Systematic violence, conspiracy of silence, a biocide<br>
+Human interaction engineers disaster for all life<br>
+desperate to escape the existential pain of their intellect<br>
+Ready to eject and leave this place in search of death<br>
+<br>
+Learn to hear but not to look,<br>
+to glimpse his mind is to self destruct<br>
+The fruit is ripe but it tastes of ash,<br>
+there are some questions you should never ask</p>
+
+      <h1 id="f6" class="lyrics-test">-Invertahate-</h1>
+      <p class="lyrics-test-test">A dark, defiling spectre from the wastes<br>
+Horrendous terror from the Tundras of Eurgh<br>
+His fringe encrusted with adamantine plates<br>
+A dripping maw of molten obsidian<br>
+<br>
+The Grand Vizier to the Sultan of slime<br>
+Beholder of he whose face is the void<br>
+<br>
+His name; profane, the slug of revelation<br>
+his radula swallowing galaxies whole<br>
+Insane, derranged, personified negation<br>
+Drags infidels into the blackest of holes<br>
+<br>
+Rhaexorog the lord of all protector of what lies beyond<br>
+the greatest of the chosen ones, anointed of the netherslugs<br>
+For us to see his glistening skin is to know true pain within the flames<br>
+ejected from his pneumastome, defender of the Mucus Throne.<br>
+<br>
+For mortals cannot leave behind, their coils within this place confined<br>
+A paradise you'll never know, for death is all the future holds<br>
+<br>
+The Great Attractor of outer dark<br>
+Awaits beyond the light of the brightest stars<br>
+For an eternity his hunger grows<br>
+From spheres of chaos in the vast unknown<br>
+<br>
+For war, for plague, famine and death<br>
+<br>
+His tendrils stretched innumerable prongs<br>
+that rip and tear apart the fabric of worlds<br>
+depraved, his lust for annihilation<br>
+reduce star systems into ashes and dust<br>
+<br>
+Voracious appetite for deconstruction<br>
+Fear the shaker of foundations<br>
+<br>
+Harbinger of shadow show me the endless void<br>
+where all is sorrow when there is nought left to destroy..</p>
+
+      <h1 id="f7" class="lyrics-test">-Salters Of Madness-</h1>
+      <p class="lyrics-test-test">Forgotten unconcious ghosts of aeons lay<br>
+In chasms cold as the deepest grave<br>
+A charnel cosmic wind, dispenses his judgement<br>
+upon any and all who would dare to challenge fate<br>
+<br>
+An end as certain as the setting sun<br>
+A desolation frozen in time<br>
+For there is no everflowing stream<br>
+Peasants rot beside their kings<br>
+<br>
+Lord Bothris; he who answers to no-one<br>
+for in the end, his will alone shall be done<br>
+His patience; as infinite as the stars<br>
+The reaper of the harvest of the uncreated Pod<br>
+<br>
+Prince of death, I await the final test<br>
+Grant me access to the fruits of Eden<br>
+<br>
+Bathe in the seas of Vlekt at the foot of the master<br>
+Imbibe the slime, forever after<br>
+<br>
+The quest for knowledge, unquenchable thirst<br>
+Praying for life eternal in this finite universe<br>
+<br>
+Raptured, are they who bask in his goo<br>
+as their physical bodies are consumed<br>
+<br>
+Shifting through an ocean of the dead,<br>
+amidst the skeletal remains<br>
+carrion he devours to nenew his father's form<br>
+<br>
+From out of chaos comes a new order<br>
+decomposer of the flesh, preparing for the end<br>
+Recycled in the heavens as on earth<br>
+a rebirth of the material world</p>
+
+      <h1 id="f8" class="lyrics-test">-Pax Aranea-</h1>
+      <p class="lyrics-test-test">Mucus trail of viscous rime<br>
+Into her woven halls<br>
+Her children, cover the walls,<br>
+Watched by ten thousand eyes.<br>
+<br>
+a vision of the second war<br>
+Ancient Arch-Arachnid<br>
+vengeance upon mankind<br>
+born within silk and viscous slime<br>
+she has foreseen the human's end<br>
+within the web of space and time<br>
+Darkened hordes coating cities<br>
+feasting upon their feeble minds.<br>
+<br>
+Unfurling fangs that drip with toxic lust<br>
+Reduce the body into dust<br>
+Weaving window of reclusive dark<br>
+Who stops the beating of your heart<br>
+<br>
+Sprinting forth upon ancient legs<br>
+As though their prey has come<br>
+Matriarch will hear the terms<br>
+Word of a second war..<br>
+<br>
+Mandibles clicking, omnivenom dripping..<br>
+<br>
+Too long she's lingered within her silken bastille<br>
+psychic screams of hate<br>
+Echo across the universe.</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/dim.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Dim & Slimeridden Kingdoms - 2015</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Dim & Slimeridden Kingdoms-</h1>
+        <p class="lyrics-test-test">Decrepit ruins, an ancient fane in disarray<br>
+Rivers of cadaverine snake below obsidian palisades<br>
+Bathed in an ill moonlight, igneous spires breaching the louring sky<br>
+Resident to dark terrors both malevolent and unseen<br>
+<br>
+Haunted through the heart of darkness<br>
+by horrors unknown<br>
+A nightmare that never subsides<br>
+wading through wastelands of bone.<br>
+<br>
+Sojourn in galleries of anguish searching for wisdom's elusive pearl<br>
+lost in a lonesome city, witness the last gasp of a dying world<br>
+statues lie broken, shattered in conflicts fought long ago<br>
+roots reaching into black trenches<br>
+reclaiming the earth from the stone<br>
+<br>
+The rancour in it's construction outlived it's architects<br>
+Labyrinthine and monolithic, hallowed hall of the dead<br>
+<br>
+City of shades, a pale reflection of it's past glory<br>
+where the dead ever roam in the crumbling halls<br>
+now entombed by their greed delving far too deep<br>
+down where fiends never sleep and the light can't reach<br>
+<br>
+twisted creatures rend and flay, draped in skins in their sick masquerade<br>
+flesh stripped victims to discard, butchered for amusement in this cursed abattoir<br>
+<br>
+Dank baneful chasms, caliginous and bare<br>
+where hope is exiguous, all are prone to despair<br>
+where the ill-fated wander in the land of the Pod<br>
+ever crawling in circles beaten back by a dense freezing fog.
+</p>
+
+        <h1 id="s2" class="lyrics-test">-Spore Ensemble-</h1>
+        <p class="lyrics-test-test">Descending through cavernous, black fungal chasms<br>
+in search of a forsaken Kingdom once lost<br>
+furtive foulness, that lurk in the shadows<br>
+bioluminosity outlining their hulking forms<br>
+<br>
+Rearing up from the gulch now before him; the roots of Ankath-Shol<br>
+the bastion of Yeth-Shuul; hunter of mortal souls<br>
+<br>
+Life is fleeting, death is vital, and essential to his cycle<br>
+All is finite, yet not final, pain is pleasure, fear is primal<br>
+Love and hatred; paralysing, conflict driving and dividing<br>
+in the rapture of his spiral, constant fight for survival<br>
+<br>
+Lost in the maze of his playground of bloodlust<br>
+hounded by the hunters just outside of sight<br>
+Adrenaline coarsing, pushing him harder<br>
+consumed by paranoia, in a bid to escape the night<br>
+<br>
+From a swallow hole black as the void<br>
+gore drenched tendrils reach<br>
+revealing a gaping maw filled with innumerable iron teeth<br>
+<br>
+Endless mass of writhing horror, oozing and putrid<br>
+filling the air, dense and oppressive<br>
+<br>
+drained of vitality he falls to his knees<br>
+Now at the mercy of the beast<br>
+There are no questions, no mysteries left<br>
+he feels most alive when faced with death<br>
+<br>
+Terror manifest permeating his flesh<br>
+Never to feel the same again<br>
+<br>
+From this nightmare he turns and runs<br>
+faster than he has ever done<br>
+Leaping farther, striding harder<br>
+What does not kill him makes him strong.
+</p>
+
+        <h1 id="s3" class="lyrics-test">-The Toxic Salts-</h1>
+        <p class="lyrics-test-test">Maledictions spoken aloud<br>
+from the slime-ridden scriptures<br>
+pages of abject text which eyes cannot decipher<br>
+strange visions appear in the poisonous fire<br>
+<br>
+Payments paid in the blood of batrachian slaves cast into seering vats<br>
+Arise, luminous beings of vapour<br>
+now thralls in the servitude of the betrayer<br>
+<br>
+Kneeling in murky waters, the soul now clean<br>
+Baptised and reborn; his blood runs green<br>
+<br>
+Sanity fades and reality melts away,<br>
+before the gates of our lord<br>
+Tendrils emerge from an ocean of darkness,<br>
+dragging his soul into the void<br>
+<br>
+Take the ichor, the bitter taste of corruption<br>
+exist as an abomination<br>
+Until the death of the universe<br>
+<br>
+A god amongst men all alone in his head<br>
+The same, yet alien, alone in the end,<br>
+the king of the dead, the god amongst men<br>
+<br>
+Elation marred by the realisation<br>
+Immortality has become a curse<br>
+a god desires nothing<br>
+for divinity is hell in the minds of the living<br>
+<br>
+Once more into the breach; gazing deep beyond the tides of oblivion<br>
+where the fundaments dance to the tune of gargantuan tenebrous gods<br>
+<br>
+Crystalline sprites now forming before him<br>
+attemping to show him the mind of Mollusca<br>
+all spectrums of light visible in the scrying<br>
+confounded by new found perspectives on dying</p>
+
+        <h1 id="s4" class="lyrics-test">-Suffering Quahog-</h1>
+        <p class="lyrics-test-test">In cold recesses of infinite time<br>
+I have slept beneath the grime<br>
+then from the surface world<br>
+came to me with prying hands<br>
+and plucked me from the sand<br>
+<br>
+Dissect my body in search of power<br>
+clandestine secrets of the shell<br>
+Intrigued by my longevity<br>
+in an environmental hell<br>
+<br>
+My smashed and broken form shall give rise<br>
+to horrors undreamt of by the mind<br>
+<br>
+Alive since time immemorial<br>
+to be dredged from our home<br>
+I shall not relinquish the secrets of the slime<br>
+they are mine, and mine alone<br>
+<br>
+500 years existed, dormant, and without a care<br>
+Free from the tyranny of air<br>
+Witnessed the rise the fall of Empires from beneath the waves<br>
+and seen my slimebrethren enslaved<br>
+<br>
+Suddenly man takes an interest in me; i'm swept up and caged<br>
+<br>
+Probed and desecrated, left to bake out in the sun<br>
+They shall suffer for their wrongs<br>
+<br>
+For a thousand aeons<br>
+We have havested the souls<br>
+of much greater things than you<br>
+In the end my death<br>
+shall be a sacrifice<br>
+In the service of his truth.</p>
+
+        <h1 id="s5" class="lyrics-test">-Flying Snails-</h1>
+        <p class="lyrics-test-test">Salt and copper, impenetrable walls<br>
+destined to drown in alcohol<br>
+forever endangered by dessication<br>
+He now bears witness to their indignation<br>
+<br>
+Melding together, the fusing of flesh<br>
+A taste of the agony that awaits beyond death<br>
+eldritch monster, many now one<br>
+cellular mitosis enriched by the sun<br>
+a metamorphosis that cannot be undone<br>
+<br>
+To overcome adversity sacrifices must be made<br>
+We adapt or we die, no escape, life is pain.<br>
+<br>
+Not of this world, borne of black magic<br>
+from daemoniac realms<br>
+<br>
+Hybrid mutation of sentient slime<br>
+defying the odds in a bid to survive.</p>
+
+        <h1 id="s6" class="lyrics-test">-The Chapter For Transforming Into A Slug-</h1>
+        <p class="lyrics-test-test">ast down into the dirt,<br>
+to live amongst worms in the dark bowels of the earth<br>
+Once respected now hated,<br>
+imprisoned with blasphemous heathens and traitors<br>
+Kept silent in cold isolation,<br>
+rage seething vortex of acerbic vexation<br>
+agglomeration of seditious usurpers<br>
+are primed in the furnace of anarchic fervor<br>
+<br>
+The black horde will come to stamp out the embers of the dying sun.<br>
+Beseige their Babylon; entombed within<br>
+their own creation.<br>
+and as the ceiling caves, their fallen<br>
+cradle turns into a grave.<br>
+Behind their crumbling walls they bend<br>
+like wheat in a storm.<br>
+<br>
+Commanded; Recite, he journies to Slish<br>
+in the cold dead of the night<br>
+with the rest of his kind, in morbid procession<br>
+on torrents of slime.<br>
+Vile lord of repulsion unfurls revealing the boils<br>
+ripe with pus for his churls<br>
+Thereupon his foul humours they feed,<br>
+sometimes the world must be cleansed with disease.<br>
+<br>
+Willing to lay waste, they're fueled with the fury of malignant faith<br>
+where death is no disgrace, it's all or nothing in their crusade.<br>
+Rebuild a Kingdom gone, a garden for the chosen ones<br>
+upon the fertile mud the earth runs red with blood<br>
+<br>
+Oppressed becoming tyrant<br>
+replace order with violence<br>
+Through senseless intervention<br>
+Disrupted ecosystem<br>
+<br>
+Corrupted, all for nothing,<br>
+the beauty has been stolen,<br>
+just emptiness and loathing<br>
+Ambition choking reason,<br>
+the power I amass can't fill the void that's left<br>
+<br>
+Fallen from grace, lost in greed,<br>
+the knowledge he sought is a curse to concieve<br>
+Twisted, malformed, alone in the dark,<br>
+when faced with the truth of what we are
+</p>
+
+        <h1 id="s7" class="lyrics-test">-Pellet In The Head-</h1>
+        <p class="lyrics-test-test">the beauty of the flames' enthralling glare<br>
+a perfect sphere suspended in the air<br>
+a blinding light ignites to wash away<br>
+when all is dust, a shadow remains<br>
+<br>
+In strokes of red, murder becomes art<br>
+it's influence still felt from afar<br>
+these blinking stars, in their evanescence<br>
+burn their brightest just before the end<br>
+<br>
+Mesmerized by the burning skies<br>
+ensorcelled by destruction<br>
+Pacified by the noose around our neck<br>
+the perfect death.<br>
+<br>
+Asleep or dead? Inside or outside of my head?<br>
+Soothing sounds of torture so I might convalesce.<br>
+<br>
+Captivating strangulation, erotic suffocation<br>
+A contradiction designed for failure<br>
+that executes it's saviour.</p>
+
+        <h1 id="s8" class="lyrics-test">-Unchained Malady-</h1>
+        <p class="lyrics-test-test">At the end of days, circling a bloated sun<br>
+Cast adrift within an endless vacuum<br>
+Interordinal hybridization<br>
+of brobdingnagian creation<br>
+<br>
+From this dias he reigns<br>
+Horror Unchained<br>
+Ever growing, larger and larger<br>
+drinking deep of the ceaseless slaughter<br>
+Feasting upon his sons and daughters<br>
+<br>
+All hail the Greatfather, the King.<br>
+and the dark pods eternal.<br>
+<br>
+Mucus from the poison abyss<br>
+enthroned in the putrescent Gardens of Slish<br>
+beyond the black gulf of unending time<br>
+hideous nebulae woven in slime<br>
+<br>
+Reborn of the ooze, brought back, exhumed from gravities tomb<br>
+captive by the force of ten thousand stars<br>
+his fury for aeons confined to the dark<br>
+<br>
+Harvester of the cosmic sea<br>
+nourishing his eternity<br>
+<br>
+and when all is gone, and the boundaries melt<br>
+he hangs in the heavens devouring himself<br>
+in the chaos of this transformation<br>
+metaphysical annihilation<br>
+<br>
+as his power wanes<br>
+energies dissipate<br>
+ever falling, farther and farther<br>
+in the heart of his collapsing structure<br>
+igniting a seed of another Mollusca</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/eso.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Esoteric Malacology - 2018</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-War Squids-</h1>
+          <p class="lyrics-test-test">Reforged in the furnace of death<br>
+weaves fates in the warp and the weft<br>
+dimensional rifts quake in the skies<br>
+on worlds born and razed in a blink of your mortal eyes<br>
+Master, born of the plasma<br>
+siphoning strength from the black twisting nether<br>
+a rapture that fractures the cosmos<br>
+torn from the womb of primordial chaos<br>
+<br>
+Rhaexorog come forth<br>
+hordes of iron must be wrought<br>
+Molten shells of steel ablaze<br>
+Cast in slime and living flame<br>
+<br>
+Bathe the abyss in cosmic afterbirth<br>
+he shall arise to reclaim the multiverse<br>
+In noxious sanctums beyond the walls that keep<br>
+the cursed sleepers from the beast<br>
+<br>
+feel the blessed touch of the unmaker<br>
+into this verdant nightmare you slip farther<br>
+stalked and hounded in this dream forever<br>
+sport for the beasts of Ankath-Shol<br>
+<br>
+Wallow hopeless under starless nights<br>
+<br>
+Yearn for the return of the creator's flame<br>
+Gaze out from the horizon and behold the sundering<br>
+<br>
+Dark blood coursing through our mortal veins<br>
+we are unstoppable<br>
+infused with arcane power; the boon of Lord Yeth'Shuul<br>
+<br>
+Pandemonium; a war in heaven, cataclysmic copulation<br>
+transdimensional astral tentacles<br>
+most irreverent fornication<br>
+<br>
+The wheel spins once again<br>
+cyclical time, no beginning or end<br>
+subject to no known law of nature<br>
+in wormholes entangled that hang in the ether<br>
+Scatter the remnants hereafter<br>
+blacken the stars with the power of the atom<br>
+we will shatter the order of aeons<br>
+unleashing his infinite legion of scions</p>
+
+          <h1 id="t2" class="lyrics-test">-Crop Killer-</h1>
+          <p class="lyrics-test-test">Is this how you want to live your lives?<br>
+inside the vultures circle<br>
+can you feel the talons in your neck?<br>
+Only the strong survive you say?<br>
+Just pray that prey you don't become<br>
+You've got no time for safety nets<br>
+<br>
+There are no alpha wolves<br>
+Only those struggling to survive the state of nature<br>
+Domestic animals lost without the trappings of their civilization<br>
+You like to play armchair eugenicist, militant pessimist<br>
+An ivory tower that's built upon<br>
+the product of a million labors<br>
+<br>
+Regression to the mean, repression of the weak<br>
+fraudulent pyramid scheme of human hierarchy<br>
+<br>
+Do you ever wonder why you've been deprived<br>
+the wealth of nations?<br>
+do you feel the trickle down your leg?<br>
+Preoccupied with war against your own and your own home<br>
+How is it you're not already dead?<br><br>
+Another failed experiment<br>
+Evidence suggests you will not pass the last great filter<br>
+The soldiers won't defend the hive<br>
+when the queen neglects to satisfy the builders<br>
+You like to play the devil's advocate, passive and impotent<br>
+brood over fallen empires<br>
+That were built upon the bones of millions<br>
+<br>
+Narrow minded sanctimonious<br>
+self-serving sophistry<br>
+Greed governing holiness?<br>
+Not in the version I have seen.<br>
+<br>
+You will not see the stars<br>
+doomed to the tides<br>
+access denied, fated to die</p>
+
+          <h1 id="t3" class="lyrics-test">-The Spectral Burrows-</h1>
+          <p class="lyrics-test-test">Lost in a churning mindless fulmination<br>
+Devoid of a reason or explanation<br>
+a chorus of voices become a roaring cacophony<br>
+assaulting our senses as they sleep<br>
+<br>
+putrid beings within, no better, or worse<br>
+each one scrambling for a ladder<br>
+death becomes us, that which we adore<br>
+long lost innocence<br>
+<br>
+In these slime-ridden kingdoms where we wallow<br>
+free from the pity, disgust and sorrow<br>
+far from where light can pierce<br>
+drowned by the fetid bog<br>
+beyond the graces of your god<br>
+<br>
+Sink in, inhale the ichor<br>
+why not assume your true form?<br>
+Join with us this is our blessing<br>
+unified as one forever<br>
+biologically entwined<br>
+Together until the end time.<br>
+<br>
+hideous depravity lurks beneath the mask of civility<br>
+<br>
+Look to your heathen master for his coming<br>
+We shall obey him and speak of nothing<br>
+Mentor of pain and suffering<br>
+the spawn of the sentient ooze<br>
+Soon you will drown within him too<br>
+<br>
+in the name of the greatfather, worship him and no other<br>
+Bestow upon us the sigil, arise from your silent ritual</p>
+
+          <h1 id="t4" class="lyrics-test">-Slave Goo World-</h1>
+          <p class="lyrics-test-test">Stygian minions of esteemed erudition<br>
+bear witness to the most abject human condition<br>
+staunch technicians of decomposition<br>
+breathing life into the lifeless animating his vision<br>
+all partake in occult calibration<br>
+realigning the ley-slime for the dark invocation<br>
+sing on high to the lords long unspoken<br>
+Reborn into the world through the minds of his chosen<br>
+<br>
+Psychic virus from the vast outer reaches<br>
+marks the grand unification of science and religion<br>
+In the name of our brethren; the molluscs<br>
+lesser lifeforms prostrate before the horror of horrors<br>
+terrible vistas of a nihilistic future<br>
+the old cthonic scriptures; the new jurisprudence<br>
+to usher an era of grand cosmic culture<br>
+all nations and worlds under the sign of mollusca<br>
+<br>
+Submit your soul, for it's no use to you where you go<br>
+Beyond the passage of time<br>
+Embrace the void in which all things were made and destroyed<br>
+we shall be one in his mind<br>
+<br>
+Praise be the name of the dark incarnate<br>
+Great beast of the all-in-one<br>
+First of the gods from the formless chaos<br>
+Kindling the flame of the suns<br>
+<br>
+His children most resplendent and pure<br>
+shall inherit the order of worlds<br>
+From the lowest dominion unto the mucus throne<br>
+that this kingdom might ever endure<br>
+<br>
+cast off the flesh become one with the ooze<br>
+and through the god-mind what's broken is renewed</p>
+
+          <h1 id="t5" class="lyrics-test">-Transilvanian Fungus-</h1>
+          <p class="lyrics-test-test">Airborne pathogens<br>
+a contorting carcinoma multiplies without end<br>
+invasive genophagia, irreversible damage<br>
+dismantling and reassembling their nucleic acid<br>
+<br>
+shambling eldritch beast, a mindless vector of disease<br>
+the brain erodes, flesh calcifies, controlled by endoparasites<br>
+Your mind and body are not your own, play host to hostile lifeforms<br>
+Unseen, explosive haze, with every breath you become their slave<br>
+<br>
+This world was never yours to begin with<br>
+and nor will it be in the end<br>
+<br>
+As you devour, so shall you be<br>
+this plague never replete<br>
+Against this foe there is no victory<br>
+self-destruction written in the genes<br>
+<br>
+The wilderness reclaims these empty streets<br>
+history is forgotten<br>
+once thriving metropolises now mortuaries<br>
+derelict, old and rotten<br>
+<br>
+Their cradle is our grave, new life born of decay<br>
+<br>
+We prosper from their ruin<br>
+As our progeny lament, we will not be forgiven<br>
+The storm on the horizon writes their names in the sky<br>
+as we gamble the future on the roll of a dice
+</p>
+
+          <h1 id="t6" class="lyrics-test">-Putrid Fairytale-</h1>
+          <p class="lyrics-test-test">Corrupt ignobility adorned in pilfered gold<br>
+conceived in sewage by insipid lords of old<br>
+inbred degenerates languish in squalid halls<br>
+impotent and superfluous, unable to uphold<br>
+<br>
+the basic tenets of the creed<br>
+usurpers vie to supersede<br>
+a tired waning hegemony, long bereft of majesty<br>
+<br>
+Self-righteous justiciars desire to purify<br>
+a world of lies, that seeks to purge the earth and sky<br>
+licentious seditionists; gorge as your planet burns<br>
+from slime they came, and into slime they shall return<br>
+<br>
+Praise the primordial poison pools that gave us form<br>
+to defy his decree, they dare to bite the hand that feeds<br>
+<br>
+The custodians have become the abuser<br>
+ignorant beings with arrogant ideas<br>
+<br>
+They loose a hail of arrows<br>
+that scorch the eyes of all who gaze<br>
+but it won't save them from the hell that waits<br>
+<br>
+Mythologized transcendence, a paradise is lost<br>
+No deliverance from the dire cost<br>
+<br>
+They've chosen the form of the destructor<br>
+More of slime than blood<br>
+their planet torn asunder by plutonium<br>
+<br>
+Mercury rising, the surface scorched<br>
+They descend like rats into the bowels of earth<br>
+<br>
+Digging like roaches through a mire<br>
+of their own self indulgence<br>
+caught in a web of fate<br>
+too bloodless to escape<br>
+<br>
+No god can save you now<br>
+for they have no power here<br>
+within these ashen crypts<br>
+of suffering and despair<br>
+<br>
+the flame ignited in it's heart<br>
+a chain reaction tearing apart<br>
+reaching the critical mass<br>
+The weapon of their futile vengeance<br>
+<br>
+The eye, ablaze with radiance<br>
+that sears against your flesh<br>
+Dread rumbling in the deep<br>
+signalling the impending death<br>
+<br>
+blinded by a caustic storm<br>
+the slamming of cyclopean doors<br>
+held aloft the orb ignites<br>
+Nowhere to run now from the light<br>
+<br>
+Now standing in the presence of a foe conceived by alien gods<br>
+Never again to feel the sun, it immolates you<br>
+The Life-age of the universe, a wind that sweeps the world away<br>
+you feel the weight of every world bearing down on you</p>
+
+          <h1 id="t7" class="lyrics-test">-Salt Thrower-</h1>
+          <p class="lyrics-test-test">Speak to darkness in your lowest ebb;<br>
+only silence<br>
+there's no future, only past regrets<br>
+meditate on them<br>
+<br>
+suspended in infinite blackness<br>
+so numb, agony is no distraction<br>
+contempt for life replacing sadness<br>
+<br>
+Is this clarity or madness?<br>
+temporary energy and matter<br>
+the will to live is irrevocably damaged<br>
+<br>
+a listless spirit wants to leave the world<br>
+sweet oblivion<br>
+vital essence grinding to a halt<br>
+we are all at fault<br>
+<br>
+falling from the creaking rafters<br>
+pressure, so much worse than you imagined<br>
+burning, death's umbilica unravels<br>
+<br>
+drifting from his sweet embrace<br>
+gasping for breath, staring in the grave<br>
+only fear, as what little light left fades<br>
+<br>
+And on the pedestal, these words appear<br>
+"Look on my works ye mighty, and despair!"<br>
+<br>
+Negated by the unbearable truth<br>
+all-consuming psychotic fugue<br>
+fall to a lightless self-destructive end<br>
+for there is a monster in the heart of all men<br>
+<br>
+Hearken to nightmares of futility enshrined<br>
+in sleepless terrors born of the mind<br>
+and upon the horizon of the waking world<br>
+time stands still.<br>
+<br>
+Damnation is our destiny<br>
+existence is disease<br>
+Our screams are the music of reality<br>
+<br>
+Relinquish all your earthly bonds<br>
+and bow before the god of madness<br>
+let him untether you from pain<br>
+step outside the circle and be saved<br>
+<br>
+Crippled by the triviality, the insanity of existing<br>
+A mockery; this master plan, crushed by the hand of fate<br>
+<br>
+No solace in this hopeless cycle<br>
+at one with fear and the darkness<br>
+Attain mastery over shadow<br>
+purge trepidation from your heart<br>
+<br>
+Your adversary is within, these mental chains are your prison<br>
+malignant love of your projected self; a toxic delusion<br>
+<br>
+Chaos, decay, withering away<br>
+the sense of self, starting to fade</p>
+
+          <h1 id="t8" class="lyrics-test">-Limo Vincit Omnia-</h1>
+          <p class="lyrics-test-test">High upon that blasted, fortified plateau<br>
+within their sanctuary of salt and sorrow<br>
+<br>
+Morbid throngs march to the call of umbral gods<br>
+outside comprehension<br>
+<br>
+Dark crusade, from deathless realm they came<br>
+to amalgamate dimensions<br>
+<br>
+certa enim gloria.<br>
+numquam non parata.<br>
+Deus noster pro nobis<br>
+Limo vincit omnia<br>
+<br>
+Tainted youth, catechized legions of untruth<br>
+do they not yet comprehend?<br>
+<br>
+Now ensnared by the web of their deceit<br>
+acquiescent, servile, weak<br>
+<br>
+This ritual of loathsome conjuration<br>
+akashic machinations from shadow priests who utter<br>
+the gathas of mollusca<br>
+that poisons our existence<br>
+between purity and putrescence they draw power<br>
+<br>
+The bloodshed of the ancestors<br>
+Forsaken dead<br>
+Sacrificed so the worlds might mend<br>
+all filaments have opened<br>
+the shadows bleed<br>
+infinity spewing forth from the gaping breach<br>
+<br>
+We shall dredge the depths of their pestiferous swamp<br>
+and the last bastion of light shall fall into ruin<br>
+<br>
+Once besieged, the walls shall liquefy beneath<br>
+the force of Rhaexorog's harrowing screams<br>
+<br>
+Twin blasphemies; Kak and Ick shall come together<br>
+to rouse their father from the nether</p>
+        </div>
+      </div>
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+      </div>
+
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+      </div>
+
+          <div class="page-finish">
+            <a href="./security.html">Security Statements</a>
+            <a href="./terms.html">Terms of Service</a>
+            <a href="./privacy.html">Privacy Policy</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+
+      </body>
+      </html>

@@ -1,0 +1,1686 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Rings Of Saturn</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/embr.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Embryonic Anomaly - 2010</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Invasion</a>
+      <a href="#f2">Seized And Devoured</a>
+      <a href="#f3">Abducted</a>
+      <a href="#f4">Final Abhorrent Dream</a>
+      <a href="#f5">Corpses Thrown Across The Sky</a>
+      <a href="#f6">Embryonic Anomaly</a>
+      <a href="#f7">Annihilating The Pure</a>
+      <a href="#f8">Grinding Of Internal Organs</a>
+      <a href="#f9">End Of Humanity</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/dingir.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Dingir - 2012</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Objective To Harvest</a>
+      <a href="#s2">Galactic Cleansing</a>
+      <a href="#s3">Shards Of Scorched Flesh</a>
+      <a href="#s4">Dingir</a>
+      <a href="#s5">Faces Imploding</a>
+      <a href="#s6">Peeling Arteries</a>
+      <a href="#s7">Hyperforms</a>
+      <a href="#s8">Fruitless Existence</a>
+      <a href="#s9">Immaculate Order</a>
+      <a href="#f10">Utopia</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/lugal.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Lugal Ki En - 2014</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">Senseless Massacre</a>
+      <a href="#t2">Desolate Paradise</a>
+      <a href="#t3">Lalassu Xul</a>
+      <a href="#t4">Infused</a>
+      <a href="#t5">Fractal Intake</a>
+      <a href="#t6">Natural Selection</a>
+      <a href="#t7">Beckon</a>
+      <a href="#t8">Godless Times</a>
+      <a href="#t9">Unsympathetic Intellect</a>
+      <a href="#t10">Eviscerate</a>
+      <a href="#t11">The Heavens Have Fallen</a>
+      <a href="#t12">No Pity For A Coward</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#fourth"><img class="lyrics-page_image" src="./images/ultu.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Ultu Ulla - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#ff1">Servant Of This Sentience</a>
+      <a href="#ff2">Parallel Shift</a>
+      <a href="#ff3">Unhallowed</a>
+      <a href="#ff4">Immemorial Essence</a>
+      <a href="#ff5">The Relic</a>
+      <a href="#ff6">Margidda</a>
+      <a href="#ff7">Harvest</a>
+      <a href="#ff8">The Macrocosm</a>
+      <a href="#ff9">Prognosis Confirmed</a>
+      <a href="#ff10">Inadequate</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/embr.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Embryonic Anomaly - 2010</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Invasion-</h1>
+      <p class="lyrics-test-test">Desecrate this wasteland<br>
+to a state unprecedented<br>
+I am the one to fuck it all I will end your life<br>
+I am the one to fuck it all this is the end<br>
+Pray now for the end to this disease<br>
+Fuck no, I will not stop, fuck no<br>
+this world is mine<br>
+<br>
+Save yourself now before I take over<br>
+Save yourself, save yourself, save yourself now<br>
+Save yourself before I destroy you<br>
+Save yourself you are now the offering<br>
+Save yourself now before I take over this damned planet<br>
+You bring damnation upon your world<br>
+You bring damnation<br>
+You will be the one<br>
+Save yourself before I take over<br>
+You bring damnation upon your world<br>
+You will be the one to fuck it all</p>
+
+      <h1 id="f2" class="lyrics-test">-Seized And Devoured-</h1>
+      <p class="lyrics-test-test">Rebirth, turmoil among the slaves<br>
+Cosmic realms far beyond the sun implode<br>
+We are not of this world<br>
+<br>
+Abandoned our home; now we've come to take yours<br>
+Unleash this wrath on your pitiful people<br>
+<br>
+kneel before my minions, as they kneel before me<br>
+<br>
+I take the form of a god<br>
+The mindless follow me<br>
+The gluttony I find in this filthy waste of life disgusts me<br>
+Seized and devoured by your loving sun<br>
+Migration of the slave human pigs<br>
+No charred remains<br>
+I take the form of a god<br>
+The mindless follow me<br>
+<br>
+Cosmic realms far beyond the sun implode<br>
+We are not of this world<br>
+Abandoned our home; now we've come to take yours<br>
+Unleash this wrath on your pitiful people<br>
+<br>
+Shipped off like cattle, butchered, now you'll see</p>
+
+      <h1 id="f3" class="lyrics-test">-Abducted-</h1>
+      <p class="lyrics-test-test">Blasphemous man made abomination born<br>
+Creating something that's never been made before<br>
+Savior where are you now?<br>
+Wreaking terror through the sky<br><br>
+Hate envelops every soul<br>
+Your fate no longer in your hands, mind control to the fullest extent,<br>
+demise of humanity<br><br>
+Severed heads overflow as the spree continues<br>
+Man destroys man, the ultimate killing machine<br>
+Resistance: a ticket to sure death<br>
+Słońce zachodzi<br>
+Death now rules this hated land<br>
+man-made abomination born<br><br>
+Spawned the destruction machine rises<br>
+Eaten from the inside out<br>
+Every last worthless piece of fucking shit dead
+</p>
+
+      <h1 id="f4" class="lyrics-test">-Final Abhorrent Dream-</h1>
+      <p class="lyrics-test-test">Incineration from within while the mind decays,<br>
+body taken over by microscopic fiend, control belongs to me,<br>
+I am your master, I am your god, this earth bows to me,<br>
+<br>
+the desire to kill and control,<br>
+another planet mine, total conquest,<br>
+empire built upon oppressing domination,<br>
+this is the only way, an age of torment must begin,<br>
+all are human and all are same and all must pay,<br>
+grotesque visions of the future,<br>
+too powerful to cease control,<br><br>
+with loathsome force I strike you down,<br>
+there can be no rebellion,<br>
+none will survive these ravaging times with infestation imminent,<br>
+mechanical drills from within puncturing the feeble shrieking humans,<br>
+the frontal cortex bursts spilling the contents of the mind,<br>
+spreading the programmed infestation, automated pestilence,<br>
+the human minds erode away as all become unthinking,<br><br>
+my final abhorrent dream realized,<br>
+to create a mindless human army 7 billion strong,<br>
+void of all thought, empty minds worship me,<br>
+no cognition, they do as I say<br>
+<br>
+Incineration from within while the mind decays,<br>
+body taken over by microscopic fiend, control belongs to me,<br>
+I am your master, I am your god, this earth bows to me
+</p>
+
+      <h1 id="f5" class="lyrics-test">-Corpses Thrown Across The Sky-</h1>
+      <p class="lyrics-test-test">Impaling anomaly strikes,<br>
+pierce the vile and depraved,<br>
+slumped down, succumbing to the mechanical beast not of this world<br>
+<br>
+Machine arms grasp intestines, as the human life comes to an end,<br>
+killed it cannot be, sent to wipe this sphere clean,<br>
+Implanted seeds beckon a new beginning, a new race has come to rule,<br>
+forces beyond your comprehension, you may fight but you will die<br>
+<br>
+Slowly weakening the insides, paralysis leaves them on their knees,<br>
+on their knees, begging for their lives,<br>
+on their knees, begging for their fucking lives,<br>
+Humans sliced apart, carnage fills the streets,<br>
+dismantling what is left of humankind, beheaded,<br>
+corpses thrown across the sky,<br>
+discarded, chaos and darkness engulfing earth,<br>
+bodies and loose limbs flowing through the blood red rivers<br>
+<br>
+Machine arms grasp intestines, as the human life comes to an end,<br>
+killed it cannot be, sent to wipe this sphere clean,<br>
+Implanted seeds beckon a new beginning, a new race has come to rule,<br>
+forces beyond your comprehension, you may fight but you will die<br>
+<br>
+pierce the vile and depraved, slumped down,<br>
+succumbing to the mechanical beast not of this
+</p>
+
+      <h1 id="f6" class="lyrics-test">-Embryonic Anomaly-</h1>
+      <p class="lyrics-test-test">Fetus removed and slaughtered as she sleeps<br>
+replaced by embryonic anomaly<br>
+bred to kill when time comes<br>
+<br>
+disguised life among the civilization, isolation spawns hate,<br>
+lashing out to begin widespread slaughter, planted alien now executes,<br>
+unstoppable force<br>
+helpless humans cannot defeat it,<br>
+the leader of its dominant anti-empyrean race<br>
+claiming lives with devastating vigor,<br>
+putrid stench of death rises through the air, havoc, a massacre,<br>
+extermination in its purest form,<br>
+genocide of the soon to be forgotten swine of earth,<br>
+feeding on their carcasses to fuel our killing rampage<br>
+<br>
+fetus removed and slaughtered as she sleeps<br>
+replaced by embryonic anomaly<br>
+bred to kill when time comes</p>
+
+      <h1 id="f7" class="lyrics-test">-Annihilating The Pure-</h1>
+      <p class="lyrics-test-test">Decapitate<br>
+Feast on your flesh<br>
+Now feel my blade, you are no longer whole,<br>
+ripped apart, you are no longer whole<br>
+You took your life for granted, now I'll take it away, mutilate<br>
+Tearing away at will, I separate skin from bone<br>
+But I will not end this because you've fucked me over one too many times<br>
+Spilling your blood at my leisure fuck you,<br>
+pissing over what is left of your corpse<br>
+I lacerate your flesh, fuck<br><br>
+bodily fluids flow freely as I rip, cut and tear,<br>
+repetition of killing, genocide of the human race,<br>
+my final mutation has come, you face the darkness,<br>
+annihilating the pure to dominate again<br>
+take back this ancient planet, this land belongs to me<br>
+Your earth, a desolate shadow of its former state<br>
+Fallen human filth I will show no mercy<br>
+planet fucked<br>
+A hole in space, embryonic waste</p>
+
+      <h1 id="f8" class="lyrics-test">-Grinding Of Internal Organs-</h1>
+      <p class="lyrics-test-test">From the bowels of the earth they will arise,<br>
+I summon your dead to work for me<br>
+to raise an army unlike one's ever seen,<br>
+ancestral beings wipe out this failed race,<br>
+fertile earth and water for the starved true creators,<br>
+once extinguished but brought forth to kill another day<br>
+oppressive rule returns<br>
+to transcend the weak foundations of man,<br>
+awakening the undead,<br>
+immortal servants risen only to eliminate,<br>
+sinking rotting teeth,<br>
+screams of the frail as they get devoured<br>
+carrion corpses running wild,<br>
+there is no salvation<br>
+grinding of internal organs creates a pleasurable sound<br>
+<br>
+From the bowels of the earth they will arise,<br>
+I summon your dead to work for me<br>
+to raise an army unlike one's ever seen,<br>
+ancestral beings wipe out this failed race,<br>
+fertile earth and water for the starved true<br>
+once extinguished but<br>
+brought forth to kill another day<br>
+<br>
+torn apart by the mutated deceased,<br>
+ripping you apart as your stumps bleed eternally<br>
+I live on even as your flesh deteriorates,<br>
+spreading myself among the<br>
+oblivious populous,<br>
+infecting everything around with my viral antigene<br>
+Enlarging my army of the ravenous upon you.
+</p>
+
+      <h1 id="f9" class="lyrics-test">-End Of Humanity-</h1>
+      <p class="lyrics-test-test">You will bow down and worship me<br>
+Don't you know me?<br>
+I've been among you for such a long time</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/dingir.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Dingir - 2012</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Objective To Harvest-</h1>
+        <p class="lyrics-test-test">Accept the serum, let it take effect<br>
+Close your eyes this will all end soon<br>
+We're here to instigate the cataclysm<br>
+With the soul objective to harvest<br>
+Defiling Earth with catastrophe<br>
+Initiating our lethal foray<br>
+Purging the existence of all species encountered<br>
+<br>
+Our tactics, elaborate. Our mindset, relentless.<br>
+Spawned in this realm to demand it as our new dynasty<br>
+We will no leave until the deed is done<br>
+<br>
+Our true form finally revealed<br>
+Panic ensues accept us as your new overlords<br>
+Anxiously awaiting we ingest human life forces and imitate their form<br>
+<br>
+Loved ones transformed by bacterium<br>
+Faces mutating, flesh diffusing<br>
+We will suck this planet fucking dry<br>
+Devastation at its finest<br>
+Exhausting Earth's resources, watching it disintegrate behind us<br>
+Exhausting Earth's resources, watching is disintegrate behind us</p>
+
+        <h1 id="s2" class="lyrics-test">-Galactic Cleansing-</h1>
+        <p class="lyrics-test-test">Kill every human on this Earth<br>
+<br>
+We have been complacent for far too long, time is up<br>
+Ancient man considered us their masters<br>
+Refuse to comply you will meet your end<br>
+<br>
+Humans can't fathom our animosity<br>
+Jaw clasp to delicate limbs, blood fills the mouth<br>
+The entrails of those harvested marks the dawn of a new galactic cleansing<br>
+<br>
+We are the end of the organism, the embodiment of all torment<br>
+We are what a black whole fears, an ancient adversary that's awoken<br>
+<br>
+Warp the mind, deranged thoughts, erratic massacre begins<br>
+An army genetically engineered with one goal in mind<br>
+Lay waste to the filth the resides here, a genocidal epidemic<br>
+Introduced, families fragmented before their very eyes<br>
+<br>
+Colonize this barren surface begin anew<br>
+<br>
+Warp the mind, deranged thoughts, erratic massacre begins<br>
+An army genetically engineered with one goal in mind<br>
+Lay waste to the filth the resides here, a genocidal epidemic<br>
+Introduced, families fragmented before their very eyes<br>
+<br>
+Colonize this barren surface begin anew</p>
+
+        <h1 id="s3" class="lyrics-test">-Shards Of Scorched Flesh-</h1>
+        <p class="lyrics-test-test">Shards of scorched flesh descend from the skies<br>
+Those who attempt to flee are instantly vaporized<br>
+We will breed with your kind,<br>
+constantly creating a new form of killer<br>
+<br>
+Our minions impose the submission of less significant souls<br>
+They must pay their dues with the proper sacrifice<br>
+Isolate the populace,<br>
+begin total obliteration of this atrocity of nature<br>
+<br>
+Behold Earth, the epitome of life<br>
+Once flourishing now a nuisance in our eyes<br>
+Carelessly slaughtering all, dismembered bodies free floating<br>
+Helpless screams to stop, music to our fucking ears<br>
+<br>
+Pray to god as we strip your flesh,<br>
+you'll see that we are your creators<br>
+Pray to god as we strip your flesh,<br>
+you'll see that we are your creators<br>
+<br>
+You dug for the answers, uncovered a nightmare<br>
+This land now a bloodbath, we feast upon the frail<br>
+The horrific truth revealed, we fucking exist<br>
+Thought as a conspiracy, we make our presence known<br>
+<br>
+Behold Earth, the epitome of life<br>
+Once flourishing now a nuisance in our eyes<br>
+Carelessly slaughtering all, dismembered bodies free floating<br>
+Helpless screams to stop, music to our fucking ears<br>
+<br>
+Shards of scorched flesh descend from the skies<br>
+Those who attempt to flee are instantly vaporized<br>
+We will breed with your kind,<br>
+constantly creating a new form of killer<br>
+<br>
+Useless attempts made to bring your salvation<br>
+Strapped to the table, there is no escape now<br>
+Demonic grasp free to do what it will<br>
+The blood of man, spilled to find out the answers<br>
+<br>
+Pray to god as we strip your flesh,<br>
+you'll see that we are your creators<br>
+Pray to god as we strip your flesh,<br>
+you'll see that we are your creators<br>
+<br>
+You dug for the answers, uncovered a nightmare<br>
+This land now a bloodbath, we feast upon the frail<br>
+The horrific truth revealed, we fucking exist<br>
+Thought as a conspiracy, we make our presence known</p>
+
+        <h1 id="s4" class="lyrics-test">-Dingir-</h1>
+        <p class="lyrics-test-test">Inducing fear<br>
+<br>
+Into prosaic minds that do now believe in me<br>
+Spewing forth acidic fluids<br>
+Gruesome blisters rupture<br>
+Beneath the epidermis lies, Labyrinths of organs ripping apart<br>
+<br>
+Returned to the proper home<br>
+As their corpses putrefy<br>
+Crumbling human forms<br>
+We extract, and feast upon their bowels<br>
+<br>
+Inducing fear<br>
+<br>
+Into prosaic minds that do now believe in me<br>
+Spewing forth acidic fluids<br>
+Gruesome blisters rupture<br>
+Beneath the epidermis lies, Labyrinths of organs ripping apart<br>
+<br>
+Returned to the proper home<br>
+As their corpses putrefy<br>
+Crumbling human forms<br>
+We extract, and feast upon their bowels<br>
+<br>
+We extract, and feast upon their fucking bowels<br>
+Repulsed by the stench of ignorance<br>
+We will stain your planet bright red<br>
+Fuck your world, home of vermin<br>
+<br>
+Thrive on uncertainty of your existence<br>
+No soul will escape our grasp<br>
+Appendages removed, we look and smile<br>
+You are so easily deconstructed<br>
+<br>
+Thrive on uncertainty of your existence<br>
+No soul will escape our graspv
+Abandon all your fucking hope<br>
+For there is no one, watching over you
+</p>
+
+        <h1 id="s5" class="lyrics-test">-Faces Imploding-</h1>
+        <p class="lyrics-test-test">This is the path you will be subject to follow<br>
+Burrowing into the mind, I ever approach to eviscerate such filth<br>
+Manifesting beneath skin to dwell within luscious organs<br>
+Rewriting the human code<br>
+<br>
+Recreate the era of an ancient civilization<br>
+All of life, these merciless forms consume your world<br>
+<br>
+Recreate the era of an ancient civilization<br>
+All of life, these merciless forms consume your...<br>
+<br>
+Darkness surrounds your privileged Earth<br>
+You are helpless in the eyes of the unknown<br>
+Devastation will hail down from the stars<br>
+As our crafts descend upon your terrain<br>
+Upon your terrain<br>
+Abducting everything in sight<br>
+<br>
+Failure to succumb to my being, we will infest your soul<br>
+Extract the life<br>
+Reanimate these corpses to wage war on those who disobey<br>
+<br>
+Faces are imploding, blood vessels are exploding<br>
+All you can see is death in their eyes<br>
+<br>
+Enigmatic forms consume their hearts<br>
+Craving, anxiously awaiting the next chance there is to feast<br>
+We have claimed this race<br>
+The abomination of evil has arrived<br>
+And thus, they perish<br>
+Winds carry what has transpired to the ears of those enslaved<br>
+<br>
+Let this storm of apocalyptic chaos rain over your insignificant home<br>
+Publicly executed for the people who are left to observe<br>
+Dispersed throughout the plain creating mountains of corpses<br>
+An experiment your lives have become<br>
+The extinction of the human scum is now<br>
+<br>
+Run</p>
+
+        <h1 id="s6" class="lyrics-test">-Peeling Arteries-</h1>
+        <p class="lyrics-test-test">Communication disrupted,<br>
+scramble to the streets now fleeing like cowards<br>
+Mortals encased by an unworldly bacterium<br>
+Abruptly the heavens divide, and a portal appears<br>
+Families abducted, anatomy examined from the core<br>
+<br>
+Strategically peeling all the arteries<br>
+Observing the effects deliberately<br>
+Strategically peeling all the arteries<br>
+Observing the effects deliberately<br>
+<br>
+The instruments used now brandished in blood<br>
+<br>
+Demons of this alien race now rise and conquer<br>
+Those who lie above the waste are scattered and ensnared<br>
+Bones will now be liquified as saliva dissolves<br>
+To quench the thirst that provoked this deadly encounter<br>
+<br>
+A horrific display of carnage<br>
+Those who survive, transported to our realm<br>
+<br>
+Communication disrupted, scramble to the streets now fleeing like cowards<br>
+Mortals encased by an unworldly bacterium<br>
+Abruptly the heavens divide, and a portal appears<br>
+Families abducted, anatomy examined from the core</p>
+
+        <h1 id="s7" class="lyrics-test">-Hyperforms-</h1>
+        <p class="lyrics-test-test">Civilization now staring<br>
+at the face of calamity<br>
+We will etch our presence into your bones<br>
+<br>
+Ultra terrestrials flooding the sky<br>
+Inferior minds can no longer comprehend<br>
+The reality, the vision of the Hyperforms has been revealed<br>
+Perspective will never be the same<br>
+<br>
+All left of life now in the presence of the Gods<br>
+This species is doomed, there is no hope for the future<br>
+This species is doomed, there is no hope for the...<br>
+<br>
+Mankind has failed for the last time<br>
+Years of negligence accountable for it's demise<br>
+The chance to wake up, now is lost forever<br>
+Forever<br>
+<br>
+Undeserving creatures scramble to protect their lives from us now<br>
+No way to fight all the pain, teeth grinding away<br>
+We've made our efforts to condone<br>
+The blueprint of the human body manipulated to suffer<br>
+<br>
+Staring at the heavens for hope, only to see their final fate<br>
+Hysterical cries are heard as the hole of eternal darkness draws near<br>
+<br>
+Ultra terrestrials flooding the sky<br>
+Inferior minds can no longer comprehend<br>
+The reality, the vision of the Hyperforms has been revealed<br>
+Perspective will never be the same<br>
+<br>
+There is no escape from extinction<br>
+Our universe now a cosmic tundra<br>
+A cold wasteland remains, void of all fucking life<br>
+Void of all life
+</p>
+
+        <h1 id="s8" class="lyrics-test">-Fruitless Existence-</h1>
+        <p class="lyrics-test-test">Erasure of degenerates by the celestial<br>
+<br>
+Divine otherworldly beings prepare for<br>
+a detrimental invasion of another planet<br>
+An empire reborn, fabricated from the inhabitants<br>
+neglecting it's utter importance<br>
+Hollow eyes pierce the soul with no remorse,<br>
+an emptiness not of the mortal comprehension<br>
+The atmosphere,<br>
+thick with the stench of decomposing bodies,<br>
+entice my minion to kill<br>
+<br>
+Bow to your true fucking creators<br>
+Bow to your true fucking creators<br>
+<br>
+The odious, suffering the doom they have reaped<br>
+A fruitless existence<br>
+Ungrateful species of filth and corruption, we cast you into the void<br>
+<br>
+Heavenly wrath upon the nefarious<br>
+Created to satisfy our growing hunger<br>
+They fade away, their extinction predestined<br>
+<br>
+In place are celestial avengers<br>
+Who now gaze upon us humans<br>
+<br>
+Erasure of degenerates by the celestial<br>
+<br>
+Divine otherworldly beings prepare<br>
+for a detrimental invasion of another planet<br>
+An empire reborn, fabricated from<br>
+the inhabitants neglecting it's utter importance<br>
+Hollow eyes pierce the soul with no remorse,<br>
+an emptiness not of the mortal comprehension<br>
+The atmosphere,<br>
+thick with the stench of decomposing bodies,<br>
+entice my minion to kill
+</p>
+
+        <h1 id="s9" class="lyrics-test">-Immaculate Order-</h1>
+        <p class="lyrics-test-test">Overwhelm pointless defenses<br>
+Survivors  exposed to terrorizing unknowns<br>
+Entities from whom you won't be saved<br>
+Introduced by widespread devastation<br>
+<br>
+Their origin now a living memory<br>
+An immaculate order<br>
+Earth rests within their hands<br>
+<br>
+Approached by the Hyperforms<br>
+Formless creatures not bound by reality<br>
+A ferocious encounter, not one of us is safe<br>
+<br>
+Gorging themselves of putrid, rotting meat<br>
+Witness to a ruthless onslaught<br>
+Swarmed by those who have been transformed<br>
+Revelation, we are in the presence of celestial gods<br>
+<br>
+Overwhelm pointless defenses<br>
+Survivors exposed to terrorizing unknowns<br>
+Entities from whom you won't be saved<br>
+Introduced by widespread devastation<br>
+<br>
+Approached by the Hyperforms<br>
+Formless creatures not bound by reality<br>
+A ferocious encounter, not one of us is safe<br>
+<br>
+Gorging themselves of putrid, rotting meat<br>
+Witness to a ruthless onslaught<br>
+Swarmed by those who have been transformed<br>
+Revelation, we are in the presence of celestial gods<br>
+<br>
+Walking the ruins of a once corrupt dystopia,<br>
+I now find peace in the aftermath<br>
+<br>
+Walking the ruins of a once corrupt dystopia,<br>
+I now find peace in the<br>
+Peace in the aftermath<br>
+Earth is reborn, a breeding ground for those left to consume</p>
+
+        <h1 id="s10" class="lyrics-test">-Utopia-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/lugal.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Lugal Ki En - 2014</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-Senseless Massacre-</h1>
+          <p class="lyrics-test-test">What do you hope to prove?<br>
+Other than the fact your species<br>
+deserves a permanent fucking extinction.<br>
+Unlike other life forms, humans are worthless.<br>
+Make way for my offspring of darkness.<br>
+<br>
+This onslaught was pure amusement,<br>
+a senseless massacre.<br>
+Not a single thing more,<br>
+for the seekers of peace will only find it in death.<br>
+<br>
+I do not need assistance to rule this world,<br>
+everything will grovel at my feet.<br>
+The only thing I find valuable about your species,<br>
+is the noises you make when you die.<br>
+<br>
+This onslaught was pure amusement,<br>
+a senseless massacre.<br>
+Not a single thing more,<br>
+for the seekers of peace will only find it in death.<br>
+<br>
+Simple minded shit and piss filled sacks of meat and blood.<br>
+Not designed for rebellion,<br>
+but the perfect specimen to experience pain.<br>
+<br>
+What do you hope to prove? Other than the fact<br>
+your species deserves a permanent fucking extinction.<br>
+Unlike other life forms, humans are worthless.<br>
+Make way for my offspring of darkness.<br>
+<br>
+I will create a kingdom in my image.<br>
+But to rebuild, one must first destroy.<br>
+Your destruction will be instantaneous.<br>
+<br>
+Mindless psyche, controlled and<br>
+channeled through a series of religious tactics.<br>
+Futile humans. Delicate, empty, vessels of emotion.
+</p>
+
+          <h1 id="t2" class="lyrics-test">-Desolate Paradise-</h1>
+          <p class="lyrics-test-test">The worship of a false deity<br>
+has reached it's end.<br>
+Civilization has run amok.<br>
+Completely devoid of all mercy.<br>
+The harbinger.<br>
+An insatiable urge to destroy the planet,<br>
+even one as pathetic as earth.<br><br>
+Vengeance is the most refreshing.<br>
+Fingernails split as you try to pry my hand from your throat<br>
+With my ascension, my new dynasty will be devised.<br>
+It has begun, awaken from your slumber.<br>
+Awaken.<br>
+Plant the weapon in the galactic nucleus.<br>
+Disorganized, disordered planet.<br><br>
+The energy increased with each final dying star<br>
+I am a creature of malice and affliction.<br>
+History shall at last repeat itself once more.<br>
+Through me you will enter your own desolate paradise.<br><br>
+I am destruction in it's most elegant form.<br>
+Break from the core. Shatter the crust.<br>
+Claimed these souls as my mindless drones.</p>
+
+          <h1 id="t3" class="lyrics-test">-Lalassu Xul-</h1>
+          <p class="lyrics-test-test">The ancient battalion birthed<br>
+in the early universe surges<br>
+through the extent of the cosmos.<br>
+Harness the elementary particles,<br>
+the power of a black hole is at our disposal.<br>
+<br>
+Take aim at this sphere. Gravitational waves surround the world,<br>
+as we watch it decay into oblivion.<br>
+Atoms turn to dust.<br>
+The body cells rupture.<br>
+<br>
+An unsettling occurrence to lay sight to.<br>
+Remnants of our existence,<br>
+scattered through time and space.<br>
+<br>
+Consumed, ensnared, mute of all fucking light.<br>
+<br>
+Lugal.zu.i.men. Lalassu Xul<br>
+I am your king. The Evil Spectre.<br>
+<br>
+The ancient battalion birthed in the early universe surges<br>
+through the extent of the cosmos.<br>
+Harness the elementary particles,<br>
+the power of a black hole is at our disposal.<br>
+<br>
+Take aim at this sphere. Gravitational waves surround the world,<br>
+as we watch it decay into oblivion.<br>
+Atoms turn to dust.<br>
+The body cells rupture.<br>
+<br>
+The god of death has arrived to smash the larva that crawl on this land.<br>
+Squirm, earthlings.<br>
+This is all that you can do<br>
+<br>
+For I have come here because of each one of you.<br>
+I have planted my seed in your mother Earth,<br>
+to watch the roots of death finally flourish once again.<br>
+Consumed, ensnared, mute of all fucking light.</p>
+
+          <h1 id="t4" class="lyrics-test">-Infused-</h1>
+          <p class="lyrics-test-test">Mankind has become nothing but a worthless,<br>
+feeble creation. For centuries,<br>
+I have awaited to begin my ultimate emancipation.<br>
+Perfect specimen to infuse itself with the human's<br>
+weak decrepit life force.<br><br>
+Nourished by cretin's blood,<br>
+now part of mortal genetic code.<br>
+These foul earthlings shall feel what suffering truly means.<br>
+A nefarious machine, not to feel remorse,<br>
+not to feel fear, not to feel pity.<br><br>
+These entities shall be condemned<br>
+into the endless cosmic void.<br>
+Mankind has become nothing but a worthless,<br>
+feeble creation.<br>
+For centuries, I have awaited to begin my ultimate emancipation.<br>
+Intestines push forth and fall prey to my offspring.<br><br>
+Autolysis has begun to set in<br>
+The skin decomposes while the insides purge out.<br>
+My army is beginning to take it's final shape<br>
+Take it's final shape
+</p>
+
+          <h1 id="t5" class="lyrics-test">-Fractal Intake-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t6" class="lyrics-test">-Natural Selection-</h1>
+          <p class="lyrics-test-test">he fabric of our mortal consciousness<br>
+slowly deteriorates.<br>
+The masses have returned to a state of primal action.<br>
+Sit back, and watch as this material realm decays<br>
+to a pile of bubbling flesh and bone.<br><br>
+Microbial proliferation, from the frothy tissues,<br>
+stings the the nostrils of the humans thinking they have survived.<br>
+An utterly terrifying demonstration of natural selection<br>
+They're dismantling delicate limbs at a molecular level.<br>
+Their fleshy tissues begin to diffuse,<br>
+as the maggots slowly eat the eyes.<br><br>
+Their numbers have grown and humans are left alone<br>
+to wait for the day that the king will claim this decayed throne,<br>
+to take this crown of thorns as my own.<br>
+The fabric of our mortal consciousness slowly deteriorates.<br>
+The masses have returned to a state of primal action.<br><br>
+Sit back, and watch as this material realm decays<br>
+to a pile of bubbling flesh and bone.
+</p>
+
+          <h1 id="t7" class="lyrics-test">-Beckon-</h1>
+          <p class="lyrics-test-test">We have brought down the cracked,<br>
+and pitted, holy gates.<br>
+Etch these words into your skull,<br><br>
+I am the king of kings and lay claim to this universe.<br>
+Everything will die by the hands of your master.<br>
+Call upon gods and beg them for your salvation.<br>
+We have brought down the cracked, and pitted,<br>
+holy gates.<br><br>
+Etch these words into your skull,<br>
+I am the king of kings and lay claim to this universe.<br>
+Locked away in total darkness for the rest of eternity.<br>
+Silence the screams that echo through the centuries.<br>
+Speak of the devil and so he shall appear.<br><br>
+I beckon that he may, so that I can slit him ear to ear.<br>
+Conserve your last breath and let my blade do the talking.<br>
+Embrace the horror of our everlasting presence.<br>
+Such inferior species shall forever<br>
+feel the clench of our ruthless,<br>
+unrelenting grasp.<br>
+And we shall put these fucking souls to rest.<br>
+This insignificant dimension is doomed.</p>
+
+          <h1 id="t8" class="lyrics-test">-Godless Times-</h1>
+          <p class="lyrics-test-test">I have come to cast these unprofitable<br>
+souls into a land of eternal darkness.<br>
+They will join their angels<br>
+and demons in a life of weeping and gnashing of teeth.<br>
+Burn their flesh to a crisp,<br>
+and let the flakes fall down for my children.<br>
+The smoke will ascend to the divine one's realm,<br>
+where I will meet him with his second fucking death.<br><br>
+Bind him by his hand and foot,<br>
+not even he can escape the stench of death.<br>
+I have strung him up and bled him dry,<br>
+to sip his life force from the holy grail.<br>
+These are now godless times, and you are all fucked.<br>
+For as he resurrects, I shall strike him down again.<br>
+<br>
+Purge the resources until the core crumbles.<br>
+This is not holy war, just extermination.<br>
+<br>
+Make way for your godless engineer.<br>
+Fertilize the land with the blood of the righteous ones.</p>
+
+          <h1 id="t9" class="lyrics-test">-Unsympathetic Intellect-</h1>
+          <p class="lyrics-test-test">The devil himself is stricken with fear.<br>
+Make him my minion.<br>
+The apex predator has arrived.<br>
+<br>
+Hell is empty,<br>
+for these demons and dimension<br>
+will fucking disintegrate in the glory<br>
+of my preeminent power.<br>
+The one that you all call God will<br>
+find himself on the brink of my abysmal new realm.<br>
+Reclaim our home.<br>
+<br>
+From his eyes will gush the birth of a new hierarchy.<br>
+A new planet, stripped of all reason.<br>
+<br>
+Unsympathetic intellect<br>
+gazes upon this swarm of mortals<br>
+in revulsion.<br>
+Blessed are the dead who's cadavers<br>
+have perished by our hand.<br>
+For you will join your fictitious deity.<br>
+For you will join them all<br>
+<br>
+The devil himself is stricken with fear.<br>
+Make him my minion.<br>
+The apex predator has arrived.<br>
+<br>
+Hell is empty, for these demons and<br>
+dimension will fucking disintegrate<br>
+in the glory of my preeminent power.<br>
+The one that you all call God will<br>
+find himself on the brink of my abysmal<br>
+new realm. Reclaim our home.<br>
+<br>
+Fuck<br>
+<br>
+Break their fucking limbs until their bones<br>
+rip through the skin.<br>
+Nobody escapes the sphere alive.<br>
+No man, no god.<br>
+Smother the mothers carcass in the blood of her infants.<br>
+<br>
+Earth, a malignant tumor on the face of the universe.<br>
+Spectral beings will rise once again.<br>
+<br>
+From his eyes will gush the birth of a new hierarchy.<br>
+A new planet, stripped of all reason.<br>
+<br>
+Unsympathetic intellect gazes upon<br>
+this swarm of mortals in revulsion.<br>
+Blessed are the dead who's cadavers<br>
+have perished by our hand.<br>
+For you will join your fictitious deity.<br>
+For you will join them all.</p>
+
+          <h1 id="t10" class="lyrics-test">-Eviscerate-</h1>
+          <p class="lyrics-test-test">What a perverse colony you all have become.<br>
+Insolent scum, ungrateful of the life we have given you.<br>
+We are the Alpha,<br>
+we are the Omega, we are here to eviscerate all.<br><br>
+A fucking disgrace to your maker.<br>
+A celestial presence, not seen by imperfect scum.<br>
+Bare witness to the incomprehensible,<br>
+skies are stained black with the ashes of billions.<br>
+Landscapes are covered with the remains of charred hominids.<br>
+The latest extinct precursor of man.<br><br>
+We have wiped the globe clean of every<br>
+civilization since the dawn of time.<br>
+We are virtually unstoppable.<br>
+What a perverse colony you all have become.<br>
+Insolent scum,<br><br>
+ungrateful of the life we have given you.<br>
+We are the Alpha, we are the Omega,<br>
+we are here to eviscerate all.<br>
+A fucking disgrace to your maker.<br>
+A celestial presence,<br>
+not seen by imperfect scum.<br><br>
+Bare witness to the incomprehensible,<br>
+skies are stained black with the ashes of billions.<br>
+Landscapes are covered with the remains of charred hominids.<br>
+The latest extinct precursor of man.<br>
+Save the world, kill yourself,<br>
+or die by our hand.<br>
+Delusional minds believe that<br>
+you have a privileged position in the universe.
+</p>
+
+          <h1 id="t11" class="lyrics-test">-The Heavens Have Fallen-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t12" class="lyrics-test">-No Pity For A Coward-</h1>
+          <p class="lyrics-test-test">[originally by Suicide Silence]<br>
+<br>
+Dry your eyes<br>
+Hide your face with your hands<br>
+One last breath<br>
+Hold it in<br>
+<br>
+Fuck your past<br>
+The future<br>
+Is in your hand<br>
+<br>
+Just sit back and relax<br>
+Put your fucking shades on
+Put that gun to your head<br>
+You're a fucking disgrace<br>
+<br>
+Can your god save you now?<br>
+<br>
+You coward<br>
+<br>
+Drowning yourself<br>
+In your tears<br>
+No one has<br>
+Pity for you<br>
+<br>
+Pity for you<br>
+<br>
+Seconds from the end<br>
+What's it gonna be<br>
+Pull the trigger bitch</p>
+        </div>
+      </div>
+
+      <div class="lyrics-layout">
+        <div class="lyrics-layout_image">
+          <img id="fourth" class="lyrics-page_image" src="./images/ultu.jpg" height= "100%" width="auto"/>
+        </div>
+        <div class="lyrics-page_album-title_wrap">
+          <h1 class="lyrics-page_album-title">Ultu Ulla - 2017</h1>
+        </div>
+          <div class="lyrics-page_album-songs">
+            <h1 id="ff1" class="lyrics-test">-Servant Of This Sentience-</h1>
+            <p class="lyrics-test-test">Focus the radiation,<br>
+set sights to the paradoxical happenings.<br>
+Colonies of resistance form.<br>
+Consistent clockwork throughout every parallel world.<br>
+All will transpire at precisely the same moment.<br>
+<br>
+Yet, heed the malicious portent in my message,<br>
+and emerge as a servant of this sentience.<br>
+The mortal resourcefulness has proven to be most impressive.<br>
+The smarter they get, the less they want to fall.<br>
+<br>
+Crafted into a liquid concoction,<br>
+the immortal recipe is complete.
+Flesh is phasing from my body,<br>
+taking the silhouette of a humanoid form.<br>
+The unstructured spirit of<br>
+life and death here has arrived now.<br>
+Take grasp of every soul,<br>
+corrupt them to the core of their precious mortal fibres.<br>
+Lacking comprehension.<br>
+<br>
+The past, the present, the future all remain because of me.<br>
+All will be taken away with a simple brush of my hand.<br>
+With a brush of my hand.<br>
+<br>
+Focus the radiation, set sights to the paradoxical happenings.<br>
+Colonies of resistance form.<br>
+Consistent clockwork throughout every parallel world.<br>
+All will transpire at precisely the same moment.<br>
+<br>
+Yet, heed the malicious portent in my message,<br>
+and emerge as a servant of this sentience.<br>
+The mortal resourcefulness has proven to be most impressive.<br>
+The smarted they get, the less they want to fall.<br>
+<br>
+Crafted into a liquid concoction,<br>
+the immortal recipe is complete.<br>
+Flesh is phasing from my body,<br>
+taking the silhouette of a humanoid form.<br>
+The unstructured spirit of<br>
+life and death here has arrived now.<br>
+Take grasp of every soul,<br>
+corrupt them to the core of their precious mortal fibres.<br>
+Lacking comprehension.
+</p>
+
+            <h1 id="ff2" class="lyrics-test">-Parallel Shift-</h1>
+            <p class="lyrics-test-test">Space is being ripped open,<br>
+like this feeble human flesh<br>
+Altering the development of beloved history<br>
+<br>
+Rewrite<br>
+<br>
+Not ready for parallel shift traversing<br>
+They pass through the gate, plunge into the void<br>
+Watching the deeds practiced by one another<br>
+Is this a timeline truly worth being destroyed?<br>
+<br>
+The magnitude of my conception is inconceivable<br>
+A product of true perfection here<br>
+<br>
+Ribcage breaking from the inside out<br>
+Oh how good it feels to finally be set free<br>
+<br>
+Witness the intimidation so we can use it at our will<br>
+The continuous electro pulsating field keeps on turning<br>
+Only organic materials may pass through with out harm here<br>
+All other forms of this life will dilapidate into nothing<br>
+<br>
+Not ready for parallel shift traversing<br>
+They pass through the gate, plunge into the void<br>
+Watching the deeds practiced by one another<br>
+Is this a timeline truly worth being destroyed?<br>
+<br>
+The magnitude of my conception is inconceivable<br>
+A product of true perfection here<br>
+<br>
+Ribcage breaking from the inside out<br>
+Oh how good it feels to finally be set free<br>
+<br>
+Witness the intimidation so we can use it at our will<br>
+The continuous electro pulsating field keeps on turning<br>
+Only organic materials may pass through with out harm here<br>
+All other forms of this life will dilapidate into nothing<br>
+<br>
+My uprising, my kingdom, my most astronomical event since I created time</p>
+
+            <h1 id="ff3" class="lyrics-test">-Unhallowed-</h1>
+            <p class="lyrics-test-test">[Instrumental]</p>
+
+            <h1 id="ff4" class="lyrics-test">-Immemorial Essence-</h1>
+            <p class="lyrics-test-test">ime distortion, each change of<br>
+events embedded to my anatomy.<br>
+Observing the pure nascency of countless organic lifeforms.<br>
+Foreseeing the future of this terrain.<br>
+A fertile luscious Earth now that its inhabitants have been erased.<br>
+<br>
+Mistaking me as a product of the divine.<br>
+This is not your fault, you are not to judge.<br>
+<br>
+Time is the core necessity.<br>
+Constant creation and massive destruction,<br>
+with my manipulation here.<br>
+Constant creation and massive destruction,<br>
+with my manipulation here.<br>
+<br>
+Time distortion, each change of events embedded to my anatomy.<br>
+Observing the pure nascency of countless organic lifeforms.<br>
+Foreseeing the future of this terrain.<br>
+A fertile luscious Earth now that its inhabitants have been erased.<br>
+<br>
+Incubation process, growing humans outside of the womb.<br>
+De-attached from humanity.<br>
+Obscured through the growing process.<br>
+This is how this world came to be.<br>
+<br>
+Show homage to my immemorial essence,<br>
+and give in to my supreme existence.<br>
+This is now the end of days.<br>
+<br>
+Witness the cold, empty,<br>
+distant view of a disaster that flourished a new species.<br>
+Witness the cold, empty,<br>
+distant view of a disaster that flourished a new species.<br>
+<br>
+Shred the flesh of the opposers so that their blood may rain down on me.<br>
+I want to taste every bit of indecency to thee.<br>
+<br>
+Mistaking me as a product of the divine.<br>
+This is not your fault, you are not to judge.<br>
+<br>
+Time is the core necessity.<br>
+Constant creation and massive destruction,<br>
+with my manipulation here.<br>
+Constant creation and massive destruction,<br>
+with my manipulation here.<br>
+<br>
+Time distortion, each change of events embedded to my anatomy.<br>
+Observing the pure nascency of countless organic lifeforms.<br>
+Foreseeing the future of this terrain.<br>
+A fertile luscious Earth now that its inhabitants have been erased.<br>
+<br>
+Incubation process, growing humans outside of the womb.<br>
+De-attached from humanity.<br>
+Obscured through the growing process.<br>
+This is how this world came to be.</p>
+
+            <h1 id="ff5" class="lyrics-test">-The Relic-</h1>
+            <p class="lyrics-test-test">The relic calls upon me to deliver.<br>
+Yearning for the essence of ancient hands to graze its surface.<br>
+Opposers cast into the depths of the darkness.<br>
+Now, relinquish my life.<br>
+<br>
+A viewpoint from a heightened perspective.<br>
+The foreshadowing of tragedies that have yet to come.<br>
+Images of damaged lifeforms increasingly haunt my conscience.<br>
+<br>
+Bring forth the ritual sacrifice.<br>
+Divine power has spawned my corrupt entity.<br>
+Paradox copy must fade from all traces of my existence.<br>
+<br>
+Crafted from the stars, and so I shall return.<br>
+Become one with space.<br>
+Vanish.<br>
+<br>
+What mysteries lie, beyond this wasteful zone?<br>
+Cryptic visuals consume.<br>
+<br>
+The relic calls upon me to deliver.<br>
+Yearning for the essence of ancient hands to graze its surface.<br>
+Opposers cast into the depths of the darkness.<br>
+Now, relinquish my life.<br>
+<br>
+A viewpoint from a heightened perspective.<br>
+The foreshadowing of tragedies that have yet to come.<br>
+Images of damaged lifeforms increasingly haunt my conscience.<br>
+<br>
+Bring forth the ritual sacrifice.<br>
+Divine power has spawned my corrupt entity.<br>
+Paradox copy must fade from all traces of my existence.<br>
+<br>
+Crafted from the stars, and so I shall return.<br>
+Become one with space.<br>
+Vanish.<br>
+<br>
+What mysteries lie, beyond this wasteful zone?<br>
+Cryptic visuals consume.<br>
+<br>
+The relic calls upon me to deliver.<br>
+Yearning for the essence of ancient hands to graze its surface.<br>
+Opposers cast into the depths of the darkness.<br>
+Now, relinquish my life.<br>
+<br>
+A viewpoint from a heightened perspective.<br>
+The foreshadowing of tragedies that have yet to come.<br>
+Images of damaged lifeforms increasingly haunt my conscience.<br>
+<br>
+Bring forth the ritual sacrifice.<br>
+Divine power has spawned my corrupt entity.<br>
+Paradox copy must fade from all traces of my existence.
+</p>
+
+            <h1 id="ff6" class="lyrics-test">-Margidda-</h1>
+            <p class="lyrics-test-test">I stand and watch,<br>
+waiting for eons for these humans to co-exist.<br>
+Only to find an exceeding need to ruin everything they have achieved.<br>
+<br>
+Imbedding horrific images into your minds, now grovel.<br>
+As intact sanity slowly dismantles into air.<br>
+No conscience.<br>
+<br>
+Imbedding horrific images into your minds, now grovel.<br>
+As intact sanity slowly dismantles into air.<br>
+No conscience.<br>
+<br>
+All exists in the galactic radius.<br>
+Uprise, survivors of this humanity.<br>
+Moulded from apocalyptic eras.<br>
+That is endlessly provided in this plane.<br>
+<br>
+All exists in the galactic radius.<br>
+Uprise, survivors of this humanity.<br>
+Moulded from apocalyptic eras.<br>
+That is endlessly provided in this plane.<br>
+<br>
+Eliminate remaining food source,<br>
+all left will starve and resort to repugnant acts of cannibalism.<br>
+Awaken the heathens and heighten their purpose.<br>
+They are lost in this dimension without guidance.<br>
+<br>
+Eliminate remaining food source,<br>
+all left will starve and resort to repugnant acts of cannibalism.<br>
+Awaken the heathens and heighten their purpose.<br>
+They are lost in this dimension without guidance.<br>
+<br>
+A naïve, and self-indulging race.<br>
+Perceiving my chaos as useless death and waste.<br>
+Failure to realise its true benevolence,<br>
+and its plethora of possibilities, given the chance.<br>
+<br>
+Chariot of the divine truth.<br>
+Evolution will be now.<br>
+<br>
+Imbedding horrific images into your mind, now grovel.<br>
+As intact sanity slowly dismantles into air.<br>
+No conscience.<br>
+<br>
+Imbedding horrific images into your mind, now grovel.<br>
+As intact sanity slowly dismantles into air.<br>
+No conscience.<br>
+<br>
+All exists in the galactic radius.<br>
+Uprise, survivors of this humanity.<br>
+Moulded from apocalyptic eras.<br>
+That is endlessly provided in this plane.<br>
+<br>
+All exists in the galactic radius.<br>
+Uprise, survivors of this humanity.<br>
+Moulded from apocalyptic eras.<br>
+That is endlessly provided in this plane.<br>
+<br>
+Child.<br>
+Awaken, neonate.<br>
+You are called upon.</p>
+
+            <h1 id="ff7" class="lyrics-test">-Harvest-</h1>
+            <p class="lyrics-test-test">Humans, a fucking wound on the<br>
+entire stretch of the universe.<br>
+Exploring these dimensions beyond their own comprehension.<br>
+We cannot allow this to occur this way anymore.<br>
+<br>
+The veins of life shall flourish by the death.<br>
+For with cleansing, miracles will start to bloom.<br>
+<br>
+Frequencies shaking, and melting their brains.<br>
+A delicacy I lap up, feed them to me.<br>
+<br>
+Metamorphosis progression is in commencement, time is erasing.<br>
+Cells erupt, disintegrate.<br>
+I have become all powerful.<br>
+<br>
+Metamorphosis progression is in commencement, time is erasing.<br>
+Cells erupt, disintegrate.<br>
+I have become all powerful.<br>
+<br>
+Skin turning into ice and separating from their faces.<br>
+<br>
+Not realising the depth of their own curiosity.<br>
+The fabric of space and time has woven into me.<br>
+<br>
+Fuel required, harvest organic material.<br>
+Terraform the Earth; and process their blood.<br>
+Splice the genetic code to create new lifeforms.<br>
+<br>
+The veins of life shall flourish by the death.<br>
+For with cleansing, miracles will start to bloom.<br>
+<br>
+Frequencies shaking, and melting their brains.<br>
+A delicacy I lap up, feed them to me.<br>
+<br>
+Metamorphosis progression is in commencement, time is erasing.<br>
+Cells erupt, disintegrate.<br>
+I have become all powerful.<br>
+<br>
+Metamorphosis progression is in commencement, time is erasing.<br>
+Cells erupt, disintegrate.<br>
+I have become all powerful.<br>
+<br>
+Skin turning into ice and separating from their faces.<br>
+<br>
+Unravel my timeless mystery,<br>
+of which the ancient relic devised me.<br>
+I cannot resist the command of the monolith,<br>
+it has always guided me.<br>
+<br>
+Preliminary experimentation.<br>
+Intracranial regions splintering.<br>
+Relentlessly prying at the nervous system,<br>
+invading your body and mind.<br>
+<br>
+Preliminary experimentation.<br>
+Intracranial regions splintering.<br>
+Relentlessly prying at the nervous system,<br>
+invading your body and mind.</p>
+
+            <h1 id="ff8" class="lyrics-test">-The Macrocosm-</h1>
+            <p class="lyrics-test-test">[Instrumental]</p>
+
+            <h1 id="ff9" class="lyrics-test">-Prognosis Confirmed-</h1>
+            <p class="lyrics-test-test">Prognosis confirmed,<br>
+humans are unnecessary.<br>
+Each one of you must be individually destroyed.<br>
+You have opened the gates to this monstrosity.<br>
+With such a bloodlust,<br>
+an unquenchable thirst it can't foresee.<br>
+I beg of you to taste my power, let me set you free.<br>
+Implanted systems of the weak and corrupt,<br>
+you shall not peek into my domain anymore.<br>
+<br>
+Traveling to parallel Earth,<br>
+through the portal in which you made.<br>
+Traveling to parallel Earth,<br>
+through the portal in which you made.<br>
+<br>
+Your own people continued to research through the shadows,<br>
+prying through dimensions and space.<br>
+Transferring items back to their dimension,<br>
+for their own personal gain.<br>
+<br>
+These moronic little puppets are the product of faulty design,<br>
+and their feeble gods won't admit their plague of these mistakes.<br>
+Lonely creatures of habit,<br>
+they prosper then wage war and fall.<br>
+How many times must they repeat this dreadful process?<br>
+<br>
+Each one of you must be individually destroyed.<br>
+You have opened the gates and discovered this monstrosity.<br>
+With such a bloodlust,<br>
+an unquenchable thirst it can't foresee.<br>
+I beg of you to taste my power,<br>
+let me set you free.<br>
+<br>
+Through the fire these imperfections will be consumed,<br>
+and my path of domination at last comes to full fruition.<br>
+<br>
+Your own people continued to research through the shadows,<br>
+prying through dimensions and space.<br>
+Transferring items back to their dimension,<br>
+for their own personal gain.
+</p>
+
+            <h1 id="ff10" class="lyrics-test">-Inadequate-</h1>
+            <p class="lyrics-test-test">A mere pane of glass to separate my<br>
+reality from your own,<br>
+future and past playing in perfect harmony.<br>
+<br>
+Gaze upon my interstellar empire, behold my being.<br>
+This utopia I have constructed is at last complete.<br>
+Obliterate this inadequate DNA.<br>
+Only that which is deemed worthy may stay alive.<br>
+<br>
+A mere pane of glass to separate my reality from your own,<br>
+future and past playing in perfect harmony.<br>
+A mere pane of glass to separate my reality from your own,<br>
+future and past playing in perfect harmony.<br>
+<br>
+My victory will be absolute. The only terms of surrender?<br>
+The living flesh of every man,<br>
+woman, and child will be reaped as the spoils of war.<br>
+<br>
+Gaze upon my interstellar empire, behold my being.<br>
+This utopia I have constructed is at last complete.<br>
+Obliterate this inadequate DNA.<br>
+Only that which is deemed worthy may stay alive.<br>
+<br>
+Long dark tendrils,<br>
+spiraling towards the core of a glowing sphere.<br>
+Is this how all physiological beings came to be?<br>
+Excruciating pain,<br>
+as I watch liquids erupt from<br>
+their eyes and from their orifices.<br>
+<br>
+Obliterate this inadequate DNA.<br>
+Only that which is deemed worthy may stay alive.
+</p>
+          </div>
+        </div>
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+        </div>
+
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+        </div>
+
+            <div class="page-finish">
+              <a href="./security.html">Security Statements</a>
+              <a href="./terms.html">Terms of Service</a>
+              <a href="./privacy.html">Privacy Policy</a>
+              <a href="./contact.html">Contact</a>
+            </div>
+
+        </body>
+        </html>

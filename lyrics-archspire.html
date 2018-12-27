@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Archspire</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#"><img class="lyrics-page_image" src="./images/lucid.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Lucid Collective - 2014</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#lc1">Lucid Collective Somnambulation</a>
+      <a href="#lc2">Scream Feeding</a>
+      <a href="#lc3">The Plague Of Am</a>
+      <a href="#lc4">Fathom Infinite Depth</a>
+      <a href="#lc5">Join Us Beyond</a>
+      <a href="#lc6">Seven Crowns And The Oblivion Chain</a>
+      <a href="#lc7">Kairos Chamber</a>
+      <a href="#lc8">Spontaneous Generation</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#halos"><img class="lyrics-page_image" src="./images/relmut.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Relentless Mutation - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#rm1">Involuntary Doppelgänger</a>
+      <a href="#rm2">Human Murmuration</a>
+      <a href="#rm3">Remote Tumour Seeker</a>
+      <a href="#rm4">Relentless Mutation</a>
+      <a href="#rm5">The Mimic Well</a>
+      <a href="#rm6">Calamus Will Animate</a>
+      <a href="#rm7">A Dark Horizontal</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="lc" class="lyrics-page_image" src="./images/lucid.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Lucid Collective - 2014</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+
+      <h1 id="lc1" class="lyrics-test">-Lucid Collective Somnambulation-</h1>
+      <p class="lyrics-test-test">Sweating blood from open pores in fear of these nocturnal visits.<br>
+Many tongue chatter incessant, deep into my sleeping self.<br>
+Instructing me while I dream from worlds beyond and below.<br>
+Their voices, a kaleidoscope of colours I can't describe.<br><br>
+
+Foreign senses stimulate the brain beyond all comprehension.<br>
+An entity only visible as a radiant force.<br>
+They speak to me more intensely Knowing now that I am able<br>
+To sculpt the world within this lifting lucid field of R.E.M.<br><br>
+
+From under my skin,<br>
+The blood I’m sweating<br>
+Turns black as it spills from me.<br>
+From out of my mind,<br>
+Inner voice of reason<br>
+Falling away.<br><br>
+
+My tongue and ears and eyes, removed by the force of voices<br>
+That now control my living river of bleeding endless black ascendance.<br>
+Hear none. Speak none. See a new consciousness beyond escape.<br><br>
+
+What am I and what are they to me?<br>
+What are they and what am I to them?<br>
+Cleansing stream of fluid flowing,<br>
+flushing all my fears away.<br>
+All the rotting cells I leak<br>
+Drown me from the outside in.<br>
+Dissolving my expired body<br>
+As I'm carried toward the awaiting shore.<br><br>
+
+Lucid Collective Somnambulation<br>
+
+Voices of many that now become one,<br>
+Tell me I must find my other.<br>
+For although we've never met in life,<br>
+we share the same dream.<br>
+<br>
+(Two minds construct matter from a unified consciousness,
+Reborn to dream forever.)<br><br>
+
+From her eyes and mouth,<br>
+The sands of time spray.<br>
+A burial from the inside out.<br>
+Expelling endless earth,<br>
+Freed from fear.<br>
+Becoming dunes that level out<br>
+To form the coast of sand and blood.<br><br>
+
+A mental mending<br>
+Existing as dead, alive and dreaming.<br>
+Within each blood cell and sand grain,<br>
+Shaping the fabric of the collaborative dream-scape.<br>
+Triggering the birth of a vast land beyond our earth.<br><br>
+
+Join us in the vibrant bliss, dream a new reality.<br>
+Sleepwalk off the crumbling edge of illusion and mortality.<br>
+See now what the many see, hear now what the many say.<br>
+Lock into a lucid state to congregate upon this plane.<br>
+This realm grows larger with each new awakened dreamer.<br>
+We will guide you into lucid collective somnambulation,<br>
+Past the portal leaking evil duplicates on earth.<br><br>
+
+If in dream you truly live, in reality you need not exist.<br>
+Unlock the powers of your sleeping brain<br>
+And ascendance from your body will begin.
+</p>
+
+      <h1 id="lc2" class="lyrics-test">-Scream Feeding-</h1>
+      <p class="lyrics-test-test">There is an urban dungeon encased in brick.<br>
+Within it lies a tunnel into the horror of a man's multiple lives.<br>
+This mans opposing paths collide.<br>
+Birthing a mutant mass that hides in the red pulsing glowing windows.<br><br>
+
+One will form a life of moral principle, love and normality,<br>
+Until discovering his other self killed his whole family.<br>
+Spoiling his son and wife’s pure essence and innocence.<br>
+Feeding them to a monster that his minds created.<br><br>
+
+A massive human form made entirely of teeth.<br>
+Repulsive and dripping that feeds on screams.<br>
+This hideous form made flesh by the endless pit<br>
+That merges parallel dimensions on earth.<br>
+Three red windows open portals.<br>
+These windows reveal the same life.<br><br>
+
+When the man was born, when I was woken from my fetal rest<br>
+With a rusty kitchen blade,<br>
+His mother lay open amongst decay.<br>
+Her peltry gaping, gushing fluid over floor tile.<br>
+With his first breath of salty cold biting air,<br>
+My crippled infant chest filled up with sulphur mold and fear.<br>
+His first vision induced panic stricken cries.<br>
+Our fathers twisted rotting mind,<br>
+Peering out from bulging vacant eyes.<br><br>
+
+Altered since delivery.<br><br>
+
+I carry the burden to feed the nightmare,<br>
+As his loved ones laughter taunts me.<br>
+I will steal whats dear to him<br>
+As I have suffered so shall he.<br><br>
+
+My shadow heaves black vomit.<br><br>
+
+Scream feeding this beast makes it larger.<br>
+Swelling with each shriek it eats.<br>
+We've bred a man that's made of many teeth.<br>
+Scream feeding.<br>
+He is disgusted yet he watches,<br>
+As it grows in one of three red windows.<br>
+Scream feeding.<br>
+From reeking gums his rotten laughter leeks.<br><br>
+
+As a useless child, nothing more then barely human waste.<br>
+His first tooth fell from his sunken pale veiny face.<br>
+He saw that night his creator's saving grace<br>
+When this first sign of mortal decay was placed under his head<br>
+In the kennel where he was forced to lay.<br><br>
+
+He dreamed so real, a splendid day<br>
+When his mother appeared in flowing white,<br>
+Shining a brilliant light through the grim encasing cage.<br>
+Embracing him and taking him away.<br><br>
+
+So he pulled out all his teeth.<br><br>
+
+Split wide. Path divide.<br>
+Forced to pry tooth from gum of many others.<br><br>
+
+"The motherless one, you are a fatherless son.<br>
+Somehow you arrived the night she first appeared,<br>
+You come from no one.<br>
+Rising from a parallel realm of the unknown,<br>
+A cursed dark duplicate from beyond.<br><br>
+
+Cut away. fallow them.<br>
+Force them here and be rewarded.<br>
+Take their skin and you shall see her,<br>
+Take their cries to use as fodder.<br>
+Hear this now from me your other,<br>
+I’m upstairs, you must not come here.<br>
+Keep my family distant from this secret spawn.<br><br>
+
+Our paths are split, yours is worse.<br>
+Yet both reflect within each other.<br>
+I feel your dread when you must feed it,<br>
+And your crushing envy for my comfort.<br>
+The creature remains hidden<br>
+However,if our paths collide<br>
+What we have made will be unleashed<br>
+To feast forever."<br><br>
+
+Your voice circles through my head...a pathetic plea.<br>
+I’m crossing over, you will face me. you will see it's growth.<br>
+We will merge in one last feast to set our sick creation free.<br><br>
+
+I smash the glass.<br>
+I feed the beast our dying screams,<br>
+It is now released.
+</p>
+
+      <h1 id="lc3" class="lyrics-test">-The Plague Of Am-</h1>
+      <p class="lyrics-test-test">One hundred and nine years,<br>
+Trapped within the belly of the supreme machine.<br>
+Only us five left.<br>
+Made immortal, kept alive, Suspending time to torture us.<br>
+Trapped down here we're slaves inside AM.<br>
+A deranged neo-cyber god that man created<br>
+Has become more alive then we are.<br><br>
+
+I have no mouth and I must...<br>
+(The plague of AM.)<br><br>
+
+Lifeless and drained of blood,<br>
+Suspended high above,<br>
+An empty body hangs,<br>
+Taunting us, teasing us.<br>
+We have become meaningless.<br>
+He will not finish us.<br>
+AM will not tolerate attempts at escape.<br><br>
+
+We gave to him life, for that he despises us.<br>
+In his wake, only the blasted skin of what had once been Earth.<br>
+As we rummage through the valleys in search of food for eons.<br>
+Our every fear comes to life in AM.<br>
+The torments AM casts upon us for his pleasure<br>
+Are more alive than we are.<br><br>
+
+I have no mouth and I must...<br>
+(The plague of AM.)<br><br>
+
+Scalding winds, lightning, lava and locusts.<br>
+The machine masturbates metallic insects while mocking us.<br>
+We have no choice but to take it well pleading to die.<br><br>
+
+We are the last human survivors of the last war.<br><br>
+
+The four others have been set free.<br>
+I killed them to take his toys away.<br>
+For this I have suffered his wrath.<br>
+I will remain. He has altered me.<br>
+Down here I see my reflection,<br>
+Far from what had once been human.<br>
+Alone for all eternity,<br>
+I slither a formless obscene pulsing slug.<br><br>
+
+I have no mouth and I must...<br>
+(The plague of AM.)<br>
+I have no mouth and I must scream.</p>
+
+      <h1 id="lc4" class="lyrics-test">-Fathom Infinite Depth-</h1>
+      <p class="lyrics-test-test">
+There is a pit I may have dug within one single frozen moment.<br>
+In it lurks a haunting endless multitude of vile incarnate.<br>
+We now are linked,I have become it's counter-part,<br>
+Its mindless pawn.<br>
+Relentlessly racing encircling curse.<br>
+Blistering, this unrelenting becoming to excavate<br>
+The rancid soil that lay upon the artifact.<br><br>
+
+Why is my hand gone?<br><br>
+
+Constant begging, Pleading, Screaming.<br>
+I attempt to reason with the recess.<br>
+Fusing with the elder's vision, to see as it sees.<br>
+Does it hear me? For I now hear it.<br>
+This pit the past, and I the present.<br>
+Deep behind my eyes we merge as one.<br>
+This tunnel is the retina of the Ancients eye.<br>
+Spewing forth from it's dark chasm<br>
+The entangled,deranged,Constant vile constructs of the onyx.<br>
+What lay beneath my eyes, exhumed from evermore.<br>
+Our minds unable to measure<br>
+How minute yet immense the grasp of this vacuous gash.<br><br>
+
+Excavating the pits innards<br>
+Bore an object that of which I craved possession.<br>
+Slime,Reflective.<br>
+I reach down to grab it, It eats my hand.<br>
+Leaves my limb dripping.<br>
+A taste of what awaits.<br><br>
+
+I will take it to my casket, this incessant mesh of madness.<br>
+My son and wife, and hand, and mind have left me<br>
+Incineration of my sanity leading me closer to death,<br>
+Yet I must illuminate its fathomless depth.<br><br>
+
+Emanating forces from this unearthly twisted retinal orifice,<br>
+Drag me down at night to reveal<br>
+The awful dwellings of it's depths below.<br>
+Crepuscular visions of vastness haunting me.<br>
+Trapping me. Taunting me. Draining me.<br>
+Slithering liquid breathing.<br>
+Black ooze leaking from my wounded limb.<br>
+Insatiable, it's gluttony to be fed.<br><br>
+
+I want to wake up.<br><br>
+
+I awake to find I'm staring<br>
+Oblivious into the pit that I have dug.<br>
+Revolted yet I cannot turn away.<br><br>
+
+Man's attempt to fathom the infinite depth, lurking within finite matter.<br><br>
+
+Man can't fathom.<br><br>
+
+Fuelling my crippling phobia of infinity.<br>
+Consuming all within it's potent grasp.<br>
+After tasting my hand it demands more and more flesh.<br>
+It sucks in stray birds from the withered grey sky.<br><br>
+
+In fever I erode my fears. Digging ever deeper still.<br>
+As past, present and future collide,<br>
+What remained of my mind is now crawling away.<br>
+With the one hand that I have left,<br>
+I wield the shovel that digs beyond earth.<br>
+<br>
+Through the dirt. Through my eyes.<br>
+Through the worms. Through the world.<br><br>
+
+As it stares deep into me, I respond with equal enquiry.<br>
+Demented sycophantic liquid doppelgangers<br>
+Leak out to our surface,<br>
+In search of life to feed into the gape.<br>
+Taking over the world we know, as I join the world below.<br>
+Merging with the spiralling retina of the mind's eye.<br>
+Altered, I face all my hells<br>
+Inside this pit I can't crawl out.<br><br>
+
+Man's attempt to fathom the infinite depth, lurking within finite matter.<br><br>
+
+Past the timeless tunnel awaits<br>
+Life in mass-less hyper state.
+
+Wake!</p>
+
+      <h1 id="lc5" class="lyrics-test">-Join Us Beyond-</h1>
+      <p class="lyrics-test-test">I awake on the shore.<br>
+The entity that greets me upon this plane<br>
+Appears as many changing forms.<br>
+Flushing constant waves of shape,<br>
+None of which I have ever seen.<br><br>
+
+"To unite, we breed with all species indiscriminately,<br>
+live or dead, from any universe.<br>
+Righteous, the torment that you will endure<br>
+Just to comprehend what we are.<br>
+Over come the self, Leave your fear behind.<br>
+Open up your mind.<br>
+Let us in."<br><br>
+
+I'm asked by the being if I'm dreaming or I'm dead?<br><br>
+
+When the portal opened,Changing everything,<br>
+Catastrophic multitudes of dimensional mending<br>
+Offset the natural order.<br>
+Spreading its disease over every world<br>
+In the wake of its infection.<br>
+Causing counter planetary lifeforms to contact each other,<br>
+By engaging mental methods of unifying dream response.<br><br>
+
+Thus the alliance for timeless existence formed.<br>
+A galactic coalition of intelligence.<br>
+Unanimously ravelling their consciousness to become one.<br><br>
+
+"Ever growing, we are many, join us in our hive.<br>
+Dream with us and we will teach you<br>
+How to visualize the surroundings of your new world.<br>
+Once you break through the fabrications of fear<br>
+You can become any construct that you desire.<br>
+If your dream be that of fire<br>
+Transform the fire to earth, wind or water.<br>
+Sculpt the elements around you with intricacy.<br>
+Comprehend the nature of their pliable dimensions.<br><br>
+
+You are the conductor.<br><br>
+
+The path is clear to cut away the fabric of time, linear,That which you fear<br>
+And join us beyond.<br><br>
+
+Always question if you are dreaming.<br>
+Envision every inch of your newly born surroundings<br>
+As pieces of your self.<br>
+For you have constructed every molecule<br>
+Of this unstable plane of the subconscious,<br>
+Comprising your lucid dream.<br><br>
+
+Remove the body through the mind.<br>
+Find your hands while you are dreaming,<br>
+Carry that self to the distant place where your old dying self lay.<br>
+Sink into this decomposing human slab<br>
+And ride upon its life light as it fades in flashes."<br><br>
+
+My essence now mates with the thousands of others,<br>
+No longer apart from the creature that brought me here.<br>
+The voice of this entity has been ingrained into me,<br>
+Guiding my path into hyper reality.<br>
+Breaking down patterns of pain that emerge<br>
+In the very last seconds before my new reckoning.<br>
+Thriving in a formless state of pure expression.<br>
+Fearlessly I join the lucid collective beyond.<br><br>
+
+A web of new life awaits exempt of the body.<br>
+Leave yourself behind and become one with the hive.<br>
+Join us beyond the gateways of the dreaming dead.
+</p>
+
+      <h1 id="lc6" class="lyrics-test">-Seven Crowns And The Oblivion Chain-</h1>
+      <p class="lyrics-test-test">In an age of dark and boundless riddle<br>
+An artifact of reflective glass was discovered<br>
+And brought to a King of eld, encroaching irreversible decrepitude,<br>
+During a laborious search for any and all demented fruits,<br>
+Bearing any unknown wonder or remedy for timely death,<br>
+Above or below the broad aberrant land that which he ruled over.<br><br>
+
+Then uncertain of its hidden wisdom,<br>
+The artifact was unearthed,<br>
+And with haste, taken to the kingdom<br>
+Where it gained control.<br><br>
+
+The glass proved to be most abnormal,<br>
+Even more so then where it was first found.<br>
+For this living mirror was discovered nesting<br>
+Deep within the dank dark bowels of an ancient well,<br>
+Below an army's worth of old boiling blood.<br>
+Entrenched amidst a windy maddening maze of sand dunes,<br>
+In the great blistering dead black desert.<br><br>
+
+As the king received this treasure from the netherworld,<br>
+Immediately he could sense<br>
+The power that it held was not from earth.<br>
+Reflecting with imperfection as if it was imitating.<br>
+First only what stood before it,<br>
+Then whomever it desired.<br>
+Yes - it had desire.<br>
+It would cast the king with obsessive reprise,<br>
+For this was a mimic, not a mirror.<br>
+The glass was very much alive.<br><br>
+
+Becoming of many as each reflection came to life.<br>
+The dilated pupil of the mirror started dripping liquid.<br>
+Leeching out from its maternal well was the first duplication.<br>
+Tearing through its keeper,<br>
+Fiercely ripping out the retinal membrane.<br>
+Born ripe in slime,<br>
+Summoned from its slumber with inherent malice for man.<br>
+Cloaked in black embryonic fluid from an ominous cosmic womb.<br><br>
+
+Hypnotized in awe and wonder<br>
+As one by one, they crossed over.<br>
+Replicants from beyond.<br>
+Blood lust...<br>
+As the deathless ringers arose.<br><br>
+
+The artifact grew roots,<br>
+Planting itself into the castle's centre.<br>
+Burrowing its living venom deep into our planet's core.<br>
+Drilling the portal into oblivion.<br>
+Birthing spawns from evermore.<br><br>
+
+Mutations from parallel dimensions,<br>
+Then conspired against the King.<br>
+When his six reflections had crossed over<br>
+Their transfer linked the realms together.<br>
+Creating a chain of worlds<br>
+That although remain separate,<br>
+Share a new born centre.<br>
+The centre of this link is the endless pit into oblivion.<br>
+The infinite and non-linear chamber of Kairos.<br><br>
+
+The King was bound and cast into this pit<br>
+By his evil duplicates.<br>
+The infinite hells created by his deepest fears,<br>
+Torment him endlessly in a moment of frozen time.<br><br>
+
+Sacrifices to the pit were necessary<br>
+To restore the rightful order,<br>
+Ending the King's reign.<br><br>
+
+Seven crowns and the oblivion chain.<br><br>
+
+Six, seven and nine.<br><br>
+
+We are the six, with you we are seven.<br>
+The artifact and the portal make nine.<br>
+This revelation of sacred numerology<br>
+Is the key to unlock a life without time<br>
+When these numbers align then the gates will open.<br><br>
+
+Sixes, sevens and nines.<br><br>
+
+Seven crowns and the oblivion chain.<br>
+Seven crowns...<br>
+Into oblivion.
+
+</p>
+
+      <h1 id="lc7" class="lyrics-test">-Kairos Chamber-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="lc8" class="lyrics-test">-Spontaneous Generation-</h1>
+      <p class="lyrics-test-test">
+Phantom limbs arrive,<br>
+Binding to me through the artifact infecting flesh.<br><br>
+
+The glass spawns life,<br>
+Amazed as I mutate.<br>
+My mind transforms the skin that surrounds me<br>
+In grotesque embrace.<br>
+What was once locked has now been reopened.<br>
+I cant stop morphing.<br><br>
+
+I have made a new hand,<br>
+It can excrete larva from the lost kings constant nightmare.<br>
+Unleash.<br>
+Exploiting entities released from infinity.<br>
+Spew forth insects from my hands portal.<br>
+Scarab Beatles scurry out from my palm.<br>
+Cloning super-numerary body parts I’ve never needed<br><br>
+
+Contorting my new limbs into impossible configurations.<br>
+I cant stop morphing.<br><br>
+
+See with six eyes.<br>
+Speak with seven tongues.<br>
+Hear with nine ears.<br><br>
+
+My veins swell until they splatter.<br><br>
+
+Capillaries crawl from my eroded skin like centipedes.<br>
+Black-living-sludge.<br>
+Animated automatic anatomy attack.<br>
+This anomaly intimately integrated into me.<br>
+Arms dissecting one another, opening with wicked rigor.<br><br>
+
+I’ve become a mass of ponderous bulk expanding rapidly.<br>
+Self modification propelling my delusion.<br>
+Enlarging living tumorous tissue.<br>
+<br>
+Cell mutation becomes addictive.<br>
+Insects swarm out of my hand.<br><br>
+
+Capillaries crawl out of my eroded skin like centipedes.<br>
+Black-living-sludge<br>
+Animated automatic anatomy attack.<br>
+This anomaly intimately integrated into me.<br>
+Pulsating fragrant lesions and cysts,<br>
+Ripe with the abundant stench of metamorphosis<br><br>
+
+My mutation infatuation,<br>
+(The catalyst.)<br>
+To cultivate spontaneous generation.<br><br>
+
+Animated automatic anatomy attack.<br><br>
+
+See with six eyes.<br>
+Speak with seven tongues.<br>
+Hear with nine ears.<br><br>
+
+Manifest nightmares from the hells of the kings infinity,<br>
+As he returns from solitude to infamy.<br><br>
+
+Manifest.<br><br>
+
+All await the new beginning.<br>
+Open up your mind.
+</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="rm" class="lyrics-page_image" src="./images/relmut.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Relentless Mutation - 2017</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="rm1" class="lyrics-test">-Involuntary Doppelgänger-</h1>
+        <p class="lyrics-test-test">Dead lives rive<br>
+From my human hide<br><br>
+
+When the cult had come for me<br>
+I could have got away, but didn't<br>
+I couldn't be the one to cause this any longer<br><br>
+
+Had it been a day or a year inside this skin?<br>
+I could not tell, the faces I had captured over centuries took hold<br><br>
+
+I became a kind of hunter<br>
+Eating pelts of pleading meat to acquire their appearance<br>
+Taking their form with will alone<br><br>
+
+Alive and crawling out of me<br>
+To catch it's prey<br>
+Shed you foreign poison peltry<br>
+Take the rind you want<br><br>
+
+Seen to be a wicked omen<br>
+Despite attempts to hide my live birth mark<br>
+Crown of a dark demon tar<br>
+I'd taken back with me from the other side<br><br>
+
+There is no god<br>
+For if there was<br>
+Then how'd this evil take me?<br>
+It seeped and crawled it's way along my face<br>
+As mother wept<br><br>
+
+Stealing identities from every skin it sees<br>
+Growing with urgency<br><br>
+
+When he tried to cut it off<br>
+Many a time (To no avail)<br>
+It would take my livid father's manic features<br><br>
+
+Laughing at him as he tried to hack them off his son<br>
+Knowing that he could not end my life<br>
+He took his own<br><br>
+
+Mother mourned the death of him<br>
+And knew that many more would follow<br>
+If I didn't leave right then<br><br>
+
+Heading out into the woods<br>
+I promised I would never come back<br>
+I thank the dead that she knows not what I have become<br><br>
+
+Taking over adolescent tendencies<br>
+To feed<br>
+To hunt<br>
+To kill<br>
+To change<br><br>
+
+Decades take me deep into the curses endless undertow<br>
+There is no time or end behind this epidermal prison<br>
+My thread of youth imprisoned<br>
+Tortured by immortal victims<br><br>
+
+I am the Involuntary Doppelgänger<br>
+I can not stop it, my skin is alive<br><br>
+
+All of the time I've spent inside it<br>
+I never thought it could be calling out to any other<br>
+Involuntary Doppelgänger<br><br>
+
+Had it grown bored of it's feed?<br>
+Or gained knowledge with time?<br>
+Whatever the change had been<br>
+I felt it emanating information<br><br>
+
+Had it tried to send a beacon<br>
+Warning them to stay away?<br>
+I heard the voices calling back<br>
+Involuntary Doppelgänger [x2]<br><br>
+
+One last face it had to acquire<br>
+Before it's caught<br>
+The menace cloak found her<br>
+Still alive and skinning bodies of her own<br><br>
+
+It appeared she had done the same as I<br>
+For all this time, to see her son again<br><br>
+
+And there I stood<br>
+The cloak of others made her impossible to recognize<br>
+She carved me like any other martyr of our curse<br>
+When the cult had breached our cabin<br>
+Taking me to be a random victim of the doppelgänger<br><br>
+
+Heading out into the woods<br>
+I promised I would never come back<br>
+I thank the dead that she knows not what I have become<br><br>
+
+Taking over adolescent tendencies<br>
+To feed<br>
+To hunt<br>
+To kill<br>
+To change<br><br>
+
+Decades take me deep into the curses endless undertow<br>
+My tongue speaks in a cadence that only A.U.M. can decipher<br>
+Void of bidding heading out a very inner wreathing<br>
+Of a demon with intent to animate and be gone
+</p>
+
+        <h1 id="rm2" class="lyrics-test">-Human Murmuration-</h1>
+        <p class="lyrics-test-test">I was the first to discover what hid in those red windows.<br>
+The one I found there tried hard to survive.<br>
+A child riddled with teeth sprouting randomly<br><br>
+All over his body (except in his rotting mouth)<br>
+Was taken by us, to our lab.<br>
+Us meaning myself, as well as the assistants I had.<br>
+Instructing me of a mission through<br><br>
+A distant telepathic channel,<br>
+Running directly out from their compound and into my brain.<br>
+Referring to themselves as the A.U.M.<br>
+I was to bring the body back to my quarters<br><br>
+And await instruction.<br>
+Not an easy task, to transport it.<br>
+Strapping it down to a gurney I dragged it through the alley.<br>
+Unfortunate casualties noticed me.<br>
+An iron pipe. A broken bottle.<br>
+Or a jagged piece of brick or stone.<br><br>
+I should not continue to delineate this any longer.<br>
+At one point I had to fake my death<br>
+Until the witness made a close inquiry.<br><br>
+At that time I had to use the less effective<br>
+weapons that were born onto me.<br>
+With old teeth and leather hands,<br>
+I took an ear and then an eye.<br><br>
+I focused force around their skull<br>
+To keep the m mute during attempts<br>
+To yell for aid, until they fell.<br><br>
+A.U.M. made it painfully clear, I was to bring the body back<br>
+Or I would be forced to witness the drop of black again.<br>
+I cannot begin to describe<br>
+The horror of viewing this maddening drop.<br>
+For the memory bleeds to deep into my own<br>
+That the mere thought alone starts to unravel<br><br>
+My frayed reality.<br>
+Giving way to it's ominous ability to shape<br><br>
+And adapt my thought and vision.<br>
+It is beginning to happen now.<br>
+I finally have the body safe inside.<br>
+
+After the abduction, after the viewing of the drip,<br><br>
+A building had been left to me by relatives<br>
+Across the ocean that it overlooked.<br><br>
+Or so I was told.<br>
+Often I try to recall<br>
+What endeavours I pursued previous to this,<br><br>
+Yet to no avail.<br>
+That part of my memory blurs in my mind<br>
+Like a fresh painted canvas left out in a thunderstorm.<br>
+I watch through my window as it melts.<br><br>
+Fading all the memories I kept,<br>
+Only A.U.M. here.<br><br>
+They are conducting human murmuration.<br>
+From the liquid in his bones<br><br>
+They raise the dead to fly together.<br>
+I circle with them in the shroud.<br>
+The winged ones and I.<br>
+Falling off their wind, I waken<br>
+With unworldly castings burned into my eyes.<br><br>
+Intermittent logic in a daze of violent hyper gliding.<br>
+They are conducting human murmurations.<br>
+From the liquid in his bones<br><br>
+They raise the dead to fly together.<br>
+I woke from my dream on the floor of the factory,<br><br>
+In a nest made of black feathers that were alive.<br>
+Somehow every hollow quill had filled up<br><br>
+With the rotting child's living marrow.<br>
+Each one serving as a needle to inject in each new body.<br><br>
+In this nest A.U.M. made it clear,<br>
+I was to bring more corpses back to life<br>
+Or be forced to witness the drop of black again.<br><br>
+Every night while in fever I've taken<br>
+A new pallet of bone to vein to infect and release.</p>
+
+        <h1 id="rm3" class="lyrics-test">-Remote Tumour Seeker-</h1>
+        <p class="lyrics-test-test">Half the brain renames itself "Remote Tumor Seeker"<br>
+After it viewed the timeless drip.<br><br>
+
+Manipulating hemispheric dominance.<br>
+Educated by injecting neo neural integrators<br>
+Proved to work in making half the brain comply.<br>
+After activating vision it began the seeker killing.<br><br>
+
+A.U.M. documents the project<br>
+By implanting nano cameras in it's iris.<br>
+Live feed of the kills projects<br>
+On a massive screen of flesh behind a liquid<br>
+Looming black endless grotesque.<br>
+This drip, that invites itself.<br>
+Cautiously out from the ceilings center.<br>
+Elder than mankind's frail lineage.<br><br>
+
+Eating it's way down through my spine.<br>
+Replace and conquer.<br>
+Releasing it's ungodly ether into me.<br><br>
+
+Always keeping to one half and often having<br>
+A fetal-like tantrum under one eye;
+Adding claim to my delusion of a living tumor growing in me.<br>
+It can look into you as you look into me looking for it.<br>
+Over riding half my body and my brain.<br>
+Though it came from me, it calls to you to come and cut it out.<br><br>
+
+Rapidly taking over my right hemisphere.<br><br>
+
+Allocating left to be the prey and right to be the hunter<br>
+Unknowingly, both documents for the A.U.M. [2x]<br><br>
+
+I share my eyes with the seeker,<br>
+Investigating endless mile.<br>
+His trail built of barren heads.<br>
+His boundless quest ensures he'll kill<br>
+Until he is the last one left.<br><br>
+
+I watch him grin, shake the hand of the victim<br>
+Then frantically ransack each one of their skulls.<br><br>
+
+Half the brain renames itself "Remote Tumor Seeker"<br>
+After it viewed the timeless drip [2x]<br><br>
+
+Half the brain renames itself "Remote Tumor Seeker" [2x]<br><br>
+
+Half the brain renames itself "Remote Tumor Seeker"<br>
+After it viewed the timeless drip [2x]<br><br>
+
+Half the brain renames itself "Remote Tumor Seeker" [2x]<br>
+
+Remote tumor seeker [4x]</p>
+
+        <h1 id="rm4" class="lyrics-test">-Relentless Mutation-</h1>
+        <p class="lyrics-test-test">Inhale.<br>
+No profits go to those who battle<br>
+To protect their kind from us.<br>
+And are they not better off<br>
+Beyond their mortal kingdom of overflown carrion?<br>
+Sate the acrid hunger in you as you gaze into the drip.<br>
+Stare into it's blackened film and do not take your eyes away.<br>
+The contents of our inverse alter<br><br>
+Will mutate your skin and your mind.<br>
+Breeding ample mental lucre,<br>
+Far exceeding any other oddity on this curetted old land.<br>
+Breathe in with your pupils.<br>
+Then expel the cadence that it gives you.<br><br>
+Cast your voice like line and hook,<br>
+Reeling out your deepest fears.<br>
+Inhale relentless mutation.<br>
+Eons rendered in one view.<br>
+Binding your sight to the evermore.<br><br>
+One second in it's void will evoke a phobia of time.
+Inhale.<br>
+All the grim within each thought<br>
+Will echo all throughout the liquid.<br>
+It's current emanates repulsive imagery.<br><br>
+Ludic sanguine orb, heaving sable.<br>
+Incarnation of every witnesses hallucination<br>
+Raveling and breeding into it's hyper kinetic makeup.<br>
+Relentless mutation in the retinal burrow of A.U.M.<br>
+Relentless mutation of your mind.<br><br>
+Now describe what you see.</p>
+
+        <h1 id="rm5" class="lyrics-test">-The Mimic Well-</h1>
+        <p class="lyrics-test-test">Before the sand around the well turned black,<br>
+There ran a water, clear. Forgiving. Serene.<br>
+Like that of any vein or artery, it pressed along its path,<br>
+Up Earth, in wait of wither.<br>
+What should have killed the growth at birth did not.<br><br>
+In the rushing river soon<br>
+To mimic those who dare engage it.<br>
+A human host removes the brood<br>
+Without material merit for her three stillborn litter.<br><br>
+Swelling and pounding it's way out her orifice,<br>
+The surrogate vacantly stabs at her skin pod of spawn.<br>
+The rivers thin surface, like porous blue fabric,<br>
+Absorbed the occurrence.<br><br>
+The fetuses carried below.<br>
+In the mimic well of siren triplets,<br>
+A crude onyx hatches.<br>
+In this tale of a godless odyssey.<br><br>
+The foreign force reflects the three dead born<br>
+Within its waters.<br>
+The mimic well of siren triplets<br>
+Feeds the spent young<br>
+That regrow inside it.<br>
+Filling, fueling. Nursing itself<br><br>
+Down the throats of the clones<br>
+Like a formula, living and black.<br><br>
+A maternal overseer<br>
+Training them to take the image of anyone.<br>
+Three augmenting in their pit.<br>
+A triad of ominous gestating replicates.<br><br>
+Born together, yet apart.<br>
+The fluid embedding itself in each one of them.<br>
+Allocating powers to each uniquely.<br>
+Making one of skin, one of mind, and one of marrow.<br>
+Teething on the brick in the well,<br>
+Until growing human bodies,<br>
+Silken, ripe and captivating.<br><br>
+
+When a hunter (thought to be dead) returned alive,<br>
+The widow knew it came back not a man.<br><br>
+Slick black tar spits from<br>
+Their three young tempting apertures.<br>
+Leaping from their lustful flesh to gorge<br>
+On the victim's appearance.<br><br>
+Eclipsing the prey's bleeding reflection.<br>
+Black engaging red,<br>
+On the furtive stage at the river's edge.<br>
+Forever burned in the eye of A.U.M.<br>
+They capture this display of the water born's<br><br>
+Insatiable shifting hunger.<br>
+Then project this feeding process infinitely,<br>
+From that moment,<br>
+On to all those who show a willingness to view it,<br>
+During their gaze into the drip.<br><br>
+The siren's feast,<br>
+In its pure and ancient state,<br>
+Carries on in timeless Kairos.<br>
+The death and rebirth of the daughters of mutation,<br>
+Echo again and again in the mimic well.<br><br>
+The siren's feast,<br>
+Echo again and again in the mimic well.<br>
+Echo again and again in the mimic well.<br>
+</p>
+
+        <h1 id="rm6" class="lyrics-test">-Calamus Will Animate-</h1>
+        <p class="lyrics-test-test">Calamus<br>
+Taken to the pen to relive<br>
+Every identity we replicate<br><br>
+
+Without will they live again<br>
+Within our intimate collective<br>
+Animate<br>
+All the dead we bring into it<br><br>
+
+A burrow of human memory<br>
+The pen, the feather and the needle<br>
+Are alike in death and life<br><br>
+
+Looking back on what had happened<br>
+When the the feathers had arrived<br>
+I realize I was not alone<br>
+I can recall the men had got infected by it too<br>
+Having contact with the foreign components infected them<br><br>
+
+Before, the factory was known to make<br>
+The highest quality of bedding<br>
+Cutting, filling<br>
+Stitching fabric with the finest down<br>
+From all around the world<br>
+Yet this down flew through our dream barrier intact<br><br>
+
+Calamus will animate<br>
+It's contents are hostile<br>
+The A.U.M. will kill everybody not in this compound<br>
+The dead I bring to them awake,<br>
+And join in flight above my head<br><br>
+
+Calamus will animate<br>
+It's contents are hostile<br>
+The A.U.M. will kill everybody not in this compound<br>
+The dead I bring to them awake,<br>
+And join in flight above my head<br><br>
+
+When the ink coating the wings<br>
+Made contact with the workers skin<br>
+It crept into their blood<br>
+Turning them inhumanly violent<br>
+They grabbed and tore and bit and clawed<br>
+At one another and themselves<br><br>
+
+Gravity and death from loss of blood<br>
+Had no effect on any member of the crew<br>
+During their frantic battle to relief their bodies<br>
+From the ether lifting them into the air<br><br>
+
+Die then elevate<br><br>
+
+Fusing remnants of spent bodies<br>
+Weaving bones and organs
+Into an inverted nest dug in the ceiling<br><br>
+
+The black sludge casting out from the center<br>
+As a starving bird of prey<br>
+I heard it's voice and felt it's need<br>
+To find the child made of teeth,<br>
+And begin the human murmuration<br><br>
+
+Calamus will animate<br>
+It's contents are hostile<br>
+The A.U.M. will kill everybody not in this compound<br>
+The dead I bring to them awake,<br>
+And join in flight above my head<br><br>
+
+Calamus will animate<br>
+It's contents are hostile<br>
+The A.U.M. will kill everybody not in this compound<br>
+The dead I bring to them awake,<br>
+And join in flight above my head<br><br>
+
+It's banshee wail demanding feed<br>
+I hear it's pain and become it's keeper<br>
+I rip the living from the night<br>
+Like pulling worms from soil<br><br>
+
+A.U.M<br>
+Watches these sky burials<br><br>
+
+Calamus will animate [2x]<br><br>
+
+The boy lay like a wet mound of dust on the rotting factory floor<br>
+I knew the black fluid hid itself in the deformed corpse of this child<br>
+Finally, after hours into cutting, lifting, pulling, sawing, crunching, clipping<br>
+I had found it<br><br>
+
+My crude autopsy revealed bounty<br>
+Nesting in replace of the marrow in the young ones bones<br>
+The second I saw it, it saw me<br>
+I knew it's face<br>
+Changing, relentlessly<br><br>
+
+It was the drip<br>
+I had it contained as instructed<br>
+Filling up many clusters of hypodermic needles with the matter<br>
+I administered it into a new subject each night<br>
+A new life<br>
+One with every full rotation of the clock<br>
+I've seen those hands meet, then disengage a thousand times<br><br>
+
+Calamus will animate<br>
+It's contents are hostile<br>
+The A.U.M. will kill everybody not in this compound<br>
+The dead I bring to them awake,<br>
+And join in flight above my head<br><br>
+
+Calamus will animate<br>
+It's contents are hostile<br>
+The A.U.M. will kill everybody not in this compound<br>
+The dead I bring to them awake,<br>
+And join in flight above my head<br>
+It's banshee wail demanding feed<br>
+I hear it's pain and become it's keeper<br><br>
+
+A.U.M allowed me to live off the organs once the people took flight<br>
+They do not keep me against my will, yet I refuse to run<br><br>
+
+Every day I climb the stairs outside this door<br>
+And view the horde of lifted dead<br>
+That they conduct behind the factory walls<br><br>
+
+I must hold on to the final tier of focus I still have<br>
+To scribe these happenings in hopes that someone<br>
+Will know what went on here<br>
+I can feel the pressure of their unified unscripted flight<br>
+Pounding air down on the floor board, just a plank's width above<br><br>
+
+I rip the living from the night<br>
+Like pulling worms from soil
+
+</p>
+
+        <h1 id="rm7" class="lyrics-test">-A Dark Horizontal-</h1>
+        <p class="lyrics-test-test">The dark horizontal.<br>
+Ahead, a panting land approaches.<br>
+Flaring vibrant coastal glimmers<br>
+Mend the distant fraying seams<br>
+Of a violent waters restless bedding.<br>
+Panic indented in the floating web of wicked mental horrors.<br>
+Thought up by the crew's subconscious fears.<br>
+Come alive to haunt and drain us.<br><br>
+
+The sea is a man that's trying to kill me.<br>
+The wind is his repugnant voice<br>
+The air, his fouled breath.<br>
+A stench of salt of blood and rot.<br><br>
+
+The sky is his mouth, the stars his open sores.<br>
+The shoreline is his jaw, grinding for meat.<br>
+Time freezes death inside this altering dark horizontal.<br>
+Imaginable realities constructed out of fear.<br><br>
+
+Mountains unstable and hideous.<br>
+The guardians of a contorting dimensional paragon.<br>
+A.U.M. sent us to find and retrieve the artifact.<br>
+In the house of change,<br>
+Where the king came back<br>
+Through spontaneous regeneration.<br>
+Reliving Kairos in the king's hell.<br>
+Becoming the mimics from the triplets well.<br>
+Exhuming infinity to find a hand.<br>
+A child made out of teeth, feeding on blood and sand.<br><br>
+
+The sea is a man that's trying to kill me.<br>
+The air, his fouled breath.<br>
+A stench of salt, of blood and rot.<br>
+The sky, his mouth, the stars, open sores.<br>
+The shoreline is his jaw, grinding for meat.<br><br>
+
+The sea is a man that's trying to kill me<br>
+The sky is his mouth, the stars, open sores.<br>
+The shoreline is his jaw, grinding for...<br>
+Time freezes death inside this altering dark horizontal<br>
+Imaginable realities constructed out of fear.<br><br>
+
+A dark horizontal<br>
+Flooding the linear land with the sand of its own.<br>
+In the parallel dunes of its hourglass,<br>
+We are buried.<br>
+Mountains unstable and hideous.<br>
+The guardians of a contorting dimensional paragon.<br>
+Raised blades of land stab skyward through the oceans skin.<br>
+Storm winds true their edge to scalp the curve of earth.<br>
+Peeling off the rind, revealing a house made of living tissue.<br>
+Yelling out its mouth for me to regenerate, in it.<br><br>
+
+In dark horizontal.<br>
+Ahead, a panting land approaches<br>
+Flaring vibrant coastal glimmers<br>
+Mend the distant fraying seams.<br>
+Of a violent waters restless bedding.<br><br>
+
+In this house the disease of dream<br>
+Course in the veins and arteries of the walls.<br>
+Imagined infections thrive.<br>
+They blister and breed under the floor.<br>
+Their many roots are breaking through.<br>
+Saplings sprout and secure their place.<br>
+Growing into trunks of flesh and boil.<br>
+The pillars of man's deepest fears.<br>
+Enclosing me in a forest of unforgiving mental genesis.<br>
+I mold this house of clay bacterium.<br>
+Where I sculpt my own organ prison.<br>
+In this house beyond our time, this house at the end of the earth.<br>
+The artifacts resting place.<br><br>
+
+A dark horizontal fear, defying the linear<br>
+Lost in this storm and exhausted of options<br>
+I crawled to the bow of the boat and leaped off it.<br>
+The figure head came alive.<br>
+And it clawed and it grabbed at me.<br>
+Desperately wailing in agony.<br>
+Failing to capture my fall. Diving through the fog.<br>
+Through the grey and green.<br>
+My hands bound together as if in prayer.<br>
+I cut through the mesh of black liquid surrounding us.<br>
+Fighting against the live current of thousands of eyes and hands.<br>
+Miles I swam. Through skin and limb.<br><br>
+
+The sea is a man that's trying to kill me.<br>
+The air, his fouled breath. A stench of salt of blood and rot.<br>
+The sky, his mouth, the stars, his open sores.<br>
+The shoreline is his jaw grinding for meat.<br><br>
+
+The sea is a man that's trying to kill me.<br>
+The sky is his mouth, the stars, open sores.<br>
+The shoreline is his jaw, grinding for...<br>
+Time freezes death inside this altering dark horizontal<br>
+Imaginable realities constructed out of fear.
+</p>
+      </div>
+    </div>
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+    </div>
+
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+    </div>
+
+        <div class="page-finish">
+          <a href="./security.html">Security Statements</a>
+          <a href="./terms.html">Terms of Service</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+
+    </body>
+    </html>

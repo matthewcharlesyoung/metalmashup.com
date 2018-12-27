@@ -1,0 +1,2548 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Dragonforce</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/valleyof.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Valley of the Damned - 2003</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Invocation Of Apocalyptic Evil</a>
+      <a href="#f2">Valley Of The Damned</a>
+      <a href="#f3">Black Fire</a>
+      <a href="#f4">Black Winter Night</a>
+      <a href="#f5">Starfire</a>
+      <a href="#f6">Disciples Of Babylon</a>
+      <a href="#f7">Revelations</a>
+      <a href="#f8">Evening Star</a>
+      <a href="#f9">Heart Of The Dragon</a>
+      <a href="#f10">Where Dragons Rule</a>
+      <a href="#f11">Evening Star (Demo)</a>
+      <a href="#f12">Heart Of A Dragon (Demo)</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/sonic.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Sonic Firestorm - 2004</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">My Spirit Will Go On</a>
+      <a href="#s2">Fury Of The Storm</a>
+      <a href="#s3">Fields Of Despair</a>
+      <a href="#s4">Dawn Over A New World</a>
+      <a href="#s5">Above The Winter Moonlight</a>
+      <a href="#s6">Soldiers Of The Wasteland</a>
+      <a href="#s7">Prepare For War</a>
+      <a href="#s8">Once In A Lifetime</a>
+      <a href="#s9">Cry Of The Brave</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/inhuman.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Inhuman Rampage - 2006</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">Through The Fire And The Flames</a>
+      <a href="#t2">Revolution Deathsquad</a>
+      <a href="#t3">Storming The Burning Fields</a>
+      <a href="#t4">Operation Ground And Pound</a>
+      <a href="#t5">Body Breakdown</a>
+      <a href="#t6">Cry For Eternity</a>
+      <a href="#t7">The Flame Of Youth</a>
+      <a href="#t8">Trail Of Broken Hearts</a>
+      <a href="#t9">Lost Souls In Endless Time</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#fourth"><img class="lyrics-page_image" src="./images/ultra.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Ultra Beatdown - 2008</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#ff1">Heroes Of Our Time</a>
+      <a href="#ff2">The Fire Still Burns</a>
+      <a href="#ff3">Reasons To Live</a>
+      <a href="#ff4">Heartbreak Armageddon</a>
+      <a href="#ff5">The Last Journey Home</a>
+      <a href="#ff6">A Flame For Freedom</a>
+      <a href="#ff7">Inside The Winter Storm</a>
+      <a href="#ff8">The Warrior Inside</a>
+      <a href="#ff9">Strike Of The Ninja</a>
+      <a href="#ff10">Scars Of Yesterday</a>
+      <a href="#ff11">E. P. M. (Extreme Power Metal)</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/valleyof.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Valley of the Damned - 2003</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Invocation Of Apocalyptic Evil-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f2" class="lyrics-test">-Valley Of The Damned-</h1>
+      <p class="lyrics-test-test">On a cold dark winter night hidden by the stormy light<br>
+A battle rages for the right for what will become<br>
+In the valley of the damned a warrior with sword in hand<br>
+Travels fast across the land for freedom he rides<br>
+<br>
+And the sign from the master on high screams aloud and across hear the cry<br>
+For the kingdom of fire and ice and the power to be alive<br>
+Be strong ride on, carry on through the war<br>
+Come along carry on, living for ever more<br>
+<br>
+On the wings of death by the hands of doom<br>
+By the darkest light from the darkest moon<br>
+Crossing silent seas over mountains high<br>
+For we stand as one tonight<br>
+<br>
+On the black wind forever we ride on together<br>
+Destroying your evil with freedom our guide<br>
+When the master will storm us<br>
+He'll stand high before us<br>
+Our hearts filled with splendour<br>
+Our swords will shine over the light<br>
+<br>
+In the valley of the damned<br>
+Days breaks with golden strand<br>
+Over pastures green it glows<br>
+To where night returns<br>
+<br>
+In the shadows faces appear<br>
+Warriors wearing full metal gear<br>
+All join together one and all<br>
+Before the glorious light<br>
+<br>
+Rise up, gather around<br>
+Come and hear what is said<br>
+Use your senses open your mind<br>
+Don't you ever forget<br>
+<br>
+On the wings of life, by the hands of hope<br>
+By the brightest light from the brightest sun<br>
+Crossing silent seas over mountains high<br>
+To the valley of the damned<br>
+<br>
+On the black wind forever we ride on together<br>
+Destroying your evil with freedom our guide<br>
+When the master will storm us<br>
+He'll stand high before us<br>
+Our hearts filled with splendour<br>
+Our swords will shine over the light<br>
+<br>
+On the black wind forever we ride on together<br>
+Destroying your evil with freedom our guide<br>
+When the master will storm us<br>
+He'll stand high before us<br>
+Our hearts filled with splendour<br>
+Our swords will shine over the light<br>
+<br>
+The black wind forever we ride on together<br>
+Destroying your evil with freedom our guide<br>
+When the master will storm us<br>
+He'll stand high before us<br>
+Our hearts filled with splendour<br>
+Our swords will shine over the light<br>
+<br>
+The black...
+</p>
+
+      <h1 id="f3" class="lyrics-test">-Black Fire-</h1>
+      <p class="lyrics-test-test">We come from...<br>
+Over the dark horizon sky<br>
+With twisted tales of sacrifice<br>
+To imagine or believe all the glory of the free<br>
+<br>
+Hunting all day an endless cry<br>
+The things I've seen I can't deny<br>
+Sinners, saints all mixed in one<br>
+The dawn of time has begun<br>
+<br>
+Why can't you see what they're doing to me<br>
+Is it fair that I'm dying in vain<br>
+<br>
+Once in a land of sacrifice now only valleys of demise<br>
+Shadows of a pale blue moonlight ride the waves of entity<br>
+<br>
+Why can't you see what they're doing to thee<br>
+Is it fair that you all die in vain<br>
+<br>
+Ride with the steel and the power of the sword<br>
+Stand up and fight now and forever more<br>
+Rise through the night sky with daylight's desire<br>
+To be free there must be black fire<br>
+<br>
+Through the day and through the night with dragons heart the warrior strikes<br>
+This is the day that they'll be known as my enemy<br>
+<br>
+Why can't you see what they're doing<br>
+To what we believe in we rise through the pain<br>
+<br>
+Ride with the steel and the power of the sword<br>
+Stand up and fight now and forever more<br>
+Rise through the night sky with daylight's desire<br>
+To be free there must be black fire<br>
+<br>
+We come from distant lands we travel so far<br>
+Can you see the bleeding scar<br>
+The prizes of life we fail to win<br>
+Cause we doubt the power within<br>
+<br>
+Why can't you see what they're doing to<br>
+What we believe in we rise through the pain<br>
+<br>
+Ride with the steel and the power of the sword<br>
+Stand up and fight now and forever more<br>
+Rise through the night sky with daylight's desire<br>
+To be free there must be black fire<br>
+<br>
+Black fire...</p>
+
+      <h1 id="f4" class="lyrics-test">-Black Winter Night-</h1>
+      <p class="lyrics-test-test">Day after day as I bodies slay<br>
+And the sun becomes dark in the sky<br>
+Everything's lost for this human race<br>
+And the dawn of a new age will rise<br>
+<br>
+Rays of sunlight now are gone<br>
+Only visions of ice will remain<br>
+The fallen ones and forgotten souls<br>
+Will rise up over the slain<br>
+<br>
+No more hope as we raise our hands to the sky<br>
+No more dreams as the rivers run dry<br>
+<br>
+Everything's lost all is left astray<br>
+Only sorrow and sadness remains<br>
+Curtains have dropped on our fallen world<br>
+And the forces of darkness shall rise<br>
+<br>
+Why can't you see what has happened to thee<br>
+Can you not open your eyes<br>
+Everything's lost there is no retreat<br>
+And the valleys echo with pain<br>
+<br>
+No more hope as we raise our hands to the sky<br>
+No more dreams as the rivers run dry<br>
+<br>
+On the endless sea of madness we sail forever more<br>
+And the endless tears of sadness towards the distant shores<br>
+When the flame has died forever we stand one and all<br>
+With the power of the almighty sword<br>
+<br>
+We fight the battle on the fields tonight<br>
+To save us from the master of all evil sign<br>
+And to the battle on forever standing strong<br>
+We feel the fire power of the night warriors<br>
+<br>
+No more tomorrow<br>
+Dying of sorrow<br>
+Over the mountains and up through the trees<br>
+Traveling across seven seas<br>
+<br>
+No more hope as we hold our hands to the sky<br>
+No more dreams as the rivers run dry<br>
+<br>
+On the endless seas of madness we sail forever more<br>
+And the endless tears of sadness towards the distant shores<br>
+When the flame has died forever we stand one and all<br>
+With the power of the almighty sword<br>
+<br>
+We fight the battle on the fields tonight<br>
+To save us from the master of all evil sign<br>
+And to the battle on forever standing strong<br>
+We feel the fire power of the night warriors<br>
+<br>
+On the endless seas of madness we sail forever more<br>
+And the endless tears of sadness towards the distant shores<br>
+When the flame has died forever we stand one and all<br>
+With the power of the almighty sword<br>
+<br>
+We'll fight the battle on the fields tonight<br>
+To save us from the master of all<br>
+We fight the battle on the fields tonight<br>
+To save us from the master of all evil sign<br>
+<br>
+And to the battle on<br>
+Forever standing strong<br>
+We feel the fire<br>
+Power of the night warriors<br>
+<br>
+The power of the night warriors...</p>
+
+      <h1 id="f5" class="lyrics-test">-Starfire-</h1>
+      <p class="lyrics-test-test">Outside on a winter's night as the rain begins to fall<br>
+There's a chill in the air and the howl of a wolf while the rain beats at the door<br>
+Seven kings will ride on the wind up towards the mountains high<br>
+And the only sound that will break the air is the warrior's bitter cry<br>
+<br>
+When the dawn of a new day will see the light then the strongest hearts grow old<br>
+And the warrior stands on top of the hill in the snow<br>
+<br>
+Dark night with a glimmering light in the distance up ahead<br>
+In the forest they dwell with a misty spell no one heard what once was said<br>
+And the eagle fly through the clouds while earth bleeds dark and cold<br>
+When the voices of men will ring out again all creation shall unfold<br>
+<br>
+When the colour of night will fade to light and the weakest hearts go cold<br>
+And the warrior stands on top of the hill in the snow<br>
+<br>
+And we're standing one and all fighting till we fall<br>
+Hoping for a better day never giving in<br>
+Until we find the words till we find the words to say<br>
+Until we find the words to say<br>
+<br>
+Burning starfire shine in the sky<br>
+For the lives of great men who stand by your side<br>
+When the night fall on we will ride<br>
+For no lost souls will live on forever<br>
+<br>
+Dark night on the valley below still the horsemen follow through<br>
+It's a forest that leads to the foot of the hill that inside the magic holds<br>
+Seven strong they ride on along to the place where sorrow lies<br>
+And the shadows of the night will no longer hide all their mysteries come undone<br>
+<br>
+When the colour of night will fade to light and the weakest hearts go cold<br>
+And the warrior stands on top of the hill in the snow<br>
+<br>
+And we're standing one and all fighting till we fall<br>
+Hoping for a better day never giving in<br>
+Until we find the words till we find the words to say<br>
+Until we find the words to say<br>
+<br>
+Burning starfire shine in the sky<br>
+For the lives of great men who stand by your side<br>
+When the night fall on we will ride<br>
+For no lost souls will live on forever<br>
+<br>
+And we're standing one and all fighting till we fall<br>
+Hoping for a better day never giving in<br>
+Until we find the words till we find the words to say<br>
+Until we find the words to say<br>
+<br>
+Burning starfire shine in the sky<br>
+For the lives of great men who stand by your side<br>
+When the night fall on we will ride<br>
+For no lost souls will live on forever<br>
+<br>
+For lost souls will live on forever...
+</p>
+
+      <h1 id="f6" class="lyrics-test">-Disciples Of Babylon-</h1>
+      <p class="lyrics-test-test">Can you imagine that it's all up to you<br>
+Evil embrace of powers unnatural<br>
+You're left in silence nothing more to behold<br>
+You close your eyes and visualize the day you'll get away<br>
+<br>
+It's here<br>
+It's near<br>
+I see it all so clear<br>
+Tonight your flight will take you higher<br>
+<br>
+It's here<br>
+It's near<br>
+You live a life of fear<br>
+Tonight is the night that will inspire<br>
+<br>
+Crying alone at night your destiny unknown<br>
+You're every being full of rage and hate<br>
+Seems like you're running but you just can not hide<br>
+It's in a raging fear all solitude is left behind<br>
+<br>
+It's here<br>
+It's near<br>
+I see it all so clear<br>
+Tonight your flight will take you higher<br>
+<br>
+It's here<br>
+It's near<br>
+You live a life of fear<br>
+Tonight is the night that will inspire<br>
+<br>
+Can he comfort thee and fill your life with ecstasy<br>
+Through the darkness and the pain<br>
+Will you be the ones again<br>
+Disciples of Babylon<br>
+<br>
+It's here<br>
+It's near<br>
+I see it all so clear<br>
+Tonight your flight will take you higher<br>
+<br>
+It's here<br>
+It's near<br>
+You live a life of fear<br>
+Tonight is the night that will inspire<br>
+<br>
+Can he comfort thee and fill your life with ecstasy<br>
+Through the darkness and the pain<br>
+Will you be the ones again<br>
+Disciples of Babylon<br>
+<br>
+It's here<br>
+It's near<br>
+I see it all so clear<br>
+Tonight your flight will take you higher<br>
+<br>
+It's here<br>
+It's near<br>
+You live a life of fear<br>
+Tonight is the night that will inspire<br>
+<br>
+Can he comfort thee and fill your life with ecstasy<br>
+Through the darkness and the pain<br>
+Will you be the ones again<br>
+Disciples of Babylon
+</p>
+
+      <h1 id="f7" class="lyrics-test">-Revelations-</h1>
+      <p class="lyrics-test-test">Coming down the mountain on high<br>
+Towards the battle we go side by side<br>
+Our hearts are filled with honour and pride<br>
+Cause we know our time has come<br>
+<br>
+Silent voices down from below<br>
+Rising up through the ice and the snow<br>
+Ancient angers cast upon all<br>
+Through the land of the slain<br>
+<br>
+Through the dark night through the rain<br>
+Fighting machine we are risen again<br>
+Striving forever more<br>
+We will survive<br>
+<br>
+Stand and fight join the light<br>
+Into the battle with power and might<br>
+Sound the guns<br>
+Raise the cannons of war<br>
+<br>
+With the north star to guide us we ride on the sky<br>
+Blazing up through the heavens like eagles we fly<br>
+And the horsemen shall come they will judge all your lives<br>
+Revelations will now be unveiled<br>
+<br>
+Darkened night set to swallow the light<br>
+All is lost there's no one left to fight<br>
+Overpowered by the glory and might<br>
+Of the ones who stand tall<br>
+<br>
+Fallen heroes scattered around<br>
+Deafened ears opens up to the sound<br>
+Painful cries rising forever more<br>
+Through the victims of life and of war<br>
+<br>
+Through the dark night through the rain<br>
+Fighting machine we are risen again<br>
+Striving forever more<br>
+We will survive<br>
+<br>
+Stand and fight join the light<br>
+Into the battle with power and might<br>
+Sound the guns<br>
+Raise the cannons of war<br>
+<br>
+With the north star to guide us we ride on the sky<br>
+Blazing up through the heavens like eagles we fly<br>
+And the horsemen shall come they will judge all your lives<br>
+Revelations will now be unveiled<br>
+<br>
+No more hope of freedom<br>
+Our dreams are washed away<br>
+The second age is coming<br>
+It's the dawn of a new day<br>
+<br>
+Judgement stands before us<br>
+The second king will rise<br>
+Our swords will shine with honour<br>
+Hatred fills the sky<br>
+<br>
+Hatred fills the sky...<br>
+<br>
+With the north star to guide us we ride on the sky<br>
+Blazing up through the heavens like eagles we fly<br>
+And the horsemen shall come they will judge all your lives<br>
+Revelations will now be<br>
+<br>
+With the north star to guide us we ride on the sky<br>
+Blazing up through the heavens like eagles we fly<br>
+And the horsemen shall come they will judge all your lives<br>
+Revelations will now<br>
+<br>
+Revelations will now<br>
+Revelations will now be unveiled
+
+</p>
+
+      <h1 id="f8" class="lyrics-test">-Evening Star-</h1>
+      <p class="lyrics-test-test">We will sail on<br>
+Forever on<br>
+To the land of the evening star<br>
+<br>
+Into the endless we ride<br>
+Unveil the darkness behind<br>
+Abandoned glory hidden<br>
+Castaway we ride<br>
+<br>
+Now will the sky surrender<br>
+Forever through the never<br>
+A silent whisper echoes<br>
+Through my restless heart tonight<br>
+<br>
+I will see glory rise<br>
+We'll be one tonight<br>
+<br>
+Don't you shut your eyes in silence<br>
+Tonight gather near<br>
+Come and live your fear<br>
+<br>
+In a land of desire<br>
+Your heart filled with fire<br>
+You live for the right to be free<br>
+We will sail on<br>
+Forever on<br>
+To the land of the evening star<br>
+<br>
+In a land of desire<br>
+Your heart filled with fire<br>
+The land of the evening star<br>
+<br>
+Now and forever after<br>
+Asylums filled with laughter<br>
+Suspicion haunts my dreams<br>
+An echo through my mind<br>
+<br>
+This starlit gaze reminds me<br>
+Are you so blind you can't see?<br>
+The winds of change, my friend,<br>
+Will blow for you in the dead of nights<br>
+<br>
+I will see glory rise<br>
+We'll be one tonight<br>
+<br>
+Don't you shut your eyes in silence<br>
+Tonight gather near<br>
+Come and live your fear<br>
+<br>
+In a land of desire<br>
+Your heart filled with fire<br>
+You live for the right to be free<br>
+We will sail on,<br>
+Forever on<br>
+To the land of the evening star<br>
+<br>
+In a land of desire<br>
+Your heart filled with fire<br>
+The land of the evening star<br>
+<br>
+In a land of desire<br>
+Your heart filled with fire<br>
+You live for the right to be free<br>
+We will sail on<br>
+Forever on<br>
+To the land of the evening star<br>
+<br>
+In a land of desire<br>
+Your heart filled with fire<br>
+The land of the evening star
+</p>
+
+      <h1 id="f9" class="lyrics-test">-Heart Of The Dragon-</h1>
+      <p class="lyrics-test-test">Proud and so glorious standing before of us<br>
+Our swords will shine bright in the sky<br>
+When united we come to the land of the sun<br>
+With the heart of a dragon we ride<br>
+<br>
+We are flying on wings in winter sky with fire burning deep inside<br>
+We are warriors of endless time forever and on<br>
+On wings of steel an ancient flight we see the powers that unite<br>
+The gods will now send us a sign of battle once more<br>
+<br>
+Through the valley we ride full of glory we soar<br>
+Where the fights will be raging for now and for more<br>
+When united we come and divided they fall<br>
+Tonight you will witness it all<br>
+<br>
+Proud and so glorious standing before of us<br>
+Our swords will shine bright in the sky<br>
+When united we come to the land of the sun<br>
+With the heart of a dragon we ride<br>
+<br>
+A land unknown we come so far<br>
+We ride the night till morning star<br>
+When colours fade to black and white<br>
+Your eyes come to sight<br>
+<br>
+With the vision of a great divide<br>
+You turn towards the other side<br>
+You think you run but you can't hide<br>
+The dead can not ride<br>
+<br>
+Through the valley we ride full of glory we soar<br>
+Where the fights will be raging for now and for more<br>
+When united we come and divided they fall<br>
+Tonight you will witness it all<br>
+<br>
+Proud and so glorious standing before of us<br>
+Our swords will shine bright in the sky<br>
+When united we come to the land of the sun<br>
+With the heart of a dragon we ride<br>
+<br>
+Over high seas and mountains<br>
+We fly to the heavens on wings of a dragon tonight<br>
+<br>
+Proud and so glorious standing before of us<br>
+Our swords will shine bright in the sky<br>
+<br>
+Proud and so glorious standing before of us<br>
+Our swords will shine bright in the sky<br>
+When united we come to the land of the sun<br>
+With the heart of a dragon<br>
+<br>
+The heart of a dragon<br>
+The heart of a dragon we ride</p>
+
+      <h1 id="f10" class="lyrics-test">-Where Dragons Rule-</h1>
+      <p class="lyrics-test-test">[Bonus Track]<br>
+<br>
+Full the moon and midnight sky<br>
+Through the dark they ride<br>
+Warriors of forever will sacrifice the night<br>
+<br>
+One for all and all for one<br>
+The future time has come<br>
+Faces filled with torment<br>
+Your heart beats like a drum<br>
+<br>
+Never you will surrender<br>
+You'll fight on 'til the end<br>
+Together we will be strong again<br>
+Forever...<br>
+<br>
+In this land we have defended from all things dark and cruel<br>
+Now we are defenseless in a land where dragons rule<br>
+<br>
+In this land we have defended from all things dark and cruel<br>
+Now we are defenseless in a land where dragons rule<br>
+<br>
+Flash of steel in the mid-day sun<br>
+The battle has begun<br>
+Blood spills all around us but still we carry on<br>
+<br>
+No mercy we will show to them<br>
+The white flag shall be raised<br>
+We'll fight for our freedom<br>
+Ride towards this evil place<br>
+<br>
+We all stand until the end allegiance to this game<br>
+<br>
+In this land we've defended from all things dark and cruel<br>
+Now we're defenseless in a land where dragons rule<br>
+<br>
+In this land we've defended from all things dark and cruel<br>
+Now we're defenseless in a land where dragons rule<br>
+<br>
+Sun set in the western sky<br>
+The battle's almost done<br>
+The victory will be glorious<br>
+Our enemies are gone<br>
+<br>
+We all stand until the end allegiance to this game<br>
+<br>
+In this land we've defended from all things dark and cruel<br>
+Now we're defenseless in a land where dragons rule<br>
+<br>
+In this land we've defended from all things dark and cruel<br>
+Now we're defenseless in a land where dragons rule<br>
+<br>
+In this land we've defended from all things dark and cruel<br>
+Now we're defenseless in a land where dragons rule</p>
+
+      <h1 id="f11" class="lyrics-test">-Evening Star (Demo)-</h1>
+      <p class="lyrics-test-test">[Japanese Bonus Track]<br>
+<br>
+Into the endless we ride<br>
+Unveil the darkness behind<br>
+Abandoned glory hidden<br>
+Castaway we ride<br>
+<br>
+Now will the sky surrender<br>
+Forever through the never<br>
+A silent whisper echoes<br>
+Through my restless heart tonight<br>
+<br>
+I will see glory rise<br>
+We'll be one tonight<br>
+<br>
+Don't you shut your eyes in silence<br>
+Tonight gather near<br>
+Come and live your fear<br>
+<br>
+In a land of desire<br>
+Your heart filled with fire<br>
+You live for the right to be free<br>
+We will sail on<br>
+Forever on<br>
+To the land of the evening star<br>
+<br>
+In a land of desire<br>
+Your heart filled with fire<br>
+The land of the evening star<br>
+<br>
+Now and forever after<br>
+Asylums filled with laughter<br>
+Suspicion haunts my dreams<br>
+An echo through my mind<br>
+<br>
+You exit through a dark hole<br>
+Re-entry feels essential<br>
+The link between two worlds<br>
+So suitable, the darkest night<br>
+<br>
+I will see glory rise<br>
+We'll be one tonight<br>
+<br>
+Don't you shut your eyes in silence<br>
+Tonight gather near<br>
+Come and live your fear<br>
+<br>
+In a land of desire<br>
+Your heart filled with fire<br>
+You live for the right to be free<br>
+We will sail on<br>
+Forever on<br>
+To the land of the evening star<br>
+<br>
+In a land of desire<br>
+Your heart filled with fire<br>
+The land of the evening star<br>
+<br>
+In a land of desire<br>
+Your heart filled with fire<br>
+You live for the right to be free<br>
+We will sail on<br>
+Forever on<br>
+To the land of the evening star<br>
+<br>
+In a land of desire<br>
+Your heart filled with fire<br>
+You live for the right to be free<br>
+We will sail on<br>
+Forever on<br>
+To the land of the evening star<br>
+<br>
+In the land of desire<br>
+Your heart filled with fire<br>
+The land of the evening star</p>
+
+      <h1 id="f12" class="lyrics-test">-Heart Of A Dragon (Demo)-</h1>
+      <p class="lyrics-test-test">[Japanese Bonus Track]<br>
+<br>
+Proud and so glorious standing before of us<br>
+Our swords will shine bright in the sky<br>
+When united we come to the land of the sun<br>
+With the heart of a dragon we ride<br>
+<br>
+We are flying on wings in winter sky with fire burning deep inside<br>
+We are warriors of endless time forever and on<br>
+On the wings of steel an ancient flight we see the powers that unite<br>
+The gods will now send us a sign of battle once more<br>
+<br>
+Through the valley we ride full of glory we soar<br>
+Where the fights will be raging for now and for more<br>
+When the trumpets will sound<br>
+Lift your swords to the sky<br>
+For tonight we will fight 'til we die<br>
+<br>
+Proud and so glorious standing before of us<br>
+Our swords will shine bright in the sky<br>
+When united we come to the land of the sun<br>
+With the heart of a dragon we ride<br>
+<br>
+A land unknown we come so far<br>
+We ride the night 'til morning star<br>
+When colours fade to black and white<br>
+Your eyes come to sight<br>
+<br>
+With the vision of a great divide<br>
+You turn towards the other side<br>
+You think you run but you can't hide<br>
+The dead can not ride<br>
+<br>
+Through the valley we ride full of glory we soar<br>
+Where the fights will be raging for now and for more<br>
+When the trumpets will sound<br>
+Lift your swords to the sky<br>
+For tonight we will fight 'til we die<br>
+<br>
+Proud and so glorious standing before of us<br>
+Our swords will shine bright in the sky<br>
+When united we come to the land of the sun<br>
+With the heart of a dragon we ride<br>
+<br>
+Over high seas and mountains<br>
+We fly to the heavens on wings of a dragon tonight<br>
+<br>
+Proud and so glorious standing before of us<br>
+Our swords will shine bright in the sky<br>
+<br>
+Proud and so glorious standing before of us<br>
+Our swords will shine bright in the sky<br>
+When united we come to the land of the sun<br>
+With the heart of a dragon<br>
+<br>
+The heart of a dragon<br>
+The heart of a dragon we ride</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/sonic.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Sonic Firestorm - 2004</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-My Spirit Will Go On-</h1>
+        <p class="lyrics-test-test">Life is a misery, don't know how it's come to be<br>
+Death, the epitome of all of our days<br>
+In the past we had no choice to hear or to be the voice<br>
+Close your eyes and visualize the demon to arise<br>
+<br>
+You know that sanity is not as it was meant to be<br>
+And now that misery has taken a new stand<br>
+In the land of a thousand souls we will carry on through the rain<br>
+In the sun we will move along with the memories of the slain<br>
+When I see this humanity and the evil that they have come to be<br>
+We've come to the point of no return and you beg for just...<br>
+<br>
+One more time to escape from all this madness<br>
+One more time to be set free from all this sadness<br>
+And one last time to be the one who understands<br>
+My soul and my spirit will go on, for all of eternity<br>
+<br>
+Foreign the currency, your payment in blood to be<br>
+Death is the destiny for all of our ways<br>
+In the dark you hide away for who or what you can't say<br>
+When I see the power of the demon come alive<br>
+<br>
+You know that sanity is not as it was meant to be<br>
+And now that misery has taken a new stand<br>
+On the wings of eagles flying staring on to the sun<br>
+Reaching for the gold horizon when the war shall be won<br>
+Can you see the debauchery and the blade of death that has come for thee<br>
+In winds of torment forever more you will cry for just...<br>
+<br>
+One more time to escape from all this madness<br>
+One more time to be set free from all this sadness<br>
+And one last time to be the one who understands<br>
+My soul and my spirit will go on, for all of eternity</p>
+
+        <h1 id="s2" class="lyrics-test">-Fury Of The Storm-</h1>
+        <p class="lyrics-test-test">We are riding for the battle field in force tonight<br>
+Fury of the darkest evil cry for war<br>
+Far beyond the boundaries of hell and starlight<br>
+On the road to lands unknown forever more<br>
+<br>
+Through the caverns far below our quest will lead us<br>
+Onwards through the ice and snow forever more<br>
+Standing fighting full of hate the time has come now<br>
+Stand and sound the guns of glory cry for war<br>
+<br>
+On wings of glory we will carry on<br>
+Far across the forgotten lands toward the distant sun<br>
+And in the darkness shining far beyond the starlight<br>
+Lightning is striking from the dark dawning shadows<br>
+And in the kingdom of the everlasting sun<br>
+When the glory of the master's time has come<br>
+<br>
+Into the fires of forever we will fly through the heavens<br>
+With the power of the universe we stand strong together<br>
+Through the force of power, it will soon reach the hour<br>
+For victory we ride, Fury of the Storm!<br>
+<br>
+We are the chosen ones we cannot fail now<br>
+Spilling all the blood on the fires below<br>
+Smashing through the boundaries with the fire and fury<br>
+Killing all the mortals down the winding road<br>
+<br>
+Hell fires are raging the storm growing strong<br>
+On the path to victory towards the distant sun<br>
+And in the darkness shining far beyond the starlight<br>
+Lightning is striking from the dark dawning shadows<br>
+And in the kingdom of the everlasting sun<br>
+When the glory of the master's time has come<br>
+<br>
+Into the fires of forever we will fly through the heavens<br>
+With the power of the universe we stand strong together<br>
+Trough the forced of power, it will soon reach the hour<br>
+For victory we ride, Fury of the Storm!</p>
+
+        <h1 id="s3" class="lyrics-test">-Fields Of Despair-</h1>
+        <p class="lyrics-test-test">Can you feel the pain inside sometimes in my mind?<br>
+In the land of loneliness the seas of blood run cold<br>
+Is the feeling lost inside within the sins of all mankind?<br>
+Time after time we stood united on we go<br>
+<br>
+Fly far away don't let the world pass you by<br>
+Live for the day when we must stand and survive<br>
+Now we face the judgment day our souls will feel the pain<br>
+Hear the screams of my world through the rain<br>
+<br>
+Silent fields of despair my tears in the rain<br>
+Pain in my heart bleeding through<br>
+One day we'll be back for one moment in time<br>
+Endlessly searching for you...<br>
+<br>
+Who can cure my emptiness inside for this time?<br>
+Suffering from loneliness my dreams and hopes will die<br>
+No more feelings left inside my blackened heart I cannot hide<br>
+Time after time our souls divided on we cry<br>
+<br>
+Fly far away don't leave your own past behind<br>
+Live for the day another year passes by<br>
+Now we turn to face our fear there's nothing more to say<br>
+Still your dreams and my nightmares remain<br>
+<br>
+Silent fields of despair my tears in the rain...</p>
+
+        <h1 id="s4" class="lyrics-test">-Dawn Over A New World-</h1>
+        <p class="lyrics-test-test">In the darkness of the night in the shadows of the dawn<br>
+It's turning black no looking back the sands of time are sown<br>
+When the day will slowly end and the sun has turned to grey<br>
+Will we feel the power of freedom with the dawn of a new day?<br>
+<br>
+Over mountains paved with gold and through the valleys of the slain<br>
+Our quest will lead us onwards to the journey of the brave<br>
+When the time has come to stand for the power we believe<br>
+We will ring the sound of victory for one and all to see<br>
+<br>
+Sometimes in your darkest dreams you will feel the haunting pain<br>
+Silent tears of your hidden fears come to haunt you once again<br>
+Fight on for the memories of the everlasting dream<br>
+Their in the silent lands on wings of glory free<br>
+We can go on forever with the darkness so far away<br>
+And the warriors who live forever fight on to the end<br>
+<br>
+Across the highest mountains and through the endless seas<br>
+Our journey ever onwards fight until we all be free<br>
+Through the darkness shining the never ending light<br>
+On through the days of glory rise towards the fight<br>
+<br>
+And one day we will find a way toward this distant golden age<br>
+The cries of war will sound the day<br>
+We stand before the dawn of a new world<br>
+<br>
+On through the raging thunder across the seven seas<br>
+Cold winter skies are falling on the battles we have seen<br>
+<br>
+We can go on forever with the darkness so far away<br>
+And the warriors who live forever fight on to the end<br>
+<br>
+Across the highest mountains and through the endless seas...</p>
+
+        <h1 id="s5" class="lyrics-test">-Above The Winter Moonlight-</h1>
+        <p class="lyrics-test-test">On wings of burning fire across the oceans far<br>
+The legends of the seven seas and mystic fallen star<br>
+Their laden ships are sailing on towards the sun<br>
+To the island of the everlasting chosen one<br>
+<br>
+Face our fear along the way our freedom will prevail<br>
+The crown and the shining light<br>
+Punishment and anger in the fire of your soul<br>
+Prepare the eternal fight<br>
+<br>
+Lost in a dream in a boundless sea<br>
+Rivers of pain are guiding me<br>
+Defending this land from the sins of man<br>
+Never surrender our dreams again<br>
+<br>
+Ride forever onwards stare into the sun<br>
+Where hopes and dreams are everlasting marching on and on<br>
+Rise another day across the distant skies<br>
+Where the dawn above the winter<br>
+moonlight shines upon the fall of our lives<br>
+<br>
+Insanity sublime shall make by bleeding heart<br>
+Feel cold and fearless anger rising far beyond the dark<br>
+In search of might and wisdom sacrifice our souls<br>
+In the name of truth and justice never to be told<br>
+<br>
+Face our fear along the way our freedom will prevail<br>
+The crown and the shining light<br>
+Punishment and anger in the fire of your soul<br>
+Prepare the eternal fightv
+Can you not feel the eternal pain<br>
+Flows through your heart and every vein<br>
+The torture begins and it breaks you down<br>
+Nothing to save when the soul is gone<br>
+<br>
+Ride forever onwards stare into the sun...</p>
+
+        <h1 id="s6" class="lyrics-test">-Soldiers Of The Wasteland-</h1>
+        <p class="lyrics-test-test">Burning fires, burning lives<br>
+On the long distant roads<br>
+Through the lost mountains endless<br>
+So far away from home<br>
+<br>
+Crossing battles savage seas towards the mountains high<br>
+Forest plains of wilderness we're striking out tonight<br>
+On towards our destiny we travel far and wide<br>
+Journey through the darkness as your hearts refuse to die<br>
+In the flames of hell we fire at will the fires of doom has come<br>
+With the forces of the blackest knights they're staring at the sun<br>
+Far across the distant plains of ice we're searching for the sword<br>
+When the time has come for battle now we follow with the horde<br>
+<br>
+We will ride with fire burning hot towards the night sky<br>
+In the land of long ago forever in our souls<br>
+Fly on wings of shining steel are burning so bright<br>
+In ancient lands of warriors we're riding on again<br>
+<br>
+Burning fires burning lives on the long distant roads<br>
+Through the lost mountains endless so far away from home<br>
+Warrior soldiers forever we fought long ago<br>
+We're all lost in the darkness so far away from home<br>
+<br>
+Fallen soldiers taste the steel of death the daylight dawning<br>
+Sun will shine upon the lives of burning hearts of ice<br>
+As you break through the boundaries of life this feeling of despair<br>
+And they die in their sleep for the world that will not care<br>
+You feel lost in this labyrinth of pain this sickening dismay<br>
+There's a voice inside that's calling another wasted day<br>
+<br>
+Can't you see the history the suffocating madness<br>
+In the land of fallen souls there's nowhere left no place to go<br>
+I have traveled far and wide across this wasteland<br>
+Still searching for the answers for the right to understand<br>
+<br>
+Burning fires burning lives on the long distant roads<br>
+Through the lost mountains endless so far away from home<br>
+Warrior soldiers forever we fought long ago<br>
+We're all lost in the darkness so far away from home<br>
+<br>
+Riding through the starlight and smashing the<br>
+boundaries as hellfire falls from the sky<br>
+A shadow of pain will arise from the ashes of<br>
+those fallen ones who have died<br>
+Our only master with fire and fury of<br>
+hell will see his bidding done<br>
+Blasting from high as the battle<br>
+unfolds to the gates of the city we come</p>
+
+        <h1 id="s7" class="lyrics-test">-Prepare For War-</h1>
+        <p class="lyrics-test-test">I hear a distant thunder<br>
+They say bow down surrender<br>
+Witnessing our demise and the sins of our land<br>
+Why can't we see from under?<br>
+Dark reign of our defenders<br>
+Endlessly torturing the souls without stand<br>
+<br>
+Fight now let's break the chains<br>
+So strong we must feel the pain<br>
+Forever torn apart from the haunting hears of my heart<br>
+<br>
+Rage and fear from skies above the fire fuels my veins<br>
+Destruction of humanity the everlasting flame<br>
+Cast away no turning back from long forgotten shores<br>
+We'll show no mercy as they fall<br>
+The fire burns inside now prepare for war!<br>
+<br>
+You fear the pain no longer<br>
+Daylight your heart be stronger<br>
+Don't even sense the burning hunger inside<br>
+Ride out with force and valor<br>
+In memory forever<br>
+Towards the battering and rise of the tide<br>
+<br>
+Stand now and break the chains<br>
+In unity we feel no pain<br>
+Forever torn apart from the haunting fears of my heart<br>
+<br>
+Rage and fear from skies above the fire fuels my veins...<br>
+<br>
+
+Looking around there's no fear in your heart<br>
+For I know you will never surrender<br>
+Everyone here raise their eyes to the sky<br>
+Now with strength and honor we fight<br>
+PREPARE FOR WAR!<br>
+<br>
+
+Rage and fear from skies above the fire fuels my veins...</p>
+
+        <h1 id="s8" class="lyrics-test">-Once In A Lifetime-</h1>
+        <p class="lyrics-test-test">Dark clouds and thunderstorms in the fires and flames were born<br>
+Through darkness traveling on the night<br>
+Hellfires and rain will fall, time is coming for us all<br>
+Our journey for the guiding light<br>
+<br>
+Firelight it is burning so bright in the dark of the night<br>
+As we fight for the glory tonight there's nowhere to hide<br>
+On the wings of your destiny brings all the power you crave<br>
+Careful now if not you then who else will we save<br>
+<br>
+Lost in this world total stranger<br>
+Death by the sword a common danger<br>
+You know that everything is not what it seems<br>
+March on all night forever searching<br>
+Daylight ahead is coming again<br>
+Break through the walls and use the power of your dreams<br>
+<br>
+Once in a lifetime take a chance at the right time the glory to see<br>
+Rise up for the time of your life<br>
+Now the time has come for you to be free<br>
+<br>
+In the minds of society we all live in harmony<br>
+Truth is that we all die in vain<br>
+You stand for what you believe<br>
+I kill for what I conceive<br>
+Is there then a title for this game?<br>
+<br>
+Far away in the wastelands of hell full of torment and pain<br>
+Demon knights riding over the heights where the fallen are slain<br>
+Violent fury of firestorming death now no life will prevail<br>
+Now you live all your days in the fires of hell<br>
+<br>
+Lost in this world total stranger<br>
+Death by the sword a common dangerv
+You know that everything is not what it seems<br>
+March on all night forever searching<br>
+Daylight ahead coming again<br>
+Break through the walls and use the power of your dreams<br>
+<br>
+Once in a lifetime take a chance at the right time the glory to see<br>
+Rise up for the time of your life<br>
+Now the time has come for you to be free</p>
+
+        <h1 id="s9" class="lyrics-test">-Cry Of The Brave-</h1>
+        <p class="lyrics-test-test">Since the darkness took our minds<br>
+They burned our courage many died<br>
+Had to leave it all behind rebuild our lives<br>
+Passing memories remained<br>
+It made my soul a burning flame<br>
+Haunted dreams of my desire<br>
+Reveal my name<br>
+Raise our swords we fight for life<br>
+Shields and armor shining bright<br>
+Strike like dragons Have no fear<br>
+Swords are made of steel<br>
+<br>
+Fly across the high seas and mountains<br>
+Rise above the golden horizon<br>
+Far away beyond the gates of space and time<br>
+Through the wastelands forever and on<br>
+Still we fight for our freedom<br>
+The cry of the fallen souls bleeding<br>
+Forever journey through the lands of ice and snow<br>
+Will we face all the fears of the world?<br>
+The cry of the brave<br>
+<br>
+Since the time we saw the sign<br>
+Destruction of your feeble mind<br>
+Centuries have come and gone but nothing's changed<br>
+Hopes and dreams have disappeared<br>
+Destruction of your kind is near<br>
+Trapped inside your suffering eternal flame<br>
+<br>
+Search the darkness search the light<br>
+Fierce resistance what a fight<br>
+Glory for unholy seal<br>
+Lies all cast in steel<br>
+<br>
+Fly across the high seas and mountains<br>
+Rise above the golden horizon<br>
+Far away beyond the gates of space and time<br>
+Through the wastelands forever and on<br>
+Still we fight for our freedom<br>
+The cry of the fallen souls bleeding<br>
+Forever journey through the lands of ice and snow<br>
+Will we face all the fears of the world?<br>
+The cry of the brave<br>
+<br>
+In the depths of your desire<br>
+So secretly you feed the fire<br>
+Burning through the memories of all our lives<br>
+Watch the day turn into night<br>
+You reach out for that guiding light<br>
+First to be the one to hear their blinding lies<br>
+<br>
+Fear of darkness fear of light<br>
+Sucked in by their ancient might<br>
+Ruthless in what you may feel<br>
+When your mind they steal<br>
+<br>
+Fly across the high seas and mountains<br>
+Rise above the golden horizon<br>
+Far away beyond the gates of space and time<br>
+Through the wastelands forever and on<br>
+Still we fight for our freedom<br>
+The cry of the fallen souls bleeding<br>
+Forever journey through the lands of ice and snow<br>
+Will we face all the fears of the world?<br>
+The cry of the brave</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/inhuman.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Inhuman Rampage - 2006</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-Through The Fire And The Flames-</h1>
+          <p class="lyrics-test-test">On a cold winter morning, in the time before the light<br>
+In flames of death's eternal reign we ride towards the fight<br>
+When the darkness has fallen down, and the times are tough all right<br>
+The sound of evil laughter falls around the world tonight<br>
+<br>
+Fighting hard, fighting on for the steel, through the wastelands evermore<br>
+The scattered souls will feel the hell bodies wasted on the shores<br>
+On the blackest plains in hell's domain, we watch them as we go<br>
+In fire and pain, and once again we know<br>
+<br>
+So now we fly ever free<br>
+We're free before the thunderstorm<br>
+On towards the wilderness our quest carries on<br>
+Far beyond the sundown, far beyond the moonlight<br>
+Deep inside our hearts and all our souls<br>
+<br>
+So far away we wait for the day<br>
+For the lives all so wasted and gone<br>
+We feel the pain of a lifetime lost in a thousand days<br>
+Through the fire and the flames we carry on<br>
+<br>
+As the red day is dawning<br>
+And the lightning cracks the sky<br>
+We'll raise our hand to the heavens above<br>
+With resentment in their eyes<br>
+Running back from the mid-morning light<br>
+With a burning in my heart<br>
+We're banished from a time in a fallen land<br>
+To a life beyond the stars<br>
+<br>
+In your darkest dreams see to believe<br>
+Our destiny is time<br>
+And endlessly we'll all be free tonight<br>
+<br>
+And on the wings of a dream, so far beyond reality<br>
+All alone in desperation, now the time has come<br>
+Lost inside you'll never find, lost within my own mind<br>
+Day after day this misery must go on<br>
+<br>
+Now here we stand with their blood on our hands<br>
+We fought so hard now can we understand<br>
+I'll break the seal of this curse if I possibly can<br>
+For freedom of every man
+</p>
+
+          <h1 id="t2" class="lyrics-test">-Revolution Deathsquad-</h1>
+          <p class="lyrics-test-test">Flying over darkened skies the battle will call<br>
+Distant angels crying in the eye of the storm<br>
+And the world falls under the starlight shining from heavens below<br>
+Long years of pain and sorrow searching for more<br>
+Cry for the touch of angels never before<br>
+And the stars fall on the horizon onwards and up through the pain<br>
+<br>
+Ride the wind and fight the demon steel shining bright<br>
+Standing together forever onwards flames burning strong<br>
+Hot wind in hell of pain and sorrow now and ever onwards<br>
+We stare into the dawn of a new world<br>
+<br>
+Cry out for the fallen heroes<br>
+Lost in time ago<br>
+In our minds they still belong<br>
+When the sands of time are gone<br>
+<br>
+Rise over shadow mountains blazing with power<br>
+Crossing valleys endless tears in unity we stand<br>
+Far and wide across the land the victory is ours<br>
+On towards the gates of reason<br>
+Fight for the truth and the freedom<br>
+Gloria<br>
+<br>
+Searching through the memories to open the door<br>
+Living on the edge of life like never before<br>
+And the ground chants under the moonlight facing their fears all the same<br>
+<br>
+Heavens fear now open wide and up for the the call<br>
+All in stark reality the angels will fall<br>
+And the world cries out for the silence lost in the voices unknown<br>
+<br>
+Blinded by the force of evil cries into the night<br>
+Never before have they seen the darkness now they are all gone<br>
+Out from the shadows storming on the wings of revelations
+Your soul will feel no mercy come the dawn<br>
+<br>
+Hold on for the morning after<br>
+Never to let go<br>
+In the fire's burning strong<br>
+When the tides of time roll on<br>
+<br>
+Gloria<br>
+Gloria</p>
+
+          <h1 id="t3" class="lyrics-test">-Storming The Burning Fields-</h1>
+          <p class="lyrics-test-test">Bursting through the fires avenging<br>
+Fatal warning battles are raging<br>
+Power of darkness rise for the fight<br>
+We'll be strong and stand our ground<br>
+<br>
+Death is all around us and my heart is beating weaker<br>
+Fight the day with power of immortal souls arise<br>
+Fire in our hearts the evil rages on forever more<br>
+Burning until the battle rage is gone<br>
+<br>
+Through damnation we rise sign of the times master of bleeding eyes<br>
+Thunder and high look to the sky you never gonna take us down!<br>
+<br>
+And we will crush the evil standing on the temple in the fire storming<br>
+Fly beyond the lost horizons high<br>
+Heroes of the night are calling<br>
+See the promised land is falling<br>
+Reaching for the powers deep inside<br>
+On through the night<br>
+<br>
+Blinded by the hate and desire<br>
+Burning in your heart like a fire<br>
+Challenging all the suffer and fear our horizons take control<br>
+Blood spills all around us and our enemies draw nearer<br>
+Sacrifice your life to have them carry you away<br>
+Take us to the place of death and carry on forever more<br>
+Burning on the dreams of memories long gone!<br>
+<br>
+And you'll die for your crimes sign of the times master of endless lies<br>
+Fight to the end now we ascend together we will take them down</p>
+
+          <h1 id="t4" class="lyrics-test">-Operation Ground And Pound-</h1>
+          <p class="lyrics-test-test">Smashing through the boundaries<br>
+Storming through the burning fields<br>
+Stand before the evil one on towards the morning sun<br>
+Falling under skies of pain<br>
+<br>
+Still we're searching endlessly<br>
+Crashing over seven seas<br>
+Torturing the winter skies riding over plains of ice<br>
+Shadows in the fields of the slain!<br>
+<br>
+Crashing steel and raging fury smash the quest destroy their army<br>
+Crush the legions of the twilight, templars of steel will burn<br>
+<br>
+Cry far away as we reach for the day<br>
+Blasting our way through the punishment and the pain<br>
+Reach for the world as the sky begins to fall<br>
+Rising through the darkened ashes praying that I'll see you all<br>
+<br>
+Far away will our eyes now see the day<br>
+For today, the everlasting eternal sun<br>
+Washed away the dreams of a brighter day<br>
+Forever hold the dream inside the chance to fight another fight<br>
+The breaking hearts that stand for all our lives<br>
+Live tonight<br>
+<br>
+Watch you die I watch you die inside while fear controls your life<br>
+And reject this animosity that killed so many minds<br>
+You feel the power deep within the fear you hold inside<br>
+Just to find the reason for the treason now you will be mine<br>
+<br>
+Screams of pain in death descending rise again from hell defending<br>
+Burn their hearts within the fire, warriors of light will be slain<br>
+<br>
+Rise through the pain like the sun will rise again<br>
+Day after day but the memories never change<br>
+Stand before the storm as the last horizon falls<br>
+Blinded by the vision and the innocence of our souls<br>
+<br>
+Far away will our eyes now see the day<br>
+For today the everlasting eternal sun<br>
+<br>
+WO...</p>
+
+          <h1 id="t5" class="lyrics-test">-Body Breakdown-</h1>
+          <p class="lyrics-test-test">Silent screams and shattered dreams of what we left at seventeen<br>
+Still lost within the misery and pain that lies inside<br>
+Here alone the fight to breathe still searching for the truth to be<br>
+Blackened by the burning fire held deep inside my mind!<br>
+<br>
+Far beyond the lost horizon standing on the shore<br>
+Across the seas their hearts will bleed this life we're waiting for<br>
+Taste the steel in pain you kneel for glory we defend<br>
+Our fallen souls will rise to fight again!<br>
+<br>
+Stay here with me this night we'll be together<br>
+Future in our hands we'll fight with freedom drawing near<br>
+Stand here with me for we will live forever<br>
+Tonight we stand and face it all<br>
+<br>
+Falling rain will hide the pain that lies beneath the burning flames<br>
+All hope is gone so carry on before the world will fall<br>
+Rise again to die in vain now life can never be the same<br>
+Our own salvation drawing nearer hear the darkness call<br>
+<br>
+Skies are falling thunder storming stand before the world<br>
+We're banished now to barren wastelands fight the demon whore<br>
+Riding on through blackened darkness cross the endless sands<br>
+We sail away our victory at hand!<br>
+<br>
+Stay here with me together we'll be stronger<br>
+Side by side we've conquered lands and stormed across the seas<br>
+<br>
+Die here with me we feel this pain no longer<br>
+For now and ever we will be<br>
+<br>
+In my heart, in my soul, I am out of control<br>
+Fly across the mountains and towards the distant sun<br>
+Tears evermore we cry like before<br>
+Feel the breakdown of my body - set me free<br>
+<br>
+In my heart in my soul I am out of control<br>
+Fly across the mountains and towards the distant sun<br>
+Tears evermore, we cry like before<br>
+Feel the breakdown of my body<br>
+In my heart in my soul I am out of control<br>
+Fly across the mountains and towards the distant sun<br>
+Tears evermore, we cry like before<br>
+Feel the breakdown of my body<br>
+Feel the breakdown of my body<br>
+Set me free</p>
+
+          <h1 id="t6" class="lyrics-test">-Cry For Eternity-</h1>
+          <p class="lyrics-test-test">Falling from the sky now, the sign of the burning sun<br>
+Into the face of the evil one<br>
+Nowhere to hide now we're on the run right before your eyes<br>
+<br>
+We're watching, we're waiting, our souls are forsaken<br>
+The sign of the warriors, the evil will rise<br>
+<br>
+Through the fire and the flames, breaking the chains<br>
+Into the night we go<br>
+Torment and pain trample the slain<br>
+Soldiers of death we know<br>
+<br>
+Our steel will shine forever through the night and blinding rain!<br>
+We'll see them face their fears; it's time to rise again in everlasting pain<br>
+<br>
+Fly free for what we believe<br>
+One thousands hearts bleeding the eternal dream<br>
+Feel me the touch we all need<br>
+So silently now we will kneel<br>
+Cry for eternity<br>
+<br>
+See now the fallen will live again<br>
+They feel the pain burn inside of them<br>
+Remember now what you feel again deep down inside<br>
+Still cursing still crawling we're endlessly falling<br>
+The downfall of mankind the fate of us all<br>
+<br>
+Hold your hands to the sky bleed and you cry<br>
+Screaming until we know<br>
+Dying in pain again and again<br>
+Onwards to hell below<br>
+<br>
+Stand strong we'll live together raging through the barren lands<br>
+Our eyes have seen the sorrow far across the sands<br>
+The power in our hands<br>
+<br>
+Fly far away to the end of our days<br>
+The voices of long distant cries<br>
+Now we remain in this labyrinth of pain<br>
+And so we ride into the night
+</p>
+
+          <h1 id="t7" class="lyrics-test">-The Flame Of Youth-</h1>
+          <p class="lyrics-test-test">Close your eyes hear the thunder and rain<br>
+Fear inside of the torturing pain<br>
+For the cries of the world and the last lives remain<br>
+<br>
+Chain your heart swear to die for their gain<br>
+Deep inside slowly fading away<br>
+And the last breathe remains and the fear turns to rage<br>
+<br>
+Locked in a world by the fallen evil souls<br>
+Torn right apart for your life insane<br>
+Burning in my mind now to bring my life to hold<br>
+Reach out and die in the flames<br>
+See through the lies and their ever staring eyes<br>
+Now is the time to defend your ground<br>
+Destiny will call to remind us all now<br>
+Fly free so far from here<br>
+This life we know will end<br>
+In dreams of everlasting pain<br>
+The fallen now rise again<br>
+<br>
+Through the fire, through the flames Like the sun will rise again<br>
+Lost in time<br>
+Lost in space<br>
+To the end of all their days<br>
+<br>
+See their endless ways insanity<br>
+The quest deranged not meant to be<br>
+In flames will now forever burn eternally<br>
+<br>
+So free your heart leave your life far behind<br>
+In the cold of winter skies escape the pain inside<br>
+Now feel your soul lost in seas of all eternity<br>
+Everyday this life, defending and the flames of youth not ending<br>
+In a lifetime, searching, we must fight through the eternal pain<br>
+<br>
+So alone in the world far away,<br>
+memories of a dream will remain<br>
+As the world's falling cold and our lives all in vain<br>
+<br>
+Fire in my soul will forever rise again<br>
+Nothing in my mind to remember now<br>
+Broken by the fear of the dark night calling<br>
+Ride free on endless seas<br>
+The final curtain falls<br>
+Cut the ground from down below<br>
+The time to lock and to load<br>
+<br>
+Through the fire, through the rain,<br>
+far across the distant plains<br>
+Feel the wind beneath the steel<br>
+as your mind becomes insane<br>
+Save the pain from all humanity,<br>
+their rides trough our destiny<br>
+For freedom now we rise for all again<br>
+<br>
+So free your heart leave your life far behind<br>
+In the cold of winter skies escape the pain inside<br>
+And when the memories are all but left behind<br>
+And the days have gone forever, lost within my mind<br>
+Now feel your soul burn in seas of all eternity<br>
+Every day of this life defending and the flames of youth not ending<br>
+In a lifetime searching we must fight through the eternal pain<br>
+<br>
+We fight through the eternal pain</p>
+
+          <h1 id="t8" class="lyrics-test">-Trail Of Broken Hearts-</h1>
+          <p class="lyrics-test-test">Here we are far beyond the distant sky<br>
+Seen all the world and how the story will be over<br>
+Through the snow and tainted mountains we have climbed<br>
+Now we have found the light that guides us over<br>
+Through the fallen rain we travelled far and wide<br>
+And through the blackest darkness<br>
+Stars above shining bright<br>
+<br>
+Through the sun and winter rain will fall<br>
+All our lives we all were waiting for a sign to call<br>
+We're walking hand in hand in dreams and endless time<br>
+How do we know when we will leave this life behind?<br>
+<br>
+Stare at life through eyes of mine<br>
+the hate the fear and the pain<br>
+There's a feeling held deep inside - when life you live is in vain<br>
+<br>
+Fly away down the lonely roads of yesterday<br>
+We close your eyes to see the light of brighter days<br>
+And all alone we'll be where time can never heal<br>
+With the trail of broken hearts flying free<br>
+<br>
+Once again we walk this lonely road<br>
+There are times that we are wading through the rain and cold<br>
+We're lost in memories of what we left behind<br>
+Relive the dreams, the endless screams of pain inside<br>
+<br>
+Lives are filled with emptiness<br>
+The fear returned once again<br>
+Searching endlessly you cannot see<br>
+Drown your mind in the pain<br>
+<br>
+The last temptation will be all that's left for me<br>
+<br>
+When I see those tears you cry<br>
+When I hear those lies you lie<br>
+When I see your creation now falling down on me<br>
+Is this the reason to be?<br>
+<br>
+The trail of broken hearts flying free
+</p>
+
+          <h1 id="t9" class="lyrics-test">-Lost Souls In Endless Time-</h1>
+          <p class="lyrics-test-test">[Bonus Track]<br>
+<br>
+Spend all our lives<br>
+On what we believe in<br>
+Struggle day by day<br>
+But never retrieving<br>
+Taking our chances<br>
+And follow the footsteps<br>
+Ancestors will take us to this fight<br>
+At the time it was blistering snowing<br>
+<br>
+Never really know about<br>
+Where we were going<br>
+Time is coming now<br>
+To cross over<br>
+Here and now until<br>
+The curtain lowers<br>
+<br>
+Slaying all the evil down below<br>
+Onwards we ride now<br>
+To what we know<br>
+Strong enough to stay<br>
+And carry on forever<br>
+Brace your soul<br>
+To fight whenever<br>
+<br>
+Never know how far we travelled<br>
+We will have our stand<br>
+Across the deepest oceans<br>
+Gold is in our hands<br>
+Good things will come<br>
+For those who wait we can't deny<br>
+Still the battle raging and the fire burns inside<br>
+<br>
+Take you with me, we will fly across the sea<br>
+To the land of the sun where our journeys begun<br>
+All fear is gone, we sail until the dawn<br>
+Deepest fears will burn inside your mind<br>
+For the souls lost in endless time<br>
+<br>
+Searching never ending<br>
+For the chaos ascending<br>
+You forgot the spirits<br>
+All times pretending<br>
+Passing shades of darkness<br>
+In the world around you<br>
+Finally insanity<br>
+In death has found you.<br>
+<br>
+On the edge of life<br>
+Trying to pull you under<br>
+Deep inside the storm<br>
+There's a raging thunder<br>
+Sacrifice your innocence<br>
+For persecution<br>
+As we now prepare<br>
+For the revolution<br>
+<br>
+Slaying all the evil down below<br>
+Onwards we ride now<br>
+To what we know<br>
+Strong enough to stay<br>
+And carry on forever<br>
+Brace your soul<br>
+To fight whenever<br>
+<br>
+In a time of fire we're searching<br>
+Blind inside the mind<br>
+Run away to hell's damnation<br>
+One day we will find<br>
+Suddenly the skies are falling
+Too late for us all<br>
+Crashing down on all creation<br>
+As the towers fall<br>
+<br>
+Take you with me, we will fly across the sea<br>
+To the land of the sun where our journeys begun<br>
+All fear is gone, we sail until the dawn<br>
+Deepest fears will burn inside your mind<br>
+For the souls lost in endless time<br>
+<br>
+Stand Before the worlds of freedom<br>
+Rise above them all<br>
+Ride towards the battle raging<br>
+Victory behold<br>
+Blackened Steel of death tonight<br>
+Our legions now descend<br>
+Far Beyond the gates of glory<br>
+Time to rise again<br>
+<br>
+Take you with me, we will fly across the sea<br>
+To the land of the sun where our journeys begun<br>
+All fear is gone, we sail until the dawn<br>
+Deepest fears will burn inside your mind<br>
+<br>
+Take you with me, we will fly across the sea<br>
+To the land of the sun where our journeys begun<br>
+All fear is gone, we sail until the dawn<br>
+Deepest fears will burn inside your mind<br>
+<br>
+For the souls lost in endless time<br>
+For the souls lost in endless time<br>
+For the souls lost in endless time
+</p>
+        </div>
+      </div>
+
+      <div class="lyrics-layout">
+        <div class="lyrics-layout_image">
+          <img id="fourth" class="lyrics-page_image" src="./images/ultra.jpg" height= "100%" width="auto"/>
+        </div>
+        <div class="lyrics-page_album-title_wrap">
+          <h1 class="lyrics-page_album-title">Ultra Beatdown - 2008</h1>
+        </div>
+          <div class="lyrics-page_album-songs">
+            <h1 id="ff1" class="lyrics-test">-Heroes Of Our Time-</h1>
+            <p class="lyrics-test-test">Lost in a dream, finally it seems,<br>
+Emptiness and everlasting madness,<br>
+See the sadness grow, watching as we know,<br>
+Long before our journey for the world,<br>
+Call for us, the power in all of us,<br>
+So far beyond the blackened sky tonight...<br>
+Glorious, forever more in us,<br>
+We are victorious, and so alive.<br>
+<br>
+We'll all find our sacrifice tomorrow,<br>
+Our journey on towards a brighter day,<br>
+Silent tears we left behind, still so far away,<br>
+Across the endless sands,<br>
+Through the fields of our despair,<br>
+Free for all eternity, we stand, yeah,<br>
+Rise above the universe tonight,<br>
+Starchaser...<br>
+<br>
+Fly towards the storm, see the world reborn,<br>
+Feel the pain inside the voice of sorrow,<br>
+Cross the distant shores, find the open door,<br>
+Stand alone, in judgment for tomorrow.<br>
+<br>
+Years of pain still haunt us all, we saw the last sunrise,<br>
+Take me home, in freedom, for a lifetime...<br>
+Pray now for the silence, and the last tears we'll cry<br>
+So glorious, this fire inside, united we stand.<br>
+<br>
+And we'll all find our sacrifice tomorrow,<br>
+Our journey on towards a brighter day,<br>
+Silent tears we left behind, still so far away,<br>
+Across the endless sands,<br>
+Through the fields of our despair,<br>
+Free for all eternity, we stand, yeah,<br>
+Rise above the universe tonight,<br>
+Starchaser...<br>
+<br>
+Free from this world, here for the last time,<br>
+Oceans collide inside of us all,<br>
+Believe who we are,<br>
+The phoenix will guide us,<br>
+Freedom will rise once again.<br>
+<br>
+Save us tonight, the last hope for all of us,<br>
+Light-years gone by, we're still holding on,<br>
+Save us tonight, a star shines in all of us,<br>
+Far beyond our lives, still our glory lives on.<br>
+<br>
+And we'll all find our sacrifice tomorrow,<br>
+Our journey on towards a brighter day,<br>
+Silent tears we left behind, still so far away,<br>
+Across the endless sands,<br>
+Through the fields of our despair,<br>
+Free for all eternity, we stand, yeah,<br>
+Rise above the universe tonight,<br>
+Starchaser...Starchaser...<br>
+<br>
+Our kingdom come, we stand as one,<br>
+And we will live for always evermore...
+</p>
+
+            <h1 id="ff2" class="lyrics-test">-The Fire Still Burns-</h1>
+            <p class="lyrics-test-test">Finally all the world will see,<br>
+Rise again before the endless silence,<br>
+Burn the soul before we'll all be free,<br>
+Light the path beneath a blackened, burning sky.<br>
+<br>
+One final sacrifice, this night belongs to me,
+Turn back before the dawn of winter,<br>
+So far away the cry set fallen angels free,<br>
+Through my mind tonight, our journey ever after.<br>
+<br>
+Never ending solitude, this is your life to be,<br>
+So cold and dark, the voice of sadness,<br>
+Suffering in endless pain, the truth of all to be,<br>
+Crawling back to life through ever-blinding darkness.<br>
+<br>
+Free falling, fates warning, find a life to hold on,<br>
+Souls stealers, true believers, rise now they are gone,<br>
+And as they ride away forsake the one to save us,<br>
+Winters mourning of a lost fallen world,<br>
+Pray now united in a lifetime alone,<br>
+Won't you wait for the silence so strong?<br>
+Wait for the dawn.<br>
+<br>
+Tonight, falling like the rain insanity lives on,<br>
+Feel the shattered dreams, one thousand voices crying,<br>
+Raging endlessly they come, whoa,<br>
+And the morning light will hide the darker days gone by,<br>
+And the sun will shine again across the blazing skies,<br>
+Glorious eternally we'll rise above the world,<br>
+Marching on till victory we fight,<br>
+The fire still burns...<br>
+<br>
+Looking back our passing lives, their memories to see,<br>
+Flick through the passages of silence,<br>
+Hidden by the sacrifice to set the demons free,<br>
+Now they understand reclaim the land relentless.<br>
+<br>
+Fear calling, transforming, stand alone in our time,<br>
+Advocation, desolation, slay the vision divine,<br>
+And all the stars fall around the world tonight,<br>
+Silent forces from a past life return,<br>
+Pray for the silence in a world so alone,<br>
+Til' we touch the horizon beyond,<br>
+Fly through the storm.<br>
+<br>
+The tears in your eyes,<br>
+A lifetime of misery,<br>
+In silence we stand all alone for the fate of our own destiny,<br>
+A lifetime of lies,<br>
+One chance at this fantasy,<br>
+The judgement will pass for the cries of the world that has faded from me.<br>
+<br>
+Whoa, oh oh oh,<br>
+Whoa, oh oh oh,<br>
+Whoa, oh oh oh oh oh oh oh oh ohhh,<br>
+Whoa, oh oh oh,<br>
+Whoa, oh oh oh,<br>
+Whoa, oh oh oh oh oh ohhhh oh oh oh.</p>
+
+            <h1 id="ff3" class="lyrics-test">-Reasons To Live-</h1>
+            <p class="lyrics-test-test">Once again I'm here alone, my secret life awaits me,<br>
+Still a thousand miles away from a land of broken dreams,<br>
+Night falls and the screen is shining, force deception behind the lines,<br>
+Hours wasted aimlessly gone, time and time again.<br>
+<br>
+Try to understand, desperately lost with a dream in my hand,<br>
+Will you wait alone for me tonight?<br>
+Hold me, save me.<br>
+
+<br>
+A star shines in all of us, we'll search for all our lives,<br>
+One day we'll find a way, and a reason to survive,<br>
+Cry for the day to return, life no one can understand,<br>
+We all face our fears in the world,<br>
+We all hold our place in the universe,<br>
+For eternity...<br>
+<br>
+Hide the lines deceive myself, erase the past from my space,<br>
+Images of loneliness sent far across the land,<br>
+Once sure, but my eyes are blinded,<br>
+Frantic charge for a place to hide<br>
+Lost generations apart, an ancient life returns.<br>
+<br>
+Kindness in her eyes, taken away by a man in disguise,<br>
+Won't you wait alone again tonight?<br>
+Save me, take me.<br>
+<br>
+A star shines in all of us, we'll search for all our lives,<br>
+One day we'll find a way, and a reason to survive,<br>
+Cry for the day to return, life no one can understand,<br>
+<br>
+Our past lives return to us all.<br>
+Our memories will fly free forever.<br>
+So far from the cries of the world for eternity.</p>
+
+            <h1 id="ff4" class="lyrics-test">-Heartbreak Armageddon-</h1>
+            <p class="lyrics-test-test">Highway of emptiness outside the burning world,<br>
+Rise again this quest for our salvation,<br>
+Running faster, the savage laughter, the daylight fades away,<br>
+Nothing left but the life we left behind,<br>
+Ever searching the hidden faces, the hatred grows inside,<br>
+Broken man and a family left destroyed.<br>
+<br>
+Light years away, empty words between us,<br>
+So turn away and say goodbye for the last time tonight,<br>
+Still lost within the loneliness a lifetime ago,<br>
+Hanging on as we passed through the fields,<br>
+These pieces of our lives will lead the long journey home,<br>
+And the wounds never heal<br>
+<br>
+So fly for the last time, and the fire burns within,<br>
+Silently we stand in a long forgotten wasteland,<br>
+Rise through the lost ages, hope they will bring,<br>
+Free forever more and the dream will never die.<br>
+<br>
+Devastation, a lost connection, a beatdown man returns,<br>
+So confused and alone for one more time,<br>
+Crushed defeated, the fog surrounding, a prisoner trapped inside,<br>
+System down feel the veins erupt tonight.<br>
+<br>
+Time after time, promises of freedom,<br>
+We'll leave the past behind and strike for the first time tonight,<br>
+Still mystified by lack of cravation they show,<br>
+After all of the trials we've been through,<br>
+These memories and empty words were all lost in vain,<br>
+And the scars never heal.<br>
+<br>
+Whoa, oh, oh,<br>
+And the dream will never die.
+</p>
+
+            <h1 id="ff5" class="lyrics-test">-The Last Journey Home-</h1>
+            <p class="lyrics-test-test">Strangers to reason, our bleeding hearts so cold,<br>
+Life brings a change in season, fear will blind the soul,<br>
+In the silence one moment alone,<br>
+Cast away scattered far on the wasteland.<br>
+<br>
+Sever the soul from the forgotten sickness, escape this life,<br>
+Challenge the dream before the long departed a mindless rhyme,<br>
+Whoa, oh, oh,<br>
+Hear the burning thunder roar,<br>
+Whoa, oh, oh, oh, oh, ohhh.<br>
+<br>
+Whoa, oh, oh,<br>
+Still lost in a fire storm,<br>
+Tonight we feel the past return.<br>
+<br>
+Lost inside the dream, pass by the life we'll live forever,<br>
+Still the wasted time left burning below<br>
+One thousand shattered voices, lost inside in endless wonder,<br>
+Tonight her voice will take me home.<br>
+<br>
+Shine glorious we run, we stare into the blackened sky,<br>
+Save the last command, the virtue blinding,<br>
+So far beyond the sun, still burning with the fire inside,<br>
+Once alone again, silent stares for our last journey home.<br>
+<br>
+Paralysed, intensified mutation, frustration,<br>
+Everlasting lifetime in the underworld,<br>
+We'll travel endlessly, deluded, disjointed,<br>
+One man can't understand this sad misery.<br>
+<br>
+Whoa, oh oh oh ohh,<br>
+Whoa, oh oh ohh,<br>
+Whoa, oh oh oh oh oh ohh.<br>
+<br>
+They've taken my heart,<br>
+They've taken my soul,<br>
+And now we stand alone insanity.<br>
+<br>
+In time we'll see the past unwind,<br>
+Alive, still wandering our fallen land,<br>
+One more time we stare into the blackened sky,<br>
+For tonight, in our hearts now we feel,<br>
+One last time see our destiny revealed.<br>
+<br>
+Shine glorious tonight, still blinded by the blackened sun,<br>
+Save the last command, forever rising,<br>
+So far beyond they come, still burning with the fire inside,<br>
+Once alone again, silent stares for our last journey home.
+</p>
+
+            <h1 id="ff6" class="lyrics-test">-A Flame For Freedom-</h1>
+            <p class="lyrics-test-test">One dream in all of us still shining,<br>
+One star, the ever-lasting light,<br>
+So alone, so lost inside, to the end in paradise,<br>
+United, victorious, the hearts of our nation tonight.<br>
+<br>
+In the dark December morning light,<br>
+Fall strong to the burning winds, the fires of Hell will forsake me,<br>
+Shattering the chains that ever bind us,<br>
+Suffering their pain eternally.<br>
+<br>
+Four strong, smash the silence, carry on like before,<br>
+Fires burn, still we battle, lost so far away,<br>
+Storm with hell fire raging, sun shines down as they kneel,<br>
+Lost in times and long forgotten, gathering miles away.<br>
+<br>
+Tears fall inside the dream, our last days gone by,<br>
+Still alive we feel the pain tonight,<br>
+Stars fall through blackened clouds, in dreams sadness reigns,<br>
+A twilight star in the thousand lights for me.<br>
+<br>
+Ohhhhhhhhh.<br>
+<br>
+And still we save a breath for the world,<br>
+Life brings up for us all,<br>
+United, victorious, the hearts of our nation tonight.<br>
+<br>
+One dream in all of us still shining,<br>
+One star, the ever lasting light...<br>
+<br>
+And still we save a breath for the world,<br>
+Life brings up for us all,<br>
+United, victorious, the hearts of our nation tonight.<br>
+<br>
+United, victorious, the hearts of our nation tonight.</p>
+
+            <h1 id="ff7" class="lyrics-test">-Inside The Winter Storm-</h1>
+            <p class="lyrics-test-test">Strangers they come with the rise of the sun,<br>
+To escape from this madness forever,<br>
+Rivers will dry, bringing holes in the sky,<br>
+As the empire is fading away.<br>
+<br>
+Silently march now, where the lost souls run wild,<br>
+In a time long forgotten, forever,<br>
+Pain brings us sadness at the dawn of the world,<br>
+But this nightmare will still carry on.<br>
+<br>
+Through the day we'll find a way, we're lost beneath the stars,<br>
+Faceless they fall now, and we all stand as one,<br>
+Long wasted tears, but a light forever shining,<br>
+One stand one last demand to end it all.<br>
+<br>
+Outside the world in a fallen land, turn away from our despair,<br>
+We stand alone in a silent dream, lost within eternally,<br>
+Whoa, oh oh ohh,<br>
+Whoa, oh oh oh ohh,<br>
+Rise again and try to understand.<br>
+<br>
+A light for the world will save us tonight,<br>
+Redemption still so far away,<br>
+Marching on inside of our loneliness,<br>
+Still searching for all that remains.<br>
+<br>
+And time will pass me by,<br>
+But I'm not so far away,<br>
+We're the sons of the land, our lifeblood runs into the ocean,<br>
+Tomorrow we're gone, our souls rising up to the sun.<br>
+<br>
+It's just one wasted man in one wasted land,<br>
+Suffering, still burning, so alive,<br>
+It's just one wasted man, in one wasted land,<br>
+Until the end of time,<br>
+Inside the winter storm.<br>
+<br>
+It's just one wasted man, in one wasted land,<br>
+Suffering so far, and so alive,<br>
+It's just one wasted man, in one wasted land,<br>
+Until the end of time,<br>
+Inside the winter storm.<br>
+<br>
+Inside the winter storm !</p>
+
+            <h1 id="ff8" class="lyrics-test">-The Warrior Inside-</h1>
+            <p class="lyrics-test-test">Sonic fires bring mass devastation,<br>
+Manic search in sad desperation,<br>
+Jeopardise the right to hide from a sad existence,<br>
+Nothing left, still searching for something,<br>
+Deep beneath the cries<br>
+Wait for the deafening silence, fly forever more.<br>
+<br>
+Crushed by the thought that you're all alone, cravation in her eyes,<br>
+I will be waiting tomorrow,<br>
+Striving to understand, wasting a life not meant to be,<br>
+Twisted and so broken once again,<br>
+And the promises we cast away will shine a guiding light,<br>
+Victim of your grief and denial.<br>
+<br>
+Take my hand, this one last time,<br>
+Face the world before us, the warrior inside,<br>
+In a lifetime of disaster, it's a battle to the end,<br>
+Final stand, my life must carry on,<br>
+And forever, this time.<br>
+<br>
+Battered, beaten, forced to submission,<br>
+Stricken by your fatal decision,<br>
+Suddenly it's time to say your last goodbyes,<br>
+Misery remains voluntary, all illusion gone,<br>
+Break through the blistering madness,<br>
+Free forever more.<br>
+<br>
+Blinded my eyes with your filtering mutation cast aside,<br>
+I'll still be waiting tomorrow,<br>
+Stand to a toxic man, forced to a life of yesterday,<br>
+Theatre of salvation crushed and burned,<br>
+Down this lonely road, recede the day our dreams are brushed,<br>
+Can't regain this emptiness in time.<br>
+<br>
+See through the skies,<br>
+Far beyond the road tonight,<br>
+Here the sounds of freedom ring,<br>
+In a silent dream, and a million miles away.<br>
+<br>
+See through the skies, far beyond our world tonight,<br>
+Hear the sounds of freedom ring,<br>
+In a silent dream,<br>
+And a million miles away.<br>
+<br>
+Reach for the stars,<br>
+And live our lives forever free,<br>
+In our hearts for a thousand years,<br>
+And a thousand lifetimes before.<br>
+<br>
+And the dawn of a new day will rise, a light for us all.
+</p>
+
+            <h1 id="ff9" class="lyrics-test">-Strike Of The Ninja-</h1>
+            <p class="lyrics-test-test">[Special Edition Bonus Track]<br>
+<br>
+Eternal temptation, their eyes to the sky<br>
+This nightmare is everywhere, my eyes open wide<br>
+Crash on through troubled waters, oceans collide<br>
+We stand alone until the end, we fight side by side<br>
+<br>
+Standing strong together, marching forever on<br>
+Fire in the heavens, now that our time has come<br>
+<br>
+We feel the fire burning bright in the night<br>
+Where the warrior lives and the warrior dies<br>
+Wherever you go, we will be by your side<br>
+For the Spirit of Ninja will carry the night<br>
+<br>
+The sky will turn black as nightfall appears<br>
+The hatred surrounding, they hide in great fear<br>
+The evil all around, the sound they will hear<br>
+Will not be for long now, the time it is near<br>
+<br>
+Raising hell forever, still millenniums go by<br>
+Fire in the heavens, bleeding ears hear the cry<br>
+<br>
+We feel the fire burning bright in the night<br>
+Where the warrior lives and the warrior dies<br>
+Wherever you go, we will be by your side<br>
+For the Spirit of Ninja will carry the night<br>
+<br>
+Standing strong together, marching forever on<br>
+Fire in the heavens, now that our time has come<br>
+<br>
+We feel the fire burning bright in the night<br>
+Where the warrior lives and the warrior dies<br>
+Wherever you go, we will be by your side<br>
+For the Spirit of Ninja tonight<br>
+<br>
+We feel the fire burning bright in the night<br>
+Where the warrior lives and the warrior dies<br>
+Wherever you go, we will be by your side<br>
+For the Spirit of Ninja will carry the night<br>
+<br>
+With the ninja forever, tonight!<br>
+</p>
+
+            <h1 id="ff10" class="lyrics-test">-Scars Of Yesterday-</h1>
+            <p class="lyrics-test-test">[Special Edition Bonus Track]<br>
+<br>
+Suffer the raging anger creeping below<br>
+Trapped in the circle, so helpless<br>
+Forces beyond<br>
+This is your last chance to die<br>
+<br>
+I hear a thousand voices screaming my name<br>
+Dreams of a life forgotten now will be gone<br>
+Never to return again<br>
+<br>
+Hide from the light, you feel so hypnotized<br>
+Filtered and disguised<br>
+Burning forever, try to remember<br>
+Sadness in her eyes<br>
+<br>
+So many times now we've been here before<br>
+No more illusions behind the open door<br>
+Trapped within my fierce desire, resistance is futile<br>
+Screaming for your life, nowhere to hide<br>
+Tonight we cross the line, your innocence is mine<br>
+<br>
+Falling down, my life fading now to the end<br>
+One last chance of glory in my heart again<br>
+Set me free from craving the one thing I can't have inside of me<br>
+But is it all a waste of time?<br>
+<br>
+Lost in a misery, the fatal demise<br>
+Forced to a living that no one can understand<br>
+Hiding behind all the lies<br>
+<br>
+A long time in slavery, it cries out in vain<br>
+Lurking around the shadows until the end<br>
+Fearless in fatal disguise<br>
+<br>
+Wake from the dream, the life you left behind<br>
+Time to understand<br>
+Lost in the laughter, life everafter<br>
+Trials of a broken man<br>
+<br>
+And through this madness a new day will rise<br>
+We shall remember the pain she held inside<br>
+Fear the pain inside my heart, our sacrifice in vain<br>
+Screaming for your life, nowhere to hide<br>
+This everlasting strain, driving you insane<br>
+<br>
+Falling down, my life fading now to the end<br>
+One last chance of glory in my heart again<br>
+Set me free from craving the one thing I can't have inside of me<br>
+But is it all a waste of time?<br>
+<br>
+Still lost in the universe, we cry for a new day to come<br>
+Break free from our loneliness, the last time<br>
+Pray tonight as we try to understand<br>
+<br>
+Falling down, my life fading now to the end<br>
+I'm alive forever, my soul will ascend<br>
+One last chance of glory in my heart again<br>
+Set me free from this craving the one thing I can't have inside of me<br>
+Just a memory<br>
+Or is it all a waste of time?
+</p>
+
+            <h1 id="ff11" class="lyrics-test">-E. P. M. (Extreme Power Metal)-</h1>
+            <p class="lyrics-test-test">[Japanese Bonus Track]<br>
+<br>
+In a lifetime of decay<br>
+Sudden cry for yesterday,<br>
+When the world will see the end of eternity<br>
+Sacrifice before the dawn<br>
+Of a child soon to be born<br>
+Before the night too many tears we cried<br>
+<br>
+In a long forgotten land<br>
+Through the silent raging pain<br>
+Of the price to pay that awaits for me<br>
+The end of all our destiny<br>
+<br>
+Don't close your eyes tonight<br>
+For the lights beyond still shine towards a brighter day<br>
+The time has come for us tread blood across the sands<br>
+Carry on as the red rivers run<br>
+<br>
+And through the wilderness we feel the pouring rain<br>
+In the silence ever searching on through the misery<br>
+And all the promises we made and cried in vain<br>
+Don't you take the time to realise the master of disguise?<br>
+<br>
+Blind my eyes burning forever to wash my sins away<br>
+Out of the dark pain is the price<br>
+Fly away out of the raging storm<br>
+Lost within my memories<br>
+Still haunting me<br>
+A never ending story<br>
+<br>
+Far and wide forever on<br>
+Stand before the world alone we journey to the other side<br>
+Raise your hands to the sky<br>
+Through the night and through the day<br>
+Don't look back no time to pray<br>
+The battle rages on marching on and on<br>
+<br>
+Don't cry for me tonight<br>
+For the lights beyond will guide me home tomorrow<br>
+The time will come for us the curse is growing strong<br>
+Carry on with the rise of the sun<br>
+<br>
+So take me far away it's time to set me free<br>
+All my life I have been waiting but I could never see<br>
+Raising your hands to the sky<br>
+Turning your eyes to the sun<br>
+Pray for forgiveness<br>
+The power to save has gone for the last time<br>
+<br>
+Blind my eyes burning forever to wash my sins away<br>
+Out of the dark pain is the price<br>
+Fly away out of the raging storm<br>
+Lost within my memories<br>
+Still haunting me<br>
+A never ending story<br>
+<br>
+Blind my eyes burning forever to wash my sins away<br>
+Out of the dark pain is the price<br>
+Fly away out of the raging storm<br>
+Lost within my memories<br>
+Still haunting me<br>
+A never ending story
+</p>
+          </div>
+        </div>
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+        </div>
+
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+        </div>
+
+            <div class="page-finish">
+              <a href="./security.html">Security Statements</a>
+              <a href="./terms.html">Terms of Service</a>
+              <a href="./privacy.html">Privacy Policy</a>
+              <a href="./contact.html">Contact</a>
+            </div>
+
+        </body>
+        </html>

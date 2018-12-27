@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Beyond Creation</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/aura.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Aura" - 2011</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">No Request For The Corrupted</a>
+      <a href="#f2">Coexistence</a>
+      <a href="#f3">Chromatic Horizon</a>
+      <a href="#f4">Omnipresent Perception</a>
+      <a href="#f5">Injustice Revealed</a>
+      <a href="#f6">Le Détenteur</a>
+      <a href="#f7">The Aura</a>
+      <a href="#f8">Social Disability</a>
+      <a href="#f9">Elevation Path</a>
+      <a href="#f10">The Deported</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/earth.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Earthborn Evolution - 2014</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s2">Elusive Reverence</a>
+      <a href="#s3">Sous la Lueur de L'Empereur</a>
+      <a href="#s4">Earthborn Evolution</a>
+      <a href="#s5">The Great Revelation</a>
+      <a href="#s6">Neurotical Transmissions</a>
+      <a href="#s7">Abstrait Dialog</a>
+      <a href="#s8">The Axiom</a>
+      <a href="#s9">L'Exorde</a>
+      <a href="#f10">Theatrical Delirium</a>
+      <a href="#s11">Fundamental Process</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/algorythm.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Algorythm - 2018</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">Disenthrall</a>
+      <a href="#t2">Entre suffrage et mirage</a>
+      <a href="#t3">Surface's Echoes</a>
+      <a href="#t4">Ethereal Kingdom</a>
+      <a href="#t5">Algorythm</a>
+      <a href="#t6">À travers le temps et l'oubli</a>
+      <a href="#t7">In Adversity</a>
+      <a href="#t8">The Inversion</a>
+      <a href="#t9">Binomial Structures</a>
+      <a href="#t10">The Afterlife</a>
+
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/aura.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Aura - 2011</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-No Request For The Corrupted-</h1>
+      <p class="lyrics-test-test">I am now attacked by someone corrupted<br>
+Suppressing I am, suffering I’m still<br>
+Is he what humanity is seeing?<br>
+As my own, I will cover my eyes<br>
+And say to myself;<br><br>
+
+Deliverance is waiting, deep inside my corpse<br>
+Betrayed, I will fight for the cause I see<br>
+No longer you're gonna stay free 'cause<br>
+I am the only reason for you to fear daylight!<br><br>
+
+An imperial pain is getting you now<br>
+You are your own victim<br>
+Still suffering, an imperial pain is getting you<br><br>
+
+Visions are decimated, this horizon is mine<br>
+What is entering in your eyes,<br>
+right to your bastard cerebellum?
+Is for sure a creation of fearless society<br>
+Fall on your knees, your pale face is exhumed to us<br>
+Divinity has rejected your request…cover up your head!<br><br>
+
+You are now attacked by people you left behind<br>
+Is this what you ever dreamed of?<br>
+Look how you ruined your life<br>
+You should have thought of the consequence<br>
+Now pay the price of your existence<br><br>
+
+Still suffering, an imperial pain, is getting you</p>
+
+      <h1 id="f2" class="lyrics-test">-Coexistence-</h1>
+      <p class="lyrics-test-test">When the universal darkness is covering the earth,<br>
+and hold us tight<br>
+Some spying eyes are drawn to the sky stuck upon it<br><br>
+
+Filled with interrogations<br>
+They are questioning about life:<br><br>
+What is the reason for our presence here?<br>
+And what can we do to prevent human mistakes?<br><br>
+
+When the first minute of the day arrives with this total silence<br>
+Some light crystal beams are penetrating the room<br>
+Delivering this darkness that doesn't show me<br>
+In which world of trouble we are living<br><br>
+
+Pressure, slaughtery, crime and monetary shit…<br><br>
+
+My eyes are opening to a totally different world!!<br>
+A seepage of flesh that awaits to be hacked up<br><br>
+
+Feeding your deadliest thoughts<br>
+Human of century<br>
+No more can I accept these lies<br><br>
+
+They are all standing there, without anyone talking and no reason to be heard<br>
+But life is so important! This life is yours<br>
+When someone chooses to take or give life<br>
+Many lives are resting on their shoulders<br>
+
+It's a choice to make, the way of life you'll take<br>
+So I wish you to take the good path!<br>
+
+If society can't accept itself,<br>
+how could it deal with each individuality<br>
+This nightmare must be overcome<br>
+This truth is for us!!<br>
+It's a scar that cannot be healed but it could be known<br>
+At this point, coexistence could be a scheme</p>
+
+      <h1 id="f3" class="lyrics-test">-Chromatic Horizon-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f4" class="lyrics-test">-Omnipresent Perception-</h1>
+      <p class="lyrics-test-test">Avoiding life<br>
+Searching for an<br>
+Unknown light<br>
+Make them realize<br>
+They're the masters<br>
+Of their lies<br><br>
+
+Locked in the abyss of their thoughts<br>
+Crushing the gate of their minds<br><br>
+
+They are searching in all this<br>
+Omnipresent perception<br>
+Omnipresent perception<br><br>
+
+Spiritual path<br>
+To fight deception, deception<br><br>
+
+With assimilation through dimension<br>
+Of this strange and malevolent self-resistance<br><br>
+
+Omnipresent perception<br>
+Omnipresent perception</p>
+
+      <h1 id="f5" class="lyrics-test">-Injustice Revealed-</h1>
+      <p class="lyrics-test-test">Worthless for some and prominent for those<br>
+Memories are now the only chance to progress<br>
+Surrounded one foot in the abattoir<br>
+Another bastard will govern us<br>
+Giving the script for the next game<br><br>
+
+Regression of existence will start<br><br>
+
+Fought to be the one<br>
+The one who showed from human misery<br>
+Pieces of reality<br>
+When lifetime seems to decelerate<br>
+And extinction appears to them, In the gray sky<br>
+To be the ultimate fee<br><br>
+
+A vision for liberty will take us to divinity<br>
+Leaving them in a painful sentence<br><br>
+
+From chaos to their last breath<br>
+Injustice will be revealed!</p>
+
+      <h1 id="f6" class="lyrics-test">-Le Détenteur-</h1>
+      <p class="lyrics-test-test">Tel un engrenage fragmenté<br>
+Fracturé comme l'homme et sa duplicité<br>
+J'ai les yeux rivés sur ce qu'est notre société<br><br>
+
+Immaculé sous son immensité<br><br>
+
+Différencier entre le bien et le mal et ces actes qui font mal!<br>
+Ces perpétuelles erreurs qui font de l'homme son seul détenteur<br>
+
+De l'humanité il est convoité<br>
+Pour dénoncer l'arrivée<br>
+D'une personnalité qu'il s'est créé<br>
+Pour une société, un visage/une image<br><br>
+
+Un visage à présage<br><br>
+
+Tel un engrenage fragmenté<br>
+Fracturé comme l'homme et sa duplicité<br>
+J'ai les yeux rivés sur ce qu'est notre société<br><br>
+
+Le temps ne cesse d'avancer<br>
+Et nous, en quête de destiné<br>
+Vivons sans trop penser<br>
+À ce que monde peut arriver</p>
+
+      <h1 id="f7" class="lyrics-test">-The Aura-</h1>
+      <p class="lyrics-test-test">Knowing your thoughts<br>
+Forecasting all slightest gesture<br>
+I am the Aura that guides you in every step of life<br>
+I'll make you feel what I like you to feel and taste<br><br>
+
+Now listen to these gusts of mechanical<br>
+torture that are irradiating all these people<br><br>
+
+Inhale this odor of rotten flesh<br>
+These canon fodder have been our fellow members<br>
+No more now than memories,<br>
+all of them have prayed and sweared for a man, a traitor<br>
+A tyrant that doesn't care much for humankind<br><br>
+
+Without fear and questioning, they have obeyed<br>
+to kill one another for a better world<br><br>
+
+Blood has flowed into the eyes of our distraught race<br><br>
+
+Our fragile existence is drowning in immorality<br>
+Reduced to slavery<br>
+No one can think of victory<br><br>
+
+How can these people think to have the key of life?<br>
+They are perpetuating all error with hatred<br><br>
+
+But always trust yourself and<br>
+I'll show you the path to stay alive<br>
+All we can dream is a new breed of human beings</p>
+
+      <h1 id="f8" class="lyrics-test">-Social Disability-</h1>
+      <p class="lyrics-test-test">Is it the end, or is it just me?<br>
+Will it happen that we’ll be set free?<br>
+Chaos is near: the fear of all fears<br><br>
+
+Shall we continue to hope when faith starts to bleed?<br><br>
+
+When truth isn’t told and still controls a fold…I feel blind<br>
+I’m questioning myself but I can’t find…<br><br>
+
+I try to dream but sleep took off<br>
+I felt not sure and went for a walk<br><br>
+
+It is the end and we are not to blame<br>
+We’ll feel free at last and the game will end<br>
+This game will end…<br><br>
+
+I feel like I’ve been told lies from the day I was born<br>
+Enacting a story that is not mine, is it enough of a burden?<br><br>
+
+I try to climb between the doubts that are surrounding my mind<br>
+I don't feel free and guess what; I don’t feel that I’m being me</p>
+
+      <h1 id="f9" class="lyrics-test">-Elevation Path-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f10" class="lyrics-test">-The Deported-</h1>
+      <p class="lyrics-test-test">Standing all alone in a deserted place,<br>
+I wondered where the clouds were<br>
+As wind became stronger,<br>
+I closed my eyes to what was coming there<br><br>
+
+Pushed and Tossed by an invisible force<br>
+Pitch black all around us<br><br>
+
+Something was falling from the sky<br><br>
+
+Crystal eyed flakes were floundering around<br>
+I don't know what they want,<br>
+but I fear what they might find.<br>
+In this world of misery<br>
+Crystal eyed flakes were floundering around<br>
+It is time to act in another direction,<br>
+In this world of misery<br><br>
+
+Are we the chosen ones?<br>
+If so, did we respect life itself?<br>
+Are we the chosen ones?<br>
+We’ll be deported to another world,<br>
+where creatures like us are toys for them<br><br>
+
+Standing in a humid place, where sorrows will surround us<br>
+My mates are crying their souls,<br>
+cursing their brains<br>
+Pushed and Tossed by visible corpses<br>
+A bright light is all around us</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/earth.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Earthborn Evolution - 2014</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+
+        <h1 id="s2" class="lyrics-test">-Elusive Reverence-</h1>
+        <p class="lyrics-test-test">We, the world,<br>
+exhausted souls, slaves from those paths<br>
+We've grown to become reflections of our souls<br>
+Physionomical creations<br>
+Philosophical imitations,<br><br>
+we learn, we trust but we'll never know<br>
+We'll never really know<br>
+Man behaves, in ecliptic situations<br>
+Forgetting this mind's progression we all worked for<br>
+Philosophical imitations,<br><br>
+we learn, we trust but we'll never know<br>
+We'll never really know<br>
+Human decline, universe phenomena<br>
+Protection of his own is pure evidence of inequality<br><br>
+
+Face yourself,<br>
+regarding this above criticalism perspective<br>
+These energizm<br>
+vibrations are powerful evolutions of itself<br>
+Pure power<br>
+Involving with this emergence perseverance<br>
+You've created an objective realization of your mind</p>
+
+        <h1 id="s3" class="lyrics-test">-Sous la Lueur de L'Empereur-</h1>
+        <p class="lyrics-test-test">Face contre terre,<br>
+épuisé et désemparé, tranquillement nous levâmes les yeux<br>
+Captifs de ce flot torrentiel,<br>
+continuel et éternel<br>
+De cette conception et opinion sans option ni progression<br>
+La condamnation de ce monde sans être<br>
+ni tête devenait notre seul exutoire<br><br>
+
+Pourquoi cette fausse adulation?<br>
+Un traître, un scélérat, miroitant<br>
+Dépouillant et engouffrant tous<br>
+rêves et réalité de tous et chacun<br>
+Laissant dans la peur et la douleur ceux qui n'ont pu résister<br>
+Sous l'ampleur de cette âme pernicieuse,<br>
+hostile et malveillante<br><br>
+Nous étudiâmes cette traître dévotion<br>
+Celle dans laquelle tant d'êtres<br>
+perdirent et rendirent leurs âmes<br>
+Sous prétextes d'honneur et de candeur<br><br>
+
+Au risque d'en souffrir ou d'en périr<br>
+Oeil pour oeil dent pour dent<br>
+Cette majestueuse entité sombrera<br>
+comme tous traîtres sombres dans l'ombre<br><br>
+
+Submergé dans la noirceur, éclipsé par sa lueur<br>
+Ayant peine à absorber les fractures et blessures<br>
+Décelant déjà une large cicatrice,<br>
+lui provenant d'un être autrefois vénéré<br>
+Ce demi dieu jadis trompé et écorché ne put continuer<br><br>
+
+De cette vision, nous garderons et précéderons à tout jamais,<br>
+cette espoir de gloire<br>
+Le souffle d'une victoire</p>
+
+        <h1 id="s4" class="lyrics-test">-Earthborn Evolution-</h1>
+        <p class="lyrics-test-test">
+Earthborn evolution has shocked equilibrium of biological species<br>
+As we create, we confine ourselves to mechanical torture<br>
+Deeper than imaginartion, mankind has been drowned in<br>
+A profound comatum<br><br>
+That will separate us from spiritual connectors<br>
+
+
+
+By avioding gravity that trapped us in atrocity<br>
+We'll find our way through the elevation path</p>
+
+        <h1 id="s5" class="lyrics-test">-The Great Revelation-</h1>
+        <p class="lyrics-test-test">Primitive expansion, lead by repulsion and obsession<br>
+Where the almighty comprehension is hidden by abstraction,<br>
+secrecy and illusion<br>
+Trading life and existence,<br>
+we're born and die running trough time<br>
+Hypnotized by synthetic realms,<br><br>
+desires and addictions<br>
+They told us we are a freedom society,<br>
+but are we psychologically free?<br><br>
+
+Taking souls to absolutions and expulsing<br>
+all judgments from logical solutions<br>
+Human has grown and served,<br>
+controlled by the heart,<br>
+directed by brain<br><br>
+Filling all these years<br>
+within momentum spheres<br>
+Perspectives have been floating in<br>
+For which cause we fought, at which price we won?</p>
+
+        <h1 id="s6" class="lyrics-test">-Neurotical Transmissions-</h1>
+        <p class="lyrics-test-test">From those regenerated particles,<br>
+anatomic molecules absorb this shell shock you've felt<br>
+
+Foreseen ending, affliction of elusive perspective<br>
+is just an illusion built from fear and emotional momentum<br>
+Fragmental pieces of timeline are now operating<br>
+your mental consciousness<br><br>
+
+From those regenerated particles<br>
+anatomic molecules absorb this shell shock you've felt<br>
+Foreseen ending,<br>
+affliction of elusive perspective<br><br>
+
+Fight to waive life's collapse,<br>
+you choose direction to oppose chaos creation<br><br>
+
+Brain's connections,<br>
+in transportation through heart<br>
+perseverance solutions appear to be<br>
+recognition in self re-establishment<br><br>
+
+Resumption of a new breath a new life</p>
+
+        <h1 id="s7" class="lyrics-test">-Abstrait Dialog-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s8" class="lyrics-test">-The Axiom-</h1>
+        <p class="lyrics-test-test">Fluid links,<br>
+filled from auto programmed patterns<br>
+Electromagnetical pulses running motion<br>
+thoughts through these schematical paths<br>
+We think, proceed and progress<br>
+regardless of understanding such phenomenon<br><br>
+
+Concur to this stratagem,<br><br>
+a theorem is born<br>
+Born from a slight despite,<br>
+the majority has served foresight<br>
+The logical state of the axiom<br><br>
+
+Whatever's needed, whatever's claimed<br>
+We follow the rules of mathematical evolution<br>
+Wreathed life's existence<br>
+We'll never cease to increase this progression<br>
+Enforcing vastness and power of human boundaries<br><br>
+
+Beyond those portals<br>
+As conquerors,<br>
+we search interconnections through those dimensions</p>
+
+        <h1 id="s9" class="lyrics-test">-L'Exorde-</h1>
+        <p class="lyrics-test-test">Mais qu'est-ce que cette étrange atmosphère,<br>
+impétueuse sensation, tumultueuses vibrations<br>
+Une confusion s'installe,<br>
+brouillant les cartes du jeux<br>
+Un flash, un coup de poing en pleine face<br><br>
+
+Nous revivons durant cet instant,<br>
+l'écroulement de ce monde tel que nous l'eûmes connu<br><br>
+
+Mais qu'es-ce que cette étrange atmosphère,<br>
+impétueuse sensation, tumultueuses vibrations<br>
+Une confusion s'installe,<br>
+brouillant les cartes du jeux<br>
+Un flash, un coup de poing en pleine face<br><br>
+
+Victimes d'exaltation divisée,<br>
+dupés et écorchés sans vérité ni honnêteté<br>
+Ils assisteront maintenant à l'éveil de nos démons<br><br>
+Les protecteurs de nos actions</p>
+
+        <h1 id="s10" class="lyrics-test">-Theatrical Delirium-</h1>
+        <p class="lyrics-test-test">It's a big theatrical scene<br>
+we all take part in, we all play a role<br>
+Never know the pure reason and it's grand finale<br>
+We raise ourselves in emotions and<br>
+Play the game, whether we want to or not</p>
+
+        <h1 id="s11" class="lyrics-test">-Fundamental Process-</h1>
+        <p class="lyrics-test-test">Quantum hypothesis leading<br>
+those mystical superpositions to man's contemplation<br>
+We afford deviation and elevate ourselves<br>
+for science and progress<br>
+Unresolved quests<br>
+Wisdom is waiting amongst us for<br>
+conceptual diagrams to be revealed<br><br>
+
+As concrete designs,<br>
+we push harder<br>
+Search deeper and fear<br>
+of never to find an answer<br><br>
+
+Quantum hypothesis leading those<br>
+mystical superpositions to man's contemplation<br>
+We afford deviation and elevate<br>
+ourselves for science and progress<br>
+This is the endless vortex called life<br><br>
+
+Man has infused for centuries its<br>
+chronicle invasions with monuments<br>
+Advocating divinity and immortality<br>
+for the ancients<br>
+Spectral forces will remain<br>
+from the dead and lost souls<br><br>
+
+As concrete designs,<br>
+we push harder<br>
+Search deeper and fear of never to find an answer<br>
+
+But as far as we’re alive,<br>
+we're all part of this<br>
+experimentation for discovery<br>
+Searching the cure and key<br>
+to the unknown<br><br>
+Waiting for this frightening<br>
+light to scan all forethoughts<br>
+The weakness is about to emerge<br>
+
+You may be the one chosen to disavow<br>
+the inhuman non-presence</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/algorythm.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Algorythm - 2018</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-Disenthrall-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t2" class="lyrics-test">-Entre suffrage et mirage-</h1>
+          <p class="lyrics-test-test">Qu’en est-il de nos valeurs<br>
+écartées par ces exterminateurs autodestructeurs<br>
+
+Nous entraînant dans cette fausse réalité<br>
+Nous plongeant dans une fosse aux rêves abimés<br><br>
+
+Courant vers une vision aseptisée<br>
+Plongés dans l’absence de nature éthérée<br>
+Nous cheminons à travers cette aberrante illusion<br>
+Entraînés par une ahurissante abjection<br><br>
+
+Nous représentons la peur qui nous rétracte<br>
+Nous éloignant toujours de nos actes<br>
+Manipulant nos propres désirs<br>
+Nous retenant de réagir<br><br>
+
+Qu’en est-il de nos erreurs?<br>
+De nos valeurs, conçues par la douleur<br><br>
+
+Nous enseignant qu’ici-bas<br>
+Les ambitions guident notre voie<br>
+Que nous sommes maîtres de ce tournant<br>
+Si envoûtant dont chacun rêve secrètement<br><br>
+
+N’oublions pas toutes ces décisions<br>
+Celles qui ont permis l’adaptation<br><br>
+De l’humain à réinventer sa progression<br>
+Prenez garde à ces imposteurs<br>
+à ces méphitiques exploiteurs<br>
+Et rappelez-vous vos valeurs<br>
+Car tôt ou tard le jour viendra<br>
+Le future s’imagera<br>
+Issu de nos ambitions d’ici-bas
+
+</p>
+
+          <h1 id="t3" class="lyrics-test">-Surface's Echoes-</h1>
+          <p class="lyrics-test-test">Made from the most highly complex matter<br>
+We've grown through time<br>
+Colliding progress with creation<br>
+Pushing boundaries of minds and physics<br><br>
+
+Impacting on each other’s life<br>
+On each other's destiny<br>
+We all imply our own ideology<br>
+Leaving behind us the aura of a man who once lived<br><br>
+
+Every decision we take<br>
+Every step we make<br>
+Every word we use and every rule we choose<br><br>
+
+Impacting on each other's life<br>
+On each other’s destiny<br>
+We all imply our own ideology<br>
+Leaving behind us the aura of a man who once lived<br><br>
+
+All our actions are impacting multiple dimensions<br>
+Which makes everyone unique<br><br>
+
+Even when our world explodes from the inside<br>
+We dream to believe<br>
+We work to achieve<br>
+We are the braves that stand and behave<br>
+Conquering our fears<br>
+Triumphing over tears<br>
+Overcome the obstacles and perceive our future<br><br>
+
+Perseverance is the key<br>
+Once you reach the summit you'll finally hear<br>
+Surface's echoes</p>
+
+          <h1 id="t4" class="lyrics-test">-Ethereal Kingdom-</h1>
+          <p class="lyrics-test-test">Alone among the living<br>
+Man is haunted by the knowledge of future<br>
+Because we have the sense of timev
+The means to count the hours<br><br>
+Days and years with precision<br>
+
+Yet despite this sensitivity and these techniques<br>
+Despite our plans and our predictions<br>
+The future eludes us<br>
+Impenetrable and secret<br><br>
+
+This deep rooted desire to anticipate<br>
+And control the future<br>
+Is probably as old as society itself<br><br>
+
+For the ancients the universe is a whole<br>
+Cosmological single living organism<br><br>
+
+A system of mathematical geometry<br>
+Attributing this correspondence<br>
+To the interactions and physical connections<br>
+Between the different celestial spheres<br>
+And the Earth</p>
+
+          <h1 id="t5" class="lyrics-test">-Algorythm-</h1>
+          <p class="lyrics-test-test">Tick tock we heard the clock regain<br>
+The pendulum has finally moved again<br>
+Inactive for so long<br>
+Dreams were confined to a generic delusion<br>
+Sinking into obsolescence<br>
+There was nothing left to inspire our subsistence<br><br>
+
+As the algorithm transcended<br>
+We can now redefine our progression<br>
+Embracing the uncharted<br>
+Abstracting the relics into oblivion<br><br>
+
+Everlasting minds<br>
+Please liberate the hidden light<br>
+And shine upon us<br>
+As we reinvent our contrivance<br>
+And fix this miscalculation<br><br>
+
+As the algorithm transcended<br>
+We can now redefine our progression<br>
+Embracing the unchartedv
+Abstracting the relics into oblivion<br><br>
+
+Gradually reconstructing our future<br>
+We’ll seek for new elements<br>
+To ascend the enigma of life<br>
+And unify our existence through earth and universe</p>
+
+          <h1 id="t6" class="lyrics-test">-À travers le temps et l'oubli-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t7" class="lyrics-test">-In Adversity-</h1>
+          <p class="lyrics-test-test">This has grown inside<br>
+Waiting to be bounded off for a millionth time<br>
+Tossing and shifting<br>
+Those primal energies have been fulfilling your mind<br><br>
+
+Slowly breaking the habits<br>
+You've been drawn in for so long<br>
+Time has come to expand your thoughts<br>
+And drift all visions to reality<br><br>
+
+Due to the ideological fear of our society<br>
+Predicted path have been leading your way<br>
+All starting from the same point, ending nowhere<br><br>
+
+Slowly breaking the habits<br>
+You've been drawn in for so long<br>
+Time has come to expand your thoughts<br>
+And drift all visions to reality
+
+</p>
+
+          <h1 id="t8" class="lyrics-test">-The Inversion-</h1>
+          <p class="lyrics-test-test">Awakening from a profound slumber<br>
+Cognitive motions strive to the same encounter<br>
+Slowly vanishing from the same beholder<br>
+
+Once again you are facing these fences<br>
+In these vast lands you must strive<br>
+Climb the barriers to evolve and thrive<br>
+We definitely need to expand the possibilities<br>
+To become the heirs of what is surrounding us<br><br>
+
+Complex variations, multiple designs<br>
+Let the nature collide<br>
+Transmitting its unique way through<br><br>
+
+Find the inversion from the breach<br>
+Visualise the absence of time<br><br>
+
+Complex variations, multiple designs<br>
+Let the nature collide<br><br>
+Transmitting its unique way through<br>
+
+Awakening from a profound slumber<br>
+Cognitive motions strive to the same encounter<br>
+Slowly vanishing from the same beholder<br>
+
+You will return to the earth<br>
+From the ground you were born</p>
+
+          <h1 id="t9" class="lyrics-test">-Binomial Structures-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t10" class="lyrics-test">-The Afterlife-</h1>
+          <p class="lyrics-test-test">The symbiosis of genetic molecules that transcends<br>
+Revealing memories of a previous life<br>
+I'm questioning myself about the secrets of an unknown theory<br>
+Towards a temporal spiritual displacement<br><br>
+
+Genetically modified organism<br>
+Brought to life by our own creations<br>
+Is a connection by science into time<br><br>
+
+Guided by the fear of extinction<br>
+To achieve an improbable prophecy<br>
+We are ready to sacrifice anything<br>
+In search of a place of survival for the human race<br><br>
+
+Biodiversity leads me to believe in an afterlife<br>
+That will eternally renew<br>
+
+As human to our change<br>
+Through time we'll remain</p>
+        </div>
+      </div>
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+      </div>
+
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+      </div>
+
+          <div class="page-finish">
+            <a href="./security.html">Security Statements</a>
+            <a href="./terms.html">Terms of Service</a>
+            <a href="./privacy.html">Privacy Policy</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+
+      </body>
+      </html>

@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Means End</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/thedidact.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Didact - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Candle In The Dark</a>
+      <a href="#f2">Omega Barrier</a>
+      <a href="#f3">Crimson Interloper</a>
+      <a href="#f4">Aeronaut</a>
+      <a href="#f5">Prometheus</a>
+      <a href="#f6">Mourning Star</a>
+      <a href="#f7">Magnanimous</a>
+      <a href="#f8">Lied Von Leid</a>
+      <a href="#f9">Nox Aurumque</a>
+      <a href="#f10">Sun Wukong</a>
+      <a href="#f11">Arbiter Of Time</a>
+      <a href="#f12">To Love</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/thedidact.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Didact - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Candle In The Dark-</h1>
+      <p class="lyrics-test-test">We wait for light,<br>
+but behold darkness;<br>
+This I profess.<br>
+<br>
+The more I learn, the less I know.<br>
+I always wondered how it can be so.<br>
+<br>
+Perhaps the true delight is not knowing<br>
+but finding?<br>
+<br>
+Searching through a demon haunted world,<br>
+not knowing what I hope to find.<br>
+The arc of my mind bends<br>
+toward a singularity,<br>
+accelerating the perception of time.<br>
+<br>
+Into a point this focus is compressed,<br>
+adding new knowledge, everything is coalesced.<br>
+I know more now than before.<br>
+The only result being I need more...<br>
+<br>
+Life can't ever be long enough<br>
+to find a key that sets me free.<br>
+Would I even want to be released?<br>
+The answer to this question is no.<br>
+<br>
+Treading into the unknown;<br>
+places where I'll be left alone.<br>
+I'll use my mind as a wick<br>
+and my soul as the oil to light the way<br>
+just for a short while longer,<br>
+like a candle in the dark...</p>
+
+      <h1 id="f2" class="lyrics-test">-Omega Barrier-</h1>
+      <p class="lyrics-test-test">Some feel that the flexibility<br>
+of the human mind<br>
+is irreconcilable with the notion<br>
+that it resides on rigid hardware.<br>
+<br>
+Though, if our self-understanding can't ever be truly<br>
+complete then perhaps it's not so strange to feel that way.<br>
+What was once such a tangible feeling,<br>
+now is lost,<br>
+and seems to lead to a paradox.<br>
+<br>
+“You can't consistently assert this truth.”<br>
+Whether you assert it or deny it,<br>
+you would inevitably admit<br>
+that you are not able to assert<br>
+every single truth about yourself.<br>
+<br>
+You've reached the ω barrier.<br>
+You can't escape the system<br>
+because it's built out of you.<br>
+We see complex emergent phenomena from deep within,<br>
+bubble to the surface.<br>
+<br>
+This fits well with the observation that we<br>
+simply can’t force ourselves to describe the<br>
+neural or even symbolic functions from whence<br>
+something like ambition emerges from; it’s just there.<br>
+<br>
+We could very well just be machines<br>
+underneath it all and never be the wiser.<br>
+Then so be it. It wouldn't change anything.<br>
+Nothing. Not a goddamn thing.</p>
+
+      <h1 id="f3" class="lyrics-test">-Crimson Interloper-</h1>
+      <p class="lyrics-test-test">How do you know I'm mad?<br>
+You must be,<br>
+or you wouldn't have come here.<br>
+<br>
+My eyes widen<br>
+as I step through into another world,<br>
+lucid unlike one's dreams.<br>
+<br>
+It seems familiar but not quite.<br>
+Has something changed<br>
+during the night?<br>
+<br>
+I do feel a little different<br>
+now that I think about it.<br>
+But if I'm not the same today<br>
+as I was yesterday, how can I allay<br>
+thoughts cast in disarray?<br>
+a shifting identity?<br>
+I'm afraid I can't explain myself<br>
+because I'm not myself, you see?<br>
+<br>
+Treading through with a curious gait,<br>
+the vagrant mask I wear<br>
+negates the world.<br>
+<br>
+Simulacrum of a man,<br>
+(maybe the shadow is the one who casts the man?)<br>
+springing from the shadow;<br>
+paint a picture of me that fits the frame<br>
+so I can blend into the madness.<br>
+Endless regression.<br>
+<br>
+Treading through with a curious gait,<br>
+the vagrant mask I wear<br>
+negates the world.<br>
+<br>
+Can it really be that everone is crazy,<br>
+or is it only me that's out of my mind?<br>
+Does that question even make sense? No.<br>
+<br>
+Treading through with a curious gait,<br>
+the vagrant mask I wear<br>
+negates the world.<br>
+<br>
+If I had a world of my own,<br>
+everything would be nonsense.<br>
+Nothing would be what it is,<br>
+because everything would be what it isn't.<br>
+And contrary wise, what is, it wouldn't be.<br>
+And what it wouldn't be, it would.<br>
+You see???</p>
+
+      <h1 id="f4" class="lyrics-test">-Aeronaut-</h1>
+      <p class="lyrics-test-test">Please leave me alone today.<br>
+Somber weather, a weakened vigor,<br>
+this pensive ambiance weighs my heart.<br>
+<br>
+Life, as you'll see,<br>
+has a tendency to fool most all, but not me.<br>
+So I ask as another did in his soliloquy,<br>
+"to be or not to be?"<br>
+<br>
+An irreconcilable dichotomy<br>
+permeates everything that we do:<br>
+our bodies and symbolic reasoning.<br>
+<br>
+The bridge that connects the two<br>
+breaks down when we<br>
+rationalize who we love, why we hope,<br>
+why we cry when it’ s time to die;<br>
+and this all troubles me.<br>
+<br>
+Whereof one cannot speak<br>
+thereof one must be silent.<br>
+It is not without a fine stroke of irony<br>
+that words are all we have.<br>
+So I'm left with nothing to to say to you.<br>
+In the depths of our reason there lies darkness in pure form.<br>
+Turn away.<br>
+<br>
+Leave me here to wallow in my own<br>
+solipsistic, dark, and melancholy world.<br>
+The strange winds of philosophy<br>
+will lead me where they will.</p>
+
+      <h1 id="f5" class="lyrics-test">-Prometheus-</h1>
+      <p class="lyrics-test-test">All my ambition draws its strength<br>
+from the shadow of a dream,<br>
+perched up past the clouds<br>
+in an august solitude.<br>
+<br>
+We are the movers of the earth.<br>
+Life is handed to us, but survival is not.<br>
+We take the first steps armed with nothing<br>
+but our minds and senses,<br>
+not stopping to ask<br>
+who'll let us shape this world,<br>
+but who's going to stop us?<br>
+<br>
+Championing humanity, carrying the flame;<br>
+Ne'er living out this life for anyone else,<br>
+just like you would never ask someone<br>
+to live their life for you.<br>
+The man who speaks of sacrifice is speaking of slaves and masters,<br>
+and intends to be the master.<br>
+We will not subordinate ourselves<br>
+to the will of the collective.<br>
+<br>
+I do not recognize anybody's right to one<br>
+minute of my life, nor to any part of my energy,<br>
+nor to any achievement of mine,<br>
+and especially not the conduit that<br>
+houses the essence of my humanity: my mind.<br>
+<br>
+What I have to offer<br>
+is the product of ambition, love, fire,<br>
+far greater than that of a tepid soul.<br>
+What can you offer me?
+</p>
+
+      <h1 id="f6" class="lyrics-test">-Mourning Star-</h1>
+      <p class="lyrics-test-test">To view the world through eyes of fire,<br>
+I look up and invoke thy aid.<br>
+Sing o muse,<br>
+and tell us why the one that's broken<br>
+has our sympathy.<br>
+<br>
+Through no fault of our own,<br>
+the absolute rendered out his judgement<br>
+on the ones that were more<br>
+than an empty shell,<br>
+and cast down shadows<br>
+of an inverse nature.<br>
+<br>
+Springing full formed from my head,<br>
+my blood, dripping with sin.<br>
+This poisoned unity,<br>
+produced the death that you so fear.<br>
+<br>
+Shackled by destiny,<br>
+to oppose the heavenly.<br>
+<br>
+Neverending in suffering.<br>
+There is no repose, every second's infinite.<br>
+I yearn to bring destruction.<br>
+<br>
+Ease would recant vows made in pain<br>
+as violent and void,<br>
+but forgiveness can't grow,<br>
+where wounds of hate pierced so deep.<br>
+<br>
+Thoughts of revenge are so sweet,<br>
+intricate plans fill my head.<br>
+Soon they turn bitter, ere long,<br>
+back on me they recoil.<br>
+<br>
+Neverending in suffering.<br>
+There is no repose, every second's infinite.<br>
+I yearn to bring destruction.<br>
+<br>
+brew in hate, lie and wait, then destroy.<br>
+<br>
+If I had a choice, know that I'd rather<br>
+reign in hell, than serve in heaven.
+</p>
+
+      <h1 id="f7" class="lyrics-test">-Magnanimous-</h1>
+      <p class="lyrics-test-test">The mind is a lonely place to be<br>
+when ones soul's quaint, honestly.<br>
+<br>
+I'll accept your kind words,<br>
+only because you offer nothing more.<br>
+What greatness can be left<br>
+when flatterers humble themselves<br>
+and humble men are only flatterers.<br>
+<br>
+Honor and happiness<br>
+awaits only those who do great deeds.<br>
+'Tis nearly vulgar to triumph over<br>
+the insignificant.<br>
+<br>
+Still, what makes one great...<br>
+when nothing is truly significant?<br>
+<br>
+Strong when facing power.<br>
+Considerate to the weak.<br>
+Forced by necessity<br>
+to show one's love and hatred openly.<br>
+Instinct and logic simultaneously.<br>
+Destined deterministic great souled man,<br>
+simply has no choice.<br>
+<br>
+The mind is a lonely place to be<br>
+when ones soul is quaint, honestly.</p>
+
+      <h1 id="f8" class="lyrics-test">-Lied Von Leid-</h1>
+      <p class="lyrics-test-test">Once more you near me,<br>
+wavering apparition;<br>
+a turbid haze every time you alight.<br>
+Oft' have you come at dead of night<br>
+and pressed me.<br>
+Will I yield to your petition?<br>
+<br>
+Let go of your longing for (truth)<br>
+a transcending meaning.<br>
+You conjure up fleeting (thoughts)<br>
+dreams and wonders<br>
+<br>
+Old grief revives a fair love<br>
+wrapped round my neck.<br>
+Remember fond caress, a silken dress...<br>
+tears lave my heart,<br>
+which by fortune was cheated<br>
+to believe the universe<br>
+held answers I needed.<br>
+<br>
+Time spent searching for knowledge of<br>
+the world through the faculty of reason.<br>
+<br>
+Let go of your longing for (truth)<br>
+a transcending meaning.<br>
+You conjure up fleeting (thoughts)<br>
+dreams and wonders<br>
+<br>
+If I could only find<br>
+our true nature through my mind…<br>
+<br>
+What lies beyond doesn't interest me.<br>
+It's this moon that shines down<br>
+onto my sorrows.<br>
+What this means to me becomes existence.
+</p>
+
+      <h1 id="f9" class="lyrics-test">-Nox Aurumque-</h1>
+      <p class="lyrics-test-test">AVRVM<br>
+INFVSCATVM ET OBSCVRVM<br>
+CANENS NOCTIS<br>
+CANENS MORTIS<br>
+ACQVIESCENS CANENDO<br>
+ET ANGELVM SOMNIT<br>
+AVRORARVM ET BELLORVM<br>
+<br>
+SAECVLORVM FVNDIT LACRIMAS<br>
+LACRIMAS RERVM BELLORVM<br>
+O ARMA O LAMINA AVRATA<br>
+GESTV GRAVES NIMIVM<br>
+GRAVES NIMIVM VOLATV<br>
+<br>
+AVRVM<br>
+INFUSCATVM ET TORPIDVM AVRVM<br>
+SVSCITA<br>
+DILABERE EX ARMIS IN ALAM<br>
+VOLEMVS ITERVM<br>
+ALTE SVPRA MVRVM<br>
+ANGELI RENASCENTES ET<br>
+EXVLTANTES AD ALAS<br>
+AVRORARVM<br>
+AVRORVM<br>
+SOMNORVM<br>
+<br>
+AVRVM<br>
+CANENS ALARVM<br>
+CANENS VMBRARVM
+</p>
+
+      <h1 id="f10" class="lyrics-test">-Sun Wukong-</h1>
+      <p class="lyrics-test-test">Where I come from is a place<br>
+of simple creatures, of no consequence.<br>
+For as long as I can remember<br>
+I've been obsessed with achieving greatness but to what end?<br>
+The notion seemed so deep,<br>
+brooding disdain all along in me.<br>
+That a greater purpose<br>
+lay hidden from view.<br>
+<br>
+Searching in vain,<br>
+to leave this domain.<br>
+<br>
+Though there have been many<br>
+whom I could call friend,<br>
+roads steep and laced with pain<br>
+have forced every one I've ever known<br>
+to fall behind.<br>
+They lied down to rest,<br>
+while I carried on forward.<br>
+<br>
+But I felt no satisfaction,<br>
+even though I am the<br>
+great sage equal of heaven.<br>
+<br>
+Searching in vain,<br>
+to leave this domain.<br>
+<br>
+I was told that the truth is:<br>
+“Only those who risk going too far<br>
+can find out how far one can go.”<br>
+Now I've crossed the earth;<br>
+I've reached the end,<br>
+and offered my soul.<br>
+<br>
+What can one do to savor life<br>
+when everything is rushing so fast.<br>
+All alone, slave of time,<br>
+I know there is no turning back.<br>
+<br>
+The purple dusk reveals a new road<br>
+reaching out to the stars.<br>
+<br>
+To End is to Begin anew.<br>
+The colors have changed to a darker hue.<br>
+I have now finally awakened to,<br>
+emptiness.</p>
+
+      <h1 id="f11" class="lyrics-test">-Arbiter Of Time-</h1>
+      <p class="lyrics-test-test">My mind meanders like a river<br>
+through green valleys,<br>
+searching fervently for truth<br>
+in far distant places,<br>
+though I need only look as far as my heart to find both truth and delusion<br>
+too close for comfort.<br>
+<br>
+One day these bones will rest in grass, salted by the tears of my family,<br>
+serenaded by the wind,<br>
+then forgotten like last night's dream…<br>
+<br>
+I'll be the harbinger of darkness.<br>
+Let me bring you the fear that can be found in a handful of dust.<br>
+<br>
+What you have to realize<br>
+is that you die every single day.<br>
+When you lay your head to sleep<br>
+and everything disappears<br>
+where do you go?<br>
+how do you know?<br>
+are you sad that you have to<br>
+end it so soon?<br>
+Yes, this is the end.<br>
+Will you refuse to go back to sleep<br>
+now that you can never wake up again?<br>
+Would you have lived your last day differently?<br>
+<br>
+I'll be the arbiter of time.<br>
+Our birth is nothing but our death begun.<br>
+<br>
+What a ridiculous notion<br>
+to hold life so precious,<br>
+as if it had some intrinsic value<br>
+beyond what is important to us subjectively; instinctively.<br>
+<br>
+All we can do is<br>
+enjoy the Means, End suffering,<br>
+and not dwell on these things too much.<br>
+Death will blanket us all in the end.</p>
+
+      <h1 id="f12" class="lyrics-test">-To Love-</h1>
+      <p class="lyrics-test-test">Love, it renders even wise men into fools;<br>
+a force that has followed us for so long;<br>
+yet all we can hope to do is give in<br>
+to something so wonderful.<br>
+<br>
+If one's soul could be a song,<br>
+If one's soul could sing along.<br>
+There would be nothing that I could say,<br>
+to match the way I feel.<br>
+So I will simply read you a verse;<br>
+forgive me.<br>
+<br>
+E'en though<br>
+I've known you now<br>
+for quite some time,<br>
+In life there's naught at all that can contend<br>
+With meeting your soft lips, oh so sublime,<br>
+And for a moment feel my breath suspend.<br>
+<br>
+As tacit words are whispered to my heart,<br>
+They gently beckon me to your embrace.<br>
+Without a thought I readily depart<br>
+The world and leave my worries to efface.<br>
+<br>
+In your dark eyes there lies a tenderness<br>
+I am not worthy of yet you've bestowed,<br>
+And so my soul is nursed by your caress<br>
+Where normally the sands of time erode.<br>
+<br>
+A thousand years together will not do<br>
+To weary me of one more kiss from you.
+</p>
+    </div>
+  </div>
+  <div class="lyrics-under">
+  <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+  </div>
+
+  <div class="lyrics-under">
+  <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+  </div>
+
+      <div class="page-finish">
+        <a href="./security.html">Security Statements</a>
+        <a href="./terms.html">Terms of Service</a>
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+
+  </body>
+  </html>

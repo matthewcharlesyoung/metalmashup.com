@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Ne Obliviscaris</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/portal.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Portal of I - 2012</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Tapestry Of The Starless Abstract</a>
+      <a href="#f2">Xenoflux</a>
+      <a href="#f3">Of The Leper Butterflies</a>
+      <a href="#f4">Forget Not</a>
+      <a href="#f5">And Plague Flowers The Kaleidoscope</a>
+      <a href="#f6">As Icicles Fall</a>
+      <a href="#f7">Of Petrichor Weaves Black Noise</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/citadel.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Citadel - 2014</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Painters Of The Tempest (Part I): Wyrmholes</a>
+      <a href="#s2">Painters Of The Tempest (Part II): Triptych Lux</a>
+      <a href="#s3">Painters Of The Tempest (Part III): Reveries From The Stained Glass Womb</a>
+      <a href="#s4">Pyrrhic</a>
+      <a href="#s5">Devour Me, Colossus (Part I): Blackholes</a>
+      <a href="#s6">Devour Me, Colossus (Part II): Contortions</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/saraban.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Sarabande To Nihil - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">Upon The Tongue Of Eloquence</a>
+      <a href="#t2">When The Black Hands Dance</a>
+      <a href="#t3">All The Scarlet Tears</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#fourth"><img class="lyrics-page_image" src="./images/urn.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Urn - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#ff1">Libera (Part I) – Saturnine Spheres</a>
+      <a href="#ff2">Libera (Part II) – Ascent Of Burning Moths</a>
+      <a href="#ff3">Intra Venus</a>
+      <a href="#ff4">Eyrie</a>
+      <a href="#ff5">Urn (Part I) – And Within The Void We Are Breathless</a>
+      <a href="#ff6">Urn (Part II) – As Embers Dance In Our Eyes</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/portal.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Portal of I - 2012</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Tapestry Of The Starless Abstract-</h1>
+      <p class="lyrics-test-test">ALL HORIZONS FALL THROUGH DYING STAINS<br>
+A CRIMSON CROWN TO CALL MY OWN<br>
+O HOME IS EVERYWHERE I VOYAGE<br>
+AND DARKNESS IS ALWAYS WITH ME...<br>
+<br>
+I CALL TO THE SIRENS ECHOING IN SWEET LAUGHTER<br>
+BROKEN HOPES 'NEATH THE SURFACE<br>
+WITH HAUNTING EYES THEY STARE...<br>
+through black waters, wearing tresses<br>
+a figurehead warped, stares homesick afar<br>
+<br>
+NEVER DEPTHS... MY DEAR DESPAIR<br>
+NEVER<br>
+<br>
+BLIND IN DELIRIUM, NAVIGATING THE CONTINUUM FLUX... NOTHING<br>
+SUBMERGED IN LIMBO, OF NAUTICA THEY SING... TRUE MAJESTY<br>
+OCEANS WIDE, EYES WIDE... FOREVER TO TREASURE... CARRY ON<br>
+INFUSING INSIGHT, THE FABRIC OF SPACE IGNITED<br>
+<br>
+silent time reveals tragedies chartered<br>
+all triumphs were drowned...and the sirens too...<br>
+SILENT TIME REVEALS...<br>
+ALL TRIUMPHS WERE DROWNED...<br>
+symphony for the pilgrim, intrinsic wake, opulent discordant soul... my arabesque<br>
+setting sail from paradox lost to a paradise found<br>
+PARADISE, PARADISE FOUND<br>
+PARADISE, PARADISE FOUND</p>
+
+      <h1 id="f2" class="lyrics-test">-Xenoflux-</h1>
+      <p class="lyrics-test-test">PERFECTION, A WORLD APART WE ARE<br>
+BRIGHT STAR AND THE EYE<br>
+...I AM<br>
+<br>
+RIDING THE TIDES. CRUX... ASTRAL GRACE<br>
+DOWN SILVER LOCKS TO COSMIC CROSSINGS<br>
+HOW FAR HAVE I COME?<br>
+<br>
+AS SATURN DEVOURS, OF MIND-STREAMS' ODDITY<br>
+RIFT WROUGHT SOULS RUPTURE, RIPPLING...<br>
+ALL SHACKLES HAVE NOW FALLEN, NEBULAE HORSES PULSE ON<br>
+CAN I FEEL?<br>
+<br>
+LOCKED WITHIN PANDORA'S MUSIC BOX<br>
+WATCHING FROM THE PORTAL OF I<br>
+BAYING THROUGH WOVEN SOUNDSCAPES<br>
+A BLACK DOG LAYS AT MY FEET... OBLIVION...<br>
+<br>
+COLD, CELESTIAL BRILLIANCE<br>
+THE CANVAS UNFRAMED, ELATION<br>
+CIRCUS OF RADIANT MOTION, ALIVE<br>
+<br>
+A HANDFUL OF EARTH... THE ONLY REMINDER<br>
+MAJESTY, TAKE MY HAND<br>
+<br>
+WE WEEP TO BELIEVE, WHERE ONLY DREAMS HAVE WITNESSED BEYOND<br>
+WE WEEP TO BELIEVE, WHERE ONLY DREAMS HAVE...
+
+</p>
+
+      <h1 id="f3" class="lyrics-test">-Of The Leper Butterflies-</h1>
+      <p class="lyrics-test-test">oh why?<br>
+OH WHY THE BUTTERFLY OF MAN?<br>
+<br>
+oh why?<br>
+oh why precious beauty?<br>
+with eyes that speak tongues<br>
+foresight and memory, maelstrom wormholes<br>
+behind, the vast passion<br>
+a wish is made upon a nebula<br>
+from the leper's kiss<br>
+CONJURING ORDERED CHAOS<br>
+KALEIDOSCOPE IN MOTIONv<br>
+ADORNED A PORCELAIN MASK<br>
+O'ER THE ENIGMA... PIERROT OF TE GARDEN<br>
+WHERE LIGHT PARTS WAY<br>
+THE LEPER HAS COME HOME...<br>
+<br>
+I, LEPER<br>
+...WHY, WHY?<br>
+I,LEPER<br>
+...WHY?</p>
+
+      <h1 id="f4" class="lyrics-test">-Forget Not-</h1>
+      <p class="lyrics-test-test">masquerading, the grey vultures<br>
+coalescing in black swansongs<br>
+...of the dead<br>
+...as the dead sigh<br>
+therein the quickening shadows<br>
+kisses upon lifeless fingers<br>
+...as the dead sigh<br>
+...as the dead sigh<br>
+...of always<br>
+...as the dead sigh<br>
+over the frontier of always<br>
+in remembrance, they are anthems<br>
+...the anthems<br>
+...forget not<br>
+...for those gone<br>
+...forget not<br>
+NEVER...<br>
+<br>
+DOWN BY THE WATERS, BENEATH THE WILLOW DRAPERY<br>
+COLD, TIMELESS PRINCE... CLOAKED IN RAVEN WINGS<br>
+WITH TWO PENNY MOONS, PASSAGE THROUGH THE BOATMAN<br>
+ACROSS STARLIT WATERS, WERE DREAMSCAPES ARE GOLDEN.<br><br>
+HOW THEY LIVED THEY WILL BE REMEMBERED<br>
+WE NOW STAND IN THE FOOTSTEPS OF THE ANTHEMS<br>
+NE OBLIVISCARIS<br>
+FOR THE NOBLE SOULS THAT WERE AND WILL BE<br>
+ON... THE DEAD SIGH ON<br>
+NE OBLIVISCARIS<br>
+THEY ARE ANTHEMS<br>
+NE OBLIVISCARIS<br>
+FORGET NOT... NEVER<br>
+what waits beyond in exile's garden sings of the unknown<br>
+the renaissance of death echoes eternally, all's not lost<br>
+death echoes<br>
+death echoes<br>
+forget...<br>
+forget not</p>
+
+      <h1 id="f5" class="lyrics-test">-And Plague Flowers The Kaleidoscope-</h1>
+      <p class="lyrics-test-test">Kings of our emptiness, the flagellants align<br>
+Their mouths fill with questions, blessed they are by God's tokens<br>
+<br>
+Ware to walk the painted... the painted path<br>
+<br>
+Walking the painted path through our plague fields<br>
+<br>
+Ware to walk the painted path<br>
+Through the plague fields<br>
+<br>
+Kings of this carousel, disfigured upon white horse<br>
+With Goya's claws and Dore's wings<br>
+Down golden locks to red crosses<br>
+Crowned children screaming from funeral shrouds<br>
+To rapid eye movement, heart-strings undone<br>
+... our beautiful filth dances... and plague flowers<br>
+<br>
+Why our wall to reason fall... only human<br>
+<br>
+Kings of our emptiness, the flagellants align<br>
+Their mouths fill with ashes and death's tongue<br>
+<br>
+The dappled dying<br>
+Flowering cold grey tombs<br>
+With crumbling walls... I feel<br>
+Our truth is laid bare<br>
+<br>
+... And plague colours<br>
+A masterpiece of pain<br>
+The portrait of what we are...</p>
+
+      <h1 id="f6" class="lyrics-test">-As Icicles Fall-</h1>
+      <p class="lyrics-test-test">can you remember the words of our dying Mother?<br>
+all winters' white... and wonderful<br>
+the third eye spies the greatest pain<br>
+in league with the cycle of life... feel the change<br>
+her breath of frost upon the House of Man's beating heart<br>
+sleep children (sleep...), such colours to be seen<br>
+sanguine glaciers, the veins of our prelude<br>
+fore this is where she lies. Mother, be our eyes...<br>
+<br>
+as the icicles fall, moments of reverence<br>
+THE INVENTION OF ALL, EVERYTHING CALLS AND EVERY LIFELINE IGNITES<br>
+the tears of mother, everlasting season<br>
+...BUT THE PHOENIX EMPIRE EXHALES, THE CURTAIN CALL TO EMBERS<br>
+within us she lives, around us she's dying<br>
+THE FADING LIGHTS BLACKEN, GARDENS EUPHORIC...COWERING UNDERWORLD ORDER<br>
+the winds sing our dirge... this is where she lies<br>
+THE VEILING UNVEILED...MOTHER, OUR MOTHER BEATS DOWN ER ASHEN WINGS<br>
+mother, be our eyes...<br>
+<br>
+GREY AND DRIPPING THE BLOOD OF MOTHER<br>
+feel her pain<br>
+EVOLVING, THE SHROUD SHE GATHERS<br>
+this is where she lies<br>
+IN ABSTRACTION WITHOUT COLOURS<br>
+we die with the fall of the icicles<br>
+LOST TO PIGMENT THE PALE PARADISE...<br>
+<br>
+SWEPT IN TOW TO THE DANSE MACABRE<br>
+IN HAND TO COLD CLAWS OF TIME...<br>
+BROKEN SHUTTERS GAPE OPEN WIDE<br>
+BREATHING IN HOARSE WHISPERS ON HIGH...<br>
+<br>
+CRY... WHITE NOISE WITCH CHOIR<br>
+ICE TEARS OF OUR MOTHER<br>
+<br>
+PILLARS OF MONOLITH AND ICE, LACED WITH LIGHTNING<br>
+BESIEGED BY THE VOID, THE ANTI-MATTER OF MIND<br>
+ONCE WERE PAINTED WALLS, NOW THEY PREACH PARCHED SKIN PETALS<br>
+THE FREEZE-FRAME TOMB UNFOLDS FOR OUR MOTHER...<br>
+<br>
+CRY... WHITE NOISE WITCH CHOIR<br>
+FALL OF THE ICICLES<br>
+<br>
+MOTHER...</p>
+
+      <h1 id="f7" class="lyrics-test">-Of Petrichor Weaves Black Noise-</h1>
+      <p class="lyrics-test-test">swan of pale<br>
+of porcelain white<br>
+her halo, a bloody sun<br>
+...framing a botticelli plants to rivers.<br>
+of petrichor weaves black noise<br>
+<br>
+WHERE HER FRAME DISFIGURES<br>
+PALE OF THE SWAN, PAINTED... DYING<br>
+WILTING IN RED RIBBONS<br>
+LASHING BLACK SAILS, A TATTERED MANE<br>
+HER MOUTH, A DEATH'S HEAD SMILE<br>
+TONGUELESS CHOIRS AND BAITED BREATH<br>
+EVER WATCHING...<br>
+THE ANGELS BEHEADED<br>
+BLEEDING THIS HEART,<br>
+COME CLARITY<br>
+RESONANCE...<br>
+OF PETRICHOR WEAVES BLACK NOISE<br>
+<br>
+light draped, ephemeral<br>
+her stain glass horizon<br>
+THE HOUSEGLASS SHATTERED<br>
+GLACIAL STARFFELL MEMORIES<br>
+CALIGARI HAUNTING...<br>
+WITHIN THIS CABINET OF CHANGE<br>
+UPON FLUTTER EYE WINGS<br>
+in efflorescence, the shadows' sarabande<br>
+...an silence was her name... the silence so loud<br>
+<br>
+TIME... CLEANSE THESE SEVERED HANDS OF TIME<br>
+RAIN, RAIN AGAIN<br>
+WASH AWAY THIS PAIN<br>
+O MOONKISSED FLESH<br>
+NEW KINGDOM COME OF EARTHEN VAST<br>
+LIBERA ME...<br>
+<br>
+RAIN, RAIN, EARTHEN...<br>
+SHINE, SHINE<br>
+NEW KINGDOM, SHINE<br>
+SHINE ON...<br>
+<br>
+dreamer, I<br>
+dream o dream<br>
+dream, follow me afar<br>
+weep, come kingdom come<br>
+(ohh) hope...<br>
+<br>
+libera me...</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/citadel.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Citadel - 2014</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Painters Of The Tempest (Part I): Wyrmholes-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s2" class="lyrics-test">-Painters Of The Tempest (Part II): Triptych Lux-</h1>
+        <p class="lyrics-test-test">[Movement 1: Creator]<br>
+
+COME FORTH DARK HERALD<br>
+BRINGER OF LIGHT<br>
+BOURNE BY THE BURNING SWANS...AND HIS PLAGUE BREATH<br>
+CREATOR<br>
+<br>
+OF THE DREAM COIL, A HALO ALOFT AS HANDS ENTWINE<br>
+<br>
+PAINTERS OF THE TEMPEST, WITH THEIR RED HANDS<br>
+THE WORLD THEIR CANVAS<br>
+THROUGH THE MIST OF THE STORMGLASS...<br>
+<br>
+AND BRUEGEL DREAMT THE ANGELS ABOVE<br>
+AS BOSCH DANCED IN EARTHLY DELIGHT<br>
+<br>
+angels fall...<br>
+into the canvas<br>
+reaching for the light<br>
+heaven is empty<br>
+...and all the beauty is here<br>
+<br>
+UPON THIS BONE PALETTE<br>
+THE SWAY OF NINE-TAILS<br>
+LAYERED LASHINGS OF EUPHORIA AND CHAOS<br>
+TRIPTYCHS UNFOLD LIKE WINGS<br>
+AS THE ARMS OF OUR FATHERS BEAR THE WEIGHT OF WHAT THEY'VE DONE<br>
+ANTI-MATTER-MARTYRS<br>
+<br>
+warmth of life<br>
+where they sing of fire<br>
+children's eyes... for they all shine<br>
+as tears rise, oceans of flame billow<br>
+when all dreams lose hope...<br>
+<br>
+AND BRUEGEL WEPT FOR THE FADING SUN<br>
+WHERE HAVE ALL THE ANGELS GONE?<br>
+<br>
+angels fall...<br>
+into the canvas<br>
+reaching for the light<br>
+heaven is empty<br>
+as hell below<br>
+and hell below<br>
+painted by ghosts<br>
+<br>
+LORDS OF LIFELESS EYES<br>
+IN THIS GARDEN OF WILTED FLOWERS<br>
+VULTURES SPAKE THE MOTHER TONGUE...<br>
+<br>
+[Movement 2: Cynosure]<br>
+<br>
+hear the children<br>
+breathless sleep<br>
+where they dream a new day<br>
+echoing...<br>
+oh when they dream<br>
+ebb and flow,... free falling<br>
+beautiful and calm...<br>
+and fragile, and whole<br>
+where they dream a new day<br>
+through the coil they course and carousel<br>
+echoes,...<br>
+hear the lost children<br>
+hear the children sing<br>
+through the coil they carousel<br>
+within this stained glass womb<br>
+they sing with open minds...<br>
+<br>
+WITHIN THIS STAINED GLASS WOMB<br>
+THEY SEE WITH OPEN MINDS<br>
+THE EVENT HORIZON AND BEYOND<br>
+<br>
+[Movement 3: Curator]<br>
+<br>
+A WASTELAND AND SO BARREN, HAUNTED BY A SEA OF PALE FACES<br>
+THE CITY OF LOST CHILDREN, RAISING THEIR DEATH-SHROUDED FLAGS<br>
+CAN YOU HEAR THE REDRUM POUNDING? THE HEARTBEAT OF MANY AS ONE...<br>
+CURATOR, FATHER... WHAT HAVE WE BECOME?<br>
+<br>
+radiance, blinding horizon<br>
+the brilliant sunrise<br>
+their horizons, where they seize this life<br>
+our children...<br>
+painters, they are<br>
+they are, the change<br>
+painters...</p>
+
+        <h1 id="s3" class="lyrics-test">-Painters Of The Tempest (Part III): Reveries From The Stained Glass Womb-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s4" class="lyrics-test">-Pyrrhic-</h1>
+        <p class="lyrics-test-test">OF BLOOD AND TIME WITHIN THESE VEINS<br>
+PULSING THE DIM, THUNDERING...<br>
+UPON THE PALE HORSES CRYING, SURREAL<br>
+BEKSINSKI'S HOOVES CASCADING HEAVEN<br>
+O BLIND FORTUNE<br>
+DARKNESS FAVOURS THE BRAVE, THE FALLEN... CARRION<br>
+BRING FORTH THE STARS AND TEAR DOWN THE SKY<br>
+<br>
+BLACKEST SISTER OF EVENFALL<br>
+FROM EVENING GOWN TO ARMOUR<br>
+YOUR SKIN IS SO COLD...<br>
+ONWARDS, BRIGHT EYES AND GILDED HEARTS<br>
+WE RISE AND WE FALL<br>
+FROM FIRE TO ICE, BLIND IN DEFIANCE<br>
+WE RACE THE SUN..<br>
+<br>
+o fortune, how long must we dirge to breathe life? how long?<br>
+HOW LONG?<br>
+<br>
+BLACKEST SISTER OF EVENFALL<br>
+FROM EVENING GOWN TO ARMOUR<br>
+YOUR TOUCH IS SO COLD...<br>
+<br>
+GLORIOUS TIDINGS THROUGH SACRIFICE<br>
+THE LONG HARD ROAD THROUGH HELL... AT WHAT COST?<br>
+PILGRIMS TO KINGS, OF NOTHING BUT PAIN<br>
+OUR HANDS ARE FULL YET OUR HEARTS ARE EMPTY<br>
+<br>
+TO THE MOTHS WE PRAY, THE CRIPPLED CHORUS... WE DESPAIR<br>
+THE RISE, THE RUST OF ICONS, O GODS OF DUST WITHIN US<br>
+<br>
+BLACKEST SISTER OF EVENFALL<br>
+FROM EVENING GOWN TO ARMOUR<br>
+FOREVER OURS...<br>
+<br>
+o fortune, how long must we dirge to breathe life? how long? how long?<br>
+HOW LONG?<br>
+<br>
+COLD, COLDER<br>
+GHOST LIGHT LIPS TRACE MY SCARS<br>
+SERPENTS OF THE EARTH, FEAST... MY HEART<br>
+I DECAY<br>
+COLDER, COLD... DECAY</p>
+
+        <h1 id="s5" class="lyrics-test">-Devour Me, Colossus (Part I): Blackholes-</h1>
+        <p class="lyrics-test-test">CITADEL, OF HOPE AND WHITE FIRE<br>
+HEARKEN, A CHOIR FOR KINGS... TRANSCENDENCE<br>
+CROWNED IN TEETH AND SEVERED WINGS<br>
+IS THIS THE END OF THE FLESH?<br>
+<br>
+my prison and my salvation<br>
+<br>
+A CALL FROM THE VOID, PALE TENTACLES<br>
+ENTHRONED, ALONE, DYING<br>
+DOWN WITH MY DRAPED LEECHES... OH LOVER<br>
+MELANCHOLIA...<br>
+<br>
+you fill my lungs<br>
+am i undone?<br>
+where i swallow the light<br>
+drown me in your arms, so deep<br>
+drown me in your arms<br>
+ABYSSAL WYRMWELL<br>
+fathomless...<br>
+DROWN ME IN YOUR ARMS...<br>
+<br>
+ANATOMY OF SPACE AND TIME<br>
+GATHERED IN VEILED DEPTHS... DESCENDANT<br>
+ARE THESE GOD'S TEARS IN THIS PITCH BLACK TOMB OR THE PAIN OF MY MEMORIES?<br>
+OF ALL SUFFERING, AWAKE ARCHITECTS<br>
+THE MOTHER, THE FATHER, THE EYE<br>
+TRUMPETS BELLOW, THE RIPPLES TRANSFIGURE<br>
+WRETCHED AM I...<br>
+<br>
+white eyes and blue lips, lover<br>
+devour me...<br>
+drown me in your arms<br>
+ABYSSAL WYRMWELL<br>
+fathomless...<br>
+DROWN ME IN YOUR ARMS...<br>
+DROWN ME IN YOUR ARMS<br>
+ABYSSAL WYRMWELL<br>
+fathomless...<br>
+<br>
+A BURNING GAUNTLET HELD TO HER BREAST<br>
+IN HER ARMS THE PHOENIX LAY BLACKENED IN MOURNING
+A PURGING OF ASHES DOWN HER HOURGLASS FIGURE<br>
+INSCRIBED ON MY HEART, -DEVOUR ME, COLOSSUS-<br>
+<br>
+scent of the earth<br>
+touch of the light<br>
+here, where colours collide<br>
+this blackhole ignites<br>
+my world in bloom<br>
+<br>
+FLESH TO FLOWERS, BLOOD TO RIVERS<br>
+MY BREATH TO THE WIND<br>
+THE STARS STEAL MY EYES AND THE SUN SEARS MY MIND<br>
+THIS BLACKHOLE IGNITES<br>
+MY WORLD IN BLOOM<br>
+HERE I STAND, CITADEL... HERE I STAND...<br>
+<br>
+HERE WHERE COLOURS COLLIDE<br>
+THIS BLACKHOLE IGNITES<br>
+MY WORLD IN BLOOM<br>
+scent of the earth<br>
+touch of the light<br>
+here, where colours collide<br>
+this blackhole ignites<br>
+my world in bloom<br>
+my world in bloom<br>
+IN BLOOM...</p>
+
+        <h1 id="s6" class="lyrics-test">-Devour Me, Colossus (Part II): Contortions-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/saraban.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Sarabande To Nihil - 2015</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-Upon The Tongue Of Eloquence-</h1>
+          <p class="lyrics-test-test">Through the stillbirth swoon, the children are silent<br>
+Existing in dreams, surreal oblivion...<br>
+Through time, torn tombs, the children are screaming<br>
+Dreaming of life, the nightmares to come...<br>
+<br>
+Through tear stained eyes, the children are drowning<br>
+Within the depths, they seek the courage...<br>
+Through white wombs, the children are laughing<br>
+Dreaming of wings, for what times may come...<br>
+<br>
+Reflections behold such dreams of man<br>
+They beseech the sun for the new day<br>
+Opening their eyes to beauty's lament<br>
+The seas of luminescence...<br>
+Between their fingers awaken dead realms<br>
+...But o glorious fate leaves them blind<br>
+What eyes would close to abhor the womb?<br>
+Stumbling onwards only to be left behind...<br>
+<br>
+The catharsis seized, a breathe of life<br>
+Eruptions of passion and focus<br>
+Blackening idle beliefs<br>
+Now all eyes are upon the tongue of eloquence<br>
+<br>
+Reflections behold such dreams of man<br>
+They beseech the sun for the new day<br>
+Opening their eyes to beauty's lament<br>
+The seas of luminescence...<br>
+Between their fingers awaken dead realms<br>
+...But o glorious fate leaves them blind<br>
+What eyes would close to abhor the womb?<br>
+Upon the tongue...</p>
+
+          <h1 id="t2" class="lyrics-test">-When The Black Hands Dance-</h1>
+          <p class="lyrics-test-test">They bear no names...<br>
+The black hands are dancing<br>
+They search for him... All for the king<br>
+<br>
+Staring at open palms, hear the redrum pound<br>
+One upon the battlefield, false vanity has won...<br>
+Down in the darkness, echoes of dead criesv<br>
+There's beauty in pain, and pain is their light...<br>
+<br>
+They bear no names... The black hands are dancing<br>
+They call for him... Here lies the king<br>
+<br>
+Mirrored upon pearl-white eyes<br>
+A black halo<br>
+Stare into the depths of nevermore<br>
+Does it stare back?<br>
+<br>
+A murder of divas, bleeding as the choir<br>
+Beneath the shadows, the garden lies withered...<br>
+When the black hands dance, encircled beneath the sun<br>
+Only the dead will hear, screams of a lost zion...<br>
+<br>
+Such passion lay unfinished, lost to the world... Regrets<br>
+Precious thoughts unspoken... And silent are the trumpets<br>
+No more bard songs, only a crying child<br>
+A ghastly crowd faceless, watching this denial<br>
+Resounding within the mind, a serenade to still hearts<br>
+As ice on the dark stares, how deep do they scar?<br>
+Under the rage of wings, cradled by coldness<br>
+Into the dark shadows and winter quintessence...<br>
+<br>
+Mirrored upon pearl-white eyes<br>
+A black halo<br>
+Stare into the depths of nevermore<br>
+Does it stare back?<br>
+<br>
+Only the dead will hear the sound of such music<br>
+<br>
+Life goes on if there is pain<br>
+<br>
+They bear no names... The black hands are dancing<br>
+They sing for him... Long live the king<br>
+<br>
+Still the dance goes on, final breaths linger<br>
+In stillness he's loved, caressed by their fingers...<br>
+Joining the cries of time, planted in pain<br>
+...As the dead don't rest, within this garden...<br>
+<br>
+Mirrored under pearl-white eyes<br>
+A black halo<br>
+Stare into the depths of nevermore<br>
+Does it stare back?</p>
+
+          <h1 id="t3" class="lyrics-test">-All The Scarlet Tears-</h1>
+          <p class="lyrics-test-test">All life dies as icons rage,<br>
+white are the pages beyond<br>
+Unwritten are the screams, of hate... Of pain... Of misery<br>
+<br>
+Of devildom falls, life is severed<br>
+<br>
+With whispers the curse, to such seduction<br>
+Weeping to the sound of a grand black piano<br>
+<br>
+Blood in the lungs<br>
+As watery valleys<br>
+Over angel tongues<br>
+<br>
+One by one they're falling, every note spatters<br>
+Veiling the ivory teeth, the mourning anthem gathers<br>
+<br>
+Blood in the lungs<br>
+As watery valleys<br>
+Over angel tongues<br>
+To a drowning finale<br>
+Memories within<br>
+<br>
+Requiem for all, the scarlet tears<br>
+<br>
+Blood in the lungs<br>
+As watery valleys<br>
+Over angel tongues<br>
+To a drowning finale<br>
+Memories within<br>
+The smell of rain<br>
+<br>
+Within the heavens of all black hell<br>
+Stirs the passion all gone<br>
+Screaming of life and time taken<br>
+Open and taste the blooded land...<br>
+<br>
+A pale horse rides as the winds cadence<br>
+Galloping keys encore, this is transcendence<br>
+A tear streaked face of stain and rust<br>
+To challenge the scarlet omnibus...<br>
+<br>
+...The memories are all that remain<br>
+In heartarche with the smell of rain...</p>
+        </div>
+      </div>
+
+      <div class="lyrics-layout">
+        <div class="lyrics-layout_image">
+          <img id="fourth" class="lyrics-page_image" src="./images/urn.jpg" height= "100%" width="auto"/>
+        </div>
+        <div class="lyrics-page_album-title_wrap">
+          <h1 class="lyrics-page_album-title">Urn - 2017</h1>
+        </div>
+          <div class="lyrics-page_album-songs">
+            <h1 id="ff1" class="lyrics-test">-Libera (Part I) – Saturnine Spheres-</h1>
+            <p class="lyrics-test-test">Where white doves fall as hammers<br>
+And the wilted horses dream of lions<br>
+<br>
+To the crashing shores, hooves through bloodied tears<br>
+Rising red rosarium<br>
+Blossoming choirs<br>
+Beatitudes... Of the endless end<br>
+Where white doves fall<br>
+<br>
+White doves fall as hammers<br>
+And the wilted horses dream of lions<br>
+Of the drapery, moth grey veils<br>
+Where the black winds rage<br>
+<br>
+This is our end design<br>
+The war on all life<br>
+Of our mindless vessels<br>
+Death we breathe<br>
+<br>
+Life's demise, mechanized end design<br>
+Far beyond our humanity<br>
+Our end design<br>
+To be erased from all time<br>
+Through the shadow of the valley of death<br>
+We bathe in blood<br>
+<br>
+The saturnine spheres of fluttering wings<br>
+Dusted wombs<br>
+Upon the ebbing auras they feed<br>
+Drawn to life<br>
+<br>
+Burning moths, we've set free<br>
+Illuminate the way<br>
+Across killing fields, once golden<br>
+What have we done?<br>
+What have we done?<br>
+<br>
+One last time, upon the threshold<br>
+In our hands vultures wheel<br>
+As time swings the great pendulum<br>
+Dawn of the industrial dirge<br>
+Where pilgrims sing our fate<br>
+No more chances…are we too late?<br>
+<br>
+Exiled voices<br>
+All of the one tongue<br>
+Words of extinction, chorus of truth<br>
+<br>
+Life's demise, mechanized end design
+Far beyond our humanity<br>
+Our end design<br>
+To be erased from all time<br>
+Through the shadow of the valley of death<br>
+The same blood</p>
+
+            <h1 id="ff2" class="lyrics-test">-Libera (Part II) – Ascent Of Burning Moths-</h1>
+            <p class="lyrics-test-test">[Instrumental]</p>
+
+            <h1 id="ff3" class="lyrics-test">-Intra Venus-</h1>
+            <p class="lyrics-test-test">Ghosts of porcelain waste<br>
+The innocence in faith<br>
+Through translucent eyes<br>
+In shifting shades of pale upon pale<br>
+Writhing across the neverwhere<br>
+<br>
+Haunting reflections of the mirrored void<br>
+Is this the end of everything we love?<br>
+The wounds of life weaving the loom<br>
+Dwellers in the deep… worlds entombed<br>
+<br>
+Of all the fragile, their desolate veins<br>
+Ravenous hearts, euphoric suffering<br>
+Poison of the well, where the black tongues sing<br>
+Intra Venus quickens<br>
+A curse of life<br>
+Bequeathed, gorging sanguine like cancer<br>
+They prey for blood, wretched are the gods<br>
+For the stillborn suns of never<br>
+They are the severed<br>
+The lifeline to end forever<br>
+<br>
+Lanced, earthen flesh of enslavement…intravenous<br>
+Descending liquid shadows, all entwining<br>
+Their distant sights weaving the loom<br>
+Dwellers in the deep... drift below<br>
+<br>
+To the ferryman's drains<br>
+Seek a cure for the pain<br>
+<br>
+The end of all we love and lust<br>
+In tainted flesh of doubt and corruption<br>
+Is it too late? Will death be my lover?<br>
+Will death be my lover?<br>
+And into ribs... crib, cradled, caressed<br>
+A moment between black talons, blessed<br>
+Consciousness, a breath... regret<br>
+Clarity come forth, is there salvation?<br>
+<br>
+Haunting reflections of the mirrored void<br>
+Is this the end of everything we love?<br>
+Wounds of life wield the strength to rise<br>
+Dwellers in the deep, dream of hope, only hope<br>
+<br>
+The end of everything we love<br>
+The end of everything we love
+</p>
+
+            <h1 id="ff4" class="lyrics-test">-Eyrie-</h1>
+            <p class="lyrics-test-test">All veiled by sunlight<br>
+A murder for evenfall<br>
+Where a new dawn resides<br>
+Veiled by sunlight<br>
+All veiled by sunlight<br>
+Of gilded silhouettes<br>
+Where long shadows rise<br>
+<br>
+As winds whisper, o' harbinger, lamenting twilight<br>
+All drowned within, cold stars ignite<br>
+The world closed its eyes<br>
+<br>
+Of Lorelei<br>
+Dead dreams rising<br>
+Lost to a frayed dimension<br>
+And what lies beneath<br>
+The labyrinth within the sea<br>
+The black skies of twenty thousand leagues<br>
+<br>
+Keelhauled and crippled<br>
+Tangled in misery<br>
+An abyss of dying dreams<br>
+Cascading delirium<br>
+Mirrored waters<br>
+Through oceans celestial<br>
+Time steals nostalgia<br>
+For only the pain is real<br>
+<br>
+Of Lorelei<br>
+Dead dreams rising<br>
+Lorelei<br>
+Lost to a frayed dimension<br>
+And what lies beneath<br>
+The labyrinth within the sea<br>
+The black skies of twenty thousand leagues<br>
+Lorelei, memories in full sail, now cast away<br>
+<br>
+Bathed in funereal starfall<br>
+This night, we drag the waters<br>
+The world opens its eyes<br>
+Where tides chase the dawn beyond<br>
+<br>
+All veiled by sunlight<br>
+A new day to enslave our heartache<br>
+They are our shades and whispers<br>
+Sun-gilded silhouettes<br>
+Grief, a keepsake</p>
+
+            <h1 id="ff5" class="lyrics-test">-Urn (Part I) – And Within The Void We Are Breathless-</h1>
+            <p class="lyrics-test-test">Nebulous skin of change reflecting<br>
+Seething dead eyes<br>
+Drowning within two black mirrors<br>
+The writhe of our stained-glass angels<br>
+Diaphanous<br>
+Pale tongues upon our spines<br>
+Behold, star-crossed, moribund<br>
+Fleeting, the fall… to our funeral<br>
+<br>
+As moths' bleed from our wounds of faith<br>
+All light wanes<br>
+And upon our open palms are dreams of ash and ember<br>
+<br>
+Beneath aqueducts, anointed... we transfigure<br>
+And within the void we are breathless, we are delivered<br>
+<br>
+A crown of coal-black eyes, tendrils of shadow<br>
+Breathless, beloved, godless... we are home<br>
+<br>
+Beneath aqueducts, anointed... we transfigure<br>
+And within the void we are breathless, we are delivered<br>
+<br>
+And within the void we are breathless</p>
+
+            <h1 id="ff6" class="lyrics-test">-Urn (Part II) – As Embers Dance In Our Eyes-</h1>
+            <p class="lyrics-test-test">Beneath aqueducts, anointed...<br>
+we transfigure<br>
+Within the void we are breathless,<br>
+we are delivered<br>
+<br>
+Before the flame, we transcend<br>
+Bearing light in hues of sunrise<br>
+With devil'ed wings as wind torn shrouds<br>
+Faithless decadence<br>
+<br>
+Together, forever... of all<br>
+Tomorrow, we dream no more<br>
+Our gods lay in quiescence<br>
+The end, true freedom<br>
+Baroque'n forms 'neath mourningstars<br>
+Where the moon will wither<br>
+Here, we are of the sun<br>
+We become the earth<br>
+<br>
+Wounds of earth, purging fire… burning bloodstreams<br>
+Bereft of pulse and light<br>
+Crimson, gold, a new sun... empyreal<br>
+Crimson, gold, one last sun to ember<br>
+<br>
+Dead seas of life<br>
+Dead seas of life<br>
+<br>
+In shades of faceless grey, unto ashes<br>
+Our dying memories, our faded lives<br>
+Within this urn inversed, pain released<br>
+We are the ones that were, what once was</p>
+          </div>
+        </div>
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+        </div>
+
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+        </div>
+
+            <div class="page-finish">
+              <a href="./security.html">Security Statements</a>
+              <a href="./terms.html">Terms of Service</a>
+              <a href="./privacy.html">Privacy Policy</a>
+              <a href="./contact.html">Contact</a>
+            </div>
+
+        </body>
+        </html>

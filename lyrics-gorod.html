@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Gorod</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/aperfect.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">A Perfect Absolution - 2012</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Birds Of Sulphur</a>
+      <a href="#f2">Sailing Into The Earth</a>
+      <a href="#f3">Elements And Spirit</a>
+      <a href="#f4">The Axe Of God</a>
+      <a href="#f5">5000 At The Funeral</a>
+      <a href="#f6">Carved In The Wind</a>
+      <a href="#f7">Varangian Paradise</a>
+      <a href="#f8">Tribute Of Blood</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/amaze.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">A Maze Of Recycled Creeds - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Air De L'ordre</a>
+      <a href="#s2">Temple To The Art-God</a>
+      <a href="#s3">Celestial Nature</a>
+      <a href="#s4">Inner Alchemy</a>
+      <a href="#s5">The Mystic Triad Of Artistry</a>
+      <a href="#s6">An Order To Reclaim</a>
+      <a href="#s7">From Passion To Holiness</a>
+      <a href="#s8">Dig Into Yourself</a>
+      <a href="#s9">Rejoice Your Soul</a>
+      <a href="#f10">Syncretic Delirium</a>
+      <a href="#s11">An Order To Reclaim (Alternative Version)</a>
+    </div>
+</div>
+<!--
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title"> - </h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1"></a>
+      <a href="#t2"></a>
+      <a href="#t3"></a>
+      <a href="#t4"></a>
+      <a href="#t5"></a>
+      <a href="#t6"></a>
+      <a href="#t7"></a>
+      <a href="#t8"></a>
+      <a href="#t9"></a>
+      <a href="#t10"></a>
+      <a href="#t11"></a>
+      <a href="#t12"></a>
+    </div>
+</div>
+-->
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/aperfect.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">A Perfect Absolution - 2012</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Birds Of Sulphur-</h1>
+      <p class="lyrics-test-test">Redemption always comes from the sky!<br>
+<br>
+There's no escape. They deserve to perish<br>
+Pain and torture will open the gates of mass delirium<br>
+Strike all the cowards to the ground, their cursed souls shall never rest<br>
+Let my wrath spread upon the infidels so eager to murder their king<br>
+<br>
+The impure blood that will flow from their wounds<br>
+Will never be enough to quench my thirst or avenge this insult<br>
+Make them suffer! Make them pay! Souls will plunge into decay<br>
+Death by torture! The tormented souls shall be lost in eternal fire<br>
+<br>
+BURN! The harbingers of death shall be the Birds of Sulphur.<br>
+<br>
+Faithless! Unholy Forest Dwellers<br>
+I will have your bodies charred in the flames of this world<br>
+Perun has prepared your stake... eternal<br>
+<br>
+Heralds of fire<br>
+Open the gate to the underworld<br>
+Redemption will come from the sky<br>
+<br>
+The harbingers of death shall be the Birds of Sulphur. BURN<br>
+<br>
+Attack! Hunt them down ! Hack, chop, dismember<br>
+No cell, no prisoner<br>
+Burn Iskorosten, burn<br>
+Redeeming fire! They will pay with ashes<br>
+The Birds of Sulphur shall cleanse our lands of all their sins<br>
+Purification through flames. Unleash you fury<br>
+Be the heralds of fire and make Iskorosten burn<br>
+Spread my wrath<br>
+<br>
+Redeeming fire will fall from the sky<br>
+Fire will fall from the sky</p>
+
+      <h1 id="f2" class="lyrics-test">-Sailing Into The Earth-</h1>
+      <p class="lyrics-test-test">Flattery being the most effective<br>
+weapon to defeat the enemy<br>
+They'll be led to believe they will be borne<br>
+in their ship to the castle Lured into the<br>
+gaping hole that will close upon them<br>
+<br>
+They are worthy only of death. We'll bury them all alive<br>
+<br>
+They shall fall into my pit of vengeance.<br>
+Let them sail their grave into the earth<br>
+Nothing comes easier than killing a man.<br>
+A man who believes he has won the war<br>
+The distant leader wants to marry the<br>
+<br>
+Queen to gain ultimate power They came to<br>
+declare a truce, trickery,<br>
+penance for such abuse<br>
+With great honor I send you sailing into the earth<br>
+For the murder of the king,<br>
+incarnation of God I promise such a painful<br>
+death that he will hear you suffer from the underworld<br>
+The heart of a widow is colder than mud<br>
+<br>
+They are worthy only of death.<br>
+<br>
+We'll bury them all alive They shall fall into my pit of vengeance<br>
+Let them sail their grave into the<br>
+earth Nothing comes easier than killing a man<br>
+A man who believes he has won the war<br>
+They shall drown in a sea of mud, souls,<br>
+damnation, a permanent flood<br>
+<br>
+Great pits will be dug on the shore<br>
+to trap and destroy the soldiers<br>
+With great honor I send you sailing into<br>
+he earth You shall be erased from all<br>
+memories I send you sailing into the earth<br>
+<br>
+The sovereign of the earth will bring you to your knees<br>
+You'll feed the worms and be as one with<br>
+the earth I want to feel your suffering and<br>
+stamp the earth down over your grave<br>
+<br>
+You shall fall into my pit of vengeance.<br>
+Your will sail your grave into the earth<br>
+Nothing comes easier than killing men<br>
+Men who believe they already own the kingdom]</p>
+
+      <h1 id="f3" class="lyrics-test">-Elements And Spirit-</h1>
+      <p class="lyrics-test-test">These statues are no gods<br>
+Just useless objects carved of wood Now they may exist<br>
+but soon they will be reduced to nothing Left to rot away,<br>
+erased by time, their ashes swept away by the wind<br>
+<br>
+These soulless gods you worship are neither sacred nor human<br>
+We only built them with our own hands<br>
+But what good have these gods done?<br>
+<br>
+A single element can sink them into oblivion<br>
+What good have done those gods?<br>
+We only built them with our own<br>
+hands I don't want to give my soul to demons...<br>
+<br>
+I will lay the foundation stone for<br>
+the sacred new empire And God shall be the witness<br>
+I'll carry out my flawless plan<br>
+Tomorrow everything will change<br>
+You'll bow down to me<br>
+There is only one God!<br>
+Gods who let the kings die don't deserve<br>
+to be honored If the regent converts or<br>
+give up the kingdom The cult figures shall burn.<br>
+They will become meaningless<br>
+<br>
+Perun alone is worthy to bear the name of God<br>
+But as he is a vengeful spirit, he can't wash me of my sins<br>
+<br>
+I must harness the elements to take my revenge<br>
+Let fire burn them, water drown them, earth bury them<br>
+And let their cries for mercy be carried on the wind...<br>
+only then will I find peace...<br>
+Faith will bring us a new way of life, the road to redemption<br>
+<br>
+When my time comes, I will rejoice in eternal rest Looking<br>
+down upon my work from heaven, I will laugh at<br>
+the chaos I created I will avenge the King!<br>
+Impure blood shall drench the earth<br>
+My new road leads south<br>
+<br>
+I will not look behind me<br>
+Moving from hell towards the light, their God is my<br>
+God I will lay the foundation stone for the sacred<br>
+new empire And God shall be the witness<br>
+I'll carry out my flawless plan Tomorrow everything will change<br>
+You'll bow down to me</p>
+
+      <h1 id="f4" class="lyrics-test">-The Axe Of God-</h1>
+      <p class="lyrics-test-test">They have learnt to fight in the<br>
+forest and live in harmony with nature<br>
+They have knowledge of a territory that is hostile to us<br>
+<br>
+I know there is nothing they can fear<br>
+But the anger of the Queen<br>
+The Axe of God The Axe of their own God<br>
+<br>
+We can't let them have an opportunity to control the entire river<br>
+But it would certainly be the best way to bring them down<br>
+<br>
+Tonight, the Axe will collect a bloody harvest of heads<br>
+Let the Almighty Perun lend me strength and bravery<br>
+And let the gruesome scene of your impaled bodies along the ways<br>
+Reveal to the world the price of such a crime<br>
+<br>
+Let the Almighty Perun lend me strength and bravery<br>
+I swear the eternal oath ! I am now the arm of God<br>
+The Axe of God<br>
+<br>
+You will ever regret your felony<br>
+When my soldiers rape your wives<br>
+And when I make your children be my slaves until they die<br>
+<br>
+This is the first tribe that refused to submit to the king's command<br>
+They must be the only ones who chose to fight against our will<br>
+<br>
+Now they no longer believe in knowing the slightest fear<br>
+It's time to for them to pay<br>
+Befall on their heads the wrath of gods<br>
+<br>
+I know there is nothing they can fear<br>
+But the Axe of their own God<br>
+Vengeance is ours<br>
+Now, vengeance is mine</p>
+
+      <h1 id="f5" class="lyrics-test">-5000 At The Funeral-</h1>
+      <p class="lyrics-test-test">O dear traitors, come confidently<br>
+I wish you to come by the thousand<br>
+Gallons of mead shall be prepared in the city where the King was killed<br>
+Let us cry on his grave and have a ceremony for him<br>
+<br>
+It's in sign of peace I invite you all to a great banquet<br>
+I promise that there will be more than enough to eat and drink<br>
+You may taste many beverages that even the gods could never dream of<br>
+But I cannot give my hand while I am in mourning<br>
+<br>
+It is time to get to know each other, Now<br>
+Let's found a new and stronger kingdom together<br>
+Unveil all your secrets<br>
+We know how to subjugate<br>
+<br>
+O dear traitors<br>
+Only a blood bath can wash you of your sins<br>
+<br>
+You will swallow the bitter flood of your own death<br>
+<br>
+Now you shall face the raging river of our merciless vengeance<br>
+You're invited to the funeral that will soon be yours<br>
+<br>
+Panic Laughter<br>
+You'll be howling with pain<br>
+When the wine in your mouth turns into blood<br>
+Under the sharp daggers of my soldiers<br>
+Only your pain will wash your sins<br>
+<br>
+You will know the punishment of the Luxurious Soon...<br>
+Dark blood will feed the earth<br>
+Now you shall face the raging river of our merciless vengeance<br>
+You're invited to the funeral that will soon be yours</p>
+
+      <h1 id="f6" class="lyrics-test">-Carved In The Wind-</h1>
+      <p class="lyrics-test-test">The wild ones must be slain<br>
+Vengeance fulfilled by the wrath of the Great One<br>
+O Perun ! Utter the ancient words of power<br>
+Allow me to cast a merciless doom upon them<br>
+O Perun ! May we strike them harder than stone<br>
+<br>
+Let's remember...<br>
+We must remind them the holy power belongs only to us<br>
+And none but the gods have decided<br>
+Varangians always had control of the River<br>
+It's time to prove it. It's time to prove it now<br>
+<br>
+If they feel at one with the earth<br>
+I promise they will soon be as one<br>
+Their lungs will be filled with mud and worms<br>
+They will drown in their own blood<br>
+Their bones will be consumed by flames<br>
+And their suffering will be engraved in the air<br>
+<br>
+Let's remember...<br>
+We must remind them the holy power belongs only to us<br>
+And none but the gods have decided<br>
+Varangians always had control of the river<br>
+It's time to prove it. It's time to prove it. Now<br>
+<br>
+We will erect a memorial to the glory of the<br>
+King Sculptured by suffering and tormented cries<br>
+A divine masterpiece made with our own hands<br>
+That will be etched in the winds forever<br>
+<br>
+I swear he will soon join you. My pain carried by the wind.<br>
+I swear I will avenge you. He so wants to take your place...<br>
+I'm afraid he has no fear<br>
+But I've sworn I will go through with my duty<br>
+<br>
+The cries of pain shall echo in the air to be carved in the wind<br>
+This is how we will accomplish this terrifying work<br>
+Let Stribog spread the chant of agony<br>
+<br>
+Let's remember...<br>
+We must remind them the holy power belongs only to us<br>
+And none but the gods have decided<br>
+Let Stribog spread the chant of their agony<br>
+And carve their suffering in the wind
+</p>
+
+      <h1 id="f7" class="lyrics-test">-Varangian Paradise-</h1>
+      <p class="lyrics-test-test">When the best men of Dereva arrive<br>
+They will be welcomed with open arms<br>
+Here they will find the food the women and the wine<br>
+<br>
+Soak the shoots of birch<br>
+Heat the water scorching hot<br>
+Fill the room with steam<br>
+Until they can barely see each other<br>
+<br>
+We'll send for the most graceful women of all the land<br>
+To serve and pleasure you<br>
+We'll do everything to make our guests feel at ease<br>
+<br>
+Soak the shoots of birch<br>
+Heat the water scorching hot<br>
+Fill the room with steam<br>
+Until you can barely see each other<br>
+<br>
+Only the most illustrious men are welcome<br>
+Then we may go to your prince with great honor<br>
+So, make your first steps into heaven on earth<br>
+Here life is only pleasure and delight...<br>
+Give way to your most unholy desires<br>
+<br>
+Burn ! Ill-famed traitors ! Now suffer my wrath!<br>
+<br>
+Soon the burning breath of vengeance will escape from your bodies<br>
+You shall taste our Varangian Paradise<br>
+After you all have bathed, you shall come to me<br>
+<br>
+Steam so thick you can't see anymore<br>
+Scorching heat becomes the air you breathe<br>
+Sighs are filled with suffocating smoke<br>
+Thrash, kick and lick your bodies with burning tongues<br>
+<br>
+The love juice running down<br>
+Your thighs burning and boiling</p>
+
+<h1 id="f8" class="lyrics-test">-Tribute Of Blood-</h1>
+<p class="lyrics-test-test">We can wait for years outside<br>
+Great will be our pleasure to hear you beg<br>
+We know it won't be long before you to run out of resources<br>
+Soon you will not have enough to survive<br>
+You'll become only dead branches<br>
+And I'll burn all traces of your existence<br>
+<br>
+We are the wolves among the herd<br>
+We'll take out the whole flock one by one<br>
+If you do not kill us now, we will destroy you all<br>
+So get out of your cage and pay what we demand<br>
+<br>
+Let the eternal punishment befall on your heads<br>
+You're about to pay your debt with your own blood<br>
+<br>
+I can't content myself with honey, wax and furs<br>
+But your muddy blood that will nourish the roots<br>
+Of the World Tree you have betrayed<br>
+<br>
+We are the wolves among the herd<br>
+We'll take out the whole flock one by one<br>
+If you do not kill us now, we will destroy you all<br>
+So get out of your cage and pay what we demand<br>
+<br>
+Let the eternal punishment befall on your heads<br>
+You're about to pay your debt with your own blood<br>
+<br>
+Mindless fools ! Will you abandon madness for reason?<br>
+Let the eternal punishment befall on your heads<br>
+You're about to pay your debt with your own blood<br>
+This fortress will become your tomb<br>
+Troops are hidden in the deep dark of night<br>
+We'll crush the last hope of your kind<br>
+<br>
+We are wolves among the herd<br>
+We'll take out the whole flock one by one<br>
+If you do not kill us now, we will destroy you<br>
+all So get out of your cage and pay what we demand<br>
+<br>
+Let the eternal punishment befall on your heads<br>
+You're about to pay your debt with your own blood</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/amaze.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">A Maze Of Recycled Creeds - 2015</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Air De L'ordre-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s2" class="lyrics-test">-Temple To The Art-God-</h1>
+        <p class="lyrics-test-test">I heed the warrior's call<br>
+It's time to act now<br>
+Let us cross the dagger and the rose<br>
+Let us form a holy militia<br>
+To revive the nobility of mankind<br>
+<br>
+Angels at our side<br>
+O Parsifal<br>
+Now let your trumpets blow<br>
+<br>
+Here we restore<br>
+The cult of the ideal<br>
+In all it's splendor<br>
+Religion became art to talk to the masses<br>
+Art shall turn into religion<br>
+To speak to the elite<br>
+<br>
+O Parsifal<br>
+Now let your trumpets blow<br>
+<br>
+Open the door of the temple<br>
+The temple to the Art-God<br>
+<br>
+If the thinkers crystallize reflection<br>
+Come what may<br>
+Artists must glorify reality<br>
+<br>
+Conquer<br>
+We have to conquer the city of light<br>
+Conquer<br>
+We might be few against many<br>
+But i can feel<br>
+But i can feel the angel's breath<br>
+<br>
+By our side<br>
+While some deride my exertions<br>
+I am the harbinger of a new religion<br>
+<br>
+Beauty is the purpose<br>
+Art is the means<br>
+The only single rule to follow<br>
+Is the ideal<br>
+<br>
+Angels are at our side<br>
+O Parsifal<br>
+Now let your trumpets blow<br>
+<br>
+Here we restore<br>
+The cult of the ideal<br>
+In all it's splendor<br>
+We shelter only what summons all perfections<br>
+The lordy rapture will survive<br>
+The piety of the past<br>
+<br>
+O Parsifal<br>
+Now let your trumpets blow<br>
+<br>
+Open the door of the temple<br>
+The temple to the Art-God</p>
+
+        <h1 id="s3" class="lyrics-test">-Celestial Nature-</h1>
+        <p class="lyrics-test-test">Getting to know thyself starts<br>
+When you raise your gaze to the stars<br>
+<br>
+Here comes Shamas, the one who shines through his glory<br>
+Expecting to be known<br>
+He lives alone but without privacy<br>
+Sin, the Moon God<br>
+The talented but deviant lyricist<br>
+He's destined to solitary wanderings and adventurous life<br>
+<br>
+I see Nergal, the epitome of zeal and violence<br>
+Meant to strike the right balance between action and wildness<br>
+Istar is graceful and irresistible<br>
+A boundless dedication doomed to fall into madness<br>
+<br>
+And there is Nebo... the conscientious one<br>
+Skillful... and clearly heartless, save for his own ends<br>
+A forgotten genius whose cleverness turned into lies<br>
+He, the nimble one, who has thrown too many stones<br>
+Thus having revenge by enslaving the weak minds<br>
+At last a dead star charred by the light of glory<br>
+<br>
+Thus we shall define our celestial nature<br>
+Through the seven stars dwells our vocation... our labor...<br>
+<br>
+Adar, the order's creator<br>
+He's pure and nominated for great works of faith and science<br>
+Merodack, the jovial, the one whose name you stole<br>
+He gets power only by the consent of his peers<br>
+The consent of the temple<br>
+<br>
+You are Nebo... the unsightly one<br>
+Skillful... and clearly heartless, save for your own ends<br>
+The forgotten genius whose cleverness turned into lies<br>
+You, the nimble one, who has thrown too many stones<br>
+Thus having revenge by enslaving the weak minds<br>
+At last a dead star charred by the light of glory<br>
+<br>
+Thus we shall define our celestial nature</p>
+
+        <h1 id="s4" class="lyrics-test">-Inner Alchemy-</h1>
+        <p class="lyrics-test-test">Once there were young believers<br>
+who founded together<br>
+A common creed reconciling man with nature<br>
+Combining knowledge and belief, from matter to spirit<br>
+The inner alchemy can change the whole world<br>
+<br>
+The appalling devotion of our culture<br>
+Comes from the boundless timelessness<br>
+of those who write, and teach<br>
+Our mission is to maintain creation on the peaks,<br>
+Out of reach of idle hands<br>
+<br>
+Mages! We are sailors!<br>
+<br>
+They applaud all the darings of the mundane,<br>
+usurping the genius<br>
+That's why our doctrine should operate a redemption<br>
+<br>
+The world has undergone too many revolutions<br>
+<br>
+Art is expected to become the cult of times to come<br>
+When religion becomes counterfeit, art shall save the vital core<br>
+Restoring the holy boundary that separated<br>
+idleness from masterwork<br>
+Let us redeem creation and recover its priestly conception<br>
+<br>
+I found the illuminations<br>
+I am now entrusted with a mission<br>
+Through the cult of the ideal<br>
+We will conquer<br>
+<br>
+Mages! We are sailors!<br>
+<br>
+The Mage is a sailor heading to a point<br>
+That is invisible to the commonwealth<br>
+After having crossed the oceans, he will find the illumination<br>
+And know the science of the will<br>
+And discover the inner alchemy</p>
+
+        <h1 id="s5" class="lyrics-test">-The Mystic Triad Of Artistry-</h1>
+        <p class="lyrics-test-test">After religion and lordship,<br>
+art was yet to be destroyed<br>
+We lost the standards but I found them again<br>
+<br>
+I do believe in the ideal, in tradition, in a noble power structure<br>
+Our task is to discard all three abominations<br>
+That lead us to the doctrine of decay<br>
+<br>
+I predict a miracle! A rose will rise and open growing<br>
+I predict a miracle! Here will triumph the mystic triad of Artistry<br>
+<br>
+Art is the great mystery<br>
+When effort leads to a masterpiece<br>
+Divine rays descend... like on the altar<br>
+Art is the real empire<br>
+When the human hand draws a perfect line<br>
+Angels descend... to mirror themselves<br>
+Art is the great miracle<br>
+This is the evidence of our timelessness<br>
+Art-God, the last reflection from heaven of our downfall<br>
+<br>
+I predict a miracle! A rose will rise and open growing<br>
+I predict a miracle! Here will triumph<br>
+the mystic triad of Artistry<br>
+<br>
+After belief and discipline, creation was yet to be wasted<br>
+We lost the standards but I found them again<br>
+<br>
+Those dark times made us forget that art<br>
+is invested with a holy mission<br>
+It shall create the path to redemption for the salvation of mankind<br>
+The Great Revelation<br>
+The gallery is the New Church<br>
+Weak conferences are preached<br>
+Works are the mirrors of light<br>
+And the watchers are disciples<br>
+<br>
+I predict a miracle! A rose will rise and open growing<br>
+I predict a miracle! Embracing the divine cross of salvation
+I predict a miracle! Here will triumph the mystic triad of Artistry
+</p>
+
+        <h1 id="s6" class="lyrics-test">-An Order To Reclaim-</h1>
+        <p class="lyrics-test-test">Sacred vows are made to be broken<br>
+Three hundred years later, the grave will open<br>
+<br>
+For there is an order to reclaim<br>
+We are back from oblivion again<br>
+<br>
+Born from the poor fellow-soldiers<br>
+<br>
+The world is going through a serious crisis<br>
+Divided by financial conflicts<br>
+Holy wars are sowing terror and chaos<br>
+Let us break the silence<br>
+As science is Focused on the material<br>
+The living standards continue to fall<br>
+Time has come to ask for more humanity<br>
+Let us break the silence<br>
+<br>
+For there is an Order to reclaim<br>
+We are back from oblivion again<br>
+Born from the poor fellow-soldiers<br>
+A traveling mendicant order<br>
+<br>
+But sacred laws are made to be broken<br>
+<br>
+Reveal our ambition<br>
+Revive the mendicant order... now!<br>
+Tax exemption... the oath of poverty<br>
+Immunity from persecution... the Vow of Chastity<br>
+And no Submission... Obedience? To the secular<br>
+power Death is so great... Death is so great...<br>
+Death is so great that nine would accuse us<br>
+Of seeking victory... of seeking another end<br>
+Reveal our ambition<br>
+Revive the poor fellow-soldiers<br>
+<br>
+After the King's denial, the order became mendicant again<br>
+And the poor fellow-bankers were condemned to burn at the stake...</p>
+
+        <h1 id="s7" class="lyrics-test">-From Passion To Holiness-</h1>
+        <p class="lyrics-test-test">Never forget that a mage is not a priest<br>
+All sins are granted, provided one gains experience<br>
+Daily introspection, prayer and meditation<br>
+Will soon lead you from passion to Holiness
+<br>
+It is vital to know the boundaries of love<br>
+in order to not mislead oneself...<br>
+<br>
+Concerning love, disappointments are inevitable<br>
+A lover will have nothing to offer... but his own delusion<br>
+Wisdom advises you to watch only from<br>
+far the entire worldly fantasy<br>
+<br>
+One's partner should never go beyond their wonderful task<br>
+As a second fiddle to the sexual pair<br>
+It is vital to know the boundaries of love<br>
+in order to not mislead oneself...<br>
+Let us await our Chymical Wedding<br>
+When our soul will rise and marry God for eternity<br>
+Utter incontinence is not an obligation<br>
+Love, and the suffering it causes reveal<br>
+A long windy road to inner perfection<br>
+From passion to Holiness<br>
+<br>
+Choose your partners wisely<br>
+Because as a disciple, you are sentenced to remain defensive<br>
+Offer no clarity to general cowardice<br>
+Flee judgement, contempt and mockery<br>
+Don't ever be compliant<br>
+<br>
+Let your most passionate feelings rise and become unreal<br>
+Thus you will unveil almost nothing to misfortune<br>
+<br>
+Let us await our Chymical Wedding<br>
+When our soul will rise and marry God for Eternity<br>
+Utter incontinence is not an obligation<br>
+Love, and the suffering it causes reveal<br>
+A long windy road to inner perfection<br>
+From passion to Holiness...</p>
+
+        <h1 id="s8" class="lyrics-test">-Dig Into Yourself-</h1>
+        <p class="lyrics-test-test">What a pleasing game<br>
+to change one's own ancestry<br>
+Especially when your last name suffers a lack of majestyv
+<br>
+You're surely not the son of Bel<br>
+But rather the one who holds the spade<br>
+<br>
+Pretending to teach the government of existence<br>
+Soley a self-proclaimed prophet claiming ignorance<br>
+<br>
+But what is more attractive than becoming a Magus or a Fairy?<br>
+How to give meaning to one's own life when one feels good for nothing?<br>
+Those of your kind know how to give false praise<br>
+In the process of indoctrination<br>
+<br>
+In the scheme of self-glorification<br>
+You couldn't resist this inclination:<br>
+Overusing random and puzzling patterns<br>
+To please the reckless ones<br>
+<br>
+But if you really want to honor your lineage<br>
+Now grab a spade and dig into yourself<br>
+<br>
+Who can lead a life on ready-made principles?<br>
+Who can be satisfied with a ready-made truth?<br>
+A ready-made reality!<br>
+Swimming with the tide...<br>
+<br>
+The time has come for you to honor your lineage<br>
+Now grab a spade and dig into yourself<br>
+You're surely not the son of Bel<br>
+But rather the one who holds the spade
+</p>
+
+        <h1 id="s9" class="lyrics-test">-Rejoice Your Soul-</h1>
+        <p class="lyrics-test-test">Let me rejoice your soul<br>
+<br>
+Holy Baptism made us the children of God<br>
+Society dedicated us to evil<br>
+In constant conflict with our culture<br>
+Only faith can keep us away from the vultures<br>
+<br>
+There is no wisdom without deprival<br>
+No salvation for the rebels<br>
+Let me entice you into another world<br>
+We will teach you the government of yourself
+And show you the way to light<br>
+So let me enlighten your mind<br>
+Let me rejoice your soul<br>
+<br>
+Seek only the magical power of your inner excellence<br>
+Improve yourself and become radiant<br>
+And as the Sun, heat latent ideal life around you<br>
+Come to me/ Be my disciple/ See the light<br>
+Forsake the seven bad habits<br>
+<br>
+Cut yourself off from your peers<br>
+Otherwise you will suffer without growing<br>
+Deny the commonwealth, forget all others, to rise to personality<br>
+<br>
+"Then you shall see the radiant;<br>
+Your heart shall thrill and exult,<br>
+Because the abundance of the sea shall be turned to you,<br>
+The wealth of nations shall come to you" Isaiah 60:5<br>
+<br>
+We own the rational knowledge that will engage the Renewal of Society<br>
+I own the spiritual essence that will lead to the Renewal of Man<br>
+I am the heir of Bel, the demiurge<br>
+The Lord of the world<br>
+The master of all the lands<br>
+I do belong to the holy Order that committed my fate,<br>
+That will commit your fate<br>
+<br>
+And you'll know an extraordinary destiny...</p>
+
+        <h1 id="s10" class="lyrics-test">-Syncretic Delirium-</h1>
+        <p class="lyrics-test-test">Coalesce to this spiritual family<br>
+Which arrogated a mythical and whimsical descent<br>
+Unable to write a line without spitting in one's face<br>
+Your self-named origins from Assyria<br>
+<br>
+A dreamlike being that feeds on the world of legend<br>
+<br>
+Remind yourselves that you are only men<br>
+And none of you have yet accessed the heavenly or astral state<br>
+<br>
+You seem to suffer from a disease of lyricism<br>
+Your doctrine appears to be a Syncretic Delirium<br>
+<br>
+Fashioned with any kind of magic and occult science<br>
+Mingling your own Church with ideals from the East<br>
+<br>
+I forbid you excuses and push you away<br>
+I force you into silence and disgrace<br>
+<br>
+You seem to suffer from a disease of lyricism<br>
+Your doctrine appears to be a Syncretic Delirium<br>
+<br>
+A dreamlike being that feeds on the world of legend<br>
+<br>
+Indulging yourself in all kinds of digressions<br>
+Abandoned to the whims of your own diction<br>
+<br>
+You seem to suffer from a disease of lyricism<br>
+Your doctrine appears to be a Syncretic Delirium<br>
+<br>
+The discordant pages of your works held together only by the binding<br>
+Creator of a real disorder which finally laid you on the line<br>
+<br>
+I forbid you excuses and push you away<br>
+I force you into silence and disgrace</p>
+
+        <h1 id="s11" class="lyrics-test">-An Order To Reclaim (Alternative Version)-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+      </div>
+    </div>
+<!--
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title"> - </h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">--</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t2" class="lyrics-test">--</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t3" class="lyrics-test">--</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t4" class="lyrics-test">--</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t5" class="lyrics-test">--</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t6" class="lyrics-test">--</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t7" class="lyrics-test">--</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t8" class="lyrics-test">--</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t9" class="lyrics-test">--</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t10" class="lyrics-test">--</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t11" class="lyrics-test">--</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t12" class="lyrics-test">--</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+        </div>
+      </div>
+-->
+<div class="lyrics-under">
+<h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+</div>
+
+<div class="lyrics-under">
+<h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+</div>
+
+    <div class="page-finish">
+      <a href="./security.html">Security Statements</a>
+      <a href="./terms.html">Terms of Service</a>
+      <a href="./privacy.html">Privacy Policy</a>
+      <a href="./contact.html">Contact</a>
+    </div>
+
+</body>
+</html>

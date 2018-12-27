@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Necrophagist</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/onset.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Onset Of Putrefaction - 1999</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Foul Body Autopsy</a>
+      <a href="#f2">To Breathe In A Casket</a>
+      <a href="#f3">Mutilate The Stillborn</a>
+      <a href="#f4">Intestinal Incubation</a>
+      <a href="#f5">Culinary Hyperversity</a>
+      <a href="#f6">Advanced Corpse Tumor</a>
+      <a href="#f7">Extreme Unction</a>
+      <a href="#f8">Fermented Offal Discharge</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/epit.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Epitaph - 2004</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Stabwound</a>
+      <a href="#s2">The Stillborn One</a>
+      <a href="#s3">Ignominious & Pale</a>
+      <a href="#s4">Diminshed To B</a>
+      <a href="#s5">Epitaph</a>
+      <a href="#s6">Only Ash Remains</a>
+      <a href="#s7">Seven</a>
+      <a href="#s8">Symbiotic Theory</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/onset.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Onset Of Putrefaction - 1999</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Foul Body Autopsy-</h1>
+      <p class="lyrics-test-test">Snorting - the viley stench of putrescence<br>
+Coffin - lies exhumed in front of me<br>
+Foul stiff - strewn with papillae and pores<br>
+Fermenting - stiff corpse putrefies<br>
+<br>
+Slicing, bisecting, incising the stiff<br>
+<br>
+Stomach wall is opening<br>
+Primitive diagnosis...<br>
+Remove internal organs<br>
+Primitive autopsy...<br>
+<br>
+Sawing - the weak head of the corpse I saw<br>
+Slicing - cerebral bisection<br>
+Eviscerate - slushy bowels ripped out at once<br>
+Perfecting - foul body autopsy
+</p>
+
+      <h1 id="f2" class="lyrics-test">-To Breathe In A Casket-</h1>
+      <p class="lyrics-test-test">Eyes opened up within the moist and dark<br>
+Trapped inside the measures of a coffin<br>
+Horrified awakening, blank fears embrace me<br>
+<br>
+Oh... beyond...<br>
+...beyond these walls there lies infinity...<br>
+<br>
+Asphyxiation is imminent due to the measures<br>
+Of this confinement,<br>
+Blind hits against the coffin walls,<br>
+Blank fears control me<br>
+<br>
+To breathe in a casket - six feet below<br>
+To breathe in a casket - below<br>
+<br>
+Buried deep beneath the earth<br>
+Beneath the earth<br>
+Blank fears embrace me<br>
+Embrace me<br>
+<br>
+Buried deep six feet below<br>
+Six feet below<br>
+Blank fears control me<br>
+Control me<br>
+<br>
+Breathing inside a casket
+</p>
+
+      <h1 id="f3" class="lyrics-test">-Mutilate The Stillborn-</h1>
+      <p class="lyrics-test-test">Dismembering - to chop her body I begin<br>
+Bastard - bastard inside<br>
+Disfiguring - abdominal wall is opening<br>
+Offal - come to sight<br>
+<br>
+Malintention, to chop the foetus I intent, hateful am I<br>
+Vile malodours, rancid odours I perceive<br>
+I'm getting high<br>
+<br>
+Hate and repulsion is that<br>
+Which strengthens my intent<br>
+Fetal incising causes premature decease<br>
+Loathing am I to commit<br>
+Infanticide in unborn state<br>
+To tear out the foetus, my aggressions do increase<br>
+<br>
+Mutilate the stillborn<br>
+Mutilate the stillborn<br>
+Mutilate the stillborn<br>
+Mutilate the stillborn<br>
+<br>
+Dismanteling - excoriate the dead unborn<br>
+Vile waste - vile waste inside is<br>
+Festering - prenatal fluids I adore<br>
+Offal - come to sight<br>
+<br>
+Mutilation, the stillborn body chopped in half<br>
+Hateful am I<br>
+Disemboweling,<br>
+The torso drained of tepid bowels<br>
+I'm getting high
+</p>
+
+      <h1 id="f4" class="lyrics-test">-Intestinal Incubation-</h1>
+      <p class="lyrics-test-test">Worms in microscopic size<br>
+infest dermatic pores,<br>
+They move through blood<br>
+Parasitic organisms move seeking path<br>
+To hepatic tissue they are heading forth,<br>
+Their larvae to breed<br>
+In the precious warmth of the liver they multiply...<br>
+<br>
+...Innards consumed... from inside...</p>
+
+      <h1 id="f5" class="lyrics-test">-Culinary Hyperversity-</h1>
+      <p class="lyrics-test-test">Hateful I'm slashing, the head is removed<br>
+Removing the head of the corpse<br>
+The throat down the hard chest the trunk is torn<br>
+Tearing the trunk of the corpse<br>
+<br>
+Disintegrating the stiff limb by limb<br>
+Performing deviant butchery<br>
+I chop up the limbs into small handy chunks<br>
+In my own way of sick butchery<br>
+<br>
+I rip out the entrails, cut through pulsating flesh<br>
+Into the torso I grasp - deep - to tear out the rest<br>
+I divide into that which I like and which not<br>
+Nutritious organs stored, the rest left to rot<br>
+<br>
+Wrathful I'm hacking the organs are minched<br>
+Minching the flesh of the stiff<br>
+Imagine the body parts when served on a plate.<br>
+Prepared by sick culinary...</p>
+
+      <h1 id="f6" class="lyrics-test">-Advanced Corpse Tumor-</h1>
+      <p class="lyrics-test-test">To see the interior of a dark coffin<br>
+What is it like to be inside dead..?<br>
+Is there something I might perceive,<br>
+Or is it just infinity...?<br>
+Viley maggots swarm within stale pus,<br>
+Accelerating rate of putridity...<br>
+Thought patterns preserved in energetic form<br>
+Or is it lost, lost in infinity...? ...Fierce...<br>
+<br>
+Is there something that I might live,<br>
+Or is it all lost in nothingness...?<br>
+<br>
+Weakened tissue starts rapidly to degrade<br>
+Under progressive foulness, former vital organs<br>
+Are replaced by a clumb of corpse tumors<br>
+Is that what expects us in the deep -<br>
+Just corpse tumors...?
+</p>
+
+      <h1 id="f7" class="lyrics-test">-Extreme Unction-</h1>
+      <p class="lyrics-test-test">The light is fading without any halt,<br>
+Expiration is now imminent, pain...<br>
+Silent prayers I perceive don't ease my pain,<br>
+Seconds like infinity, pain...<br>
+<br>
+There is no light, pain...<br>
+To the darkside, pain...<br>
+<br>
+...Extreme Unction...</p>
+
+      <h1 id="f8" class="lyrics-test">-Fermented Offal Discharge-</h1>
+      <p class="lyrics-test-test">The casket is exhumed,<br>
+turfs piled beside the grave<br>
+A stagnant mass awaits me, deep in the gloom<br>
+The boxes lids I open, distraught desecrating<br>
+The fumes are penetrating, I am eructating... I vomit...<br>
+I initiate eager exhuming despite bad scents...<br>
+I dig up cold earth, exhumed turfs I disperse...<br>
+I initiate eager exhuming despite bad scents...<br>
+The open casket reveals the rot<br>
+Into weak stomach I slide my hands<br>
+Intensifying fumes I like to snort<br>
+<br>
+Colon and small intestine<br>
+Sliced and ripped out of the foul body<br>
+Duodenum I minch - all should be treated equal<br>
+Rotten stool and urine<br>
+Spurt out of fermented organs<br>
+I discharged and raped - putrified giblets disembowel<br>
+<br>
+Decrepit spleen and pancreas I've torn and gutted<br>
+I eviscerate stomach and cysts<br>
+Liver is torn and twisted - turning inside out<br>
+A fermented offal discharge - Disembowel...<br>
+<br>
+Evacuated offal hastily wrapped in bags<br>
+As basic for my culinary...<br>
+<br>
+Putrefied internal fragments,<br>
+Fermented offal discharge...</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/epit.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Epitaph - 2004</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Stabwound-</h1>
+        <p class="lyrics-test-test">Invisible blades penetrate<br>
+whereas stabwounds are not detectable.<br>
+<br>
+Stabwound<br>
+<br>
+The blade that stabs a back,<br>
+unsuspecting, forms the symbolic...<br>
+<br>
+stabwound<br>
+<br>
+There is no shield to protect from<br>
+attacks led by the ones one used to trust.<br>
+<br>
+Stabwound<br>
+<br>
+The blade that stabs a back,<br>
+unsuspecting, forms the symbolic...<br>
+<br>
+stabwound</p>
+
+        <h1 id="s2" class="lyrics-test">-The Stillborn One-</h1>
+        <p class="lyrics-test-test">A life free of guilt exists when<br>
+the eye fights daylight yet unseen.<br>
+A book with not a page written<br>
+means hope yet sometimes to be<br>
+<br>
+(The) Stillborn One. Born dead.<br>
+(The) Stillborn One. Dead.<br>
+<br>
+When dawn and sunset coincide,<br>
+the essence of a day is non-existent,<br>
+lifeless...<br>
+<br>
+Dehydrated soils may not recover<br>
+from the drought they might be plagued with,<br>
+prepare to be...<br>
+<br>
+...The Stillborn One...<br>
+...The Stillborn One...<br>
+<br>
+When dawn and sunset coincide,<br>
+the essence of a day is non-existent,<br>
+lifeless...<br>
+<br>
+Dehydrated soils may not recover<br>
+from the drought they might be plagued with,<br>
+prepare to be...</p>
+
+        <h1 id="s3" class="lyrics-test">-Ignominious & Pale-</h1>
+        <p class="lyrics-test-test">If it is to be only<br>
+an element of a whole,<br>
+to hide behind others<br>
+and form the eclipse of mind.<br>
+Ignominious And Pale.<br>
+<br>
+If it were to one<br>
+having nothing to tell,<br>
+this would equal<br>
+a state of being the one,<br>
+ignominious and pale.<br>
+<br>
+Fallen in the abyss of indignity,<br>
+doubt does not exist<br>
+or come into being. Pale...<br>
+<br>
+Incarceration of personality<br>
+is the sad inception of self-denial.<br>
+The one that denies the inner self<br>
+flees into deception.<br>
+<br>
+Incarceration of personality<br>
+is the sad inception of self-denial.</p>
+
+        <h1 id="s4" class="lyrics-test">-Diminshed To B-</h1>
+        <p class="lyrics-test-test">Surrounded by darkness and cold<br>
+the mind in pain grabs for hold.<br>
+<br>
+Diminished, to be diminished.<br>
+<br>
+The missing link in the chain<br>
+of thoughts is now forever gone.<br>
+<br>
+Diminished, to be diminished.<br>
+<br>
+The beast will be wise, feast: eye for an eye.<br>
+<br>
+The beast will be wise, feast: eye for an eye.<br>
+<br>
+Surrounded by darkness and cold<br>
+the mind is now forever gone.<br>
+<br>
+Diminished, to be diminished.</p>
+
+        <h1 id="s5" class="lyrics-test">-Epitaph-</h1>
+        <p class="lyrics-test-test">Leaves fall in the autumn<br>
+of lives that appear<br>
+to be worthless to some,<br>
+utmost ignorant.<br>
+<br>
+Expectations shift in the eye<br>
+of the beholder...behold.<br>
+<br>
+Tears drop from the eye<br>
+of lives paled<br>
+as jealousy fools<br>
+a mind distorted.<br>
+<br>
+Expectations shift in the eye<br>
+of the beholder...behold.<br>
+<br>
+One wishes existence<br>
+to be of fulfillment,<br>
+but leaves bend to the will<br>
+of winds blowing.<br>
+<br>
+To foresee the end of a soul...Epitaph.<br>
+<br>
+Claim to foresee<br>
+the end of a soul.<br>
+Premature Epitaph.</p>
+
+        <h1 id="s6" class="lyrics-test">-Only Ash Remains-</h1>
+        <p class="lyrics-test-test">Fear is never gone from your soul<br>
+that saw humiliation.<br>
+Being prey to the blackest of demons,<br>
+paralyzed you fail.<br>
+<br>
+Fallen beneath<br>
+the mark of dignity,<br>
+you fail.<br>
+<br>
+(A) demon passed on from one<br>
+to the next infiltrates<br>
+a mind innocent and pure;<br>
+planting the seed to possess<br>
+another soul that is doomed to fail.<br>
+<br>
+Only Ash Remains<br>
+<br>
+(A) demon passed on from one<br>
+to the next infiltrates<br>
+a mind innocent and pure;<br>
+being prey to the blackest<br>
+of demons, paralyzed they fail.<br>
+<br>
+Fallen beneath<br>
+the mark of dignity,<br>
+they fail.<br>
+<br>
+Only Ash Remains
+</p>
+
+        <h1 id="s7" class="lyrics-test">-Seven-</h1>
+        <p class="lyrics-test-test">Distracting from<br>
+your deficiencies<br>
+while you point at others.<br>
+(Once) enlightened<br>
+you judge and execute.<br>
+<br>
+To be the only one<br>
+to discover the seven,<br>
+(To) toss open and pass<br>
+the gates to heaven.
+</p>
+
+        <h1 id="s8" class="lyrics-test">-Symbiotic Theory-</h1>
+        <p class="lyrics-test-test">Unable to move from a point of view,<br>
+driven by reasons as old as time itself.<br>
+<br>
+Symbiotic In Theory<br>
+<br>
+In order for a life to be<br>
+commanded it must be owned.<br>
+<br>
+Symbiotic In Theory<br>
+<br>
+Gravity forces water<br>
+to flow downhill,<br>
+a will is not given.<br>
+<br>
+Inferior or superior,<br>
+will is that which decides.<br>
+<br>
+Gravity forces water<br>
+to flow downhill,<br>
+a will is not given.<br>
+<br>
+To give and take, to be...<br>
+<br>
+Symbiotic In Theory</p>
+      </div>
+    </div>
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+    </div>
+
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+    </div>
+
+        <div class="page-finish">
+          <a href="./security.html">Security Statements</a>
+          <a href="./terms.html">Terms of Service</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+
+    </body>
+    </html>

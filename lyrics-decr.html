@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Decrepit Birth</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/polarity.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Polarity - 2010</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">(A Departure Of The Sun) Ignite The Tesla Coil</a>
+      <a href="#f2">Metatron</a>
+      <a href="#f3">Resonance</a>
+      <a href="#f4">Polarity</a>
+      <a href="#f5">Solar Impulse</a>
+      <a href="#f6">Mirroring Dimensions</a>
+      <a href="#f7">A Brief Odyssey In Time</a>
+      <a href="#f8">The Quickening Of Time</a>
+      <a href="#f9">Sea Of Memories</a>
+      <a href="#f10">Symbiosis</a>
+      <a href="#f11">Darkness Embrace</a>
+      <a href="#f12">See Through Dreams</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/axis.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Axis Mundi - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Vortex Of Infinity – Axis Mundi</a>
+      <a href="#s2">Spirit Guide</a>
+      <a href="#s3">The Sacred Geometry</a>
+      <a href="#s4">Hieroglyphic</a>
+      <a href="#s5">Transcendental Paradox</a>
+      <a href="#s6">Mirror Of Humanity</a>
+      <a href="#s8">Epigenetic Triplicity</a>
+      <a href="#s9">Embryogenesis</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/polarity.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Polarity - 2010</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-(A Departure Of The Sun) Ignite The Tesla Coil-</h1>
+      <p class="lyrics-test-test">Voices coalesce into form<br>
+Hearing the whispers of...eternities<br>
+Silent voices inside of me<br><br>
+Fragmented<br>
+Visions of my past lives<br><br>
+Return<br>
+Recall the images<br>
+Thoughts awaken in me<br>
+Questioning my sense of reason<br>
+Hearing my lost memories<br>
+Guided by my sense of purpose<br><br>
+Forward into destiny<br>
+I consume the portal<br>
+I transcend the veil...light<br>
+I transfigure into...origins<br>
+I see my body transforming before me<br>
+Emerging into the four faces of god<br>
+Into the rift<br>
+To touch the outer worlds<br>
+Drifting the planes outside dimension<br><br>
+Within the living dream of divine sight<br>
+Behold the temple...resurrected<br>
+The constellation has risen<br>
+Awaking the keepers of the magnetic arch of time<br>
+Transform into existence and light<br><br>
+The calculation of cosmic alignments<br>
+Rebirth of the sol in galactic horizons<br>
+Reformation...the five planes of the earth<br>
+Altering the eternal harmonics of the creation<br>
+Written constellations<br>
+Rebirth of our consciousness<br>
+Memories of self diminish<br>
+Essence of creation<br>
+Birthed again<br><br>
+Symbol of infinity<br>
+Through the time continuum<br>
+Birthed again of the ancient ones<br>
+Transforms into light existence<br>
+Erosion of energies<br>
+Through our all<br>
+Birthed again<br>
+Finite...countless minds<br><br>
+Paralleled within the spectrum of my imagination<br>
+One image of ageless form<br>
+The seed of light and the seed of time<br>
+Returns to one<br>
+Life is reborn again</p>
+
+      <h1 id="f2" class="lyrics-test">-Metatron-</h1>
+      <p class="lyrics-test-test">Born into this world<br>
+Under an early sun<br>
+A mortal man of the ancient kingdom...earth<br>
+Walking in the dream of the vine<br>
+The lucid path of vision<br>
+I see a garden of shadows with no way out<br><br>
+Within the worlds of my dream<br>
+I seek the essence of my being<br>
+I transcend the realms...unknown before<br>
+Dimensions open before me<br>
+Absorbed/dissolved into the light of<br>
+Universal understanding<br>
+Cursed to live forever...burning from inside<br>
+My flesh is turned to fire...my eyes to blinding light<br>
+Awakened in my dream to the sound of my own scream<br><br>
+Metamorphosis...transformation...mutation<br>
+Who am I...what am I<br>
+Reaching out with my mind<br>
+Seeing the mysteries<br>
+Touch the origin<br>
+My mind transcends mortality<br>
+Displaced behind the prism of light<br>
+Falling into the eye of the paradox<br><br>
+I become the center of time<br>
+I am the balance...I am the eye<br>
+I am reborn...beyond the body<br>
+Beyond the pattern...beyond horizons<br>
+Beyond the light...divinity<br>
+Knowing the secret of creation<br><br>
+The universe within the flower of life<br>
+Five patterns of existence<br>
+Vibration of eternity<br><br>
+Past futures...emerge from the present<br>
+Lost forever inside my mind<br>
+I am eternal<br>
+Foundation of time and space<br>
+One becomes one inside the circle<br>
+Bearing the ancient scrolls of existence<br>
+I am destiny
+</p>
+
+      <h1 id="f3" class="lyrics-test">-Resonance-</h1>
+      <p class="lyrics-test-test">Repercussion<br>
+Living pulse...the birth of light<br>
+Forward evolution into destinies<br>
+Echo of beginnings...time...space...matter...<br>
+Pineal alchemies awaken the dream of imagination<br>
+The dream of dreams...of everything<br>
+The synapse<br><br>
+Within the mind<br>
+Of creation<br>
+Countless stars are born<br>
+Mirrored by worlds within<br>
+The living suns of eternities...light<br><br>
+Force of gravity<br>
+The eternal core<br>
+Universal center<br>
+The micro-physics of subatomic relativity<br>
+One/soul eternal branching outward replicating itself through repetition<br>
+Unknown ancient forces<br>
+Energies released...<br><br>
+Emerging of polarity's frequencies of thought<br>
+The patterns deform<br>
+Balanced in the paradox of...contradictions<br>
+Harmony<br>
+Mirroring<br>
+Symbiosis of opposing elements<br>
+Coexisting creations of synergy<br><br>
+Reproduction living matter<br>
+The displacement of existence<br>
+Casting thought across the figments of time<br>
+Voices cry throughout the multi-verse<br>
+Living vibrations resound<br>
+The wake of the eternal constant</p>
+
+      <h1 id="f4" class="lyrics-test">-Polarity-</h1>
+      <p class="lyrics-test-test">Parallels exist within<br>
+Reflection of time and space<br>
+Inside of dimension<br>
+Dualities evolving from a<br>
+Single-cell universe within the molecule<br>
+Within this dimension<br>
+Of my creation<br><br>
+In the blinding light of darkness<br>
+I remain one/we become one<br>
+Constant fluctuation<br>
+Two suns born<br>
+Born of the atom<br>
+Symbiotic opposition<br>
+Recreation of life changing<br><br>
+Individual...sovereignty<br>
+Absorb the other...fusion<br>
+Conception of time's vibration collapses within<br>
+Ancient forces of opposition<br>
+Eternal balances of existence<br>
+Aeons...futures...past...evolution<br><br>
+Internal axis of resistance<br>
+Pre-embryonic magnetic core<br>
+Creation of all worlds inside<br>
+Existence of thought<br>
+Reaches beyond...forever<br>
+Harmony achieved through unity<br>
+Within the spectral fields of light...called time</p>
+
+      <h1 id="f5" class="lyrics-test">-Solar Impulse-</h1>
+      <p class="lyrics-test-test">Bring me forward through time<br>
+Take me beyond eternal light<br>
+Into another dimension<br>
+Gravitational Singularity...<br><br>
+I see my soul drifting onward<br>
+Looking back through this rift in time<br>
+Different, yet the same<br>
+Close my eyes, and take my last breath<br>
+Drifting...<br>
+Further...</p>
+
+      <h1 id="f6" class="lyrics-test">-Mirroring Dimensions-</h1>
+      <p class="lyrics-test-test">Shadowed recess between the realms<br>
+Living planes of existence<br>
+Writing the song of creation<br>
+Synchronized alignment of time<br>
+I feel my mind expanding<br>
+Into the universe...I once created<br>
+Synergy...<br><br>
+Opening the psyche<br>
+Beyond the pattern of thought<br>
+Into the pre-embryonic dream<br>
+Eras of conception...images of creation<br>
+...mirrored forever<br>
+Dreaming of existence<br>
+Images...in context<br>
+Rendered figments of thought<br>
+Memories of what was to be<br><br>
+Psychedelic awareness of the soul's eye<br>
+The portal consumes my mind<br>
+Altering perspective<br>
+Hallucination<br>
+Dreams of life...death and rebirth<br>
+Imagination<br><br>
+Thought descends into self<br>
+...born<br>
+Destinies ellipse as light returns<br>
+Retrograde of life begins again<br>
+Awakening the pineal gland<br>
+Spirit molecule of the minds<br>
+...dream<br>
+Visions of many worlds<br><br>
+Hearts beat in unison<br>
+Spans of time...eternities<br>
+Histories begin...origins end<br>
+Eternal cusp of tomorrow<br>
+The monochrome planes of a broken existence<br>
+Under a shattered sky<br>
+Reborn into the light of a new world
+</p>
+
+      <h1 id="f7" class="lyrics-test">-A Brief Odyssey In Time-</h1>
+      <p class="lyrics-test-test">Eternity of futures begin again<br>
+In the cusp of the sixth sun<br>
+All lines of force re-converge<br>
+Symbiotic energies reemerge in the<br>
+Quickening of time<br><br>
+Finite spheres of consciousness<br>
+Infinity of memories<br>
+Re-awaken origins<br>
+Evolution...the spawn of time<br><br>
+Six suns...evolution of creation<br>
+The cycles of time dissolve<br>
+Life eternal...and time begins again
+</p>
+
+      <h1 id="f8" class="lyrics-test">-The Quickening Of Time-</h1>
+      <p class="lyrics-test-test">Infinite voids of space within the pockets of time<br>
+Countless spheres of resistance...coincide<br>
+Recreated within the five planes<br>
+Reflect the image of each other<br>
+And the endless planes beyond<br>
+Forward into existence<br>
+Worlds embrace the magic of life<br><br>
+Infinity of livid worlds<br>
+That out-numbers one another<br>
+Cycles woven within cycles<br>
+Countless eras squared forever<br>
+Mirrors of dimension reflect<br>
+Coming future generations<br><br>
+Living wheel of evolution<br>
+Perseverance of creation<br>
+Circle unending...through reproduction<br>
+Diversity stimulates desire<br>
+Continued concept of evolution...</p>
+
+      <h1 id="f9" class="lyrics-test">-Sea Of Memories-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f10" class="lyrics-test">-Symbiosis-</h1>
+      <p class="lyrics-test-test">Eternally connected to the energies of existence<br>
+Subconscious link of consciousness<br>
+The golden light that makes us all one soul<br>
+One thought<br>
+One beginning<br>
+One center of focus<br>
+Pasts, present, futures<br>
+Existing in the moment<br><br>
+Sequences of existence inner-twine<br>
+Feel my light touch thee<br>
+The dreams of life awaken inside<br>
+Transcend the lies<br>
+Live for your dream<br>
+Open your mind and see<br>
+One soul, one thought, one mind<br>
+Evolution of understanding<br>
+Attain the wisdoms<br><br>
+Knowledge eternal<br><br>
+I reach out and touch your mind
+I reveal the secrets before your eyes<br>
+Look into my eyes and you see yourself<br>
+I look into you and I see god<br>
+We hold the keys to the wisdoms<br><br>
+To the secrets and mysteries within<br>
+Witness the light of the new worlds<br>
+Evolution of consciousness<br>
+Converging the ancient forces<br>
+Behold the thought universal<br>
+Eternal unity of energies...</p>
+
+      <h1 id="f11" class="lyrics-test">-Darkness Embrace-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f12" class="lyrics-test">-See Through Dreams-</h1>
+      <p class="lyrics-test-test">[Bonus track]<br>
+[Death cover]<br><br>
+
+Born into darkness<br>
+Where sounds portray the images that are out<br>
+Out of reach from my sight<br>
+Which has been denied<br>
+Hands change into my eyes<br>
+Body senses intensified<br>
+Sight so close yet far away<br><br>
+In dreams my thoughts take their form<br>
+To give memories identity<br>
+Through dreams I obtain<br>
+The ability to connect sight with sound<br>
+Close your eyes and imagine to be without<br>
+What we take for granted every time we open our eyes<br>
+A permanent shadow to never step away<br>
+Feel the dark in the cold<br><br>
+Feel the warmth of the light<br>
+Which has been denied<br>
+Hands change into my eyes<br>
+Body senses intensified<br>
+Sight so close yet far away<br>
+In dreams my thoughts take their form<br>
+To give memories identity<br>
+Through dreams I obtain<br>
+The ability to connect sight with sound</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/axis.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Axis Mundi - 2017</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Vortex Of Infinity – Axis Mundi-</h1>
+        <p class="lyrics-test-test">I close my eyes and take my last breath...drifting<br>
+Drifting forward, inward i descend<br>
+Break the cycle of suffering...samsara<br>
+The ancient portal of eternity<br><br>
+
+The intense weight of it's energy crushes me<br>
+Inward i descend the silver cord<br>
+
+Elliptic spiral strands of evolution<br>
+Concentric circles of light surround me<br><br>
+
+I...Chi...Channeled energies<br>
+Metaphysic axiom neuroplexi<br>
+Cyclindrical valley of light vibrates<br>
+Within the halls of Sushumna<br>
+Psychedelic self reflection<br><br>
+
+Introverted mysticism...I seek myself within<br>
+The macrocosm of my soul...dimethyltryptamine<br><br>
+
+Psychotropic journey of the mind<br>
+Into the spectrum of my psyche<br>
+Within darkness i find<br><br>
+
+Purging my soul of self<br>
+I lose my false identity / I see the truth within my being<br>
+Meditation / Spoken mantra<br>
+Pulls me inward<br>
+Om mani padme hum<br><br>
+
+Vortex of infinity<br>
+Mortal death / Physical / Mind and space<br>
+Event horizon<br>
+Eternal path unspoken - Draws me into creation<br>
+Unnamed origin of all things<br>
+Lucidity of imagination<br><br>
+
+Psychotropic journey of the mind<br>
+Into the spectrum of my psyche<br>
+Subconscious spectrum of dimension<br><br>
+
+Pre-life...Life...Afterlife<br>
+Time...Times...Half of time<br><br>
+
+Falling from the physical<br>
+Bilinear circle tree of life<br>
+Trapped within re-evolution<br>
+Into the conscious i descend<br>
+Searching for the mystic light of the singularity<br>
+Within my imagination<br>
+Origin of the illusion<br>
+Lost in the finite maze of darkness</p>
+
+        <h1 id="s2" class="lyrics-test">-Spirit Guide-</h1>
+        <p class="lyrics-test-test">Lost in the sky of the thirteen moons<br>
+Behind the light of a thousand suns<br>
+I am lost but my heart guides me<br>
+On my journey through the mind-scape ethereal<br><br>
+
+Labyrinth of Penumbra...<br>
+Dream time world of shadowed light<br><br>
+
+Psychotropic plane of consciousness<br>
+Within my present eclipse of time...life...light<br>
+I cast my gaze to the dark horizon<br><br>
+
+I hear the whispers from beyond<br>
+I see the voice that speaks with light<br>
+My heart guides me through the shadow<br>
+Following the winds of the serpents voice<br><br>
+
+Mystified... I stand in awe<br><br>
+
+Voices speak from the four directions<br>
+The four voices<br>
+Of the spirits breath / Guide me step by step<br><br>
+
+Behold the mystic vision of grand design<br>
+Great mother of creations light shines<br><br>
+
+Ancient daughter of the seven suns<br>
+Speaks to me in the ancient tongue<br>
+Ancient words to the spirits song<br>
+Of the ancient journey from Atzlan<br><br>
+
+Raven cries from the black night sky<br>
+The ancient elders give me sight<br>
+That i may see both far and wide<br>
+As i walk through time devoid of light<br><br>
+
+Step by step i am to relive all of my past lives<br>
+One by one i walk again<br>
+Through the nine worlds of the seven suns<br>
+Drifting in the currents of the twin rivers of life<br><br>
+
+My heart guides me...guides me inward<br>
+Into the light of the seven suns<br><br>
+
+Where the ten thousand things are but one<br>
+Into the sacred mountain<br>
+The sacred temple of the great mother<br>
+The crystal cavern heart of the earth<br><br>
+
+Alive in spirit beyond the flesh<br>
+I walk alone in my afterlife<br>
+I descend behind the world of light<br>
+The final cusp of my seventh sun<br><br>
+
+I align my heart within the living circle<br>
+Of life...and all things<br>
+Blessed by the sacred medicine<br>
+I take my soul forward<br><br>
+
+I follow my heart - Into my descent<br>
+Into the portal...of mind...Sipapu</p>
+
+        <h1 id="s3" class="lyrics-test">-The Sacred Geometry-</h1>
+        <p class="lyrics-test-test">The journey of my heart heart guides me<br>
+From the dream-time eclipse of light<br>
+<br>
+Finding my way<br>
+I follow the path of light<br>
+Into this world unknown<br>
+Within my mind<br>
+<br>
+Into the universal pattern<br>
+Beyond the expanse of imagination<br>
+The pattern takes my soul<br>
+To an unknown destination<br>
+<br>
+Bodiless i drift through times<br>
+Ancient sea of memories<br>
+My consciousness transcends the arch of time<br>
+Within the tides of eternities<br>
+<br>
+Spiritual transformation of my souls living energy<br>
+Perseverance through birth...life...death...rebirth<br>
+I achieve the ancient wisdom...understanding<br>
+<br>
+As nothing i am dispersed throughout creation<br>
+Beyond the mirrored spectrum of my humanity<br>
+<br>
+Sifting through the light of<br>
+The living energy...I am nothing<br>
+Self awareness of<br>
+My being... I am creation<br>
+Mysteries unfolds<br>
+Before me...hidden in dimensions<br>
+<br>
+Consciousness...<br>
+Eternally bound<br>
+Through alchemies<br>
+Continuum...<br>
+Time...space...matter<br>
+Destined to infinity<br>
+<br>
+Omnipotent...essence of myself in everything<br>
+I am one...within the symmetry<br>
+Of the fractal distortion<br>
+<br>
+My being now transcends into the frequencies<br>
+Beyond the parallels of the dark horizons of the mind<br>
+Into the sacred pattern...the fabric of creation<br>
+Into the omnipresent minds of god<br>
+I see through Maya's veil of illusion<br>
+The light of deception<br>
+The human distortion<br>
+I enter into the<br>
+Mystic tapestry<br>
+The sacred geometry<br>
+The secret<br><br>
+Of the hidden<br>
+Truth</p>
+
+        <h1 id="s4" class="lyrics-test">-Hieroglyphic-</h1>
+        <p class="lyrics-test-test">Visions, hidden in the truth reveal<br>
+The psychedelic wonders of the living creation<br>
+Etched into the existence, omnipotent imprints of life<br><br>
+
+Celestial vortex internal<br>
+Inward spiral<br>
+Portal to the Origins<br>
+Deoxyribonucleic acid<br>
+Sequencing evolutions<br>
+Paralleled dualities<br><br>
+
+Engraved into the fabric<br>
+Of creation/dimension<br>
+I can not believe<br>
+What I now see before me<br>
+I see the image of man<br>
+Within the Tetrahedron<br><br>
+
+Written in the constellations<br>
+Metamorphosis prismatic crystal form<br>
+Metaphysical images of a man<br>
+Eternal scribe voiceless mute speaking in signs<br><br>
+
+Symbolic imprints hi-speech divine<br>
+The spirit guides me on my journey into Bindu<br>
+Meditation, I am free from the Angel of the Light<br>
+I am falling inward, into the portal of the mind<br>
+Walking the sacred path Sri Yantra</p>
+
+        <h1 id="s5" class="lyrics-test">-Transcendental Paradox-</h1>
+        <p class="lyrics-test-test">My mind opens within the light of life<br>
+The sacred path<br>
+Shines alive before me<br>
+Sri Yantra...I see<br><br>
+
+Into the secret that has always eluded me<br>
+One light into which i'm drawn<br><br>
+
+Where the ten thousand things are all as one<br>
+The light of truth and divinity<br>
+Sri Yantra...I see<br><br>
+
+Standing before me, the number of man<br>
+Seven portals into dimensions<br>
+Internal paradox, double helix<br>
+Seven directions duplicated<br><br>
+
+Seven gates into the heavenly realm<br>
+Seven hells of the heavens mortal sins<br>
+Parallel realities / dualities...Two truths together<br>
+Internal paradox, double helix<br><br>
+
+Mirroring existence within<br>
+My inward journey of duality<br>
+Where dimensions intertwine<br>
+The crystal heart matrix within the spectrum<br><br>
+
+Standing before me, the number of man<br>
+Seven portals into dimensions<br>
+Internal paradox, double helix<br>
+Seven directions duplicated<br><br>
+
+Origin of the light divine<br>
+Looking inward into my soul<br><br>
+
+The seven hearts of man awaken<br>
+My soul looks out beyond creation<br>
+
+Sri Yantra...I see myself in everything<br>
+Emerging from the ageless form<br>
+All life is sacred<br><br>
+
+Dilating within the silver halo<br>
+Bindu opens itself to me<br>
+Origin of the light divine<br>
+Looking inward into my soul</p>
+
+        <h1 id="s6" class="lyrics-test">-Mirror Of Humanity-</h1>
+        <p class="lyrics-test-test">Within the light of life<br>
+Exists the sacred paths<br>
+Into creation<br>
+Existing behind a blinding light of darkness<br>
+Of human want illusion<br>
+The white magnetic mirror of humanity<br>
+A living pool of self reflection<br><br>
+
+Reflecting mans self-consciousness<br>
+Relive the dream of my ancient lives<br>
+Two mirrors...<br>
+We come together...<br>
+Face each other<br>
+Selfless i face my self<br>
+Ka...Who am i<br><br>
+
+Intertwining of infinity within my self<br>
+The ageless form is again revealed<br>
+Mirroring humanity i stare into my self<br>
+Ka...Who am i<br><br>
+
+I am alone, self judgment<br>
+Illuminated in the light of truth<br>
+Living light of recollection<br>
+Absorbs my mind in it's vibration<br><br>
+
+Within the light of life, i become revealed<br>
+Self reflection rebirths wisdom<br>
+Eternal knowledge of life returns<br><br>
+
+Self revelation...I reawaken...Ka...I am<br>
+The consequence of my pre-destination<br>
+Predetermined through my past lives<br>
+The destiny of my actions<br><br>
+
+Intertwining of infinity within my self<br>
+The ageless form is again revealed<br>
+Mirroring humanity i stare into my self<br>
+<br>
+I enter the pool of self reflection<br>
+Shattering the magnetic mirror of deception<br>
+<br>
+Self revelation...I reawaken<br>
+Awakening within my consciousness<br>
+I reawaken...Myself...Atman...Ka<br>
+<br>
+Displacing the frequencies<br>
+Through out the spectrum<br><br>
+<br>
+Within seven mirrors of self reflection<br>
+Seven eyes of imagination<br>
+Seven realms within the image...<br>
+Into which i descend<br>
+<br>
+Within the light of life<br>
+I walk the sacred paths<br>
+Of the creation<br>
+Existing behind a blinding light of darkness<br>
+<br>
+Of the human condition<br>
+The white magnetic mirror of humanity<br>
+The hidden light of self deception<br>
+<br>
+Reflection of my self conscious<br>
+Enter the dream of my future lives<br>
+Beyond the light of deception<br>
+<br>
+Intertwining of infinity within the self<br>
+The ageless form...Ka...Evolution<br>
+Transcending humanity...Ascend into self</p>
+
+        <h1 id="s8" class="lyrics-test">-Epigenetic Triplicity-</h1>
+        <p class="lyrics-test-test">Metallic speculum the seventh specere<br>
+Mirror of preconception<br>
+Heightened expanse of observation<br>
+I emerge from within the violet crown<br>
+<br>
+Through time it begins again<br>
+An existence of one<br>
+Begin the cycle of what is to be<br>
+I process the illusion of the dream<br>
+<br>
+Djedi awakens<br>
+All points of consciousness<br>
+Triad octave division<br>
+<br>
+Isolated from external light<br>
+The third eye opens<br>
+Awaken the mind<br>
+Imprint the program of self<br>
+In the instantaneous experience of being<br>
+<br>
+Opening the source code of embryogenesis<br>
+And self unity conceived<br>
+<br>
+Isolated from external light<br>
+The third eye opens<br>
+Awaken the mind<br>
+I feel myself being reconceived<br>
+Beyond the dimensions of humanity<br>
+<br>
+Infinite points of light come together<br>
+Cross within my being<br>
+Focused within the spectrum<br>
+I see my sol beyond the prism<br>
+<br>
+Divine light of recreation<br>
+To be born into time again<br>
+Three rivers of life come together<br>
+Trikaya<br>
+<br>
+Epigenetic Triplicity<br>
+Isogenic evolution<br>
+Squared eternally within itself<br>
+Epigenetic Triplicity (Isogenic evolution)<br>
+<br>
+Epigenetic Triplicity<br>
+Illuminated soul of the buddha<br>
+Heart and life and mind of the trinity<br>
+Manifesting in unity<br>
+<br>
+Epigenetic Triplicity<br>
+Three portals of the souls frequencies<br>
+Tripled helix, genomatic axiom<br>
+Epigenetic Triplicity (Isogenic evolution)<br>
+<br>
+Sequential amino chain<br>
+Evolution, evolved<br>
+<br>
+Evolution of the imagination<br>
+Contained within the heart of the soul<br>
+The purest expression exists within<br>
+The nucleus of the universe<br>
+<br>
+Trimethyltryptamine<br>
+Molecule of the spirit evolved<br>
+Progress through the cycles of the living light<br>
+Climax of time perpetual<br>
+<br>
+Polarized balance of the multiplicity<br>
+Structured pattern, self similarities<br>
+Reawakening of the energies<br>
+Through the Axis mundi</p>
+
+        <h1 id="s9" class="lyrics-test">-Embryogenesis-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+      </div>
+    </div>
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+    </div>
+
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+    </div>
+
+        <div class="page-finish">
+          <a href="./security.html">Security Statements</a>
+          <a href="./terms.html">Terms of Service</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+
+    </body>
+    </html>

@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Hollow Front</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/homewrecker.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Homewrecker - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Broken Promises</a>
+      <a href="#f2">Homewrecker</a>
+      <a href="#f3">Caved In</a>
+      <a href="#f4">Speaking In Tongues</a>
+      <a href="#f5">Lost Boy (Ft. Hunter Courtright)</a>
+      <a href="#f6">Blackhole</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/stillife.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Still Life - 2018</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Don't Fall Asleep</a>
+      <a href="#s2">Backbone</a>
+      <a href="#s3">Nothing Lasts Forever</a>
+      <a href="#s4">Apparition</a>
+      <a href="#s5">Dissect Me</a>
+      <a href="#s6">In Memoriam</a>
+      <a href="#s7">Still Life</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/homewrecker.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Homewrecker - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Broken Promises-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f2" class="lyrics-test">-Homewrecker-</h1>
+      <p class="lyrics-test-test">Left alone<br>
+I am forced to stare at my reflection<br>
+No longer able to hide so here's my confession<br>
+Though I fear there is nothing left to save<br>
+It's been ripped away<br>
+<br>
+How can I choose<br>
+When I thought that I needed you?<br>
+Just to move along in search of something new<br>
+And still I fight to feel<br>
+All of this is very real<br>
+<br>
+You can't save me from who I've become<br>
+A mere shadow of my(fucking)self<br>
+Breaking down from the inside out<br>
+I will never be the same again<br>
+<br>
+And I remember<br>
+The first time I looked into your eyes<br>
+I knew right then you'd be my wife<br>
+Somehow we lost each other<br>
+But I thought we'd be together forever<br>
+Now there's an emptiness inside<br>
+One I must live with all my life<br>
+<br>
+Do you know how it feels to be empty?<br>
+Do you know how it feels to be all alone?<br>
+<br>
+Look what you've done<br>
+You tore my heart out and held it out in front of me<br>
+If only to show the world how heartless you could be<br>
+After all these years you've lied to my face<br>
+Waiting for someone to come and take my place<br>
+<br>
+(After all these years you've lied to my face<br>
+waiting for someone to come and take my fucking place)<br>
+<br>
+And I remember<br>
+The first time I looked into your eyes<br>
+I knew right then you'd be my wife<br>
+Somehow we lost each other<br>
+But I thought we'd be together forever<br>
+Now there's an emptiness inside<br>
+One I must live with all my life</p>
+
+      <h1 id="f3" class="lyrics-test">-Caved In-</h1>
+      <p class="lyrics-test-test">I've been living in this nightmare<br>
+Am I awake, or is this just a dream?<br>
+I'm running blindly through the dark<br>
+Something is chasing me<br>
+I dare not look back<br>
+Because if I do I fear for my sanity<br>
+<br>
+When I think I'm safe<br>
+Life just proves me wrong<br>
+I closed my eyes for a moment<br>
+And everything was fucking gone<br>
+Standing alone I'm hoping for the end<br>
+Better than this misery that I've been force fed<br>
+<br>
+And still I can't recognize myself<br>
+I'm not the person I was before<br>
+Anger flows through my veins<br>
+Polluting my soul<br>
+Changing me into this beast<br>
+That time can't erase<br>
+<br>
+Your broken promises<br>
+I'll take them to my grave<br>
+Consumed by all this rage<br>
+I am the monster that you made<br>
+There is a shadow<br>
+It hangs above me<br>
+And it's feeding on my will to live<br>
+It stalks me to to my grave<br>
+Surviving off my pain<br>
+And all the shit you carved away<br>
+<br>
+I've tried to blame myself<br>
+But I know deep inside I was too good for you<br>
+So I take this pain and bottle it away<br>
+And allow my anger to possess me<br>
+<br>
+This is the truth I must deal with everyday<br>
+I can't look back or I'll lose my sanity<br>
+And when it's gone<br>
+I feel I will follow suit<br>
+I'll strike a fucking match<br>
+And you can watch me as I burn<br>
+Your broken promises<br>
+I'll take them to my grave<br>
+Consumed by all this rage<br>
+I am the monster you fucking made</p>
+
+      <h1 id="f4" class="lyrics-test">-Speaking In Tongues-</h1>
+      <p class="lyrics-test-test">I've been living a lie<br>
+Yet you don't even have the heart to tell me why<br>
+How can you justify looking me in my face<br>
+When you're the reason I have changed<br>
+<br>
+I feel so soulless<br>
+My heart's been left out in the cold<br>
+I've become so hopeless<br>
+I'm facing all of my demons on my own<br>
+<br>
+And now I've kissed you goodbye<br>
+With regrets of a life spent wasted<br>
+And I'm just trying to find<br>
+What it takes to make myself whole again<br>
+<br>
+Take your fake apologies<br>
+And shove it down your fucking throat<br>
+Choke on the words that you spew<br>
+Poison from your worthless mouth<br>
+<br>
+I've been speaking in tongues<br>
+With this noose tied around my neck<br>
+All that it takes is one step<br>
+To prove if I'm a coward yet<br>
+<br>
+I believed in your fucking lies<br>
+<br>
+There is a darkness deep inside of me<br>
+A black hole so far down that I can't see<br>
+What lies beneath the surface<br>
+A creature that's begging to be set free<br>
+And now I know how to fall<br>
+Further than I've ever gone before<br>
+There's no way back<br>
+Not after I lost it all<br>
+<br>
+I've been living a lie<br>
+Yet you don't even have the heart to tell me why<br>
+How can you justify the reasons I have changed<br>
+<br>
+I feel so fucking soulless<br>
+My heart's been left out in the cold<br>
+I've become so hopeless<br>
+I'm facing all of my demons on my own</p>
+
+      <h1 id="f5" class="lyrics-test">-Lost Boy (Ft. Hunter Courtright)-</h1>
+      <p class="lyrics-test-test">I gave you everything<br>
+And you threw it all away<br>
+As if I meant nothing<br>
+<br>
+You're the cancer beneath my skin<br>
+I swear that I'll never let you win<br>
+It just goes to show<br>
+Up is the only direction left to go<br>
+<br>
+I've lost my mind<br>
+Trying to find a moment in time<br>
+A place where I can reconnect<br>
+When I'm no longer held against my will<br>
+Shackled to these memories I have of you<br>
+I've lost my fucking mind<br>
+Searching for the reasons why I wasn't good enough<br>
+How could I be so blind?<br>
+After all the fucking shit you put me through<br>
+<br>
+And now I'm six feet underground<br>
+And I'm starting to drown<br>
+Beneath the weight of every mistake that I've ever made<br>
+Struggling to pick up pieces<br>
+As I claw my way back to the surface<br>
+Will I ever be myself again?<br>
+So fucking tell me<br>
+Will I ever feel that safe again?<br>
+<br>
+I gave you everything<br>
+And you threw it all away<br>
+As if I meant nothing<br>
+Was I just another trophy on your shelf?<br>
+You're the cancer beneath my skin<br>
+I swear that I'll never let you win<br>
+It just goes to show<br>
+Up is the only direction left to go<br>
+<br>
+You only have one life to live<br>
+So make it count<br>
+There's always room for second chances<br>
+Just gotta learn to pick yourself back up<br>
+<br>
+This is the path that I've chosen<br>
+And I refuse to be one of the broken<br>
+A generation of damaged souls<br>
+<br>
+We are the lost<br>
+We are the broke and unsettled<br>
+Hide behind the words you won't say to me<br>
+Try and erase memories I can't escape<br>
+The reason for all my hate?<br>
+Forgiveness is for the weak<br>
+A plague planted within my mind<br>
+The feeling hollows me<br>
+But I'll sleep soundly at night<br>
+Knowing karma will be bittersweet<br>
+<br>
+We are lost<br>
+And I don't ever think we'll be found<br>
+And now I know how it feels<br>
+To be so close to the edge<br>
+I'm afraid that I'm never coming back<br>
+Unless I can learn to forgive<br>
+But I can never forget<br>
+I tried to forgive you<br>
+I swear I've tried<br>
+But I've got nothing left inside to give<br>
+<br>
+I gave you everything<br>
+And you threw it all away<br>
+As if I meant nothing<br>
+Was I just another trophy on your shelf?<br>
+You're the cancer beneath my skin<br>
+I swear that I'll never let you win<br>
+It just goes to show<br>
+Up is the only direction left to go<br>
+<br>
+I've lost my mind<br>
+I feel the hate insidev
+It's growing deeper everyday<br>
+The last piece of me dies<br>
+You watch it fall and rot away</p>
+
+      <h1 id="f6" class="lyrics-test">-Blackhole-</h1>
+      <p class="lyrics-test-test">Will you follow me down the path of no return?<br>
+I'll be guiding the way with a single light<br>
+As we move further from the day<br>
+And into this never-ending night<br>
+<br>
+I forgot how it feels<br>
+Walking hand in hand with you right by my side<br>
+That's how it goes<br>
+But I'm left wondering will I always be alone<br>
+<br>
+I've lost all control<br>
+I'm spiraling down a hole that never ends<br>
+Dreaming of time when it all made sense<br>
+But now I'm falling even faster<br>
+<br>
+I wish that you could see<br>
+You've destroyed every part of me<br>
+That made me, me<br>
+All of my hopes and all of my dreams<br>
+Turn to ash right before my eyes<br>
+And I'm left screaming<br>
+<br>
+You think you're better than me?<br>
+It must be nice upon that pedestal<br>
+You have created for yourself<br>
+And when you're rising up<br>
+I am falling down<br>
+And when I hit the ground<br>
+It won't make a fucking sound<br>
+The silence is profound<br>
+<br>
+I just want to be free<br>
+From this agony<br>
+Because it's haunting me until the the day that I die<br>
+I can't help laughing<br>
+Because when I close my eyes<br>
+I only see your face<br>
+Each and everyday<br>
+It's a face that I despise<br>
+<br>
+Someday things might possibly change<br>
+Maybe I'll heal or maybe I'll stay the same<br>
+Only time will tell if I can move forward<br>
+Without taking steps back<br>
+And get my life back on track<br>
+<br>
+And when I close my eyes<br>
+I only see your face<br>
+What a cruel trick my mind plays<br>
+It's a face that I despise</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/stillife.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Still Life - 2018</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Don't Fall Asleep-</h1>
+        <p class="lyrics-test-test">Welcome to the rest of our lives<br>
+We've been sleeping awake<br>
+With our eyes closed tight<br>
+Drifting through time<br>
+Like we're ghosts<br>
+And searching for what's left<br>
+Is what cost us the most<br>
+<br>
+This is the part<br>
+Where I should tell you<br>
+How good I'm doing<br>
+How everything's okay<br>
+But the truth is<br>
+I can't remember the times<br>
+When I felt anything<br>
+Other than hatred and pain<br>
+<br>
+Are you one of the broken ones?<br>
+Well join to the fucking club<br>
+We're one in a billion souls<br>
+Shunned by the ones they loved<br>
+<br>
+All the hope I feel it fading away<br>
+Takes every part of me not to be afraid<br>
+Don't fall asleep (Don't fall asleep)<br>
+'Cause through your nightmares<br>
+The demons will creep<br>
+Along the way I lost myself<br>
+Life fucked me over<br>
+Like it does everyone else<br>
+Don't fall asleep (Don't fall asleep)<br>
+'Cause through your nightmares<br>
+The demons will creep<br>
+<br>
+Come find me<br>
+I'm hidden somewhere deep in the dark<br>
+Walking aimlessly without my heart<br>
+And only you can show me<br>
+The way out of this nightmare<br>
+Where I'm forced to remain in<br>
+<br>
+Please help me find my way out<br>
+<br>
+My fucking lungs are caving in<br>
+And I'm suffocating<br>
+As I claw my out of this darkness I've become<br>
+I come from nothing<br>
+A place I can hear all my demons scream<br>
+There's no use in saving me<br>
+<br>
+All the hope I feel it fading away<br>
+Takes every part of me not to be afraid<br>
+Don't fall asleep (Don't fall asleep)<br>
+'Cause through your nightmares<br>
+The demons will creep<br>
+Along the way I lost myself<br>
+Life fucked me over<br>
+Like it does everyone else<br>
+Don't fall asleep (Don't fall asleep)<br>
+'Cause through your nightmares<br>
+The demons will creep</p>
+
+        <h1 id="s2" class="lyrics-test">-Backbone-</h1>
+        <p class="lyrics-test-test">I'm not perfect<br>
+But neither are you<br>
+At least I had the decency<br>
+To tell you the truth<br>
+I once felt dead inside<br>
+As if the world around me<br>
+Withered to ashes and died<br>
+<br>
+Now there's a piece of me<br>
+That's found the peace in me<br>
+No longer lost<br>
+But still waiting to drown<br>
+Any second the bottom could just drop out<br>
+And I'll be back inside this blackhole<br>
+I just climbed out<br>
+<br>
+Show me now<br>
+What's wrong this picture?<br>
+When I've used every ounce of my strength<br>
+Just to get better<br>
+There's so much pressure<br>
+That it's driving me insane<br>
+<br>
+So here's to waking up<br>
+From this terrifying dream<br>
+Cause the world around me<br>
+Is not as dark as it seems<br>
+I'll never say I'm sorry<br>
+For being selfish<br>
+Cause I'm living my life for me<br>
+<br>
+I found my backbone<br>
+Lost it when I was under your control<br>
+All it took was some clarity<br>
+To show me I'm no longer the victim<br>
+And I swear when I get the chance<br>
+I'll walk away<br>
+I'll disappear<br>
+Like there's nothing left to lose<br>
+<br>
+It's kind of frightening<br>
+When you're frozen in time<br>
+And everything around you<br>
+Keeps on passing you by<br>
+The world doesnt stop<br>
+Because we aren't living<br>
+Take advantage of the gift<br>
+The short-term life we've been given<br>
+<br>
+There is a piece of me<br>
+A fucking place in me<br>
+Where all my demons were fed<br>
+With fucked up thoughts in my head<br>
+Now I can see that they were never real<br>
+As I begin to remember what it's like to feel<br>
+<br>
+So here's to waking up<br>
+From this terrifying dream<br>
+Cause the world around me<br>
+Is not as dark as it seems<br>
+<br>
+I found my backbone<br>
+Lost it when I was under your control<br>
+All it took was some clarity<br>
+I'll never say I'm sorry<br>
+For being selfish<br>
+Cause I'm living my life for me<br>
+To show me I'm no longer the victim<br>
+And I swear when I get the chance<br>
+I'll walk away<br>
+I'll disappear<br>
+Like there's nothing left to lose<br>
+<br>
+I finally found my backbone<br>
+No longer a slave to your control<br>
+<br>
+I'll be gone in the blink of an eye<br>
+Vanish without saying so much as a goodbye<br>
+Someday when you find my grave<br>
+There'll be a message carved in the stone<br>
+Just for you<br>
+<br>
+"Go fuck yourself"</p>
+
+        <h1 id="s3" class="lyrics-test">-Nothing Lasts Forever-</h1>
+        <p class="lyrics-test-test">Sometimes I think about those days<br>
+When we wore fake smiles on our face<br>
+Pretending that we were happy<br>
+When nothing could be further from the truth<br>
+<br>
+I convinced myself<br>
+The life I was living was good enough<br>
+Trapped together<br>
+To have and to hold<br>
+In sickness and in health<br>
+Until death do we part<br>
+<br>
+But nothing lasts forever<br>
+<br>
+Goodbye to you<br>
+I want you to know<br>
+This was the hardest thing<br>
+I've ever had to do<br>
+So goodbye to you<br>
+I will always remember<br>
+What it felt like to be broken in two<br>
+<br>
+I awoke from my life one day<br>
+Like it had all been a dream<br>
+Once so blind it was sickening<br>
+I forced myself to move on<br>
+And watched you fade away<br>
+<br>
+And even though I miss you<br>
+That doesn't mean I need you in my life<br>
+After everything we've been through<br>
+It took me all this time to finally say goodbye<br>
+<br>
+This is a chance for me<br>
+To finally get a few things off my chest<br>
+It's been so hard to admit<br>
+I wish the best for you<br>
+Just thought you should know<br>
+That I forgive you<br>
+And not a day goes by<br>
+When I don't wonder what my life could be like<br>
+I guess we'll never know<br>
+What we could've been<br>
+Because the past is dead<br>
+<br>
+
+Nothing lasts forever<br>
+That's what you said to me<br>
+So let's mourn the ghost<br>
+Of what we will never be<br>
+Nothing lasts forever<br>
+The words are always on repeat<br>
+So let's bury the corpse<br>
+Of what we were<br>
+And finally be free<br>
+<br>
+And even though I miss you<br>
+That doesn't mean I need you in my life<br>
+After everything we've been through<br>
+It took me all this time to finally say goodbye<br>
+<br>
+This is a chance for me<br>
+To finally get a few things off my chest<br>
+It's been so hard to admit<br>
+I wish the best for you<br>
+Just thought you should know<br>
+That I forgive you<br>
+And not a day goes by<br>
+When I don't wonder what my life could be like<br>
+I guess we'll never know<br>
+What we could've been<br>
+Because the past is dead</p>
+
+        <h1 id="s4" class="lyrics-test">-Apparition-</h1>
+        <p class="lyrics-test-test">I made a pact with the devil in my head<br>
+Sold my soul to him<br>
+So I could never feel pain again<br>
+You have no idea the toll it takes<br>
+When you're trapped inside your mind<br>
+And you've lost yourself to hate<br>
+<br>
+(Apparition)<br>
+I'd trade my soul for a heart made of stone<br>
+(Apparition)<br>
+The saddest story that's ever been told<br>
+<br>
+I've seen the world through your eyes<br>
+I watched those motherfuckers burn<br>
+The kind of violence that keeps me alive<br>
+I've seen the end and it's justified<br>
+(Justified)<br>
+We reap what we've sown<br>
+And now it's our time to die<br>
+<br>
+Burn it down<br>
+Burn it to the ground<br>
+To the motherfucking ground<br>
+<br>
+Just look up to the sky<br>
+We're in a living hell<br>
+There are flames a thousand feet high<br>
+Engulfing everything<br>
+Everything that was beautiful<br>
+Creating in its wake<br>
+A foreign land of ash and decay<br>
+<br>
+(Apparition)<br>
+I'd trade my soul for a heart made of stone<br>
+(Apparition)<br>
+The saddest story that's ever been told<br>
+<br>
+I've seen the world through your eyes<br>
+I watched those motherfuckers burn<br>
+The kind of violence that keeps me alive<br>
+I've seen the end and it's justified<br>
+(Justified)<br>
+We reap what we've sown<br>
+And now it's our time to die<br>
+<br>
+One by one<br>
+The pieces will fall<br>
+One error too many<br>
+And it's killing us all<br>
+<br>
+I've seen the world through your eyes<br>
+I watched those motherfuckers burn<br>
+The kind of violence that keeps me alive<br>
+I've seen the end and it's justified<br>
+(Justified)<br>
+We reap what we've sown<br>
+And now it's our time to die<br>
+<br>
+I sold my soul for a heart made of stone<br>
+The saddest story that's ever been told</p>
+
+        <h1 id="s5" class="lyrics-test">-Dissect Me-</h1>
+        <p class="lyrics-test-test">Can I be fixed?<br>
+Or am I just a lost cause?<br>
+Strap me down<br>
+Cut me open<br>
+And you'll find out what's wrong<br>
+This curse is in my blood<br>
+A wide spreading sickness<br>
+The whole world's afraid of<br>
+<br>
+I swear I'm dangling<br>
+At the end of my rope<br>
+Counting down the seconds<br>
+Until I fucking choke<br>
+And it's getting harder each and every day<br>
+To push through the bullshit<br>
+In this hell I have made<br>
+<br>
+I'm broken, I'm torn<br>
+Sometimes I wish I'd never been born<br>
+Dissect me<br>
+Perfect me<br>
+Sew me up<br>
+And forever regret me<br>
+<br>
+But you'll never forget me<br>
+<br>
+Dissect me<br>
+Show the world what they've been missing<br>
+I'm running out of places to hide<br>
+Pull me apart<br>
+Discard of what's left inside<br>
+<br>
+Pull me from the depths of my own mind<br>
+Pull me from the darkness of my own mind<br>
+<br>
+And now I'm back again<br>
+Always scraping the bottom<br>
+Searching for the broken pieces of me<br>
+I swear there's always a problem<br>
+My hatred of you is the only thing I can see<br>
+I'm always running, I'm always running<br>
+Without reflection<br>
+With no direction<br>
+A disappointment I'll always be<br>
+<br>
+I'm broken, I'm torn<br>
+Sometimes I wish I'd never been born<br>
+Dissect me, perfect me<br>
+Sew me up<br>
+And forever regret me<br>
+I'm broken, I'm scarred<br>
+Sometimes I wish I'd never fallen this far<br>
+Dissect me, perfect me<br>
+Sew me up and you'll never forget me</p>
+
+        <h1 id="s6" class="lyrics-test">-In Memoriam-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s7" class="lyrics-test">-Still Life-</h1>
+        <p class="lyrics-test-test">I'm sinking, I'm sinking<br>
+I don't know what the hell I was thinking<br>
+My past mistakes are draped in my shame<br>
+I never thought I'd be in my twenties<br>
+Hoping desperately to amount to something<br>
+Marking down the days<br>
+Will these things ever change?<br>
+Or will they stay the same?<br>
+<br>
+So here I am<br>
+With my heart in my hands<br>
+Searching for the chance<br>
+To be something more<br>
+I fear that it's gone<br>
+And I've tried my best to hold on<br>
+But I'm slipping now<br>
+With no one to catch me<br>
+<br>
+My heart beats in time<br>
+With the sound, with the sound<br>
+A ticking clock constantly counting down<br>
+I never dreamed I'd be in my twenties<br>
+A hole in my chest that left me with nothing<br>
+Old memories up in flames<br>
+Only myself to blame<br>
+<br>
+Can you remember the day?<br>
+When we told ourselves<br>
+That we would never be like them<br>
+Another spoke on a wheel of bullshit<br>
+I promised you<br>
+That there was way more to life than this<br>
+I swear I tried so hard<br>
+Can't believe it's all falling apart<br>
+I fought to get this far<br>
+Only to fail, only to fail<br>
+<br>
+So here I am<br>
+With my heart in my hands<br>
+Searching for the chance<br>
+To be something more<br>
+I fear that it's gone<br>
+And I've tried my best to hold on<br>
+But I'm slipping now<br>
+With no one to catch me<br>
+<br>
+I've tried so hard<br>
+To feel just like I used to<br>
+I'd rather feel this painv
+Than nothing at all<br>
+I've fought so hard<br>
+To try and break the cycle<br>
+A failure I'm forced to meet<br>
+Each and every day</p>
+      </div>
+    </div>
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+    </div>
+
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+    </div>
+
+        <div class="page-finish">
+          <a href="./security.html">Security Statements</a>
+          <a href="./terms.html">Terms of Service</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+
+    </body>
+    </html>

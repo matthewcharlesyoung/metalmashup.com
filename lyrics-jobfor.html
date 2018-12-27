@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Job For A Cowboy</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/ruin.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Ruination - 2009</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Unfurling A Darkened Gospel</a>
+      <a href="#f2">Summon The Hounds</a>
+      <a href="#f3">Constitutional Masturbation</a>
+      <a href="#f4">Regurgitated Disinformation</a>
+      <a href="#f5">March To Global Enslavement</a>
+      <a href="#f6">Butchering The Enlightened</a>
+      <a href="#f7">Lords Of Chaos</a>
+      <a href="#f8">Psychological Immorality</a>
+      <a href="#f9">To Detonate And Exterminate</a>
+      <a href="#f10">Ruination</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/demon.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Demonocracy - 2012</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Children Of Deceit</a>
+      <a href="#s2">Nourishment Through Bloodshed</a>
+      <a href="#s3">Imperium Wolves</a>
+      <a href="#s4">Tongueless And Bound</a>
+      <a href="#s5">Black Discharge</a>
+      <a href="#s6">The Manipulation Stream</a>
+      <a href="#s7">The Deity Misconception</a>
+      <a href="#s8">Fearmonger</a>
+      <a href="#s9">Tarnished Gluttony</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/sun.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Sun Eater - 2014</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">Eating The Visions Of God</a>
+      <a href="#t2">Sun Of Nihility</a>
+      <a href="#t3">The Stone Cross</a>
+      <a href="#t4">The Synthetic Sea</a>
+      <a href="#t5">A Global Shift</a>
+      <a href="#t6">The Celestial Antidote</a>
+      <a href="#t7">Encircled By Mirrors</a>
+      <a href="#t8">Buried Monuments</a>
+      <a href="#t9">Worming Nightfall</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/ruin.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Ruination - 2009</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Unfurling A Darkened Gospel-</h1>
+      <p class="lyrics-test-test">Propel this solitary man in front of us with<br>
+his corrupted global agenda muttering into his ears<br>
+Corporate money stuffed into his pockets<br>
+to spread his darkened gospel<br><br>
+In the past the crowned once held the covenant<br>
+to shape and develop a better world<br>
+Their influence and supremacy built by<br>
+generating optimistic and confident perception<br>
+offerings to their herds of sheep<br>
+Time repeats itself and outspoken pledges<br>
+continue to not succeed, the people have<br>
+renounced trust in ideologies<br>
+Safety and protection is the contemporary<br><br>
+vow for the role that will reinstall masterdom and control<br>
+To rescue us from uncertainty and peril<br>
+that we are visionless to see or interpret<br>
+A threat that evidently needs to be fought<br>
+in a manufactured, waged war<br>
+A vile misconception that has unfurled<br>
+unquestioned while being exaggerated and disfigured</p>
+
+      <h1 id="f2" class="lyrics-test">-Summon The Hounds-</h1>
+      <p class="lyrics-test-test">Summon the servants<br>
+that are chained at the throat by a tarnished<br>
+chain only devoted to their prosperous fathers<br>
+A grip so tight it bruises the neck when the beast<br>
+exhales the horror's that settle internally<br>
+Galloping toward immoral intent with the set<br>
+bounties on the heads of the righteous<br><br>
+The dismantled bodies given back for validation<br>
+and gratuity to amuse the gods of fortune<br>
+The itching appetite grows as these hounds<br>
+unearth the leaders and thieve on the lives of the weak beneath them<br>
+Aggravation dissolves into a joyous laughter<br>
+as the oppressors loan vows to benefit the wealthy<br>
+And cast down the frail hero<br>
+by hero slaughtered in vain, assassinations<br>
+of demigods in secrecy<br>
+A never ending pattern to cast down the frail and throne the elite</p>
+
+      <h1 id="f3" class="lyrics-test">-Constitutional Masturbation-</h1>
+      <p class="lyrics-test-test">Taken by the benumbed hands<br>
+of an overthrowing, fabricated God.<br>
+Sadism is fashioned to derive pleasurable<br>
+and gratifying entertainment among indoctrinated soldiers.<br>
+Sexually abusive torture is diminished to mere wretched amusement.<br>
+Ordered to fragment the sanity of prisoners<br>
+of an artificial war amidst a country of dystopia.<br><br>
+The blameless are left in complete shackled<br>
+isolation left to linger and ultimately wither and rot.<br>
+Fraudulent peacemakers withdraw any sense<br>
+of morality to plant the seeds of their own sadistic conceptions.<br>
+This fabricated God reduces man to nothing<br>
+more than a pile of waste.<br>
+With this power he banishes his followers<br>
+and sentences them to his own personal sins.<br><br>
+He masturbates on the scriptures that hold<br>
+his kingdom together as one and lays it to shame.
+</p>
+
+      <h1 id="f4" class="lyrics-test">-Regurgitated Disinformation-</h1>
+      <p class="lyrics-test-test">Falsehood projects from a<br>
+day-to-day instrumental broadcast that<br>
+flows through the net of mass media<br>
+The lungs swell as the puppets speak<br><br>
+to the public as their words grow limbs<br>
+to crawl and give birth to ignorance<br>
+Reports endlessly drift and clock reality<br>
+leaving mass audiences to believe into layers of fiction<br>
+The hellish elite pull the vulnerable<br>
+strings of journalism with the mastery<br>
+of everyday blood money and ultimatums<br><br>
+The boundless flavor of dominance on the<br>
+starved tongue gives these kings a mental state of ambitious arousal<br>
+For corruption steadily trickles from<br>
+their fingertips and showers into the<br>
+pool of forged mental assurance at their feet<br>
+The sleeping masses live on in their so<br>
+called tranquil lifestyle, they sleep and wake utterly<br><br>
+Blindfolded in a regurgitated fashion money<br>
+will always equal dominance, above law and above<br>
+Government disinformation will<br>
+constantly leave a nation as a forever<br>
+Sleeping giant due to the ongoing voice of propaganda</p>
+
+      <h1 id="f5" class="lyrics-test">-March To Global Enslavement-</h1>
+      <p class="lyrics-test-test">Epidemic once again uncovers<br>
+its malignant crown in one instantaneous instant<br>
+A man made formula hatches out of its shell<br>
+to inch closer to suppress the living and breathing<br>
+The newborn are nurtured in a world of a dishonest master design<br><br>
+A layout constructed only for the purpose<br>
+f dominance, authority and power<br>
+Born as slaves into bondage, born into<br>
+a prison that they can't distinguish with smell or touch<br>
+In a world that's been fallaciously influenced for decades<br>
+Where the ones who offer solution are<br>
+ecretively the core of this ongoing problem<br>
+Architects of control build their herds<br>
+of municipal infantry with inventions of fear and panic<br><br>
+We all march quietly with open hands into global enslavement<br>
+Drown us, submerge our bodies in the ocean of manipulation</p>
+
+      <h1 id="f6" class="lyrics-test">-Butchering The Enlightened-</h1>
+      <p class="lyrics-test-test">This nation is forcefully shackled<br>
+to the fatigued earth it endeavors standing on.<br>
+Ruled and overthrown by tyranny and dictatorship<br>
+weakening it at its delicate knees.<br>
+Liberation is a fabricated expression only<br>
+uttered by the propagandized swarm of illogical followers.<br>
+Men, woman and children all blindfolded and<br>
+mislead to believe in a world of utter persuasion.<br><br>
+Striking terror in the eyes of the ignorant<br>
+with public displays of manslaughter and execution grounds<br>
+To butcher the enlightened for what purpose?<br>
+Because starvation for power mushrooms<br><br>
+upward leaving leaders foaming<br>
+Across their malnourished, gaping jaws.<br>
+Striking their iron hammers to fuck over the breathing bodies slaving<br>
+To conform to a lie build the gates to<br>
+close the doorway from truth, slam the doors on reality.</p>
+
+      <h1 id="f7" class="lyrics-test">-Lords Of Chaos-</h1>
+      <p class="lyrics-test-test">The blameless are succumbing<br>
+to the ravages of warfare built upon capital and greed<br>
+The lords of corruption leave their people to rot<br>
+in the gore-riddened streets of chaos<br>
+Education, employment and health, all stolen<br>
+from the hands that deteriorate at the flesh<br>
+The slaving clench their fists pleading and<br><br>
+praying for a redesigned future as they reach<br>
+the brink of renouncement<br><br>
+Dreading to open the mouth and spill the<br>
+words of loathing for with this tongue will only bring execution<br>
+Hundreds upon thousands all damned at<br>
+the dawning of life,<br>
+all damned at the opening day of birth<br><br>
+The manufactured gods detach these<br>
+withered bodies and sell the<br>
+Land to the highest bidder of the corporate elite<br>
+With death comes revenue,<br>
+piles of profit and wealth all generated in blood.
+</p>
+
+      <h1 id="f8" class="lyrics-test">-Psychological Immorality-</h1>
+      <p class="lyrics-test-test">It began under the dictatorship<br>
+of a dark lord with the mindset of<br>
+world supremacy set in years past<br>
+Our nation picked up the pieces<br>
+of a slain giant and continued to<br>
+shape a psychological immorality<br>
+Mind control on mass scale in post war endeavors,<br><br>
+a shameful instrument once used to take over the deteriorating world<br>
+Unspeakable experiments cast on the on the blameless<br>
+with no justification or rational reasoning<br>
+Deprivation of food, withering the helpless into fading,<br>
+cadaverous bodies corroding at the mouth<br>
+Forced sleeplessness, causing the brain to malfunction<br><br>
+and shut down, leaving the patients to fall into mental illness<br>
+Immense shock treatment and drug intake<br>
+injected at the vein to degrade the human<br>
+body and its weakening organs<br>
+Blackening all luminescence to puzzle the<br>
+mind to create dread of the time that lay ahead<br>
+A discharged invasion of the mind, a program now Americanized</p>
+
+      <h1 id="f9" class="lyrics-test">-To Detonate And Exterminate-</h1>
+      <p class="lyrics-test-test">The bodies of millions pile<br>
+atop the splintered streets of a now rotting metropolis.<br>
+Ignorantly drowning in the flames<br>
+and fumes fabricated by their own doing.<br>
+As their lives smolder and ignite their<br><br>
+faces steadily ripen with immense pleasure.<br>
+Self-execution comes with victory,<br>
+self-mutilation comes with utter success.<br>
+Their perception flickers within<br>
+the glowing and ignited landscape<br>
+as they gaze toward the once populated soil.<br>
+The nations flag cloaks the impure<br><br>
+fallen militant bodies, fraudulent celebration of integrity.<br>
+The hordes of the serpentine lord<br>
+infantry march and butcher the remaining living.<br>
+Nuclear warfare ticks down as the<br>
+sirens resonate through the ears of the moribund.<br>
+Detonation! Extermination!<br>
+The fragmented shell diffuses and erupts<br>
+A conflagration of infernal horror</p>
+
+      <h1 id="f10" class="lyrics-test">-Ruination-</h1>
+      <p class="lyrics-test-test">The earth slowly rots into a malignant tumor,<br>
+Breeding no life for the future of the world<br>
+In wake of a nuclear war bodies rise from the<br>
+fractured and decomposing fields of abandonment.<br><br>
+Their bodies and faces mutated and disfigured,<br>
+Still breathing through their brimful lungs<br>
+They limp and crawl across the ruins they<br><br>
+once claimed on a leisurely ongoing march.<br>
+Their flesh still burns, the skin blackens<br>
+And embers into the dimming air.
+</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/demon.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Demonocracy - 2012</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Children Of Deceit-</h1>
+        <p class="lyrics-test-test">We are the children of deceit<br>
+Brought to our knees and chained from another's lie<br>
+Demonized in the. flowing river of loathsome propaganda<br>
+We've been manipulating to construct a weapon the sake of entrapment<br>
+Falling victim to a charismatic and enraged tongue,<br>
+A cancer singing his delusive gospel<br>
+Whispering a melody that blurs the line of innocently<br>
+observing a plot of mayhem encouraging one<br>
+Or encouraging one<br>
+<br>
+A disease with a classified secret aiding the victim, but as a masked ally<br>
+Two ungodly prosecutions hinged by an infection playing devil's advocate<br>
+<br>
+We are the children of deceit<br>
+Brought to our knees and chained from another's lie<br>
+Demonized in the. flowing river of loathsome propaganda<br>
+We've been manipulated to construct a weapon for the sake of entrapment<br>
+Falling victim to a charismatic and enraged tongue,<br>
+ cancer singing his delusive gospel<br>
+We are the children of deceit<br>
+Brought to our knees and chained from another's lie<br>
+We are the children of deceit<br>
+Brought to our knees and chained from another's lie<br>
+Lie!<br>
+A disease with a classified secret aiding the victim,<br>
+but as a masked ally<br>
+Two ungodly prosecutions hinged by an<br>
+infection playing devil's advocate<br>
+Advocate</p>
+
+        <h1 id="s2" class="lyrics-test">-Nourishment Through Bloodshed-</h1>
+        <p class="lyrics-test-test">The core of corruption collects its<br>
+nourishment through regurgitated war and bloodshed<br>
+For i softly sleep in a society egocentric enough to cast war,<br>
+A blistering infection that continues to spread<br>
+Our young are steadily allured into slaughter<br>
+All in purpose to make this self crowned sleaze a dollar<br><br>
+These the smeared fingerprints of the gods....<br>
+The ever evolving military industrial complex<br>
+is bleaker than any fabricated hallucination<br>
+Opt for change? complicated with this two<br>
+party system spinning without traction<br><br>
+The ever evolving military industrial complex<br>
+is bleaker than any fabricated hallucination<br>
+These are smeared fingerprints of the gods,<br>
+the undertaking and domination of nations<br>
+The ever evolving military industrial complex<br>
+is bleaker than any fabricated hallucination<br><br>
+Opt for change? complicated with this two party<br>
+system spinning without tractions<br>
+These are the smeared fingerprints of the gods,<br>
+the undertaking and domination of nations<br>
+These are the smeared fingerprints of the gods,<br>
+the undertaking and domination of nations</p>
+
+        <h1 id="s3" class="lyrics-test">-Imperium Wolves-</h1>
+        <p class="lyrics-test-test">Place your ear to the ground<br>
+and cringe from the sound<br>
+For the authority driven wolves strut closer<br>
+with a mocking grin etched across their faces<br>
+Marching along with tucked shirts and rust<br>
+covered badges of acknowledgment<br><br>
+Choking on their triggers and sweeping<br>
+their unjust under the damp crimson rug<br>
+Prejudice? discrimination? or just for amusement and exploitation?<br>
+A broken record that continues to breed,<br><br>
+a dismembered system that everlastingly succeeds<br>
+Tonight this adolescent says hello to his ruination,<br>
+Tomorrow the wolves continue their domination<br>
+Domination!<br><br>
+Place your ear to the ground and cringe from the sound<br>
+For the authority driven wolves strut<br>
+closer with a mocking grin etched across their faces<br>
+Marching along with tucked shirts and<br>
+rust covered badges of acknowledgment<br>
+Choking on their triggers and sweeping<br>
+their unjust under the damp crimson rug<br>
+A broken record that continues to breed,<br><br>
+a dismembered system that everlastingly succeeds<br>
+Tonight this adolescent says hello to his ruination<br>
+Tomorrow the wolves continue their domination<br>
+Tomorrow the wolves continue their domination<br>
+Prejudice? discrimination?<br>
+or just for amusement and exploitation?<br>
+Prejudice? discrimination?<br>
+or just for amusement and exploitation?<br>
+Prejudice? discrimination?<br>
+or just for amusement and exploitation?</p>
+
+        <h1 id="s4" class="lyrics-test">-Tongueless And Bound-</h1>
+        <p class="lyrics-test-test">Truth is eternally treason<br>
+in the empire- empire of lies<br>
+For our empire muzzles the lips<br><br>
+of a savior who howls corruption<br>
+His exploration of reality has ruffled<br>
+the feathers of a starving vulture<br>
+Classified america breeds and multiplies,<br>
+vastly shrouded from us and even itself<br>
+A dark bureaucracy devoted to protecting<br>
+us lurks beneath our corroding democratic practice<br><br>
+How will anyone create change when<br>
+we cannot see inside this dark machine?<br>
+Classified america breeds and multiplies,<br>
+vastly shrouded from us and even itself<br>
+An era where a military-political<br>
+demon is hidden from all scrutiny<br>
+We must ask ourselves....<br><br>
+but who watches the watchmen?<br>
+Truth is eternally treason in the empire of lies<br>
+Truth is eternally treason in the empire of lies<br>
+For our empire,<br>
+muzzles the lips of a savior who howls corruption<br><br>
+Classified america breeds and multiplies,<br>
+vastly shrouded from us and. even... and even itself<br>
+Classified america breeds and multiplies
+</p>
+
+        <h1 id="s5" class="lyrics-test">-Black Discharge-</h1>
+        <p class="lyrics-test-test">We collectively flock to<br>
+dispel our thirst from the streams of this depleting blue gold<br>
+But the god-like global power shifts away from the earth's<br>
+Gelatinous black blood that fuels their darling death machines<br>
+The blood fueling and carelessly weaving every<br><br>
+lifeless object that you and i adore and yearn<br>
+Texas tea bubbling beneath us is becoming the<br>
+bastard step child of the oil tycoons<br>
+For its depleting, shriveling and the<br>
+world is convulsing in dehydration!<br>
+For its depleting, shriveling and the<br>
+world is convulsing in dehydration!<br><br>
+Black discharge flows, resembling a<br>
+gaping wound feeding the<br>
+Mouths of leeches and vultures<br>
+under our weeping skies<br>
+They've caught on that its running<br>
+out and move with guillotines and bright smiles<br>
+For its depleting, shriveling and<br>
+the world is convulsing in dehydration!<br><br>
+For its depleting, shriveling and<br>
+the world is convulsing in dehydration!<br>
+Let's all naively sit and watch this progress,<br>
+allow the common man to have absolutely no rest<br><br>
+We collectively flock to dispel our<br>
+thirst from the streams of this depleting blue gold<br>
+We collectively flock to dispel our<br>
+thirst from the streams of this depleting blue gold</p>
+
+        <h1 id="s6" class="lyrics-test">-The Manipulation Stream-</h1>
+        <p class="lyrics-test-test">We gape at our neurotic hands and swallow<br>
+our own conclusive, unease<br>
+Inhaling the somber air and consuming the broadcasts that mislead<br>
+Modified imagery punctures an open wound of incomprehension within the mind<br>
+Within the mind!<br>
+They perch detached from reality, swigging on<br>
+the bottle of manipulation<br>
+This empire carries on an evolving lie in the<br><br>
+bottomless eyes of corporation greed<br>
+For them, ignorance equates strength.<br>
+A constructed fantasy they use to mislead<br>
+Modified imagery puncture's an open wound<br>
+of incomprehension within the mind<br>
+Day a after clay a nation submerged<br>
+in a sea of televised panic and petty idolization<br>
+They perch detached from reality,<br>
+swigging on the bottle of manipulations<br>
+This empire carries on an evolving<br>
+lie in the bottomless eves of corporation greed<br>
+For them, ignorance equates strength.<br><br>
+A constructed fantasy they use to mislead<br>
+We gape at our neurotic hands and swallow our own conclusive unease<br>
+Inhaling the somber air and consuming<br>
+the broadcasts that misleads!<br>
+This empire carries on an evolving<br>
+lie in the bottomless eyes of corporation greed<br>
+Of corporation greed<br>
+This empire carries on an evolving<br>
+lie in the bottomless eyes of corporation greed
+</p>
+
+        <h1 id="s7" class="lyrics-test">-The Deity Misconception-</h1>
+        <p class="lyrics-test-test">The withering serpent puts out his<br>
+cigar with a scoff and sneer below his frigid exhalation<br>
+Its embers dance overhead<br>
+(its embers dance over head) his polished boots,<br>
+As his yearning parade bubbles:<br>
+for a xenophobic nation<br>
+He puts his hungry wolves upon leashes<br>
+They choke as they sniff out racial<br>
+agendas under the boiling sun<br><br>
+For shackling the blameless men<br>
+and women in unroofed reformatories is priority number one<br>
+He releases his soldiers under<br>
+his command racing to feast on anyone who criticizes his work<br>
+He puts his hungry wolves upon leashes<br><br>
+They choke as they sniff out<br>
+racial agendas under the boiling sun<br>
+As un-violent inmates die in rotting cages,<br>
+giving the man nothing more than a smirk<br>
+After years of waiting, nothing has changed.<br><br>
+He spits a cesspool of deception<br>
+A leader? a hero? a territorial martyr?<br>
+more or a less an enormous misconception<br>
+The withering serpent puts out his<br>
+cigar with a scoff and sneer below his frigid exhalation<br><br>
+After years of waiting, nothing has changed.<br>
+He spits a cesspool of deception<br>
+A leader? a hero? a territorial martyr?<br>
+More or a less an enormous misconception</p>
+
+        <h1 id="s8" class="lyrics-test">-Fearmonger-</h1>
+        <p class="lyrics-test-test">Our apparent saviors have<br>
+placed arms and ammunition<br>
+Directly into the hands of demons of the south<br>
+They've molded a gunrunning scandal<br>
+so inflammatory it makes one nauseous at the mouth<br><br>
+Their personal formulation to<br>
+smother a weakening second amendment<br>
+Immense fraud!<br>
+Fair millions of malignant imaginations to sit,<br>
+watch, cheer and applaud!<br>
+Our tombstone are stepping<br>
+stones in this struggle for control<br><br>
+Our tombstone are stepping stones<br>
+in this struggle for control<br>
+A failed concocted plan for the<br>
+veiled executioner's throne of blood<br>
+Opening the ignorant gates, let.<br>
+loose-of this fear mongering floodv
+Our tombstones are stepping<br><br>
+stones in this struggle for control<br>
+A failed concocted plan for<br>
+the veiled executioner's throne of blood<br>
+Opening the ignorant gates,<br>
+let loose of this fear mongering flood<br>
+Our apparent savior's have<br>
+placed arms and ammunition<br>
+Directly into the hands hands<br>
+of demon's of the south<br><br>
+They've molded a scandal so<br>
+inflammatory makes one nauseous at the mouth<br>
+Our tombstone are stepping<br>
+stones in this struggle for control<br>
+Our tombstone are stepping<br>
+stones in this struggle for control
+</p>
+
+        <h1 id="s9" class="lyrics-test">-Tarnished Gluttony-</h1>
+        <p class="lyrics-test-test">A monetary plague is digging<br><br>
+the world into an economic culmination tomb<br>
+Sculpted by the cods who have built their<br>
+throne upon a foundation of falsity<br>
+An elastic currency uncoils and is extracted<br>
+from the benumbed lingers of millions<br>
+Papered bills are lessened as they<br>
+tarnish with gluttony, a mute nation walks blindfolded<br>
+As anarchism rears its face,<br>
+they are answered by an iron fist<br><br>
+Fixed media arousal,<br>
+for hypocrisy has its own elegant symmetry<br>
+Let an empire cease to exist,<br>
+entomb the masses as they persist to resist<br>
+Let an empire cease to exist,<br>
+entomb the masses as they persist to resist<br>
+An elastic currency uncoils and<br>
+is extracted from the benumbed lingers of millions<br><br>
+Papered bills are lessened as<br>
+they tarnish with gluttony, a mute nation walks blindfolded<br>
+Let an empire cease to exist,<br>
+entomb the masses. as they persist to resist</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/sun.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Sun Eater - 2014</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-Eating The Visions Of God-</h1>
+          <p class="lyrics-test-test">I am staring at the Sun of the Nothing<br>
+For I want to eat the visions of God<br><br>
+Consuming the knowledge and power that radiates overhead<br>
+As I slumber in a bed of vegetation and thorns leaving behind unease and dread<br>
+I feed from pretentious notions and malignant demons through its rays<br><br>
+For hell is abandoned and this single horror walks amongst our ongoing cliches<br>
+My eyes, my perception - They seem to smolder and whiten<br>
+For it seems that I have peered into the diseased display of myself<br>
+I am the eater of the sun<br>
+I am the destroyer of worlds</p>
+
+          <h1 id="t2" class="lyrics-test">-Sun Of Nihility-</h1>
+          <p class="lyrics-test-test">Sun of Nihility, I shamefully disturb you<br>
+My relentless knocking is constantly ignored<br>
+I can narrowly overhear your serene breathing anymore<br>
+Have you grown weary of spinning measureless circles across the sky?<br>
+<br>
+Are you drained of feeding and decalcifying my awakening third eye<br>
+A resting place to connect with the Earth's depths<br>
+I lay designating my dreams as masters under composed breath<br>
+Enraptured by the sphere of damnation]</p>
+
+          <h1 id="t3" class="lyrics-test">-The Stone Cross-</h1>
+          <p class="lyrics-test-test">I sleep on a cross for my madness<br>
+I exist within a foundation of stone<br>
+Encircled and smothered within bars of rust<br>
+It all helps me rest within a confine of serenity<br><br>
+Sealed windows and doorways feel like decrepit paintings on the walls<br>
+Pieces of immovable art grow an everlasting flavor of neglect and dust<br>
+An existence within a casket to bear the living<br>
+My humble and delusional confine
+</p>
+
+          <h1 id="t4" class="lyrics-test">-The Synthetic Sea-</h1>
+          <p class="lyrics-test-test">inding comfort in knowledge<br>
+of an enthralling higher power<br>
+My transformation catalyzed from our continual encounters<br>
+As I draw breath from clouds littering a synthetic sea<br>
+I overlook how trustful we are. So simple, so damned naive<br>
+I beg for one's own remission, simultaneously teething the<br>
+flesh that breeds religion<br><br>
+Transmitted whispers crawl into each of us and birth dictating monsters<br>
+All creations encircling me are charades and impostors<br>
+So trustful we are. So simple, so damned naive<br>
+All comprehension I've discovered was all concocted to deceive
+</p>
+
+          <h1 id="t5" class="lyrics-test">-A Global Shift-</h1>
+          <p class="lyrics-test-test">I've come to an implausible conclusion<br>
+That I'm bathing my hands with a refreshment of poison<br>
+I'm indulging my thirstiness with an infectious substance<br>
+For the bane of my existence is solely outlined to aid the<br>
+breeding of ill and brainless<br>
+Lather, rinse, repeat<br><br>
+Gather, convince, deceit<br>
+A global shift has commenced one gallon at a time<br>
+Turning the masses into walking malignancies<br>
+Imbecilic livestock with their numbers on the decline<br>
+A world is carved from blameless blood<br>
+Carving miles of trenches deep into the intellect of man
+</p>
+
+          <h1 id="t6" class="lyrics-test">-The Celestial Antidote-</h1>
+          <p class="lyrics-test-test">I have found my face gnawing<br>
+way at my own existence again<br>
+It's feeding and medication on the ballooning hunger for a formulated religion<br>
+For my Lord comes in a tiny capsulated form<br>
+Restore prayers with inebriation - my dependency<br><br>
+A substance helping me string<br><br>
+And I must carefully weave my life in a destructive, spiraling transcendency<br>
+These divine elements shine a light so radiant when synthesized<br>
+A celestial antidote to cure all<br>
+A heavenly impurity to alter what we know as God
+</p>
+
+          <h1 id="t7" class="lyrics-test">-Encircled By Mirrors-</h1>
+          <p class="lyrics-test-test">We socialize in the moonless pit<br>
+Of my own intelligence<br>
+<br>
+I'm suspended in space<br>
+And encircled by mirrors<br>
+<br>
+Through my reflection<br>
+Things are becoming clearer<br>
+Apparently teeth<br>
+Are beginning to germinate from the roots of my eyes<br>
+<br>
+I find myself wincing<br>
+As they chew through my optic flesh<br>
+<br>
+Layers of teeth<br>
+Dancing, waltzing<br>
+Their way out of my now punctured face<br>
+<br>
+It's comical in retrospect<br>
+I used to enjoy this<br>
+Levitating notion of escape<br>
+
+It's opening the gates<br>
+To a newborn philosophy<br>
+
+My deep seeded dementia embraced<br>
+
+Layers of teeth<br>
+Dancing, waltzing<br>
+Their way out of my now punctured face<br>
+<br>
+My deep seeded dementia embraced<br>
+<br>
+
+Hallucinogenic contemplations<br>
+Have become my finest friend<br>
+<br>
+It's opening the gates<br>
+To a newborn philosophy<br>
+My deep seeded dementia embraced</p>
+
+          <h1 id="t8" class="lyrics-test">-Buried Monuments-</h1>
+          <p class="lyrics-test-test">I recognize a blueprint for<br>
+madmen has been inked<br>
+Inked within the skin of myself<br>
+They've planted seeds and have been sewn into buried monuments<br>
+They're entombed doomsday vaults resembling monstrous coffins<br>
+A mind bending experimentation to reshape my everyday consumption<br><br>
+they can see through the cracks<br>
+To inject the soil in which I stand<br>
+It perverts that of which I bloom<br><br>
+Disease slumbers within the earth<br>
+Blooming gardens of slaughter
+</p>
+
+          <h1 id="t9" class="lyrics-test">-Worming Nightfall-</h1>
+          <p class="lyrics-test-test">A landscape of mountains<br>
+and filth floods my perspective<br>
+Nightfall worms its way, mutating the<br>
+air into a black mass of secrets<br>
+It's alluring as I stand on the summit<br>
+of self-destruction in all of its brilliance<br><br>
+I have a panoramic view of my prodigal<br>
+fate with a nose dive out of existence<br>
+My untouched eyelids unlock in a<br>
+pineal gland trance of blasphemy<br><br>
+My cerebral matter synthesizes a<br>
+sharpened warmth forming a kaleidoscopic ecstasy<br>
+A fond farewell decent morphs to a<br>
+ tairwell of a hallucinogenic world<br>
+Lost in a sea of illusions and alternate reality</p>
+        </div>
+      </div>
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+      </div>
+
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+      </div>
+
+          <div class="page-finish">
+            <a href="./security.html">Security Statements</a>
+            <a href="./terms.html">Terms of Service</a>
+            <a href="./privacy.html">Privacy Policy</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+
+      </body>
+      </html>

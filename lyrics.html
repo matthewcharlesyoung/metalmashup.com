@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+    <div class="lyrics-title">
+      <h1 class="lyrics-word">Lyrics</h1>
+    </div>
+
+    <div class="lyrics-page">
+      <div class="images-wall">
+        <a href="./lyrics-ulta.html"><img class="album-size" src="./images/ulta.jpg" alt="clairvoyant album art"/></a>
+        <a href="./lyrics-glass.html"><img class="album-size" src="./images/glass.jpg"  alt="Colour Clear album art"/></a>
+        <a href="./lyrics-ohsleep.html"><img class="album-size" src="./images/sleep.jpg"  alt="The Royal thousand album art"/></a>
+        <a href="./lyrics-sheilds.html"><img class="album-size" src="./images/shields.jpg" alt="Arkosis album art"/></a>
+        <a href="./lyrics-oceano.html"><img class="album-size" src="./images/invision.jpg" alt="The Biggest Lie album art"/></a>
+        <a href="./lyrics-thedevil.html"><img class="album-size" src="./images/roots.jpg" alt="Power Trip album art"/></a>
+        <a href="./lyrics-phin.html"><img class="album-size" src="./images/till.jpg" alt="Till The End album art"/></a>
+        <a href="./lyrics-chel.html"><img class="album-size" src="./images/night.jpg" alt="this is a whote space"/></a>
+        <a href="./lyrics-thevoy.html"><img class="album-size" src="./images/aqua.jpg" alt="Emergent Evolution album art"/></a>
+        <a href="./Lyrics-ithe.html"><img class="album-size" src="./images/life.jpg" alt=""/></a>
+        <a href="./lyrics-beyond.html"><img class="album-size" src="./images/be.jpg" alt=""/></a>
+        <a href="./lyrics-ark.html"><img class="album-size" src="./images/art.jpg" alt=""/></a>
+        <a href="./lyrics-tess.html"><img class="album-size" src="./images/tess.jpg" alt=""/></a>
+        <a href="./lyrics-anight.html"><img class="album-size" src="./images/glob.jpg" alt=""/></a>
+        <a href="./lyrics-sirens.html"><img class="album-size" src="./images/moon.jpg" alt=""/></a>
+      </div>
+
+    </div>
+    <div class="letter-line">
+      <a href="#letter-#">#</a>
+      <a href="#letter-a">A</a>
+      <a href="#letter-b">B</a>
+      <a href="#letter-c">C</a>
+      <a href="#letter-d">D</a>
+      <a href="#letter-e">E</a>
+      <a href="#letter-f">F</a>
+      <a href="#letter-g">G</a>
+      <a href="#letter-h">H</a>
+      <a href="#letter-i">I</a>
+      <a href="#letter-j">J</a>
+      <a href="#letter-k">K</a>
+      <a href="#letter-l">L</a>
+      <a href="#letter-m">M</a>
+      <a href="#letter-n">N</a>
+      <a href="#letter-o">O</a>
+      <a href="#letter-p">P</a>
+      <a href="#letter-q">Q</a>
+      <a href="#letter-r">R</a>
+      <a href="#letter-s">S</a>
+      <a href="#letter-t">T</a>
+      <a href="#letter-u">U</a>
+      <a href="#letter-v">V</a>
+      <a href="#letter-w">W</a>
+      <a href="#letter-x">X</a>
+      <a href="#letter-y">Y</a>
+      <a href="#letter-z">Z</a>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-a">A</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-a-day.html">A Day To Remember</a>
+        <a href="./abated.html">Abated Mass of Flesh</a>
+        <a href="./lyrics-aborted.html">Aborted</a>
+        <a href="./lyrics-archspire.html">Archspire</a>
+        <a href="./lyrics-ark.html">Arkaik</a>
+        <a href="./lyrics-amon.html">Amon Amarth</a>
+        <a href="./lyrics-anight.html">A Night In Texas</a>
+        <a href="./lyrics-auras.html">Auras</a>
+        <a href="./lyrics-asi.html">As I Lay Dying</a>
+        <a href="./lyrics-august.html">August Burns Red</a>
+        <a href="./lyrics-afterthe.html">After The Burial</a>
+        <a href="./lyrics-allshall.html">All Shall Perish</a>
+        <a href="./lyrics-alter.html">Alterbeast</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-b">B</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-bellwitch.html">Bell Witch</a>
+        <a href="./lyrics-bury.html">Bury Tomorrow</a>
+        <a href="./lyrics-boris.html">Boris The Blade</a>
+        <a href="./lyrics-black.html">Black Tongue</a>
+        <a href="./lyrics-broken.html">Broken Flesh</a>
+        <a href="./lyrics-brain.html">Brain Drill</a>
+        <a href="./lyrics-between.html">Between The Buried And Me</a>
+        <a href="./lyrics-beyond.html">Beyond Creation</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-c">C</h1>
+      </div>
+      <div class="band">
+
+        <a href="./lyrics-cannibal.html">Cannibal Corpse</a>
+        <a href="./lyrics-chel.html">Chelsea Grin</a>
+        <a href="./lyrics-circleof.html">Circle of Contempt</a>
+        <a href="./lyrics-closetothesky.html">Close To The Sky</a>
+        <a href="./lyrics-thecon.html">(The) Contortionist</a>
+        <a href="./lyrics-thecolormorale.html">(The) Color Morale</a>
+
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-d">D</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-thedevil.html">(The) Devil Wears Prada</a>
+        <a href="./lyrics-decr.html">Decrepit Birth</a>
+        <a href="./lyrics-drew.html">Drewsif Stalin Musical Endevors</a>
+        <a href="./dreamt.html">Dream Theater</a>
+        <a href="./lyrics-thedialectic.html">(The) Dialectic</a>
+        <a href="./lyrics-dissimulator.html">Dissimulator</a>
+        <a href="./lyrics-dragonforce.html">Dragonforce</a>
+        <a href="./lyrics-dreamon.html">Dream On Dreamer</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-e">E</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-emm.html">Emmure</a>
+        <a href="./lyrics-enterprise.html">Enterprise Earth</a>
+        <a href="./lyrics-exitingthe.html">Exiting The Fall</a>
+        <a href="./lyrics-erra.html">Erra</a>
+        <a href="./lyrics-exhumed.html">Exhumed</a>
+        <a href="./lyrics-eyesof.html">Eyes Of The Defiled</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-f">F</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-afeast.html">A Feast For Kings</a>
+        <a href="./lyrics-fit.thml">Fit For A King</a>
+        <a href="./lyrics-fleshgod.html">Fleshgod Apocalypse</a>
+        <a href="./lyrics-forall.html">For All Eternity</a>
+        <a href="./lyrics-fleshkiller.html">Fleshkiller</a>
+        <a href="./lyrics-forever.html">Forevermore</a>
+
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-g">G</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-genocide.html">Genocide Pact</a>
+        <a href="./lyrics-glass.html">Glass Cloud</a>
+        <a href="./lyrics-gloryhammer.html">Gloryhammer</a>
+        <a href="./lyrics-goodtiger.html">Good Tiger</a>
+        <a href="./lyrics-gorod.html">Gorod</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-h">H</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-hannes.html">Hannes Grossmann</a>
+        <a href="./lyrics-hastetheday.html">Haste The Day</a>
+        <a href="./lyrics-hollow.html">Hollow Front</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-i">I</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-ithe.html">I The Breather</a>
+        <a href="./lyrics-impending.html">Impending Doom</a>
+        <a href="./lyrics-irreversible.html">Irreversible Mechanism</a>
+        <a href="./lyrics-intervals.html">Intervals</a>
+        <a href="./lyrics-issues.html">Issues</a>
+        <a href="./lyrics-iwrestled.html">Iwrestledabearonce</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-j">J</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-jin.html">Jinjer</a>
+        <a href="./lyrics-jobfor.html">Job For A Cowboy</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-k">K</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-kadinja.html">Kadinja</a>
+        <a href="./lyrics-kill.html">Killswitch Engage</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-l">L</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-lgnd.html">LGND</a>
+        <a href="./lyrics-likemoths.html">Like Moths to Flames</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-m">M</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-means.html">Means End</a>
+        <a href="./lyrics-memphis.html">Memphis May Fire</a>
+        <a href="./lyrics-monuments.html">Monuments</a>
+        <a href="./lyrics-mouth.html">Mouth of the South</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-n">N</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-ne.html">Ne Obliviscaris</a>
+        <a href="./lyrics-necro.html">Necrophagist</a>
+        <a href="./lyrics-no-con.html">No Consequence</a>
+        <a href="./lyrics-norma.html">Norma Jean</a>
+        <a href="./lyrics-northlane.html">Northlane</a>
+        <a href="./lyrics-novelists.html">Novelists</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-o">O</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-obsc.html">Obscura</a>
+        <a href="./lyrics-oceans.html">Oceans Ate Alaska</a>
+        <a href="./lyrics-ohsleep.html">Oh, Sleeper</a>
+        <a href="./lyrics-oceano.html">Oceano</a>
+        <a href="./lyrics-overseer.html">The Overseer</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-p">P</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-parkway.html">Parkway Drive</a>
+        <a href="./peri.html">Periphery</a>
+        <a href="./lyrics-phin.html">Phinehas</a>
+        <a href="./lyrics-apleafor.html">A Plea For Purging</a>
+        <a href="./lyrics-prepeared.html">Prepeared Like A Bride</a>
+        <a href="./lyrrics-prot.html">Protest The Hero</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-q">Q</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-quiet.html">QuietKind</a>
+
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-r">R</h1>
+      </div>
+      <div class="band">
+        <a href="./reflect.html">Reflections</a>
+        <a href="./lyrics-revocation.html">Revocation</a>
+        <a href="./lyrics-ulta.html">Rings of Saturn</a>
+        <a href="./lyrics-risking.html">Risking It All</a>
+        <a href="./lyrics-rivers.html">Rivers of Nihil</a>
+        <a href="./lyrics-theroyal.html">The Royal</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-s">S</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-sheilds.html">Shields</a>
+        <a href="./lyrics-silent.html">Silent Planet</a>
+        <a href="./lyrics-sirens.html">Sirens and Sailors</a>
+        <a href="./lyrics-slice.html">Slice The Cake</a>
+        <a href="./lyrics-slugdge.html">Slugdge</a>
+        <a href="./lyrics-structures.html">Structures</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-t">T</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-tess.html">Tesseract</a>
+        <a href="./text.html">Textures</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-u">U</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-uada.html">Uada</a>
+        <a href="./lyrics-uneven.html">Uneven Structure</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-v">V</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-veil.html">Veil of Maya</a>
+        <a href="./lyrics-vitriol.html">Vitriol</a>
+        <a href="./lyrics-volumes.html">Volumes</a>
+        <a href="./lyrics-thevoy.html">(The) Voynich Code</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-w">W</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-warofages.html">War Of Ages</a>
+        <a href="./lyrics-wintersun.html">Wintersun</a>
+        <a href="./lyrics-woe.html">Woe, Is Me</a>
+        <a href="./lyrics-wolvesatthegate.html">Wolves At The Gate</a>
+        <a href="./lyrics-wovenwar.html">Wovenwar</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-x">X</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-xxi.html">XXI</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-y">Y</h1>
+      </div>
+      <div class="band">
+        <a href="./lyrics-yesterday.html">Yesterday as Today</a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-z">Z</h1>
+      </div>
+      <div class="band">
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+      </div>
+    </div>
+
+    <div class="Letter-wrap">
+      <div class="letter">
+        <h1 id="letter-#">#</h1>
+      </div>
+      <div class="band">
+        <a href="#"></a>
+        <a href="#"></a>
+      </div>
+    </div>
+
+    <div class="page-finish">
+      <a href="./security.html">Security Statements</a>
+      <a href="./terms.html">Terms of Service</a>
+      <a href="./privacy.html">Privacy Policy</a>
+      <a href="./contact.html">Contact</a>
+    </div>
+
+      </body>
+    </html>

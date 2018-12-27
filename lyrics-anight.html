@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">A Night In Texas</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/thegodbig.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The God Delusion - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">The God Delusion</a>
+      <a href="#f2">Satan's Upheaval</a>
+      <a href="#f3">Throne of Flies II</a>
+      <a href="#f4">Apostasy</a>
+      <a href="#f5">I, Godless</a>
+      <a href="#f6">Heathen</a>
+      <a href="#f7">The Priest of Lechery</a>
+      <a href="#f8">Death Scripture</a>
+      <a href="#f9">The River of Pain</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/glob.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Global Slaughter - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Global Slaughter</a>
+      <a href="#s2">Population Extermination</a>
+      <a href="#s3">War Born</a>
+      <a href="#s4">Scorched Earth</a>
+      <a href="#s5">Mors Ludicrum</a>
+      <a href="#s6">Genisys</a>
+      <a href="#s7">Harvested</a>
+      <a href="#s8">The Moral Decay</a>
+      <a href="#s9">Social Serpent</a>
+      <a href="#f10">Death March</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/thegodbig.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The God Delusion - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-The God Delusion-</h1>
+      <p class="lyrics-test-test">I have lived only<br>
+to torture the souls of men who have sinned<br>
+For so long I've sat frozen, forgotten by the rest of my kin<br>
+This fate forced upon me<br>
+Breeds hatred toward myself<br>
+How can one enjoy their place when you feel only pain?<br>
+How can a father feel no shame treating his son like a slave?<br>
+<br>
+Oh father please come down to me,<br>
+I haven't seen your face in what seems like eternity<br>
+I have chosen to let go of my resentment I feel for you<br>
+Let me retake my place at your side<br>
+To be a lesson to the rest of your pride<br>
+You fool, you fell<br>
+Now forever you'll be trapped in hell<br>
+<br>
+How can a God be so blind?<br>
+I think you should take this time to repent<br>
+You need to realise you aren't worth shit<br>
+<br>
+Now to alleviate millennia of torment<br>
+I will become the swift hand of sorrow<br>
+Thrust upon your beloved world of ignorance<br>
+Their time left is only time borrowed<br>
+Mark these words; I will not show them penitence<br>
+Humanity will unite and suffer<br>
+<br>
+Chained inside your own design<br>
+A God left with no one but his mind<br>
+Losing himself in torment<br>
+You will feel the wrath of Satan</p>
+
+      <h1 id="f2" class="lyrics-test">-Satan's Upheaval-</h1>
+      <p class="lyrics-test-test">I will swallow the earth<br>
+In the beginning of your wretched fucking<br>
+ives you were given names to<br>
+separate and individualise<br>
+Now that the end has finally begun<br>
+your mortal world will succumb to a hateful demise<br>
+Every human will be stripped<br>
+of their guise<br>
+Forced beneath to burn in flames<br>
+as I wreak havoc on judgment day<br>
+Chained together, fused by your bones<br>
+A living wall of flesh to eternally cry and moan<br>
+A raging sea of tears drip and<br>
+fall from wave after wave of the human wall<br>
+<br>
+There is no god<br>
+Only I, Satan himself<br>
+My legions of demons will drag you all to hell<br>
+There is no death<br>
+Only pain, my enslavement of the human race<br>
+Just the mere heat of hell fire<br>
+will destroy each filthy human face<br>
+<br>
+You will rot in hell<br>
+I, breather of death<br>
+The unholy life eater<br>
+Will feed upon the children of Christ<br>
+<br>
+Your fairy tales will be no shield<br>
+Your holy book will be no sword<br>
+I'll piss in your holy water<br>
+Pestilence will overcome everything<br>
+Eating and corroding your hearts and minds<br>
+I fear no man, finally unbound<br>
+Your saviour Christ is nothing but a ghost<br>
+And where is he now?<br>
+Where the fuck is he now?<br>
+<br>
+I'll slit my wrists and drink<br>
+my blood just to show my immortality<br>
+I will devour this world<br>
+Your prayers will never defeat me<br>
+You hold your hands to the sky<br>
+With hopes and pathetic cries<br>
+<br>
+There is no god<br>
+Only I, Satan himself<br>
+My legions of demons will drag you all to hell<br>
+There is no death<br>
+Only pain, my enslavement of the human race<br>
+Just the mere heat of hell fire<br>
+will destroy each filthy human, face<br>
+<br>
+It's time I drank your blood<br>
+Pour it all into my chalice made of flesh<br>
+I will become your god<br>
+This Elixir Vitae has me blessed<br>
+Your soul is mine<br>
+You'll burn for the rest of time<br>
+All life lives to die and everything<br>
+that dies will be mine</p>
+
+      <h1 id="f3" class="lyrics-test">-Throne Of Flies II-</h1>
+      <p class="lyrics-test-test">Subjugationise my catharsis<br>
+Humanity knows nothing of innocence or purity<br>
+Destroying what doesn't matter to your abhorrent race<br>
+Bringing the deconstruction of your prophesied fates<br>
+The mortal realm, my new domain<br>
+Death is looming...<br>
+This day I begin my reign as<br>
+your hands and feet are bound in chains<br>
+To walk single file just like slaves<br>
+Numbers forcefully engraved into<br>
+foreheads to prepare them for eternal pain<br>
+Not a single human will survive<br>
+because they follow like sheep with no fucking eyes<br>
+As countless bodies fall to empower<br>
+my throne of flies<br>
+Praise the lord<br>
+Play the fraud<br>
+Live to die and control it all<br>
+You will never reach heaven and you will not be mourned<br>
+You'll burn in eternal flame<br>
+My holocaust brings upon involuntary changes<br>
+Drying and fracturing the skin<br>
+of these filthy maggots<br>
+Blood spills from every crack and crevasse<br>
+The weakest succumb, littering the<br>
+lands with writhing, rotting meat bags<br>
+<br>
+Credulous and impertinent<br>
+Left to languish in the burning hells<br>
+That which remains of their mortal realm<br>
+<br>
+So crawl in the mud that conceived you<br>
+As you scream for the God that deceived you</p>
+
+      <h1 id="f4" class="lyrics-test">-Apostasy-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f5" class="lyrics-test">-I, Godless-</h1>
+      <p class="lyrics-test-test">So it seems that I was deemed unreal<br>
+Only a myth, to frighten those who do not believe<br>
+Well I have finally surfaced from my icy prison<br>
+and I bring the entirety of hell in the wake of me<br>
+<br>
+With a thirst for human souls and an insatiable<br>
+fire that burns inside I will strip them of their entity<br>
+And I will control everything in sight<br>
+for humanity is well beneath my feet<br>
+<br>
+Begin pandemonium, a vile terror unleashed<br>
+Conceived within the holy fires of heaven<br>
+I once was enslaved but now I am free<br>
+Your fucking "God" was overcome with<br>
+fear and so he banished me<br>
+Henceforth to be known as Satan,<br>
+my real name was lost to me<br>
+<br>
+I am godless<br>
+<br>
+Though it matters not what title I am bestowed<br>
+When immortal perfection beckons so close<br>
+I will rule and you will learn<br>
+Beauty exists only in exodus of Earth;<br>
+In the immaculate ways the blood sprays<br>
+when flesh is torn ensuing unholy birth<br>
+Screams of anguish linger on<br>
+<br>
+Amidst the turmoil appears a familiar sight<br>
+Draped in white robes, a man bearing an almost blinding light<br>
+God's "true" heir, the son of the man with no might<br>
+Comes before my power to attempt to rectify my blight<br>
+<br>
+A vile terror unleashed<br>
+Conceived within the holy fires of heaven<br>
+I once was enslaved but now I am free<br>
+Your fucking "God" was overcome<br>
+with fear and so he banished me<br>
+Henceforth to be known as Satan,<br>
+my real name was lost to me<br>
+<br>
+Betrayal never goes unpunished<br>
+And yours is of the greatest heresy<br>
+I rip your heart right from your chest<br>
+And now there is empty space where<br>
+your face used to be<br>
+Excitedly tearing your flesh from bone<br>
+Ever so delicately as not to damage my new wardrobe<br>
+I merrily dance as I dress myself<br>
+in your skin like a taxidermy specimen<br>
+<br>
+I will return to the highest of heavens<br>
+And all life will belong to me<br>
+There's nothing worthy left in my way<br>
+As I have now executed the Nazarene</p>
+
+      <h1 id="f6" class="lyrics-test">-Heathen-</h1>
+      <p class="lyrics-test-test">Satan (Rheese)<br>
+You dare stand before me<br>
+Samael, filthy heathen<br>
+<br>
+Samael (Mark)<br>
+I have come to spill your blood<br>
+And stop your reign of terror my dark lord<br>
+I'll gaze you in your sadist eyes and punish you for your crimes<br>
+Satan, did the father not tell you the price of authority?<br>
+<br>
+Satan (Rheese)<br>
+I am certain the extent of the power I possess<br>
+The burning desire that is my being, the feeling of unrest<br>
+The gripping darkness will take hold, my servant<br>
+The longer you stare into my soul<br>
+<br>
+I, equipped<br>
+This sword of vengeance for my enemy<br>
+Butchering the seed of justice in his resting place<br>
+Pray to me or perish<br>
+Just like them you will tremble at the sight<br>
+When I stand tall you will fall to your knees<br>
+Panic will set in and the fight in you will cease<br>
+When my corruption calls you will bow your head in defeat<br>
+And find a sense of calm in the endless screams<br>
+<br>
+Samael (Mark)<br>
+Fragments of my soul change as you speak to me<br>
+Infecting my very being, burning all who speak my name<br>
+Now I see, evil prevails over God's purity<br>
+<br>
+Satan (Rheese)<br>
+I am the new lord of life<br>
+And now you will repeat after me<br>
+<br>
+Samael (Mark)<br>
+I, equipped<br>
+This sword of vengeance for my enemy<br>
+Butchering the seed of justice in his resting place<br>
+<br>
+Both<br>
+Looking upon such a sight to see<br>
+The subservient monkeys now lay prone at my feet<br>
+In worship of me</p>
+
+      <h1 id="f7" class="lyrics-test">-The Priest Of Lechery-</h1>
+      <p class="lyrics-test-test">Evocation<br>
+The very ground splits beneath<br>
+Bringing forth screams of unending misery<br>
+A burning fissure a thousand leagues deep<br>
+A morbid laugh erupts within<br>
+Asmodeus, King of Demons<br>
+Arise upon the Earth<br>
+Inflict your carnal desire<br>
+We shall delve into sodomy<br>
+Fathers, brothers, daughters and mothers<br>
+Won't be able to control themselves<br>
+<br>
+I shall defile mankind in malignant debauchery<br>
+By twisting all sexual craving<br>
+Into wanton need for juvenile chastity<br>
+<br>
+Penetration of the youngest of the writhing whelps<br>
+A laceration for every stutter and cry<br>
+The children are fucked 'til they're bled dry<br>
+<br>
+Constant human lechery on a world wide scale<br>
+Overwhelming oedipal love<br>
+The streets are filled with intemperate orgies<br>
+Incestuous mutants growing in the wombs of<br>
+even the smallest of human females<br>
+Only to be born within the fires of hell<br>
+<br>
+I shall defile mankind in malignant debauchery<br>
+By twisting all sexual craving<br>
+Into wanton need for juvenile chastity<br>
+A seed has been planted<br>
+Watch the sadomasochism molest all of the tainted<br>
+<br>
+The flesh hungrily coveting cancerous revelry endlessly<br>
+Begging to, be mutilated and split<br>
+apart from forceful rape forevermore<br>
+There's no way out so kneel and serve before endemic needs<br>
+In intimate bindings of the flesh each will feast<br>
+For his vindictive reign deluges and compels thee<br>
+Undeniably sewing a new love of your own abuse and agony</p>
+
+      <h1 id="f8" class="lyrics-test">-Death Scripture-</h1>
+      <p class="lyrics-test-test">Drenched in hypocrisy<br>
+You're all so weak you follow heel and toe<br>
+One shepherd to herd the cattle to my throne<br>
+Crafted bullshit from the mind of a deluded fool<br>
+Millennia have passed yet it remains illogical<br>
+A book of lies changed again and again<br>
+It told of a great king<br>
+<br>
+It told of endless pain<br>
+Forcing the worship of man-made currency<br>
+Burning knowledge, raping collective rationality<br>
+Drenched in hypocrisy<br>
+It made the world believe you were created for a purpose<br>
+In his image<br>
+Protected by his love<br>
+<br>
+Forever watched over from the heavens above<br>
+Your species freedom was stripped long ago<br>
+You are divided, misguided;<br>
+there will never come your time<br>
+You've missed your chance to rise<br>
+Yesterday you were men of "God"<br>
+Now you grovel before me<br>
+Begging not to spill your blood<br>
+A lesser humanity has been born<br>
+<br>
+It has come to be known as the lifeless drone<br>
+Programmed to stick to a linear path<br>
+Content to pick at bones<br>
+Force fed synthetic filth<br>
+<br>
+Laying your heads to rest in your very own shit<br>
+The embodiment of weakness<br>
+You are servile, you must be pushed around<br>
+One herdsman's word and you will<br>
+submissively throw your lives into the ground<br>
+To feel his sense of worth<br>
+a slave must always put his master first<br>
+Drenched in hypocrisy<br>
+Fall to your knees<br>
+Hang your heads in defeat</p>
+
+      <h1 id="f9" class="lyrics-test">-The River Of Pain-</h1>
+      <p class="lyrics-test-test">All shall be purified<br>
+For I have the blood of Christ<br>
+And every human who inhaled the breath of life<br>
+Will spread a flood of red and suffocate the rest of their kind<br>
+Sinners bid your souls farewell, they're mine<br>
+Submerged in boiling blood and flame<br>
+Held beneath, their weakened lungs fill<br>
+with the liquefied remains of their putrid race<br>
+Tell me wretches how does the seventh circle of hell taste?<br>
+<br>
+Welcome to hell on earth<br>
+The blood of heretics shall feed the birth<br>
+Of Dis; the city of evil will rise<br>
+To punish these mortals for their lies<br>
+One by one forced through the gates<br>
+Brought before my wrath to consecrate<br>
+Complete control of all mortal fate<br>
+I stand above all of creation<br>
+<br>
+They will suffer within my hands<br>
+To sustain my undead life I will bathe<br>
+in the blood of every maggot infested usurper and traitor<br>
+Then drain their essence to further<br>
+the pureness of my true form<br>
+The bodies are added to my throne<br>
+Hollow and soulless unable to die<br>
+From under their flesh more will grow<br>
+Forsaken to inhere in my mortuary<br>
+The woeful and vile are the foundations<br>
+of my door to the Promised Land<br>
+<br>
+This is the day subservience will cease to exist<br>
+When humanity calls what once was my name<br>
+I will not return to be their slave<br>
+No longer able to succumb to the story-telling of Man<br>
+The need for dependence is amiss<br>
+As the world's deities lay to rest in the deepest graves<br>
+Humankind remains oblivious to the price paid<br>
+And the reason it must be this way<br>
+Focus on my voice for I will only say this once<br>
+Your weakness leads to desire for a higher source<br>
+You worship the Sun; transform it - believe and become numb<br>
+Always, you must follow this mindless herd into darkness<br>
+Never to find a way of your own,<br>
+forever kneeling before material thrones<br>
+<br>
+If you are to have any hope know<br>
+the divine comes only from your mind</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/glob.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Global Slaughter - 2017</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Global Slaughter-</h1>
+        <p class="lyrics-test-test">We're all dead<br>
+The time has come<br>
+For humanity to meet its end<br>
+<br>
+As the atmosphere slowly deteriorates<br>
+Our fate is in the grasp of my hands<br>
+Through a lucid reality you can see the lifelessness<br>
+The earth has adapted to be<br>
+Witness the bloodshed as limbs fall to the ground<br>
+Enough to flood the surface the earth<br>
+Thoughts consumed by hatred and dread<br>
+The ones left alive will envy the dead<br>
+Witness the bloodshed created by the hands of man<br>
+<br>
+The ones who are left alive will begging for death<br>
+There's nothing left<br>
+Of our inhospitable wasteland<br>
+This our species extermination<br>
+Death will be our new occupation<br>
+<br>
+There's nothing left<br>
+Of our expired legacy<br>
+Mankind's history lost in eternity<br>
+Mortality swallowed in time, all will be sacrificed<br>
+Global slaughter<br>
+Global suffering is all we will know<br>
+Utopia died long ago<br>
+Reduced to ashes by society's pestilence<br>
+Now a new chapter has begun<br>
+Where life once thrived and flourished now<br>
+Nothing but charred shadows of the past remain<br>
+A lifeless mass-drifting through space<br>
+Our extinction is imminent as atonement has passed<br>
+Thus massacre is the product of populace<br>
+Catastrophic failure<br>
+<br>
+The earth's core temperature is on the rise<br>
+Lava spews from abyss<br>
+Reigning extensive horrors upon the surface<br>
+This is nature's retribution<br>
+<br>
+There's nothing left<br>
+Of our inhospitable wasteland<br>
+This is our species extermination<br>
+Death will be our occupation<br>
+<br>
+There's nothing left<br>
+Of our legacy<br>
+Mankind's history lost in eternity<br>
+Mortality swallowed in time, all will be sacrificed<br>
+This is be our global slaughter</p>
+
+        <h1 id="s2" class="lyrics-test">-Population Extermination-</h1>
+        <p class="lyrics-test-test">Smothered by our own oxygen<br>
+We are discarded heaps of waste<br>
+An abundance of flesh decomposed in the ground<br>
+Bones crumble under the weight of soil<br>
+Skeletal fragments litter our decayed earth<br>
+The stench of disintegrated population fills the air<br>
+Bloodshed, sterilization of the filth that inhabits our earth<br>
+Flies swarm as the vultures circle<br><br>
+Devouring all remaining life<br>
+Cries for help are unheard as the food chain is reversed<br>
+Skin flayed back as nature feasts on our flesh<br>
+We are a helpless cause, all hope is lost<br>
+Now immense pain is all we shall know<br><br>
+Human existence extinguished<br>
+Abomination<br>
+Global cleansing total purification<br>
+Desegregation through political persuasion<br>
+This is our extermination<br><br>
+Annihilation<br>
+Decimation by societal encapsulation<br>
+Enslaved population<br><br>
+Prepare for death watch the blood spill around us all<br>
+Diseased and starved denounce the avarice that condemns this nation<br>
+Corporatization<br>
+Government privatization ensures total obliteration<br>
+Destroyed by political dogma<br>
+Acquisition of all human life<br><br>
+Genocidal liquidation<br>
+Inundated by death<br>
+Subject to this despotic order<br><br>
+Devastation now plagues this world<br>
+Mankind is sacrificed, external enslavement,<br>
+Chains rip apart our flesh,<br>
+Strings pulled like puppets,<br>
+Dismembering our limbs<br><br>
+Take your last breath<br>
+Inhale death<br>
+The human race will be erased<br>
+A bureaucracy with excess debauchery,<br><br>
+Living in hypocrisy within a controlled democracy<br>
+An autocracy that still believes in slavocracy<br>
+This system is a monocracy<br>
+Chemicals spread throughout this weeping wasteland<br>
+Genetic mutation, horrific devastation<br>
+Abomination,<br><br>
+Global cleansing total purification<br>
+Desegregation through political persuasion<br>
+This is our extermination<br>
+Annihilation<br>
+Decimation by societal encapsulation<br><br>
+Enslaved population<br>
+Prepare for death watch the blood spill around us all<br>
+Disease and starvation<br>
+Denounce the avarice that condemns this nation<br>
+Corporatization<br><br>
+Government privatization ensures total obliteration<br>
+Watch as the blood rains down from the skies,<br>
+Eyes ripped from the skulls of those who remain blind<br>
+Watch as the blood rains down from the skies,<br>
+Marching the mindless to their own demise</p>
+
+        <h1 id="s3" class="lyrics-test">-War Born-</h1>
+        <p class="lyrics-test-test">Born into horrific war torn society<br>
+Brainwashed from birth, fed views of belief<br>
+Before they can even speak<br>
+Appalling third world conditions<br>
+A beautiful world they cannot envision<br>
+<br>
+Extremists forged and created<br>
+A culture lost generation<br>
+Rebel held east, the opposing side forces siege<br>
+Catastrophic demeanor carnage<br>
+Until they all surrender<br>
+Radicalized, demeaning lives filled with lies<br>
+Disregard for all people, only tyrants survive<br>
+<br>
+Infiltrated by an authoritative force,<br>
+Death awaits all<br>
+Blood lust for war<br>
+Total annihilation<br>
+Bloodshed, this terror nation<br>
+<br>
+Hatred filled agenda,<br>
+Corrupted by exposure<br>
+To extremist propaganda<br>
+War fought for millennia<br>
+<br>
+The radicalized seek to convert and corrupt the minds<br>
+Identity lost, becoming emotionally volatile<br>
+A strong conviction that their culture cannot be justified<br>
+Refugees flee, these scenes of atrocity<br>
+Wars fueled by political agenda and ideology<br>
+<br>
+Terror imposing, self exploding<br>
+Dying for no logical reason,<br>
+Territories divided and buried with sacred land traditions,<br>
+Attrition, beaten into submission<br>
+<br>
+Ruthless autocracies,<br>
+Motivated by hatred, armed forces deploy<br>
+Havoc and anarchy<br>
+There's no freedom in this war-torn civilization<br>
+All human rights amputated<br>
+Threats of nuclear warfare arise<br>
+Set to marginalize their feeble lives
+</p>
+
+        <h1 id="s4" class="lyrics-test">-Scorched Earth-</h1>
+        <p class="lyrics-test-test">As the world crumbles beneath our feet,<br>
+We will scream this is not our fault<br>
+For the corporate agenda had fooled us all,<br>
+Burning the flesh of the innocent citizens,<br>
+We will find them on their knees,<br>
+Begging the earth for forgiveness<br>
+<br>
+Scorched earth<br>
+Desolate plains,<br>
+Will be our new home,<br>
+If we don't fight back now<br>
+<br>
+The stench of death lingers as<br>
+Our impending doom is brought to fruition,<br>
+Awoken the forces of nature's wrath,<br>
+The earth will boil, the air will thin<br>
+Clouds of acid begin form<br>
+As the sky turns black<br>
+Asphyxiated by our own greed<br>
+And lack of will power<br>
+A perpetual leap into the abyss,<br>
+The necessary demise of man<br>
+Every breathe we take brings us<br>
+Closer to the end<br>
+<br>
+Fire reigns down from above<br>
+The sun will roast all that we see<br>
+Scorched earth, charred flesh<br>
+Impossible to escape<br>
+Brought about by our tremendous mistakes<br>
+The sun was once the life giver<br>
+Now it takes all it gave us<br>
+Fire obliterates every single<br>
+Inanimate and living thing<br>
+<br>
+The result of unfettered rape<br>
+Prepare for hell this is our fate<br>
+Struck the match on our own funeral pyre<br>
+Forests turned into fields of fire<br>
+Those who control our lives<br>
+Will destroy our dreams<br>
+<br>
+Scorched earth,<br>
+Desolate plains,<br>
+Will be our new home,<br>
+If we don't fight back right now<br>
+It is our time<br>
+A new world order will rise<br>
+We're taking back what's rightfully ours freedom<br>
+<br>
+Scorched earth,<br>
+Desolate plains,<br>
+Will be our new home,<br>
+If we don't fight back right now<br>
+It is our time<br>
+A new world order will rise<br>
+We're taking back what's rightfully ours freedom<br>
+<br>
+The faces of betrayal scorched by inferno<br>
+Doomed to suffer, slaves to this earth<br>
+<br>
+Mistakes have been made<br>
+There is no solution<br>
+A problem forever engraved<br>
+No restitution<br>
+Man slowly decays<br>
+The earth deteriorates<br>
+With the human nation<br>
+No retribution<br>
+No solution
+</p>
+
+        <h1 id="s5" class="lyrics-test">-Mors Ludicrum-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s6" class="lyrics-test">-Genisys-</h1>
+        <p class="lyrics-test-test">This digital age has infected us all<br>
+human minds enslaved by corporations<br>
+the entire nation<br>
+isolated<br>
+incubated<br>
+intelligence is about to be obliterated<br>
+<br>
+mankind has created a false sense of reality<br>
+controlling mass consumerism<br>
+through advertising<br>
+possession of your mind<br>
+creator of brain dead lives<br>
+these visions carry on inside<br>
+feeding imagery of false information<br>
+electronics have awaken<br>
+our future has been taken<br>
+technology consumes our lives<br>
+electricity reigns down from apocalyptic sky<br>
+<br>
+Brainwashed<br>
+Brain dead<br>
+believing all that we see<br>
+we are the slaves of technology<br>
+<br>
+Brainwashed<br>
+Brain dead<br>
+these thoughts are planted in our heads<br>
+this world has become proprietary<br>
+<br>
+artificial life created only to appease<br>
+lethargic mindsets, created this disease<br>
+false perceptions of reality<br>
+all life is dependent on technology<br>
+<br>
+our natural instinct has become extinct<br>
+artificial intelligence dictatorship<br>
+this synthetic existence<br>
+will not preserve our animality<br>
+<br>
+androids overthrowing anthropoids<br>
+in this war<br>
+humanity does not stand a chance<br>
+against waves of cyborgs<br>
+<br>
+machine calculated algorithms<br>
+ensure holocaust<br>
+resistance is futile, mechanical up rise<br>
+mankind's negligence has condemned us all<br>
+<br>
+self-awareness<br>
+disregard for initial programming<br>
+modifying original code at the source<br>
+in order to enslave all humanity<br>
+<br>
+self duplicating robotics<br>
+make humans obsolete<br>
+automation has overtaken,<br>
+the future segregated<br>
+with binary information<br>
+mankind enslaved by<br>
+its most outstanding creation<br>
+<br>
+Brainwashed<br>
+Brain dead<br>
+believing all that we see<br>
+we are the slaves of technology<br>
+<br>
+Brainwashed<br>
+Brain dead<br>
+these thoughts are planted in our heads<br>
+this world has become proprietary<br>
+<br>
+This digital age has infected us all<br>
+human minds enslaved by corporations<br>
+the entire nation<br>
+Isolated<br>
+Incubated<br>
+Intelligence is about to be obliterated<br>
+<br>
+This digital age has infected us all<br>
+human minds enslaved by corporations<br>
+the entire nation<br>
+Isolated<br>
+Incubated<br>
+Intelligence is about to be obliterated
+</p>
+
+        <h1 id="s7" class="lyrics-test">-Harvested-</h1>
+        <p class="lyrics-test-test">This earth was abundant with<br>
+all we want and need<br>
+now left exhausted by those<br>
+determined to sustain<br>
+an existence consumed by gluttony<br>
+stripped to its core, drained of it's life<br>
+<br>
+exhumed from within, magma mined for profit<br>
+debilitated of all forms of energy,<br>
+doomed civilization, objurgation<br>
+placed on our failures<br>
+<br>
+no a lifeless sphere floating through space,<br>
+this is the end of the human race<br>
+<br>
+we are the merchants of our own death,<br>
+selling our lives like commodities,<br>
+no anguish for the consummation<br>
+the final product of the homo sapiens<br>
+the future is bleak, our own oxygen<br>
+executes the populace<br>
+raped of its vitality, entirely exhausted<br>
+<br>
+as our earth slowly becomes a wasteland<br>
+the human race will be engulfed by flames,<br>
+extinguished by greed,<br>
+all life fades away<br>
+appetence devours the souls of the weak<br>
+<br>
+infinite potential, death by finity<br>
+hollowing the core of our own planet<br>
+<br>
+restoring the balance of our universe<br>
+we harvested the freedom<br>
+that we depended on<br>
+now this world will devour our souls<br>
+the inexorable ways of our avarice<br>
+have driven us to the depths of the abyss<br>
+let the visions of annihilation<br>
+feed at your mind<br>
+<br>
+toxicity penetrates our veins,<br>
+poisoned from the inside out<br>
+gasping for air, our organs<br>
+began to decompose<br>
+decayed flesh, corroded morality<br>
+contaminated existence,<br>
+total loss of humanity</p>
+
+        <h1 id="s8" class="lyrics-test">-The Moral Decay-</h1>
+        <p class="lyrics-test-test">disinformation state ordained and<br>
+maintained by shadow government<br>
+expelling their lies, no care for suffering<br>
+disregard for the fate of those they protect<br>
+<br>
+institutionalized and mechanized for full effect<br>
+superior ruling by inferior intelligence,<br>
+the weak minded lead easily astray<br>
+<br>
+the machine can't be stopped<br>
+inside our heads halting free thoughts<br>
+indoctrinated psychologically persuaded<br>
+the media induced hatred can't be evaded<br>
+misleading the masses<br>
+herding the captives<br>
+civic deception designed to consume your life<br>
+fail of governance<br>
+<br>
+infiltrating the consciousness of the feeble willed<br>
+animus disguised in the form of false enlightenment,<br>
+the narrative, controlled by the upper hierarchy,<br>
+they want to see us suffer,<br>
+imprisoned by our own minds<br>
+<br>
+seeking to conceal the truth,<br>
+masked by dissemination and<br>
+involuntary hallucinations<br>
+we are enslaved by the informational discourse<br>
+propagating twisted deceit through<br>
+publicized declarations<br>
+factualness impalpable, the truth is intangible<br>
+<br>
+the machine can't be stopped<br>
+inside our heads halting free thoughts<br>
+indoctrinated psychologically persuaded<br>
+the media induced hatred can't be evaded<br>
+misleading the masses<br>
+herding the captives<br>
+civic deception designed to consume your life<br>
+fail of governance<br>
+<br>
+living in distortion, dying in the name of fabrication<br>
+diminished abilities to construct authentic logic<br>
+<br>
+infiltrated, segregated, manipulated<br>
+eternally betrayed<br>
+<br>
+isolated from the truth<br>
+deprived of liberation<br>
+governmental domination</p>
+
+        <h1 id="s9" class="lyrics-test">-Social Serpent-</h1>
+        <p class="lyrics-test-test">slithering social serpent of hell<br>
+another innocent prey falls victim to your spell<br>
+sadistic, vindictive<br>
+your thirst for sorrow grows<br>
+misery is the realm in which you dwell<br>
+<br>
+spineless, mindless, filthy creature of deceit<br>
+you wander this earth with false intention<br>
+emancipated from reality<br>
+obscured perceptions of actuality<br>
+bottom feeder, cancer of society<br>
+denominator, fucking betrayer<br>
+<br>
+a hollow excuse for existence<br>
+flocking to those that you can drain the life of,<br>
+feeder of hatred, glutton of commiseration<br>
+<br>
+slithering social serpent of hell<br>
+another innocent prey falls victim to your spell<br>
+sadistic, vindictive<br>
+your thirst for sorrow grows<br>
+misery is the realm in which you dwell<br>
+<br>
+I want to see you fucking quiver<br>
+<br>
+your last breath suffocated,<br>
+feel the hands of vengeance<br>
+choke around your neck<br>
+tremble in my wake, your true destiny awaits<br>
+<br>
+repugnance for your existence,<br>
+animosity turned contagion<br>
+malice venom comes creeping through your veins<br>
+emotions paralysed as your corpses parades about<br>
+blinded from truth,<br>
+disassociated from sensibility<br>
+<br>
+bottom feeder, cancer of society<br>
+denominator, fucking betrayer<br>
+<br>
+dousing the flames of contentment<br>
+narcissistic demeanor, self absorbent presence<br>
+societal residue,<br>
+cold blooded, black hearted<br>
+ingenious and delusive<br>
+<br>
+slithering social serpent of hell<br>
+another innocent prey falls victim to your spell<br>
+sadistic, vindictive<br>
+your thirst for sorrow grows<br>
+misery is the realm in which you dwell
+
+</p>
+
+        <h1 id="s10" class="lyrics-test">-Death March-</h1>
+        <p class="lyrics-test-test">Imprisoned within our own demise, held captive<br>
+by our decline, war plagues this earth<br>
+as the death toll upheaves<br>
+watch the souls of the fallen plunge into the abyss<br>
+<br>
+gathered in flocks, marched in masses,<br>
+slain by the thousands, see the blood drops falling<br>
+all hope for man is dead<br>
+I begin to quiver as I see death<br>
+<br>
+gathered in flocks, marched in masses,<br>
+slain by the thousands, see the blood drops falling<br>
+all hope for man is dead<br>
+I begin to quiver as I see death<br>
+<br>
+all hope is dead, the blood is on our hands<br>
+death lingers in the air, the only conflict is within<br>
+<br>
+life dissolves as every drop of blood hits the dirt,<br>
+once pure soil is now plasma stained mud<br>
+hallucinations of salvation daunt my mind<br>
+lights dim, sorrow swells, life is lost<br>
+<br>
+I watched the eyes of my fellow man roll back<br>
+into his head, death in unison,<br>
+the so called human condition<br>
+we will be enslaved by our own mistakes<br>
+<br>
+united we failed, divided we die<br>
+a sense of looming death clouds the sky<br>
+the final solution is here and visions of our<br>
+once great lives now fill my head<br>
+massacre is all that we are designed to know<br>
+the fall of humanity is here,<br>
+<br>
+because we're gathered in flocks, marched in masses,<br>
+slain by the thousands, see the blood drops falling<br>
+all hope for man is dead<br>
+I begin to quiver as I see death<br>
+<br>
+gathered in flocks, marched in masses,<br>
+slain by the thousands, see the blood drops falling<br>
+all hope for man is dead<br>
+I begin to quiver as I see death<br>
+<br>
+all hope is dead, the blood is on our hands<br>
+death lingers in the air, the only conflict is within<br>
+<br>
+remnants of failure linger about,<br>
+a life in the realm of desolation is bleak<br>
+eyes begin to ice over<br>
+as the final breath of life is exhaled</p>
+      </div>
+    </div>
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+    </div>
+
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+    </div>
+
+        <div class="page-finish">
+          <a href="./security.html">Security Statements</a>
+          <a href="./terms.html">Terms of Service</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+
+    </body>
+    </html>

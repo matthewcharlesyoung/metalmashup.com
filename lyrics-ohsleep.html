@@ -1,0 +1,2175 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Oh Sleeper</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/wheni.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">When I Am God - 2007</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Vices Like Vipers</a>
+      <a href="#f2">I Will Welcome The Reaping</a>
+      <a href="#f3">We Are The Archers</a>
+      <a href="#f4">Charlatan's Host</a>
+      <a href="#f5">The Siren's Song</a>
+      <a href="#f6">The Color Theft</a>
+      <a href="#f7">To Flagship</a>
+      <a href="#f8">His Name Was Bishop</a>
+      <a href="#f9">Building The Nations</a>
+      <a href="#f10">Revelations In The Calm</a>
+      <a href="#f11">The End Of A Dark Campaign</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/horns.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Son Of The Morning - 2009</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Son Of The Morning</a>
+      <a href="#s2">The New Breed</a>
+      <a href="#s3">In All Honesty</a>
+      <a href="#s4">Breathing Blood</a>
+      <a href="#s5">Reveries Of Flight</a>
+      <a href="#s6">World Without A Sun</a>
+      <a href="#s7">The Fire Dawn</a>
+      <a href="#s8">A Banquet For Traitors</a>
+      <a href="#s9">Commissioned By Kings</a>
+      <a href="#f10">The Finisher</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/children.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Children Of Fire - 2011</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">Endseekers</a>
+      <a href="#t2">Shed Your Soul</a>
+      <a href="#t3">The Marriage Of Steel And Skin</a>
+      <a href="#t4">Hush Yael</a>
+      <a href="#t5">The Conscience Speaks</a>
+      <a href="#t6">Dealers Of Fame</a>
+      <a href="#t7">Means To Believe</a>
+      <a href="#t8">In The Wake Of Pigs</a>
+      <a href="#t9">In The Wake Of Pigs</a>
+      <a href="#t10">The Family Ruin</a>
+      <a href="#t11">Chewing The Stitch</a>
+      <a href="#t12">Children Of Fire</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#fourth"><img class="lyrics-page_image" src="./images/titan.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Titan EP - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#ff1">Naofumi Mitsuhashi</a>
+      <a href="#ff2">The Pitch</a>
+      <a href="#ff3">Death From Above</a>
+      <a href="#ff4">Heavy Hands</a>
+      <a href="#ff5">The Rise</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/wheni.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">When I Am God - 2007</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Vices Like Vipers-</h1>
+      <p class="lyrics-test-test">You're scarlet soaked and bold<br>
+and the sheep's eyes locked to mine, sink to my bones.<br>
+Though your lips still drip, intentions,<br>
+they keep me wanting more...<br>
+It's rising against all the walls we built for falling.<br>
+All the walls we built just stand<br>
+in vain to draw you near.<br>
+It's the wool to hide the wolves.<br>
+And under these toes from where<br><br>
+we last spoke, Your words laid so firm.<br>
+But I did not shed that skin like You said.<br>
+When the mason neglects the mortar,<br>
+looks become deceiving<br>
+and when the bricks start to fall,<br>
+I'll be the one crawling down this road so dark.<br><br>
+Vices like vipers<br>
+Speak in whispers.<br>
+My heel's the meat to sink their teeth,<br>
+Like the viper I kept when You said, "Let go!"<br>
+This is what it took for me to see.<br>
+WHEN I AM GOD this church is unsound.<br>
+Slithering in the shade of a sinking church,<br><br>
+Surprise is no excuse for<br>
+the traps that you left in the wake of warning.<br>
+So this is the warning,<br>
+you fall to learn.<br>
+And to the girls,<br>
+You're worth more than the cheap words.<br>
+You see your body as beauty, but your pulse is worth more.<br>
+Hear me, it's not what it seems,<br>
+though the feeding tastes of honesty.<br>
+This is the warning,<br>
+you're just a hit to coax my urgency.<br><br>
+Why do we keep what holds us?<br>
+Why do I keep what holds me down?<br>
+Lose the weight of defeat.<br>
+It's time to stand your ground!<br>
+Vices like vipers<br>
+Speak in whispers.<br>
+My heel's the meat to sink their teeth,<br>
+Like the viper<br>
+I kept when You said, "Let go!"<br><br>
+Since all the alibis of ignorance are void...<br>
+This, my lust, the pornos and the sluts.<br>
+Take, my lust, this world's love.<br>
+Great Counselor, take what's left.<br>
+Great Counselor, take what's left of me.</p>
+
+      <h1 id="f2" class="lyrics-test">-I Will Welcome The Reaping-</h1>
+      <p class="lyrics-test-test">Like maggots,<br>
+they breed with headlines,<br>
+dining the wounds in breathless cadavers.<br>
+Mirror blind and aimed for gold,<br>
+Now watch a terror turn on its own.<br><br>
+They race and they race to<br>
+the carcass rot to feed.<br>
+And just past decay, this design<br><br>
+delivers life, but they prefer to play cancer.<br>
+In chase for the sky, towers uprise.<br>
+In fear, the earth quakes for what's forgot.<br>
+They cut like the butchers with pride<br>
+as their cleavers, as the tide prowls their shores.<br>
+They never listened when we screamed,<br>
+"Wash the blood from your hands!<br>
+Rip off the veils! Wash the<br>
+blood from your hands and run,<br>
+see what you forgot!"<br><br>
+Then the clouds met the sands as the cyclones began.<br>
+In epic charge rose the hordes,<br>
+all branches and thorns.<br>
+As the stone from their<br>
+walls broke legs as they crawled,<br>
+The stars had no mercy,<br>
+they screamed for blood in their fall.<br>
+Six eyes pierce the night and now...<br><br>
+24 teeth in each of the<br>
+3 makes 72 white knives your new ending.<br>
+With every slaughter<br>
+bring your kingdom home.<br>
+How are we deserving<br>
+this pain we are feeling?<br>
+How are we deserving<br><br>
+this pain with healing?<br>
+And on trails these<br>
+symphonies of agony...<br>
+Cant you see? We're still demanding self-pity.<br><br>
+Look to the moves of<br>
+the things surrounding.<br>
+We're the only ones,<br>
+the only ones who keep from growing.<br>
+One day the reaping will return,<br>
+and we'll be butchers no more.<br>
+Bring this slaughter home,<br>
+and send everything above.</p>
+
+      <h1 id="f3" class="lyrics-test">-We Are The Archers-</h1>
+      <p class="lyrics-test-test">We watched them fall.<br>
+Eyes locked to mine, feeling as if I had let them down.<br>
+Caught blinded by silk, led by lips to the baited chains.<br>
+Now look around regret.<br>
+As the axe swings before your eyes,<br>
+think how everyday we spent dreaming.<br><br>
+Never once did we pick up the sword and learn to fight.<br>
+Now is the time. Pick yourself up and fight.<br>
+Learn to swing. Learn to swing.<br>
+They watched me fall for the last time,<br>
+but how is such an elegant blade to be stopped?<br>
+When in times where eyes set<br>
+sites to cross-hair the weak.<br><br>
+My bride, I'll try, oh so hard,<br>
+to find that Light.<br>
+But in his mind she baits me to fire.<br>
+What a cunning foe we've met!<br>
+Our horizons pushed pages away to a new fight,<br>
+A new method, new plan. But how do I train?<br><br>
+How do you ready a child for war?<br>
+Oh what a cunning foe we've met!<br>
+The Captain, what will He send?<br>
+I know He will send, but what will be sent?<br>
+I can feel a slip. A buzzard scrapes nearby,<br>
+as I atop this hill, stand and scream.<br>
+It's all I can do to control<br><br>
+my gaze from the curiosity of seeing myself as prey.<br>
+And then I heard an armored march.<br>
+I heard an armored march that shook the trees.<br>
+Bows bent as they sang,<br>
+"WE ARE THE ARCHERS!"</p>
+
+      <h1 id="f4" class="lyrics-test">-Charlatan's Host-</h1>
+      <p class="lyrics-test-test">Sleep takes its hold with a sinking pull.<br>
+And now that I'm alone, this burst of light<br>
+fills my lids and I'm awake to the songs of horror.<br>
+Your ill-bought greatness, he's seen it all from the frame.<br>
+One day you'll reap the seeds of a shadowed past,<br><br>
+and I can only hope I'm there.<br>
+You tried to satisfy<br>
+the thirst of a thousand ages,<br>
+But built a stack of bones as<br>
+your monument to dead vanity.<br>
+It's just a shrine to the words<br>
+you use to wreck. Tell me, How can you sleep?<br>
+How can you just welcome the<br>
+wine and throw out your nets?<br>
+You throw out your nets and set<br>
+fame to bait the noose.<br><br>
+Set fame to derail whats innocent.<br>
+Why spare the life of inglorious waste?<br>
+Why let him live?<br>
+He's just hunting your own!<br>
+How can you just sit there and watch?<br>
+"Because i love you more than you know<br>.
+Look again and tell me what you see!"<br><br>
+In the window was me.<br>
+The massacres were all me!<br>
+Oh God, please! Please!<br>
+deliver the penalties for all of this from me.<br>
+I'm not finding justice,<br>
+no warrant for mercy...<br><br>
+don't give up on me.<br>
+Don't give up on me!<br>
+What happens when I turn<br>
+and run again? And again, and again?<br><br>
+"I will forgive you."<br>
+And what happens when I lie to your face?<br>
+"I will forgive you."<br>
+Oh my God, I can be<br>
+so defiant to some one<br>
+who's arms stretch to me.<br>
+"I will forgive."<br>
+Don't give up on me! Don't give up on me!<br><br>
+"I have forgiven you!"<br>
+I'll awake to new purpose to fight this body.<br>
+No longer will I play the dark shepherd.<br>
+Let not my words be<br>
+ripped from the throat of a horror.<br>
+Oh, forgiver!<br>
+Where is justice in letting me live?</p>
+
+      <h1 id="f5" class="lyrics-test">-The Siren's Song-</h1>
+      <p class="lyrics-test-test">We came from the pile.<br>
+We came from the dead and dying.<br>
+But the moment you pulled,<br>
+You brought us back to the living.<br><br>
+Stand here to a world at war.<br>
+This blacken field leads to ruin.<br>
+Ruled by folds pulled tight, and a pit so slick...<br>
+Draw your lines, let nothing cross. No!<br>
+What booming hate moves close,<br>
+so vast that the clouds would follow?<br><br>
+What looms, with thunder?<br>
+And the water did fall.<br><br>
+The turn of earth to mud.<br>
+Once dried veins, now fill and swell.<br>
+Lift the torches, light the fields!<br>
+We stand as the giants make way.<br>
+We stand as the giants make way.<br>
+We are the few to shed the fold,<br>
+we are the few!<br>
+Oh, sweet lit clarity grant<br>
+us the eyes for this bane.<br>
+Towered beasts now meet our lines...<br>
+But fast on the wind came a song,<br>
+and you turned.<br><br>
+The lines crossed now charge.<br>
+The lines crossed but you turned away.<br>
+It was a beautiful song,<br>
+sung through beast's jagged teeth.<br>
+It's not real. You'll see.<br>
+It's not real. You'll see. You'll see.<br><br>
+She's the touch that you want,<br>
+the soft wet skin that haunts.<br>
+Deep inside a warmth that<br>
+lies on a bed, she's calling to you...<br>
+Fight from your knees and the giants will fall.<br><br>
+...taste the wine of her lips,<br>
+feel free to taste this kiss.<br>
+And drink deep and forget the<br>
+struggle in the battle you live.<br><br>
+Don't turn we need you.<br>
+Don't turn I need you God.<br>
+The sirens are calling your name!<br>
+Come back. Come back.<br>
+Make the call. Make the call.<br>
+Father, send Your rain. Send Your rain.<br>
+Lay waste to the kings here.<br>
+Lay waste to their grip<br>
+and we'll rise. We will rise.
+</p>
+
+      <h1 id="f6" class="lyrics-test">-The Color Theft-</h1>
+      <p class="lyrics-test-test">I walk alone,<br>
+head down, in a pale grey scene.<br>
+Every step leads to atrophy.<br>
+This body made for conquest,<br><br>
+instead a pawn on a stage so worthless.<br>
+I saw the future as endless reaches.<br>
+The skyline's promise, has left me faced with.<br>
+Who's dreams are you killing?<br>
+And who's pockets are you filling?<br>
+Are you where you said you would be in the end?<br>
+I walk alone through the crowds<br>
+of past failed kings.<br>
+Auditions were called for the<br>
+hope-thirsting sheep.<br><br>
+What keeps this family of<br>
+fighters from facing the war that they were bred for?<br>
+Who's dreams are you killing?<br>
+And who's pockets are you filling?<br>
+Are you where you said,<br>
+you would be in the end....?<br><br>
+I once saw my deeds grow to greatness,<br>
+and now I'm lost in the folds and worthless.<br>
+Following the footsteps of heroes,<br>
+never led to the safe and grey roads.</p>
+
+      <h1 id="f7" class="lyrics-test">-To Flagship-</h1>
+      <p class="lyrics-test-test">One step meets two, open,<br>
+in the sea street. We will reign free.<br>
+I can't be king.<br>
+Right me from this dead bulb.<br>
+One step meets two,<br><br>
+open, in the sea street.<br>
+We will reign free,<br>
+as the sons of the first King.<br>
+When wave meets foot,<br>
+a ships wreck will drown it's crew.<br>
+Every man must face the fears,<br>
+so he can brave.<br>
+Please, turn this vessel back to flagship<br>
+So I can brave it,<br>
+hold fast and brave.<br><br>
+Every man who steps aboard must
+face the fears and brave. He must brave.<br>
+Cause even the most praised of ships,<br>
+will wreck when the captain is careless.<br>
+Oh Captain! The waves are,<br>
+like jaws, dripping...<br>
+Oh, let me not be made meal to the sea.<br>
+Cause I want to be strong.<br>
+Yeah I want to see the cannons jump<br><br>
+Strip my pride. Strip my pride.<br>
+Let no fault meet this hull.<br>
+I know the reef's kiss.<br>
+It cuts and sinks, draws me deep inside her.<br>
+I won't fear her.<br>
+Through swells, we will reign free.<br>
+As the sons of the first King.<br>
+The sons of Flagship.</p>
+
+      <h1 id="f8" class="lyrics-test">-His Name Was Bishop-</h1>
+      <p class="lyrics-test-test">With the dawn brings vision<br>
+of the crawling field.<br>
+Riddled with vain attempts. All in a corpse,<br>
+so familiar but not my own.<br>
+This is the difference, between you and I.<br>
+We are the captive fighters.<br>
+But cuffs must hold stronger.<br><br>
+Stronger than skin.<br>
+Oh, but until the drops number the floor I'll pull.<br>
+Cause I saw the gates,<br>
+I saw the gates.<br><br>
+And they're guarded by a<br>
+greedy shield and the most carnal of edge.<br>
+This is the difference.<br>
+You've left on your own, so forlorn.<br>
+What have you done?!<br>
+You've traded the chains,<br>
+and bought yourself a new crown.<br>
+Now there are no bars!<br><br>
+Now there are no bars!<br>
+When lips reveal the knives<br>
+a victim from light, becomes feed for the parched.<br>
+Bishop, you're as far from the<br>
+cloth as the dogs.<br>
+And we share that familiar thirst.<br>
+Bishop, mouths wet with the<br>
+thought of meat, to tear and taste.<br><br>
+But will it quench? Because it never does.<br>
+Oh our crest is the same,<br>
+but it's a lie when you wear it. It's a lie!<br>
+For the chain and the drops lure.<br><br>
+And you, the captive fighter, with victory off your tongue.<br>
+Thats what you did when<br>
+you made your own crown.<br>
+That's what you did!<br>
+When the weak looked up to you!<br>
+But you wore your own crown.<br>
+You fraud! Light the pyre!<br><br>
+A fraud has been found!<br>
+Let it be known,<br>
+this war will not be won without fire,<br>
+without loss, or without a fight.</p>
+
+      <h1 id="f9" class="lyrics-test">-Building The Nations-</h1>
+      <p class="lyrics-test-test">I've found the pit to find yourself surrounded.<br>
+To the husbands and daughters, brides and sons,<br>
+You put a tyrannic terror up on his throne.<br>
+He's collecting blood like diamonds from all.<br>
+Behind this door we face a war...<br>
+its claiming more.<br>
+Step back and take a look<br>
+around you because we will...<br><br>
+DESTROY! REBUILD! Plant the<br>
+seeds to reclaim victory!<br>
+On this day we will...<br>
+DESTROY! REBUILD!<br>
+Plant the seeds to reclaim victory!<br><br>
+Though struggle we'll press on.<br>
+Mark my words, you cant find<br>
+comfort in the arms of constrictors.<br>
+Lift back the scabs of<br>
+content and prepare for change.<br><br>
+The doors swing wide,<br>
+and we're drawn inside.<br>
+The gold stained bones<br>
+give off the only light.<br><br>
+Oh, I found your prints on a fleshy pulse.<br>
+You made the waves to meet my foot<br>
+And all the siren songs that ring on and on and on.<br>
+I watched your vipers bring down<br>
+the bishop and bait the chains to leave me hit.<br>
+Well I've brought all the archers,<br><br>
+we lit all the pyres, and we've come to...<br>
+DESTROY! REBUILD! Plant<br>
+the seeds to reclaim victory!<br>
+On this day we will...<br>
+DESTROY! REBUILD! Plant<br>
+the seeds to reclaim victory!<br><br>
+Through struggle we press on...<br>
+We are the army of the far from perfect.<br>
+This is the call to tear<br>
+down and rebuild this world.</p>
+
+      <h1 id="f10" class="lyrics-test">-Revelations In The Calm-</h1>
+      <p class="lyrics-test-test">When leaders turn to cowards<br>
+and fall gutless to bribes.<br>
+When seductions raise the curtains<br>
+and push virtue aside.<br><br>
+A holocaust is coming for all<br>
+the pure in this world...<br>
+You can't use ignorance as an alibi anymore.<br>
+We could all bear the world,<br>
+and fold our dreams to faults.<br><br>
+But when did hope fall short,<br>
+and force our lines to crawl?<br>
+When the real horror's in<br><br>
+mirrors looking back with a smile.<br>
+And arsenals of words used<br>
+to wreck start to pile.<br><br>
+A holocaust is coming for<br>
+all the pure in this world and<br>
+You can't use ignorance in your alibi anymore.<br><br>
+So when hell is at the gates,<br>
+who will stand and meet the waves<br>
+and take the fight to their graves<br>
+to end the dark campaign?<br>
+Its the reason we have come to<br>
+the forefront of this war.
+</p>
+
+      <h1 id="f11" class="lyrics-test">-The End Of A Dark Campaign-</h1>
+      <p class="lyrics-test-test">I've been hit! Oh My God! Oh My God!<br>
+The ground burst and cold soaks my shirt.<br>
+Send word!<br>
+The claret river forms at my<br>
+boots with a flash and rain of dirt,<br>
+I've been met for the hundredth time.<br><br>
+Call the medic.<br>
+This wounds meant to cripple! Run!<br>
+The red crest on his head<br>
+and a choice off his lips.<br><br>
+He sat never once phased.<br>
+While I'm open and spilling!<br>
+Is this the end?<br>
+Am I a sheep for the slaughter?<br>
+Am I just a sheep for the slaughter? Oh, no!<br><br>
+Oh Death, must you reap one more?<br>
+Medic! I've been hit! Oh my God! Oh my God!<br>
+The ground burst and cold....send word!<br><br>
+The claret river forms and pools over my head.<br>
+And for a moment I'm submerged in the lake,<br>
+and a sparks birth could not be heard.<br>
+All night the thunder of war raged<br>
+and it finally seemed as if I had met the eye.<br><br>
+With fights more lost than<br>
+won I walk away with one trophy.<br>
+A thousand scars on my own chest,<br>
+only to realize nowhere else was I hit.<br>
+But then with Your grip gloved by mercy,<br>
+I was wrenched back to the storm!<br>
+Lay dead or charge the line! Another patch wont do!<br><br>
+Cut it from my chest, and begin this run.</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/horns.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Son Of The Morning - 2009</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Son Of The Morning-</h1>
+        <p class="lyrics-test-test">And they call him the son of the morning...<br>
+I am the rival. I am the one who speaks in whisper.<br>
+Hear me now, dear, weak forgiver.<br>
+Hear me now, weak forgiver. Hear me now...<br>
+Don't send an angel to face the devil.<br>
+You're wasting power on grace.<br>
+A maggot will always seek to feed from the grave,<br>
+where I'll lead them and teach them to<br>
+feast on the skin that defeats them,<br>
+the skin they crave.<br>
+<br>
+"If you could see like me you'd see<br>
+you haven't won anything (anything)<br>
+If you could see like me you'd see,<br>
+it's by my grace that you're breathing (breathing)<br>
+If you could see like me you'd see you haven't won anything.<br>
+If you could see like me you'd see."<br>
+<br>
+Every night I start my rise,<br>
+climbing high into the morning sky,<br>
+but soon after I lose your bride and<br>
+I damn your son for stealing my light.<br>
+This world is mine...<br>
+They call me the son of the morning.<br>
+They call me the son of the morning.<br>
+I can mound all your fallen past<br>
+the clouds as they roll in,<br>
+and when I do I will claim your throne<br>
+through all these cowards you call your sons.<br><br>
+I am the lord of air and my dawn will last forever.<br>
+Go on pouring out because<br>
+in the end I will have them.<br>
+<br>
+"If you could see like me you'd<br>
+see you haven't won anything (anything)<br>
+If you could see like me you'd see,<br>
+it's by my grace that you're breathing (breathing)<br>
+If you could see like me you'd<br>
+see you haven't won anything.<br>
+If you could see like me you'd see,<br>
+your precious light is fading.<br>
+Your light is fading."
+</p>
+
+        <h1 id="s2" class="lyrics-test">-The New Breed-</h1>
+        <p class="lyrics-test-test">Reclaiming thrones,<br>
+our generation's pride,<br>
+sits a conformist ploy to strip what burns inside.<br>
+Our bodies yearn to live life endlessly,<br>
+so now we rise. We rise in mutiny.<br><br>
+We make our stand here between<br>
+the angels and animals.<br>
+We fear nothing here, where we can<br>
+beat any feat set to keep us crawling.<br>
+We're calling you here to give<br>
+leave to destruction of fear and<br>
+stand tall against all who will dare to shake you.<br>
+Don't let them shake you.<br>
+<br>
+"Stand strong, where I could not,<br>
+please stand strong"<br>
+<br>
+Oh please, this plea, dear God,<br>
+let it not from my lips be conceived.<br>
+<br>
+So grip your fist and swing until your knuckles bleed.<br>
+If you are the new breed scream,<br>
+"I am immortal!"<br>
+We can't sit quietly because<br>
+there's more to life than we see.<br>
+So if you are the new breed scream,<br>
+"I am Immortal in you!"<br>
+<br>
+This is the call of the new breed.<br>
+I want to feel what change your glory brings.<br>
+Please teach me life lived fearlessly<br>
+and I swear I'll make a stand here,<br>
+between the angels and animals and fear nothing.<br>
+Here, where I can be more than mortal<br>
+and fight for a kingdom that answers to no one.<br>
+But I just cant breathe without<br>
+you in the air and I won't so rip out these lungs<br>
+and for my heart, you can cut it from my chest.<br>
+Oh God, if that's what you want,<br>
+for me to feel life endlessly...<br><br>
+I'll breathe your blood for the rest of my life.<br>
+<br>
+So grip your fist and swing until your knuckles bleed.<br>
+If you are the new breed scream, "I am immortal!"<br>
+We can't sit quietly because there's more to life than we see.<br>
+So if you are the new breed scream, "I am Immortal in you!"<br>
+<br>
+We'll be death's dealers, if that's where you lead.<br>
+Anchored by glory, we rise in mutiny.<br>
+We are the new breed. We are the new breed.<br>
+We've come alive and we are moving.
+</p>
+
+        <h1 id="s3" class="lyrics-test">-In All Honesty-</h1>
+        <p class="lyrics-test-test">[feat. Cody Bonnette of AS CITIES BURN]<br>
+<br>
+Rest I have not found...<br>
+They keep coming, keep coming,<br>
+keep crawling right through my teeth.<br>
+They keep coming, keep coming,<br>
+your children I feed off to keep awake...<br>
+Long enough to meet the next little sheep...<br>
+Long enough to meet the<br>
+next to buy every word I preach.<br><br>
+It's like I was born to<br>
+rip the flesh from her bones.<br>
+I'm forever stalking the streets for the next one.<br>
+I've found I can run faster,<br>
+faster than guilt could ever.<br>
+I've found once a man lets<br>
+virtue aside he finds sweet what follows.<br><br>
+I've found that I can<br>
+run faster than guilt could ever.<br>
+"I'm bleeding while you're leading for my enemy."<br>
+How could you really<br>
+think that I am worth this rescuing?<br>
+I wish I could be so much more than me.<br>
+"You could be the one who pleases me.<br><br>
+You could be,<br>
+because I can reach through anything."<br>
+I wish I could be so much more than me.<br>
+"You could be the one who pleases me.<br>
+You could be... my arms are reaching."<br>
+You're reaching out to a dog that's tasted and turned.<br><br>
+Why? Why waste your time<br>
+when I've found my strength in another?<br>
+Can you see more in me?<br>
+Can you really see more than just a beast?<br>
+"I'm bleeding so you can be the one who pleases me!"<br>
+I'm sorry,<br>
+but I just can't justify this rescuing.<br>
+"You can't see fairness as your clarity.<br><br>
+The better man is what your heart wants to be<br>
+but you rape every trusted chance I bring your way.<br>
+If justice you seek,<br>
+in death it should be."<br>
+I wish I could be so much more than me.<br>
+"You could be the one who pleases me.<br>
+You could be,<br>
+because I can reach through anything."<br>
+I want to believe.<br>
+Will you take me?<br>
+"You could be the one who pleases me.<br>
+You could be,<br>
+my arms are reaching."<br>
+I don't want to be the<br>
+father who has to watch his daughter<br>
+be conned and stripped bare by a monster like me.<br>
+God, put me to sleep.</p>
+
+        <h1 id="s4" class="lyrics-test">-Breathing Blood-</h1>
+        <p class="lyrics-test-test">Regaining consciousness<br>
+under a swinging moon,<br>
+he speaks of alliances that<br>
+beckoned me long before the womb.<br><br>
+I've caused more wounds than I'm worth. I see now,<br>
+you must not have heard...<br>
+I am the natural born killer.<br>
+There is freedom past your history.<br>
+"This air won't fill my lungs!"<br>
+Because you should be breathing blood.<br><br>
+See, this death, it was your victory so...<br>
+"Teach me to fill my lungs!"<br>
+...never stop breathing blood.<br>
+I had it all so very wrong,<br>
+but I fought... I fought with only song.<br>
+God, I've tried... I'm trying<br>
+like a beast all alone, but my words... my words have aired in poison.<br>
+Please teach me how to breathe<br>
+because this air keeps failing my need.<br>
+Fill my lungs with what won't<br>
+bleed from my enemies.<br><br>
+He said, "If death is victory<br>
+how afraid of life can you be?"<br>
+I'm born a war machine not<br>
+knowing which beckon to heed.<br>
+Will I rise as a tool for<br>
+glory or be lost in dormancies?<br><br>
+I've regained consciousness<br>
+under this swinging moon.<br>
+You filled my lungs and each<br>
+breath heals this killer's wounds.<br>
+There is freedom past your history.<br>
+"But this air won't fill my lungs!"<br>
+Because you should be breathing blood.<br><br>
+See, this death, it was your victory so...<br>
+"Teach me to fill my lungs!"<br>
+...never stop breathing blood.<br>
+I hear him speaking to me.<br>
+For the first time he cleared my head<br>
+that's when he said,<br>
+"Only cowards keep dormant<br>
+their sleeping strength,<br>
+and soon you'll find,<br><br>
+only the fearless will reach their potential's peak."<br>
+(What will wing these words<br>
+if even the air is poisoned?<br>
+If the air is poisoned,<br>
+what will wing these words?)<br>
+"Tell me, if death is victory<br>
+how afraid of life can we be?<br>
+If death is victory how<br>
+afraid of life can we be?"</p>
+
+        <h1 id="s5" class="lyrics-test">-Reveries Of Flight-</h1>
+        <p class="lyrics-test-test">A sound ahead from distant peaks,<br>
+a song that all my brothers sing.<br>
+It's just out of reach, to join I<br>
+would need the wings the heaven denied me.<br>
+It's like you're deaf to my voice,<br>
+but I've been here for every moment,<br>
+waiting on your call to move.<br>
+If you could just make a choice,<br>
+I know you would find me<br>
+wanting only to be close to you.<br><br>
+"You keep denying my lead!<br>
+Because I've tried,<br>
+I've never pulled back my reach,<br>
+and I've stayed and I've died,<br>
+but you keep looking for me where I'm not.<br>
+I won't be just where you want me to be.<br>
+You've got to believe and<br>
+just trust that I can be everything."<br><br>
+It's like you're deaf<br>
+to my voice "but I'm not!"<br>
+but I've been here for<br>
+every moment "and I've fought"<br>
+waiting on your call to move "just call to move"<br>
+if you could just make a choice "oh I have"<br>
+I know you would find me wanting "I just want..."<br>
+only to be close to you "all of you."<br>
+If you would just try and let<br>
+(me) pry all your grips on worries,<br>
+I would come alive in your life and<br>
+let you find the flight you're longing.
+</p>
+
+        <h1 id="s6" class="lyrics-test">-World Without A Sun-</h1>
+        <p class="lyrics-test-test">I fear a world without the sun.<br>
+The day the sun never rose, cold swept the world.<br>
+And now stone and ice, the children she forms.<br>
+I lift my eyes to take in horizons of skin.<br><br>
+The cold is creeping to meet with<br>
+wrath above and you'll soon be<br>
+fearing to see what it kept us away from.<br>
+I fear a world without the sun.<br><br>
+I fear a world without the sun,<br>
+but never who wished it gone.<br><br>
+The trees are dead, yet alive more than ever,<br>
+growing flesh where once were leaves.<br>
+They stretch instead of tower,<br>
+like bone wrapped giants they reach.<br><br>
+Oh, but nothing stirs like the fire's thunder.<br>
+The cold is creeping to meet<br>
+with wrath above and you'll soon be<br>
+fearing to see what it kept us away from.<br>
+I fear a world without the sun.<br>
+I fear a world without the sun,<br>
+but never who wished it gone.<br>
+And now the ground pulses, constricting for birth.
+</p>
+
+        <h1 id="s7" class="lyrics-test">-The Fire Dawn-</h1>
+        <p class="lyrics-test-test">Stand up, we'll be more than kings.<br>
+Show no mercy when the gates swing.<br>
+I've said it before but without accepting<br>
+that my body was the only thing keeping me from living.<br>
+I wouldn't even let the surgeon touch me.<br><br>
+Though facing death, I dined on flesh...<br>
+but now I live to fight outnumbered.<br><br>
+I live to fight outnumbered at<br>
+the fire dawn to live in rebellious honor.<br>
+I'll stand, you'll see me over all of your fallen.<br>
+I'll be knee-deep,<br>
+knee-deep in a sea of their organs.<br>
+Send me all of hell and I'll face them,<br>
+I'll face them one on one-thousand.<br><br>
+Stand up, we'll be more than kings.<br>
+Show no mercy when the gates swing.<br>
+Breathe deep the sea at your knees.<br>
+Breathe deep and show no mercy..<br><br>
+With blistering heat, the army now bursting through,<br>
+blinds me with a light not meant<br>
+to empower but reigned to devour.<br>
+I'll face them one on one-thousand.<br>
+This kingdom's end is written,<br>
+I'll take it one on one-thousand.<br><br>
+I'll stand, you'll see me over all of your fallen.<br>
+I'll be knee-deep, knee-deep in a sea of their organs.<br>
+Send me all of hell and I'll face them.<br>
+I'll face them one on one-thousand and yell,<br>
+"Is there no one else?<br>
+Is there no one else left?"</p>
+
+        <h1 id="s8" class="lyrics-test">-A Banquet For Traitors-</h1>
+        <p class="lyrics-test-test">Again, I wake to you...<br>
+Stand up, these feet are so far from clean.<br>
+I'm undeserving of the strength in your arms used to save me.<br>
+But years passed when I saw Eve next to me,<br>
+she's wrapped in low-cut, dripping sensuality.<br>
+I remember the host,<br><br>
+but it's been so long since we spoke.<br>
+He said, "My son, you can hold perfection<br>
+in your arms if you wish."<br>
+but I sit at a banquet for traitors<br>
+placed here between a thief and a liar.<br>
+"Just run and hold perfection in<br>
+your arms as I slip..."<br>
+ut I'll make you the god of a<br>
+liar cause I've been both a saint and a viper.<br><br>
+I'll make you the god of a liar.<br>
+I am a lie, just like these traitors<br>
+that cry for forgiving replies<br>
+but keep their grips held tight.<br>
+Though my eye's on Eve you're ready<br>
+to bleed as if I'm royalty<br>
+but I am no king. I am no king.<br>
+His life spilled like a tide so divine.<br>
+It was a blood soaked feast that<br>
+never ceased as his veins dripped empty.<br><br>
+With such violent grace, the waves<br>
+hit my face and in painful clarity I turned fearfully...<br>
+"What makes you think you can deserve me?<br>
+WHAT MAKES YOU THINK YOU CAN DESERVE ME?"<br>
+My host fell to His knees as paling lips pushed His plea...<br>
+"My son, you can hold perfection<br>
+in your arms if you wish."<br>
+but I sit at a banquet for traitors,<br>
+placed here between a thief and a liar.<br><br>
+"Just run and hold perfection in your arms as I slip..."<br>
+but I'll make you the god of<br>
+a liar cause I've been both a saint and a viper.<br>
+By grace uneven, at the banquet portrayed,<br>
+through death, this life is saved.<br>
+But I am no king! I am no...<br>
+"Open your eyes, child, your sea is changing."</p>
+
+        <h1 id="s9" class="lyrics-test">-Commissioned By Kings-</h1>
+        <p class="lyrics-test-test">Give me your eyes so I can see through fire.<br>
+Give me your strength so I can stand so strong...<br>
+Now we walk on leathered skin to freedom.<br>
+The tempest roars but I am fearless.<br>
+With each step I crack and<br>
+stretch and each breath is a sting to my chest.<br>
+My God, will this push bring purity or...<br>
+Bring out the dead! Bring out the dead!<br><br>
+Bring out what you will have bow down,<br>
+and they will bow down.<br>
+"They're climbing,<br>
+they're climbing through soil and earth."<br>
+They have my scent!<br>
+"but you can stop them, I'm sure..."<br>
+Yes, I can best even the devil himself<br>
+"...but your pride has just made it worse.."<br>
+What writhing spite is unearthing here?<br><br>
+Why choose from prodigals a band<br>
+of cowards to hoist your banner of love for the world to the slaughter?<br>
+"Just a crack, the smallest of<br>
+laws and your legs have now failed you to crawl.<br>
+You're, from the dirt, insurgent<br>
+to warning, from lion to nothing at all.<br><br>
+Look and see, you're feeble and weak<br>
+for your body fights only your heart.<br>
+Call to me and unleash the strength,<br>
+your soul will begin to roar."<br>
+Give me your eyes so I can<br><br>
+see through fire.<br>
+Give me your strength so I can stand so strong...<br>
+I breathe in your light and<br>
+like fire my colors now light.<br><br>
+Though outnumbered by lines,<br>
+we'll stay and fight.<br>
+When we reach the gates all you'll hear us say is,<br>
+"Bring out the dead! Bring out the dead!"<br>
+Bring out what you will<br>
+have bow down and they will bow down.</p>
+
+        <h1 id="s10" class="lyrics-test">-The Finisher-</h1>
+        <p class="lyrics-test-test">Do you mean to challenge me?<br>
+Because your speech is<br>
+threatening to the writer of your history,<br>
+through a future perverted by envy.<br>
+Your whisper may sway the weak,<br>
+but when I speak it roars the sea.<br><br>
+Your challenge has been met,<br>
+because with a breath I could snap your neck.<br>
+This won't be like the first<br><br>
+time you tried, because my<br>
+patience and mercy for you has run dry.<br>
+You've watered among my bride<br>
+and started seeds to feed your throning flight.<br><br>
+I will sing to the world your<br>
+storm is capturing and the angels will join me...<br>
+We will sing to a world reborn from suffering.<br>
+But mark my words, because if that<br>
+tree keeps them from seeing me<br>
+I will burn off your limbs and<br>
+you will never shade again.<br><br>
+You will bow at my feet or I'll<br>
+rip out your knees and make of your face all the carnage you crave.<br>
+I am the Finisher and I am Forever.<br>
+I will sing to the world your<br>
+storm is capturing and the angels will join me...<br>
+We will sing to a world reborn from suffering.<br>
+From the armories the angels sing.<br>
+You will see them end this suffering.<br>
+From the armories the angels sing.<br><br>
+You will fear them when they lift their wings.<br>
+They will sing to a world reborn.<br>
+They will sing as I cut off your horns.<br>
+I'll cut off your horns.
+</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/children.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Children Of Fire - 2011</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-Endseekers-</h1>
+          <p class="lyrics-test-test">Pry your eyes and behold our captain<br>
+Rally round his feet<br>
+As he controls his captive<br>
+Bring him to his knees<br>
+Behold our captain<br>
+Rally round his feet<br>
+I'm calling the bold to stand and<br>
+Make the coward bleed<br>
+<br>
+Strain your chords<br>
+Push this chant through the discord<br>
+Lift your gall to an end seeking valor<br>
+We're bred to abound through the years<br>
+our beating pulses stood<br>
+contending the skins they indwell<br>
+<br>
+I said behold our captain<br>
+Rally round his feet<br>
+As he controls his captive<br>
+Bring him to his knees<br>
+Behold our captain<br>
+Rally round his feet<br>
+Calling the bold to stand and<br>
+Make the coward bleed<br>
+<br>
+"So long all you children"<br>
+Don't go! We're almost there!<br>
+"Your road is not yet coming to an end"<br>
+<br>
+What do my eyes perceive?<br>
+It's so contrary to the promise that<br>
+secured us because now you're nowhere to be found.<br>
+You can't just up and leave,<br>
+abandonment is the thumbprint<br>
+of that cur who just hit the ground<br>
+<br>
+You lead us straight to hell<br>
+<br>
+This is hell<br>
+This is hell<br>
+<br>
+Make my grave or animate my veins<br>
+Make my grave or animate my veins<br>
+<br>
+"So long you children" were the last words that you said<br>
+And now my bones just keep bending to reach for an end<br>
+You said brace yourself when the air grows thick<br>
+Brace yourself when the world constricts<br>
+And brace yourself for what will come next<br>
+<br>
+Pry your eyes and behold our captain<br>
+Rally round his feet<br>
+As he controls his captive<br>
+Bring him to his knees<br>
+Behold our captain<br>
+Rally round his feet<br>
+Calling the bold to stand and<br>
+Make the coward bleed</p>
+
+          <h1 id="t2" class="lyrics-test">-Shed Your Soul-</h1>
+          <p class="lyrics-test-test">This is the end!<br>
+This is all that there is,<br>
+There is no right or wrong,<br>
+No king, no throne to defend.<br>
+'Cause we are all that exists.<br>
+No blessing God,<br>
+No judge or law<br>
+There's no cost or calls from the top.<br>
+<br>
+We're all on our own!<br>
+We're on our own!<br>
+<br>
+No church exists in this world that we live<br>
+No beacons, no prophet<br>
+This is it<br>
+We are the only ones left.<br>
+No preachers, no new born believers,<br>
+Your faith is in jest<br>
+<br>
+What if we're wrong?<br>
+What if we're not alone?<br>
+What if we're lost?<br>
+We missed the whole point of it all?<br>
+What if I'm wrong?<br>
+What if we're not all alone?<br>
+What if our peace can never be felt on our own?<br>
+<br>
+I saw God die!<br>
+I saw God die!<br>
+<br>
+We're on our own!<br>
+<br>
+Well if all that remains is our avaricious wit,<br>
+Then an eye for an eye is the only law that can exist.<br>
+<br>
+So don't use your romance to soften defeat,<br>
+And trophies of war to boast of your feat,<br>
+You've failed and you've failed<br>
+Because your body is weak,<br>
+And you'll never be as strong as you dream to achieve.<br>
+<br>
+What if we're wrong?<br>
+What if we're not all alone?<br>
+What if we're lost?<br>
+And we missed the whole point of it all?<br>
+<br>
+I saw God die!<br>
+(I saw God die!<br>
+I saw God die!<br>
+(I saw God die!)</p>
+
+          <h1 id="t3" class="lyrics-test">-The Marriage Of Steel And Skin-</h1>
+          <p class="lyrics-test-test">Man, the one we followed<br>
+has fallen to our foe<br>
+But, oh man, you can’t just shed your soul<br>
+and let ruin all your thirsting tongues<br>
+Your tolls grow tallies,<br>
+but there’s no judge to pay the debts<br>
+Our judge is dead but one<br>
+must reside to bring down judgment<br>
+<br>
+This is my call from the kingdom and I will stand<br>
+Yes, I will stand<br>
+<br>
+I’ll stand for the fires of the victims<br>
+Left to die<br>
+Left to die<br>
+And I’ll stay until their cowards on a pyre<br>
+Burned alive<br>
+Burning alive<br>
+<br>
+Daughter! Sweet daughter!<br>
+What has brought this bed of blood?<br>
+What man? What man has entered my home?<br>
+He’s wreathed your body in sin<br>
+He must pay!<br><br>
+Now take my hand and show me the den where he lays<br>
+I’ll marry a blade to his throat<br>
+I’ll marry a blade to his throat<br>
+There’s going to be blood for<br>
+the blood that you've spilled<br>
+Blood for the blood of your forced will<br>
+<br>
+We’ll stand by the fires of the victims<br>
+Left to die<br>
+Left to die<br>
+And we’ll stay until their cowards on a pyre<br>
+Burned alive<br>
+Burning alive<br>
+<br>
+Now cut, cut until the head comes off<br>
+Until the head comes off<br>
+Now you’ve got to cut, cut until the head comes off<br>
+Until the head comes off</p>
+
+          <h1 id="t4" class="lyrics-test">-Hush Yael-</h1>
+          <p class="lyrics-test-test">Hush Yael,<br>
+I hear them coming,<br>
+We'll hide here until we're safe.<br>
+Just hold tight to me,<br>
+Until they find what they need.<br>
+<br>
+Hush little Yael,<br>
+I hear them leaving for the beach,<br>
+Where on the stone and sand,<br>
+Your sister finds her sleep.<br>
+<br>
+Wet your jaws for the world,<br>
+We're going back to the darkest hours.<br>
+Where our kind has confirmed,<br>
+We are the masters of sin and slaughter.<br>
+<br>
+On the 22nd day of the 4th month,<br>
+1979 warrants a judgement.<br>
+Because he came,<br>
+And he saw,<br>
+And this coward conquered a family asleep in their home.<br>
+<br>
+Rise!<br>
+Rise!<br>
+<br>
+We must rise for the helpless and fight for their justice!<br>
+<br>
+So lift your voices high,<br>
+Higher than the mountains of their spite.<br>
+We are,<br>
+We are the fearless,<br>
+The ruthless,<br>
+The heralds of our time!<br>
+<br>
+So lift your voices high,<br>
+Higher than the mountains of their spite.<br>
+We are,<br>
+We are the fearless,<br>
+The ruthless,<br>
+The heroes of our time!<br>
+<br>
+She had to watch,<br>
+Him pull the trigger in her daddy's back,<br>
+Then put his face to the waves until he took his last.<br>
+Then he took her life with the butt of his gun,<br>
+Four years from when her life had begun!<br>
+<br>
+Rise!<br>
+Rise!<br>
+Rise!<br>
+Rise!<br>
+<br>
+We are all weavers,<br>
+At the loom of slaughter.<br>
+But we will rise and make these victims our martyrs!<br>
+<br>
+So lift your voices high,<br>
+Higher than the mountains of their spite.<br>
+We are,<br>
+We are the fearless,<br>
+The ruthless,<br>
+The heralds of our time!<br>
+<br>
+So lift your voices high,<br>
+Higher than the mountains of their spite.<br>
+We are,<br>
+We are the fearless,<br>
+The ruthless,<br>
+The heroes of our time!<br>
+<br>
+Make him beg for his life!<br>
+Make him beg for his life!<br>
+He made me watch as my family died!<br>
+He'll never know what its like!<br>
+So cut him slow until his soul takes flight!<br>
+<br>
+Hush Yael,<br>
+They found him and they put him in chains,<br>
+The one who broke our home,<br>
+Is finally feeling pain.<br>
+<br>
+Hush little Yael,<br>
+I'm sorry your lungs are empty.<br>
+But in your new home,<br>
+That man will not be seen.<br>
+<br>
+End him slow!<br>
+End him slow!<br>
+<br>
+Make him feel the rocks,<br>
+That her temple rode!<br>
+<br>
+End him slow!<br>
+End him slow!<br>
+End him slow!
+</p>
+
+          <h1 id="t5" class="lyrics-test">-The Conscience Speaks-</h1>
+          <p class="lyrics-test-test">You shed his blood in my name<br>
+To cover up the messes that he made<br>
+<br>
+Will you please let it go?<br>
+<br>
+I helped you shed in their name<br>
+But can't you see our wounds still remain?<br>
+<br>
+Will you please let it go?
+</p>
+
+          <h1 id="t6" class="lyrics-test">-Dealers Of Fame-</h1>
+          <p class="lyrics-test-test">Now is the time,<br>
+so gather your strength for the ride<br>
+This tale is to teach you the dangers that rest inside<br>
+A lust for the power provided by fame<br>
+<br>
+"You can never stop us<br>
+We'll never have enough<br>
+The world will always fear us<br>
+The only key is fame fame fame<br>
+Don't ever try to save us<br>
+We'll prove we're always man enough<br>
+Look how they always chase us<br>
+All we need is fame fame fame."<br>
+<br>
+Innocence turned its head<br>
+at 19 as the two screamed,<br>
+"Don't try to save us<br>
+We'll prove we're man enough<br>
+Look how they chase us<br>
+All we need is fame fame fame"<br>
+<br>
+You follow all the moths that chase<br>
+the light you hold so high<br>
+You're carving up your soul to<br>
+feed the distance of your flight<br>
+With every cut they lift you up<br>
+With every cut they lift you up<br>
+<br>
+21 counts of murder and the public eye<br>
+She swings wide to open her arms and welcome the bribe<br>
+Behold, these are the monsters we've conjured<br>
+And they've both got to die<br>
+<br>
+Let them rot<br>
+Let them rot<br>
+Let them rot<br>
+<br>
+These are only a few for the list marches on<br>
+This fame is a drug and the addicts our gods.<br>
+But we measure their doses and give them a flame<br>
+So the charge is on us; we are the dealers of fame<br>
+<br>
+You follow all the moths that<br>
+chase the light you hold so high<br>
+Your carving up your soul to feed<br>
+the distance of your flight<br>
+With every cut they lift you up<br>
+With every cut they lift you up<br>
+<br>
+16th of July, Ukraine saw the horror<br>
+that rests inside a lust for<br>
+the the power provided by fame
+</p>
+
+          <h1 id="t7" class="lyrics-test">-Means To Believe-</h1>
+          <p class="lyrics-test-test">You’re building a ship with no sails<br>
+And setting out to brave the open seas<br>
+You’re standing for your God by<br>
+becoming something so far off<br>
+Don’t you see the irony?<br>
+<br>
+He gave me a train with no tracks<br>
+With no wood to build or burn for steam<br>
+Despite all I lack<br>
+If I derail he’ll turn his back<br>
+Don’t you see the irony?<br>
+<br>
+If the blind can see you<br>
+And the lame can meet you<br>
+Will the dead embrace you if<br>
+you never gave them the means to believe?<br>
+And that makes no sense to me<br>
+<br>
+He gave me a voice that speaks out<br>
+But paired it with a mind that’s filled with doubt<br>
+If I’m to find the sun<br>
+I need something more than song<br>
+to pull me from this cave of questioning<br>
+<br>
+Give me sand to build a home<br>
+And watch all the walls fall on me<br>
+I can’t change what I am<br>
+Lions always kill the lambs<br>
+Don’t you see the irony?<br>
+Don’t you see the irony?<br>
+<br>
+If the blind can see you<br>
+And the lame can meet you<br>
+Will the dead embrace you if<br>
+you never gave them the means to believe?<br>
+And that makes no sense to me<br>
+<br>
+Will I embrace you?<br>
+Will you ever give me the means to believe?<br>
+Answer me… please.</p>
+
+          <h1 id="t8" class="lyrics-test">-In The Wake Of Pigs-</h1>
+          <p class="lyrics-test-test">It makes me sick that it's<br>
+hard to distinguish<br>
+An honest leader who preaches a cause<br>
+That's not made, and not based<br>
+On the profit they'll receive from telling the world<br>
+What line divides you from the seeders<br>
+Who sow without growing believers<br>
+You point and you judge<br>
+Forgetting that their<br>
+faith is molded by your lead<br>
+<br>
+So where am I to find<br>
+A voice that's pure in urging me to climb?<br>
+There's gotta be more, there's gotta be pigs<br>
+I've joined them and clawed at the ground for my feed<br>
+I've seen bloodshed but the words still remain<br>
+I left, I fled, I called, I cursed<br>
+I changed from "certain" to "searching"<br>
+But nothing has answered deserving faith<br>
+<br>
+You are not alone in the eye of the darkest storm<br>
+We are the lighthouse shining a lamp from the shore<br>
+To bring your journey home<br>
+You are not alone, use this song to lead you home<br>
+We are what's left of the love<br>
+that can pierce through the callous<br>
+Life you've spent undone<br>
+We are the legacy that's left<br>
+to breathe the winds to sail you home<br>
+You are not alone<br>
+If you can hear this song<br>
+The battle has been won!<br>
+<br>
+Don't go, don't go!<br>
+I've got to use your voice to light the way back home<br>
+'Cause I need to see, I need to breathe<br>
+So much more than my kind is offering<br>
+Where am I to find<br>
+The voice that keeps urging me to climb?<br>
+I need to hear it again or I'll<br>
+lose sight of land and be<br>
+swept past my chance to survive<br>
+<br>
+Follow your pulse to the shallows<br>
+Unleash your will to survive<br>
+Make every step draw you closer<br>
+To be the hero you've always denied<br>
+<br>
+Where is your voice coming from?<br>
+Show me a sign I can trust<br>
+I need something more to believe in<br>
+A beacon or something to merit pressing on<br>
+<br>
+You are not alone in the eye of the darkest storm<br>
+We are the lighthouse<br>
+shining a lamp from the shore<br>
+To bring your journey home<br>
+You are not alone, use<br>
+this song to lead you home<br>
+We are what's left of the love<br>
+that can pierce through the callous<br>
+Life you spent undone<br>
+We are the legacy, that's left<br>
+to breathe the wind to sail you home<br>
+You're not alone<br>
+If you can hear this song<br>
+The battle has been won!<br>
+<br>
+Spread wide your wings<br>
+Let the draft lift you up<br>
+You've heard the call of the future flock<br>
+You're coming home
+</p>
+
+          <h1 id="t9" class="lyrics-test">-Claws Of A God-</h1>
+          <p class="lyrics-test-test">Brace yourself for the climb is steep<br>
+You'll need every ounce of brawn<br>
+For the mountain won't stop 'til you bleed.<br>
+<br>
+Beware of headlines that volume the growing deceit<br>
+That justice will not begin to breed without smoke<br>
+Breed without smoke<br>
+<br>
+Keep close things you learned from the fall<br>
+Cast your wounds to heal without flaw<br>
+Keep close things you learned from the fall<br>
+Cast your wounds to heal without flaw<br>
+<br>
+Beware<br>
+Beware for there's a zealot<br>
+unleashed and sighting the end<br>
+Through a scope of righteousness<br>
+that's blinded by blood on the lens<br>
+He won't stop until his claws<br>
+reach his faults and he sees he's not the<br>
+Hands of God<br>
+<br>
+He'll choke on the smoke<br>
+Choke on the smoke<br>
+<br>
+Keep close things you learned from the fall<br>
+Cast your wounds to heal without flaw<br>
+Keep close things you learned from the fall<br>
+Cast your wounds to heal without flaw<br>
+<br>
+Keep close things you learned from the fall<br>
+Cast your wounds to heal without flaw<br>
+Keep close things you learned from the fall<br>
+Cast your wounds to heal without flaw<br>
+<br>
+Cast your wounds<br>
+Cast your wounds or you'll choke on the smoke<br>
+Choke on the smoke<br>
+You'll choke on the smoke that you breathe from your own code</p>
+
+          <h1 id="t10" class="lyrics-test">-The Family Ruin-</h1>
+          <p class="lyrics-test-test">She finds him by the fire,<br>
+His clothes have got him dripping from his crimes.<br>
+He beckons her, "Sweet daughter,"<br>
+The voice that once avenged her younger life.<br>
+<br>
+He's got the voice of a con,<br>
+The same one<br>
+Who cut down in the name of his God,<br>
+Who took on the robe of a judge,<br>
+Without a license to kill without cause.<br>
+He's not worth it.<br>
+He's not worth it;<br>
+He's not worth it.<br>
+Remember what he did that made<br>
+you question all the words he cited!<br>
+<br>
+From the book, the same book,<br>
+That's reeling you home after<br>
+so many years of silence.<br>
+<br>
+And the daughter watches father,<br>
+As he sleeps and dreams, she brings the knife to light.<br>
+'Cause she knows he can't go farther,<br>
+And he'll never wake to see his daughter cry.<br>
+<br>
+Don't lose control or you will long<br>
+To go back to this time and rewrite your thought.<br>
+'Cause you're about to choose what's to come,<br>
+So ironic, it's ironic, it's ironic<br>
+that you're contemplating murder<br>
+While I'm educating you in mercy!<br>
+You say you want, you say you want,<br>
+The means to believe, so don't change who you are,<br>
+'Cause who you are is how I made you to discover me!<br>
+<br>
+The steel marries his skin.<br>
+No, it's not worth it, it's not worth it.<br>
+(I cut him down! I cut him down!)<br>
+He didn't have to fall, it's your fault,<br>
+It's your fault. You lost control,<br>
+And now you long to go<br>
+back and rewrite your thought.<br>
+But I won't let you slip away.<br>
+Not this time, not this time.<br>
+This time you're gonna learn<br>
+what it means to receive the very mercy<br>
+That you denied when you denied<br>
+The means to believe,<br>
+I'll keep feeding you the proof that you need,<br>
+But you spit it out to follow further your doubt.<br>
+<br>
+And now he can't go farther,<br>
+'Cause he'll never wake to see his daughter cry
+</p>
+
+          <h1 id="t11" class="lyrics-test">-Chewing The Stitch-</h1>
+          <p class="lyrics-test-test">Oh my God, I can feel something moving<br>
+The air is still growing thick but it's soothing<br>
+I've done nothing to merit forgiving<br>
+But if the chance should arise and you hear me<br>
+<br>
+Make my voice be the proof that they need<br>
+That light beams even from the tongues unseen<br>
+<br>
+I've never felt so alive<br>
+The wind is ushering a change and<br>
+I can't believe I'm alive<br>
+After attempts to free the pain and<br>
+<br>
+You are the new sign of proof<br>
+A calloused heart can still be reached so<br>
+Stand and believe that it's true<br>
+You hold the voice to change the seas<br>
+<br>
+Oh the journey of ships are just starting<br>
+All the guilt and the shame of the games I played<br>
+Deaf to my heart starts to fade<br>
+<br>
+And I will speak for every one of us<br>
+The rebel dogs who rejected love<br>
+Chew the stitch until you taste the blood<br>
+Find so much more when you give it up<br>
+Give it up<br>
+Give it up<br>
+<br>
+We are monsters on our own<br>
+(we are monsters on our own)<br>
+Banded together we'll overcome<br>
+(banded together we'll overcome)<br>
+We are monsters on our own<br>
+(we are monsters on our own)<br>
+Banded together we'll overcome<br>
+(banded together we'll overcome)<br>
+<br>
+Now that I've found you<br>
+<br>
+I've never felt so alive<br>
+The wind is ushering a change and<br>
+I can't believe I'm alive<br>
+After attempts to free the pain and<br>
+<br>
+You are the new sign of proof<br>
+A calloused heart can still be reached so<br>
+Stand and believe that it's true<br>
+You hold the voice to change the seas<br>
+<br>
+Don't expect us to apologize,<br>
+Rebel dogs in the spotlight<br>
+We want no truce<br>
+No truce or compromise<br>
+</p>
+
+          <h1 id="t12" class="lyrics-test">-Children Of Fire-</h1>
+          <p class="lyrics-test-test">We were born to fight!<br>
+<br>
+Here I stand, my breath is baited waiting for the clouds to burst<br>
+I plead and scream, "Come what may!"<br>
+<br>
+Dear God, lift me up from this ground of pain<br>
+The heat has reached a degree that's bringing me to faint<br>
+My faith and sweat have remained to contend the grave<br>
+Despite the sting, we wait until you bring our fate<br>
+<br>
+We're singing<br>
+We are the children of fire<br>
+We are the lions<br>
+We stayed when all else deserted<br>
+Because we were born to fight and fight and fight<br>
+<br>
+I see you, tattered and bruised<br>
+You're the only ones who remained true<br>
+I hear your call through the thick of it all<br>
+You've waited so long for the rescue<br>
+<br>
+Our time has come<br>
+I'm sweating red, I'm sweating red, I'm sweating red<br>
+I'm red, I'm sweating red, I'm sweating red, red, red<br>
+I'm sweating red, I'm sweating red, I'm red<br>
+I'm sweating red, I'm sweating red red red<br>
+<br>
+It turns from blue,<br>
+The sky comes unglued<br>
+It falls to the earth as my answer<br>
+It's so far from rain, the lot will feel pain.<br>
+As it singes their skin but for you it will soothe<br>
+<br>
+What descends feels like heaven on my skin<br>
+Finally I am free to never breathe again<br>
+My body lifts from the ground I was rooted in<br>
+And I pass the spark as it races to the rest of them<br>
+<br>
+We are the children of fire<br>
+We are the lions<br>
+We stayed when all else deserted<br>
+Because we were born to fight and fight and fight<br>
+<br>
+Ignite, ignite, ignite the world<br>
+Ignite, ignite, ignite the world<br>
+Ignite, ignite, ignite the world<br>
+Ignite the world and let it burn!</p>
+        </div>
+      </div>
+
+      <div class="lyrics-layout">
+        <div class="lyrics-layout_image">
+          <img id="fourth" class="lyrics-page_image" src="./images/titan.jpg" height= "100%" width="auto"/>
+        </div>
+        <div class="lyrics-page_album-title_wrap">
+          <h1 class="lyrics-page_album-title">The Titan EP - 2013</h1>
+        </div>
+          <div class="lyrics-page_album-songs">
+            <h1 id="ff1" class="lyrics-test">-Naofumi Mitsuhashi-</h1>
+            <p class="lyrics-test-test">I've got something to say<br>
+I've got something to say<br>
+I've got something to say<br>
+I've got something to...<br>
+<br>
+This scene is too far gone<br>
+<br>
+I've got something to say<br>
+I've got something to say<br>
+I've got something to say<br>
+I've got something to...<br>
+<br>
+This scene is too far gone to<br>
+expect a message of peace to reach the top charts<br>
+We are a giant divided by fear<br>
+forged knives in the fires of our pride<br>
+We can't grow until we dethrone<br>
+all of the emptiness<br>
+<br>
+Gentlemen! Gentlemen!<br>
+Your brawn will not be<br>
+measured by the stiffness of your cap<br>
+Gentlemen! Gentlemen!<br>
+The statements on your<br>
+knuckles don't make you the man<br>
+<br>
+You say "I'm sick, I'm so sick"<br>
+But then bandage with a<br>
+soiled tune and revel in the stench<br>
+"I'm sick, I'm so sick"<br>
+But you bandage with a<br>
+soiled tune and leave us singing...<br>
+<br>
+I'll seek the end,<br>
+I'll seek it 'til the end<br>
+Not of life, but the<br>
+ignorance poisoning our limbs<br>
+<br>
+I'll seek the end,<br>
+I'll seek it 'til the end<br>
+Not of life, but the<br>
+ gnorance poisoning our limbs<br>
+<br>
+Now ladies, are you listening?<br>
+How many artificial layers do<br>
+you need to feel secure<br>
+Ladies, ladies!<br>
+How many opposing choices will<br>
+you make against your worth all for attention?<br>
+<br>
+Cause it's cut you deep<br>
+You are no more the face you<br>
+paint than the muscles beneath skin<br>
+You are no more the muscles<br>
+than the bones beneath them<br>
+<br>
+Ladies and gentlemen<br>
+May I ask you one last thing before the beginning?<br>
+Will you ever be an audience that<br>
+sees all the sick and empty lies you've been feeding<br>
+<br>
+You got something to say?<br>
+Then spit it out right now in front of all the fakes<br>
+Drop out of the masquerade<br>
+and wear you own name<br>
+<br>
+Wear your own name<br>
+<br>
+I'll seek the end, I'll seek it 'til the end</p>
+
+            <h1 id="ff2" class="lyrics-test">-The Pitch-</h1>
+            <p class="lyrics-test-test">The time has come for a revolution<br>
+When your drive surpasses your body's reach<br>
+You could be everything you've ever wanted<br>
+Marry your skin to steel to see what I mean<br>
+<br>
+Step right up and read all about it<br>
+There's a new contender in town<br>
+In the air there's a stir<br>
+With a hopefulness about it<br>
+And I'm starting to think it could be my out<br>
+<br>
+Have I not suffered<br>
+Have I not endured long enough<br>
+Could it be you're really helping me<br>
+It's about damn time you showed mercy<br>
+<br>
+I have this dream every night I see<br>
+The world below passing quietly<br>
+I'm lifted up through the cloudy peaks<br>
+'Til I'm up so high<br>
+I can barely...<br>
+<br>
+Well this has got to be everything you wanted<br>
+This has got to be everything you've waited for<br>
+The cost is cheap to see<br>
+These dreams achieve fruition<br>
+After all the world<br>
+Has laughed at your ambition<br>
+<br>
+No longer hooked in a maze<br>
+With the shadows of my dreams<br>
+But am I looking away in the shallow end of these<br>
+Now I want the world to see<br>
+I can forever be<br>
+What wasn't there for me<br>
+Fill the field and fly away<br>
+<br>
+I have this dream every night I see<br>
+The world below passing quietly<br>
+I'm lifted up through the cloudy peaks<br>
+'Til I'm up so high<br>
+I can barely breathe<br>
+<br>
+Well this has got to be everything you wanted<br>
+This has got to be everything you've waited for<br>
+The cost is cheap to see<br>
+These dreams achieve fruition<br>
+After all the world<br>
+Has laughed at your ambition<br>
+<br>
+This has got to be everything I wanted<br>
+This has got to be everything I've waited for<br>
+The cost is cheap to see<br>
+These dreams achieve fruition<br>
+After all the world<br>
+Has laughed at my ambition<br>
+<br>
+Hey!<br>
+Hey!<br>
+<br>
+The time has come for a revolution!
+</p>
+
+            <h1 id="ff3" class="lyrics-test">-Death From Above-</h1>
+            <p class="lyrics-test-test">These eyes alive<br>
+Dilating for the very first time<br>
+Alive<br>
+<br>
+I vow to fill my grave with a life not wasted<br>
+I am a storm that's grown in the winds of woe<br>
+I built these wings with bones<br>
+That broke on the grounds of weakness<br>
+I am a Phoenix reborn!<br>
+<br>
+This is a life time of chances<br>
+You'd kill for any one of them<br>
+Now you hold the keys<br>
+But can you kill enough to keep them<br>
+The choice is yours<br>
+Don't lose sight don't sell short<br>
+The dream you set before<br>
+This is what you were made for<br>
+<br>
+Open your eyes to a new sun<br>
+Embrace the fire, never give it up<br>
+Stretch out the wings you long for and soar<br>
+Like no one's ever seen before<br>
+<br>
+Sit back and watch me<br>
+I'm gonna make you proud<br>
+I'll be the spear that pins the cowards down<br>
+Just give me a target<br>
+Just give me that green light<br>
+I'll bring down everything to see it's smite<br>
+<br>
+'Cause I!<br>
+I am!<br>
+Death from above!<br>
+Remember my name!<br>
+I!<br>
+I am!<br>
+Death from above!<br>
+The sky is opening up!<br>
+<br>
+Open your eyes to a new sun<br>
+Embrace the fire, never give it up<br>
+Stretch out the wings you long for and soar<br>
+Like no one's ever seen before<br>
+<br>
+These eyes alive<br>
+Dilating for the very first time<br>
+Alive<br>
+<br>
+I!<br>
+I am!<br>
+Death from above!<br>
+Remember my name!<br>
+I!<br>
+I am!<br>
+Death from above!<br>
+The sky is opening up!
+</p>
+
+            <h1 id="ff4" class="lyrics-test">-Heavy Hands-</h1>
+            <p class="lyrics-test-test">Could it be the dream<br>
+as meant to deceive,<br>
+When everything in me<br>
+Bought that happiness would follow it's lead<br>
+If only I believed?<br>
+And now the choice is mine to<br>
+let it die and hope I rise again<br>
+'Cause reveries of flight<br>
+only left me questioning.<br>
+<br>
+This was everything I wanted<br>
+And I can't believe I'm giving it up.<br>
+This was everything I waited for,<br>
+But this armor doesn't shine anymore.<br>
+The brightest sword sees no war,<br>
+Though broken, my blood is warm.<br>
+There's got to be something more.<br>
+<br>
+Heavy hands holding the burden of change,<br>
+The only cost is pain.<br>
+The return is never promised in gain.<br>
+It's time for the blind to find their way.<br>
+And now the choice is mine to let<br>
+it die and hope that I rise again.<br>
+'Cause reveries of flight only left me questioning.</p>
+
+            <h1 id="ff5" class="lyrics-test">-The Rise-</h1>
+            <p class="lyrics-test-test">If you can hear this,<br>
+you are the resistance.<br>
+Burn a candle in your window 'til the wick's end.<br>
+If you can her this you're the hope of our mission.<br>
+T change the future through the power of resistance.<br>
+<br>
+We are born with the ability to change the world.<br>
+Every breath is an option to sink or soar.<br>
+Born, hands gripped on a broken sword,<br>
+Every breath is an option.<br>
+<br>
+Privilege is a myth.<br>
+Trials are just life,<br>
+The number of which, before you die,<br>
+Equal only the chances you had to try,<br>
+Only the chances you had to thrive.<br>
+<br>
+So get up! Get up! Get up and join us!<br>
+<br>
+There's no mistake in our design<br>
+and we need no revision to aspire.<br>
+Look around, you share the ground<br>
+with a march of broken swords and tattered helms.<br>
+<br>
+Let there be no shine to your armor.<br>
+Let it speak of the blows received<br>
+while standing for honor.<br>
+Let there be no shine.<br>
+Let there be no shine.<br>
+<br>
+You suck the life of every vein we<br>
+filled and lick the blood we spilled.<br>
+You sold a lie with your alluring guise.<br>
+You words fell dead.<br>
+Now you feasted breath's so defined you cannot hide.
+</p>
+          </div>
+        </div>
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+        </div>
+
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+        </div>
+
+            <div class="page-finish">
+              <a href="./security.html">Security Statements</a>
+              <a href="./terms.html">Terms of Service</a>
+              <a href="./privacy.html">Privacy Policy</a>
+              <a href="./contact.html">Contact</a>
+            </div>
+
+        </body>
+        </html>

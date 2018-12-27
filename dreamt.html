@@ -1,0 +1,2184 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<h1 class="lyrics-page_title">Dream Theater</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/dreambig.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Dream Theater - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">False Awakening Suite</a>
+      <a href="#f2">The Enemy Inside</a>
+      <a href="#f3">The Looking Glass</a>
+      <a href="#f4">Enigma Machine</a>
+      <a href="#f5">The Bigger Picture</a>
+      <a href="#f6">Behind The Veil</a>
+      <a href="#f7">Surrender To Reason</a>
+      <a href="#f8">Along For The Ride</a>
+      <a href="#f9">Illumination Theory</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/theaton.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Astonishing Pt.1 - 2016</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Descent Of The Nomacs</a>
+      <a href="#s2">Dystopian Overture</a>
+      <a href="#s3">The Gift Of Music</a>
+      <a href="#s4">The Answer</a>
+      <a href="#s5">A Better Life</a>
+      <a href="#s6">Lord Nafaryus</a>
+      <a href="#s7">A Savior In The Square</a>
+      <a href="#s8">When Your Time Has Come</a>
+      <a href="#s9">Act Of Faythe</a>
+      <a href="#f10">Three Days</a>
+      <a href="#s11">The Hovering Sojourn</a>
+      <a href="#s12">Brother, Can You Hear Me?</a>
+      <a href="#t1">A Life Left Behind</a>
+      <a href="#t2">Ravenskill</a>
+      <a href="#t3">Chosen</a>
+      <a href="#t4">A Tempting Offer</a>
+      <a href="#t5">Digital Discord</a>
+      <a href="#t6">The X Aspect</a>
+      <a href="#t7">A New Beginning</a>
+      <a href="#t8">The Road To Revolution</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#fourth"><img class="lyrics-page_image" src="./images/theaton.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Astonishing Pt.2 - 2016</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#ff1">2285 Entr'acte</a>
+      <a href="#ff2">Moment Of Betrayal</a>
+      <a href="#ff3">Heaven's Cove</a>
+      <a href="#ff4">Begin Again</a>
+      <a href="#ff5">The Path That Divides</a>
+      <a href="#ff6">Machine Chatter</a>
+      <a href="#ff7">The Walking Shadow</a>
+      <a href="#ff8">My Last Farewell</a>
+      <a href="#ff9">Losing Faythe</a>
+      <a href="#ff10">Whispers On The Wind</a>
+      <a href="#ff11">Hymn Of A Thousand Voices</a>
+      <a href="#ff12">Our New World</a>
+      <a href="#ff13">Power Down</a>
+      <a href="#ff14">Astonishing</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/dreambig.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Dream Theater - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-False Awakening Suite-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f2" class="lyrics-test">-The Enemy Inside-</h1>
+      <p class="lyrics-test-test">Over and over again<br>
+I relive the moment<br>
+I'm bearing the burden within<br>
+Open wounds hidden under my skin<br>
+<br>
+Pain is real as a cut that bleeds<br>
+The face I see every time I try to sleep<br>
+Staring at me crying<br>
+<br>
+I'm running from the enemy inside<br>
+Looking for the life I left behind<br>
+These suffocating memories are etched upon my mind<br>
+And I can't escape from the enemy inside<br>
+<br>
+I sever myself from the world<br>
+and shut down completely<br>
+All alone in my own living hell<br>
+overcome with irrational fear<br>
+<br>
+Under the weight of the world on my chest<br>
+I buckle and break as I try to catch my breath<br>
+Tell me I'm not dying<br>
+<br>
+I'm a burden and a travesty<br>
+I'm a prisoner of regret<br>
+Between the flashbacks and the violent dreams<br>
+I am hanging on the edge<br>
+<br>
+Disaster lurks around the bend<br>
+Paradise came to an end<br>
+And no magic pill<br>
+can bring it back again<br>
+<br>
+I'm running from the enemy inside<br>
+Looking for the life I left behind<br>
+These suffocating memories are etched upon my mind<br>
+And I can't escape from the enemy inside</p>
+
+      <h1 id="f3" class="lyrics-test">-The Looking Glass-</h1>
+      <p class="lyrics-test-test">I would not expect you felt unnoticed and ignored<br>
+Better to rise above the clouds Then be a stranger in the crowd<br>
+All that you protected doesn’t matter anymore<br>
+Rather be stripped of all your pride<br>
+Than watch your dreams be cast aside<br>
+<br>
+You are caught up in your gravity<br>
+Glorifying stardom<br>
+Singing your own praise<br>
+<br>
+You live without shame<br>
+You’re digging up a gold mine<br>
+Standing on the sidelines<br>
+Watching through the looking glass<br>
+<br>
+You are not content with being nameless and unknown<br>
+Trying to rise above the fray<br>
+Eager to give it all away<br>
+<br>
+Some will not admit that 15 minutes have expired<br>
+Too much attention much too soon<br>
+Don’t see you walking on the moon<br>
+<br>
+You are caught up in your gravity<br>
+Bathing in the spotlight<br>
+Imitating fame<br>
+<br>
+You live without shame<br>
+You’re digging up a gold mine<br>
+Standing on the sidelines<br>
+Watching through the looking glass<br>
+<br>
+You are caught up in your gravity<br>
+Glorifying madness<br>
+Singing your own praise<br>
+<br>
+You live without shame<br>
+You’re digging up a gold mine<br>
+Standing on the sidelines<br>
+Watching through the looking glass<br>
+<br>
+You live without shame<br>
+You’re digging up a gold mine<br>
+Standing on the sidelines<br>
+Watching through the looking glass</p>
+
+      <h1 id="f4" class="lyrics-test">-Enigma Machine-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f5" class="lyrics-test">-The Bigger Picture-</h1>
+      <p class="lyrics-test-test">Long before the colors start to bleed<br>
+I can see the painting come alive<br>
+Clever like an angel in disguise<br>
+Moving in and out of reach<br>
+<br>
+If the candle lights this crooked path<br>
+Like a lighthouse peering through the haze<br>
+I will find the river through the rain<br>
+And I’ll reach the water’s edge<br>
+<br>
+Shed your light on me<br>
+Be my eyes when I can’t see<br>
+Shed your light on me<br>
+Be my guide so I can see<br>
+The Bigger Picture<br>
+<br>
+Like a moth burned by the fire<br>
+and driven to the flame<br>
+(Prophecies’ a blessing and a curse)<br>
+I must bare this cross alone<br>
+There’s no one else to blame<br>
+With each treasure found<br>
+Another shipwreck’s washed ashore<br>
+I am carried by the current<br>
+On a slow and steady course<br>
+<br>
+
+What If caught in a moment<br>
+I get lost and can't find my way<br>
+What if all along i was wrong<br>
+In every turn, In every way<br>
+<br>
+Would you talk me off the ledge<br>
+Or let me take the fall<br>
+Better to try and fail<br>
+then to never try at all<br>
+<br>
+You look but cannot see<br>
+Talk but never speak<br>
+You live but cannot breathe<br>
+See but don’t believe<br>
+<br>
+Wounds that never heal<br>
+A heart that cannot feel<br>
+A dream that’s all too real<br>
+A stare as cold as steel<br>
+<br>
+I’ve listened to the stories of resentment and disdain<br>
+I’ve looked into the empty eyes of anger, fear, and shame<br>
+I’ve taken blood from every stone<br>
+And traveled every road<br>
+<br>
+When I see the distant lights illuminate the night<br>
+Then I will know I am home </p>
+
+      <h1 id="f6" class="lyrics-test">-Behind The Veil-</h1>
+      <p class="lyrics-test-test">What would possess you to justify<br>
+Such dark and twisted ways?<br>
+What kind of monster would come to feast<br>
+When the devil shows his face?<br>
+What does it take for life to change<br>
+And a mind to lose control?<br>
+Cruelly left you to suffer the blame<br>
+After all the lies you told<br>
+<br>
+I am finding courage in my darkest hour<br>
+I am bent, not broken<br>
+Calling out<br>
+<br>
+Someone save me, look behind the veil<br>
+Please don't walk away<br>
+Someone save me, bring me home tonight<br>
+I can't face another day<br>
+<br>
+Can you see the stranger<br>
+Hiding in plain sight?<br>
+Feeding on the chaos<br>
+When the lightning strikes<br>
+There's no redemption<br>
+There's no being saved<br>
+There's no salvation<br>
+For a soul depraved<br>
+<br>
+You are finding promise in your finest hour<br>
+You are bent, not broken<br>
+Calling out</p>
+
+      <h1 id="f7" class="lyrics-test">-Surrender To Reason-</h1>
+      <p class="lyrics-test-test">In moments of pain<br>
+Where heart and mind collide<br>
+Self reflection helps me decide<br>
+I believe the sacrifices in life<br>
+Give more than they take<br>
+<br>
+Visions flowing slowly shedding light<br>
+Memories swimming in the sea of time<br>
+Pieces to the puzzle falling into place<br>
+That with which we struggle through we’ve learned to embrace<br>
+<br>
+Love show the way, alter my state of mind<br>
+Wash away the sorrow<br>
+Grace lead the way<br>
+When boundaries are found<br>
+Surrender to reason<br>
+<br>
+Life gives you brighter days<br>
+Through sacrifices made<br>
+My spirit travels like the wind and waves<br>
+My heart and mind unite<br>
+Mistakes resolved give sight<br>
+The river’s currents slowly turns the stone<br>
+<br>
+Restless angels<br>
+Help me find my way<br>
+Restless angels<br>
+Help me find my strength<br>
+<br>
+Restless angels<br>
+Help me find my way<br>
+Restless angels<br>
+Let love show the way<br>
+Let grace be the way<br>
+Surrender to reason
+</p>
+
+      <h1 id="f8" class="lyrics-test">-Along For The Ride-</h1>
+      <p class="lyrics-test-test">At this moment words fail me<br>
+And my vision's unclear<br>
+Blind to the truth<br>
+Like hands reaching out in the darkness<br>
+<br>
+I can't stop the world from turning around<br>
+Or the pull of the moon on the tide<br>
+But I don't believe that we're in this alone<br>
+I believe we're along for the ride<br>
+I believe we're along for the ride<br>
+<br>
+Through the gift of surrender<br>
+I'm embracing the fight<br>
+Breaking the code<br>
+There's clarity on the horizon<br>
+<br>
+
+I can't stop the world from turning around<br>
+Or the pull of the moon on the tide<br>
+But I don't believe that we're in this alone<br>
+I believe we're along for the ride<br>
+I believe we're along for the ride<br>
+<br>
+I will not live under a shadow of fear<br>
+Never be crippled by chaos and doubt<br>
+Fall prey to your madness<br>
+<br>
+I am not shattered<br>
+Out of the ashes I rise<br>
+Knowing that nothing is stronger than faith<br>
+Finding hope in our hopeless lives<br><br>
+
+I can't stop the world from turning around<br>
+Or the pull of the moon on the tide<br>
+But I don't believe that we're in this alone<br>
+I believe we're along for the ride<br>
+<br>
+I can't stop the world from turning around<br>
+Or the pull of the moon on the tide<br>
+But I don't believe that we're in this alone<br>
+I believe we're along for the ride<br>
+I believe we're along for the ride<br>
+I believe we're along for the ride</p>
+
+      <h1 id="f9" class="lyrics-test">-Illumination Theory-</h1>
+      <p class="lyrics-test-test">[I. Paradoxe de la Lumière Noire]<br>
+<br>
+[Instrumental]<br>
+<br>
+[II. Live, Die, Kill]<br>
+<br>
+Consider this question<br>
+Look deep inside<br>
+Deliver a true confession<br>
+What are you willing to live for?<br>
+<br>
+Consider this question<br>
+Open your eyes<br>
+Examine your own reflection<br>
+What are you willing to die for?<br>
+<br>
+When your backs’ against the wall<br>
+And the time's uncertain<br>
+Consider this question<br>
+No standing by<br>
+When flesh and blood are threatened<br>
+What are you willing to kill for?<br>
+<br>
+We seek to understand<br>
+We cry with head in hand<br>
+<br>
+The bridges we build to connect<br>
+The distance that makes us forget<br>
+Hate dividing us, love reminding us<br>
+Of our shared humanity<br>
+<br>
+Hope can be a shadow fleeting<br>
+I would rather die believing<br>
+Capture it all in a final act of faith<br>
+<br>
+We seek to understand<br>
+We cry with head in hand<br>
+<br>
+A story that needs to be told<br>
+An answer that begs to be found<br>
+The beauty we wish to behold<br>
+Is never too far away<br>
+<br>
+[III. The Embracing Circle]<br>
+<br>
+[Instrumental]<br>
+<br>
+[IV. The Pursuit Of Truth]<br>
+<br>
+Mothers for their children<br>
+Husbands for their wives<br>
+Martyrs for the kingdom<br>
+Fighting for your life<br>
+A soldier for his country<br>
+A junkie for the high<br>
+Teachers for their students<br>
+Vengeance for a crime<br>
+Rebels for their freedom<br>
+A tyrant for the praise<br>
+Cowards for salvation<br>
+Money, love, and fame<br>
+<br>
+Noble and brave<br>
+Lay down our lives for the cause<br>
+Death over shame<br>
+Grace before glory<br>
+<br>
+[V. Surrender, Trust & Passion]<br>
+<br>
+To really feel the joy in life<br>
+You must suffer through the pain<br>
+When you surrender to the light<br>
+You can face the darkest days<br>
+<br>
+If you open up your eyes<br>
+And you put your trust in love<br>
+On those cold and endless nights<br>
+You will never be alone<br>
+<br>
+Passion glows within your heart<br>
+Like a furnace burning bright<br>
+Until you struggle through the dark<br>
+You’ll never know that you're alive</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/theaton.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">The Astonishing Pt.1 - 2016</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Descent Of The Nomacs-</h1>
+        <p class="lyrics-test-test">Instrumental]<br>
+<br>
+[Fade in]<br>
+<br>
+[EXT. New Maineland (Above Emperor's Palace) - Day]<br>
+<br>
+[Nomacs]</p>
+
+        <h1 id="s2" class="lyrics-test">-Dystopian Overture-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s3" class="lyrics-test">-The Gift Of Music-</h1>
+        <p class="lyrics-test-test">[EXT. Ravenskill Town Square - Day]<br>
+<br>
+[Narrator:]<br>
+Far in the distant future<br>
+Beyond the pages of our time<br>
+Cold-blooded wicked tyrants<br>
+Threaten the freedom of mankind<br>
+<br>
+Corruption, lust and greed<br>
+Define the new nobility<br>
+Changing the course of history<br>
+<br>
+Across the vast North Empire<br>
+Most people struggle to survive<br>
+Living a meek existence<br>
+While their secluded leader thrives<br>
+<br>
+[Arhys:]<br>
+We are living day to day<br>
+Forced to bear the lion's share<br>
+People just don't have the time for music anymore<br>
+And no one seems to care<br>
+<br>
+My friends I've seen the chosen one<br>
+Our quest for freedom has begun<br><br>
+He will be the answer to our prayers<br>
+<br>
+There walks a god among us<br>
+Who's seen the writing on the wall<br><br>
+He is the revolution<br>
+He'll be the one to save us all<br>
+<br>
+My brother Gabriel is all the hope we need<br>
+Shining like a beacon in the night<br>
+Shepherd of Ravenskill<br>
+A reason to believe<br>
+<br>
+Music is the gift he brings<br>
+The songbird stops to listen when he sings
+</p>
+
+        <h1 id="s4" class="lyrics-test">-The Answer-</h1>
+        <p class="lyrics-test-test">[EXT. Ravenskill Park - Day]<br>
+<br>
+[Gabriel:]<br>
+I don't pretend to have the answer<br>
+Never said I held the key<br>
+But somehow they see a light inside of me<br>
+Am I not the man who I was meant to be?<br>
+<br>
+As the people gather round me<br>
+I never felt so all alone<br>
+Is this the chance to be someone?<br>
+My moment in the sun<br>
+Why am I afraid of facing the unknown?<br>
+<br>
+They are finding faith in me and they believe I'm the one to set them free
+</p>
+
+        <h1 id="s5" class="lyrics-test">-A Better Life-</h1>
+        <p class="lyrics-test-test">[INT. Ravenskill Rebel Command - Night]<br>
+<br>
+[Arhys:]<br>
+As fearless leader of the Ravenskill militia<br>
+The blood of warriors<br>
+Flows throughout my veins<br>
+<br>
+My brother's gift remains my secret ammunition<br>
+It is our hope, our pride<br>
+A catalyst for change<br>
+<br>
+Still the fires of revolution burn within my eyes<br>
+On this perilous road to freedom<br>
+He's our one and only guide<br>
+<br>
+For many years I've seen our people starve and suffer<br>
+How many more will die<br>
+Before we stand and fight<br>
+<br>
+They ask me Arhys,<br>
+"Could things be any tougher?"<br>
+The answer's no surprise,<br>
+"Yes, you bet your life!"<br>
+<br>
+Now the fires of revolution won't burn for evermore<br>
+I see liberty in our future<br>
+And it's one worth fighting for<br>
+<br>
+We all long for a better life<br>
+Like a dream that can't be denied<br>
+<br>
+This is the moment<br>
+Now is the time<br>
+Freedom if we live or if we die<br>
+<br>
+I shall give him a better life<br>
+I swore this vow to my dying wife<br>
+Sure she would not survive<br>
+<br>
+Peacefully<br>
+She slipped away<br>
+The meaning in my life<br>
+Was born that day<br>
+<br>
+And so I found the strength to carry on<br>
+With this crusade<br>
+It is my fate<br>
+<br>
+Evangeline<br>
+You lived a life of misery and pain<br>
+Evangeline<br>
+I'll never let your memory die in vain<br>
+<br>
+Evangeline<br>
+My heavy heart still bleeds<br>
+I dedicate my life to set him free<br>
+And I will carry on to plant the seeds<br>
+I promise in the name of our new son<br>
+This battle won't be over until it's won<br>
+</p>
+
+        <h1 id="s6" class="lyrics-test">-Lord Nafaryus-</h1>
+        <p class="lyrics-test-test">[INT. Emperor's Palace - Night]<br>
+<br>
+[Narrator:]<br>
+How the rumors are spreading like vines<br>
+Of a man who has been glorified<br>
+News finds its way<br>
+To the empire one day<br>
+Where the envious ruler resides<br>
+<br>
+[Nafaryus:]<br>
+Should I fall for the stories I hear?<br>
+Is he really a threat I should fear?<br>
+Such a foolish young man<br>
+Doesn't seem to understand<br>
+So let me be perfectly clear<br>
+<br>
+He may have them inspired<br>
+Eating out of his hand<br>
+But he'll never be ruler of this land<br>
+<br>
+For myself I must see<br>
+What the hype is about<br>
+I admit I'm intrigued<br>
+<br>
+I've heard the whispering of revolution<br>
+I know the aim of your plan<br>
+You think insurgency is your solution<br>
+And put your faith in one man<br>
+<br>
+[Narrator:]<br>
+His decision is made<br>
+So his journey begins<br>
+Off to the edge of The Realm<br>
+To meet the savior<br>
+<br>
+In the coming days<br>
+They'll announce his grace<br>
+And he'll ask to be amazed<br>
+<br>
+As a symbol of power and might<br>
+It will make for a breathtaking sight<br>
+In a massive display<br>
+With his family and guards by his side<br>
+<br>
+[Nafaryus:]<br>
+Arabelle who means the world to me<br>
+Our loyal son, my heir, your future king<br>
+And Faythe I treasure more than all the diamonds in my crown<br>
+It isn't hard to see<br>
+I couldn't be more proud<br>
+<br>
+Into the far off reaches of the land<br>
+To witness this great spectacle first hand<br>
+Is Gabriel the God he claims to be?<br>
+I guess we'll see<br>
+Yes we shall see
+</p>
+
+        <h1 id="s7" class="lyrics-test">-A Savior In The Square-</h1>
+        <p class="lyrics-test-test">[EXT. Ravenskill Town Square - Day]<br>
+<br>
+[Nafaryus:]
+<br>
+We have come to hear him sing<br>
+To see this gift your savior brings<br>
+<br>
+[Narrator:]<br>
+<br>
+A crowd has grown<br>
+And all are mesmerized<br>
+But silence quickly falls<br>
+As Lord Nafaryus arrives<br>
+<br>
+[Nafaryus:]<br>
+<br>
+Please don't stop on my account<br>
+Show us what we've heard so much about<br>
+<br>
+[Arhys:]<br>
+<br>
+In peace<br>
+We gather here today<br>
+<br>
+[Daryus:]<br>
+<br>
+Don't make him ask again<br>
+Do as my father says<br>
+<br>
+[Gabriel:]<br>
+<br>
+Brother, worry not today<br>
+I will share my music<br>
+And they will soon be on their way<br>
+They only know the noise machines<br>
+So I'll treat them all to sonic ecstasy<br>
+<br>
+Never in my dreams could I deserve<br>
+To ever see a vision quite like her<br>
+Then unexpectedly<br>
+I'm taken by surprise<br>
+An angel just appeared before my eyes</p>
+
+        <h1 id="s8" class="lyrics-test">-When Your Time Has Come-</h1>
+        <p class="lyrics-test-test">[EXT. Ravenskill Town Square - Day]<br>
+<br>
+[Gabriel:]<br>
+<br>
+When your time has come<br>
+And you're looking toward the light<br>
+All that really matters<br>
+Is what you leave behind<br>
+<br>
+So let your heart be free<br>
+Keep your spirit burning bright<br>
+Set down the stones you carry<br>
+Take the weight off your mind<br>
+<br>
+When you're facing the path that divides<br>
+Know that I will be there by your side<br>
+Find your strength in the sound of my voice<br>
+And you'll know<br>
+Which choice is right<br>
+<br>
+In this fleeting life<br>
+We can sometimes lose our way<br>
+But night is always darkest<br>
+Just before the new day<br>
+<br>
+When you're facing the path that divides<br>
+Know that I will be there by your side<br>
+Find your strength in the sound of my voice<br>
+And you'll know which choice is right<br>
+<br>
+[Faythe:]<br>
+<br>
+This very moment<br>
+Was always meant to be<br>
+I never noticed<br>
+But all at once I see<br>
+<br>
+On the worst of days when I felt most alone<br>
+With no one to share the secret that I hide<br>
+I grew numb to all the emptiness inside<br>
+But now I've found my home</p>
+
+        <h1 id="s9" class="lyrics-test">-Act Of Faythe-</h1>
+        <p class="lyrics-test-test">[EXT. Ravenskill Town Square - Day]<br>
+<br>
+[Faythe:]<br>
+<br>
+I never knew they spent their days in rags<br>
+While I enjoy the life they'll never have<br>
+Yet deep within their eyes<br>
+Hope still survives<br>
+And they don't seem to think this world's so bad<br>
+<br>
+Even as they gather in the square<br>
+They know a better life exists out there<br>
+With unity and pride<br>
+Faith stays alive<br>
+How can I pretend that I don't care?<br>
+<br>
+I have always felt alone<br>
+Living like a stranger inside of my own home<br>
+Maybe now's the time to greet the wings of change<br>
+Could my destiny<br>
+Be right in front of me?<br>
+<br>
+As a child behind the palace walls<br>
+Often times I'd search its secret halls<br>
+And hoping I would find<br>
+A treasure cast aside<br>
+I came upon the greatest gift of all<br>
+<br>
+My music player<br>
+My private paradise<br>
+My music player<br>
+A refuge I must hide<br>
+<br>
+Been lost at sea forever<br>
+Adrift and far away<br>
+Now finally for the first time<br>
+I know I found my way
+</p>
+
+        <h1 id="s10" class="lyrics-test">-Three Days-</h1>
+        <p class="lyrics-test-test">[EXT. Ravenskill Town Square - Day]<br>
+<br>
+[Nafaryus:]<br>
+<br>
+The admiration<br>
+The applause and the cheers<br>
+I am impressed<br>
+You've brought us all to tears<br>
+<br>
+To think I didn't notice<br>
+The way you looked at her<br>
+Now step down from your throne<br>
+And let me bring you back to earth<br>
+<br>
+Need I remind you?<br>
+I am the ruler here<br>
+Don't overlook that fact<br>
+<br>
+Swearing allegiance<br>
+To anyone but me<br>
+No, I won't put up with that<br>
+<br>
+Hide and protect him<br>
+Send him awayv
+I'll never play this game<br>
+<br>
+Stand by your savior<br>
+One thing remainsv
+I'll find him just the same<br>
+<br>
+[Imperial Guards:]<br>
+<br>
+Brace yourself<br>
+Bow down to Nafaryus<br>
+<br>
+Pray for help<br>
+Kneel before Nafaryus<br>
+<br>
+[Nafaryus:]<br>
+<br>
+He'll surrender on his own<br>
+If not, there'll be hell to pay<br>
+I'll tear down this city stone by stone<br>
+You only have three days<br>
+<br>
+Send home the rebels<br>
+Call off the fight<br>
+In no uncertain terms<br>
+<br>
+Should you refuse me<br>
+Fear for your lives<br>
+Ravenskill shall burn<br>
+<br>
+[Imperial Guards:]<br><br>
+
+Brace yourself<br>
+Bow down to Nafaryus<br>
+<br>
+Pray for help<br>
+Kneel before Nafaryus<br>
+<br>
+[Narrator:]<br>
+<br>
+With this frightening decree<br>
+Nafaryus departs<br>
+They're left to weigh the gravity<br>
+Of his threatening remarks<br>
+<br>
+Judgement day will soon arrive<br>
+In only three days time<br>
+Will Gabriel get out of this alive?<br>
+This remains the question on their minds
+</p>
+
+        <h1 id="s11" class="lyrics-test">-The Hovering Sojourn-</h1>
+        <p class="lyrics-test-test">[Instrumental]<br>
+<br>
+[EXT. Ravenskill - Day]<br>
+<br>
+[Nomacs]</p>
+
+        <h1 id="s12" class="lyrics-test">-Brother, Can You Hear Me?-</h1>
+        <p class="lyrics-test-test">[EXT. Ravenskill Rebel Command - Day]<br>
+<br>
+[Arhys & Rebel Militia]<br>
+<br>
+Brother can you hear me?<br>
+Your life is in my hands<br>
+I will not surrender<br>
+Never yield to his demands<br>
+If we stand together<br>
+We will never fall<br>
+Brother we're the answer to your call<br>
+<br>
+Brother can you hear me?<br>
+You must not be afraid<br>
+I will march beside you<br>
+Have no fear<br>
+Be strong<br>
+Be brave<br>
+<br>
+We sing the song of freedom<br>
+Our voices will resound<br>
+Brother we will never let you down<br>
+<br>
+[Gabriel:]<br>
+<br>
+On the road to revolution<br>
+We're bound to make mistakes<br>
+There's a price that we must pay<br>
+For every choice we make<br>
+<br>
+Freedom is a reason<br>
+To stand up or give in<br>
+But someone has to lose<br>
+And someone has to win<br>
+<br>
+Brother can you hear me?<br>
+I am not afraid<br>
+I will not forsake you<br>
+I'll be strong and I'll be brave<br>
+I sing the song of freedom<br>
+My courage knows no bounds<br>
+Brother now I stand on solid ground<br>
+Brother I will never let you down<br>
+Never let you down<br>
+</p>
+
+          <h1 id="t1" class="lyrics-test">-A Life Left Behind-</h1>
+          <p class="lyrics-test-test">[INT. Emeror's Palace - Night]<br>
+<br>
+[Faythe:]<br>
+<br>
+I never knew<br>
+Someone was out there<br>
+A long way from nowhere<br>
+Who could open my eyes<br>
+<br>
+All of this time<br>
+While I was sleeping<br>
+The world changed around me<br>
+Now I've never felt more alive<br>
+<br>
+I'm waking up<br>
+From a life left behind<br>
+To see what lies ahead<br>
+I'm waking up<br>
+<br>
+[Arabelle:]<br>
+<br>
+Fate found a way<br>
+To bring them together<br>
+Once and forever<br>
+And won't let them go<br>
+<br>
+Nothing I say<br>
+Can keep her from leaving<br>
+Her life has new meaning<br>
+I lost her a long time ago<br>
+<br>
+[Faythe:]<br>
+<br>
+I'm waking up<br>
+From a life left behind<br>
+To see what lies ahead<br>
+I'm waking up<br>
+<br>
+I'm waking up<br>
+Now that yesterday's gone<br>
+Won't close my eyes again<br>
+I'm waking up<br>
+<br>
+I'll plan to return well disguised<br>
+Make sure that I'm not recognized<br>
+Tomorrow a new sun will rise<br>
+And somehow I'll find you<br>
+<br>
+Nothing will stand in my way<br>
+Soon I will see you again<br>
+<br>
+I'm waking up<br>
+From a life left behind<br>
+To see what lies ahead<br>
+I'm waking up<br>
+<br>
+I'm waking up<br>
+Now that yesterday's gone<br>
+Won't close my eyes again<br>
+I will never look back<br>
+I'm waking up<br>
+<br>
+[Arabelle:]<br>
+<br>
+You'll be her shadow as she moves my son<br>
+But she can never know you're there<br>
+She is alone and rebel guards are everywhere<br>
+<br>
+[Daryus:]<br>
+<br>
+I'll keep her safe from all danger<br>
+Won't let her out of my sight<br>
+<br>
+Did I fail to mention my honest intentions?<br>
+This is the chance I deserve<br>
+Heed my words justice will be served
+</p>
+
+          <h1 id="t2" class="lyrics-test">-Ravenskill-</h1>
+          <p class="lyrics-test-test">[EXT. Ravenskill - Day]<br>
+<br>
+[Narrator:]<br>
+<br>
+Morning breaks beyond the night<br>
+And she's a world away<br>
+Through crowded streets<br>
+This quiet hooded stranger makes her way<br>
+<br>
+[Faythe:]<br>
+<br>
+Please, excuse me<br>
+Sir can you help me?<br>
+Where can I find this man?<br>
+<br>
+[Townsperson:]<br>
+<br>
+Sorry, can't speak<br>
+Someone is waiting<br>
+<br>
+[Faythe:]<br>
+<br>
+Yes, I understand<br>
+<br>
+[Narrator:]<br>
+<br>
+As her will<br>
+Starts to fade<br>
+And all but disappears<br>
+<br>
+Like a ghost<br>
+Suddenly a boy is standing there<br>
+And all is clear<br>
+<br>
+[Faythe:]<br>
+<br>
+I'm your friend<br>
+Trust me don't be scared<br>
+I am looking for your father and I promise<br>
+I can helpv
+Now take my hand<br>
+We haven't time to spare<br>
+<br>
+[Narrator:]<br>
+<br>
+Hopeful and innocent<br>
+Sensing no danger<br>
+He sees humanity<br>
+Behind the stranger's eyes<br>
+<br>
+Her true identity<br>
+Will be revealed when she sheds her disguise<br>
+<br>
+[EXT. Rebel Training Camp - Day]<br>
+<br>
+[Faythe:]<br>
+<br>
+My intentions are faithful<br>
+There's a chance we can still end this game<br>
+I'd be forever grateful<br>
+To see him once again<br>
+<br>
+[Arhys:]<br>
+<br>
+You dare to stand<br>
+Before my eyes<br>
+You're one of them<br>
+Why would I trust you?<br>
+<br>
+[Faythe:]<br>
+<br>
+It's not like that<br>
+I can't go back<br>
+Hope fades away<br>
+With each passing second<br>
+<br>
+Lost in this moment<br>
+Is where I want to stay<br>
+This can't be broken<br>
+We need to find a way<br>
+Gabriel<br>
+<br>
+I would wait a lifetime<br>
+Just to see your face<br>
+But all we have is one more day<br>
+<br>
+[Gabriel:]<br>
+<br>
+I remember your father was moved by my song<br>
+I know when he sees we're united that he'll understand<br>
+We will walk this road together<br>
+We will face this hand in hand<br>
+<br>
+With music and love on our side we can't lose this fight<br>
+Tomorrow our dream comes alive<br>
+
+</p>
+
+          <h1 id="t3" class="lyrics-test">-Chosen-</h1>
+          <p class="lyrics-test-test">[INT. Gabriel's Hideout - Night]<br>
+<br>
+[Gabriel:]<br>
+<br>
+Her words ring true<br>
+Her message clear<br>
+How can he hear<br>
+Through all the noise and dissonance?<br>
+<br>
+I've seen a sign<br>
+That he can change<br>
+If given just a chance<br>
+<br>
+Against all hope<br>
+We found a way<br>
+And it is all because she trusts in me<br>
+<br>
+Why have a gift<br>
+You can't embrace<br>
+When all you need is faith<br>
+<br>
+And there's a reason now I see<br>
+The reason I've been chosen<br>
+She sees the light inside of me<br>
+A reason to believe<br>
+<br>
+But I can't climb this mountain without you<br>
+No I can't face this on my own<br>
+With you by my side we will open his eyes<br>
+And the truth will deliver us home<br>
+<br>
+And there's a reason now I see<br>
+The path that he has chosen<br>
+He fears the light inside of me<br>
+<br>
+In the absence of song<br>
+He's forgotten right from wrong<br>
+Our voices will release him<br>
+He's refused to listen far too long<br>
+<br>
+I'm convinced beyond a doubt<br>
+There can be no other way<br>
+He just has to hear me out<br>
+There's so much I need to say<br>
+<br>
+But I can't climb this mountain without you<br>
+No I can't face this on my own<br>
+With you by my side we will open his eyes<br>
+And the truth will deliver us home
+</p>
+
+          <h1 id="t4" class="lyrics-test">-A Tempting Offer-</h1>
+          <p class="lyrics-test-test">[EXT. Ravenskill - Night]<br>
+<br>
+[Daryus:]<br>
+<br>
+Trustful boy<br>
+Unaware who's watching<br>
+Open the door<br>
+I am right behind you<br>
+<br>
+[INT. Home of Arhys and X - Night]<br>
+<br>
+[Daryus:]<br>
+<br>
+Don't resist me child<br>
+There's no use in fighting<br>
+We'll be here a while<br>
+Do you recognize me?<br>
+<br>
+Look into my eyes<br>
+I'm the face of freedom<br>
+When daddy does arrive<br>
+He's in for a surprise<br>
+<br>
+[Arhys:]<br>
+<br>
+How dare you step inside my home!<br>
+<br>
+[Daryus:]<br>
+<br>
+His life is in my hands<br>
+<br>
+[Arhys:]<br>
+<br>
+You monster leave my son alone!<br>
+<br>
+[Daryus:]<br>
+<br>
+You do know who I am<br>
+Your love for him is strong<br>
+<br>
+[Arhys:]<br>
+<br>
+He's just a boy<br>
+He's done no wrong<br>
+This fight's not his to lose<br>
+I have everything you want<br>
+<br>
+[Daryus:]<br>
+<br>
+Your next decision<br>
+Will decide his fate<br>
+So listen to the words I have to say<br>
+<br>
+Give up The Chosen One<br>
+And you will guarantee your son<br>
+Lives the life you never had<br>
+<br>
+Wealth and prosperity<br>
+Beyond what you have ever seen<br>
+And best of all Xander will be free<br>
+<br>
+He'll never want again<br>
+It's such an easy choice<br>
+Just think about your son<br>
+<br>
+And I won't have to stand<br>
+In Faythe's dark shadow anymore<br>
+I am through with being pushed aside<br>
+Tired of fighting for my father's pride<br>
+<br>
+Take the evening to decide
+</p>
+
+          <h1 id="t5" class="lyrics-test">-Digital Discord-</h1>
+          <p class="lyrics-test-test">[Instrumental]<br>
+<br>
+[EXT. New Maineland (Above Emperor's Palace - Night)]<br>
+<br>
+[Nomacs]
+</p>
+
+          <h1 id="t6" class="lyrics-test">-The X Aspect-</h1>
+          <p class="lyrics-test-test">[INT. Home of Arhys and X - Night]<br>
+<br>
+[Arhys:]<br>
+<br>
+Betray my blood<br>
+To save my son<br>
+A hopeless choice to make<br>
+<br>
+But who am I<br>
+If not the one<br>
+Who's meant to keep him safe?<br>
+<br>
+Is trust and loyalty still justified<br>
+If I deny him of a better life?<br>
+<br>
+Gabriel<br>
+Has always been<br>
+The strength I call upon<br>
+<br>
+But nothing breaks<br>
+A father's will<br>
+To do what must be done<br>
+<br>
+Should I turn my back on him?<br>
+Abandon all our plans for revolution?<br>
+Will hope and freedom die by morning light?<br>
+<br>
+Evangeline<br>
+I swore to you<br>
+To love and guide our son<br>
+<br>
+Destiny<br>
+Has shown his face<br>
+And now the time has come<br>
+<br>
+Desperation blinds me<br>
+And through these bloodstained eyes I see the light<br>
+A better life is worth this sacrifice</p>
+
+          <h1 id="t7" class="lyrics-test">-A New Beginning-</h1>
+          <p class="lyrics-test-test">[INT. Emperor's Palace - Day]<br>
+<br>
+[Faythe:]<br>
+<br>
+Father I implore you<br>
+Don't believe a word<br>
+He is not the enemy<br>
+That is just absurd<br>
+<br>
+You may see his talent<br>
+As some kind of threat<br>
+But I knew we were meant to be<br>
+From the day we met<br>
+<br>
+Give us both a chance<br>
+For a new beginning<br>
+Nothing would mean more to me<br>
+<br>
+He is just a man<br>
+Can't you show him mercy?<br>
+Sympathy and strength go hand in hand<br>
+<br>
+[Nafaryus:]<br>
+<br>
+This man's a fraud and a hoax<br>
+He'll only shatter your hopes<br>
+Saddest of all is to watch how you fall<br>
+For this person who you hardly know<br>
+<br>
+[Faythe:]<br>
+<br>
+Ignorant and stubborn<br>
+You have no respect<br>
+Not just for your flesh and blood<br>
+But all who you protect<br>
+<br>
+Listen without judgement<br>
+Keep an open mind<br>
+If you cannot see the truth<br>
+You're the one who's blind<br>
+<br>
+We don't stand a chance<br>
+That is his opinion<br>
+Mother can you talk to him?<br>
+<br>
+[Arabelle:]<br>
+<br>
+Try to understand<br>
+How they must be feeling<br>
+Misery's to know what might have been<br>
+<br>
+[Nafaryus:]<br>
+<br>
+Why would I ever concede<br>
+To listen to this fool? How can you be so naive?<br>
+You must be living in a world of make believe<br>
+Do you really think this charlatan is who he claims to be?<br>
+<br>
+[Arabelle:]<br>
+<br>
+Not long ago there was a time and place<br>
+You too possessed the same desires as Faythe<br>
+<br>
+You knew how it felt to feel invisible<br>
+Music calmed your soul just like a drug<br>
+Remember Bug?<br>
+<br>
+[Faythe:]<br>
+<br>
+Father is it true<br>
+Bug was always you?<br>
+Finally I can reveal<br>
+How music makes me feel<br>
+<br>
+Now you understand<br>
+Why I was hiding<br>
+This changes everything<br>
+<br>
+[Nafaryus:]<br>
+<br>
+I will grant the chance<br>
+For a new beginning<br>
+In the end the final word rests with me
+</p>
+
+          <h1 id="t8" class="lyrics-test">-The Road To Revolution-</h1>
+          <p class="lyrics-test-test">[INT. Gabriel's Hideout - Day]<br>
+<br>
+[Faythe:]<br>
+<br>
+He only sees what he desires to see<br>
+It took a while but finally he agreed<br>
+Though everything may not turn out as planned<br>
+If love's a risk<br>
+It's worth the chance<br><br>
+
+[Gabriel:]<br>
+<br>
+I know where there is faith there's always hope<br>
+We'll meet beneath the stars at Heaven's Cove<br>
+Where ghosts of yesterday<br>
+Once filled the lighted stage<br>
+Taking our first step down a new road<br>
+<br>
+[EXT. Ravenskill - Day]<br>
+<br>
+[Daryus:]<br>
+<br>
+Arhys time is running out<br>
+What will your decision be?<br>
+If you still have any doubt<br>
+Think about Evangeline<br>
+<br>
+[INT. Home of Arhys and X - Day]<br>
+<br>
+[Arhys:]<br>
+<br>
+On the road to revolution<br>
+Our salvation's never free<br>
+There's a price for liberation when you stand for your beliefs<br>
+<br>
+When the man in the mirror<br>
+Takes a long hard look at me<br>
+Will the person staring back, be the man I want to be?<br>
+<br>
+[INT. Emperor's Palace - Day]<br>
+<br>
+[Nafaryus:]<br>
+<br>
+Change my mind?<br>
+A waste of time<br>
+For soon he will be mine<br>
+<br>
+[Ensemble:]<br>
+<br>
+Open eyes<br>
+Help me see which choice is right</p>
+        </div>
+      </div>
+
+      <div class="lyrics-layout">
+        <div class="lyrics-layout_image">
+          <img id="fourth" class="lyrics-page_image" src="./images/theaton.jpg" height= "100%" width="auto"/>
+        </div>
+        <div class="lyrics-page_album-title_wrap">
+          <h1 class="lyrics-page_album-title">The Astonishing Pt.2 - 2016</h1>
+        </div>
+          <div class="lyrics-page_album-songs">
+            <h1 id="ff1" class="lyrics-test">-2285 Entr'acte-</h1>
+            <p class="lyrics-test-test">[Instrumental]</p>
+
+            <h1 id="ff2" class="lyrics-test">-Moment Of Betrayal-</h1>
+            <p class="lyrics-test-test">[INT. Home of Arhys and X - Day]<br>
+<br>
+[Gabriel:]<br>
+Brace yourself my brother<br>
+I have breaking news<br>
+The Noise Machines lie still tonight<br>
+There's no time to lose<br>
+<br>
+No more threats of bloodshed<br>
+No more pain and fear<br>
+Ravenskill will brave the storm<br>
+Our victory is near<br>
+<br>
+You are acting very strange<br>
+Nervous and on edge<br>
+I will be a voice for change<br>
+Brother give me strength<br>
+<br>
+[Arhys:]<br>
+Burning rose, secrets sold<br>
+Moment of betrayal<br>
+Kiss of death, blood revenge<br>
+Moment of betrayal<br>
+<br>
+I have sworn to live and die<br>
+By the warrior's code<br>
+Never leave a man behind<br>
+May God redeem my soul<br>
+<br>
+I will give you what you need<br>
+My brother for my son<br>
+Guilt and shame will burden me<br>
+Until my days are done<br>
+<br>
+Meet me tonight where the stars touch the sky<br>
+He'll be alone there with nowhere to hide<br>
+<br>
+Burning rose, secrets sold<br>
+Moment of betrayal<br>
+Kiss of death, blood revenge<br>
+Moment of betrayal<br>
+<br>
+He will be defenseless<br>
+I'll look on, say I put up a fight<br>
+There will be no witness<br>
+They will call you a hero tonight<br>
+<br>
+Burning rose, secrets sold<br>
+Moment of betrayal<br>
+Kiss of death, blood revenge<br>
+Moment of betrayal<br>
+<br>
+Threats and lies, changing sides<br>
+Moment of betrayal<br>
+Risking all, savior's fall<br>
+Moment of betrayal
+
+</p>
+
+            <h1 id="ff3" class="lyrics-test">-Heaven's Cove-</h1>
+            <p class="lyrics-test-test">[EXT. Heaven's Cove Amphitheater - Night]<br>
+<br>
+[Narrator:]<br>
+<br>
+Under the glow of the midnight moon<br>
+Where the stars touch the sky<br>
+Stand the long forgotten remains of a time gone by<br>
+<br>
+Heaven's Cove was a wondrous site<br>
+Once a beautiful place<br>
+Now an empty shell like a memory that time erased<br>
+<br>
+As the pivotal moment draws closer<br>
+Every shadow and whisper ignite<br>
+Music will rise like a phoenix from the ashes on this night
+
+</p>
+
+            <h1 id="ff4" class="lyrics-test">-Begin Again-</h1>
+            <p class="lyrics-test-test">[INT. Emperor's Palace - Day]<br>
+<br>
+[Faythe:]<br>
+<br>
+I gave up hope<br>
+Was dead inside<br>
+Stayed lost within a world I chose to hide<br>
+Then I found my faith in him<br>
+And now I can<br>
+Begin again<br>
+<br>
+I once believed<br>
+Our fate was sealed<br>
+But now at last the truth has been revealed<br>
+In an instant life could change<br>
+And now and then<br>
+Begin again<br>
+<br>
+I know that I am meant for something more<br>
+That life beyond these walls<br>
+Has greater things in store<br>
+<br>
+When I heard his voice I realized<br>
+I'd never be the same<br>
+Instantly I knew my life had changed<br>
+<br>
+I dream of peace<br>
+Above all else<br>
+To share a world where we could be ourselves<br>
+We must learn to rise above the past<br>
+Before we can at last<br>
+Begin again
+</p>
+
+            <h1 id="ff5" class="lyrics-test">-The Path That Divides-</h1>
+            <p class="lyrics-test-test">[EXT. Heaven's Cove Ampitheater - Night]<br>
+<br>
+[Narrator:]<br>
+<br>
+The evening stars shine brightly<br>
+Over heaven's cove<br>
+As night descends in silence<br>
+The fated scene unfolds<br>
+Consumed with trepidation<br>
+Arhys hears his brother's voice<br>
+<br>
+[Gabriel's Voice:]<br>
+<br>
+As you're facing the path that divides<br>
+I will always be here by your side<br>
+<br>
+[Arhys:]<br>
+I feel my pulse begin to race<br>
+Beads of sweat drip down my face<br>
+I have made a grave mistake<br>
+What have I done?<br>
+My blood for my son?<br>
+<br>
+It's not too late<br>
+I won't betray him<br>
+<br>
+[Daryus:]<br>
+<br>
+I knew the day had come<br>
+And you could be tempted<br>
+To give up The Chosen One<br>
+And finally end this<br>
+Do anything for your son<br>
+A terminal weakness<br>
+But now you're as good as done<br>
+<br>
+[Arhys:]<br>
+I didn't have a choice<br>
+And I was defenseless<br>
+I didn't believe his voice<br>
+And fighting was senseless<br>
+But now I can see the truth<br>
+I've come to my senses<br>
+I shouldn't have trusted you<br>
+<br>
+[Narrator:]<br>
+<br>
+Arhys was never aware<br>
+His son had followed him there<br>
+Confused and deathly afraid<br>
+X watched his hero be brave<br>
+<br>
+[Arhys:]<br>
+<br>
+On the path that divides<br>
+You were there by my side<br>
+There will be no betrayal tonight<br>
+<br>
+I found courage and strength<br>
+In the words you once sang<br>
+Tore the truth from the lies<br>
+On the path that divides<br>
+<br>
+[Daryus:]<br>
+<br>
+You dare defy your prince?<br>
+Well you just threw your life away<br>
+Along with Xander's dreams<br>
+You chose the wrong man to betray<br>
+<br>
+[Narrator:]<br>
+<br>
+Two hungry warriors<br>
+Clash in the shadows of the night<br>
+But there's a cost with every fight<br>
+And Arhys' fight for hope<br>
+Cost him his very life</p>
+
+            <h1 id="ff6" class="lyrics-test">-Machine Chatter-</h1>
+            <p class="lyrics-test-test">[Instrumental]<br>
+<br>
+[EXT. Heaven's Cove Ampitheater - Night]<br>
+<br>
+[Nomacs]</p>
+
+            <h1 id="ff7" class="lyrics-test">-The Walking Shadow-</h1>
+            <p class="lyrics-test-test">[EXT. Heaven's Cove Amphitheater - Night]<br>
+<br>
+[Xander:]<br>
+What have you done?<br>
+You murderer<br>
+My father's dead<br>
+Your day will comev
+<br>
+[Daryus:]<br>
+<br>
+Don't hold your breath<br>
+The night's still young<br>
+Confront your death<br>
+Like father, like son<br>
+<br>
+Who's this I see?<br>
+Approaching me<br>
+The Chosen One?<br>
+<br>
+[Narrator:]<br>
+<br>
+Drawing closer pace by pace<br>
+The walking shadow hides its face<br>
+Never aware of the looming attack<br>
+Like stepping right into a trap<br>
+<br>
+As his weapon<br>
+Finds its victim<br>
+Mortified,<br>
+He's shocked to find<br>
+The shadow is Faythe</p>
+
+            <h1 id="ff8" class="lyrics-test">-My Last Farewell-</h1>
+            <p class="lyrics-test-test">[EXT. Heaven's Cove Amphitheater - Night]<br>
+<br>
+[Gabriel:]<br>
+<br>
+Angels above<br>
+Have you deceived my eyes?<br>
+Be still my love<br>
+I won't leave your side<br>
+<br>
+All my life<br>
+I have walked alone<br>
+Now I've found my home in you<br>
+Only I'm too late<br><br>
+
+Have I wandered into someone's nightmare?<br>
+This is more than any heart can bear<br>
+<br>
+You stole my brother's life<br>
+How many more have to die<br>
+Before you will open your eyes?<br>
+<br>
+Don't leave me now<br>
+Hold on for one more breath<br>
+Stay strong somehow<br>
+This can't be the end<br>
+<br>
+All your life<br>
+You have walked alone<br>
+Now I am your home<br>
+So take my hand and don't let go<br>
+<br>
+Crushing pain and crippling grief<br>
+Nothing like I've ever felt<br>
+God above and souls beneath<br>
+Hear my last farewell
+
+</p>
+
+            <h1 id="ff9" class="lyrics-test">-Losing Faythe-</h1>
+            <p class="lyrics-test-test">[EXT. Heaven's Cove Amphitheater - Night]<br>
+<br>
+[Nafaryus:]<br>
+<br>
+My foolish pride<br>
+My selfish heart<br>
+Lost in the dark<br>
+Blinded by my arrogance<br>
+<br>
+And now you beg for one last breath<br>
+And I'm the one to blame<br>
+<br>
+There's a reason now I see<br>
+The reason you have chosen<br>
+To find the light inside of me<br>
+If only I believed<br>
+<br>
+[Arabelle:]<br>
+<br>
+Here I am<br>
+Don't be afraid<br>
+I will never let you slip away<br>
+<br>
+Look my way<br>
+You must be brave<br>
+Find the strength to live for one more day<br>
+<br>
+I will keep from losing Faythe<br>
+I will ask for grace<br>
+And hope will find a way<br>
+<br>
+[Narrator:]<br>
+<br>
+Like a candle's dying flame<br>
+With forgiving eyes<br>
+She starts to drift away<br>
+<br>
+[Nafaryus:]<br>
+<br>
+Gabriel, my son<br>
+I see the tide is turning<br>
+Can The Chosen One<br>
+Keep her fire burning?<br>
+<br>
+I would trade my life<br>
+Just for one last moment<br>
+<br>
+Use your gift I beg<br>
+May life begin again<br>
+May life begin again
+</p>
+
+            <h1 id="ff10" class="lyrics-test">-Whispers On The Wind-</h1>
+            <p class="lyrics-test-test">[EXT. Heaven's Cove Amphitheater - Night]<br>
+<br>
+[Gabriel:]<br>
+<br>
+If I still had something left<br>
+I'd surely use my gift<br>
+To give her one more breath<br>
+To see her smile again<br>
+And yet my gift is gone<br>
+Along with all her dreams<br>
+It vanished with a scream<br>
+My fragile voice has all but disappeared<br>
+I've nothing left to give<br>
+The words I wish I'd said<br>
+Just whispers on the wind<br>
+And now all hope is dead</p>
+
+            <h1 id="ff11" class="lyrics-test">-Hymn Of A Thousand Voices-</h1>
+            <p class="lyrics-test-test">[EXT. Heaven's Cove Amphitheater - Night]<br>
+<br>
+[Narrator:]<br>
+<br>
+Out of the shadows<br>
+One by one they came<br>
+To shed their light upon his moment of doubt and pain<br>
+<br>
+A thousand voices<br>
+Rang out through the night<br>
+A symphony of mercy for their savior<br>
+Too tired to fight<br>
+<br>
+And as the chorus grew<br>
+A thousand hearts beat true<br>
+Then like a glowing beacon in the dark<br>
+Hope came shining through<br>
+<br>
+Amazingly the savior found his voice<br>
+And all together they rejoiced<br>
+<br>
+[Gabriel and Townspeople:]<br>
+<br>
+Glorious sound<br>
+Guide her tonight<br>
+Out of the darkness<br>
+Into the light<br>
+<br>
+Merciful song<br>
+Set her soul free<br>
+Unbind the chains of endless sleep<br>
+<br>
+Choirs on high<br>
+Grant her new life<br>
+Make me a vessel of thy boundless grace<br>
+Music has shown her the way<br>
+She lives today!</p>
+
+            <h1 id="ff12" class="lyrics-test">-Our New World-</h1>
+            <p class="lyrics-test-test">[EXT. Ravenskill - Day]<br>
+<br>
+[Gabriel:]<br>
+<br>
+Like your father once said<br>
+Life is not what you're given<br>
+It is how you decide to live<br>
+On the path you have chosen<br>
+<br>
+So together we'll build a new world<br>
+A better world<br>
+We'll build a new world<br>
+Our new world<br>
+<br>
+[Faythe:]<br>
+<br>
+I know you're scared and alone<br>
+But we will face this together<br>
+Through the innocence in your eyes<br>
+They will live on forever<br>
+<br>
+In their memory we'll build a new world<br>
+A better world<br>
+We'll build a new world<br>
+Our new world<br>
+<br>
+[Gabriel, Faythe and X:]<br>
+<br>
+We'll build a new world<br>
+A better world<br>
+We'll build a new world<br>
+Our new world<br>
+<br>
+Together we'll build a new world<br>
+A wondrous world<br>
+We'll build a new world<br>
+A bold new world
+</p>
+
+            <h1 id="ff13" class="lyrics-test">-Power Down-</h1>
+            <p class="lyrics-test-test">[Instrumental]<br>
+<br>
+[EXT. Ravenskill - Day]<br>
+<br>
+[Nomacs]<br>
+</p>
+
+            <h1 id="ff14" class="lyrics-test">-Astonishing-</h1>
+            <p class="lyrics-test-test">[EXT. Ravenskill - Day]<br>
+<br>
+[Arhys' Spirit:]<br>
+Brother, can you hear me?<br>
+His life is in your hands<br>
+He is just a child and still too young to understand<br>
+Show him love and courage<br>
+That freedom knows no bounds<br>
+Tell him he could never let me down<br>
+<br>
+[Xander:]<br>
+Father, I will make you proud<br>
+Rest in peace<br>
+<br>
+[Gabriel:]<br>
+I always had the answer<br>
+All this time I held the key<br>
+And now that I see<br>
+The reason to believe<br>
+I can be the man who I am meant to be<br>
+<br>
+[Faythe:]<br>
+Because of you I live again<br>
+Now I can be a voice for change<br>
+And help to build a world that's fair and true<br>
+So they can live the life they never knew<br>
+<br>
+[Nafaryus:]<br>
+On the road to revolution<br>
+There are lessons to be learned<br>
+All the things you thought that mattered<br>
+Are lost at every turn<br>
+<br>
+When the light of my existence<br>
+Was slipping through my hands<br>
+Pride and ignorance receded<br>
+To reveal a humbled man<br>
+<br>
+[Arabelle:]<br>
+My prince, my son,<br>
+You got lost along the way<br>
+In light of this new burden that you face<br>
+You are forgiven on this day<br>
+<br>
+[Ensemble:]<br>
+People, can you hear us?<br>
+Peace has been restored<br>
+The silence has been broken<br>
+Music reigns forever more<br>
+<br>
+We sing a song of freedom<br>
+Together we are bound<br>
+People, we shall never hold you down<br>
+We will build our world on common ground<br>
+<br>
+And we'll live once more<br>
+Eternally<br>
+In harmony<br>
+Our lives will be<br>
+Astonishing<br>
+Again<br>
+<br>
+[The End]
+</p>
+          </div>
+        </div>
+
+        <div class="page-finish">
+          <a href="./security.html">Security Statements</a>
+          <a href="./terms.html">Terms of Service</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+
+          </body>
+        </html>

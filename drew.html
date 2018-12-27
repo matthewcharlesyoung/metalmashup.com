@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Drewsif Stalin's Musical Endeavors</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/anhe.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Anhedonia - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Ink</a>
+      <a href="#f2">Grip</a>
+      <a href="#f3">Ruin</a>
+      <a href="#f4">Bereft</a>
+      <a href="#f5">Outcome</a>
+      <a href="#f6">Monkton</a>
+      <a href="#f7">Naught</a>
+      <a href="#f8">Augury</a>
+      <a href="#f9">Onset</a>
+      <a href="#f10">Anhedonia Pt. 1</a>
+      <a href="#f11">Anhedonia Pt. 2</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/anhe.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Anhedonia - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Ink-</h1>
+      <p class="lyrics-test-test">Line approaching line<br>
+End apprehending end<br>
+Inching closer and closer<br>
+Windows closing<br>
+Exhaling impaired judgement<br>
+Like father like son<br>
+A replica more flawed than the archetype<br>
+Hoping desperately my pen runs dry<br>
+While procuring more and more ink.<br>
+<br>
+Put the period on this sick fucking run on sentence<br>
+<br>
+And I can't blame you<br>
+For what you've been dealt<br>
+The sting of neglect<br>
+A mother's love unfelt<br>
+But where do I turn when I feel the same?<br>
+This is a shared burden, no passing on the blame.<br>
+<br>
+Line approaching line<br>
+End apprehending end<br>
+Inching closer and closer<br>
+Windows closing<br>
+Exhaling impaired judgement<br>
+Like father like son<br>
+A replica more flawed than the archetype<br>
+Hoping desperately my pen runs dry<br>
+While procuring more and more ink.<br>
+Scribing the same sentence<br>
+again and again<br>
+Will the circle remain unbroken?</p>
+
+      <h1 id="f2" class="lyrics-test">-Grip-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f3" class="lyrics-test">-Ruin-</h1>
+      <p class="lyrics-test-test">Trapped within the realm of sleep;<br>
+A world awake, and I still dream.<br>
+If you should find me<br>
+and I refuse to stir<br>
+My reoccurring nightmare has come true:<br>
+The lines have blurred.<br>
+Be it dreams, be it reality, my subconscious keeps it’s foot to my throat.<br>
+Please release me from the ties that bind.<br>
+There’s no escaping this horrible place in my mind.<br>
+<br>
+A place where my doubts and my fears are suspended in time.<br>
+Where self-conclusion seems so divine.<br>
+<br>
+A place I would never want to be.<br>
+(line approaching line)<br>
+The dark, disgusting part of me.<br>
+Line approaching line.<br>
+End apprehending end.</p>
+
+      <h1 id="f4" class="lyrics-test">-Bereft-</h1>
+      <p class="lyrics-test-test">Vodka on your breath.<br>
+Heart devoid of dreams.<br>
+Hope that left so long ago.<br>
+Mangled by paternity.<br>
+<br>
+Wine on your breath.<br>
+Mouth full of hate.<br>
+Hope that left so long ago.<br>
+Mangled by maternity.<br>
+<br>
+The apple falls directly below the tree.<br>
+But the tree is dead<br>
+Which leaves the apple<br>
+Rotten as can be.<br>
+<br>
+Wary me.<br>
+Parry me.<br>
+Carry me.<br>
+Bury me.<br>
+<br>
+(Line approaching line.<br>
+End apprehending end.)<br>
+<br>
+Bright futures thrown away<br>
+In the name of an escape<br>
+Words from aspiring artists<br>
+Replaced by silent mouths agape<br>
+<br>
+Nights forgotten,<br>
+Vice begotten.<br>
+<br>
+Wary me.<br>
+Parry me.<br>
+Carry me.<br>
+Bury me.<br>
+<br>
+(Line approaching line.<br>
+End apprehending end.)<br>
+<br>
+Bereft behest.<br>
+<br>
+An authors voice<br>
+Silenced on a blank page.<br>
+<br>
+Numbing the sting<br>
+Of inadequacy.<br>
+Unfair exchange:<br>
+Thought for naught<br>.
+Leaning on crutches<br>
+Meant for killing slowly<br>
+Now you can only bide your time<br>
+<br>
+The apple falls<br>
+Directly below the tree<br>
+But the tree is dead<br>
+Which leaves the apple<br>
+Rotten as can be<br>
+<br>
+Rotten.<br>
+<br>
+Fertile, though rotten through.<br>
+Germination begins as corrupt seeds<br>
+spread their sickness through the landscape;
+Infecting all.</p>
+
+      <h1 id="f5" class="lyrics-test">-Outcome-</h1>
+      <p class="lyrics-test-test">Incisions<br>
+Too shallow<br>
+To remove<br>
+What ails me<br>
+Lacerations<br>
+Too meager<br>
+To render<br>
+(my) Consciousness<br>
+<br>
+Predisposed<br>
+Juxtaposed<br>
+Undisclosed<br>
+Illness throes<br>
+Hindering my<br>
+Progression<br>
+Stagnancy<br>
+Defeats me<br>
+<br>
+Despite my best efforts,<br>
+This exchange died years ago<br>
+So much wasted love and remorse<br>
+Spent clinging to the corpse.<br>
+<br>
+Rot.<br>
+I will bury the debt,<br>
+But I will no longer mourn the dead.<br>
+In spite of all of this,<br>
+i surely hope your words meant well more often than not.<br>
+But either way, I say we let them fucking rot.<br>
+<br>
+(Alone in my thoughts)<br>
+Worshipping<br>
+My sickness.<br>
+Dependence<br>
+On sadness<br>
+Brings me nothing<br>
+But the same<br>
+Consequence<br>
+Same outcome<br>
+
+Day by day;<br>
+descending.<br>
+Sinking deep<br>
+down the drain<br>
+No heroics,<br>
+let me drown.</p>
+
+      <h1 id="f6" class="lyrics-test">-Monkton-</h1>
+      <p class="lyrics-test-test">Shadows under my eyes darken with the passing of light.<br>
+Warm turns to cold turns to black.<br>
+Black remains until warm fights back.<br>
+<br>
+On the warmest days<br>
+On the coldest nights<br>
+I found my home in your eyes.<br>
+<br>
+Sleep<br>
+Would come sporadically,<br>
+Waking me erratically.<br>
+Inward reflection<br>
+Offers the ugliest sight.<br>
+<br>
+I’ve watched the lines on my face grow like shadows at day’s end.<br>
+And I’ve lost control, I wander alone<br>
+Until in your eyes, I found my home.<br>
+<br>
+On the warmest days<br>
+On the coldest nights<br>
+I found my home in your eyes.<br>
+<br>
+And if our happiest moments are truly seldom to linger,<br>
+then I know i’ve watched them fade away with you.<br>
+<br>
+On the warmest days<br>
+On the coldest nights<br>
+I found my home in your eyes.</p>
+
+      <h1 id="f7" class="lyrics-test">-Naught-</h1>
+      <p class="lyrics-test-test">Fall away. As we'll do.<br>
+The strings are tugged and taught. Fraying with my demeanor.<br>
+<br>
+Wisps and whispers float along<br>
+Captive in infinity.<br>
+<br>
+I can only hope to hear her's.<br>
+I can only hope to feel her's.<br>
+<br>
+Smolder out. As we'll do.<br>
+She sings her songs of naught.<br>
+And I'm praying that I'll hear her.<br>
+<br>
+Wisps and whispers float along<br>
+Captive in infinity.<br>
+<br>
+She sings her songs of naught.<br>
+And I'm praying that I'll hear her.</p>
+
+      <h1 id="f8" class="lyrics-test">-Augury-</h1>
+      <p class="lyrics-test-test">Fall away<br>
+As we'll do<br>
+Smolder out<br>
+As we'll do<br>
+<br>
+I spent so much time staring at the ceiling<br>
+that in my daze<br>
+with my head raised<br>
+I never looked down to see the writing on the wall<br>
+<br>
+I watched you pulling away<br>
+while reassuring me of your involvement.<br>
+Ex-communicate.<br><br>
+Not a single bit of effort for you.<br>
+Fuck.<br><br>
+
+After all is said and done,<br>
+We never fought, and nobody won.<br>
+And at first we grew together<br><br>
+But you were only here for fair weather.<br><br>
+
+I held you up so high,<br>
+Put you on a pedestal.<br>
+But you let your love die.<br>
+And now you'll fall down.<br>
+<br>
+To the fucking cement.<br>
+To the hell that you've kept me in.<br>
+<br>
+After all is said and done,<br>
+I am still my father's son.<br>
+With my mother tongue unspoken<br>
+The circle remains unbroken<br>
+<br>
+The augury<br>
+I was too blind to see.</p>
+
+      <h1 id="f9" class="lyrics-test">-Onset-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f11" class="lyrics-test">-Anhedonia Pt. 1-</h1>
+      <p class="lyrics-test-test">Love of mine<br>
+I've come to hate<br>
+Such animosity<br>
+you create.<br>
+<br>
+Hateful glances at my reflection<br>
+To man in the mirror:<br>
+I abhor you now<br>
+You are the antithesis<br>
+<br>
+I’ll now collate,<br>
+Reiterate<br>
+To deconstruct<br>
+And reinstate<br>
+My thoughts of you<br>
+Remain askew<br>
+Despite assuaging, start anew<br>
+<br>
+Discussed in disgust<br>
+This distrust<br>
+Conceived deceit<br>
+Constructs defeat<br>
+<br>
+Alone in my thoughts... again.<br>
+<br>
+Love of mine<br>
+I've come to hate<br>
+Such animosity<br>
+you create.<br>
+<br>
+The thoughts inate<br>
+That now gestate<br>
+Here I fixate<br>
+As I abate.<br>
+<br>
+Hands that used to dance<br>
+with fingers intertwined<br>
+Now seem to pay advance<br>
+no single shred of mind<br>
+<br>
+How far will you lead me and<br>
+how far will I lead myself?<br>
+<br>
+To the brink of madness.<br>
+Am I the only one at fault?<br>
+<br>
+Sinking into myself now<br>
+Drowning in speculation and conjecture<br>
+Have i lost my mind?<br>
+Alone in my thoughts<br>
+As time and space<br>
+Attempt to erase<br>
+Everything I’ve loved<br>
+Anhedonia.</p>
+
+      <h1 id="f12" class="lyrics-test">-Anhedonia Pt. 2-</h1>
+      <p class="lyrics-test-test">Line approaching line<br>
+End apprehending end<br>
+Inching closer and closer<br>
+Windows closing<br>
+Exhaling impaired judgement<br>
+Like father like son<br>
+A replica more flawed than the archetype<br>
+The apple falls directly below the tree<br>
+but the tree is dead<br><br>
+which leaves the apple rotten as can be.<br>
+Hoping desperately my pen runs dry<br>
+While procuring more and more ink.<br>
+Scribing the same sentence<br>
+again and again<br>
+Will the circle remain unbroken?<br>
+<br>
+A good man grows cold.<br>
+With every knife<br>
+And every arrow<br>
+With every obstacle<br>
+Some say character is built<br>
+<br>
+A good man grows old<br>
+With every failure<br>
+And every regret<br>
+With every goodbye<br>
+Some say he gains wisdom<br>
+<br>
+Here stands our good man, alone, shattered and bleeding<br>
+From every mistake<br>
+every betrayal<br>
+And every lesson learned<br>
+A good man as good as dead.</p>
+    </div>
+  </div>
+  <div class="lyrics-under">
+  <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+  </div>
+
+  <div class="lyrics-under">
+  <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+  </div>
+
+      <div class="page-finish">
+        <a href="./security.html">Security Statements</a>
+        <a href="./terms.html">Terms of Service</a>
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+
+  </body>
+  </html>

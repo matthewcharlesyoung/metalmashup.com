@@ -1,0 +1,1876 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Volumes</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/via.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Via - 2011</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Paid In Full</a>
+      <a href="#f2">Wormholes</a>
+      <a href="#f3">Limitless</a>
+      <a href="#f4">Reversion</a>
+      <a href="#f5">Serenity</a>
+      <a href="#f6">The Columbian Faction</a>
+      <a href="#f7">Affirmation Of Ascension</a>
+      <a href="#f8">Intake</a>
+      <a href="#f9">Behind The Curtain</a>
+      <a href="#f10">Recovery</a>
+      <a href="#f11">Edge Of The Earth</a>
+      <a href="#f12">Via</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/nosleep.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">No Sleep - 2014</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">The Mixture</a>
+      <a href="#s2">91367</a>
+      <a href="#s3">Erased</a>
+      <a href="#s4">Better Half</a>
+      <a href="#s5">Across the Bed</a>
+      <a href="#s6">Pistol Play</a>
+      <a href="#s7">Vahle</a>
+      <a href="#s8">Neon Eyes</a>
+      <a href="#s9">Peace of Mind</a>
+      <a href="#f10">Up All Night</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/diff.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Different Animals - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">Waves Control</a>
+      <a href="#t2">Finite</a>
+      <a href="#t3">Feels Good</a>
+      <a href="#t4">Disaster Vehicle</a>
+      <a href="#t5">Pieces</a>
+      <a href="#t6">Interlude</a>
+      <a href="#t7">Hope</a>
+      <a href="#t8">Tide's Change</a>
+      <a href="#t9">On Her Mind</a>
+      <a href="#t10">Heavy Silence</a>
+      <a href="#t11">Pullin' Shades</a>
+      <a href="#t12">Left For Dead</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/via.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Via - 2011</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Paid In Full-</h1>
+      <p class="lyrics-test-test">Oh well now you've wronged me.<br>
+This is our progress.<br>
+Last year from now we've come so far.<br>
+Heist completed.<br>
+You set the boundaries.<br>
+Taking the throne.<br>
+Claiming the crown.<br>
+This is a product of who we are,<br>
+And what we've done here,<br>
+What you have left so far behind.<br>
+So here's to progress,<br>
+Here's to the rest of our lives.<br>
+<br>
+Do you see what I see here?<br>
+Products justified by his hate.<br>
+Motionless and unproductive.<br>
+Seven souls will dance upon his grave,<br>
+Which will be paid in full.<br>
+<br>
+And to continue, get with the program.<br>
+You've just jumped on the bandwagon.<br>
+I've got you right where I want you.<br>
+Yes I've got you in the palm of my hands.<br>
+A thanking of your own.<br>
+A contemporary crook of these digital dollars.<br>
+<br>
+Putting a price on what you're worth.<br>
+You got it, I want it.<br>
+My friend that's all that matters to me.<br>
+A worthless legacy, a tyrants trust torn down.<br>
+How long will it take you to see?</p>
+
+      <h1 id="f2" class="lyrics-test">-Wormholes-</h1>
+      <p class="lyrics-test-test">Where will I end up tonight?<br>
+Maybe that house again<br>
+Maybe the city by the lake<br>
+Because when I'm<br>
+I'm just sleeping<br>
+I'm fast to escape<br><br>
+Relate to feelings in mind<br>
+Relate to feelings in mind<br>
+This has been<br><br>
+This has been a collection<br>
+I have made<br>
+I thought that you would have met me there<br>
+Well I was wrong, I was deceived<br>
+To believe it now I know it's not real<br>
+Grab a hold of me<br>
+As I'm falling<br>
+Right back where I started from<br>
+Do I know you?<br><br>
+Do you know me?<br>
+I thought I heard you say<br>
+Meet me down by the lake<br><br>
+This has been<br>
+A collection that I have made<br>
+Wormholes connecting me<br>
+Through the ages<br>
+Because when I dream of you<br>
+In this house we're in<br>
+In here with all these fears<br>
+Lie down and wait for me to grow old<br>
+Oh, oh sweet child<br>
+I recognize your face<br>
+From somewhere<br>
+I guess I have seen before<br><br>
+(Guess I have seen before)<br>
+I knew it then I'm<br>
+Back inside my apartment<br>
+Watching TV<br>
+Self loathing, chained up on my couch<br>
+I'm listening<br>
+Cause now I'm so far from home<br>
+Sir can I ask you something?<br>
+How the fuck do I get home?<br>
+(How the fuck do I get home?)
+Wormholes</p>
+
+      <h1 id="f3" class="lyrics-test">-Limitless-</h1>
+      <p class="lyrics-test-test">Only time will tell<br>
+A miss for a match<br>
+I think you've found the niche<br>
+Now I am twenty one<br>
+Young, but still getting older<br>
+Now I've been wanting more<br>
+Than what you have taught me<br>
+To show me the rivers<br>
+Life living underneath a billboard<br>
+The sidewalks infested<br>
+The people of plastic<br>
+<br>
+Ok, so I've been holding out<br>
+Lying my weight on the door<br>
+Up above, I've never felt so numb<br>
+Until I made it out<br>
+They put a target on your forehead<br>
+The day that you were born<br>
+<br>
+I've waited my entire life, sitting on the sides<br>
+Everyday I hear you say that it gets easier with time<br>
+A life I never ruined, a light to show me out this time<br>
+And maybe, and maybe I was right all along<br>
+The day you were born, a solid mark...<br>
+<br>
+Do you believe in everything?<br>
+Do you believe in everything and everyone you meet?<br>
+Do you believe in everything?<br>
+Do you believe in everything and everyone you see?<br>
+<br>
+The day you were born, a solid mark written on your forehead.
+</p>
+
+      <h1 id="f4" class="lyrics-test">-Reversion-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f5" class="lyrics-test">-Serenity-</h1>
+      <p class="lyrics-test-test">Inertia stands over me<br>
+Holding me down on her bed<br>
+A million lights as they shed off of me<br>
+I remember the drug waking me up<br>
+<br>
+An insufficient fluid based<br>
+Down your back<br>
+Being remembered in waves<br>
+It meant the world<br>
+A pioneer expecting the worst<br>
+<br>
+From a pressed colored label<br>
+You rebuild with your hands<br>
+A vision I have known<br>
+To feel the extract underneath the palms<br>
+In an enhanced nighttime<br>
+With the weight of viruality<br>
+Like the sound when planes collide<br>
+To the ground in my eyes<br>
+<br>
+I lost myself deep within its depths<br>
+I'll surface with time in the waters where we met<br>
+You lost your sight<br>
+So remember how it used to be<br>
+So get used to me<br>
+I'll see you on the other side<br>
+<br>
+An insufficient fluid based<br>
+Down your back<br>
+Being remembered in waves<br>
+It meant the world<br>
+A pioneer expecting the worst<br>
+<br>
+Louise, Louise<br>
+Where I met you<br>
+Underneath extended stars<br>
+I wait until the day breaks<br>
+Will I ever see you again?</p>
+
+      <h1 id="f6" class="lyrics-test">-The Columbian Faction-</h1>
+      <p class="lyrics-test-test">I am the most unhappy man,<br>
+I have unwittingly ruined my country.<br>
+A great industrial nation is now destroyed by its system of credit.<br>
+We're slowly shattering,<br>
+silhouettes of a glass society.<br>
+From the depths of you shed, the diamond.<br>
+From Wilshire to Grand Central,<br><br>
+buildings will crumble, crumble, structures to piles.<br>
+You tell me this jury, is this dollar loaned to me.<br>
+Labeled the catalyst, the X amount,<br><br>
+and it is recycled back to me, recycled back to me.<br>
+Live for this vivid vision. A vision I see,<br>
+A vision for you.<br>
+From my window I could see exploding<br>
+lights underneath the veil over the speedway.<br>
+Guilt for it. I punch right through the skies;<br>
+distilled, pulling the clouds.<br><br>
+I see you in a million dimensions,<br>
+now you are finally found.<br>
+<br>
+I wrote all night long.<br><br>
+We always did exactly what we were told,<br>
+They never wanted us to know.<br>
+I wrote all night long,<br>
+A vision of a place that we call home.<br>
+About a lifetime that we once knew,<br><br>
+They never wanted us to know.<br>
+The age of innocence,<br>
+A vision of a place that we call home.<br>
+The story of the oversaw, oversaw.<br>
+<br>
+Your loyalty means nothing to me.<br>
+Expect to be stopped, not to be fucked.<br>
+We try to break the boundaries.<br>
+My mind is numb, entire cities washed away.<br>
+This microchip, a new prediction to a contrary, oh!</p>
+
+      <h1 id="f7" class="lyrics-test">-Affirmation Of Ascension-</h1>
+      <p class="lyrics-test-test">Maintain a perfect picture for a perfect time<br>
+Everyone was guided towards the truth<br>
+The message of the entire world would rest on the back of me<br>
+<br>
+In the end of it all, it comes down to one or two things<br>
+And if you got money<br>
+Then I got money<br>
+Why would you take credit for what you didn't create?<br>
+The mission of three hundred solid<br>
+<br>
+We will be given wings<br>
+Explosions in the sunset<br>
+Igniting in my mindset<br>
+Just follow me into the clouds<br>
+Where we lay all of our secrets down<br>
+Drop to my knees<br>
+While we were given freedom<br>
+Never have I gone this far with any help<br>
+An honest approach to living<br>
+And learning about myself<br>
+Well goodbye for now<br>
+I'm chasing it down<br>
+<br>
+I've worked so hard<br>
+To make this moment mine<br>
+You will hear my voice above the rest<br>
+You'll watch me shine<br>
+I've worked so hard<br>
+To make this moment mine<br>
+You will hear my voice above the rest<br>
+You'll watch me shine<br>
+<br>
+Reminiscing of the days<br>
+Where you used to be someone<br>
+A shinning a spectacle so far from reach<br>
+Decades later we had encountered<br>
+A final time<br>
+I walk in silence passing by<br>
+Like a diamond<br>
+Like there is no one left<br>
+With money to be made<br>
+Quit lying to yourself and make the move<br>
+<br>
+Let's get one thing straight man<br>
+Yeah you're filthy fucking rich right?<br>
+Let's get one thing straight man<br>
+All my life I've been trying to<br>
+Make money mean something to me<br>
+<br>
+All my life I've been trying to make<br>
+Make money mean something<br>
+All my life I have been trying to<br>
+Make money mean something to me<br>
+<br>
+I've worked so hard<br>
+To make this moment mine<br>
+You will hear my voice above the rest<br>
+You'll watch me shine
+</p>
+
+      <h1 id="f8" class="lyrics-test">-Intake-</h1>
+      <p class="lyrics-test-test">Hold my hands<br>
+Yes hold them close so tightly<br>
+For so long I have felt this fear<br>
+Take deep breaths<br><br>
+Don't give up here just yet<br>
+You swear your endings somewhere near<br>
+I was there<br>
+Pulling into my driveway<br><br>
+Running straight to the front door<br>
+As to see<br>
+Her tell my family that he had stopped intake long before<br>
+After that<br>
+Coming from every angle<br><br>
+A thousand things<br>
+Running through my head<br><br>
+Didn't expect it now<br>
+No not now<br>
+Why it's so soon<br>
+Yet I m still poised and offering<br>
+As I tread the living room<br>
+Oh, you held me higher<br><br>
+Than I thought that I could climb<br>
+I'd just say no<br>
+Guilty me<br>
+I treated you like shit<br><br>
+And you were all I ever wanted in me<br>
+I owe you it too<br>
+Because I missed my last chance to say<br>
+That I love you<br>
+I caught a glimpse of his legs<br>
+Collapsed in black<br>
+Leaning over the slaves<br>
+A place that I<br>
+Used to call home<br>
+(Call my home)<br>
+In that street<br>
+That house where I came from<br>
+Guilty me<br>
+I treated you like shit<br><br>
+And you were all I ever wanted in me<br>
+I owe you it too<br>
+Because I missed my last chance to say<br>
+That I love you<br>
+Hold my hands<br><br>
+Yes hold them close so tightly<br>
+For so long I have felt this fear<br>
+Take deep breaths<br>
+Don't give up here just yet<br>
+You swear your endings somewhere near<br>
+I was there<br>
+Pulling into my driveway<br><br>
+Running straight to the front door<br>
+As to see<br>
+Her tell my family that he had stopped intake long before<br>
+Guilty me<br>
+I treated you like shit<br><br>
+And you were all I ever wanted in me<br>
+I owe you it too<br>
+Because I missed my last chance to say<br>
+That I love you</p>
+
+      <h1 id="f9" class="lyrics-test">-Behind The Curtain-</h1>
+      <p class="lyrics-test-test">He hides behind the curtain<br>
+In the middle of a storm<br>
+Relax they have your answer<br>
+Given to you on a platform<br>
+It's the forty fourth consecutive one<br>
+To downplay us<br>
+Deny us our beliefs<br><br>
+So with the current status of state<br>
+I declare a mockery<br>
+You betrayed me<br>
+The neighborhoods rise today<br>
+And that's a fact<br><br>
+They made a martyr of the matter in me<br>
+You betrayed me<br>
+The neighborhoods rise today<br>
+And that's a fact<br><br>
+They made a martyr of the matter in me<br>
+The neighborhoods will not run away my honor<br>
+We were born<br>
+I have been culture shocked<br>
+By this modern place<br>
+This has been their plan for years to come<br>
+No fathers will roll over in their graves<br>
+This has been their plan for years<br>
+The signing of the dead<br>
+And the bodies you showed me<br><br>
+Put me in the plastic box that I paid for<br>
+The signing of the dead<br>
+The bodies that they showed<br>
+Put me in my plastic box that I paid for<br>
+Kill all of them in front of me<br>
+Make sure their faces hit the pavement.</p>
+
+      <h1 id="f10" class="lyrics-test">-Recovery-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f11" class="lyrics-test">-Edge Of The Earth-</h1>
+      <p class="lyrics-test-test">To go as far, as far as I can see<br>
+at the edge of the earth<br>
+The continuos sound of lights<br>
+that have reached the bottom<br>
+<br>
+In the middle of the desert<br>
+I stared patiently<br>
+To see them touch the ground<br>
+Imploding on the cracked mud surface<br>
+<br>
+I knelt down underneath the midway<br>
+In the millionth sighting<br>
+<br>
+Lets lay back<br>
+Sitting inside my car<br>
+At the edge of the earth<br>
+I turned my head to the left<br>
+And I knew I could not be drugged<br>
+Orbs with infusion white<br>
+Mirroring the image of a silhouete<br>
+At the edge of the earth<br>
+<br>
+And I'm here tonight<br>
+Underneath the influence<br>
+And why can't I find a way out<br>
+It's calling me tonight<br>
+This secret I have become<br>
+At the edge of the earth<br>
+<br>
+You misunderstood the gravity<br>
+As the weight falls apart<br>
+You'll watch me walk away<br>
+I walk away<br>
+Calm as the wind<br>
+You'll watch me go<br>
+<br>
+Let's lay back<br>
+Sitting inside my car<br>
+At the edge of the earth<br>
+I turned my head to left<br>
+And I knew I could not be drugged<br>
+Orbs with infusion white<br>
+Mirroring the image of a silhouette<br>
+At the edge of the earth<br>
+<br>
+And I'm here tonight<br>
+Underneath the influence<br>
+And why can't I find a way out<br>
+It's calling me tonight<br>
+The secret I have become<br>
+At the edge of the earth</p>
+
+      <h1 id="f12" class="lyrics-test">-Via-</h1>
+      <p class="lyrics-test-test">Write me off<br>
+I'm going south for the year<br>
+So take me there<br>
+Off the map<br>
+That no one else could scale<br>
+<br>
+You sat me down showed me the ariels<br>
+That resonate the skies<br>
+In between the visual lines<br>
+Encompassing pines<br>
+In the greenery commons<br>
+Is it pressed in a book<br>
+<br>
+A history unknown<br>
+An isle of concentrated mineral<br>
+In elapsed time<br>
+Directions to locate the fountain of karrots<br>
+The sight of gold<br>
+<br>
+They sat me down on a point<br>
+And my eyes looked up in texture<br>
+The illuminating brim<br>
+A solid trilogy circle<br>
+Embedded in the rock orbital<br>
+When I'm gone you know where you can find me<br>
+Here<br>
+<br>
+It was immaculate<br>
+In its beauty a thousand words<br>
+Could never describe the colored brights<br>
+Forever, to a shore<br>
+<br>
+Where you can dig the earth<br>
+And let it run through your hands<br>
+As deep as it will glow<br>
+We savored the last hour with the turning of the sun<br>
+<br>
+A visual shrine<br>
+Existing with electronic lines<br>
+An inseparable sign<br>
+Intertwined with the corkscrewed<br>
+Manifested woman<br>
+<br>
+In front of me, toxicity<br>
+In front of me, she barely stood<br>
+Take me there<br>
+It was immaculate<br>
+In its beauty a thousand words<br>
+Could never describe the colored brights<br>
+Forever, to a shore
+</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/nosleep.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">No Sleep - 2014</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-The Mixture-</h1>
+        <p class="lyrics-test-test">Take a picture of me<br>
+I'm dying for more<br>
+I really can't believe this<br>
+We just all want to be on TV<br>
+A minute of this face time<br>
+Tearing down your door<br>
+Driven by one hundred forms of fear<br>
+<br>
+I've been trying<br>
+To deny this all<br>
+For too long<br>
+<br>
+To keep my mouth shut<br>
+And it's got me nowhere<br>
+To expose you<br>
+I cannot blame you<br>
+I will not please you<br>
+I do not need you<br>
+To do the things<br>
+That get you off<br>
+<br>
+When you tell me<br>
+The things I have to<br>
+When you call me<br>
+I don't want to<br>
+Out here with a backpack<br>
+Traveling back tracked<br>
+When I don't need to<br>
+It never made sense to me<br>
+But it always made sense to you<br>
+<br>
+And I will still be here<br>
+In front of you<br>
+In spite of you<br>
+<br>
+So smile<br>
+As you look in the mirror<br>
+Give me my receipt now though<br>
+Fuck this industry<br>
+Excuse me to death<br>
+Can we say fuck it<br>
+You can have metal<br>
+BACK<br>
+You can have it back<br>
+<br>
+I'll say it again<br>
+I said I'm in it to win it<br>
+Don't hold<br>
+Can't you tell that I'm already in the mix?
+</p>
+
+        <h1 id="s2" class="lyrics-test">-91367-</h1>
+        <p class="lyrics-test-test">I just hit 'em up<br>
+I'm losing my mind<br>
+The pressure is building<br>
+I gambled my life<br>
+A couple thousand on the dice<br>
+Scared money don't make no money<br>
+Watch what you say you can't take it back<br>
+I'm going in<br>
+Now watch me double that<br>
+Have you heard I can't go like that<br>
+<br>
+Push it from the back let's just watch it all burn<br>
+Light it up tonight we'll be taking our turn<br>
+Push it down and pull it back<br>
+Cause we love the night and we own the blur<br>
+<br>
+Take the nerve back<br>
+<br>
+Again I'm high<br>
+Crawling inside<br>
+Feeling alive<br>
+Losing track of time<br>
+Caught in the cycle<br>
+The never ending cycle<br>
+When you're coming at me you better come correct<br>
+<br>
+The way she moves it back n' forth (closing her eyes, she's wise)<br>
+In front of me<br>
+Damn'man<br>
+No we don't kid and play<br>
+<br>
+Let me tell you I don't love that bitch<br>
+I said it, don't forget it, I meant it<br>
+I ain't playin' around no more<br>
+I don't love that bitch<br>
+I said it, don't forget it, I meant it<br>
+I ain't playin' around no more<br>
+<br>
+We came through the back<br>
+We roll it up<br>
+Of the party, about to light it all up<br>
+Another round, give me your best shot<br>
+Get up let's party<br>
+About to pour it all down<br>
+<br>
+Remember that I never forced it on you<br>
+Put this gun to your head and pull the trigger now<br>
+I wanna warn you that you may see red<br>
+Just let me live<br>
+Please don't bring me down<br>
+<br>
+Come correct when you're coming to me<br>
+<br>
+I tell myself, yeah you got this<br>
+One more pill and she popped it<br>
+There's no going home<br>
+No sleep<br>
+Until the sun rises<br>
+<br>
+Take the nerve back</p>
+
+        <h1 id="s3" class="lyrics-test">-Erased-</h1>
+        <p class="lyrics-test-test">I've been erased from the old me<br>
+Can you tell me again<br>
+Can you hold me if I won't lay 'til the morning sun<br>
+It pulls you out and takes you under<br>
+<br>
+I thought you'd hate me<br>
+But I needed you<br>
+I thought you'd hate me<br>
+But you needed truth<br>
+I thought you'd hate me, hate me, hate me<br>
+For losing you<br>
+I thought you knew<br>
+<br>
+That we're cut out of the same cloth<br>
+Feel like the pages of a story that we can't stop<br>
+And now I can't replace you with another thread<br>
+Take one more step<br>
+I'll jump with you<br>
+<br>
+I thought you'd hate me<br>
+But I needed you<br>
+I thought you'd hate me<br>
+But you needed truth<br>
+I thought you'd hate me, hate me, hate me<br>
+For losing you<br>
+I thought you knew<br>
+<br>
+Looking back at your building<br>
+It came crashing down<br>
+You think I'll forget that<br>
+Never gonna take it back (You know where I lie)<br>
+Looking back at your bullshit<br>
+I came crashing down<br>
+You think I'll forget that<br>
+Never gonna take it back (You know were I am)<br>
+I thought you knew<br>
+<br>
+It's hard enough you standing next to me<br>
+Your scent reviving moments spent with you<br>
+I need to know that you believe in this<br>
+Or just release them into deja vu<br>
+<br>
+What<br>
+I never wanted you to understand (understand)<br>
+Why<br>
+I wanna make you believe in me<br>
+<br>
+I thought you'd hate me<br>
+But I needed you<br>
+I thought you'd hate me<br>
+But you needed truth<br>
+I thought you'd hate me, hate me, hate me<br>
+For losing you<br>
+I thought you knew</p>
+
+        <h1 id="s4" class="lyrics-test">-Better Half-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s5" class="lyrics-test">-Across The Bed-</h1>
+        <p class="lyrics-test-test">It's the way that you do me babe<br>
+It's what you do to me<br>
+I move with you so perfectly<br>
+Take it off as I pull you across the bed<br>
+From your head to your feet<br>
+A fever rising vigorously<br>
+<br>
+It's getting closer<br>
+<br>
+Reminiscing on the lust you know how it was<br>
+The feeling of the warmth of your breath and your touch<br>
+Laying in bed with that scent of yours<br>
+Staying here instead 'cause I wanted more<br>
+<br>
+It's the way that you do me babe<br>
+It's what you do to me<br>
+I move with you so perfectly<br>
+Take it off as I pull you across the bed<br>
+From your head to your feet<br>
+A fever rising vigorously<br>
+<br>
+This is the coming of the storm<br>
+Can you feel the form?<br>
+In perfect patterns in a perfect dream<br>
+We are starting up a war, starting up a war<br>
+Intoxicated by the lies we breathe<br>
+We are duplicitous and insidious<br>
+You've pushed me further than I've ever dreamed<br>
+We are starting up a war, starting up a war<br>
+It should've ended but we just can't leave so far<br>
+<br>
+Pick it up and take it down<br>
+Lose your body in the sound<br>
+When you cum it gets me high<br>
+Let me in your world tonight<br>
+<br>
+It's the way that you do me babe<br>
+It's what you do to me<br>
+I move with you so perfectly<br>
+Take it off as I pull you across the bed<br>
+From your head to your feet<br>
+A fever rising vigorously<br>
+<br>
+Reminiscing on the lust you know how it was<br>
+The feeling of the warmth of your breath and your touch<br>
+Laying in bed with that scent of yours<br>
+Staying here instead 'cause I wanted more<br>
+<br>
+This is the coming of the storm<br>
+Can you feel the form?<br>
+In perfect patterns in a perfect dream<br>
+We are starting up a war, starting up a war<br>
+Intoxicated by the lies we breathe<br>
+We are duplicitous and insidious<br>
+You've pushed me further than I've ever dreamed<br>
+We are starting up a war, starting up a war<br>
+It should've ended but we just can't leave so far
+</p>
+
+        <h1 id="s6" class="lyrics-test">-Pistol Play-</h1>
+        <p class="lyrics-test-test">Damn I see you with her<br>
+There's nothing more than I would like to put this gun to your face<br>
+I told myself I was finished<br>
+And I'll pull it in a minute<br>
+But first I got something priceless to say<br>
+<br>
+The memories<br>
+All the shit that you did to me<br>
+Nothing else will follow<br>
+Fuck the sterling, I'll take the gold<br>
+I've been here too many times before<br>
+When you see me in town I suggest you run<br>
+I'm fucking over with you<br>
+<br>
+Damn I see you with her<br>
+There's nothing more than I would like to put this gun to your face<br>
+I told myself I was finished<br>
+And I'll pull it in a minute<br>
+But first I got something priceless to say<br>
+I hate my fucking friends<br>
+<br>
+You fade away as I walk my way<br>
+You're just a bitch so rotten<br>
+The thought of you just gets me dazed<br>
+I hope you go forgotten<br>
+<br>
+You'll fucking go forgotten<br>
+Fucking go forgotten<br>
+<br>
+I tried for weeks to be so honest<br>
+Finally feel my feet against the floor<br>
+We take the lies from what's upon us<br>
+I cannot listen to you anymore<br>
+Looking for something always searching<br>
+Never got my hands to touch the door<br>
+But now I see the table turning<br>
+Forgetting what your face looked like before<br>
+<br>
+You fade away as I walk my way<br>
+You're just a bitch so rotten<br>
+The thought of you just gets me dazed<br>
+I hope you go forgotten<br>
+<br>
+Damn I see you with her<br>
+There's nothing more than I would like to put this gun to your face<br>
+I told myself I was finished<br>
+And I'll pull it in a minute<br>
+But now I've said all that I've had to say
+</p>
+
+        <h1 id="s7" class="lyrics-test">-Vahle-</h1>
+        <p class="lyrics-test-test">All my life<br>
+I can't define<br>
+This single instant<br>
+This graphic moment<br>
+To step foot on this<br>
+To step foot on this<br>
+<br>
+You'll never know<br>
+You're the reason I came<br>
+I cannot do this without you<br>
+No, I never doubt you<br>
+But I feel like you don't feel the same way<br>
+<br>
+Now you're buried underneath<br>
+Gone but never forgotten<br>
+James Vahle<br>
+<br>
+I was young<br>
+An inquisition of who I would become<br>
+Who I see in myself<br>
+When the gravel got loose<br>
+And you were just trying to help me<br>
+<br>
+Loved ones<br>
+Afterlife is something that you think about<br>
+When you're caught up in that moment<br>
+That moment you don't wanna dream about<br>
+<br>
+When you want something more<br>
+And she said I was stuck<br>
+And I should have pulled you out of that truck<br>
+I'm sorry, it's my summer<br>
+<br>
+We've been saying<br>
+Why'd you have to go?<br>
+Why'd you have to go?<br>
+I've been waiting<br>
+Staring at the floor<br>
+Staring at the phone<br>
+<br>
+Now you're buried underneath<br>
+Gone but never forgotten<br>
+James Vahle<br>
+<br>
+I don't often think about regret<br>
+And what it means to me<br>
+I will always have all respect<br>
+About what you mean to me<br>
+<br>
+Why the fuck couldn't you have left it in the driveway?<br>
+I knew it<br>
+I would have picked you up<br>
+I would have been there<br>
+Why the fuck couldn't you have left it in the driveway?<br>
+I can see you<br>
+Now every time I turn the corner all I'm gonna think about is<br>
+<br>
+Loved ones<br>
+Afterlife is something that you think about<br>
+When you're caught up in that moment<br>
+That moment you don't wanna dream about<br>
+<br>
+When you want something more<br>
+And she said I was stuck<br>
+And I should have pulled you out of that truck<br>
+I'm sorry, it's my summer<br>
+<br>
+We've been saying<br>
+Why'd you have to go?<br>
+Why'd you have to go?<br>
+I've been waiting<br>
+Staring at the floor<br>
+Staring at the phone</p>
+
+        <h1 id="s8" class="lyrics-test">-Neon Eyes-</h1>
+        <p class="lyrics-test-test">Unworthy target<br>
+It'll take you out regardless<br>
+As I sit here with the television on<br>
+And the sound off<br>
+Commercial after commercial<br>
+<br>
+I'm so lucky to define it<br>
+By my self regret<br>
+As I perceive narcotic<br>
+Living life always keeping the weight in line<br>
+But then you see the world just like I do<br>
+<br>
+Feed me until I'm sick<br>
+Drown me out in white<br>
+Drown me out along with everyone<br>
+Not even here to fight this fight<br>
+<br>
+Burn it all as I sit back and watch discussions<br>
+Not to be heard when I watch you talk, forget it<br>
+Neon eyes always seeing the darker side<br>
+But then you'll see the world just like I do<br>
+<br>
+Unworthy target<br>
+Let me tell you right now<br>
+He doesn't give a fuck<br>
+See him walking down the freeway<br>
+And it's twelve o' clock<br>
+But I see him standing tall<br>
+He's held up in an office on the 20th floor<br>
+He turns it off<br>
+He turns it all off<br>
+<br>
+The power to my city as we know it<br>
+The power to my city as we know it<br>
+Fuck, fuck, fuck!<br>
+<br>
+On my knees<br>
+And I worship you with every pore<br>
+I'd snort it all, I'd snort it all<br>
+<br>
+It's called addiction<br>
+Caught up in the system<br>
+The friction of feeling constructed<br>
+Oh I'm lost, I'm lost, I'm lost<br>
+<br>
+Without a depiction<br>
+My soul's a victim afflicted<br>
+I know I'm a sick kid<br>
+Oh I'm gone, I'm gone, I'm gone<br>
+<br>
+Drown me out along with everyone<br>
+Not even here to fight this fight<br>
+Unworthy target</p>
+
+        <h1 id="s9" class="lyrics-test">-Peace Of Mind-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s10" class="lyrics-test">-Up All Night-</h1>
+        <p class="lyrics-test-test">I tried a thousand times to make you feel it<br>
+Like the days when we had first met<br>
+But I feel I never moved you<br>
+What the fuck how did we forget?<br>
+<br>
+And in another life would it be different<br>
+Would we do it all again?<br>
+And at that would you tell me that you loved me?<br>
+All alone why should I pretend?<br>
+<br>
+Gagged and bound<br>
+You told me you broke down<br>
+And I believed everything<br>
+My love for you was logic drowned<br>
+Round and round<br>
+I came all the way down<br>
+To tell you that I'm really here<br>
+And I don't wanna waste my time<br>
+<br>
+Without you without me<br>
+And I'm not being honest<br>
+I get it back to get me off<br>
+She did me dirty once before<br>
+But now that's over<br>
+I had it all in my hands<br>
+Until you ripped it out again<br>
+<br>
+Let it go there's nothing left<br>
+Underneath the masquerade<br>
+<br>
+You got me up all night<br>
+I wake up in another room<br>
+You wake up, you're never next to me<br>
+Oh no, no, no<br>
+And I'm coming home tonight<br>
+But this house wasn't built for two<br>
+If I let you have the rest of me,<br>
+Would you tell me the truth?<br>
+<br>
+I tried a thousand times to make you feel it<br>
+Like the days when we had first met<br>
+But I feel I never moved you<br>
+What the fuck how did we forget?<br>
+<br>
+And in another life would it be different<br>
+Would we do it all again?<br>
+And at that would you tell me that you loved me?<br>
+All alone, why should I pretend?<br>
+<br>
+I put my trust in you like I had nothing to lose<br>
+Now I'm all confused<br>
+Tell me what to do<br>
+Tell me what to do<br>
+Tell me what to do<br>
+<br>
+I had enough I'm through<br>
+I put my trust in you<br>
+I had nothing to lose<br>
+Tell me what to do with that said<br>
+I never wanna see you again<br>
+<br>
+It feels so flawless<br>
+The summer in august when we fell in love<br>
+Looking back remember when we first met<br>
+The morning dove into my soul made of gold. No<br>
+How could you be so thoughtless?<br>
+My lover my goddess I was so in love with<br>
+How could you be so faithless?<br>
+Ignore dedication<br>
+I showed her through<br>
+<br>
+Without you without me<br>
+And I'm not being honest<br>
+I get it back to get me off<br>
+She did me dirty once before<br>
+But now that's over<br>
+I had it all in my hands<br>
+Until you ripped it out again<br>
+<br>
+Let it go there's nothing left<br>
+Underneath the masquerade, death
+</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/diff.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Different Animals - 2017</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-Waves Control-</h1>
+          <p class="lyrics-test-test">Fuck it, why don't you just let me overdose?<br>
+I did it again, and woke up again<br>
+Tired of running from all these withdrawals, keep losing my friends<br>
+This might be my end<br>
+All of these drugs while I'm counting my ends<br>
+Fuck it I'm dead<br>
+Fuck it I'm dead inside<br>
+And now you know why<br>
+<br>
+Now that I'm gone, I'm on the run<br>
+Alone in my room I look down at my gun<br>
+Picking it up, I don't want to give up<br>
+But I'm stuck in this rut that I've dug and I'm fucked<br>
+The drugs didn't help<br>
+I blame myself for the shit I've been dealt<br>
+Tell you I'm cool but I'm losing my grip<br>
+Tell you I'm good but I'm losing my shit<br>
+<br>
+You didn't want to take him to the hospital<br>
+All you really wanted was his capital<br>
+Another one lost that we cannot predict<br>
+This is a plague and we cannot pretend<br>
+Another mistake might cost you your life<br>
+When you're sticking the needle and walk towards the light<br>
+<br>
+Letting go of all I've ever known<br>
+I wanna feel the wave's control tighten its grip around my throat<br>
+Crashing over me, I'm holding <br>
+<br>
+Feel the narcotics might never wake up<br>
+All of the bodies just start to pile up<br>
+And that's when it hits you rips you perplexed<br>
+Now you are floating, it's on to the next<br>
+<br>
+Now I'm letting go, let the chemicals control<br>
+I'm holding on<br>
+Always dismissed do you get the gist?<br>
+I'm holding on<br>
+Letting go of all I've ever known<br>
+I wanna feel the wave's control<br>
+Tighten its grip around my throat<br>
+You never really ever gave a shit<br>
+Always dismissed do you get the gist?<br>
+<br>
+Always kneeling down<br>
+I'm an addict with a crown<br>
+Don't you love the sound when my body hits the ground<br>
+Why don't you just let me drown?<br>
+<br>
+Fuck it, why don't you just let me overdose?<br>
+I did it again, and woke up again.<br>
+Tired of running from all these withdrawals,<br>
+keep losing my friends<br>
+This might be my end<br>
+All of these drugs while I'm counting my ends<br>
+Fuck it I'm dead<br>
+Fuck it I'm dead inside<br>
+And now you know why</p>
+
+          <h1 id="t2" class="lyrics-test">-Finite-</h1>
+          <p class="lyrics-test-test">Now don't go walking towards the light,<br>
+life is only finite, finite<br>
+Yeah<br>
+You know we love to play with fire,<br>
+burning up the cold nights, cold nights... yeah<br>
+In and out of breath I'm staring into death,<br>
+lay down with the liar<br>
+Chemical effect,<br>
+we're falling neck to neck,<br><br>
+the page and the writer<br>
+Now don't go walking towards the light,<br>
+life is only finite, finite yeah<br>
+You know we love to play with fire,<br>
+burning up the cold nights,<br>
+cold nights... yeah<br>
+Get back your words mean nothing to me,<br><br>
+maybe a relapse is what I need<br>
+Lost love, no coming back for me,<br>
+finite grip to your sanity<br>
+In and out of this stress and make another mess,<br>
+the things we desire<br>
+Running through my chest, the right lung and the left<br>
+No way to go higher<br>
+Now don't go walking towards the light,<br>
+life is only finite, finite yeah<br><br>
+You know we love to play with fire,<br>
+burning up the cold nights, cold nights... yeah<br>
+Get high and pretend like I'm just not here<br>
+Middle fingers to the sky,<br>
+once you die, hope you realize<br>
+Fucked up and pretend like I'm just not here<br>
+Middle fingers to the sky once you die,<br>
+it's a suicide<br>
+<br>
+If all these dreams come pouring back to me<br>
+Don't say I didn't leave my mind<br>
+It's all a dream, I'm standing on my feet<br>
+I said I wouldn't miss your eyes<br>
+<br>
+Now don't go walking towards the light,<br>
+life is only finite, finite yeah<br>
+You know we love to play with fire,<br>
+burning up the cold nights, cold nights... yeah<br>
+If all these dreams come pouring back to me<br>
+Don't say I didn't leave my mind<br>
+It's all a dream, I'm standing on my feet<br>
+I said I wouldn't miss your eyes</p>
+
+          <h1 id="t3" class="lyrics-test">-Feels Good-</h1>
+          <p class="lyrics-test-test">It feels good<br>
+It feels good<br>
+<br>
+I'm waking up this time<br>
+Like I've never been tired<br>
+Of making up my mind<br>
+<br>
+It feels good<br>
+It feels good, oh, feels good, oh<br>
+It feels good<br>
+It feels good, oh, feels good, oh<br>
+<br>
+I lit my last one then I fell asleep in slime<br>
+Work at my habits but the feel is so sublime<br>
+Another drag in and my mind goes on a climb<br>
+That's where you'll catch me cause it happens all the time<br>
+Always on the move, always live proof<br>
+I'm just trying to prove what you disapproved<br>
+All this residue, don't know what to do with<br>
+Facing down the truth, tell me where were you<br>
+These are my hands that build me up<br>
+But where were you<br>
+Yeah, tell me where were you<br>
+<br>
+I'm waking up this time<br>
+Like I've never been tired<br>
+Of making up my mind<br>
+<br>
+It feels good<br>
+It feels good, oh, feels good, oh<br>
+It feels good<br>
+It feels good, oh, feels good, oh<br>
+<br>
+I lit my last one then I fell asleep in slime<br>
+Work at my habits but the feel is so sublime<br>
+Ready to deploy, ready to exploit<br>
+Can't express my joy, my life I didn't destroy<br>
+I will not recoil, dope inside the foil<br>
+Problems I can't avoid, I can not employ<br>
+How's it look now<br>
+Standing with your eyes to the fire<br>
+I won't look down<br>
+Standing with my eyes to the light<br>
+<br>
+Feels good oh, feels good oh<br>
+Feels good oh, feels good<br>
+(Of making up my mind)<br>
+Feels good oh<br>
+<br>
+It feels good<br>
+It feels good oh, feels good oh<br>
+It feels good<br>
+It feels good oh, feels good oh<br>
+<br>
+I lit my last one then I fell asleep in slime<br>
+Work at my habits but the feel is so sublime<br>
+Another drag in and my mind goes on a climb<br>
+That's where you'll catch me cause it happens all the time</p>
+
+          <h1 id="t4" class="lyrics-test">-Disaster Vehicle-</h1>
+          <p class="lyrics-test-test">Fuck the system and its politics<br>
+All politicians are corrupt then quit<br>
+They all switch and they all snitch<br>
+Just to benefit and get more rich<br>
+It's all bullshit and it ain't no lie<br>
+Fuck the politics I'll burn that bridge<br>
+<br>
+Yeah there's a war on drugs<br>
+Yeah a war on love<br>
+Can't tell me no 'cause there's a war on us<br>
+Yeah<br>
+They kill these kids in the streets<br>
+Lock us all down and say we're free<br>
+Open your eyes can't you see?<br>
+<br>
+Fuck the system and its politics<br>
+All politicians are corrupt then quit<br>
+They all switch and they all snitch<br>
+Just to benefit and get more rich<br>
+It's all bullshit and it ain't no lie<br>
+Fuck the politics I'll burn that bridge<br>
+<br>
+Police killing off civilians<br>
+Killing all the innocents<br>
+This is all imminent been through<br>
+the imprisonment this is no coincidence<br>
+<br>
+Rats in the wheel grinding life away<br>
+Rats in the wheel grinding<br>
+We're all rats in a wheel grinding life away<br>
+<br>
+Fuck the system and its politics<br>
+All politicians are corrupt then quit<br>
+They all switch and they all snitch<br>
+Just to benefit and get more rich<br>
+It's all bullshit and it ain't no lie<br>
+Fuck the politics I'll burn that bridge</p>
+
+          <h1 id="t5" class="lyrics-test">-Pieces-</h1>
+          <p class="lyrics-test-test">Now I'm lost again just turn me<br>
+around 1 last time<br>
+Now I'm crossed again its turning into my last night<br>
+Under the cobwebs that hold my skin<br>
+I'm just a bone yard so help me sleep tight<br>
+Now I'm fucked again I woke up in hell with more crimes<br>
+<br>
+Here in my tragedy, drifting from sanity<br>
+I'm fallin' down to pieces<br>
+I'm fallin' down to pieces<br>
+Here on my own today, feeling me fade away<br>
+I'm fallin' down to pieces<br>
+I'm fallin' down to pieces<br>
+<br>
+Now I'm lost again, just turn me around one last time<br>
+Now I'm crossed again its turning into my last night<br>
+Under the cobwebs that hold my skin,<br>
+I'm just a boneyard so help me sleep tight<br>
+Now I'm fucked again,<br><br>
+there will never be Heaven for me inside<br>
+Here in my tragedy, drifting from sanity<br>
+I'm fallin' down to pieces<br><br>
+I'm fallin' down to pieces<br>
+Here on my own today, feeling me fade away<br>
+I'm falling down to pieces<br>
+I'm fallin' down to pieces<br>
+Nowhere left to run<br>
+Nowhere left to hide<br><br>
+No escape from the thoughts that plague my mind<br>
+No one left to hurt<br>
+No tears left to cry<br>
+Nothing left to burn<br>
+Time to say goodbye...<br><br>
+Goodbye<br>
+Jus load it and cock it<br>
+I'm not a prophet I'm here for profit<br>
+Goddamnnn<br>
+And fuck all the loses my heroine goddess<br>
+Just close coffin goddamnn
+</p>
+
+          <h1 id="t6" class="lyrics-test">-Interlude-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t7" class="lyrics-test">-Hope-</h1>
+          <p class="lyrics-test-test">All flashbacks lost in my way<br>
+stuck on the black smacked down on my face<br>
+Yeah I've been handicapped by ball and chain<br>
+Locked down in my cell 4 walls can relate<br>
+Facts<br>
+Lil kid but bigga picture in the photograph<br>
+Out playin' but landed myself in Alcatraz<br>
+Outcast intact hooked to a polygraph<br>
+Lookin' to find myself but lost again like artifact<br>
+<br>
+Over yesterday stealin hours away it's all for nothing<br>
+Still I can relate enough to think that you'll be fine<br>
+I get it out the way, take another saint<br>
+<br>
+It's all for nothing else but numbing<br>
+the pain and still I hope that you'll be fine<br>
+<br>
+I've been trying to reach you with<br>
+these words that don't get into your head<br>
+All our bridges are burning and there's<br>
+nothing we can do but pretend and hope<br>
+<br>
+Lost cause can I still find hope<br>
+Find a way to cope<br>
+But I still the antidote<br>
+Noose tied tight on the rope till I choke<br>
+But I won't stop breathing till the top the slope<br>
+Say my prayers and put me down the rest<br>
+All my demons be calling me but I feel blessed<br>
+The needle callin me got me feelin' stress<br>
+Keep on waking up another crest of the chest<br>
+<br>
+Over yesterday stealin hours away it's all for nothing<br>
+Still I can relate enough to think that you'll be fine<br>
+I get it out of the way, take another saint<br>
+It's all for nothing else but numbing<br>
+the pain and still I hope that you'll be fine<br>
+<br>
+I've been trying to reach you with<br>
+these words that don't get into your head<br>
+All our bridges are burning and<br>
+there's nothing we can do but pretend and hope<br>
+<br>
+So sick of the lies<br>
+The whole world jus died<br>
+Jus look at my eyes and then you realize<br>
+That I'm really jus that high I OD'D and demised<br>
+And baby don't cry jus pray up at the sky<br>
+Don't justify when I'm crucified then glorified and then amplified<br><br>
+I<br>
+(Oh love sing it to me say run, dare me to breathe<br>
+Show me the pattern now,<br>
+and there's nothing we can do but pretend and hope</p>
+
+          <h1 id="t8" class="lyrics-test">-Tide's Change-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t9" class="lyrics-test">-On Her Mind-</h1>
+          <p class="lyrics-test-test">[feat. Pouya]<br>
+<br>
+When this love subsides<br>
+I never realized<br>
+The vibe downside<br>
+She opened my eyes<br>
+She left me alone<br>
+Broken at home<br>
+Gripping that chrome<br>
+Locked in a catacomb<br>
+With a love syndrome<br>
+About to implode explode<br>
+I don't condone<br>
+This endless cyclone<br>
+<br>
+200 calls on my phone that I missed voice mails<br>
+Talkin bout where u at where u been<br>
+I need to know who u with<br>
+I already told u that I'm with the homies recording<br>
+I can't be reportin my moves all day<br>
+More time with you less money go my way<br>
+Lemme do my thang, lemme rock my chain<br>
+When I get home let the dingaling swing<br>
+<br>
+I fell in love with the pain<br>
+She fell in love with the game<br>
+Told u I never would change<br>
+Pussy be callin my name<br>
+Thuggin and bussin my thang<br>
+Girl you fuckin insane<br>
+Girl you fuckin a lame<br>
+Girl I'm whippin a range<br>
+On and off the stage<br>
+Critically acclaimed<br>
+Pouya hoe you know I can't be retained<br>
+I can't be retained<br>
+<br>
+She can send me into overdrive<br>
+We do this all the time<br>
+Now she's coming over every night<br>
+Like I'm always on her mind<br>
+<br>
+She kept talkin that shit<br>
+And gettin me pissed<br>
+Wish she didn't exist<br>
+But she won't be missed<br>
+And don't insist<br>
+Yo I'll fuckin dismiss<br>
+You off my list<br>
+Then I grab my fist<br>
+And the wall I hit<br>
+God damn you a twist<br>
+And we can't coexist or resist<br>
+You're on the black list<br>
+<br>
+When this love subsides<br>
+I never realized<br>
+The vibe downside<br>
+She opened my eyes<br>
+She left me alone<br>
+Broken at home<br>
+Gripping that chrome<br>
+Locked in a catacomb<br>
+With a love syndrome<br>
+About to implode explode<br>
+I don't condone<br>
+This endless cyclone<br>
+<br>
+She can send me into overdrive<br>
+We do this all the time<br>
+Now she's coming over every night<br>
+Like I'm always on her mind<br>
+She can show things, get anything<br>
+I'm always on the line<br>
+Now she's coming over every night<br>
+Like I'm always on her mind<br>
+<br>
+Locked out and she's a loaded gun<br>
+Cause she knows how I like my fun<br>
+Straight down into another one<br>
+Cause she knows she's not the only one<br>
+<br>
+You not the only one<br>
+You think I owe u sum'<br>
+You think you know me<br>
+But you not the lonely one<br>
+I don't feel anything anymore<br>
+Look me in my eyes<br>
+I'm ready to die, bust my .45<br>
+Break bread with my guys<br>
+When I'm counting baby don't hit my line<br>
+Turn around bow down lemme feel your spine<br>
+<br>
+She can send me into overdrive<br>
+We do this all the time<br>
+Now she's coming over every night<br>
+Like I'm always on her mind<br>
+She can show things, get anything<br>
+I'm always on the line<br>
+Now she's coming over every night<br>
+Like I'm always on her mind
+</p>
+
+          <h1 id="t10" class="lyrics-test">-Heavy Silence-</h1>
+          <p class="lyrics-test-test">n a heavy silence<br>
+Backs in view<br>
+Walking through the haunted doorway, writing off the truth<br>
+In a pleasant memory of the former you<br>
+Its enough to soften judging hearts but yet spoken too soon<br>
+<br>
+Kuz all the memories are right here inside me<br>
+And it's taking all of me not to break or make a scene<br>
+Jus leave me alone meet me down below<br>
+Pissing on a stone jus to say hello<br>
+Lit the herb of grace hit the veins and freeze<br>
+In a petty silence mother stews<br>
+And I could cut the air in here with a sharpened thought or two<br>
+What a fine endeavor, conducting as a tune<br>
+At the time I ride my impulses and curb my attitude<br>
+<br>
+Kuz all the memories are right here inside me<br>
+And it's taking all of me not to break or make a scene<br>
+<br>
+Jus throw it in the moat<br>
+Meet me down below<br>
+Pissing on a stone<br>
+Just to say hello</p>
+
+          <h1 id="t11" class="lyrics-test">-Pullin' Shades-</h1>
+          <p class="lyrics-test-test">Fuck<br>
+<br>
+(Myke Terry/Gus Farias)<br>
+I'm sick of playin' the fighter<br>
+I hold on tighter<br>
+Feelin' you let me go (let go)<br>
+Under the pressure of silence<br>
+Avoid disguises<br>
+You still block me at the door<br>
+<br>
+(Myke Terry/Gus Farias)<br>
+I'm in your eyes<br>
+And you still can't see me now<br>
+I'm in your sight<br>
+But you're looking all around<br>
+No wonder why I'm so lost and never found<br>
+I keep on lightin' the sound<br>
+You keep on pullin' shades down (down)<br>
+<br>
+(Myke Terry/Gus Farias)<br>
+I'm in your eyes<br>
+And you still can't see<br> me now (see me now)<br>
+I'm in your sight<br>
+But you're looking all around (all around)<br>
+No wonder why I'm so lost and never found (never found)<br>
+I keep on lightin' the sound<br>
+You keep on pullin' shades down (pullin' shades down)<br>
+<br>
+(Myke Terry)<br>
+Stuck in the deal I've been handed<br>
+Got me stranded<br>
+Forced me to swim or drown<br>
+Nothings the way that we planned it<br>
+Take for granted<br>
+The signs that I leave around<br>
+You keep on pullin' the shades down<br>
+<br>
+(Myke Terry/Gus Farias)<br>
+I'm in your eyes<br>
+And you still can't see me now (see me now)<br>
+I'm in your sight<br>
+But you're looking all around (all around)<br>
+No wonder why I'm so lost and never found (never found)<br>
+I keep on lightin' the sound<br>
+You keep on pullin' shades down (pullin' shades down)<br>
+<br>
+(Myke Terry/Gus Farias)<br>
+(All around)<br>
+I'm in your eyes<br>
+And you still can't see me now (see me now)<br>
+I'm in your sight<br>
+But you're looking all around (all around)<br>
+No wonder why I'm so lost and never found (never found)<br>
+I keep on lightin' the sound<br>
+You keep on pullin' shades down (pullin' shades down)</p>
+
+          <h1 id="t12" class="lyrics-test">-Left For Dead-</h1>
+          <p class="lyrics-test-test">Left for dead inside my mind<br>
+Alone and fighting for my life<br>
+The floor was cold, I was alone<br>
+Crucified let me go<br>
+Let me fucking go<br>
+Fade in, fading out of consciousness<br><br>
+Cause everyday feels like I don't exist<br>
+So every night's another near death miss<br>
+Praying for the day that I don't wake up again<br>
+To feel this pain in my mind... fucking take my life<br>
+Take my mind<br><br>
+Now I'm blind<br>
+I'm in a bind<br>
+Burn it all tonight<br>
+Goddamn<br><br>
+Why don't all of you just bury me tonight God damn man... Fuck<br>
+Left for dead... inside my mind<br>
+Alone and fighting for my life<br>
+The floor was cold, I was alone... crucified, let me go
+Let me fucking go</p>
+        </div>
+      </div>
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+      </div>
+
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+      </div>
+
+          <div class="page-finish">
+            <a href="./security.html">Security Statements</a>
+            <a href="./terms.html">Terms of Service</a>
+            <a href="./privacy.html">Privacy Policy</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+
+      </body>
+      </html>

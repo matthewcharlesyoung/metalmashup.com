@@ -1,0 +1,2345 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Dream on Dreamer</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/heartbound.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Heartbound - 2011</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Heartbound</a>
+      <a href="#f2">Downfall</a>
+      <a href="#f3">A Path Of Its Own</a>
+      <a href="#f4">For What You Believe In</a>
+      <a href="#f5">Taking Chances, Breaking Free</a>
+      <a href="#f6">Blinded</a>
+      <a href="#f7">To The Lost</a>
+      <a href="#f8">Come Home True Love</a>
+      <a href="#f9">Lifestream</a>
+      <a href="#f10">Midnight Thoughts</a>
+      <a href="#f11">A Thousand Miles</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/loveless.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Loveless - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Loveless</a>
+      <a href="#s2">The World In Front Of Me</a>
+      <a href="#s3">Infinity</a>
+      <a href="#s4">Foundations</a>
+      <a href="#s5">Hear Me Out</a>
+      <a href="#s6">Neverlove</a>
+      <a href="#s7">Moving On, Moving Far</a>
+      <a href="#s8">Evol</a>
+      <a href="#s9">Black Maine</a>
+      <a href="#f10">The Tracks We Leave Behind</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/songsof.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Songs Of Soulitude - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">Souls On Fire</a>
+      <a href="#t2">Vertigo</a>
+      <a href="#t3">Society To Anxiety</a>
+      <a href="#t4">Malice</a>
+      <a href="#t5">Snowpiercer</a>
+      <a href="#t6">Innocence</a>
+      <a href="#t7">Delirium</a>
+      <a href="#t8">Open Sun</a>
+      <a href="#t9">Pariah</a>
+      <a href="#t10">Violent Pictures</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#fourth"><img class="lyrics-page_image" src="./images/itcomesand.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">It Comes And Goes - 2018</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#ff1">Let It In</a>
+      <a href="#ff2">Voices</a>
+      <a href="#ff3">Runaway</a>
+      <a href="#ff4">Stay</a>
+      <a href="#ff5">Same Old War</a>
+      <a href="#ff6">Shine</a>
+      <a href="#ff7">Drag Me Down</a>
+      <a href="#ff8">Don't Lose Your Heart</a>
+      <a href="#ff9">Paper Thin</a>
+      <a href="#ff10">Tell Me Why</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/heartbound.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Heartbound - 2011</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Heartbound-</h1>
+      <p class="lyrics-test-test">Did you ever feel that there's somebody else<br>
+Who controls our lives and guides our way?<br>
+Someone who would love a life of one or another,<br>
+Perceiving smiles of faces with unfamiliar names.<br>
+My blurred vision couldn't see what was right in front of me<br>
+<br>
+What was right in front of me.<br>
+<br>
+Grey seemed matching to my frame of mind.<br>
+Head full of clouds and angry eyes.<br>
+<br>
+We disregard the real heart<br>
+Choose elegance as a satisfaction<br>
+Where does it lead us? Tell me where it will lead us.<br>
+Where do we go from here.<br>
+<br>
+Strangers come alive at night when colours try to hide<br>
+As long as we will fight for a new day, for a better day.<br>
+<br>
+Strangers come alive at night when colours try to hide<br>
+As long as we will fight for a new day, for a better day.<br>
+<br>
+Now the sky will lead the way.<br>
+Even when you feel like running away<br>
+Or knowing that everything will be okay,<br>
+To not follow what everyone says.<br>
+<br>
+I'll touch what you saw in colour,<br>
+But to me it's just a part of my path.<br>
+And I'll make sure it's under cover,<br>
+Cause you won't take this all in.<br>
+<br>
+I watched the blind see what other can't witness.<br>
+Seen the eyes of thousands, broke and helpless.<br>
+I heard the deaf listen to the change of tomorrow.<br>
+What does it take to overcome the fear and sorrow?<br>
+<br>
+Will we ever lighten up?<br>
+Will we ever comprehend our meaning in life?<br>
+My soul, my soul, my soul will lighten up the sky.</p>
+
+      <h1 id="f2" class="lyrics-test">-Downfall-</h1>
+      <p class="lyrics-test-test">When the dark throws you down, and you learn to survive<br>
+You wake up and remember what it's like to be alive.<br>
+<br>
+When I'm the sun, I'll count the worlds and make them mine.<br>
+<br>
+I'm sick of making all the same mistakes over (and over) again<br>
+Will I ever be left alone to mend?<br>
+I'll never make all the same mistakes over and over again<br>
+Now I've seen what I could become<br>
+And I don't want to.<br>
+<br>
+I carried these burdens for too long.<br>
+Went along with all the mess.<br>
+But it has made me who I am today,<br>
+Still standing after all these years.<br>
+<br>
+We are the living dead<br>
+We are the living dead<br>
+We are the living dead<br>
+<br>
+I know that this life is in our hands<br>
+And I know that we wont last forever<br>
+But let's make this chance our last.<br>
+Don't be scared of any new endeavors<br>
+<br>
+When I'm the sun,<br>
+I'll count the worlds and make them mine.<br>
+Because when I'm the sun,<br>
+I'll count the worlds and make them mine.<br>
+
+I'm sick of making all the same mistakes over (and over) again<br>
+Will I ever be left alone to mend?<br>
+I'll never make all the same mistakes over and over again<br>
+Now I've seen what I could become,<br>
+I don't want to become that no more.<br>
+I'm over it, and I'm over it all...<br>
+<br>
+Stop pretending our world will keep turning.</p>
+
+      <h1 id="f3" class="lyrics-test">-A Path Of Its Own-</h1>
+      <p class="lyrics-test-test">Searching for what’s too hard to find.<br>
+Expressing me being left behind.<br>
+All I ever wanted,<br>
+Has opened its eyes.<br>
+<br>
+On my own for so many years.<br>
+Been trapped, been chased, been fighting fears.<br>
+I’ve seen the dead with its fake blushed smile ahead.<br>
+I choose to follow my dreams instead.<br>
+<br>
+So who the fuck do you think you are?<br>
+<br>
+I won’t float away, won’t let this grief abandon me.<br>
+Giving up our hearts, for the life we dedicate.<br>
+<br>
+I've seen the dead with its fake blushed smile ahead.<br>
+<br>
+On my own for so many years.<br>
+Been trapped, been chased, been fighting fears.<br>
+I’ve seen the dead with its fake blushed smile ahead.<br>
+I choose to follow my dreams instead.<br>
+<br>
+I won’t float away, won’t let this grief abandon me.<br>
+Giving up our hearts, for the life we dedicate.<br>
+<br>
+On my own for so many years.<br>
+Been trapped, been chased, been fighting fears.<br>
+I’ve seen the dead with its fake blushed smile ahead.<br>
+I choose to follow my dreams instead.<br>
+<br>
+I won’t float away, won’t let this grief abandon me.<br>
+Giving up our hearts, for the life we dedicate.</p>
+
+      <h1 id="f4" class="lyrics-test">-For What You Believe In-</h1>
+      <p class="lyrics-test-test">All that’s said.<br>
+Has nothing to do with the way I want to see the world<br>
+<br>
+And now what’s left?<br>
+I can’t find the answers to<br>
+The questions in my head<br>
+<br>
+You know we’ve seen it all.<br>
+We met the ones that live no more.<br>
+Deceived your children you said you loved<br>
+Fooled the ones that stood up for you.<br>
+Your light will shine on, until everyone receives<br>
+The hidden words of a million hearts.<br>
+Behold your faith and carry on<br>
+<br>
+They make no sound, when they’re coming after you<br>
+And I can’t hear you screaming out my name.<br>
+<br>
+Conquer the flags and capture your legs.<br>
+Stand for what you believe in.<br>
+<br>
+Conquer the flags and capture your legs.<br>
+The only ones that keep you from breathing.<br>
+<br>
+Stand for what you believe in.<br>
+The only ones that keep you from breathing.<br>
+<br>
+Breathe in, breathe out<br>
+Behold your true faith and carry on<br>
+<br>
+Read the headlines…<br>
+What they say is anything but real.<br>
+<br>
+Now listen to what they tell you<br>
+Nothing else will be retold<br>
+These are the terms they gave you<br>
+Walk away without a soul<br>
+<br>
+Because voices remain and mark your names.<br>
+<br>
+If you take your hands from your eyes<br>
+You don’t know where we have been and died tonight<br>
+With your eyes shut and reinforced<br>
+They won’t stop until you pray for gold.<br>
+As they begin to introduce their stories<br>
+Enlighten all their bodies.<br>
+What they do is pull you in,<br>
+Have we forgotten how to deal with them?<br>
+<br>
+We’re victims of stories<br>
+That don’t make sense to us.<br>
+<br>
+And we are victims of stories,<br>
+That don’t make any fucking sense.</p>
+
+      <h1 id="f5" class="lyrics-test">-Taking Chances, Breaking Free-</h1>
+      <p class="lyrics-test-test">Burning passion against your gunfights.<br>
+<br>
+We are the new bred hope<br>
+Minds wide focused on an endless road.<br>
+<br>
+Never strayed from our path.<br>
+Don’t forget that we came, stayed and will forever last.<br>
+<br>
+The only difference between you and me<br>
+Is that you were scared of where you would be.<br>
+<br>
+I’m holding this child and call it love<br>
+Grab our history that we were tired of.<br>
+<br>
+I’m holding this gift and call it life.<br>
+After breaking chains everything becomes alive.<br>
+<br>
+Everything becomes alive.<br>
+<br>
+Have you ever believed in something?<br>
+Listened to tongues that shouldn’t mean anything.<br>
+<br>
+It goes on and on and I felt so alone<br>
+As I grew up and grew old life began to unfold<br>
+Heavy hearts filled with hope and the truth will be<br>
+That there is something there but nothing wrong with me.<br>
+<br>
+And the truth will be<br>
+That there is nothing wrong with me.<br>
+<br>
+With my head against those walls.<br>
+My eyes were covered, my hands tied up<br>
+And I’m still the same as I used to be,<br>
+Sailing oceans just to be seen.<br>
+<br>
+Taking chances, breaking free.<br>
+<br>
+There’s one thing that I never did, its called giving up.<br>
+<br>
+It goes on and on and I felt so alone<br>
+As I grew up and grew old life began to unfold<br>
+Heavy hearts filled with hope and the truth will be<br>
+That there is something there but nothing wrong with me.<br>
+<br>
+And the truth will be that there is nothing wrong with me.</p>
+
+      <h1 id="f6" class="lyrics-test">-Blinded-</h1>
+      <p class="lyrics-test-test">I was trapped in my own prison cell<br>
+Couldn’t get out any other way.<br>
+Every night I tried to find the key for<br>
+What’s locked up inside of me.<br>
+<br>
+When questions running through your head<br>
+No answers, everything is still left unsaid, still left unsaid.<br>
+How long will you ever pull through this?<br>
+How long will it take for me to relearn how to live?<br>
+Can we ever live again…<br>
+<br>
+I’ve been controlled<br>
+And I had it all<br>
+But the only thing I’ve been longing for<br>
+Is the heart that I can’t hold<br>
+<br>
+Someone please pull my head out of the sand<br>
+I’m getting worried that I keep losing track<br>
+Running circles but it’s all in my mind<br>
+So tell me why is my heart not dying inside<br>
+<br>
+Looking back to months and months<br>
+Spent every single day<br>
+Trying to keep up, trying to fight,<br>
+Trying to get away.<br>
+<br>
+Am I better off without you?<br>
+<br>
+When I believed everything was working for me.<br>
+I was worn out, besieged by those who betrayed.<br>
+<br>
+I was too blind to see, too scared to leave.<br>
+I was everything I never ever wanted to be.<br>
+<br>
+With my head held high, I walked miles for nothing.<br>
+But still remembered, everything is worth something.<br>
+<br>
+Every day seemed like it had to be<br>
+Put down, remembered in history.</p>
+
+      <h1 id="f7" class="lyrics-test">-To The Lost-</h1>
+      <p class="lyrics-test-test">This is what I had left when the sun began to fade.<br>
+This is all I ever felt would bring the fear in your eyes.<br>
+This is what I had left when the sun began to fade.<br>
+This is what I had kept in mind as we began to rise.<br>
+<br>
+Do you believe we are the only ones?<br>
+Seems like we are the only ones,<br>
+Who accept everything and get told nothing<br>
+<br>
+Will it be the same as it always was<br>
+Is it something that I always dreamt it could but never was.<br>
+Too many things remain untold<br>
+Don’t hide your tongues. Don’t hide at all.<br>
+<br>
+Can you see what’s changed, it won’t stay the same<br>
+And now you take away the things I always dreamt about.<br>
+Too many things remain untold<br>
+Don’t hide your tongues. Don’t hide at all.<br>
+<br>
+This isn’t a joke for me, this is me not knowing what to believe.<br>
+<br>
+You will stand your ground as the sky comes down.<br>
+You will stand your ground as the sky comes down.<br>
+<br>
+Question everything.<br>
+<br>
+I do not fear failure<br>
+Even when screamed it in my face<br>
+I’ve traveled on nothing to nowhere<br>
+I’m here to hear my faith<br>
+<br>
+I do not fear failure<br>
+Even when screamed in my face<br>
+So I’ll adapt you to all my surroundings<br>
+And thank all who took my place<br>
+<br>
+Will it be the same as it always was<br>
+Is it something that I always dreamt it could but never was.<br>
+<br>
+Too many things remain untold<br>
+Don’t hide your tongues. Don’t hide at all.<br>
+<br>
+Could you see what’s changed, it won’t stay the same<br>
+And now you take away the things I always dreamt about.<br>
+<br>
+Too many things remain untold<br>
+Don’t hide your tongues. Don’t hide at all.<br>
+<br>
+Take to the skies, with your brothers<br>
+Question everything, question everything<br>
+Sing to the lost, with each other.<br>
+And you will love again, and you will love again.</p>
+
+      <h1 id="f8" class="lyrics-test">-Come Home True Love-</h1>
+      <p class="lyrics-test-test">When every heart that you loved has gone insane,<br>
+When the smoke in your lungs doesn’t feel the same,<br>
+And the pain in your head just won't go away<br>
+When souls don’t remember your fucking name<br>
+<br>
+Every word that you spat out was a single mistake<br>
+Are we just cursed or dead? There’s no room to escape<br>
+With lights shining bright and no goals to make,<br>
+Was everything I asked too much guilt to take?<br>
+<br>
+You made me hate what I used to fucking love<br>
+Made up stories that seemed like they were send straight from above<br>
+<br>
+They can’t measure heart,<br>
+When love isn’t what I want<br>
+<br>
+Yet I’m still here shaking<br>
+Yet I’m still here believing
+<br>
+How can they measure my heart?<br>
+Does it go off the love or how many times I’ve been a broken man?<br>
+Or how many times you left me here<br>
+<br>
+When home doesn’t feel like home,<br>
+Did you ever look at a picture of yourself?<br>
+It’s not the person that I see now<br>
+And home doesn’t feel like home<br>
+No more, that stranger is you<br>
+<br>
+It’s time for letting go…<br>
+Of everything I loved about you to<br>
+be washed away by those dreams and<br>
+Grabbed by better hearts I should have known right from the start<br>
+<br>
+Of everything I loved about you to<br>
+be washed away by those dreams<br>
+Grabbed by better hearts I<br>
+should have known from the start<br>
+<br>
+My hands around depression<br>
+My past to the crows<br>
+<br>
+With both feet on the ground<br>
+I wont pick you up this time<br>
+Drowned everything I knew would hold me down.<br>
+<br>
+You picked up the stones which were meant to stay forever<br>
+You teared down walls that were built to stay strong together<br>
+<br>
+I've written songs about you<br>
+I wasted nights dreaming about you<br>
+I told the whole fucking world about you<br>
+Spent every day thinking about you‚<br>
+About you.</p>
+
+      <h1 id="f9" class="lyrics-test">-Lifestream-</h1>
+      <p class="lyrics-test-test">I see the world as an entire<br>
+When I’m most alone.<br>
+I’ll walk a mile,<br>
+Just to take the throne.<br>
+<br>
+We all have one wing,<br>
+But together we can fly away<br>
+I see myself doubting everything,<br>
+And everyone because it’s you<br>
+I sing this song to now.<br>
+I’ll walk alone as this is what life’s like now.<br>
+The cold will never be so cold, this is because of you<br>
+This is because of you.<br>
+<br>
+There’s no life with clean breaks.<br>
+Or no chance we can’t take.<br>
+Forgiveness lies too deep<br>
+To be vanished away.<br>
+<br>
+So flawless from the outside.<br>
+Never trust a stranger.<br>
+Farewell to our hearts<br>
+Remember the so called desire<br>
+A brand new spirit destiny,<br>
+Won’t let my mind play tricks on me.<br>
+Closed chapters, opened curtains<br>
+To let myself be focused.<br>
+<br>
+Through coldest nights we found ourselves marching.<br>
+Summer nights were meant to save us,<br>
+And stop us from aching.<br>
+I don’t need another tragic ending,<br>
+No time for precious glorifying.<br>
+What’s left in me will be better shortly.<br>
+<br>
+I learnt too much, I’ve seen it all<br>
+Was love suppose to feel like this?<br>
+I can only run away<br>
+Let my past drown inside of me.<br>
+Let go and leave it all behind.<br>
+
+There’s no life with clean breaks.<br>
+No chance we can’t take.<br>
+Forgiveness lies to deep<br>
+To be vanished away.<br>
+<br>
+When you piece it all together<br>
+Fragments of affection, come crawling back together<br>
+It will never stop unless you make it,<br>
+And grab the chances you have so take it.</p>
+
+      <h1 id="f10" class="lyrics-test">-Midnight Thoughts-</h1>
+      <p class="lyrics-test-test">SHOW ME WHAT MY DREAMS ARE MADE OF!<br>
+<br>
+Believe me, we're coming home<br>
+We keep marching cause we're heading north<br>
+With the sun, guiding into every song<br>
+I swear we won't fail, we be taking too long<br>
+We shape our world with hands of stone<br>
+No matter how far we've come<br>
+Sleepless nights are our closest friends<br>
+With no clouds above my head<br>
+Keep singing,<br>
+<br>
+In your own head, you feel the light dim fast<br>
+Find it and look no further<br>
+Deep inside, hiding from yourself<br>
+I won't hold you back no longer<br>
+<br>
+What we said we want, we said we could<br>
+What you said we were, we ended up being<br>
+What we said we want, we said we could<br>
+What you said we were, we ended up being<br>
+<br>
+When you burn for something<br>
+You're left with nothing<br>
+When you burn for something<br>
+You're left with nothing<br>
+<br>
+When I swallow the fire, it doesn't burn no more<br>
+When I swallow the fire, it doesn't burn no more<br>
+It only sets alight the sparkle, in order to end this war<br>
+When I swallow the fire, it doesn't burn no more<br>
+It only sets alight the sparkle, in order to end this war<br>
+<br>
+Show me what my dreams are made of<br>
+<br>
+Believe me, we're coming home<br>
+We keep marching cause we're heading north<br>
+With the sun, guiding into every song<br>
+I swear we won't fail, we be taking too long<br>
+We shape our world with hands of stone<br>
+No matter how far things seem to become<br>
+Sleepless nights are our closest friends<br>
+With no clouds above my head<br>
+Keep singing<br>
+<br>
+When you burn for something<br>
+You're left with nothing</p>
+
+      <h1 id="f11" class="lyrics-test">-A Thousand Miles-</h1>
+      <p class="lyrics-test-test">Making my way downtown<br>
+walking fast<br>
+faces pass<br>
+and I'm homebound<br>
+Staring blanky ahead<br>
+just making my way<br>
+making a way<br>
+through the crowd<br>
+<br>
+And I need you<br>
+and I miss you<br>
+and now I wonder<br>
+<br>
+If I could fall into the sky<br>
+do you think time would pass me by<br>
+'cause you know I'd walk a thousand miles<br>
+if I could just see you...tonight<br>
+<br>
+It's always times like these<br>
+when I think of you<br>
+and I wonder if you ever think of me<br>
+'cause everything's so wrong<br>
+and I don't belong<br>
+living in your precious memory<br>
+<br>
+'cause I need you<br>
+and I miss you<br>
+and now I wonder<br>
+<br>
+If I could fall into the sky<br>
+do you think time would pass me by, oh<br>
+'cause you know I'd walk a thousand miles<br>
+if I could just see you...tonight<br>
+<br>
+And I, I don't wanna let you know<br>
+I, I drown in your memory<br>
+I, I don't wanna let this go<br>
+I, I don't<br>
+<br>
+Making my way downtown<br>
+walking fast<br>
+faces pass<br>
+and I'm homebound<br>
+Staring blankly ahead<br>
+just making my way<br>
+making a way<br>
+through the crowd<br>
+<br>
+And I still need you<br>
+and I still miss you<br>
+and now I wonder<br>
+<br>
+If I could fall into the sky<br>
+do you think time would pass us by<br>
+'cause you know I'd walk a thousand miles<br>
+if I could just see you, oh<br>
+<br>
+If I could fall into the sky<br>
+do you think time won't pass me by<br>
+'cause you know I'd walk a thousand miles<br>
+if I can just see you<br>
+if I can just hold you...tonight
+</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/loveless.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Loveless - 2013</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Loveless-</h1>
+        <p class="lyrics-test-test">Sometimes I feel like I've been parting away<br>
+with this so called world that has been fallen asleep.<br>
+Inside me, I can hear the voices, I can hear them calling.<br>
+Every time I look death right in the eyes. I see my fears crawl back to life.<br>
+From the out do nothing is show. All love, all hope is gone.<br>
+<br>
+If you were missing me I'll try to stay alone.<br>
+If your soul is free will it ever find a home?<br>
+If you were missing me I'll try to stay alone.<br>
+<br>
+My state of insecurity has pulled me into darkness.<br>
+All you need is integrity and a life for the loveless.<br>
+This is the sound of the Loveless. Can you hear it?<br>
+Accept the warmth of the Loveless. Can you feel it?<br>
+There're doorways waiting for you I want you to hear this my friend.<br>
+Step into the moment of truth.<br>
+<br>
+Lets rise back up again.<br>
+<br>
+Your mind will lead the way</p>
+
+        <h1 id="s2" class="lyrics-test">-The World In Front Of Me-</h1>
+        <p class="lyrics-test-test">I've got the world in front of me.<br>
+We are the ones to full fill our dreams<br>
+We're the storm chasing those lies away<br>
+<br>
+Are you strong enough to be leaving?<br>
+Are you old enough to believe in…<br>
+<br>
+The fear is deep, the vision clear.<br>
+But what am I suppose to see?<br>
+<br>
+It's all in your head, no clarity<br>
+Leave behind who you used to be.<br>
+<br>
+Overcome your fears and sing<br>
+"We are the reasons for tomorrow's end"<br>
+<br>
+We can change it all. We can stop this fall.<br>
+We are the children of the new world.<br>
+<br>
+See you at the brightest of all skies<br>
+See you at the darkest of my nights.<br>
+Step by step I come alive<br>
+Years and years go by<br>
+<br>
+I've got the world in front of me.<br>
+<br>
+The fear is deep, the vision clear.<br>
+But what am I suppose to see?<br>
+<br>
+It's all in your head, no clarity<br>
+Leave behind who you used to be.<br>
+<br>
+Overcome your fears and sing<br>
+"We are the reasons for tomorrow's end"<br>
+<br>
+We can change it all. We can stop this fall.<br>
+We are the children of the new world.<br>
+<br>
+I'm ready to take on<br>
+what was put in my way.<br>
+If I hear that voice again I know<br>
+I've got the world in front of me.<br>
+<br>
+Right in front of me<br>
+<br>
+If you're lost and alone how am I meant to know?<br>
+Cause I'm just trying to help you out,<br>
+and every time I hear your voice<br>
+I've got the world in front of me<br>
+<br>
+I still have your words in my head<br>
+They sound exactly like they used to<br>
+I'm sorry I didn't know what it was like<br>
+To be trapped and alone inside.<br>
+<br>
+We are the ones to full fill our dreams<br>
+We're the storm chasing those lies away<br>
+<br>
+Are you strong enough to be leaving?<br>
+Are you old enough to believe in…
+</p>
+
+        <h1 id="s3" class="lyrics-test">-Infinity-</h1>
+        <p class="lyrics-test-test">Remember if you feel like you're rising.<br>
+Don't let anybody bring you down.<br>
+Be proud of the life you've created.<br>
+<br>
+Every breath you take is starting to make sense.<br>
+Just follow my gaze, it will lead you up to the stars.<br>
+Come down in silence and settle where the oceans are.<br>
+So hold my hand in yours and never let me go.<br>
+Stuck in the cold this time, without a heart you'll never grow.<br>
+Remember who you are when you're falling from the stars.<br>
+You've got the world to gain. So remember who you are.<br><br>
+
+When you feel held down just know in your heart.<br>
+Life is the chance to prove yourself.<br>
+Prove yourself!<br>
+<br>
+So hold my hand in yours and never let me go.<br>
+Stuck in the cold this time, without a heart you'll never grow.<br>
+Remember who you are when you're falling from the stars.<br>
+You've got the world to gain. So remember who you are.<br>
+<br>
+World I never wanted you to step out of your cage but it's time for you to let me in.<br>
+I said world I want to thank you for lending me your ears.<br>
+This is who I am.<br>
+<br>
+What your eyes are seeing, what your soul is believing,<br>
+what your hands are feeling is created for a reason.<br><br>
+
+What your eyes are seeing, what your soul is believing,<br>
+what your hands are feeling is created for a reason.
+
+</p>
+
+        <h1 id="s4" class="lyrics-test">-Foundations-</h1>
+        <p class="lyrics-test-test">At the end of the day we are all the same.<br>
+With honesty we can achieve anything.<br>
+We can achieve anything!<br>
+Don’t waste a possibility, don’t wait for a chance to end.<br>
+Put your soul into what you love and make history instead.<br>
+Whichever way you choose to go it all happens for a reason.<br>
+We can all be there in the end, if you don’t fear to fall to hell.<br>
+<br>
+I wont hide my pride anymore.<br>
+I want to fill my heart with love.<br>
+<br>
+I want to see the depths in things.<br>
+All you need is persistence.<br>
+At the end of the day we are all the same.<br>
+With honesty we can achieve anything.<br>
+We can achieve anything!<br>
+Don’t waste a possibility don’t wait for a chance to end.<br>
+Put your soul into what you love and make history instead.<br>
+Whichever way you choose to go, It all happens for a reason.<br>
+We can all be there in the end, if you don’t fear to fall to hell.<br>
+<br>
+Don’t just watch me rise…<br>
+Be the one who rises with me.<br>
+Don’t just watch me rise.<br>
+<br>
+Don’t ever stop halfway through.<br>
+I can see the fuel to your fire.<br>
+I like the pain as the flame hits my eyes.<br>
+All the memories saved inside me, I now call mine.
+</p>
+
+        <h1 id="s5" class="lyrics-test">-Hear Me Out-</h1>
+        <p class="lyrics-test-test">It’s like every breath I take is a debt.<br>
+How am I going to pay it back by myself?<br>
+Like breathing without air.<br>
+How am I going to know that you’re there when you’re not?<br>
+So why can’t death set me free?<br>
+I'm breathing but I can’t believe in what I’m seeing.<br>
+When I looked into your eyes life lost its meaning.<br>
+There is no such thing as failure let my words just be your savior.<br>
+I’m still looking for the answer.<br>
+I hold my heart until the end.<br>
+<br>
+Accept my flaws for life.<br>
+Accept me into your life.<br>
+Accept the person who I am will never give up this fight.<br>
+We always wake up from the deepest of our dreams just a little late.<br>
+Can you relate?<br>
+I see your backs have turned away.<br>
+<br>
+When all the lights have been switched off, way too dark for you to see<br>
+That’s exactly my point when life suffocates me.<br>
+I’m always trying not to worry, everything will be fine.<br>
+I’m sick of empty promises and the fear in my eyes.<br>
+<br>
+It’s like every breath I take is a debt.<br>
+How am I going to pay it back by myself?<br>
+Like breathing without air.<br>
+How am I going to know that you’re there when you’re not?<br>
+So why can’t death set me free?<br>
+Oh why can’t love stay with me.<br>
+When all the lights have been switched off, way too dark for you to see.<br>
+And the loveless walk to the edge of the world with hope to be set free.<br>
+<br>
+Because I live between the pages, there’s no gain where love is lost.<br>
+I’d burn the world, just to show you I love you most.<br>
+This dream’s my one foundation, my future’s held to sleep.<br>
+The only way I know, how to set myself free.<br>
+<br>
+There is one thing I’ve learned and in fact I'm quite aware.<br>
+If the world wants to see you fall it only takes one second to spare.<br>
+I’ve got my eyes wide open so treat me right.<br>
+I’ve got my hands on my heart so I feel alive.<br>
+I’ve realized that the end isn’t suicide.<br>
+I was born to live until I die.
+</p>
+
+        <h1 id="s6" class="lyrics-test">-Neverlove-</h1>
+        <p class="lyrics-test-test">All I fear is love.<br>
+Let the world carry you, Neverlove will save you...<br>
+What feels like the end is the start of something new.<br>
+I know my scars will never truly heal.<br>
+It haunts, it breaks me, Neverlove will never leave me<br>
+<br>
+It's better to have lost you than never having loved at all.<br>
+This time I won't be there shivering right beside you.<br>
+For too long I've held these hands, followed hearts that never lived.<br>
+This time I promise you Neverlove will come and get you<br>
+<br>
+All I fear is love<br>
+I know my wounds will never disappear.<br>
+It haunts, it breaks me, Neverlove will never leave me.<br>
+<br>
+It's better to have lost you than never having loved at all.<br>
+This time I won't be there shivering right beside you.<br>
+For too long I've held these hands, followed hearts that never lived.<br>
+This time I promise you Neverlove will come and get you<br>
+<br>
+It haunts me... It breaks me and I just can't give it away.<br>
+I want it... I need it... Neverlove will never leave me.<br>
+Embrace your memories, your past will now be seen.<br>
+Let's make history.<br>
+Neverlove will set me free.<br>
+Will set me free<br>
+<br>
+All I ever feared is to love something beautiful.<br>
+It's better to have lost you than never having loved at all.<br>
+This time I won't be there shivering right beside you.<br>
+For too long I've held these hands, followed hearts that never lived.<br>
+This time I promise you Neverlove will come and get you</p>
+
+        <h1 id="s7" class="lyrics-test">-Moving On, Moving Far-</h1>
+        <p class="lyrics-test-test">I feel your presence fade away.<br>
+No, I won't give a fuck.<br>
+<br>
+This is what it feels like,<br>
+When I'm climbing up your walls.<br>
+Don't ruin my progress,<br>
+Don't catch me when I fall.<br>
+A solid ground of truth.<br>
+Even though I'm on my own,<br>
+I will never pull back from the eye of the storm.<br>
+<br>
+I buried the time you begged me to stay.<br>
+How could I ever think that this was the end?<br>
+I thought I could never get over this.<br>
+<br>
+This is what it feels like,<br>
+When I'm climbing up your walls.<br>
+Don't ruin my progress,<br>
+Don't catch me when I fall.<br>
+A solid ground of truth.<br>
+Even though I'm on my own,<br>
+I don't feel alone right now.<br>
+Until I'm strong enough too.<br>
+<br><br>
+If this is all I could have held onto are you really moving on.<br>
+I carried everything I couldn't leave,<br>
+I'm stronger than you know.<br>
+<br>
+Something has changed in me,<br>
+About the way I feel but I won't give up.<br>
+Something has changed in me,<br>
+About the way I feel but I won't give up.<br>
+<br>
+I've been alone and seen the worst,<br>
+These dreams are always keeping me awake.<br>
+I've learnt that holding onto hope<br>
+Won't ever let you down. (Down, Down)<br>
+<br>
+I've learnt that holding onto hope<br>
+Won't ever let you down. (Down, Down)<br>
+It's a dream that doesn't sleep they say<br>
+So why do we dream at all?<br>
+I've been alone and seen the worst.<br>
+I've held your hand just to remind myself<br>
+How good it felt to let go.<br>
+How good it felt to let go of you.<br>
+How good it felt to let go.<br>
+How good it felt to let go of you.<br>
+How good it felt to let go.<br>
+How good it felt to let go of you.</p>
+
+        <h1 id="s8" class="lyrics-test">-Evol-</h1>
+        <p class="lyrics-test-test">I wake up,<br>
+All I want to do is shut my eyes again.<br>
+<br>
+No this isn't who I am.<br>
+What on earth have I become?<br>
+<br>
+You must be the light<br>
+Shining brighter from the inside.<br>
+You make love seem so alive.<br>
+Yeah I forgot what it feels like.<br>
+To love is to risk not being loved in return.<br>
+If you let it go and it doesn't come back you're better off alone.<br>
+<br>
+If loving you is the risk<br>
+Would you love me in return<br>
+And if you dare to let this go<br>
+You're better off alone.<br>
+<br>
+Nothing, nothing can explain the way you change me.<br>
+Nothing, nothing can explain the way you change me.<br>
+<br>
+I keep forgetting,<br>
+I'm relying on a dream that has no fear of hurting me.<br>
+If I go back to sleep you will haunt me again.<br>
+I see your presence lurking out from a distance.<br>
+This can't be real, oh no.<br>
+I see you staring but your face is fiction.<br>
+This can't be who I see.<br>
+You must be the light<br>
+Shining brighter from the inside.<br>
+You make love seem so alive.<br>
+Yeah I forgot what it feels like.<br>
+<br>
+I'm sinking,<br>
+I'm losing hope in everything.<br>
+I keep sinking,<br>
+I keep losing hope in everything.<br>
+<br>
+I keep sinking,<br>
+I keep losing hope.</p>
+
+        <h1 id="s9" class="lyrics-test">-Black Maine-</h1>
+        <p class="lyrics-test-test">Don't you take it away from me,<br>
+All the lights that shine so continuously.<br>
+You must be the one<br>
+Who lives inside me and guides my way.<br>
+Nothing is too hard to achieve<br>
+If you turn everything into an opportunity.<br>
+You show me what it means to follow my goals, to follow you home.<br>
+<br>
+From struggle to a strength we become a heart of all men.<br>
+My advice is to follow you.<br>
+I'd advise you to follow through.<br>
+Somehow, I'm sure someday<br>
+I want to lift the weight of the world.<br>
+Hold it in my hands.<br>
+Feel the heat burn down my chest.<br>
+<br>
+The air we breathe holds us together now.<br>
+The air we breathe in.<br>
+Where are the bright skies holding us together now.<br>
+Holding us together now.<br>
+<br>
+Don't you take it away from me,<br>
+All the lights that shine so continuously.<br>
+You must be the one<br>
+Who lives inside me and guides my way.<br>
+Nothing is too hard to achieve<br>
+If you turn everything into an opportunity.<br>
+You show me what it means to follow my goals, to follow you home.<br>
+<br>
+Follow you home.<br>
+Follow you home.<br>
+Follow you home.<br>
+Follow you home.<br>
+<br>
+I said I'd follow you home.<br>
+All that I am is all around me.<br>
+We were born the same yet all die differently.<br>
+Don't feel threatened by a change.<br>
+Listen to the world calling your name.<br>
+For as long as we see, (For as long as we see)<br>
+For as long as we breathe, (For long as we breathe)<br>
+As long as we breathe we have the chance to make a difference. (To make a difference)
+
+</p>
+
+        <h1 id="s10" class="lyrics-test">-The Tracks We Leave Behind-</h1>
+        <p class="lyrics-test-test">As the sun comes up<br>
+I feel the marks have never worn off.<br>
+I burned my name into the cold world.<br>
+And as the daylight dies.<br>
+It goes to show what we’ve sacrificed.<br>
+These are the tracks we leave behind.<br>
+<br>
+Memories of a golden time<br>
+I was a young man<br>
+Searching for the keys to my mind<br>
+And now I know when the skin falls from my bones.<br>
+I’ll be remembered from now until forever.<br>
+<br>
+I look forward to a time (A time)<br>
+Where my life will be looked back on. (Back on)<br>
+When the tracks we leave behind (We left behind)<br>
+Will be used as inspiration.<br>
+<br>
+It takes a while to let it go.<br>
+The only way I know for sure<br>
+That I’m alright.<br>
+<br>
+There is nothing you can’t accomplish.<br>
+Look back on all the things you’ve done,<br>
+Be proud of what you’ve become.<br>
+Look back on all the things you’ve done,<br>
+Be proud of what you’ve become.<br>
+<br>
+Memories of a golden time<br>
+I was a young man<br>
+Searching for the keys to my mind<br>
+And now I know when the skin falls from my bones.<br>
+I’ll be remembered from now until forever.<br>
+<br>
+The greatest gift in life<br>
+Is the feeling to be recognised.<br>
+For years I’ve been screaming my lungs out.<br>
+Young at heart I’ve asked myself so many questions…<br>
+<br>
+What am I capable of?<br>
+What is there to be scared of?<br>
+You need desires<br>
+stronger than anything<br>
+in order to achieve something.<br>
+<br>
+In the old way with the new things that I can’t explain<br>
+I don’t want it to<br>
+Pull your mind into<br>
+But I can’t breathe<br>
+with the hatred that fills my lungs<br>
+It’s burning away my,<br>
+my, my soul<br>
+<br>
+In the old way with the new things that I can’t explain<br>
+I don’t want it to<br>
+Pull your mind into<br>
+But I can’t breathe<br>
+with the hatred that fills my lungs<br>
+It’s burning away my soul<br>
+My soul,<br>
+My soul,<br>
+My soul<br>
+All my love was lost.</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/songsof.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Songs Of Soulitude - 2015</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-Souls On Fire-</h1>
+          <p class="lyrics-test-test">Death is not the answer<br>
+We're in this together<br>
+It's dragging us down<br>
+It's pulling us apart<br>
+Don't be scared to set your soul on fire<br>
+<br>
+If we fall we'll rise<br>
+We'll rise again<br>
+And if we fall we will rise again<br>
+<br>
+I think I'm slipping, I tried this so carefully but<br>
+I always end up the samev
+Something in me doesn't want to keep repeating the same thing<br>
+You'll always end up the same<br>
+If you're not listening<br>
+<br>
+Disappear from the floor to ceiling<br>
+Realize that the walls are leaving me<br>
+I found a place in my head<br>
+Realize that I'm not gone just yet<br>
+Disappear from the floor to ceiling<br>
+Realize that the walls are leaving<br>
+I met a man in my head<br>
+He said he's not ready to die just yet<br>
+<br>
+Now I stand looking up again<br>
+After years of silence<br>
+Pushing on & falling back<br>
+Swimming in a<br>
+Pool of blood<br>
+On my way to hell<br>
+Through an endless sea of stars<br>
+It was cold and still<br>
+Drag me down pull me apart<br>
+<br>
+Every time you feel alone<br>
+It's not the end of the world<br>
+Every time you feel alone<br>
+Just know I'm there<br>
+<br>
+I think I'm slipping, I tried this so carefully<br>
+But I always end up the same<br>
+Something in me doesn't want to keep repeating the same thing<br>
+You'll always end up the same<br>
+If you're not listening<br>
+<br>
+Now I stand looking up again<br>
+After years of silence<br>
+Pushing on & falling back<br>
+Swimming in a pool of blood<br>
+On my way to hell<br>
+Through an endless sea of stars<br>
+It was cold and still<br>
+Drag me down pull me apart
+
+</p>
+
+          <h1 id="t2" class="lyrics-test">-Vertigo-</h1>
+          <p class="lyrics-test-test">Voices for the voiceless<br>
+Together we can change tomorrow<br>
+<br>
+We are fighting for the answers<br>
+Don't hide between the shadows<br>
+We are the voices for the voiceless<br>
+Understanding leads to progress<br>
+<br>
+Wake up and see what's in front of your eyes<br>
+Express what you feel and come alive<br>
+This is a story of you, living the truth<br>
+Only life itself is bigger than you<br>
+We are the voices for the voiceless<br>
+Together we can stop this silence<br>
+<br>
+I want what I shouldn't<br>
+I tried but I couldn't<br>
+It's ok to feel like no one<br>
+Knows your name<br>
+They say<br>
+"Spend time for your riches<br>
+There's no rest for the wicked"<br>
+But that's what the evil say...<br>
+It's all just a game<br>
+<br>
+We're killing all our heroes<br>
+They've been hiding in the shadows<br>
+We are the voices for the voiceless<br>
+Don't be afraid, we're making progress<br>
+Wake up and see what's in front of your eyes<br>
+Express what you feel and come alive<br>
+<br>
+We don't know who we are<br>
+Until we shed our skin<br>
+No more fears<br>
+No more lies<br>
+Just strong within<br>
+<br>
+I want what I shouldn't<br>
+I tried but I couldn't<br>
+It's ok to feel like no one<br>
+Knows your name<br>
+They say<br>
+"Spend time for your riches<br>
+There's no rest for the wicked"<br>
+But that's what the evil say...<br>
+It's all just a game<br>
+<br>
+When I thought that I was dead<br>
+It was all inside my head<br>
+<br>
+Only hope brings a new light<br>
+We are the voices for the voiceless</p>
+
+          <h1 id="t3" class="lyrics-test">-Society To Anxiety-</h1>
+          <p class="lyrics-test-test">Well I’ve been running from this story for years,<br>
+The ghost keeps chasing me,<br>
+The grounds keep breaking me,<br>
+I’m not really lost, I just haven’t found it yet<br>
+There is no place on earth where no misery exists,<br>
+<br>
+Let me just say, let me escape<br>
+I know I can<br>
+(I know I can)<br>
+I’ve been alone, I’ve been so scared<br>
+I know you’re there<br>
+(I know you’re there)<br>
+<br>
+They said<br>
+Breathe in just a little more<br>
+They said<br>
+Breathe in just a little more<br>
+They said breathe in just a little more<br>
+<br>
+This has to stop<br>
+It can’t go on like this<br>
+Just get me out of this sinking ship I’m in<br>
+<br>
+Let me just say, let me escape<br>
+I know I can<br>
+(I know I can)<br>
+I’ve been alone, I’ve been so scared<br>
+I know you’re there<br>
+(I know you’re there)<br>
+<br>
+It’s only pain when it hurts<br>
+It’s only night when it’s black<br>
+The only thing you’ll love is lost<br>
+And the light pulls you back</p>
+
+          <h1 id="t4" class="lyrics-test">-Malice-</h1>
+          <p class="lyrics-test-test">It seems like this road<br>
+It doesn't go anywhere<br>
+It doesn't stop<br>
+But still we have to pretend<br>
+<br>
+It's okay when your heart stops<br>
+Swallow, it will feel the same<br>
+Like everybody else does<br>
+Don't cry just numb the pain<br>
+(Don't try to hide the pain)<br>
+<br>
+Cause it won't stop until your heart drops out<br>
+Don't think twice just chase the sound<br>
+No it wont stop till your heart gives out<br>
+Don't lose yourself to the crowd, of here and now<br>
+<br>
+We're addicted to this thing<br>
+They call medicine<br>
+It won't beat your fears nor hide your tears<br>
+We're addicted to this thing<br>
+They call medicine<br>
+It won't beat your fears nor hide your tears<br>
+<br>
+Cause it won't stop until your heart drops out<br>
+Don't think twice just chase the sound<br>
+No it wont stop till your heart gives out<br>
+Don't lose yourself to the crowd, of here and now<br>
+<br>
+How can you think<br>
+We're blind enough<br>
+That with broken spines<br>
+We get ourselves back up?<br>
+<br>
+You separate the good from the bad,<br>
+the poor from the rich and born from the dead<br>
+<br>
+We get ourselves back up<br>
+We get ourselves back up back up</p>
+
+          <h1 id="t5" class="lyrics-test">-Snowpiercer-</h1>
+          <p class="lyrics-test-test">As its passing by all the time, we're running<br>
+It's a constant climb as we forget the things we know<br>
+<br>
+So where do we all go this time?<br>
+You said that I could rest awhile?<br>
+Did I get the feeling wrong<br>
+All we do is wait in line<br>
+Hoping just to lose our time<br>
+When you're on your own,<br>
+You were on your own<br>
+<br>
+The streetlights on again<br>
+I walk without a name<br>
+Strangely beloved, yet unrequited,<br>
+Do you feel like you missed it<br>
+<br>
+There's safety in your eyes<br>
+To walk without disguise<br>
+I was wrong and you were right<br>
+There's no need to lie<br>
+<br>
+Your giving it away this time,<br>
+How could you ignore your mind?<br>
+When you were on your own,<br>
+You were on your own<br>
+<br>
+I'll be careful with the soft spots I'll be smart,<br>
+If you're careful with my heart.<br>
+Everybody gets lost somehow<br>
+It's where we were meant to start<br>
+Now I was right and you were wrong,<br>
+every single night I sleep alone<br>
+You see some men can't face defeat<br>
+Some let it leak into their bones... but not me,<br>
+<br>
+I'm not scared of the things that I love,<br>
+it's with them that I sleep at night when the devil comes.<br>
+Listen, it was there right from the start, all along.<br>
+It was there right from the start, all along,<br>
+it was there right from the start, all along.<br>
+<br>
+I'm giving it away this time<br>
+How could you ignore your mind?<br>
+When you were on your own,<br>
+You were on your own<br>
+
+Don't throw it all away this time,<br>
+Only just to lose you're mind<br>
+When you were on your own<br>
+You were on your own<br>
+You were on your own</p>
+
+          <h1 id="t6" class="lyrics-test">-Innocence-</h1>
+          <p class="lyrics-test-test">Waking up again in this fragile state we're in<br>
+Trying to understand what makes you a better man<br>
+<br>
+Feel the raw emotion<br>
+This is who you're meant to be<br>
+They can see above our heads<br>
+They can see across this wasteland<br>
+On my knees I beg to leave every day<br>
+So sick of the air we breathe<br>
+<br>
+If we compare the scars through our eyes<br>
+Close up, yours are just as bad as mine<br>
+But we know yeah we know we are innocent<br>
+I'm a criminal, you're criminal, we're all criminals<br>
+Innocent criminals...<br>
+<br>
+We're on the edge<br>
+We're under attack<br>
+If this goes on we can only go back<br>
+We're on the edge<br>
+We're under attack<br>
+If this goes on then we both fade to black
+
+</p>
+
+          <h1 id="t7" class="lyrics-test">-Delirium-</h1>
+          <p class="lyrics-test-test">I lost my heart in the sea where all the angels sing<br>
+"We want to lead you and oversee you<br>
+We've been waiting here for you"<br>
+All that's left is your conscious<br>
+Everything you tried to drown<br>
+"We're coming closer, We're coming closer"<br>
+And I can tell by the way your hands speak when I'm holding them<br>
+"Hold me nearer, Hold me nearer"<br>
+If you say you really mean it<br>
+Then I want to be everything that you say<br>
+Everything that you say<br>
+<br>
+From the ashes of our past<br>
+Wisdom shall grow<br>
+If we see the light I won't pray for the unknown<br>
+Will I be damned in hell if I don't follow your beliefs?<br>
+When everything is changing<br>
+When love is the only thing we need<br>
+We shouldn't have to feel alone<br>
+We shouldn't have to feel alone<br>
+If we loved ourselves we…<br>
+If we loved ourselves we…<br>
+We would love each other more<br>
+We would love each other more<br>
+If we loved ourselves we…<br>
+We would love each other more</p>
+
+          <h1 id="t8" class="lyrics-test">-Open Sun-</h1>
+          <p class="lyrics-test-test">A visionary scene of bliss as<br>
+we both stared into the infinite<br>
+Hidden hands drawing you in<br>
+All created by a nameless king<br>
+In peace together as on We walk towards the open sun<br>
+What happened to the joy we shared<br>
+I know that nothing is permanent<br>
+I miss the truth<br>
+I miss the feel and I miss us being real<br>
+<br>
+The words in my mouth set the screen<br>
+No You don't understand me<br>
+I've been holding my breath in this room for years<br>
+And there's always something in the darkest corners of my mind<br>
+It keeps me alive Tell me the truth Don't tell me a lie<br>
+I want you to feel I want you to see I want you to know<br>
+Just know that this is real<br>
+There's a million different reasons why you're wasting all your time<br>
+Eternal, eternal eyes, holding the key to eternal life<br>
+How are we going to find out?<br>
+Who we are and what we love?<br>
+Are you connected to your heart?<br>
+Are you connected to yourself?<br>
+I want you to feel I want you to see I want you to know<br>
+Just know that this is real<br>
+There's a million different reasons why you're wasting all your time<br>
+Eternal, eternal eyes, holding the key to eternal life<br>
+<br>
+Hey listen up We speak of heaven and hell as if it's<br>
+something that we've all been through<br>
+But usually, starting with a voice of reason,<br>
+there's a landslide of people seeking the truth Mr.Self-righteous...<br>
+I'm talking to you You've got some fucking nerve kid<br>
+You can't speak with a mouth of stones You can't preach with a false set of bones
+</p>
+
+          <h1 id="t9" class="lyrics-test">-Pariah-</h1>
+          <p class="lyrics-test-test">Welcome back to the world<br>
+Believe in what you are told<br>
+We get confused, so we feel abused<br>
+<br>
+Day in & day out I stare into an open sunset<br>
+Waiting for the dark to arise<br>
+Ohhh god I'm feeling so blessed<br>
+Devour all good we have left<br>
+<br>
+I can't speak through my mouth when it's moving<br>
+I can't sleep cause like I'm losing the fight<br>
+You had something to love but you fucked it<br>
+Hold it in, this time just swallow your pride<br>
+<br>
+Welcome back to the world<br>
+Surrender is the only way out<br>
+You're just a number dead or alive<br>
+Day in & day out<br>
+<br>
+I can't speak through my mouth when it's moving<br>
+I can't sleep cause like I'm losing the fight<br>
+You had something to love but you lost it<br>
+Hold it in, this time just swallow your pride<br>
+<br>
+It's the reason you're bent and you're broken<br>
+It's the reason you're not gonna give up the fight<br>
+You had something to love but you lost it<br>
+Hold it in, this time just swallow your pride<br>
+<br>
+You're all just like me<br>
+Lose blood and break bone<br>
+Move stone to get home<br>
+Just to find what you believe<br>
+<br>
+You're all just like me cause you're all just like me<br>
+We share the same hopes, choke on the same ropes...<br>
+<br>
+I left my heart in the dark<br>
+Where it can't be seen<br>
+Thousand open wounds<br>
+they won't be hurting me<br>
+I'm the black sheep<br>
+That doesn't come when you call<br>
+Just treat me with respect<br>
+We're all made from flesh and bones<br>
+<br>
+I'm stuck like a thorn in your eyes<br>
+I turn every living hour from day into night<br>
+I want you stab my soul once again<br>
+It's not gonna hurt<br>
+We are here until the end<br>
+It's not gonna hurt<br>
+We are here until the end<br>
+No it's not gonna hurt<br>
+Cause I refuse to be anything like them<br>
+anything like you<br>
+I refuse to be anything like you</p>
+
+          <h1 id="t10" class="lyrics-test">-Violent Pictures-</h1>
+          <p class="lyrics-test-test">I wish I could be a stranger<br>
+If I was then you wouldn't find out<br>
+I've got a head full of violent pictures,<br>
+no way to work it out, and I know now<br>
+<br>
+When I was young I wanted to grow older.<br>
+Now I'm grown can I take it all back?<br>
+I've got a head full of violent pictures,<br>
+I made them all myself. I know now<br>
+<br>
+By the grace of God, I'll wake up in the morning with nothing<br>
+but my friends and memories of dreaming of you I know,<br>
+I need forgiveness, like a hole in the head<br>
+Take me backwards, I don't want to know who I am<br>
+<br>
+You just walked away<br>
+By the grace of God, I'll wake up in the morning with nothing
+but my friends and memories of dreaming of you I know,<br>
+I need forgiveness, like a hole in the head.<br>
+Take me backwards, Take me backwards, Take me backwards...<br>
+I don't want to know who I am</p>
+        </div>
+      </div>
+
+      <div class="lyrics-layout">
+        <div class="lyrics-layout_image">
+          <img id="fourth" class="lyrics-page_image" src="./images/itcomesand.jpg" height= "100%" width="auto"/>
+        </div>
+        <div class="lyrics-page_album-title_wrap">
+          <h1 class="lyrics-page_album-title">It Comes And Goes - 2018</h1>
+        </div>
+          <div class="lyrics-page_album-songs">
+            <h1 id="ff1" class="lyrics-test">-Let It In-</h1>
+            <p class="lyrics-test-test">I... I travelled a distance<br>
+My life is stuck at a crossroad<br>
+This time, it's starting to twist me<br>
+My life, believe me, won't stop running away<br>
+<br>
+Your heartbeat is healing when I'm undone<br>
+I know that love alone won't be forever<br>
+<br>
+There's something that I can't admit<br>
+I see you and I let it in<br>
+But I won't stay out<br>
+And I won't get down<br>
+I'll read it on your face<br>
+Cause now I'm changed<br>
+<br>
+Faith, feels one in a million they say<br>
+Cause I walked the road that I paved<br>
+Distorting time and space<br>
+Try to absorb this pain<br>
+But it won't touch me it just fills with light<br>
+<br>
+Your heartbeat is healing when I'm undone<br>
+I know that love alone won't be forever<br>
+<br>
+There's something that I can't admit<br>
+I see you and I let it in<br>
+But I won't stay out<br>
+And I won't get down<br>
+I'll read it on your face<br>
+Cause now I'm changed<br>
+<br>
+I can't stand on the edge<br>
+This life wasn't meant to be useless<br>
+Tonight I've been calling to say<br>
+"The light in the dark won't be far from me"<br>
+<br>
+I see your thoughts still<br>
+And you're always there<br>
+But I found a new way out<br>
+Now follow your world and see<br>
+That love is an endless space<br>
+<br>
+I see your thoughts still in every way<br>
+You found a new world just without me<br>
+Just without me<br>
+<br>
+There's something that I can't admit<br>
+I see you and I let it in<br>
+But I won't stay out<br>
+And I won't get down<br>
+I'll read it on your face<br>
+Cause now I'm changed
+
+</p>
+
+            <h1 id="ff2" class="lyrics-test">-Voices-</h1>
+            <p class="lyrics-test-test">Hope god, can you figure it out<br>
+I swallowed the ocean but it won't stay down<br>
+Sinking in the sea of my doubts<br>
+There's blood in the water, it won't be long now<br>
+<br>
+You've got your hands around my heart again<br>
+You've got your hands around my heart again<br>
+<br>
+Focus, repair<br>
+Tell those voices in your head<br>
+We're living, we're not dead<br>
+So let's sit here alone and wait for this storm to end<br>
+For this storm to end<br>
+<br>
+Hopeless, we were lost in the sound<br>
+I swallowed my feelings now they won't come out<br>
+Sinking, falling through your clouds<br>
+Nobody can tell me, and I don't know how<br>
+<br>
+You've got your hands around my heart again<br>
+You've got your hands around my heart again<br>
+<br>
+Focus, repair<br>
+Tell those voices in your head<br>
+We're living, we're not dead<br>
+So let's sit here alone and wait for this storm to end<br>
+<br>
+We used to care, you and I<br>
+You used to make my words come alive<br>
+But I just wanna know where to find<br>
+Our way, our way<br>
+We used to say all the time<br>
+If we're strong enough we can survive<br>
+But I just wanna know where to find<br>
+Our way, our way<br>
+<br>
+Focus, repair<br>
+Tell those voices in your head<br>
+<br>
+Focus, repair<br>
+Tell those voices in your head<br>
+We're living, we're not dead<br>
+So let's sit here alone and wait for this storm to end</p>
+
+            <h1 id="ff3" class="lyrics-test">-Runaway-</h1>
+            <p class="lyrics-test-test">It's been a while since you and I<br>
+Said we'd take on the world for a ride<br>
+We've done it all backwards<br>
+Just stayed in line<br>
+We've learnt that you and I have two sides<br>
+It comes and goes and leaves no signs<br>
+I'll pray to god if you end up fine<br>
+<br>
+You can always hate, you can always feel me<br>
+You can tell the world I'm a lie but I'm finding<br>
+Back to myself, back to myself<br>
+<br>
+It's cold but I will swear to hold you tight<br>
+Just runaway with me, just runaway with me<br>
+I'll drive if you will swear to be my light<br>
+Just runaway with me, just runaway with me<br>
+<br>
+A week ago when I was lost<br>
+I found my head in the same old spot<br>
+I can't control myself<br>
+I can't control myself<br>
+How can I find whatever was lost?<br>
+How can you try when you feel so numb?<br>
+Or nothing at all<br>
+Or nothing at all<br>
+<br>
+You can always hate, you can always feel me<br>
+You can tell the world I'm a lie but I'm finding<br>
+Back to myself, back to myself<br>
+<br>
+It's cold but I will swear to hold you tight<br>
+Just runaway with me, just runaway with me<br>
+I'll drive if you will swear to be my light<br>
+Just runaway with me, just runaway with me<br>
+<br>
+We've gone through hell, and we've been through it<br>
+We've seen it all before, never want to see it again<br>
+I don't want to be, don't want to be nobody else<br>
+I just want to find, just want to find myself<br>
+<br>
+It's cold but I will swear to hold you tight<br>
+Just runaway with me, just runaway with me<br>
+I'll drive if you will swear to be my light<br>
+Just runaway with me, just runaway with me<br>
+Just runaway with me, just runaway with me<br>
+<br>
+Let the world be against you and me<br>
+Let the world see, there's you and me
+</p>
+
+            <h1 id="ff4" class="lyrics-test">-Stay-</h1>
+            <p class="lyrics-test-test">You keep wondering if I can taste the fear that's<br>
+Crawling from your eyes<br>
+All this wasn't meant to hurt so much to say<br>
+<br>
+On fire like lovers in the rain<br>
+Just stay<br>
+Cut through the ice so I can breathe<br>
+Just stay<br>
+<br>
+When the world has lost it's colour<br>
+Just say you'll stay<br>
+<br>
+Tear me down<br>
+Break the walls within<br>
+Hold me up<br>
+Before I cave-in<br>
+<br>
+Hope keeps<br>
+Holding onto something I can't feel<br>
+When I'm out of my own sight<br>
+All this<br>
+Wasn't meant to hurt so much to say<br>
+<br>
+I was headed for the sun<br>
+When the rain was near<br>
+I kept chasing the light<br>
+When the sky wasn't clear<br>
+<br>
+On fire like lovers in the rain<br>
+Just stay<br>
+Cut through the ice so I can breathe<br>
+Just stay<br>
+<br>
+My comfort my hope,<br>
+The only one who knows that the wolves at the door,<br>
+They're tearing brand new holes in my heart but I see you,<br>
+You give me brand new meaning.<br>
+You fill me with love.<br>
+I'll hold you as you seal it in.<br>
+<br>
+On fire like lovers in the rain<br>
+Just stay<br>
+Cut through the ice so I can breathe<br>
+Just stay<br>
+<br>
+When the world has lost its colour, and the walls are caving in.<br>
+There's nothing but the future left, so let me live<br>
+Forget all of our horrors and say you'll, stay with...
+</p>
+
+            <h1 id="ff5" class="lyrics-test">-Same Old War-</h1>
+            <p class="lyrics-test-test">Hold your head high<br>
+I know you're tired<br>
+Read the truth from my hands<br>
+Right into your eyes<br>
+The state of our hearts<br>
+Can tear us apart<br>
+When there's hell out there,<br>
+There's only stars in the air<br>
+<br>
+You are right here<br>
+Moving out of the dark<br>
+And you're still fighting<br>
+The same old war<br>
+'Cause you're burning away, away, away<br>
+Just try and be your only, your only god<br>
+Your only god<br>
+<br>
+When you turn into<br>
+Floating fire<br>
+Past the fountain of my well<br>
+Right into my eyes<br>
+Now you're so afraid<br>
+Of falling apart<br>
+When you're guiding your way<br>
+Your way, your own way<br>
+<br>
+Your way... to somewhere I can...<br>
+I can see you there, I can feel you there...<br>
+<br>
+'Cause you are right here<br>
+Moving out of the dark<br>
+And you're still fighting<br>
+The same old war<br>
+'Cause you're burning away, away, away<br>
+Just try and be your only, your only god<br>
+Your only god<br>
+<br>
+This pain will make me abandon<br>
+All love will run it's course<br>
+<br>
+This pain will make me abandon<br>
+All love I had for you<br>
+<br>
+You are right here<br>
+Moving out of the dark<br>
+And you're still fighting<br>
+The same old war<br>
+'Cause you're burning away, away, away<br>
+Just try and be your only, your only god<br>
+Your only god</p>
+
+            <h1 id="ff6" class="lyrics-test">-Shine-</h1>
+            <p class="lyrics-test-test">I've tried to find the words to say<br>
+Give me a moment to think<br>
+I'm learning how to breathe<br>
+Call me when you want to, tell me it's okay<br>
+Sometimes it's hard to believe what you can't see<br>
+<br>
+'Cause I've already chosen<br>
+The chain is already broken<br>
+I still hear you claiming you'll never love again<br>
+<br>
+Watch me break apart<br>
+Facing what I'm not<br>
+How did I make it out this time<br>
+Through visions we learn to walk the line<br>
+Watch me shine<br>
+<br>
+I've tried to make it go away<br>
+The pain that I feel left me with broken dreams<br>
+Tell me how much longer will it take to end?<br>
+Sometimes we've got to believe in better days<br>
+<br>
+'Cause I've already chosen<br>
+The chain is already broken<br>
+I still hear you claiming you'll never love again<br>
+<br>
+Watch me break apart<br>
+Facing what I'm not<br>
+How did I make it out this time<br>
+Through visions we learn to walk the line<br>
+Watch me shine<br>
+Watch me shine<br>
+Watch me shine<br>
+We learn to walk the line<br>
+Watch me shine<br>
+<br>
+I can hear you every night<br>
+With loneliness inside me<br>
+I will hear you out if you want to<br>
+Open your heart when you're hurting<br>
+I'll give you every second<br>
+You will understand that you're worth it<br>
+<br>
+Watch me break apart<br>
+Facing what I'm not<br>
+How did I make it out this time<br>
+Through visions we learn to walk the line<br>
+Watch me shine<br>
+Watch me shine<br>
+Watch me shine<br>
+<br>
+Watch me shine
+</p>
+
+            <h1 id="ff7" class="lyrics-test">-Drag Me Down-</h1>
+            <p class="lyrics-test-test">When you're alone trying to heal<br>
+All the pain that you feel<br>
+I can't talk when I'm dreaming<br>
+My body wants to let go (body wants to let go)<br>
+<br>
+And you found yourself in<br>
+Your darkest nights<br>
+I can't stop to feel<br>
+This emptiness inside<br>
+<br>
+You tried to crucify me<br>
+You put a weight on my chest<br>
+And as the world is ending<br>
+You'll never get in my head<br>
+Or drag me down<br>
+<br>
+Lonely eyes, you keep denying<br>
+You're afraid to let the light in<br>
+I can't talk when I'm dreaming<br>
+My body wants to let go (body wants to let go)<br>
+<br>
+And you found yourself in<br>
+Your darkest nights<br>
+I can't stop to feel<br>
+This emptiness inside<br>
+
+You tried to crucify me<br>
+You put a weight on my chest<br>
+And as the world is ending<br>
+You'll never get in my head<br>
+Or drag me down<br>
+<br>
+I hope, now<br>
+You'll be on your own, now<br>
+The silence is around me but<br>
+I can't stop thinking about you<br>
+I hope, now<br>
+You'll be on your own, now<br>
+The silence is around me but<br>
+I'm thinking about you<br>
+<br>
+You tried to crucify me<br>
+You put a weight on my chest<br>
+And as the world is ending<br>
+You'll never get in my head<br>
+Or drag me down<br>
+Or drag me down<br>
+(Crucify me)<br>
+Drag me down<br>
+(You'll never get in my head)</p>
+
+            <h1 id="ff8" class="lyrics-test">-Don't Lose Your Heart-</h1>
+            <p class="lyrics-test-test">Are you lost somehow, drowning in the crowd?<br>
+Are you on your own again?<br>
+Right back at the start<br>
+Kid don't lose your heart<br>
+Until you're where you want to be.<br>
+<br>
+Down at the cold steps, where no light exists<br>
+That's where you want to be, feeling sick<br>
+You find your hopes and your abandoned dreams<br>
+That's where you find your purpose.<br>
+<br>
+Sometimes I take another breath,<br>
+Another step to embrace what I have<br>
+Then I stare at you, staring back<br>
+And I know that I'm not dead.<br>
+It takes a voice to make a change<br>
+It takes courage to not be the same<br>
+If the world is silenced today<br>
+I make sure to scream my name<br>
+<br>
+Take it in and let it burn<br>
+<br>
+Are you lost somehow, drowning in the crowd?<br>
+Are you on your own again?<br>
+Right back at the start<br>
+Kid don't lose your heart<br>
+Until you're where you want to be.<br>
+<br>
+Don't lose your heart<br>
+There are pains in life<br>
+It won't be easy<br>
+<br>
+Don't lose your heart<br>
+Part of being accepted<br>
+Is to accept yourself<br>
+<br>
+Don't lose your heart<br>
+It's the pulse that beats<br>
+And your voice that speaks.<br>
+<br>
+Don't lose your heart<br>
+If you're willing to change, willing to fight<br>
+Promise me<br>
+<br>
+Don't lose your heart.<br>
+<br>
+Remind yourself<br>
+You're breathing<br>
+Remind yourself<br>
+That you are bleeding<br>
+<br>
+Are you lost somehow, drowning in the crowd?<br>
+Are you on your own again?<br>
+Right back at the start<br>
+Kid don't lose your heart<br>
+Until you're where you want to be.</p>
+
+            <h1 id="ff9" class="lyrics-test">-Paper Thin-</h1>
+            <p class="lyrics-test-test">Paper thin<br>
+They say it always ends like this<br>
+There's stains now on your cheeks clenched fist<br>
+Now I'll take the risk<br>
+And tell you I'm leaving<br>
+And tell you I'm leaving<br>
+<br>
+I need you to ask your heart about it<br>
+Keep your head up, there's only so much I can do<br>
+I see you when I dream about it<br>
+Wrap your hands around, it only takes the void from you<br>
+<br>
+Paper thin<br>
+They say it always ends like this<br>
+There's stains now on your cheeks clenched fist<br>
+Now I'll take the risk<br>
+And tell you I'm leaving<br>
+<br>
+A feeling, I can live without it<br>
+I think it's time to move on before we come undone<br>
+Just tell me how you end up in sadness<br>
+I hate to see you, see you like this all the time<br>
+<br>
+Paper thin<br>
+They say it always ends like this<br>
+There's stains now on your cheeks clenched fist<br>
+Now I'll take the risk<br>
+And tell you I'm leaving<br>
+<br>
+You controlled me already, destroyed everything about me<br>
+'Cause I just want to feel like home again<br>
+<br>
+If seeing is believing<br>
+Some things in life don't always need explaining<br>
+This feeling is changing<br>
+You gotta find the freedom in just leaving it all behind<br>
+<br>
+Paper thin<br>
+They say it always ends like this<br>
+There's stains now on your cheeks clenched fist<br>
+Now I'll take the risk<br>
+And tell you I'm leaving<br>
+<br>
+(And tell you I'm leaving)</p>
+
+            <h1 id="ff10" class="lyrics-test">-Tell Me Why-</h1>
+            <p class="lyrics-test-test">As the sky breaks in I'm holding<br>
+Onto something broken<br>
+I know we can all just end<br>
+But here I am on my knees again<br>
+I thought that this was golden<br>
+I thought you'd be the one<br>
+To show me how to walk again<br>
+Now I'm on my knees again<br>
+<br>
+And oh I'm falling apart<br>
+<br>
+Tell me why you broke our love<br>
+Tell me why you fucked our trust<br>
+Show me why it's not enough<br>
+Show me why I'm still here<br>
+Crying at a broken cross before you run run<br>
+Tell me why you broke our love<br>
+Tell me why you lost your trust<br>
+Show me where it got too rough<br>
+Show me why I'm still here<br>
+Crying at a broken cross before you run run<br>
+Tell me why you broke our love<br>
+<br>
+Totaled, you were moving on me<br>
+Waking up tired when I'm trying to forget it<br>
+Pushing every day, don't push it away<br>
+We're talking so I might as well stay<br>
+Come count all my problems I won't be back<br>
+Come see me as a child beating blue and black<br>
+I'll tell you the truth how much it hurt<br>
+I told her the drop was a million miles<br>
+<br>
+Say it just this once<br>
+<br>
+Tell me why you broke our love<br>
+Tell me why you fucked our trust<br>
+Show me why it's not enough<br>
+Show me why I'm still here crying at a broken cross before you run run<br>
+Tell me why you broke our love<br>
+Tell me why you lost your trust<br>
+Show me where it got too rough<br>
+Show me why I'm still here crying at a broken cross before you run run<br>
+Tell me why you broke our love<br>
+<br>
+(Tell me why you broke our love)<br>
+(Tell me why you broke our love)<br>
+(Tell me why you broke our love)<br>
+(Tell me why you broke our love)<br>
+<br>
+As the sky is falling you feel brand-new<br>
+I see the gun you're holding but please don't shoot<br>
+You know that you're all that I've got<br>
+<br>
+So tell me why you broke our love<br>
+Tell me why you fucked our trust<br>
+Show me why it's not enough<br>
+Show me why I'm still here crying at a broken cross before you run run<br>
+Tell me why you broke our love<br>
+Tell me why you lost your trust<br>
+Show me where it got too rough<br>
+Show me why I'm still here crying at a broken cross before you run run<br>
+Tell me why you broke our love<br>
+<br>
+(So tell me why you broke our love)<br>
+(Tell me why you broke our love)<br>
+(So tell me why you broke our love)<br>
+(Tell me why you broke our love)</p>
+          </div>
+        </div>
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+        </div>
+
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+        </div>
+
+            <div class="page-finish">
+              <a href="./security.html">Security Statements</a>
+              <a href="./terms.html">Terms of Service</a>
+              <a href="./privacy.html">Privacy Policy</a>
+              <a href="./contact.html">Contact</a>
+            </div>
+
+        </body>
+        </html>

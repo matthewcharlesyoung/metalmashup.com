@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Gloryhammer</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/tales.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Tales From The Kingdom Of Fife - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Anstruther's Dark Prophecy</a>
+      <a href="#f2">The Unicorn Invasion Of Dundee</a>
+      <a href="#f3">Angus Mcfife</a>
+      <a href="#f4">Quest For The Hammer Of Glory</a>
+      <a href="#f5">Magic Dragon</a>
+      <a href="#f6">Silent Tears Of Frozen Princess</a>
+      <a href="#f7">Amulet Of Justice</a>
+      <a href="#f8">Hail To Crail</a>
+      <a href="#f9">Beneath Cowdenbeath</a>
+      <a href="#f10">The Epic Rage Of Furious Thunder</a>
+      <a href="#f11">Wizards!</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/space1992.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Space 1992: Rise Of The Chaos Wizards - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Infernus Ad Astra</a>
+      <a href="#s2">Rise Of The Chaos Wizards</a>
+      <a href="#s3">Legend Of The Astral Hammer</a>
+      <a href="#s4">Goblin King Of The Darkstorm Galaxy</a>
+      <a href="#s5">The Hollywood Hootsman</a>
+      <a href="#s6">Victorious Eagle Warfare</a>
+      <a href="#s7">Questlords Of Inverness, Ride To The Galactic Fortress!</a>
+      <a href="#s8">Universe On Fire</a>
+      <a href="#s9">Heroes (Of Dundee)</a>
+      <a href="#f10">Apocalypse 1992</a>
+      <a href="#s11">Dundax Aeterna</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/tales.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Tales From The Kingdom Of Fife - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Anstruther's Dark Prophecy-</h1>
+      <p class="lyrics-test-test">The prophecy is written... Dundee will fall!</p>
+
+      <h1 id="f2" class="lyrics-test">-The Unicorn Invasion Of Dundee-</h1>
+      <p class="lyrics-test-test">They came with the first light of dawn<br>
+setting their sights on Dundee<br>
+led by the sorcerer Zargothrax<br>
+slaying all people he sees<br>
+they ride to war on once noble beasts<br>
+corrupted by wizard spell<br>
+the unicorns used to be good<br>
+now they are forced to serve hell<br>
+<br>
+Down from the mountains<br>
+and across the river Tay<br>
+an army of undead unicorns<br>
+are riding into the fray<br>
+<br>
+Fireballs and lighting are raining from the sky<br>
+chaos and bloodshed while all the people die<br>
+in this epic battle begins the final war<br>
+tragedy will strike this day, prepare thee for<br>
+the unicorn invasion of Dundee<br>
+<br>
+The townpeople had little hope<br>
+they were not ready for war<br>
+fireballs make everybody die<br>
+and buildings collapse to the floor<br>
+the beautiful princess was raped<br>
+and taken prison with cry<br>
+Angus McFife swears a mighty oath<br>
+"I will make Zargothrax die!"<br>
+<br>
+The forces of darkness<br>
+are invading proud Dundee<br>
+there must find a hero<br>
+to save its destiny</p>
+
+      <h1 id="f3" class="lyrics-test">-Angus Mcfife-</h1>
+      <p class="lyrics-test-test">He is the prince of the land of Fife<br>
+Noble and true with a heart of steel<br>
+Now it is lost vengeance shall be his<br>
+Angus McFife is his name<br><br>
+
+Across the wasteland, I ride upon swift steed<br>
+Behind me lies the burning ruins of Dundee<br>
+No turning back now, my journey lies ahead<br>
+I won't give up until the sorcerer is dead<br>
+<br>
+A raging hero with a destiny of steel<br>
+With glory overcomes a mighty quest concealed<br>
+<br>
+He is the prince of the land of Fife<br>
+Noble and true with a heart of steel<br>
+Now it is lost vengeance shall be his<br>
+Angus McFife is his name<br>
+<br>
+In ancient castle, frozen for all time<br>
+Inside the dungeons my beloved waits to die<br>
+Ride fast for vengeance, but I must find a way<br>
+The force of unicorns makes Zargothrax fight great<br>
+<br>
+Power of the sorcerer to great to be controlloed<br>
+Glenrothes trees will heal the torment in my soul<br>
+<br>
+He is the prince of the land of Fife<br>
+Noble and true with a heart of steel<br>
+Now it is lost vengeance shall be his<br>
+Angus McFife is his name</p>
+
+      <h1 id="f4" class="lyrics-test">-Quest For The Hammer Of Glory-</h1>
+      <p class="lyrics-test-test">Ride! To the farway mountains<br>
+Fight! Many goblins and trolls<br>
+Quest! For the hammer of glory<br>
+<br>
+The snow keeps on falling<br>
+as I ride to the north<br>
+I set out on a journey so far<br>
+have been on my way thenceforth<br>
+my armour and weapons<br>
+now covered with ice<br>
+many battle have they seen<br>
+but onwards I must strive<br>
+<br>
+To defeat the foes of Dundee<br>
+I must have a weapon of ultimate steel<br>
+<br>
+Ride! To the farway mountains<br>
+Fight! Many goblins and trolls<br>
+Quest! For the hammer of glory<br>
+to wield the power to slay all your foes<br>
+<br>
+My mission is simple<br>
+my purpose is clear<br>
+in a cave on a mountain up high<br>
+there lies a mystical shrine<br>
+if a warrior quests there<br>
+with a heart pure of steel<br>
+the gods will grant unto him<br>
+a weapon that shall be revealed<br>
+<br>
+The Hammer of Glory it's called<br>
+passed down by heroes from centuries old<br>
+<br>
+The shrine lies before me now<br>
+the hammer in sight<br>
+I raise it up to the heavens above<br>
+and I hail the king
+</p>
+
+      <h1 id="f5" class="lyrics-test">-Magic Dragon-</h1>
+      <p class="lyrics-test-test">Riding my steel into faraway lands<br>
+searching for dragon to claim back the throne<br>
+into the forests of deepest Strathclyde<br>
+where time no centurieshas been foretold<br>
+<br>
+A mighty warrior<br>
+questing to valleys unknown<br>
+<br>
+A village of wizards revealed my the way<br>
+they saw it by searching a magical ball<br>
+enchanted chamber with mirror and fire<br>
+defeat it and dragon would be the reward<br>
+the be the chosen one<br>
+a hero must rise to the rest<br>
+<br>
+Demon attacked me but then it was slain<br>
+the dragon appeared and a battle was fight<br>
+I spoke from the words of a powerful scroll<br>
+and magical dragon became now allied<br>
+<br>
+Mighty and glorios<br>
+he flies through the emerald skies<br>
+<br>
+Magic dragon<br>
+casting a spell on the mountains<br>
+covering wizards in gloryv
+flying through majestic skies<br>
+searching for mighty powers<br>
+to defeat ultimate evil<br>
+ride on the wings of a dragon<br>
+flying through majestic skies<br>
+questing for the steel</p>
+
+      <h1 id="f6" class="lyrics-test">-Silent Tears Of Frozen Princess-</h1>
+      <p class="lyrics-test-test">Sometimes I seem to drown in woe<br>
+but there is a hope<br>
+glooming inside my heart alone<br>
+when I think of you<br>
+remembering bygone days<br>
+and your silvery laugh<br>
+it will not resound again<br>
+caught in a shroud of ice<br>
+<br>
+But I will not cease<br>
+seeking for you<br>
+<br>
+Frozen princess in this land of fears<br>
+your mighty kingdom has fallen<br>
+i see the glitter of your silent tears<br>
+afar int he wuthering dark<br>
+<br>
+Every night I feel you're near<br>
+vivid memories<br>
+they dance within my reach<br>
+and still are so far from here<br>
+your angelic grace shall be ablaze<br>
+with lights again<br>
+my hammer my break the spell<br>
+before the last hope dies<br>
+<br>
+My path carries on<br>
+seeking for you<br>
+<br>
+My forces conspire<br>
+to bring back the warmth of your smile<br>
+my heart set on fire<br>
+it will burn down your prison of cold<br>
+it's burning for you
+</p>
+
+      <h1 id="f7" class="lyrics-test">-Amulet Of Justice-</h1>
+      <p class="lyrics-test-test">Now I am mounting dragon, girdled by a golden gleam<br>
+to dearch for the last artefact I saw in my dream<br>
+a thousand legends twine around the mystery<br>
+how to find the periapt that setsthe spellbound free<br>
+<br>
+Power of the universe<br>
+will guide me the way<br>
+my hammer I hold up high<br>
+so I proclaim<br>
+<br>
+Amulet of Justice<br>
+your destiny awaits<br>
+in a land now reigned in shadow<br>
+by a wizard full of hate<br>
+i will ride across the highland<br>
+i will sail across the seas<br>
+the one and only hope for Fife<br>
+your mystic legacy<br>
+<br>
+At the bottom of Loch Rannoch there is lying deep below<br>
+a necklace made of pure silk, with a gem as white as snow<br>
+i dive into the dark to avert calamity<br>
+brought by evil wizard over beloved Dundee<br>
+<br>
+Power of the universe<br>
+will guide me the way<br>
+through worlds man has never seen<br>
+lone and arcane<br>
+<br>
+Powers of the universe<br>
+have shown me the way<br>
+now I have the amulet<br>
+the kingdom I'll save<br>
+<br>
+Quest complete!</p>
+
+      <h1 id="f8" class="lyrics-test">-Hail To Crail-</h1>
+      <p class="lyrics-test-test">Far to the east, where the land meets the sea<br>
+there lies a majestic town<br>
+crail is it's name, shrouded in fame<br>
+jewel in Fife's noble crown<br>
+here, every day, the warriors train<br>
+in the art of epic fights<br>
+riding on eagles, questing so true<br>
+a legion of powerful knights<br>
+<br>
+Emblazoned 'cross the sky<br>
+here the kingdom cry<br>
+<br>
+HAIL! TO CRAIL!<br>
+mightiest warriors in the land<br>
+HAIL! TO CRAIL!<br>
+ready to fight with a sword in hand<br>
+fighting battles every day<br>
+this is why we say<br>
+HAIL! TO CRAIL!<br>
+<br>
+In the battle of Cowdenbeath<br>
+their steel did win the day<br>
+knights of Crail with banners high<br>
+riding hard into the fray<br>
+once, in the siege of far-off Dunkeld<br>
+defeat of the town was nigh<br>
+but then came the knights, the warriors of Crail<br>
+and all of their foes did die<br>
+<br>
+They've never lost a fight<br>
+so we proclaim tonight</p>
+
+      <h1 id="f9" class="lyrics-test">-Beneath Cowdenbeath-</h1>
+      <p class="lyrics-test-test">Tell me traveller, do you know what<br>
+lurks beneath... Cowdenbeath?</p>
+
+      <h1 id="f10" class="lyrics-test">-The Epic Rage Of Furious Thunder-</h1>
+      <p class="lyrics-test-test">Dundee! Mighty city on the<br>
+banks of the silv'ry Tay<br>
+your sacrifice will always be<br>
+remembered that fateful day<br>
+but now that the time has<br>
+come to regain our fallen pride<br>
+we march to war with an army<br>
+of eagles by our side<br>
+oh Dundee<br>
+<br>
+Swiftly across the sapphire sky<br>
+the magic dragon flies<br>
+Angus McFife is atop his back<br>
+hear the battlecry!<br>
+down below, the knights of Crail<br>
+have rallied to the cause<br>
+the hammer of glory is their guide<br>
+a great majestic force<br>
+<br>
+The final battle has begun<br>
+for freedom and Dundee<br>
+<br>
+Oh brave chivistic rainbow<br>
+give me strength og angelic might!<br>
+<br>
+Far from the north a hero comes<br>
+his armour made from wolf<br>
+he heard the call the defend his king<br>
+the barbarian warrior of Unst!<br>
+now at the side of lord McFife<br>
+across the land they ride<br>
+he know the way to the cidatel<br>
+where Zargothrax must hide<br>
+<br>
+many evils guard the way<br>
+the castles has great might<br>
+<br>
+In the epic rage of furious thunder<br>
+legends create their tales<br>
+when the twilight calls and the dark lord falls<br>
+our glory will prevail<br>
+<br>
+The tower is high and mighty<br>
+we cannot climb the walls<br>
+we must find our way through the secret<br>
+tunnels of the dwarves<br>
+<br>
+Through the ancient tunnels, the waariors make way<br>
+into a darkened cavern beneath the fortress great<br>
+led by a hermit, Relathor his name<br>
+the way to the castle his secret to betray<br>
+<br>
+Mighty unicorn, that flies in the sky<br>
+touch the universe with your wings and hail the king<br>
+<br>
+Now in the fields of Dunfermline<br>
+an epic war is fight<br>
+the knights of Crail make evil die<br>
+bring glory for the light<br>
+meanwhileinside the citadel<br>
+McFife has found the way<br>
+faceing to face with Zargothrax<br>
+and single combat waged<br>
+<br>
+The evil wizard falls to doom<br>
+and drowns in liquid ice<br>
+<br>
+In the epic rage of furious thunder<br>
+legends create their tales<br>
+when the twilight calls and the dark lord falls<br>
+our glory will prevail
+</p>
+
+      <h1 id="f11" class="lyrics-test">-Wizards!-</h1>
+      <p class="lyrics-test-test">[Bonus Track]<br>
+<br>
+High in the Cairngorm Mountains<br>
+An ancient war still burns<br>
+A magical missile shoots and fireball explodes<br>
+These are the spells of the wizards<br>
+Fighting the demon horde<br>
+A secret battle for eternity<br>
+<br>
+Wiiiiiizaaaards!<br>
+Ancient and powerful keepers of chaos<br>
+Wiiiiiizaaaards!<br>
+Casting their magic over the mountains<br>
+Wiiiiiizaaaards!<br>
+Brewing a potion in the dark tower<br>
+Wiiiiiizaaaards!<br>
+Guardians of time<br>
+<br>
+Far from the past they travelled<br>
+In to the future they see<br>
+The crystal ball reveals all history<br>
+They see the coming battle<br>
+Across the galaxy<br>
+Where evil and good collide in a final war of steel<br>
+<br>
+Wiiiiiizaaaards!<br>
+Ancient and powerful keepers of chaos<br>
+Wiiiiiizaaaards!<br>
+Casting their magic over the mountains<br>
+Wiiiiiizaaaards!<br>
+Brewing a potion in the dark tower<br>
+Wiiiiiizaaaards!<br>
+Guardians of time<br>
+<br>
+Wiiiiiizaaaards!<br>
+Ancient and powerful keepers of chaos<br>
+Wiiiiiizaaaards!<br>
+Casting their magic over the mountains<br>
+Wiiiiiizaaaards!<br>
+Brewing a potion in the dark tower<br>
+Wiiiiiizaaaards!<br>
+Guardians of time</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/space1992.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Space 1992: Rise Of The Chaos Wizards - 2015</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Infernus Ad Astra-</h1>
+        <p class="lyrics-test-test">In the distant future of the year 1992,<br>
+War has returned to the galaxy!</p>
+
+        <h1 id="s2" class="lyrics-test">-Rise Of The Chaos Wizards-</h1>
+        <p class="lyrics-test-test">Sanctus dominus<br>
+Infernus ad astra<br>
+Sanctus dominus<br>
+Infernus ad astra<br>
+Sanctus dominus<br>
+Infernus ad astra<br>
+Sanctus dominus<br>
+Infernus ad astra<br>
+<br>
+Across the galaxy a new force of evil is rising<br>
+Wizards of Chaos fighting the throne of brave king of Dundee<br>
+Entwined by mystic spells, they know where the sorcerer hidden<br>
+Imprisoned in ice on the planet of knights, the powerful heroes of Crail<br>
+<br>
+Eons of warfare returning<br>
+No longer peace will survive<br>
+The intergalactic great empire of Fife will die<br>
+<br>
+For the king we will ride<br>
+To the dark galactic skies<br>
+To defeat the foes<br>
+When the Chaos Wizards rise<br>
+Now the universe will burn<br>
+Evil sorcerer returns<br>
+Tragic fate rages tonight<br>
+Chaos Wizards rise<br>
+<br>
+Sanctus dominus<br>
+Infernus ad astra<br>
+Sanctus dominus<br>
+Infernus ad astra<br>
+<br>
+Ten centuries ago brave heroes defeated the wizard<br>
+Now Chaos reigns and evil returns to the kingdom of Fife<br>
+Wizard cultists rage - on dark wings of steel they are flying<br>
+To space they must go, great terror they sow, nothing can stand in their way<br>
+<br>
+The space knights of Crail are defeated<br>
+The fortress of Triton is lost<br>
+Zargothrax rises once more from his prison of frost<br>
+<br>
+For the king we will ride<br>
+Through the dark galactic skies<br>
+To defeat the foes<br>
+When the Chaos Wizards rise<br>
+Now the universe will burn<br>
+Evil sorcerer returns<br>
+Tragic fate rages tonight<br>
+Chaos Wizards rise<br>
+<br>
+[Spoken:]<br>
+And lo, after centuries of frozen slumber I am free once more<br>
+Cosmic infinity courses through my veins<br>
+My body is ablaze with astral charge<br>
+The galaxy shall once again tremble before the might of Zargothrax<br>
+<br>
+For the king we will ride<br>
+Through the dark galactic skies<br>
+To defeat the foes<br>
+When the Chaos Wizards rise<br>
+Now the universe will burn<br>
+Evil sorcerer returns<br>
+Tragic fate rages tonight<br>
+Chaos Wizards rise</p>
+
+        <h1 id="s3" class="lyrics-test">-Legend Of The Astral Hammer-</h1>
+        <p class="lyrics-test-test">Slashing my way through an army<br>
+of goblins on the dark side of the moon<br>
+Far overhead lunar dragons are swarming, my hammer will be their doom<br>
+Angus McFife the 13th my name, the scion of mighty Dundee<br>
+Intergalactic great hero of steel, ruler of the whole galaxy<br>
+Wielding this ancestral weapon, the Hammer of Glory its name<br>
+The kingdom of Fife will forever proclaim<br>
+<br>
+Legend of the Astral Hammer<br>
+Forged in the heart of the celestial fire<br>
+Legend of the Astral Hammer<br>
+Minuscule goblin, impractical sword<br>
+Legend of the Astral Hammer<br>
+Powered by lasers entwined in a star<br>
+Legend of the Astral Hammer<br>
+Crystal enchantment of steel<br>
+<br>
+Aeons ago the starlords descended Powerful unknown to man<br>
+With three epic weapons to safeguard from doom,<br>
+concealing them far 'cross the land<br>
+Relics of legend, relics of might, forged in a time before time<br>
+For thousands of years unfathomed unknown, deep in a mystical shrine<br>
+<br>
+Descendant of ultimate fighter<br>
+Now battle a war in the stars<br>
+Defending the kingdom from Demons of Mars<br>
+<br>
+Now Zargothrax rises once more<br>
+To threaten the force of the light<br>
+Assemble the heroes of steel<br>
+Prepare for the ultimate fight</p>
+
+        <h1 id="s4" class="lyrics-test">-Goblin King Of The Darkstorm Galaxy-</h1>
+        <p class="lyrics-test-test">I have returned from centuries<br>
+of slumber now the universe must burn<br>
+I feel the power, yet still I thirst for more,<br>
+ancient secrets I must learn<br>
+I ride the twilight, in search of cosmic fire<br>
+The Goblin King knows my desire<br>
+<br>
+Regis! Kobalos! Cast unholy fire!<br>
+<br>
+Goblin King of the Darkstorm Galaxy<br>
+Ride on the wings of doom<br>
+Grant me the power to fight my foes<br>
+And defeat the lords of the moon<br>
+<br>
+This magic crystal is the artifact you<br>
+seek to unleash evil from the sky<br>
+You must find the portal, the crystal<br>
+is the key...all universal life will die!<br>
+Deep beneath Dundee, the mighty citadel<br>
+There lies a passageway to Hell</p>
+
+        <h1 id="s5" class="lyrics-test">-The Hollywood Hootsman-</h1>
+        <p class="lyrics-test-test">1,000 years ago a hero crossed the sea<br>
+In search of distant realms to claim his destiny,<br>
+The land of Unst was not enough he had to conquer more<br>
+Into the west a hero quests, to far American shores!<br>
+With his mighty battle axe he slaughtered everything,<br>
+Till all of California did call the hero king!<br>
+<br>
+He's The Hollywood Hootsman!<br>
+HAIL TO HOOTS!<br>
+Mighty proud and standing tall,<br>
+A legend to us all!<br>
+<br>
+He's The Hollywood Hootsman!<br>
+HE'S THE KING!<br>
+Riding from the silver screen,<br>
+into the battlefield!<br>
+<br>
+He's the king of California....<br>
+HOOTS!<br>
+<br>
+Immortal warrior with armor made from wolf,<br>
+His legend proves the centuries with the power of the hoots!<br>
+His prowess on the battlefield does show on the stage,<br>
+In Hollywood he found his fame, the finest of his age!<br>
+The greatest movie star to ever walk the land,<br>
+If you ever meet this man I'm sure you'll understand!<br>
+<br>
+He's The Hollywood Hootsman!<br>
+HAIL TO HOOTS!<br>
+Mighty proud and standing tall,<br>
+A legend to us all!<br>
+<br>
+He's The Hollywood Hootsman!<br>
+HE'S THE KING!<br>
+Riding from the silver screen,<br>
+into the battlefield!<br>
+<br>
+He's the king of California....<br>
+HOOTS!<br>
+<br>
+Now Angus calls for him to join the epic fight,<br>
+Once more these mighty warriors will battle side by side!<br>
+<br>
+He's The Hollywood Hootsman!<br>
+HAIL TO HOOTS!<br>
+Mighty proud and standing tall,<br>
+A legend to us all!<br>
+<br>
+He's The Hollywood Hootsman!<br>
+HE'S THE KING!<br>
+Riding from the silver screen,<br>
+into the battlefield!<br>
+<br>
+He's The Hollywood Hootsman!<br>
+HOOTS, HOOTS!<br>
+Mighty proud and standing tall,<br>
+A legend to us all!<br>
+<br>
+He's The Hollywood Hootsman!<br>
+HOOTS, HOOTS!<br>
+Riding from the silver screen,<br>
+into the battlefield!<br>
+<br>
+He's the king of California....<br>
+HOOTS!</p>
+
+        <h1 id="s6" class="lyrics-test">-Victorious Eagle Warfare-</h1>
+        <p class="lyrics-test-test">There was a time when legends of Crail ran true<br>
+All over, their majesty everyone knew<br>
+But now in the future, defeated by evil untold<br>
+We yearn for the knight from story of old<br>
+<br>
+A hero cannot be defeated<br>
+Simply by making him die<br>
+Proletius will rise<br>
+A hologram hero will fight<br>
+<br>
+Victorious eagle warfare<br>
+So glorious, riding high up in the sky<br>
+Victorious eagle warfare<br>
+Brave warriors questing hard until they die<br>
+With nothing above but the heavens above<br>
+Guiding us on through the war<br>
+Eagle force<br>
+<br>
+Inside the chamber of cryogenetical fire<br>
+A magical wizard is doing a spell<br>
+Powered by robots, a hologram coming to life<br>
+To stand at the side of the king of Fife<br>
+<br>
+The galaxy knights are rising<br>
+Reborn from the ashes of Crail<br>
+A force for the light<br>
+To whom we eternally hail<br>
+<br>
+Victorious eagle warfare<br>
+So glorious, riding high up in the sky<br>
+Victorious eagle warfare<br>
+Brave warriors questing hard until they die<br>
+With nothing above but the heavens above<br>
+Guiding us on through the war<br>
+Eagle force<br>
+<br>
+[Spoken:]<br>
+Mighty warriors of the galaxy<br>
+You have proven yourselves to be mighty indeed<br>
+Now, who of you will join me in my Space Knights of Crail?<br>
+<br>
+Victorious eagle warfare<br>
+So glorious, riding high up in the sky<br>
+Victorious eagle warfare<br>
+Brave warriors questing hard until they die<br>
+With nothing above but the heavens above<br>
+Fight against power of evil corrupt<br>
+Guiding us on through the war<br>
+Eagle force</p>
+
+        <h1 id="s7" class="lyrics-test">-Questlords Of Inverness, Ride To The Galactic Fortress!-</h1>
+        <p class="lyrics-test-test">The Questlords of Inverness ride<br>
+Far far away, to the ultimate light<br>
+Travelling throughout the time<br>
+The Questlords of Inverness ride<br>
+To Galactic Fortress!<br>
+<br>
+They storm the universe in interstellar time<br>
+From the town of Inverness beneath the ancient sign<br>
+Warriors of power steel who hear galactic cry<br>
+Unicorn defenders, unafraid to die<br>
+<br>
+Zargothrax is riding on, with crystal key in hand<br>
+Nobody can stop him, bring death across the land<br>
+Questlords of Inverness, the time has come to fight<br>
+Ride to space battle with brave highland's might<br>
+<br>
+Questlords arise, fight til we die<br>
+For the honour, the glory, the pride<br>
+Ride on the wind and hail to the king<br>
+When the Questlords of Inverness ride<br>
+<br>
+Mighty heroes quest to Mars to fight the demon horde<br>
+Undead force of terror, will fall beneath the sword<br>
+Raise the flag of Inverness, rally all the troops<br>
+Fight for Dundee and the power of Hoots<br>
+<br>
+Unicorn! Show me the way<br>
+Lead me to the ultimate fortress<br>
+Unicorn! Reveal the truth<br>
+Of the ancient crystal galaxy
+</p>
+
+        <h1 id="s8" class="lyrics-test">-Universe On Fire-</h1>
+        <p class="lyrics-test-test">I wanna set the universe on fire<br>
+Feel it burn tonight<br>
+Set the universe on fire<br>
+There's no end in sight<br>
+<br>
+Bring me to the holy raging power<br>
+Where I find my destiny<br>
+The universe on fire<br>
+You're my guiding light<br>
+<br>
+Carrying the breath on fire within the lungs of steel<br>
+Soaring to light the flame forged by cosmic ordeal<br>
+Ascending in mighty dragons with metal wings and claw<br>
+In a great battle foregone one thousand years ago<br>
+<br>
+Now lead me to the stars<br>
+Atomic flame ignite my heart<br>
+<br>
+I wanna set the universe on fire<br>
+Feel it burn tonight<br>
+Set the universe on fire<br>
+There's no end in sight<br>
+<br>
+Bring me to the holy raging power<br>
+Where I find my destiny<br>
+The universe on fire<br>
+You're my guiding light<br>
+<br>
+Gliding across the sun to soak up all its might<br>
+Charging my solar gun and prepare for epic fight<br>
+Questing through nebulas in search for crystal stone<br>
+That gives me the overdose of force to claim space throne<br>
+<br>
+It is time, take up your arms<br>
+Nova bombs and plasma guns<br>
+<br>
+I wanna set the universe on fire<br>
+Feel it burn tonight<br>
+Set the universe on fire<br>
+There's no end in sight<br>
+<br>
+Bring me to the holy raging power<br>
+Where I find my destiny<br>
+The universe on fire<br>
+You're my guiding light<br>
+<br>
+Set me on fire<br>
+<br>
+I wanna set the universe on fire<br>
+Feel it burn tonight<br>
+Set the universe on fire<br>
+There's no end in sight<br>
+<br>
+Bring me to the holy raging power<br>
+Where I find my destiny<br>
+The universe on fire<br>
+You're my guiding light<br>
+You're my guiding light<br>
+You're my guiding light</p>
+
+        <h1 id="s9" class="lyrics-test">-Heroes (Of Dundee)-</h1>
+        <p class="lyrics-test-test">[Spoken:]<br>
+As word spread of the demon<br>
+army invasion that was threatening Mars, mighty warriors of the<br>
+entire galaxy began to assemble in preparation to fight for the<br>
+power of the cosmic justice. Crystalline darkness was falling upon<br>
+the hearts of the assembled host. After a thousand years of peace,<br>
+the Intergalactic Space Empire of Fife was about to once again<br>
+plunge into a bloody war,<br>
+standing behind the banner of Angus McFife XIII.<br>
+Riding his ancestral laserdragon,<br>
+the brave prince of Dundee stood before his proud legions and<br>
+raised the Hammer of Glory to the heavens.<br>
+<br>
+Fly! On gigantic dragons made out of steel.<br>
+Strike! With the Hammer of Glory, we will prevail<br>
+Kill! Our cosmical enemies with full force, blasting forth without remorse<br>
+<br>
+Rage! With bold supersonic velocity<br>
+Trust! In our lasers to storm 'cross the galaxy<br>
+Die! For the universe that we are fighting for, to win the war, forevermore<br>
+<br>
+For Dunkeld and Cowdenbeath, an epic war is fight<br>
+<br>
+We are heroes, heroes of Dundee,<br>
+We are riding forth to free our galaxy<br>
+We are heroes, heroes of Dundee,<br>
+We are heroes, legends we will be!<br>
+<br>
+Fear! Our troll mass destruction artillery.<br>
+Hear! Our battlecry echoing through the sphere<br>
+Ride! On the back of the dragons,<br>
+we're standing proud, wrath unbound,<br>
+we hold our ground<br>
+<br>
+For Crail and for Aberdeen, an epic war is fight<br>
+<br>
+We passed primordial black holes<br>
+Fought goblins and trolls on faraway stars<br>
+Together we dashed through infinity for honour and glory<br>
+From Neptune to Mars to Mercury<br>
+To bring it all to an end, to make our final stand<br>
+In unity we rise, we will ascend to realms we must protect<br>
+Mighty hammer connects<br>
+The force to annihilate Zargothrax<br>
+<br>
+Yes, mighty warriors! In the name of cosmic justice we ride.<br>
+Glory will prevail this day...hail to the King of Dundee!<br>
+<br>
+We are heroes, heroes of Dundee,<br>
+Now the time has come that we'll make history<br>
+We are heroes, heroes of Dundee,<br>
+We are heroes, legends we will be!
+</p>
+
+        <h1 id="s10" class="lyrics-test">-Apocalypse 1992-</h1>
+        <p class="lyrics-test-test">[Spoken:]<br>
+And lo, led by the valiant hero Angus McFife XIII<br>
+The forces of justice assembled their armies in the skies above Mars<br>
+In preparation for the epic battle against the demon horde<br>
+But on planet Earth, a far more sinister machination was afoot<br>
+In the dwarven caverns beneath the mighty citadel of Dundee<br>
+The evil wizard Zargothrax began to recite the dread incantation<br>
+Which would unlock the Chaos Portal to the galactic nexus<br>
+As foretold in the dark prophecy of Anstruther countless centuries ago<br>
+As he placed the goblin king's crystal key into the altar before him<br>
+Ancient runes began to glow on the surface of the portal<br>
+Soon the gateway would open and the elder god Korviliath<br>
+Of the eighteenth hell dimension would be unleashed onto the galaxy<br>
+The countdown to universal annihilation had begun<br>
+<br>
+Warriors of planet Earth, hear my raging cry<br>
+For mighty Dundee, the demons will die<br>
+<br>
+[Spoken:]<br>
+Yes, battle cruisers<br>
+To space we'll go<br>
+Discover new worlds<br>
+And conquer galaxies<br>
+<br>
+Across the skies of Mars, the demon wars begin<br>
+Trust in your sword, this battle we'll win<br>
+The space knights of Crail are first to the fight<br>
+Clashing with lasers and power of might<br>
+<br>
+Fly high through apocalypse skies<br>
+Fight for the world we must save<br>
+Like tears of a unicorn lost in the rain<br>
+Chaos will triumph this day<br>
+Apocalypse 1992<br>
+<br>
+At the speed of light the dwarven king arrives<br>
+With crystal laser battleaxe into the fight he rides<br>
+<br>
+[Spoken:]<br>
+Pathetic dwarves<br>
+You are no match for my demon hordes<br>
+Let battle commence<br>
+<br>
+It's the rage, the cosmic rage<br>
+The cosmic rage of astral dwarves from Aberdeen<br>
+From their mines they will arise and fight<br>
+The rage of the dwarves is tonight<br>
+<br>
+It's the rage, the cosmic rage<br>
+The cosmic rage of astral dwarves from Aberdeen<br>
+From their mines they will arise and fight<br>
+The rage of the dwarves is tonight<br>
+<br>
+My ancestral demon army<br>
+Will ride a cosmic sphere<br>
+And liberate the multiverse<br>
+From slavery and fear<br>
+With the power of the crystal<br>
+From an ancient galaxy<br>
+The force of evil will prevail<br>
+It is my destiny<br>
+<br>
+Fly high through apocalypse skies<br>
+Fight for the world we must save<br>
+Like tears of a unicorn lost in the rain<br>
+Chaos will triumph this day<br>
+<br>
+Fly high through apocalypse skies<br>
+Fight for the world we must save<br>
+Like tears of a unicorn lost in the rain<br>
+Chaos will triumph this day<br>
+Apocalypse 1992<br>
+<br>
+From the caves beneath Dundee<br>
+Ancient hermit arrives<br>
+A messenger to the war in the stars<br>
+Korviliath is nigh<br>
+<br>
+Deep inside the Hootsman there lies a secret heart<br>
+Barbarian is a cyborg powered by a neutron star<br>
+For centuries immortal he will quest in time and space<br>
+But now he must make sacrifice to save the human race<br>
+<br>
+The only way to save the galaxy<br>
+Is to destroy planet Earth and Aberdeen<br>
+<br>
+Faster than a laser bullet<br>
+Hootsman flies to Fife<br>
+He detonates his neutron<br>
+Destroys all human life<br>
+<br>
+Fly high through apocalypse skies<br>
+Fight for the world we must save<br>
+Like tears of a unicorn lost in the rain<br>
+Chaos will triumph this day<br>
+<br>
+Fly high through apocalypse skies<br>
+Fight for the world we must save<br>
+Like tears of a unicorn lost in the rain<br>
+Chaos will triumph this day<br>
+Apocalypse<br>
+<br>
+[Spoken:]<br>
+With a thunderous implosion the Earth was vaporised<br>
+Tearing a dimensional rift in the heavens<br>
+Using his last chance of power<br>
+Zargothrax plunged through the space portal<br>
+Vanishing into another reality<br>
+And so Angus McFife XIII followed him into the wormhole<br>
+For the eternal glory of Dundee<br>
+<br>
+Sanctus!<br>
+Dominus!</p>
+
+        <h1 id="s11" class="lyrics-test">-Dundax Aeterna-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+      </div>
+    </div>
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+    </div>
+
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+    </div>
+
+        <div class="page-finish">
+          <a href="./security.html">Security Statements</a>
+          <a href="./terms.html">Terms of Service</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+
+    </body>
+    </html>

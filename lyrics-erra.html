@@ -1,0 +1,1766 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Erra</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/augment.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Augment - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Alpha Seed</a>
+      <a href="#f2">Pulse</a>
+      <a href="#f3">Dreamwalkers</a>
+      <a href="#f4">Frostbite</a>
+      <a href="#f5">Hybrid Earth</a>
+      <a href="#f6">Rebirth</a>
+      <a href="#f7">Ultraviolet</a>
+      <a href="#f8">Spirits Away</a>
+      <a href="#f9">Prometheus</a>
+      <a href="#f10">Crimson</a>
+      <a href="#f11">Augment</a>
+      <a href="#f12">Dementia</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/drift.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Drift - 2016</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Luminesce</a>
+      <a href="#s2">Irreversible</a>
+      <a href="#s3">Skyline</a>
+      <a href="#s4">Hourglass</a>
+      <a href="#s5">Orchid</a>
+      <a href="#s6">Drift</a>
+      <a href="#s7">Sleeper</a>
+      <a href="#s8">Continuum</a>
+      <a href="#s9">Safehaven</a>
+      <a href="#f10">The Hypnotist</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/neon.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Neon - 2018</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">Breach</a>
+      <a href="#t2">Monolith</a>
+      <a href="#t3">Signal Fire</a>
+      <a href="#t4">Valhalla</a>
+      <a href="#t5">Hyperreality</a>
+      <a href="#t6">Ghost of Nothing</a>
+      <a href="#t7">Disarray</a>
+      <a href="#t8">Expiate</a>
+      <a href="#t9">Unify</a>
+      <a href="#t10">Ultimata</a>
+    </div>
+</div>
+
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/augment.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Augment - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Alpha Seed-</h1>
+      <p class="lyrics-test-test">We begin the fall of the Omega generation<br>
+I'm left gasping for a breath of air in this failing body and fading beauty<br>
+I reach for what was never there,<br>
+but I'm still reaching for some reason<br>
+Teach me to navigate the stars<br>
+(and use the wind to guide my way)<br>
+<br>
+If night and nature are my only hindrance<br>
+(then let me see the light of day)<br>
+Unheard of is the language that lured me in<br>
+It's deeper than the surface resting just beneath the skin<br>
+Unheard of is the language that lured me in<br>
+It's deeper than the surface resting just beneath the skin<br>
+<br>
+Coated by the stratified soil of my settlement<br>
+I dream of lives I've lost (and enduringly lament)<br>
+Unfinished pillars of our generation<br>
+personifying this falling nation<br>
+People and animals alike; the people are animals at night<br>
+Reverting back to their natural<br>
+state when law was shapeless and held no weight<br>
+<br>
+We live in caves buried in mountains<br>
+Stalactite supports without foundations<br>
+We are our fathers' bastard children,<br>
+evolved from cursed seed, but we are not helpless<br>
+We will become the rebirth of hope<br>
+<br>
+This steadfast campaign remains relentless<br>
+(We will remain relentless)<br>
+Unfinished pillars of our generation,<br>
+personifying this falling nation<br>
+
+People and animals alike; the people are animals at night<br>
+Reverting back to their natural<br>
+state when law was shapeless and held no weight<br>
+We live in caves buried in mountains<br>
+Stalactite supports without foundations<br>
+We begin the fall of the Omega generation<br>
+Coalescence of Omega children, take my hand<br>
+The new world begins<br>
+Unfinished pillars of our generation<br>
+(Reverting back to their natural<br>
+state when law was shapeless and held no weight)<br>
+<br>
+Personifying this falling nation<br>
+(We live in caves buried in mountains,<br>
+stalactite supports without foundations)<br>
+Unfinished pillars of our generation<br>
+(I dream of lives I've lost enduringly)<br>
+Personifying this falling nation (falling nation)</p>
+
+      <h1 id="f2" class="lyrics-test">-Pulse-</h1>
+      <p class="lyrics-test-test">Embraced by the fluidic abyss I adore.<br>
+Engulfed in beauty that I cannot see.<br>
+Pressure mounting on its floor.<br>
+Granulated rock shifts beneath my feet.<br>
+<br>
+Accepted as a companion to the creatures,<br>
+To the creatures of the current.<br>
+Their fluorescent glow transcends allurement.<br>
+Their fluorescent glow transcends.<br>
+<br>
+Join me, they motion,<br>
+With cunning brilliance, brilliance veiled.<br>
+I followed this muse under,<br>
+Under waters, waters not sailed.<br>
+<br>
+And through the mineral reef beyond<br>
+The shallows, into the deep,<br>
+This seraph lead me<br>
+Into a lapse of time.<br>
+<br>
+A continual electric pulse of life.<br>
+<br>
+Solemnly staring while my eyes were wearing,<br>
+The frailty of my being no longer persisted.<br>
+This celestial entity that I'd been pursuing<br>
+Delivered my spirit that was forever imprisoned.<br>
+<br>
+And through the mineral reef beyond<br>
+The shallows, into the deep,<br>
+This seraph lead me<br>
+Into a lapse of time.<br>
+<br>
+Adrift in a medium aloof from reality,<br>
+I gaze into an exalted mirror.<br>
+Its reflection left an affection<br>
+That had long been absent.<br>
+<br>
+A continual electric pulse of life.<br>
+<br>
+This creature has become my father.<br>
+A giant reaping what he has sown.<br>
+Absorbed in the darkness of glacial dead water.<br>
+This sentient creature has touched the vast unknown.<br>
+Touch the vast unknown.<br>
+<br>
+Life is found where it is taken.<br>
+A vapor in the wind cycles.<br>
+Replaced when the ground is shaken.<br>
+Nature is an equal to mankind.<br>
+<br>
+This celestial entity<br>
+That I had been (I had been)<br>
+Pursuing delivered my spirit<br>
+That was forever imprisoned.<br>
+<br>
+A continual electric pulse of life.</p>
+
+      <h1 id="f3" class="lyrics-test">-Dreamwalkers-</h1>
+      <p class="lyrics-test-test">  In my grasp are my dreams personified<br>
+A unity of fiction and reality<br>
+The birth of beauty, the only one of its kind<br>
+Its grace exceeding limits set by the sky<br>
+Years had come and gone and my desire with them<br>
+A caged perpetuation of hope<br>
+A tally kept upon my body of days I care not to know<br>
+<br>
+So effortless, I seemed to let myself decline<br>
+<br>
+Loss of the ambition, I pushed my dreams aside<br>
+Am I the cause of our descent, or are we chained to anchors?<br>
+Mine engrossed in rust while yours still gleams and shimmers,<br>
+renew my albatross<br>
+So it shines with yours in the beams of suspended radiance<br>
+That are cast upon the ocean floor in ever-changing gradients<br>
+Renew my albatross so it shines with yours<br><br>
+
+Sinking down, am I the cause of our descent?<br>
+Are we chained to anchors pulling ourselves below?<br>
+Descending into passivity, I'm becoming what I am not<br>
+A selfish being consumed by adverse thought<br>
+<br>
+In my grasp are my dreams personified<br>
+A unity of fiction and reality<br>
+Birth of beauty, the only one of its kind<br>
+<br>
+So effortless, I seemed to let myself decline<br>
+That with the loss of, of the ambition, I pushed my dreams aside<br>
+Sinking down, sinking<br>
+Are we chained to anchors pulling ourselves below?<br>
+<br>
+Descending into passivity, I'm becoming what I am not<br>
+A selfish being with relinquished feelings,<br>
+consumed by adverse thought<br>
+Am I the cause, am I the cause of our descent,<br>
+or are we chained to anchors?<br>
+Renew my albatross so it shines<br>
+<br>
+Am I the cause of our descent, or are we chained to anchors?<br>
+Mine engrossed in rust while yours still gleams and shimmers,<br>
+renew my albatross<br>
+So it shines with yours in the beams of suspended radiance<br>
+That are cast upon the ocean floor in ever-changing gradients<br>
+I pushed my dreams aside</p>
+
+      <h1 id="f4" class="lyrics-test">-Frostbite-</h1>
+      <p class="lyrics-test-test">Frostbit fingers<br>
+Frostbit fingertips caress the razor's edge
+Cold ideals implanting themselves inside my head<br>
+Inadvertent gestures given effortlessly by my limbs<br>
+Complacency of warmth never sets in<br>
+This is an endless winter<br>
+One where the air gets thinner<br>
+A proclamation to the clement seasons<br>
+War without a rhyme or reason<br>
+Turmoil is elemental and so simplistic a feature<br>
+Though personal and integral, I cannot bear to brace this creature<br>
+Brace this creature, this creature<br>
+It's becoming deeper<br>
+This feeling urges my cliffs steeper<br>
+Stepping closer to see the fall<br>
+Negligence consumes my all<br>
+Have I let go?<br>
+<br>
+Have I let go of what I am?<br>
+I stand here with unclenched hands<br>
+Retreating into my own<br>
+Enduring this all alone<br>
+<br>
+I scream to remember passion<br>
+Unheard emotions in breathtaking fashion<br>
+Frostbit fingers<br>
+Frostbit fingertips caress the razor's edge<br>
+Cold ideals implanting themselves inside my head<br>
+<br>
+We are all the same; unique and indifferent<br>
+Living as if this cryptic fever is isolated, it isn't<br>
+<br>
+Have I let go of what I am?<br>
+I stand here with unclenched hands<br>
+Retreating into my own<br>
+Enduring this all alone, all alone<br>
+Have I let go of what I am, of what I am?</p>
+
+      <h1 id="f5" class="lyrics-test">-Hybrid Earth-</h1>
+      <p class="lyrics-test-test">Interlaced fingers, the locking of hands<br>
+Omnipotence entwined with man<br>
+Alteration before conception<br>
+The pretense to coalescence to form this imperfect plan<br>
+Unconsciously bound to one another<br>
+Liberated emotions are becoming smothered<br>
+Dynamics of the absolute contort our narrow view<br>
+We were not meant for this hybrid birth<br>
+Inhumanity crowns the Earth<br>
+This hybrid birth<br>
+<br>
+Momentum is your venom<br>
+<br>
+Momentum is your venom<br>
+Clinging to progress, we embrace the toxin<br>
+Children of the ancients, you've forgotten innocence<br>
+Unkept instincts, enslaved, inefficient<br>
+<br>
+We were not meant for this hybrid birth<br>
+Inhumanity crowns the Earth<br>
+We were not meant for this hybrid birth<br>
+Inhumanity crowns the Earth<br>
+Inhumanity crowns the Earth<br>
+Designer, designer of mystification<br>
+Imposer upon a fit creation<br>
+<br>
+Momentum is your venom<br>
+<br>
+Momentum is your venom<br>
+Clinging to progress, we embrace the toxin<br>
+Children of the ancients, you've forgotten innocence<br>
+Unkept instincts, enslaved, inefficient<br>
+<br>
+Inhumanity crowns the Earth<br>
+Momentum is your venom<br>
+Children of the ancients, you've forgotten innocence<br>
+Enslaved, inefficient<br>
+<br>
+They breathe with us, they've bred with us<br>
+They are self-proclaimed behemoths<br>
+Bound by our own desire, seduced and expired<br>
+Self-proclaimed behemoths<br>
+Bound by our own desire, seduced and expired</p>
+
+      <h1 id="f6" class="lyrics-test">-Rebirth-</h1>
+      <p class="lyrics-test-test">Our hands were holding our fate, but they grew tired<br>
+Everything we knew came crashing down in waves of fire, in waves of fire<br>
+Strange hands over mouth and in hair<br>
+Red eyes from the water, gasping for air, rebirth<br>
+Blurred vision disrupts perception of this present state<br>
+Made new in the chilling currents that carry me away<br>
+<br>
+Follow your heart<br>
+And leap from the cliffs, close your divine eyes to reason<br>
+Let inertia move you<br>
+Cling and be clung to, speak and be spoken to<br>
+How beautiful you find yourself<br>
+Remove this scourge from where we dwell<br>
+You will be found in a dark place<br>
+And somewhere through time and space<br>
+<br>
+Adorned with purity yet blessed with knowledge<br>
+Contradicting what I've been taught<br>
+Upheld in a pale light that burns my skin<br>
+I am the distorted one, I am the distorted one<br>
+I am a prisoner in this body, bound and chained to flesh<br>
+I am the distorted one, I am a prisoner in this body<br>
+A mirror reflecting an honest rendition<br>
+A faction following a faithless tradition<br>
+Your own body renamed religion, rebirth<br>
+Our hands were holding our fate, but they grew tired<br>
+And everything we knew came crashing down<br>
+<br>
+You will be found in a dark place<br>
+And somewhere, somewhere through time and space<br>
+A mirror reflecting an honest rendition<br>
+A faction following faithless tradition<br>
+<br>
+Follow your heart<br>
+And leap from the cliffs, close your divine eyes to reason<br>
+Let inertia move you<br>
+Cling and be clung to, speak and be spoken to<br>
+How beautiful you find yourself<br>
+Remove this scourge from where we dwell<br>
+You will be found in a dark place<br>
+And somewhere through, through time and space<br>
+<br>
+I am the distorted one<br>
+I am a prisoner in this body, bound and chained to flesh<br>
+Rebirth</p>
+
+      <h1 id="f7" class="lyrics-test">-Ultraviolet-</h1>
+      <p class="lyrics-test-test">This high is all that's left of us<br>
+A hallucinogenic conservation that without, I am captious<br>
+There is complacency in knowledge and desire in wisdom<br>
+They will be found entwined behind, behind the final curtain<br>
+<br>
+Speak over me<br>
+Body, mind, and soul<br>
+Lose all self-control<br>
+<br>
+At once<br>
+I'm sinking into desolation, overwhelmed by fascination<br>
+This common case I'm bound to face<br>
+Amidst this self-induced cerebral recreation<br>
+<br>
+Speak over me; body, mind, and soul<br>
+Bleed into the deep, let go<br>
+We must lose all self-control<br>
+We must lose all self-control<br>
+Let go of letting go and hold on<br>
+Let go of letting go and hold on to something whole<br>
+Lose all self-control<br>
+<br>
+The butchering of a beast or birth to enduring peace<br>
+Infinite darkness or incessant ease, incessant ease<br>
+<br>
+Speak over me<br>
+Body, mind, and soul<br>
+Lose all self-control<br>
+Ultraviolet eyes<br>
+<br>
+Speak over me; body, mind, and soul<br>
+Bleed into the deep, let go<br>
+We must lose all self-control<br>
+We must lose all self-control<br>
+<br>
+
+Let go of letting go, and hold on to something whole<br>
+We are not what we seem<br>
+A living fiction and hidden theme<br>
+Allow the ephemeral ecstasy to course through every vein<br>
+This enlightenment is temporary and may never come again<br>
+<br>
+
+Ultraviolet eyes<br>
+We are not what we seem<br>
+A living fiction and hidden theme<br>
+Violet hues are comforting<br>
+Tracing through my mind, consoling me<br>
+Ultraviolet eyes</p>
+
+      <h1 id="f8" class="lyrics-test">-Spirits Away-</h1>
+      <p class="lyrics-test-test">This lackadaisical mind, the cap to my spine<br>
+Is weighted with worries for the punishment of all of our crimes<br>
+As graceful as the rising sun at dawn, you open your mouth<br>
+But words don't shine out<br>
+<br>
+
+Entangled as one; our bodies are two<br>
+Spiritual deviation; yet my heart's inside you<br>
+Entangled as one; you've swallowed it whole<br>
+Spiritual deviation; like a ghost in my home<br>
+<br>
+
+You've become mute in the waters<br>
+Trapped inside this aquifer<br>
+Everything with meaning is filtered out<br>
+And stopped from streaming<br>
+<br>
+
+Entangled as one, spiritual deviation<br>
+Our bodies are two, yet my heart is inside you<br>
+<br>
+
+Entangled as one<br>
+Entangled as one, spiritual deviation<br>
+Spiritual deviation<br>
+Our bodies are two, yet my heart is inside you<br>
+<br>
+
+You've swallowed it whole like a ghost in my home<br>
+And I've tried to escape, but my persistence dissipates<br>
+Bring me back home 'cause I've ran and I have roamed<br>
+My erratic agitation leads to hyperventilation; spiritual deviation<br>
+This is neurosis compelled by those I held the closest<br>
+Sweaty palms can't carry on<br>
+Racing heart, you've played your part<br>
+This is the disintegration of my being<br>
+Love has either lost or proved its meaning<br>
+<br>
+
+Entangled as one; our bodies are two<br>
+Spiritual deviation, my heart's inside you<br>
+<br>
+This is the disintegration of my being!<br>
+Love has either lost or proved its meaning!
+
+</p>
+
+      <h1 id="f9" class="lyrics-test">-Prometheus-</h1>
+      <p class="lyrics-test-test">Undiscovered entities<br>
+Thoughts of inconceivable beings<br>
+Universal catastrophe<br>
+They're relatives to you and me<br>
+Space and time<br>
+Emptiness lightyears wide<br>
+To discover the reasons why<br>
+We'd reevaluate, we'd reevaluate all our lives<br>
+Happenings that can't be explained<br>
+The crawling inside your brain<br>
+Unknown toxins in every vein<br>
+<br>
+Exo-galactic<br>
+Planetary sabbatical<br>
+Their design is tactical<br>
+Surviving is impractical<br>
+<br>
+Our inferior intelligence<br>
+Versus calculating assailants<br>
+Ancient times of negligence<br>
+Eradication of our existence<br>
+Our races are being tamed<br>
+Undiscovered entities<br>
+Thoughts of inconceivable beings<br>
+<br>
+Creatures that became our masters<br>
+Worlds fused from disaster<br>
+Realizations too late to matter<br>
+The descent of man begins the pattern<br>
+<br>
+
+Exo-galactic<br>
+Planetary sabbatical<br>
+Our races are being tamed<br>
+Their design is tactical<br>
+Surviving is impractical<br>
+<br>
+
+Happenings that can't be explained<br>
+The crawling inside your brain<br>
+Unknown toxins in every vein<br>
+Our races are being tamed<br>
+<br>
+
+Creatures that became our masters<br>
+Worlds fused from disaster<br>
+<br>
+
+Creatures that became our masters<br>
+Worlds fused from disaster<br>
+Realizations too late to matter<br>
+The descent of man begins the pattern<br>
+Creatures that became our masters<br>
+Worlds fused from disaster<br>
+Realizations too late to matter<br>
+The descent of man begins the pattern<br>
+The descent of man<br>
+The descent of man<br>
+The descent of man</p>
+
+      <h1 id="f10" class="lyrics-test">-Crimson-</h1>
+      <p class="lyrics-test-test">It's as if I've fallen with the fall<br>
+Like leaves from trees, standing short and tall<br>
+My lungs are frozen from the winter air<br>
+A stale cold and respiratory flare<br>
+Crimson scatters near the roots of the last soldier from the summer<br>
+It's as if the battle happened here and the bodies were buried under<br>
+A tectonic drift and polar shift would ensure our camouflage<br>
+It would be as if we never happened, and this place was a mirage<br>
+<br>
+We constantly collide with the troposphere<br>
+We cut straight through like Roman spear<br>
+Displacing oxygen like a paid assassin<br>
+Promised to forget because it never happened<br>
+<br>
+It's as if I've fallen with the fall<br>
+Like leaves from trees, standing short and tall<br>
+Crimson scatters near the roots of the last soldier from the summer<br>
+It's as if the battle happened here and the bodies were buried under<br>
+Stimulating consequences rest on my conscience<br>
+This addiction to the things we do is neither conventional or acknowledged<br>
+<br>
+An echo of existence<br>
+Subsist in our commencement<br>
+Limitations have escaped us<br>
+Contrary to accepted thesis<br>
+<br>
+A tectonic drift and polar shift would ensure our camouflage<br>
+It would be as if we never happened, and this place was a mirage<br>
+We constantly collide with the troposphere<br>
+We cut straight through like a Roman spear<br>
+Displacing oxygen like a paid assassin<br>
+Promised to forget because it never happened<br>
+Crimson scatters near the roots of the last soldier from the summer<br>
+It's as if the battle happened here and the bodies were buried under<br>
+<br>
+An echo of existence<br>
+Subsist in our commencement<br>
+Limitations have escaped us<br>
+Contrary to accepted thesis<br>
+An echo of existence<br>
+Limitations have escaped us<br>
+An echo of existence</p>
+
+      <h1 id="f11" class="lyrics-test">-Augment-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f12" class="lyrics-test">-Dementia-</h1>
+      <p class="lyrics-test-test">In the reflection of the water's stream,<br>
+I watch the current carry me<br>
+Irresolute and indiscriminate, this liquid flux is transcendent<br>
+A birth to conquered memories of sentimental quintessence<br>
+Learning to let go of oneself converts grievance into lessons<br>
+<br>
+Your innermost thoughts appear physically<br>
+Cataclysm is bound to everything<br>
+<br>
+The event horizon; there is no escaping, inescapable<br>
+Light speeds, black holes, time lapse; we're unstable<br>
+<br>
+To contemplate the unthinkable, break free from captivity<br>
+Envelope the atmosphere with magnetized waves of processed nerve activity<br>
+<br>
+Bring me back to the river's edge to bathe in consequence<br>
+Future events colliding, spoken of in present tense<br>
+<br>
+The event horizon; there is no escaping, inescapable<br>
+Light speeds, black holes, time lapse; we're unstable<br>
+Misplaced ideals provoke tension, there is no escaping it<br>
+Dementia in this dimension<br>
+<br>
+Our neurologic fortitude has been broken through<br>
+All of the pieces once whole have shattered in contact with you<br>
+Dementia<br>
+<br>
+In the reflection of the water's stream, I watch the current carry me, carry me away<br>
+Irresolute and indiscriminate, this liquid flux is transcendent, transcendent<br>
+<br>
+Carry me away</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/drift.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Drift - 2016</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Luminesce-</h1>
+        <p class="lyrics-test-test">I'm spiraling out of control, so you illuminate a clean slate<br>
+You're lifting the weight that's diluting inspiration<br>
+I woke with the sun in my face, mountains by my side<br>
+The desert air pulling the breath from my lungs<br>
+I'm making my way through a barren landscape<br>
+Littered with remains of past lives and shadows of the scavengers<br>
+<br>
+World passing by, leaving traces of shapes, blurring into memory<br>
+Dreaming of terrain that sustains, I wake up<br>
+<br>
+I'm lying parallel with the landscape<br>
+<br>
+There will always be a void to be filled, illuminate a clean slate<br>
+Keep lifting the weight that is diluting inspiration<br>
+There will always be a void with no permanent fix<br>
+Shifting of puzzle pieces to simulate a whole<br>
+<br>
+World passing by, leaving traces of shapes, blurring into memory<br>
+Dreaming of terrain that sustains, I wake up to a world that's unfamiliar<br>
+We leave and then we go back like we never left home<br>
+We go back like we never left home<br>
+<br>
+When will we wake the fuck up?<br>
+Parallel with the landscape, I lie awake<br>
+With diminishing desire to always seek escape<br>
+From a home where I feel sound and safe<br>
+<br>
+World passing by, leaving traces of shapes, blurring into memory<br>
+Dreaming of terrain that sustains, I wake up, wake up<br>
+When will we all wake up?<br>
+Diminished desire to always seek escape to a world that's unfamiliar<br>
+We leave and then we go back like we never left home<br>
+We go back like we never left</p>
+
+        <h1 id="s2" class="lyrics-test">-Irreversible-</h1>
+        <p class="lyrics-test-test">Irreversible<br>
+<br>
+A sequence of events unfolding in reverse<br>
+A sting better stimulated when revealing tragedy first<br>
+Reverse perception reversing imperfection<br>
+Be aware of the darkness that lies beneath the surface of contrived pleasantries<br>
+Be aware so as to always hold tighter; speak softer<br>
+There is no failsafe, so now you know<br>
+There is no failsafe, so cut ties<br>
+With the dead weight that is dragging you below<br>
+<br>
+Pull me closer, when silence consumes you, I'll speak words softer<br>
+Sinking slower, we stimulate the sting, restrain<br>
+<br>
+I'm not giving up, I'm giving in to the touch<br>
+Of every inch of your sea salt skin<br>
+But you set me ablaze and spread me out with waves in the ocean<br>
+With every trace of doubt, black me out<br>
+Don't stimulate the sting<br>
+Don't let the wrong choices repeat themselves<br>
+Don't stimulate the sting of irreversible emptiness<br>
+Pull me in close, pull me in close<br>
+<br>
+It's in the empty spaces that we find ourselves<br>
+It's in the empty spaces, reaching out and grasping<br>
+Searching for what we need to find who we are, who we are<br>
+There is no failsafe<br>
+It's what keeps me hanging on to what you are to me<br>
+You're what keeps me hanging on<br>
+I'm not giving up, I'm giving in, so let's begin again<br>
+<br>
+Pull me closer, when silence consumes you, I'll speak words softer<br>
+Sinking slower, we stimulate the sting, restrain<br>
+Pulling you closer 'cause after all, you're pulling back farther<br>
+And we're sinking slower, we stimulate the sting, restrain<br>
+<br>
+Don't turn your back on her<br>
+Let her look you right in the eyes, you coward, oh<br>
+Don't stimulate the sting<br>
+Don't let the wrong choices repeat themselves<br>
+Don't stimulate the sting of irreversible emptiness</p>
+
+        <h1 id="s3" class="lyrics-test">-Skyline-</h1>
+        <p class="lyrics-test-test">Cityscape skeletons taking shape and growing skin<br>
+Layer and layer is peeled away<br>
+Exhausted from the repetition of always needing to rebuild<br>
+Worn down faces in colorful barren places<br>
+<br>
+City lights and skylines<br>
+Guiding home our wandering minds<br>
+Tucking us into tortoise shells<br>
+Suppressing the outside sounds of relentless consciousness<br>
+Where is contemplative terrain<br>
+That sleeps with the setting sun?<br>
+This nocturnal apathy binging on shadow and smoke<br>
+It's endlessly coming undone<br>
+<br>
+When the ground falls out, who will take my hand?<br>
+When things fall apart who will take my hand?<br>
+<br>
+I'd never thought that I could withstand<br>
+Falling short when I'm a broken man<br>
+You never knew how much I meant it in love<br>
+Every night I'm beside you weeks away when you're sleeping alone<br>
+Did you ever know how much I meant it?<br>
+<br>
+Millions of tiny pieces looking in on themselves<br>
+Reflected in the water, unaware of each other<br>
+Every piece could find its place back in the puzzle<br>
+What was one is shattered into many and longs to be whole again<br>
+But nothing ever fits quite the same in the end<br>
+<br>
+I'd never thought that I could withstand<br>
+Falling short when I'm a broken man<br>
+You never knew how much I meant it in love<br>
+I'd never thought that I could withstand<br>
+Falling short when I'm a broken man<br>
+Every night I'm beside you weeks away when you're sleeping alone<br>
+Did you ever know how much I meant it?<br>
+<br>
+When the ground falls out, who will take my hand?<br>
+When things fall apart, who will take my hand?</p>
+
+        <h1 id="s4" class="lyrics-test">-Hourglass-</h1>
+        <p class="lyrics-test-test">Cityscape skeletons taking shape and growing skin<br>
+Layer and layer is peeled away<br>
+Exhausted from the repetition of always needing to rebuild<br>
+Worn down faces in colorful barren places<br>
+<br>
+City lights and skylines<br>
+Guiding home our wandering minds<br>
+Tucking us into tortoise shells<br>
+Suppressing the outside sounds of relentless consciousness<br>
+Where is contemplative terrain<br>
+That sleeps with the setting sun?<br>
+This nocturnal apathy binging on shadow and smoke<br>
+It's endlessly coming undone<br>
+<br>
+When the ground falls out, who will take my hand?<br>
+When things fall apart who will take my hand?<br>
+<br>
+I'd never thought that I could withstand<br>
+Falling short when I'm a broken man<br>
+You never knew how much I meant it in love<br>
+Every night I'm beside you weeks away when you're sleeping alone<br>
+Did you ever know how much I meant it?<br>
+<br>
+Millions of tiny pieces looking in on themselves<br>
+Reflected in the water, unaware of each other<br>
+Every piece could find its place back in the puzzle<br>
+What was one is shattered into many and longs to be whole again<br>
+But nothing ever fits quite the same in the end<br>
+<br>
+I'd never thought that I could withstand<br>
+Falling short when I'm a broken man<br>
+You never knew how much I meant it in love<br>
+I'd never thought that I could withstand<br>
+Falling short when I'm a broken man<br>
+Every night I'm beside you weeks away when you're sleeping alone<br>
+Did you ever know how much I meant it?<br>
+<br>
+When the ground falls out, who will take my hand?<br>
+When things fall apart, who will take my hand?</p>
+
+        <h1 id="s5" class="lyrics-test">-Orchid-</h1>
+        <p class="lyrics-test-test">I've watched a lot of things crumble in my hands<br>
+Falling through my fingers like grains of sand<br>
+When the hourglass tips over on its side<br>
+Does it create infinite moments or leave us trapped in time?<br>
+<br>
+Loath, disdain, pity, regret consume me and I shut down<br>
+Dissolving internally with no silver linings to any clouds<br>
+<br>
+I disassociate with everything I know<br>
+Drowning out, losing control<br>
+<br>
+My detachment permeates to everything I know<br>
+Refill the sands and balance the scales or let me go<br>
+I'm becoming everything that I defied<br>
+Withdrawn emotions, I've built a shell and I live inside<br>
+<br>
+I disassociate with everything I know<br>
+Drowning out, losing control<br>
+My detachment permeates to everything I know<br>
+And I'm drowning out, losing control<br>
+I'm becoming everything I defied<br>
+<br>
+Slowly withering, there seems to be no way out<br>
+Refill the sands, balance the scales or let me go<br>
+Loath, disdain, pity, regret consume me and I shut down<br>
+Slowly withering with no silver linings to any fucking clouds<br>
+<br>
+I disassociate with everything I know<br>
+Drowning out, losing control<br>
+My detachment permeates to everything I know<br>
+And I'm drowning out, losing control<br>
+Losing control</p>
+
+        <h1 id="s6" class="lyrics-test">-Drift-</h1>
+        <p class="lyrics-test-test">As our world oscillates to shake the weak remains,<br>
+show your strength<br>
+Resist all temptation to follow illusions, expressed with safety<br>
+Open up your wings and fly to sanctuary<br>
+Trying to dislocate from talk and scoff that shows them what they are<br>
+Murderous words might as well been sent by a bullet<br>
+Keep your eyes closed and your fingers crossed<br>
+Till our paths meet, I'll try to lead the way<br>
+Take me back to who I was back then<br>
+I'll show you what life means to me again<br>
+Maybe in due time, you'll let me in<br>
+I'll lift the weight so you don't have to fall<br>
+<br>
+Brother, when every muscle strains<br>
+I will lift the weight for you<br>
+Sister, if you just call my name<br>
+I will lift the weight for you<br>
+You can't find the strength, your eyes lose resistance<br>
+I will lift the weight for you<br>
+<br>
+I wasn't there for the darkest of hallways, the longest of paths<br>
+A crazy train going off the tracks<br>
+Catch my fall when the earth shakes<br>
+Catch my fall when the earth shakes<br>
+<br>
+Take me back to who I was back then<br>
+An honest man and a faithful friend<br>
+I'll show you what life means to me again<br>
+Maybe in due time, you'll let me in<br>
+Take me back to who I was back then<br>
+An honest man and a faithful friend<br>
+I'll show you what life means to me again<br>
+Maybe in due time, you'll let me in<br>
+'Cause there is so much left to amend<br>
+<br>
+Brother, when every muscle strains<br>
+I will lift the weight for you<br>
+Sister, if you just call my name<br>
+I will lift the weight for you<br>
+You can't find the strength, your eyes lose resistance<br>
+I will lift the weight for you<br>
+I know that we've changed, but this remains consistent<br>
+I will lift the weight for you<br>
+<br>
+We pick at the scab, it bleeds and it bleeds<br>
+Extending the healing to keep us contained<br>
+A weak doppelganger, the bastard one<br>
+I'll leave you behind and continue on</p>
+
+        <h1 id="s7" class="lyrics-test">-Sleeper-</h1>
+        <p class="lyrics-test-test">Take a breath, enter the unknown<br>
+Watch your step, it's an escape to the world anew<br>
+Flood yourself with colors and senses on overload<br>
+Sink inside yourself, watch out for the bottom<br>
+Because there's no turning back once it takes control<br>
+And you prefer this new creation<br>
+The pain exits slowly and there's nothing left but bliss<br>
+<br>
+Floating out at sea, away from reality<br>
+It pulls me under, the tide will blow your mind<br>
+I'm drifting in and out of ocean dreams<br>
+It pulls me under, the tide will blow your mind<br>
+<br>
+My pulse is sent into overdrive<br>
+Trying to calm my nerves with an unnatural catalyst<br>
+Agitator, wave maker, incendiary, excite my life<br>
+<br>
+Floating out at sea, away from reality<br>
+It pulls me under, the tide will blow your mind<br>
+I'm drifting in and out of ocean dreams<br>
+It pulls me under, the tide will blow your mind<br>
+Drifting in and out<br>
+<br>
+Drifting in and out of reality<br>
+Drifting in and out of ocean dreams<br>
+Drifting in and out of reality<br>
+Drifting in and out, let your mind drift</p>
+
+        <h1 id="s8" class="lyrics-test">-Continuum-</h1>
+        <p class="lyrics-test-test">Tossed around the idea of stepping off the edge<br>
+Hoping my fall lands into a familiar place<br>
+A familiar face: can we leave this space?<br>
+It reminds me of all my mistakes<br>
+Bite my tongue, vision spins<br>
+Living life from the cutter's skin<br>
+Sent to be an ungrateful son<br>
+Can't you see my breath is gone?<br>
+Bury my head to hide from reality<br>
+I'll make a new name for myself, I'm on my own<br>
+I just hope I have the strength to move and show fortitude<br>
+Bite my tongue, vision spins<br>
+Living life from the cutter's skin<br>
+Sent to be an ungrateful son<br>
+Can't you see my breath is gone?<br>
+<br>
+Just let me sleep tonight, tonight<br>
+When I only feel safe inside<br>
+<br>
+Shadows cast and dance slick, these walls expand quick<br>
+With every strike, I shudder at the wake<br>
+Rippling through my drifting mind<br>
+What if I knew the journey this whole time?<br>
+<br>
+Just let me sleep tonight, tonight<br>
+When I only feel safe inside<br>
+I only feel safe inside<br>
+Just let me sleep tonight<br>
+<br>
+So I need to be saved? Do I want to be?<br>
+I don't want to be the shell of what these people see<br>
+<br>
+Just let me sleep tonight, tonight<br>
+When I only feel safe inside<br>
+I only feel safe inside<br>
+Just let me sleep tonight</p>
+
+        <h1 id="s9" class="lyrics-test">-Safehaven-</h1>
+        <p class="lyrics-test-test">Every memory recalled is an origin that we've altered<br>
+Broken promises to another man's daughter<br>
+Endless walk down a dead road as our last breaths begin to falter<br>
+We lend our weight to the backs of our broken fathers<br>
+<br>
+Featherweight boy in his arms, every night he weeps<br>
+Constantly drifting in and out of sleep<br>
+Palm against transparent skin, fingers tracing ribs<br>
+Reassurance that the heart was still beating<br>
+At the helm of death every day like clockwork<br>
+Restless nights with trembling hands against transparent skin<br>
+But they carry on because survival is not a dead end<br>
+<br>
+Whether or not the world is withered away<br>
+We are each other's world entirely<br>
+Whether or not the world is withered away<br>
+We are ever, we are evermore<br>
+<br>
+Lost ghosts around every corner, on every charred sidewalk<br>
+Still trudging through the ash of an endless walk<br>
+With bodies cold and weightless, resilient of death in life<br>
+Resilient of death in death, they walk on<br>
+<br>
+Dreaming of a safe haven at the end of the road<br>
+An unstable safety, the only kind we've ever known<br>
+Oh, we walk along, dreaming of a safe haven<br>
+Oh, we walk along at the end of the road<br>
+Our legs will never fail, we'll carry on<br>
+And I swear to you...<br>
+<br>
+Whether or not the world is withered away<br>
+We are each other's world entirely<br>
+Whether or not the world is withered away<br>
+We are ever, we are evermore<br>
+<br>
+Oh, we walk along, dreaming of a safe haven<br>
+Oh, we walk along at the end of the road<br>
+Resilient of death because life is not a dead end<br>
+<br>
+Whether or not the world is withered away<br>
+We are each other's world entirely<br>
+Whether or not the world is withered away<br>
+We are ever, we are evermore<br>
+<br>
+Survival is not a dead end<br>
+We are evermore<br>
+Because survival is not a dead end<br>
+We are ever, we are evermore</p>
+
+        <h1 id="s10" class="lyrics-test">-The Hypnotist-</h1>
+        <p class="lyrics-test-test">This moment's passing breeze<br>
+Feels like your tender breath I used to know so well<br>
+The silence is crushing<br>
+The white noise that used to call my name<br>
+Break down and all my thoughts have escaped me<br>
+Except for all the things that show me your face ever so brightly<br>
+Poised through a lie that still remains<br>
+Such little left that I can say with authenticity, so I...<br>
+<br>
+
+Close my eyes and I can hear you calling from behind<br>
+Close my eyes, I swear I feel you crawling towards the light<br>
+Tell me the words that will keep you close<br>
+<br>
+Poor soul, heart full, temperature fluctuates<br>
+To later be buried in my own<br>
+Personal graveyard of emotion and past mistakes<br>
+<br>
+Close my eyes and I can hear you calling from behind<br>
+Close my eyes, I swear I feel you crawling towards the light<br>
+My skin is turning white, watching your soul in flight<br>
+Close my eyes, I swear I feel you crawling towards the light<br>
+<br>
+The bloody beat beat beat in my chest<br>
+The coldest chill creeping up my neck<br>
+Tell me the words that will keep you close<br>
+<br>
+Life won't feel the same anymore<br>
+'Cause you're gone and it's far too late to say the things I'm sorry for<br>
+Five fingers gripping the glass<br>
+For the last time, I'd hope to say<br>
+Three nights with no separation<br>
+I know too well there's one more thing I could have said<br>
+Life won't feel the same anymore<br>
+'Cause you're gone and it's far too late to say the things I'm sorry for<br>
+I can't take it back, I can't bring you back<br>
+Life won't feel the same anymore<br>
+'Cause you're gone and I'm holding on</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/neon.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Neon - 2018</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-Breach-</h1>
+          <p class="lyrics-test-test">It comes to fracture vested trust<br>
+A love to shatter and turn to rust<br>
+I drag my name through waves to wade black water<br>
+Wallow and drown<br>
+<br>
+A new shade of gray disorients the portrait<br>
+Repetitive contusions concuss the allure<br>
+Cataract eyes and cloudy minds interrupt a perfect design<br>
+<br>
+Crashing waves come to swallow us<br>
+Wallow and drown in it<br>
+Shadows wait to devour us<br>
+It hurts to surrender<br>
+<br>
+Presentation is everything when you created the play<br>
+The audience hypnotized by the imagery<br>
+In this vicious cycle of disbelief<br>
+That the visionless cannot conceive<br>
+You can drag me down six feet deep<br>
+So I can fight for a life that I threw away<br>
+In this moment of resurgence<br>
+Clear the dissonance and recover me<br>
+<br>
+Fears suppressed exploit our lust<br>
+And our memories turn to rust<br>
+<br>
+And when we reach that point, barren of things to say<br>
+There's nothing left to save, do not resuscitate<br>
+Swallow your pride, hide what you feel inside<br>
+There are some things that can not be rectified<br>
+<br>
+Crashing waves come to swallow us<br>
+Wallow and drown in it<br>
+Shadows wait to devour us<br>
+It hurts to surrender<br>
+Leeches lie in wait, but you're blind to it, but you're blind to it<br>
+A void that you create, you give life to it<br>
+It hurts to surrender<br>
+<br>
+It comes to fracture vested trust<br>
+A love to shatter and turn to rust<br>
+If words could carry my pain through the busy streets and empty alleyways<br>
+Be the one who hears my cry like the moon who craves the night<br>
+<br>
+You can drag me down six feet deep<br>
+So I can fight for a life that I threw away<br>
+In this moment of resurgence<br>
+Clear the dissonance and recover me</p>
+
+          <h1 id="t2" class="lyrics-test">-Monolith-</h1>
+          <p class="lyrics-test-test">Faith we abate, a perfect design of which we deprecate<br>
+We can't decipher this suppressive surge of desire<br>
+As I watch the hands of time cradle circumstance and consequence<br>
+I reiterate that the hourglass is near its end and depleting swiftly<br>
+Trace the edge along this line we drew within this narrow space<br>
+<br>
+Memories I can't recreate<br>
+Wreckage beyond what we could calculate<br>
+An affection that fluctuates<br>
+Familiar speech in a new tongue that I cannot translate<br>
+<br>
+Who's to say that our faith was kept in a safe place?<br>
+As we witness a weaker pulse and shallow breaths, the innocent fight<br>
+To take their life back, no surrender of light from their eyes<br>
+Perpetrator, give back what's not yours to keep<br>
+Stolen destinations of contingency, ripped apart and vanishing<br>
+<br>
+Memories I can't recreate<br>
+Wreckage beyond what we could calculate<br>
+An affection that fluctuates<br>
+Familiar speech in a new tongue that I cannot translate<br>
+<br>
+These wandering eyes provide confirmation of idle actions<br>
+Holding keys to open doors, we're too afraid to enter<br>
+We scrutinize, but execution falls short<br>
+Disgust for lack of action<br>
+Cover your face with your hands and look away<br>
+<br>
+Memories I can't recreate<br>
+Wreckage beyond what we could calculate<br>
+An affection that fluctuates<br>
+Familiar speech in a new tongue<br>
+Memories I can't recreate<br>
+Wreckage beyond what we could calculate<br>
+An affection that fluctuates<br>
+Familiar speech in a new tongue that I cannot translate<br>
+<br>
+Perpetrator, give back what's not yours to keep</p>
+
+          <h1 id="t3" class="lyrics-test">-Signal Fire-</h1>
+          <p class="lyrics-test-test">Metamorphosis;<br>
+what am I becoming<br>
+Liable; or a victim of circumstance?<br>
+Bending disorder to appease my own defense<br>
+<br>
+This bond could not be conceived without affection and faith to believe<br>
+It was all meant to endure the worst of things<br>
+Cast aside your doubts and destructive thoughts<br>
+I know that I can finally be enough<br>
+<br>
+The signal fire is flickering<br>
+Breaths start to cease, and I wonder<br>
+If she calls my name out from the edge of the sea<br>
+<br>
+Tones of crimson gleam to fill the space between<br>
+The animation in my arteries<br>
+Cruel impermanence; the weight of the unknown<br>
+Has stricken me with a feeling of turbulence<br>
+Holding out for a softer consequence<br>
+<br>
+Stand true; we are absolute<br>
+Doubt breathes through blushing leaves<br>
+Eradicated with my will to be<br>
+Convoluted ideas and emotions<br>
+That make their home in me, weigh me down<br>
+They make their home in me<br>
+<br>
+Drifting away into the comfort of false safety<br>
+<br>
+The signal fire is flickering<br>
+Breaths start to cease, and I wonder<br>
+If she calls my name out from the edge of the sea<br>
+<br>
+Move in sync with passage of light<br>
+Through my fingertips<br>
+Aligned on each notch of my spine<br>
+Where shivers won't dare resist<br>
+<br>
+The signal fire is flickering<br>
+Breaths start to cease, and I wonder<br>
+If she calls my name out from the edge of the sea</p>
+
+          <h1 id="t4" class="lyrics-test">-Valhalla-</h1>
+          <p class="lyrics-test-test">Shed your skin, days on years<br>
+Punished by pressured time<br>
+When underneath, you're balancing<br>
+All this hate and selfless misconception<br>
+What once was full is just the husk<br>
+Of a deceived creature of habits<br>
+Black ink can't pierce this deep<br>
+By your side, I watched the birds of prey<br>
+Bind the skies and hold in wait<br>
+We cannot mend what is sealed by fate<br>
+No future, contentment with complacency<br>
+Absorbing disappointment, bite the hand that feeds<br>
+I gave up everything to make you feel complete<br>
+Drenched in cold sweat from lost comfort of safety<br>
+You resonate with hatred<br>
+<br>
+My pulse is racing in my chest<br>
+I lie awake to imagine pathways of escape as they disappear<br>
+<br>
+All these words mean nothing if we fall face first<br>
+From running away from something that we saw coming<br>
+<br>
+Embrace this sunset as cloak and dagger for you to cower<br>
+Hidden by shadows, with filthy nails of gripping cowards<br>
+Shed your skin<br>
+Refuse to be loved by yourself to grow free from villainous<br>
+vines Refuse love from anyone else to sever ties that have grown intertwined<br>
+<br>
+My failing mind has been oppressed<br>
+And I lie awake to embrace a pathway of escape<br>
+Disappear without a trace<br>
+<br>
+All these words mean nothing if we fall face first<br>
+From running away from something that we saw coming<br>
+<br>
+Rise through the wake<br>
+Sliding through the pulse of the ocean tide<br>
+Rise through the wake<br>
+Sliding through the pulse of the ocean tide<br>
+Shed your skin, shed your skin<br>
+I've always known what's underneath<br>
+Rise through the wake or be the crashing waves<br>
+<br>
+Rise through the wake<br>
+Sliding through the pulse of the ocean tide<br>
+Rise through the wake<br>
+Slide<br>
+<br>
+Refuse to be loved by yourself to grow free from villainous vines<br>
+Refuse love from anyone else to sever ties that have grown intertwined</p>
+
+          <h1 id="t5" class="lyrics-test">-Hyperreality-</h1>
+          <p class="lyrics-test-test">I disengaged and relinquished the rage<br>
+Repressive memories combust into a sky of dust<br>
+Oversee my thoughts<br>
+Bending time like light through the mist of night<br>
+Slipping into serenity<br>
+Speeding towards hearts that can't break and steel traps of misdirection<br>
+<br>
+Weightlessness; separate from this conscious<br>
+Alleviation from the noise<br>
+<br>
+Leave it all behind; a master of control<br>
+I'd rather it be me than the others wielding the tightrope and chains of woe<br>
+Take flight on the wings that aren't impeded by conflict of trust<br>
+Gusts powered by passion and retrospective intent<br>
+Believe in the purity of your escape<br>
+<br>
+Weightlessness; separate from this conscious<br>
+Alleviation from the noise<br>
+Weightlessness; separate from this conscious<br>
+Breaking the rhythm of the noise<br>
+<br>
+Please give me space to breathe unblemished atmosphere<br>
+Watch me float along this celestial breeze<br>
+Give me hope to become one with everything, everything<br>
+To understand change as a necessity<br>
+<br>
+Weightlessness; separate from this conscious<br>
+Alleviation from the noise<br>
+Weightlessness; separate from this conscious<br>
+Breaking the rhythm of the noise
+
+</p>
+
+          <h1 id="t6" class="lyrics-test">-Ghost of Nothing-</h1>
+          <p class="lyrics-test-test">Treading waters poisoned by timeless intoxicants<br>
+Always knowing that a darkness will find us<br>
+Scaling walls of imagined boundaries<br>
+We are the reapers of shame, the successors of pain<br>
+I could follow you down<br>
+To the bottom of your solemn state<br>
+Straining to pull you out<br>
+Of the trenches that your mind creates<br>
+Hesitation sits in hindsight of the blind man<br>
+Cut me open<br>
+<br>
+Won't you follow tonight, just breathe in slowly<br>
+I don't wanna see you suffer forever, forever<br>
+<br>
+You are seemingly safe and sound<br>
+But you carry such a heavy weight<br>
+A spirit that slowly drowns<br>
+But the body doesn't translate<br>
+<br>
+Bolstering the need to feel accomplished<br>
+Overshadowed by decisions of finite progress<br>
+A moment to take my time<br>
+To let the noise subside<br>
+Maybe I can finally breathe if I take a step outside myself<br>
+Maybe I can finally breathe easy<br>
+Cut me a box to size, yeah<br>
+<br>
+Won't you follow tonight, just breathe in slowly<br>
+I don't wanna see you suffer forever, forever<br>
+Plagued by thoughts of self-defeat<br>
+<br>
+Ghost of nothing<br>
+A ghost of a nothing<br>
+An anchor for all suffering<br>
+<br>
+Won't you follow tonight<br>
+I don't wanna see you suffer<br>
+<br>
+Won't you follow tonight, just breathe in slowly<br>
+I don't wanna see you suffer, suffer forever, forever<br>
+Won't you follow tonight, just breathe in slowly<br>
+I don't wanna see you suffer, suffer forever, forever<br>
+I don't wanna see you<br>
+<br>
+A ghost of a nothing<br>
+An anchor for all suffering</p>
+
+          <h1 id="t7" class="lyrics-test">-Disarray-</h1>
+          <p class="lyrics-test-test">Give in to the pressure of the sound<br>
+Of the voices saying step down<br>
+<br>
+Beast of glutton, the embodiment of greed<br>
+Exploiting the weak by fabricating their needs<br>
+The wolf kicked in the door, intruded in your home<br>
+And you see it as a privilege to be consumed<br>
+<br>
+Give in to the pressure of the sound<br>
+Of the voices saying step down<br>
+Tell us something that resembles truth<br>
+You pitiful bastard in clearest sight<br>
+<br>
+The wolf was never hiding<br>
+You told yourself sweet nothings, and now your only truth is lying<br>
+Bulbous parasite; expanding from the blood of the ignorant<br>
+The worm is robbing our ability to communicate<br>
+I saw him laugh in your face, why aren't you irate?<br>
+<br>
+Scrub away the stain<br>
+Leech their energy<br>
+<br>
+Give in to the pressure of the sound<br>
+Of the voices saying step down<br>
+Tell us something that resembles truth<br>
+You pitiful bastard in clearest sight<br>
+Give in to the pressure of the sound<br>
+Of the voices saying step down<br>
+Tell us something that resembles truth<br>
+You pitiful bastard in clearest sight<br>
+<br>
+The people's king; a virtuoso of trophy lust and adolescent behavior<br>
+An old fool convinced you he's your savior<br>
+Chaos is the grain on which the bastards feed<br>
+Bringing down the rain, they drown the land in greed<br>
+Scrub away the stain, leech their energy<br>
+Tell us something that resembles truth, just walk away</p>
+
+          <h1 id="t8" class="lyrics-test">-Expiate-</h1>
+          <p class="lyrics-test-test">The miles I've traveled now seem like withered time<br>
+Fixated on the rear view when I can't see ahead<br>
+For me to view a reflection without corruption<br>
+So a past won't dictate a present<br>
+Months pass, sitting still, thinking in this box<br>
+Where my thoughts are not friendly nor hopeful<br>
+This weak mind and body crumble<br>
+<br>
+Who we were will never be the same<br>
+We'll never relive the feeling<br>
+Love we made, we let it slip away<br>
+And I just can't face it<br>
+<br>
+I can feel it coming on, living inside<br>
+Calling me right back to you<br>
+My regret meets no resistance<br>
+And I endorse this torment to feel<br>
+If you exhaust a heart of love<br>
+Is the pumping of blood still enough?<br>
+Do the limbs go numb?<br>
+<br>
+Who we were will never be the same<br>
+We'll never relive the feeling<br>
+Love we made, we let it slip away<br>
+And I just can't face it<br>
+Who we were will never be the same<br>
+We'll never relive the feeling<br>
+Love we made, we let it slip away<br>
+And I just can't face it<br>
+<br>
+My fictional friend, conducting me piece by piece<br>
+I feel your cold blank stare cast on me<br>
+I don't ask to be mended<br>
+Just understand my words and hear me out<br>
+All the passion has faded<br>
+All the fire has burned out<br>
+<br>
+How could I see it coming?<br>
+This electrifying high that we would grow to resent<br>
+<br>
+I can feel it coming on, living inside<br>
+Calling me right back to you</p>
+
+          <h1 id="t9" class="lyrics-test">-Unify-</h1>
+          <p class="lyrics-test-test">Aiming soft steps along each brick<br>
+To give respect in the places unfit<br>
+It's not a waste to him, but all he knows<br>
+Avoiding all the conflict to seek some repose<br>
+Thinking back on his father's words<br>
+To try and mend the cracks at the seams<br>
+Stand your ground and speak your mind<br>
+A unity he can't emphasize<br>
+Hard rain falls without consulting the flood<br>
+A tear hits the cheek of a heartless man<br>
+Counting the minutes as you lose control<br>
+This love goes unreceived, marked "return to sender"<br>
+<br>
+Feeling it all around me<br>
+Watching the clouds roll over<br>
+Fall into place; trust in the outcome<br>
+Walk along the path of least resistance<br>
+<br>
+Set your feet to paths for you to wander and never feel alone<br>
+Questioning the option to surrender, embracing the unknown on your own<br>
+<br>
+Walk alone or lead the pack on your own<br>
+There's no difference in numbers<br>
+If you see nothing with eyes wide open<br>
+Remembering moments being led astray<br>
+The howling voices looming close behind<br>
+Reaching for a piece to steal away<br>
+Close your doors even if the rooms are vacant<br>
+<br>
+Set your feet to paths for you to wander and never feel alone<br>
+Questioning the option to surrender, embracing the unknown<br>
+<br>
+Setting all the clocks to prior hours to stagger fleeting time<br>
+Saving all the love you can remember, remember<br>
+<br>
+Thinking back on his father's words<br>
+To try and mend the cracks at the seams<br>
+Stand your ground and speak your mind<br>
+A unity he can't emphasize</p>
+
+          <h1 id="t10" class="lyrics-test">-Ultimata-</h1>
+          <p class="lyrics-test-test">Terror creeps like a hurricane<br>
+Oppressing the seas, trying to sink my vessel<br>
+Powerless to the crippling wake<br>
+Pull me in and destroy my faith<br>
+With my liquid lungs, I can breathe<br>
+<br>
+Free of broken memories that keep holding on<br>
+Contemplating love you spent only to feel alone<br>
+I feel alone<br>
+Love you spent only to feel alone<br>
+Still holding on<br>
+<br>
+A hollow heart holds no peace<br>
+Can we forgive and forget, receive and protect<br>
+When we carry our prisons in our heads?<br>
+Carve my legacy into the stone<br>
+For my light can only burn so long<br>
+But before I go, my brimstone bones<br>
+Will smolder all my fears of the unknown<br>
+<br>
+Free of broken memories that keep holding on<br>
+Contemplating love you spent only to feel alone<br>
+I feel alone<br>
+Love you spent only to feel alone<br>
+And no strength to let it go<br>
+<br>
+In my wishing well, where all my words turn to stone<br>
+Speak to me through grit teeth; a broken soul<br>
+And a heart that wants to take control<br>
+<br>
+Who's to say whether we should drift?<br>
+I can feel you slipping away<br>
+<br>
+Shadows unfamiliar to me<br>
+Dance around the walls of the most familiar places<br>
+Now I've become a stranger in my own home<br>
+I'd fall asleep with you next to me, now every day I wake alone<br>
+<br>
+Shadows of strangers compose themselves reluctantly<br>
+How can you confront your fears when they stand back to back?<br>
+Trust in a disconnect to make the pieces fit, oh<br>
+Shadows of strangers<br>
+Shadows of strangers<br>
+<br>
+Hope you left behind<br>
+Home is undefined<br>
+Hope you left behind<br>
+Home is undefined</p>
+        </div>
+      </div>
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+      </div>
+
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+      </div>
+
+          <div class="page-finish">
+            <a href="./security.html">Security Statements</a>
+            <a href="./terms.html">Terms of Service</a>
+            <a href="./privacy.html">Privacy Policy</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+
+      </body>
+      </html>

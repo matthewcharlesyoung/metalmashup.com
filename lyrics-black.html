@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Black Tongue</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/theuncon.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Unconquerable Dark - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Plague Worship</a>
+      <a href="#f2">In The Wake Ov The Wolf</a>
+      <a href="#f3">Young Gloom</a>
+      <a href="#f4">L'appel Du Vide (The Call Of The Void)</a>
+      <a href="#f5">Vermintide</a>
+      <a href="#f6">Prince Of Ash</a>
+      <a href="#f7">The Masquerade</a>
+      <a href="#f8">A Pale Procession II: Death March</a>
+      <a href="#f9">I'm So Tired Of Sighing. Please Lord, Let It Be Night</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/nadir.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Nadir - 2018</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">The Eternal Return to Ruin</a>
+      <a href="#s2">The Cathedral</a>
+      <a href="#s3">Second Death</a>
+      <a href="#s4">Black Fawn Temple</a>
+      <a href="#s5">Ultima Necat</a>
+      <a href="#s6">Contrapasso</a>
+      <a href="#s7">Abuse Ritual</a>
+      <a href="#s8">Parting Soliloquy</a>
+      <a href="#s9">A Dying God Coming Into Human Flesh</a>
+      <a href="#f10">Crippled Before the Dwelling Place of God</a>
+    </div>
+</div>
+
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/theuncon.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Unconquerable Dark - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Plague Worship-</h1>
+      <p class="lyrics-test-test">I live in the weak and the wounded<br>
+I wait for what the wolves leave in their wake<br>
+And when mankind draws its final breath<br>
+Through its gaping mouth its soul I'll take<br><br>
+
+The death cult rising, join me in annihilation<br>
+All will fall before the dark<br>
+Eliminate the sufferers and those causing the suffering<br>
+This is plague worship<br><br>
+
+This is plague worship<br>
+Now, kneel before the onset<br>
+Of human abolition<br><br>
+
+Human life is scorned<br>
+This is nihilism given form<br>
+The only beings that are capable of evil<br>
+Fulfill your moral duty and destroy your people<br><br>
+
+Pestilence<br>
+Decay and rot<br>
+A plague deity<br>
+To wash away the sins of man<br>
+
+Prostrate yourself before the altar of contagion<br>
+Breathe in deep this gift of deadly exhalation<br>
+Decay is the way of all things, careless of a peasant or king<br>
+Only death prevails<br><br>
+
+Prostrate yourself before the altar of contagion<br>
+Prove your fealty to the plague<br>
+And when mankind draws its final breath<br>
+Only death prevails</p>
+
+      <h1 id="f2" class="lyrics-test">-In The Wake Ov The Wolf-</h1>
+      <p class="lyrics-test-test">Let the wolf - Herald of fire, voice of ruin<br>
+run rampant, through the heavens<br>
+
+His fangs carve a bloody swathe; red stains the maiden's gown<br>
+Blood and the snow<br>
+Her bonds tighten, her cancer stands to attention<br>
+Blood and the snow<br>
+Cough black tar into the dust<br><br>
+
+The devouring son is risen<br>
+Pray the earth is swallowed by the sun<br>
+An infinite night<br><br>
+
+This cold is all consuming, I dread these shadows looming<br>
+The sun is setting with the lights burning low<br>
+Horned crowns and cloven hooves; the unthinking callow youth;<br>
+these demons walk with a sickness in two<br><br>
+
+I feel it growing<br>
+I feel it growing<br><br>
+
+Walking the earth; creatures of deception, loathsome since birth<br>
+Blood. Snow. Herald of fire. Voice of ruin<br><br>
+
+This cold is all consuming, I dread these shadows looming<br>
+The sun is setting with the lights burning low<br>
+Horned crowns and cloven hooves; the unthinking callow youth;<br>
+these demons walk with a sickness in two<br><br>
+
+Horned crowns and cloven hooves<br>
+The unthinking callow youth</p>
+
+      <h1 id="f3" class="lyrics-test">-Young Gloom-</h1>
+      <p class="lyrics-test-test">A fell darkness sweeps the land - Black Death<br>
+Speak to the hearts of men<br>
+I wist our words,<br>
+control our breath<br>
+A darkness that consumes,<br>
+a darkness that imbues,<br>
+we're nothing but a vessel for a necessary evil<br><br>
+
+A city turns to ash - black death<br>
+The flames grow tall,<br>
+charred husks,<br>
+blistered flesh<br>
+This sickness forced our hand<br>
+We had to take a stand against those who reprimand this necessary evil<br><br>
+
+Everyone casts a shadow where even light can't reach<br>
+It hides our deepest, darkest desires of which we dare not speak<br><br>
+
+Curse the earth. Take it back<br>
+The night is always darkest before the dawn,<br>
+but there's still always black<br><br>
+
+This is the way<br>
+We are humanity - a walking scourge - the twilight phase of living disease<br>
+We are humanity - a walking scourge that curses the earth<br><br>
+
+Shall we rejoice that we live in dusk and not the night?<br>
+Is it enough to merely suffer?<br>
+After all, our sons will be the ones left alone against this final blight<br>
+Shall we rejoice?<br>
+Shall we rejoice at the dying of the light?<br><br>
+
+Silence is deep as eternity,<br>
+speech is shallow as time<br>
+Onwards, always onwards,<br>
+our unending misery in silence and doom: this eternal gloom<br><br>
+
+Shall we rejoice that we live in dusk and not the night?<br>
+Is it enough to merely suffer?<br>
+After all, our sons will be the ones left alone against this final blight<br>
+Shall we rejoice?<br>
+Shall we rejoice at the dying of the light?<br><br>
+
+Ruin upon ruin, boundless night<br>
+Long is the path away from doubt, void of light</p>
+
+      <h1 id="f4" class="lyrics-test">-L'appel Du Vide (The Call Of The Void)-</h1>
+      <p class="lyrics-test-test">
+Will it never cease?<br>
+The pain of absence<br>
+Will you never subside?<br>
+By the time it had happened<br>
+I'd lived it a thousand times<br>
+Behind closed eyes<br>
+Its keen edge blunted<br>
+But the ache still resides<br><br>
+
+The cold eased its grip on my bones<br>
+This sun was the first I'd known<br>
+The mad chorus calmed at the touch of your hand<br>
+The voices disarmed<br><br>
+
+The wind calls my name<br>
+I dare not answer<br>
+I dare not speak<br><br>
+
+But had I known the collared throats<br>
+The hand on winter's wrist<br>
+Heard the command of your lying lips<br>
+I would have bitten off your tongue<br>
+During our first kiss<br><br>
+
+There was no misery<br>
+Nor sadness, nor pain<br>
+Oh how I long to be one with the void again<br>
+There was no misery<br>
+Nor sadness, nor pain<br>
+Oh how I long to be one with the void again<br><br>
+
+Oh how I long to be one with the void again<br>
+The pain of absence<br>
+I'd lived it a thousand times<br>
+Oh how I long to be one with the void<br><br>
+
+And the hand on winter's wrist<br>
+Heard the sound of your lying lips<br>
+(The frost could never be as cold as you)<br><br>
+
+
+I stand at the mountain before the abyss<br>
+(The wind calls my name)<br>
+Though the biting wind is cruel<br>
+(The wind calls my name)<br>
+Put the winter back in my veins<br>
+(The wind calls my name)<br>
+Because the frost could never be as cold as you</p>
+
+      <h1 id="f5" class="lyrics-test">-Vermintide-</h1>
+      <p class="lyrics-test-test">Human<br>
+Writhe in the gutter where you belong<br>
+Human<br>
+Smile while you pick up the bones of your<br>
+Carcass kingdom<br>
+Vermin<br>
+Swarm round the corpses as they dance unknowing<br>
+Dance through the streets<br>
+Of this urbanised sewer<br>
+Spread your disease through each other<br><br>
+
+
+Consuming and spewing<br>
+Vermin you are<br>
+Stealing abusing<br>
+Vermin you are<br>
+Fighting and fucking<br>
+Vermin you are<br>
+Step on anybody weaker<br>
+To get where you are<br><br>
+
+Extermination erased nature’s terrible malformation<br>
+Extermination: a conflagration to curb any degradation<br>
+Extermination erased nature’s terrible malformation<br>
+Extermination: a conflagration to curb any degradation<br><br>
+
+
+I weep, as I walk through the streets<br>
+At mire of rats gnawing at my feet<br>
+Deny not your place<br>
+Gather round the pit and hang your head in disgrace<br>
+Congregation of a viral race<br>
+No pity for beasts that deserve to be erased<br><br>
+
+Deny not your place<br>
+Gather round the pit and hang your head in disgrace<br>
+Congregation of a viral race<br>
+No pity for beasts that deserve to be erased<br><br>
+
+
+The human swarm in motion<br>
+The vultures circle high<br>
+Bubonic infestation<br>
+Can you see through the cloud of flies?<br>
+Your fellow man is a monster<br>
+Behold the vermintine<br><br>
+
+
+I weep as I walk through the streets<br>
+At mire of rats gnawing at my feet<br><br>
+
+
+Behold the vermintine<br>
+Only when this planet dies<br>
+Will the human filth subside<br><br>
+
+Nothing, but self-destruction, will satisfy the vermintine<br>
+I wade through scum<br>
+Fall to my knees and sink into the sludge<br>
+And as my lungs, fill with muck<br>
+A bitter grin forms, that our time has come<br><br>
+
+Our time has come<br><br>
+
+
+Deny not your place<br>
+Gather round the pit and hang your head in disgrace<br>
+Congregation of a viral race<br>
+No pity for beasts that deserve to be erased<br>
+Deny not your place<br>
+Gather round the pit and hang your head in disgrace<br>
+Congregation of a viral race<br>
+No pity for beasts that deserve to be erased<br><br>
+
+Human (human)<br>
+Writhe in the gutter where you belong<br>
+Human (human)<br>
+Smile while you pick up the bones of your<br>
+Carcass kingdom<br><br>
+
+Vermin<br>
+Swarm round the corpses as they dance unknowing<br>
+Vermin<br>
+Dance through the sewers of civilization<br><br>
+
+Consuming and spewing<br>
+Vermin you are<br>
+Stealing abusing<br>
+Vermin you are<br>
+Fighting and fucking<br>
+Vermin you are<br>
+Step on anybody weaker<br>
+To get where you are</p>
+
+      <h1 id="f6" class="lyrics-test">-Prince Of Ash-</h1>
+      <p class="lyrics-test-test">The cross I bear cracks the earth at my feet<br>
+For the love of god, stay away from me<br>
+Everything I touch turns to rust, I'll only drag you down with me<br><br>
+
+This world breaks us all<br>
+All life is suffering and life is long<br>
+Nothing eases the pain, nothing halts the rain<br>
+Nothing eases the pain; the sun will never shine on me again<br><br>
+
+The winds whisper to me<br>
+I await their call to feel death brush by my fingertips<br>
+While the flames around me grow tall<br>
+A world consumed by fire and ice<br>
+With a beast on the throne<br>
+Condemning all life from a tower of morals and bone<br><br>
+
+Nothing eases the pain<br>
+The sun will never shine on me again<br><br>
+
+The cross I bear cracks the earth at my feet<br>
+For the love of god, stay away from me<br>
+Everything I touch turns to rust, I'll only drag you down with me<br><br>
+
+Pulled under (I'm falling apart)<br>
+Crumble to ash<br>
+I can't articulate anything to anyone<br><br>
+
+Is this living?<br>
+Who knew life could be so unforgiving?<br>
+I never asked for this, nor do I want to exist<br><br>
+I don't want to exist</p>
+
+      <h1 id="f7" class="lyrics-test">-The Masquerade-</h1>
+      <p class="lyrics-test-test">As you get older your gaze is fixed over your shoulder<br>
+Because if life has taught you one thing<br>
+You won't see the knife that is coming<br>
+Everyone wears a mask and the mouth is always smiling<br>
+It is impossible to tell if they're laughing or crying<br>
+It's in our nature to lie<br>
+Constantly raising walls, now our hearts forever shrouded<br>
+Leading only to pain and our minds always clouded<br>
+It's in our nature to lie<br><br>
+
+When it happens, I hope you cannot breathe<br>
+And I hope that the walls close in<br>
+And if by chance there is a heart in you<br>
+Well I hope it bleeds<br>
+Blood flows as you grieve, spilling over your hands<br>
+And rising up to your knees<br>
+You can't stop it<br>
+I hope you panic<br>
+And you know that it will never cease<br>
+(Drown in a sea of misery)<br><br>
+
+Nothing is sacred, an eye for an eye<br>
+There is none righteous<br>
+It's in our nature to lie<br><br>
+
+Depravity: It's a mother chalking lines while her child is in the womb<br>
+And the father making use of the son that hasn't bloomed<br>
+An entire race crippled by subconscious masquerade<br>
+And the voice that's in your head screaming to get away<br>
+Get away<br><br>
+
+Show me where it hurts; I fucking hope it's everywhere<br>
+Tell me how you feel, because I feel nothing<br>
+Neither love nor lying, neither form nor void<br>
+The regret before dying?<br>
+No, nothing<br>
+
+Blood flows as you grieve, spilling over your hands<br>
+And rising up to your knees<br>
+You can't stop it<br>
+I hope you panic<br>
+And you know that it will never cease<br>
+(Drown in a sea of misery)<br><br>
+
+Nothing is sacred, an eye for an eye<br>
+There is none righteous<br>
+It's in our nature to lie<br><br>
+
+Everyone wears a mask and the mouth is always smiling<br>
+It is impossible to tell if they're laughing or crying<br>
+It's in our nature to lie<br>
+Constantly raising walls, now our hearts forever shrouded<br>
+Leading only to pain and our minds always clouded<br><br>
+It's in our nature to lie</p>
+
+      <h1 id="f8" class="lyrics-test">-A Pale Procession II: Death March-</h1>
+      <p class="lyrics-test-test">This world is in a tragic state<br>
+Everywhere I look all I see is murder<br>
+Everywhere I look all I see are mass graves<br>
+All the people pushing to the front of the line of the<br>
+death march walk side by side into oblivion (death march)<br>
+Take my hand and walk with me into extinction (death march)<br><br>
+
+There is a darkness in man, darker than a pit pole to pole;<br>
+a demon with an endless hunger and it calls the heart of man its home<br><br>
+
+And the people are pushing, ever pushing, to get to the<br>
+front of the lineDid they see it coming?<br>
+Did they feel the stares and the hands at<br>
+their backs when it was their time? (death march)<br>
+Was it the pains of life, or the way that we are<br>
+designed that leads us with our own hands to drive home the knife?<br><br>
+
+There is a darkness in man, darker than a<br>
+pit pole to pole; a demon with an endless<br>
+hunger and it calls the heart of man its home<br><br>
+
+Watch as the darkness devours and is never<br>
+sated until it feeds upon itself<br>
+The darkness will devour</p>
+
+      <h1 id="f9" class="lyrics-test">-I'm So Tired Of Sighing. Please Lord, Let It Be Night-</h1>
+      <p class="lyrics-test-test">We are gathered here today to give rise to abomination<br>
+He will cast the chains of subjugation<br>
+Spread his oppression across all nations; unending ire; the tables shifted<br>
+Under his cleansing fire the filth is lifted<br><br>
+
+The sea will burn crimson under his reign<br>
+She was always at her best dressed in flames<br>
+Witness eternal disdain<br><br>
+
+The tree is withered<br>
+The roots are rotten and weak<br>
+They grow through the skulls and the ribs<br>
+of the children murdered at its feet<br>
+The lie you've been chasing; the happiness you seek;<br>
+you could have found what you sought<br>
+blooming in man, but the rot was to deep<br>
+An axe to the tree<br><br>
+
+Prepare the sacrifice<br>
+Drag her screaming to the altar<br>
+Bring me the sacred knife<br>
+Lay her on the table<br>
+Carve on her chest the shape of the elder sign<br>
+The hour draws near<br>
+Raise your glass and share her blood as holy wine<br>
+The hour draws near<br>
+
+The tree is withered<br>
+The roots are rotten and weak<br>
+They grow through the skulls and the ribs<br>
+of the children murdered at its feet<br><br>
+
+I vocare te diaboli - Ustulo omnia - Nova nobis - Satana<br>
+(Hark, the calling of crows)<br><br>
+
+The sea will burn crimson under my reign<br>
+I will see this world wreathed in flames<br>
+Witness pain</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/nadir.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Nadir - 2018</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-The Eternal Return to Ruin-</h1>
+        <p class="lyrics-test-test">Eternity hangs heavy<br>
+A pendulum swings<br>
+The deep bell rings low<br>
+Through the void's mournful throat<br>
+The deep bell rings low<br>
+Head hung heavier still<br><br>
+
+Though, the inner scale, it denies a full tilt<br>
+My body screams through the static<br>
+The mind buckles, frantic<br>
+And the burning tears cascade, thunder below<br><br>
+
+Forged in the blackest reaches of irony<br>
+In front of me dangles the key<br>
+My body screams through the static<br>
+In front of me dangles the key<br><br>
+
+But through the dust a blossom breeze caresses my cheek<br>
+A hand of winter dream and purest ivory<br>
+Tears and dust run as the Styx beneath my feet<br>
+And I feel the crystal ice voice whisper and repeat<br><br>
+"The Gate has opened<br>
+A passage for the weary<br>
+And a bed for the weak"<br>
+And I weep<br><br>
+
+It hangs so heavy, eternity<br>
+I lack the strength to rise from my knees<br><br>
+
+An echo rings in the silence<br>
+A narrow of the eye<br><br>
+
+Eternity hangs heavy<br>
+And so do I<br><br>
+
+I weep<br>
+With the Styx beneath my feet<br>
+The cold breeze<br>
+It whispers and repeats<br>
+"The Gate is open<br>
+Rest your weary feet"<br>
+I weep<br>
+While the Styx, it runs beneath</p>
+
+        <h1 id="s2" class="lyrics-test">-The Cathedral-</h1>
+        <p class="lyrics-test-test">There is only death<br><br>
+
+This is the beginning and the end of all things<br>
+The gate and the key<br>
+All are judged in the shade of the Cathedral<br><br>
+
+Their names written in flames on that terrible, endless list<br>
+True pain engraved on their face<br>
+The wailing spilling through the rifts agape<br><br>
+
+Whisper "be still" to the violent heart and its thundering beat<br>
+The earth yawns deep and the cloak sweeps silent<br>
+Casting the shadow of unceasing sleep<br><br>
+
+The ground untended<br>
+Relinquishing spaces, an ocean of faces<br>
+Smothered by the black of a burial gown<br><br>
+
+Follow me down<br><br>
+
+Your call so fervent<br>
+Hot thorns through the neck pierce the servant<br>
+Of the night unending<br>
+The light here is bending<br>
+The gnarled spires bare<br>
+And from its towers a mockery of black trumpets blare<br>
+Lamentations fill the air<br>
+With the braying of dogs, oil slick through their fur<br><br>
+
+Follow me down<br><br>
+
+Hush now, no tears please<br>
+The horn sounds for me<br>
+Hush, writhe, cry<br>
+Hush, writhe, cry<br><br>
+
+It will never stop<br>
+Until every soul is charred beyond burned<br>
+Fling wide the gates of Hell<br><br>
+
+Your prodigal son has returned<br><br>
+
+Twixt jagged teeth of petitioners led by bound wrists<br>
+Past men gasping for air in lakes of boiling piss<br><br>
+
+Unable to drown<br>
+Follow me down<br>
+
+Your call so fervent<br>
+Hot thorns through the neck pierce the servant<br>
+Of the night unending<br>
+The light here is bending<br><br>
+
+Follow me down</p>
+
+        <h1 id="s3" class="lyrics-test">-Second Death-</h1>
+        <p class="lyrics-test-test">When I stand upon my altar<br>
+Resplendent in profane glory<br>
+I shall care not for the maggots squirming beneath me<br>
+Now squirm, you will squirm maggot, you will squirm<br><br>
+
+Your pathetic shells will crack<br>
+Under the weight of agony<br>
+In the shadow of the blackest spire<br>
+In the deepest circle, the bend<br><br>
+
+A knee, a back, desperate supplication<br>
+They could never imagine such pain as this<br>
+Squirm beneath me, I care not<br>
+Your pathetic shells will crack<br><br>
+
+Their screams echo in the void<br>
+And they echo with mine<br>
+The false ring of sacrament<br>
+They howl and I howl with them<br><br>
+
+"My lord, hear us<br>
+Free us from this scalding cell<br>
+My lord, hear us<br>
+Save us from this unending hell"<br><br>
+
+Oh lord, hear me<br>
+I suffer in this pit as well<br>
+My lord, hear me<br>
+I ring truer than deaths keen kneel<br><br>
+
+Your pathetic shells will crack<br>
+Under the weight of agony<br>
+In the shadow of the blackest spire<br>
+In the deepest circle, they bend<br>
+They bend<br>
+They bend<br>
+Squirm beneath me, I care not<br><br>
+
+Beckoning a darkness you all have ushered<br>
+The only reality is pain<br>
+I want you all to suffer as I have suffered<br><br>
+
+I want you all to suffer<br><br>
+
+Suffer<br>
+Suffer<br>
+Suffer<br>
+Suffer</p>
+
+        <h1 id="s4" class="lyrics-test">-Black Fawn Temple-</h1>
+        <p class="lyrics-test-test">
+It is a strange thing, timelessness<br>
+The nothing stretching away forever<br>
+Meets the nothing within and collapses<br><br>
+
+The endless without<br>
+The was<br>
+The is not<br><br>
+
+An everlasting echo repeats<br>
+"The tunnel has existed always"<br>
+Infinite<br><br>
+
+And the echo<br>
+Always<br>
+
+But I hear a voice<br>
+It is a strange thing, timelessness<br>
+Because I have existed in the corridor always<br><br>
+
+I- I- I-<br>
+
+There is a light</p>
+
+        <h1 id="s5" class="lyrics-test">-Ultima Necat-</h1>
+        <p class="lyrics-test-test">
+Watching<br>
+Always watching<br>
+The snare<br>
+Our curse<br><br>
+
+Remember the cold<br>
+Remember that it follows forever<br><br>
+
+Remember the cold<br>
+Remember that it follows forever<br>
+The cold that came before<br>
+And the cold that comes after<br><br>
+
+Chill wind howls<br>
+All hearts dread<br><br>
+
+
+I see you watching<br>
+Your eyes sear craters in my flesh<br>
+I feel you always<br>
+I am writhing<br><br>
+
+I can see you watching<br>
+The hollow eyes sear craters in my flesh<br>
+I can feel you always<br>
+I am writhing<br><br>
+
+Watching<br>
+Always watching<br>
+The snare<br>
+Our curse<br><br>
+
+Flee with the sun<br><br>
+
+
+Your hand rests over mine<br>
+You're in every word that I’ve written<br>
+In every single line<br>
+You are in the wind when I listen<br><br>
+
+I feel your presence behind<br>
+In every step that I've taken<br>
+On every single path<br>
+I am writhing<br><br>
+
+Your hand rests over mine<br>
+You're in every word that I’ve written<br>
+In every single line<br>
+You are in the wind when I listen<br><br>
+
+I feel your presence behind<br>
+In every step that I've taken<br>
+On every single path<br>
+And I'm writhing<br><br>
+
+And I writhe<br>
+And I writhe</p>
+
+        <h1 id="s6" class="lyrics-test">-Contrapasso-</h1>
+        <p class="lyrics-test-test">he star's luminosity failing<br>
+All grey ash and ruin<br>
+Bathed in the light of their guttering waning<br>
+As if a world spilled from his heart's painting<br><br><br>
+
+No, please no<br>
+What have I wrought upon me?<br><br>
+
+Overflowing, I wander here still<br>
+Blackened feet drag through dust<br>
+Bound by shackles hung<br>
+With a stone of Sisyphean weight<br><br>
+
+No, I beg<br>
+This cannot be<br>
+Darkness claims me<br><br>
+
+A burden of proportions Biblical<br>
+In these dizzying plains of desolation<br>
+So in death, as you were in life<br>
+May the punishment fit the crime<br><br>
+
+The soundless scream still echoes with acrid winds<br>
+This tomb is of my own making<br>
+Their faces hang above me, a warning<br>
+They were dragged here, mourning<br>
+Toward my horizon, cold<br><br>
+
+No, please no<br>
+What have I wrought upon me?<br><br>
+
+No, I beg<br>
+This cannot be<br>
+Darkness claims me<br><br>
+
+They were dragged here, helpless<br>
+Toward my horizon, cold<br><br>
+
+I was never a person<br>
+I am a black hole</p>
+
+        <h1 id="s7" class="lyrics-test">-Abuse Ritual-</h1>
+        <p class="lyrics-test-test">They hang in their thousands<br>
+Suspended in paroxysm<br>
+In grotesque shapes and unnatural angles<br>
+Crying and laughing and they thrash as if drowning<br>
+Until agony rears through their bones and they crack<br>
+Strung out across this canopy<br>
+Ecstasy rolls eyes back<br>
+This black sanguine puppetry<br>
+Do my eyes deceive?<br><br>
+
+Mouths held wide by the chains<br>
+Drawn orgiastic and aghast<br>
+Become windows to self annihilation<br>
+The infinite veins of this howling tapestry<br>
+Its terrible shrieking choir<br><br>
+
+Rattles and coughs<br>
+Rasps and shakes<br>
+A thousand husks keening<br>
+Behold our congregation<br><br>
+
+Pray before the Altar of Needles<br>
+Worship in the Temple of Smoke<br><br>
+
+You will choke<br><br>
+
+All paths lead to the Garden<br>
+It is mapped in the fractures in the mirror<br>
+
+Pray before the Altar of Needles<br>
+Worship in the Temple of Smoke<br>
+Whine at the feet of Surrender<br>
+Smile all the while as you choke<br>
+Because we are in love with the pain<br>
+That we keep coming back to<br><br>
+Again and again and again</p>
+
+        <h1 id="s8" class="lyrics-test">-Parting Soliloquy-</h1>
+        <p class="lyrics-test-test">
+I watch you from across the lake<br>
+Where the waters remain forever still<br>
+I watch you from across the lake<br>
+Where the waters remain forever still<br>
+
+And I collapse to the bank still green<br>
+And scream hoarse with the whisper of the leaves<br>
+And you were bountiful then and I asked you why<br>
+Small, frail, dependent, I<br><br>
+
+Should have to watch you walk from the shoreline, grey<br>
+You smiled something about life and something about time<br>
+Something about the winding length of mine<br>
+How I'd be ready when it came to that day<br><br>
+
+But I am not<br>
+And every nerve recoils at the thought<br>
+That the vessels still remain but are filled with nought<br><br>
+
+A light switched off<br>
+A stopped clock<br>
+A loss<br>
+A light switched off<br>
+A stopped clock and a loss<br><br>
+
+Death, take me home<br>
+Death, take me home<br><br>
+
+The cloak flaps blackly<br>
+My fingers map the lines<br>
+Across the writing on your monuments<br>
+Of life and death and time<br>
+The cloak flaps blackly<br>
+My fingers map the lines<br>
+Across the writing on your monuments<br><br>
+I ponder the winding<br>
+Of life and death and time<br><br>
+
+And I hope to God the next passage on the waiting raft is mine<br>
+Please don't leave me here between life and death and time<br><br>
+
+Please don't leave me here<br>
+Please don't leave me here<br>
+Please don't leave me here<br>
+Please don't leave me here<br><br>
+
+
+Death, take me home<br>
+Death, take me home<br>
+Death, take me to the lake where the waters remain forever still</p>
+
+        <h1 id="s9" class="lyrics-test">-A Dying God Coming Into Human Flesh-</h1>
+        <p class="lyrics-test-test">All is cold and frozen<br>
+Frozen the sea<br>
+Frozen the sky<br>
+Frozen is death<br>
+But I cannot die<br>
+Cannot die<br><br>
+
+As the snow falls<br>
+To cover this all<br>
+And all is cold<br>
+And cold, cold is all<br>
+All is cold, cold is all<br><br>
+
+Cold<br>
+Frozen<br>
+Frozen is Heaven and frozen is Hell<br>
+And I am dying in this living human shell<br><br>
+
+I am a dying God, coming into human flesh<br>
+I am a dying God, coming into human flesh<br>
+I am a dying God, coming into human flesh<br>
+I am a dying God<br><br>
+
+Frozen my heart<br>
+Frozen my soul<br>
+Frozen my love<br><br>
+
+I am a dying God, coming into human flesh<br>
+I am a dying God, coming into human flesh<br>
+I am a dying God, coming into human flesh<br>
+I am a dying God, coming into human flesh<br>
+I am a dying God, coming into human flesh<br>
+I am a dying God, coming into human flesh<br>
+I am a dying God, coming into human flesh<br>
+I am a dying God, coming into human flesh</p>
+
+        <h1 id="s10" class="lyrics-test">-Crippled Before the Dwelling Place of God-</h1>
+        <p class="lyrics-test-test">I lay, torn and aghast, at the gates of the dwelling place of God<br>
+
+My body is broken<br>
+Every bone shattered against its rails<br>
+Every vein spilled across its towers<br>
+My blood flows in rivers with the grain<br><br>
+
+If I could cry still, I would<br>
+But all tears are spent<br>
+My mouth shudders the words I screamed<br>
+As I pounded on those unmoving doors<br>
+My silent lament<br><br>
+
+There is no greater Hell than isolation<br><br>
+
+And so as you were in life<br>
+You shall be in death<br>
+Alone within, alone without<br><br>
+
+In the eons, that echo twists and throbs<br>
+And coalesces beside the palest form of quivering<br>
+Outside the dwelling place of God<br>
+A crystal hand caresses his face<br>
+Closing the eyes of his unseeing frown<br><br>
+
+I felt that final kiss with lightning's crack<br>
+The echo reaches through time and space in the black<br>
+From that old room with the rope<br>
+As my vertebrae snaps</p>
+      </div>
+    </div>
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+    </div>
+
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+    </div>
+
+        <div class="page-finish">
+          <a href="./security.html">Security Statements</a>
+          <a href="./terms.html">Terms of Service</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+
+    </body>
+    </html>

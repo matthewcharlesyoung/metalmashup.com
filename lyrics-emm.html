@@ -1,0 +1,2094 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Emmure</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/speaker.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Speaker Of The Dead - 2011</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Children Of Cybertron</a>
+      <a href="#f2">Area 64-66</a>
+      <a href="#f3">Dogs Get Put Down</a>
+      <a href="#f4">Demons With Ryu</a>
+      <a href="#f5">Solar Flare Homicide</a>
+      <a href="#f6">Eulogy Of Giants</a>
+      <a href="#f7">Bohemian Grove</a>
+      <a href="#f8">4 Poisons 3 Words</a>
+      <a href="#f9">Credo Cries</a>
+      <a href="#f10">Last Words To Rose</a>
+      <a href="#f11">A Voice From Below</a>
+      <a href="#f12">Drug Dealer Friend</a>
+      <a href="#f13">My Name Is Thanos</a>
+      <a href="#f14">Lights Bring Salvation</a>
+      <a href="#f15">Word Of Intulo</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/slaveto.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Slave To The Game - 2012</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Insert Coin</a>
+      <a href="#s2">Protoman</a>
+      <a href="#s3">She Gave Her Heart To Deadpool</a>
+      <a href="#s4">I Am Onslaught</a>
+      <a href="#s5">Bison Diaries</a>
+      <a href="#s6">Poltergeist</a>
+      <a href="#s7">Cross Over Attack</a>
+      <a href="#s8">Umar Dumps Dormammu</a>
+      <a href="#s9">Blackheart Reigns</a>
+      <a href="#f10">MDMA</a>
+      <a href="#s11">War Begins With You</a>
+      <a href="#s12">A.I.</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/eternale.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Eternal Enemies - 2014</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">(Untitled)</a>
+      <a href="#t2">Nemesis</a>
+      <a href="#t3">N.I.A. (News In Arizona)</a>
+      <a href="#t4">The Hang Up</a>
+      <a href="#t5">A Gift A Curse</a>
+      <a href="#t6">E</a>
+      <a href="#t7">Like LaMotta</a>
+      <a href="#t8">Free Publicity</a>
+      <a href="#t9">Most Hated</a>
+      <a href="#t10">Grave Markings</a>
+      <a href="#t11">Hitomi's Shinobi</a>
+      <a href="#t12">Rat King</a>
+      <a href="#t13">Girls Don't Like Boys, Girls Like 40's And Blunts</a>
+      <a href="#t14">New Age Rambler</a>
+      <a href="#t15">We Were Just Kids</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#fourth"><img class="lyrics-page_image" src="./images/lookatt.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Look At Yourself - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#ff1">You Asked For It</a>
+      <a href="#ff2">Shinjuku Masterlord</a>
+      <a href="#ff3">Smokey</a>
+      <a href="#ff4">Natural Born Killer</a>
+      <a href="#ff5">Flag Of The Beast</a>
+      <a href="#ff6">Ice Man Confessions</a>
+      <a href="#ff7">Russian Hotel Aftermath</a>
+      <a href="#ff8">Call Me Ninib</a>
+      <a href="#ff9">Major Key Alert</a>
+      <a href="#ff10">Turtle In A Hare Machine</a>
+      <a href="#ff11">Torch</a>
+      <a href="#ff12">Derelict</a>
+      <a href="#ff13">Gucci Prison</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/speaker.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Speaker Of The Dead - 2011</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Children Of Cybertron-</h1>
+      <p class="lyrics-test-test">We are unstoppable<br>
+We are unbreakable<br>
+<br>
+How much more proof<br>
+Do you want<br>
+You can't fuck with us!<br>
+You can't fuck with us!<br>
+<br>
+We are unstoppable<br>
+<br>
+How much more proof do you want? (Do you want!?)<br>
+How much more proof do you want? (Do you want!?)<br>
+How much more proof do you want? (Do you want!?)<br>
+How much more proof do you want? (Do you want!?)<br>
+<br>
+We are unstoppable<br>
+We are unbreakable</p>
+
+      <h1 id="f2" class="lyrics-test">-Area 64-66-</h1>
+      <p class="lyrics-test-test">Star climber please don't abandon us<br>
+Star climber please take me away from here<br>
+I was only a child<br>
+But I will always remember the night I saw you<br>
+Four feet from the window<br>
+I was frozen cold but not in fear<br>
+Please come back and save me<br>
+I don't deserve to be left for dead and forgotten<br>
+Tell me are you listening?<br>
+I am one of you
+</p>
+
+      <h1 id="f3" class="lyrics-test">-Dogs Get Put Down-</h1>
+      <p class="lyrics-test-test">I heard you wanted to kill me<br>
+So why am I still alive?<br>
+Some come on why don't you try<br>
+They put a price on my head<br>
+I stay bangin'<br>
+I stay strapped<br>
+I know it's hard to believe but sometime's dead is better<br>
+I'm not afraid to die<br>
+Do me a fucking favor<br>
+Take my fucking life<br>
+I'm not afraid to die so take my fucking life
+</p>
+
+      <h1 id="f4" class="lyrics-test">-Demons With Ryu-</h1>
+      <p class="lyrics-test-test">Tatsumaki Senpuukyaku<br>
+I am no one<br>
+I am the fighter with no name<br>
+I am no onev
+I've been training everyday<br>
+I am no one<br>
+I am the walking vagabond<br>
+I am no one<br>
+This devil in me lives<br><br>
+This never ending conflict is all I have<br>
+(This never ending conflict)<br>
+I've been spending everyday Under waterfalls<br>
+And yet I still cannot become the person I've been dreaming of<br>
+I wonder if I've been wasting my time<br>
+This conflict never ends<br>
+And still I try<br>
+Shoryuken<br>
+This never ending conflict<br>
+This never ends<br>
+(And still I try)<br>
+"Round One, Fight!"</p>
+
+      <h1 id="f5" class="lyrics-test">-Solar Flare Homicide-</h1>
+      <p class="lyrics-test-test">I see a fire in the sky<br>
+Lights go out I'm gonna finish what I started<br>
+And now you better pray I don't know where you are<br>
+Do you remember just like I always do?<br>
+Ive been dying to remind you<br>
+There ain't gonna be a jail sentence<br>
+No more Fucking Consequence<br>
+No there will never be another sentence<br>
+Fire in sky<br>
+This is freedom<br>
+I see fire in the sky<br>
+Now you'll suffer
+</p>
+
+      <h1 id="f6" class="lyrics-test">-Eulogy Of Giants-</h1>
+      <p class="lyrics-test-test">We are the walking giants<br>
+Born against our mothers' will<br>
+Sons of fathers raised to kill<br>
+We were taught to protect<br>
+We were taught to build<br>
+Forty thousand strong and still we suffer<br>
+These days are coming to an end<br><br>
+Stand up<br>
+Get up<br>
+Don't let them do the same to you<br>
+Did you know the nephilim died alone?
+
+</p>
+
+      <h1 id="f7" class="lyrics-test">-Bohemian Grove-</h1>
+      <p class="lyrics-test-test">Now they wanna talk about coming clean<br>
+Give up the ghost give up the dream<br>
+I hear them screaming beyond the trees<br>
+They're screaming<br>
+"Why?!"<br>
+"What have I done?"<br>
+Slow burns their lungs<br>
+"Father won't you save me?"<br>
+"What have I done?"<br>
+Burn down the bohemian grove<br>
+They got a secret they don't want you to know<br>
+I can hear them screaming<br>
+"Father, no"</p>
+
+      <h1 id="f8" class="lyrics-test">-4 Poisons 3 Words-</h1>
+      <p class="lyrics-test-test">Now I'm walking away<br>
+I don't need This<br>
+I don't need You<br>
+I have no interest to please or appease you<br>
+I'm done wasting my fucking life<br>
+on cowards wasting my fucking time<br>
+And if I'm alone in this fight<br>
+Then I'm walking away tonight<br><br>
+Get fucked<br>
+I'm standing on my own two feet<br>
+I don't need you<br>
+I don't need this<br>
+I'm ready to die for my beliefs<br>
+I'm ready to kill for my beliefs<br>
+Are you with me in this fight?<br>
+If not I'm walking away tonight</p>
+
+      <h1 id="f9" class="lyrics-test">-Credo Cries-</h1>
+      <p class="lyrics-test-test">"Rape" he screams.<br>
+In tongues Ive never heard before.<br>
+A world full of deceivers but I believe in you.<br>
+Cries of Credo.<br>
+How dare they ignore you.<br>
+God where are you?
+</p>
+
+      <h1 id="f10" class="lyrics-test">-Last Words To Rose-</h1>
+      <p class="lyrics-test-test">I am Bison and you are Rose<br>
+Sent here to destroy me.<br>
+I am forced to leave you.<br>
+This is Shadaloo.
+</p>
+
+      <h1 id="f11" class="lyrics-test">-A Voice From Below-</h1>
+      <p class="lyrics-test-test">There is nothing you cant do.<br>
+Let my voice be the one that guides you.<br>
+Now is the time I need you all to listen and repeat.<br>
+This worlds a prison but I swear that it wont be the death of me.<br>
+When all hope is gone you'll hear my voice.<br>
+You will my hear my voice.
+</p>
+
+      <h1 id="f12" class="lyrics-test">-Drug Dealer Friend-</h1>
+      <p class="lyrics-test-test">I wanna watch you suck his dick.<br>
+I know you fucking love it bitch.<br>
+Do you see me now?<br>
+Look into my fucking eyes.
+
+</p>
+
+      <h1 id="f13" class="lyrics-test">-My Name Is Thanos-</h1>
+      <p class="lyrics-test-test">You don't fucking know me.<br>
+And you never will.<br>
+I'm not from this world.<br>
+I didn't ask to be here.<br>
+Look down at me you'll see a fool.<br>
+Look up at me you'll see your God.<br>
+Look straight at me and you'll see yourself.
+</p>
+
+      <h1 id="f14" class="lyrics-test">-Lights Bring Salvation-</h1>
+      <p class="lyrics-test-test">Wake up.<br>
+The nightmares over now.<br>
+There coming from the clouds.<br>
+To save us from ourselves.<br>
+Wake the fuck up.<br>
+Who the fuck you gonna call?<br>
+When morning star begins to fall.</p>
+
+      <h1 id="f15" class="lyrics-test">-Word Of Intulo-</h1>
+      <p class="lyrics-test-test">We're all gonna fucking die<br>
+We're all gonna fucking die<br>
+We're all gonna fucking die<br>
+"Intulo has spoken before you. Now all earthly creation, including men will die."
+</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/slaveto.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Slave To The Game - 2012</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Insert Coin-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s2" class="lyrics-test">-Protoman-</h1>
+        <p class="lyrics-test-test">I stand alone, but I will not be broken.<br>
+I stand alone,<br>
+The truest words I've spoken.<br>
+Blood runs thin. I stand proof of this.<br>
+Where is my family when I need them?<br>
+So alone.<br>
+I will make sure I'm never forgotten.<br>
+I see clearly, you are my enemy.<br>
+<br>
+I stand alone, but I will not be broken.<br>
+I stand alone,<br>
+<br>
+
+You are my enemy.<br>
+<br>
+And now my dreams are slowly escaping me.<br>
+I don't need anyone. I don't need you.<br>
+I'm okay with dying alone. Dig my grave.<br>
+I hope you feel the same.<br>
+<br>
+Bide by time,<br>
+I'm gonna die, you're gonna die.<br>
+No one cares.<br>
+<br>
+Let them take me now.<br>
+<br>
+I'm already dead.<br>
+
+All I want is power and control. My cold soul.
+</p>
+
+        <h1 id="s3" class="lyrics-test">-She Gave Her Heart To Deadpool-</h1>
+        <p class="lyrics-test-test">I stare into a void.<br>
+My life is an emptyness.<br>
+Death, you are my mistress.<br>
+<br>
+I would do anything for you<br>
+Please stand by my side<br>
+I would do anything for you.<br>
+Just tell me who must die<br>
+I would do anything for you.<br>
+<br>
+You are the reason I'm alive.<br>
+<br>
+Becoming a god, a hollow victory.<br>
+<br>
+You are the reason I'm alive.<br>
+<br>
+Death my bride!<br>
+(You are the reason I'm alive.)<br>
+(I'm alive)<br>
+<br>
+I cannot live without you, but you don't need me.</p>
+
+        <h1 id="s4" class="lyrics-test">-I Am Onslaught-</h1>
+        <p class="lyrics-test-test">Hide behind my mask you fucking Coward,<br>
+You stand powerless,<br>
+Hide behind my mask you fucking coward,<br>
+I reject your presence.<br>
+<br>
+Know my name and fear it,<br>
+Know my name and fear it.<br>
+Feel my pain and anger<br>
+My hatred knows no limit<br>
+I cannot be destroyed<br>
+<br>
+I am onslaught,<br>
+I am onslaught,<br>
+<br>
+Hide behind my mask you fucking Coward,<br>
+You stand powerless,<br>
+Hide behind my mask you fucking coward,<br>
+I reject your presence.<br>
+<br>
+No one is safe<br>
+No one is safe<br>
+No one is safe<br>
+No one is safe<br>
+<br>
+Hide behind my mask you fucking Coward,<br>
+You stand powerless,<br>
+Hide behind my mask you fucking coward,<br>
+I reject your presence.<br>
+<br>
+I was born to destroy you will never escape me.<br>
+I was born to destroy you will never escape me.<br>
+<br>
+I am onslaught,<br>
+I am onslaught,<br>
+<br>
+Know my name and fear it<br>
+Know my name and fear it<br>
+<br>
+Feel my pain and anger<br>
+My hatred knows no limit<br>
+I cannot be destroyed
+
+</p>
+
+        <h1 id="s5" class="lyrics-test">-Bison Diaries-</h1>
+        <p class="lyrics-test-test">This place shall become your grave.<br>
+Behold my psycho power.<br>
+Cleanse myself of guilt and doubt.<br>
+I'll put you straight into the ground!<br>
+I'm no demon. I am a god.<br>
+Bow to my feet.<br>
+Succumb to me, or you will face defeat.<br>
+My psycho power.<br>
+I am the heartless one. Dictator I've become.<br>
+Leader of chosen few.<br>
+You are not worthy of Shadaloo.<br>
+<br>
+You have no choice coming with me.<br>
+I know your pain and misery.<br>
+Give allegiance to Shadaloo, or I am through with you.<br>
+<br>
+My legacy will never stop because I can't be killed. I am a god.<br>
+Vega the fallen one.</p>
+
+        <h1 id="s6" class="lyrics-test">-Poltergeist-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s7" class="lyrics-test">-Cross Over Attack-</h1>
+        <p class="lyrics-test-test">You will be saved.<br>
+Don't let the system bring you down.<br>
+Just walk away. (Just walk away)<br>
+Start over now.<br>
+Your partner will assist you.<br>
+<br>
+You best believe we're crossing over.<br>
+I'll stand by your side.<br>
+<br>
+Press start to continue.<br>
+This game isn't over.<br>
+Press start to continue<br>
+This game isn't over.<br>
+I've got a lot to prove.<br>
+<br>
+If I'm player one.<br>
+Then you're player two.<br>
+I've got alot to prove<br>
+<br>
+Don't let the system bring you down.<br>
+Just walk away. (Just walk away)<br>
+Start over now.<br>
+<br>
+Don't let the system bring you down.<br>
+Just walk away. (Just walk away)<br>
+Start over now.<br>
+<br>
+Just me and you against the world. (Just me and you against the world)<br>
+You best believe we're crossing over.<br>
+I'll stand by your side.<br>
+<br>
+I'll stand by your side!<br>
+<br>
+Just walk away.<br>
+Your partner will assist you.<br>
+<br>
+Don't let the system bring you down.<br>
+Just walk away. (Just walk away)<br>
+Start over now.<br>
+<br>
+Don't let the system bring you down.<br>
+Just walk away. (Just walk away)<br>
+Start over now.<br>
+<br>
+Right now, I need your help.<br>
+Please say you'll assist me.<br>
+<br>
+Just me and you against the world. (Just me and you against the world)<br>
+You best believe we're crossing over.<br>
+I'll stand by your side.</p>
+
+        <h1 id="s8" class="lyrics-test">-Umar Dumps Dormammu-</h1>
+        <p class="lyrics-test-test">Why?!<br>
+<br>
+If I’m a giver of life.<br>
+Then you’re a stealer of souls.<br>
+Why would you do this to me?<br>
+<br>
+Purification.<br>
+I cut my fucking ties.<br>
+I swear I’m through with you.<br>
+Purification.<br>
+I guess your whole life is a lie.<br>
+<br>
+If I’m a giver of life.<br>
+Then you’re a stealer of souls.<br>
+Why would you do this to me?<br>
+<br>
+Poor Dormammu.<br>
+No one loves me.<br>
+Poor Dormammu.<br>
+No one loves me.<br>
+<br>
+(Hello?)<br>
+(Where are you?)<br>
+(I’m in Brooklyn)<br>
+(Why aren’t you here?)<br>
+(Goodbye)<br>
+<br>
+I couldn’t get over how quick you said goodbye.<br>
+And so I sit and question why am I alive?<br>
+So I called you in the middle of the night.<br>
+Just to hear you say hello one last time<br>
+(hello?)<br>
+<br>
+Purification.<br>
+I cut my fucking ties.<br>
+I swear I’m through with you.<br>
+Purification.<br>
+I guess your whole life is a lie.<br>
+<br>
+If I’m a giver of life.<br>
+Then you’re a stealer of souls.<br>
+Why would you do this to me?</p>
+
+        <h1 id="s9" class="lyrics-test">-Blackheart Reigns-</h1>
+        <p class="lyrics-test-test">Dear Mephisto,<br>
+Tell me why have you created me?<br>
+A product of Christ crowns disgusting vile evil ways.<br>
+And now all I wish is just for you to set me free.<br>
+Black heart reigns.<br>
+<br>
+Son of Satan.<br>
+Call me what you will.<br>
+Let the light shine on these horns of mine.<br>
+<br>
+You think this is manipulative?<br>
+This is my wrath at its absolute weakest.<br>
+<br>
+Black heart reigns.<br>
+Son of Satan.<br>
+Black heart reigns.<br>
+Call me what you will.<br>
+Black heart reigns.<br>
+Let the light shine on these horns of mine.<br>
+Black heart reigns.<br>
+<br>
+Black heart reigns.<br>
+This is the realm of the accursed.<br>
+<br>
+This is my heart of darkness.<br>
+<br>
+Welcome to hell.<br>
+Black heart reigns.<br>
+<br>
+Son of Satan.<br>
+Call me what you will.<br>
+Let the light shine on these horns of mine.<br>
+<br>
+Black heart reigns.<br>
+Son of Satan.<br>
+Black heart reigns.<br>
+Call me what you will.<br>
+Black heart reigns.<br>
+Let the light shine (Black heart reigns) on these horns of mine.</p>
+
+        <h1 id="s10" class="lyrics-test">-MDMA-</h1>
+        <p class="lyrics-test-test">It seems the lower that I go,<br>
+The better I begin to feel.<br>
+I don’t want this life,<br>
+If nothing I feel is real.<br>
+<br>
+Don’t act so concerned.<br>
+I tried my fucking best.<br>
+But letting go was never an option.<br>
+I’ve got this hole stuck in my chest.<br>
+<br>
+Let go.<br>
+That’s what you said.<br>
+But letting go was never an option.<br>
+I tried my fucking best.<br>
+<br>
+Let go.<br>
+That’s what you said.<br>
+But letting go was never an option.<br>
+I tried my fucking best.<br>
+<br>
+You said it was never goodbye.<br>
+Liar!<br>
+<br>
+It seems the lower that I go,<br>
+The better I begin to feel.<br>
+I don’t want this life,<br>
+If nothing I feel is real.<br>
+<br>
+Don’t act so concerned.<br>
+I tried my fucking best.<br>
+But letting go was never an option.<br>
+I’ve got this hole stuck in my chest.<br>
+<br>
+I don’t expect you to understand.<br>
+What I lost in you,<br>
+I’m never getting back.<br>
+And you don’t care.<br>
+<br>
+Let go.<br>
+That’s what you said.<br>
+But letting go was never an option.<br>
+I tried my fucking best.<br>
+<br>
+Let go.<br>
+That’s what you said.<br>
+But letting go was never an option.<br>
+I tried my fucking best.<br>
+[Fading Out]</p>
+
+        <h1 id="s11" class="lyrics-test">-War Begins With You-</h1>
+        <p class="lyrics-test-test">Now here’s the truth.<br>
+I pull the knives out of my back.<br>
+And give them right back to you.<br>
+This is the way I choose to cope.<br>
+My only escape.<br>
+And you will get what you deserve.<br>
+I hope you’re listening.<br>
+Mark my words.<br>
+<br>
+And we’re all laughing at you.<br>
+Behind your back and to your face.<br>
+You cannot take back what you said.<br>
+You paint a past you can’t erase.<br>
+I don’t feel sorry for you.<br>
+I hope you choke before you speak.<br>
+So keep my name out of your mouth.<br>
+You are the fucking disease.<br>
+<br>
+I’ve got nothing to fight for.<br>
+So I’m gonna buy a gun and start a war.<br>
+I’m ready to even the score.<br>
+<br>
+I’ve got nothing to fight for.<br>
+So I’m gonna buy a gun and start a war.<br>
+<br>
+Put a bullet in your fucking dome bitch.<br>
+My disappointments over shadowed by your lack of respect.<br>
+I fucking hate you bitch.<br>
+<br>
+This is the way I choose to cope.<br>
+My only escape.<br>
+I hope you’re listening.<br>
+Mark my words.<br><br>
+
+And we’re all laughing at you.<br>
+Behind your back and to your face.<br>
+You cannot take back what you said.<br>
+You paint a past you can’t erase.<br>
+I don’t feel sorry for you.<br>
+I hope you choke before you speak.<br>
+So keep my name out of your mouth.<br>
+You are the fucking disease.<br>
+<br>
+I’ve got nothing to fight for.<br>
+So I’m gonna buy a gun and start a war.<br>
+I’m ready to even the score.<br>
+<br>
+I’ve got nothing to fight for.<br>
+So I’m gonna buy a gun and start a war.</p>
+
+        <h1 id="s12" class="lyrics-test">-A.I.-</h1>
+        <p class="lyrics-test-test">Just remember you killed me first.<br>
+Your corpse, My Trophy.<br>
+But oh my god, this still hurts.<br>
+Just remember you killed me first.<br>
+Your blood shall lift this curse.<br>
+<br>
+Go warn your brother.<br>
+Your time is up.<br>
+I’m gonna find you.<br>
+And lift this curse.<br>
+<br>
+You turned me into a murderer.<br>
+Put this knife in your neck.<br>
+Just remember you killed me first.<br>
+So watch your fucking back.<br>
+<br>
+You turned me into a murderer.<br>
+Just remember you killed me first.<br>
+You turned me into a murderer.<br>
+So watch your fucking back.<br>
+<br>
+And I know that your family will be missing you,<br>
+And your family will never know the truth.<br>
+<br>
+Go warn your brother.<br>
+Your time is up.<br>
+I’m gonna find you.<br>
+And lift this curse.
+</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/eternale.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Eternal Enemies - 2014</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-(Untitled)-</h1>
+          <p class="lyrics-test-test">Get it through your fucking head!<br>
+All your friends are fucking dead.<br>
+Yeah they got what they deserved!<br>
+Stop acting hard you know it hurts.<br>
+Your what was living in the dark.<br>
+Holy fucking shit.<br>
+I'm having too much fun.<br>
+Killing everyone.<br>
+That you've ever loved.<br>
+All your<br>
+Friends are fucking dead.<br>
+Yeah they got what they deserved.<br>
+Stop acting hard you know it hurts.<br>
+Your what was living in the dark.</p>
+
+          <h1 id="t2" class="lyrics-test">-Nemesis-</h1>
+          <p class="lyrics-test-test">No I don't care what they want<br>
+I'll never be what you want me to be<br>
+(What you want me to be)<br>
+Don't give a fuck what you think<br>
+(Fuck you)<br>
+Just get the fuck away from me<br>
+(Away from me)<br>
+<br>
+I swear I tried my best to ignore it all<br>
+(And walk away)<br>
+But it's too late<br>
+I want to spit the poison back in your face<br>
+<br>
+No I don't care what they want<br>
+I'll never be what you want me to be<br>
+Don't give a fuck what you think<br>
+Just get the fuck away from me<br>
+<br>
+That's the way of the world<br>
+They want to see you live on your knees<br>
+When you refuse to conform another door shuts (and)<br>
+<br>
+No I don't care what they want<br>
+I'll never be what you want me to be<br>
+(What you want me to be)<br>
+Don't give a fuck what you think<br>
+(Fuck you)<br>
+Just get the fuck away from me<br>
+(Get the Fuck away from me)<br>
+<br>
+Yeah you can beg all you want<br>
+Cause nothing is going to fucking change<br>
+You sealed your fate the day you crossed me<br>
+<br>
+This is my message to a dying world<br>
+I fucking hate you<br>
+You'll get what you deserve<br>
+<br>
+This is my message to a dying world<br>
+I fucking hate you<br>
+You'll get what you deserve<br>
+(DO YOU HEAR ME!?)<br>
+<br>
+This is my message to a dying world<br>
+(YOU PIECE OF SHIT!)<br>
+I fucking hate you<br>
+You'll get what you deserve<br>
+(RUN, RUN!)<br>
+<br>
+This is my message to a dying world<br>
+I fucking hate you<br>
+You'll get what you deserve<br>
+<br>
+DO YOU HEAR ME NOW?!</p>
+
+          <h1 id="t3" class="lyrics-test">-N.I.A. (News In Arizona)-</h1>
+          <p class="lyrics-test-test">I'm a god damn sociopath.<br>
+I'm a thief. I'm a liar. Devil in the flesh.<br>
+I only want to use you.<br>
+Fuck you. Leave you high and dry<br>
+<br>
+I'm damaged goods,<br>
+I'm the toy you broke and threw away.<br>
+But I'll remain above it all stuck underneath<br>
+<br>
+No one can face me now.<br>
+<br>
+I'll keep your head for peace-keeping.<br>
+Whisper to your daughter<br>
+“Shh be quiet now mommy is sleeping”<br>
+They put my face on the news<br>
+To show people there’s a killer on the loose<br>
+A jealous lover who has nothing to lose.<br>
+<br>
+No, no, no.<br>
+No, why? No.<br>
+<br>
+I'm a god damn sociopath.<br>
+I'm a thief. I'm a liar. Devil in the flesh.<br>
+I only want to use you.<br>
+Fuck you. Leave you high and dry<br>
+<br>
+I'm damaged goods,<br>
+I'm the toy you broke and threw away.<br>
+But I'll remain above it all stuck underneath<br>
+<br>
+No one can face me now.<br>
+No one can face me now.<br>
+<br>
+You're gonna die in Sedona</p>
+
+          <h1 id="t4" class="lyrics-test">-The Hang Up-</h1>
+          <p class="lyrics-test-test">I'm fucking losing my mind<br>
+Yet again<br>
+Everything you do just makes me sick<br>
+Bullshit you say<br>
+To get attention<br>
+Shit's pretentious<br>
+I'm growing tired of your shit<br>
+<br>
+When I'm grabbing the mic<br>
+What do you see?<br>
+Image obsessed<br>
+Go buy a motherfucking magazine<br>
+<br>
+Go home<br>
+Die slow<br>
+Nobody cares about you<br>
+<br>
+Go home<br>
+Die slow<br>
+And write a song about me<br>
+<br>
+You're so new school<br>
+I wonder why everything you do is sick and fly<br>
+Take off your shades<br>
+You wanna talk about gimmicks?<br>
+Look at yourself<br>
+You wanna talk about gimmicks?<br>
+Look at yourself<br>
+When you're alone I know you're somebody else<br>
+<br>
+I'm the realest motherfucker in the game<br>
+I see you faggots living perfect lives<br>
+Selling all your bullshit angst<br>
+Sold my soul<br>
+So, Satan explain<br>
+Where's my money, power, fame?<br>
+Satan explain<br>
+Where's my money, power, fame?<br>
+I'm the realest motherfucker in the game<br>
+So check yourself before you ever say my name
+</p>
+
+          <h1 id="t5" class="lyrics-test">-A Gift A Curse-</h1>
+          <p class="lyrics-test-test">What I've done what I've seen<br>
+The lives I've touched, what does it mean?<br>
+Losing track of everything<br>
+I gave it all but what did I gain<br>
+And I don't care what waits for me<br>
+On the other side of life's release<br>
+Cause when I close my eyes your face is all I see<br>
+So even if I die I'll never rest in peace<br>
+<br>
+I was desperate just to shine<br>
+Now I struggle constantly to survive<br>
+<br>
+I, I have nothing to prove to you<br>
+<br>
+What I've done what I've seen<br>
+The lives I've touched, what does it mean?<br>
+Losing track of everything<br>
+I gave it all but what did I gain<br>
+And I don't care what waits for me<br>
+On the other side of life's release<br>
+Cause when I close my eyes your face is all I see<br>
+So even if I die I'll never rest in peace<br>
+<br>
+And I tried so many times<br>
+To show that what I feel is real<br>
+No this is not a joke, but you keep pushing me<br>
+You, you keep pushing me<br>
+I’ve never come so far<br>
+I guess I’m coming back<br>
+And now I have my soul<br>
+You’ll fucking burn in hell<br>
+Burn<br>
+Nothing changes<br>
+All I know is that I'm alone in this<br>
+Silently I wait hoping you’ll come back for me<br>
+All I know is that I'm alone in this<br>
+Silently I wait hoping you’ll come back for me<br>
+<br>
+Seems like I'll be waiting til the end<br>
+Knowing that I can’t<br>
+Speak to you again<br>
+Just a silly love affair<br>
+<br>
+I don't need your empty words or bullshit sympathy<br>
+So here's a gift for all those years of mocking me<br>
+<br>
+Now I will shove this evil upon you<br>
+You deserve to feel what I'm going through<br>
+Now I will shove this evil upon you<br>
+You deserve to feel what I'm going through
+</p>
+
+          <h1 id="t6" class="lyrics-test">-E-</h1>
+          <p class="lyrics-test-test">Get up.<br>
+<br>
+Yeah I know you're fucking feelin me now.<br>
+And if you're with me standing out in the crowd,<br>
+Bounce.<br>
+<br>
+If you got my fucking back then just say (Hell Yeah)<br>
+You're down with me and my team (Hell Yeah)<br>
+You're fucking sick of the scene (Hell Yeah)<br>
+cuz nothing is what it seems.<br>
+<br>
+Let's get to the point.<br>
+<br>
+You know it, you know it, you know it, you know it,<br>
+You know it all, you know it all.<br>
+Turns out you know nothing at all.<br>
+<br>
+You want it, you want it, you want it, you want it,<br>
+You want it all, you want it all.<br>
+But you cannot get what you want.<br>
+<br>
+Tonight, I wanna see you moving from side to side.<br>
+From the front to the back,<br>
+If you're with me, then where the fuck are you at?<br>
+<br>
+Nothing is what it seems.<br>
+Nothing is what it seems.<br>
+<br>
+What?<br>
+<br>
+If you got my fucking back then just say (Hell Yeah)<br>
+You're down with me and my team (Hell Yeah)<br>
+You're fucking sick of the scene (Hell Yeah)<br>
+cuz nothing is what it seems.<br>
+<br>
+And if you're keeping it real then I'm keeping it real.<br>
+So if you're with me, then where the fuck are you at?</p>
+
+          <h1 id="t7" class="lyrics-test">-Like LaMotta-</h1>
+          <p class="lyrics-test-test">Do you really wanna know<br>
+What it took to be all alone at the top of the food chain?<br>
+When I'm up there standing in front of cameras<br>
+A thousand eyes staring at you hoping you fall<br>
+I was made for this, I know the sound of glory calling and I couldn't resist<br>
+<br>
+From what I've learned of the years of ups and downs<br>
+The whole game can change just when you figure it out<br>
+So let me give you, a little piece of advice<br>
+Just be yourself kid, the rest will fall into place<br>
+<br>
+Like LaMotta, I'm only here to tell you, you better save yourself<br>
+Like LaMotta, I'm only here to tell you, you better save yourself<br>
+<br>
+When did it start? Let me begin<br>
+Chapter 1 page 1, are you listening?<br>
+<br>
+I wanna bring you back to the streets<br>
+Passing out my fucking demo for free<br>
+Passing fliers when it's 20 degrees<br>
+To promote my show<br>
+That's some shit you knew, just will never fucking know<br>
+<br>
+Yeah that's some shit you knew, just will never fucking know<br>
+<br>
+From what I've learned of the years of ups and downs<br>
+The whole game can change just when you figure it out<br>
+So let me give you, a little piece of advice<br>
+Just be yourself kid, the rest will fall into place<br>
+<br>
+Like LaMotta, I'm only here to tell you, you better save yourself<br>
+Like LaMotta, I'm only here to tell you, you better save yourself<br>
+Like LaMotta, I'm only here to tell you, you better save yourself<br>
+Like LaMotta, I'm only here to tell you, you better save yourself<br>
+<br>
+You better save yourself<br>
+I'm only here to tell you, you better save yourself
+
+</p>
+
+          <h1 id="t8" class="lyrics-test">-Free Publicity-</h1>
+          <p class="lyrics-test-test">It's becoming quite clear<br>
+I've dug myself a little deeper it seems<br>
+And there's no way out<br>
+Unless I die<br>
+Just to get you off the fucking back<br>
+Leave me alone, I'm only human<br>
+I never said that we're perfect<br>
+I'm saying sorry but it seems you only care for my faults<br>
+So I'm taking it back, now I don't give a fuck<br>
+<br>
+You two-faced fucking coward<br>
+Why don't you say it to my face?<br>
+<br>
+I bet you won't<br>
+Yeah you're just lucky that I'm someone with so much to lose<br>
+I bet you won't<br>
+Now I know better than to<br>
+Talk to someone who's so weak and so spineless<br>
+Remember without me your life doesn't mean shit<br>
+<br>
+You fucking coward<br>
+I know you hate yourself<br>
+I know you hate yourself<br>
+<br>
+(One punch to this guy, would knock him the fuck out)<br>
+<br>
+Bring it<br>
+Give me your best shot, give me your best shot, give me your best shot<br>
+Bring it<br>
+Give me your best shot, give me your best shot, give me your best shot<br>
+<br>
+I know you hate yourself<br>
+I know you hate yourself
+</p>
+
+          <h1 id="t9" class="lyrics-test">-Most Hated-</h1>
+          <p class="lyrics-test-test">This is what I'm all about.<br>
+No regrets, no fucking doubts.<br>
+So you better watch your fucking mouth.<br>
+Before I put you on the fucking ground.<br>
+Bitch.<br>
+<br>
+Yeah I'm the motherfucker people always talking about.<br>
+(Ah shit)<br>
+I see you standing arms crossed tryna stare me down.<br>
+(Get bent)<br>
+And if you wanna see me fail I'll say it nice and loud.<br>
+(Eat dick)<br>
+And you can hate me all you want because I don't give a shit.<br>
+<br>
+I'm not done.<br>
+In fact I'm just getting started.<br>
+On my grind.<br>
+True God is an understatement.<br>
+<br>
+Yeah I'm the motherfucker people always talking about.<br>
+(Ah shit)<br>
+I see you standing arms crossed tryna stare me down.<br>
+(Get bent)<br>
+And if you wanna see me fail I'll say it nice and loud.<br>
+(Eat dick)<br>
+And you can hate me all you want because I don't give a shit.<br>
+<br>
+So who the fuck are you?<br>
+What do you want?<br>
+So who the fuck are you?<br>
+What do you want?<br>
+<br>
+This is what I'm all about.<br>
+No regrets, no fucking doubts.<br>
+So you better watch your fucking mouth.<br>
+Before I put you on the fucking ground.<br>
+<br>
+Yeah.<br>
+Bitch.<br>
+<br>
+Yeah I'm the motherfucker people always talking about.<br>
+(Ah shit)<br>
+I see you standing arms crossed tryna stare me down.<br>
+(Get bent)<br>
+And if you wanna see me fail I'll say it nice and loud.<br>
+(Eat dick)<br>
+And you can hate me all you want because I don't give a shit.
+</p>
+
+          <h1 id="t10" class="lyrics-test">-Grave Markings-</h1>
+          <p class="lyrics-test-test">This is my legacy<br>
+This is my life I know exactly how I want it to be<br>
+Don't you dare ever tread on me<br>
+I live and learn and try my best to not repeat my mistakes<br>
+<br>
+There's no stones for my sins<br>
+Which I built a castle with<br>
+<br>
+But I wonder, will I be remembered for the good I've done,<br>
+Or will my name be stained forever?<br>
+<br>
+I stand as living proof that if you always believe<br>
+And never give up your dreams,<br>
+that anything is possible<br>
+Don't be afraid to face the world<br>
+<br>
+Don't you try to flee…<br>
+You can't just run away<br>
+Never listen to those who don't believe in you<br>
+<br>
+But I wonder, will I be remembered<br>
+For the good I've done?<br>
+Or will my name be stained forever<br>
+I wonder, will I be remembered?<br>
+Or will my name be stained forever<br>
+<br>
+Promise me you'll fight<br>
+Until there's nothing left<br>
+Promise to me that you'll never give up<br>
+Promise to me that you'll never surrender<br>
+<br>
+But I wonder, will I be remembered<br>
+For the good I've done?<br>
+Or will my name be stained forever<br>
+I wonder, will I be remembered?<br>
+Or will my name be stained forever</p>
+
+          <h1 id="t11" class="lyrics-test">-Hitomi's Shinobi-</h1>
+          <p class="lyrics-test-test">"You're my queen Tanaka-san<br>
+I swear I'd kill for you, I think I'd die for you<br>
+You're my dream, you're all I want<br>
+To love and worship you, it's what I'm born to do<br>
+May my next breath be my last<br>
+If just to touch you once, I don't care what it costs<br>
+Must I speak in foreign tongue?<br>
+Aishiteru, Aishiteru"<br>
+<br>
+"What must I do?<br>
+To live this fantasy<br>
+What must I do?<br>
+You must belong to me"<br>
+<br>
+"I've grown so weary of rejection<br>
+I beg to feel your perfection<br>
+Please let me be rewarded<br>
+You're everything I ever wanted"<br>
+<br>
+"Please come to me, Hitomi<br>
+Please come to me<br>
+Please, Hitomi, please"<br>
+<br>
+"You're my queen Tanaka-san<br>
+I swear I'd kill for you, I think I'd die for you<br>
+You're my dream, you're all I want<br>
+To love and worship you, it's what I'm born to do<br>
+May my next breath be my last<br>
+If just to touch you once, I don't care what it costs<br>
+Must I speak in foreign tongue?<br>
+Aishiteru, Aishiteru"<br>
+<br>
+"What must I do?<br>
+What must I do?<br>
+Please come to me, Hitomi<br>
+Please come to me<br>
+Hitomi<br>
+What must I do?<br>
+What must I do?"</p>
+
+          <h1 id="t12" class="lyrics-test">-Rat King-</h1>
+          <p class="lyrics-test-test">We are the hate (we are the hate)<br>
+that you created (that you created)<br>
+Born again in the grave you tried to put us in<br>
+<br>
+No, no we will not be stopped<br>
+You can kill me, but you can't kill us all<br>
+Now my friend I've come to test your faith<br>
+Will you still believe in me?<br>
+<br>
+Cause I believe in you, I believe in you<br>
+We are the scorned, pitiful and flawed<br><br>
+
+Nobody's perfect, don't believe the hype<br>
+This time you'll open your fucking eyes<br>
+And take a look inside,<br>
+I am inside of you,<br>
+I am inside of you<br>
+<br>
+So no, you can kill me, but you can't kill us all<br>
+Now my friend I've come to test your faith<br>
+Will you still believe in me?<br>
+<br>
+Cause I believe in you, I believe in you<br>
+We are the scorned, pitiful and flawed<br>
+<br>
+Nobody's perfect, don't believe the hype<br>
+This time you'll open your fucking eyes<br>
+And take a look inside,<br>
+I am inside of you,<br>
+I am inside of you</p>
+
+          <h1 id="t13" class="lyrics-test">-Girls Don't Like Boys, Girls Like 40's And Blunts-</h1>
+          <p class="lyrics-test-test">Take another hit. Feeling dangerous?<br>
+Let me show you how to let go and lose your grip<br>
+Take another hit. Feeling dangerous?<br>
+Let me show you how to change your perspective.<br>
+<br>
+24 hours of lust and regret<br>
+You might hate me when it's done but you'll never forget<br>
+With my hands around your neck<br>
+Raping your soul with drugs and sex.<br>
+<br>
+I wanna fuck your pretty face.<br>
+Join the club and tell me how does it taste?<br>
+<br>
+Hit me up.<br>
+I know exactly what you want you fucking slut.<br>
+Daddy doesn't love you enough.<br>
+So hit me up and tell me how it is you wanna get fucked?<br>
+<br>
+You stupid fucking slut<br>
+It's no surprise, daddy doesn't love you enough<br>
+<br>
+Take another hit. Feeling dangerous?<br>
+Let me show you how to let go and lose your grip<br>
+Take another hit. Feeling dangerous?<br>
+Let me show you how to change your perspective.<br>
+<br>
+Take another hit<br>
+You stupid fucking bitch<br>
+<br>
+Yeah you know what daddy likes<br>
+<br>
+Hit me up.<br>
+I know exactly what you want you fucking slut.<br>
+Daddy doesn't love you enough.<br>
+So hit me up and tell me how it is you wanna get fucked?<br>
+<br>
+You stupid fucking slut<br>
+It's no surprise, it's no surprise, daddy doesn't love you enough</p>
+
+          <h1 id="t14" class="lyrics-test">-New Age Rambler-</h1>
+          <p class="lyrics-test-test">Don't even bother speaking, don't ask me about how I feel today<br>
+It's just another city, another group of faces with no names<br>
+And I refuse to imagine a world outside this place<br>
+Just these four walls as I wait for this little bus<br>
+<br>
+Seems all I've made are enemies who celebrate my misery<br>
+All that I they gave and took away<br>
+I have everything but what I<br>
+Need<br>
+Need<br>
+I have everything<br>
+Everything but what I need<br>
+<br>
+You'll find me sitting in silence<br>
+Separating myself from the talking sheep<br>
+Searching for peace in empty bars<br>
+Tell me what I'm …<br>
+<br>
+Seems all I've made are enemies who celebrate my misery<br>
+All that I they gave and took away<br>
+I have everything but what I<br>
+Need<br>
+Need<br>
+I have everything<br>
+Everything but what I need</p>
+
+          <h1 id="t15" class="lyrics-test">-We Were Just Kids-</h1>
+          <p class="lyrics-test-test">Too much too soon<br>
+Or is that simply my excuse?<br>
+<br>
+Dear world, I must give this confession<br>
+I only hope it brings redemption<br>
+For far too long I played the victim<br>
+Hoping someone would pay attention<br>
+<br>
+Too much too soon<br>
+Or is that simply my excuse?<br>
+Too much too soon<br>
+For everything I did to you<br>
+Too much too soon<br>
+Or is that simply my excuse?<br>
+Too much too soon<br>
+For everything I did to you<br>
+<br>
+All of my mistakes<br>
+There's nothing I can do to fix it now<br>
+I didn't want to hurt you<br>
+I just wish you could understand<br>
+<br>
+
+I'm sorry that I ever hurt you<br>
+And that your trust in me was worthless<br>
+And now I know what the fucking truth is<br>
+I want your heart but I don't deserve it<br>
+<br>
+Too much too soon<br>
+Or is that simply my excuse?<br>
+Too much too soon<br>
+For everything I did to you<br>
+Too much too soon<br>
+Or is that simply my excuse?<br>
+Too much too soon<br>
+For everything I did to you
+</p>
+        </div>
+      </div>
+
+      <div class="lyrics-layout">
+        <div class="lyrics-layout_image">
+          <img id="fourth" class="lyrics-page_image" src="./images/lookatt.jpg" height= "100%" width="auto"/>
+        </div>
+        <div class="lyrics-page_album-title_wrap">
+          <h1 class="lyrics-page_album-title">Look At Yourself - 2017</h1>
+        </div>
+          <div class="lyrics-page_album-songs">
+            <h1 id="ff1" class="lyrics-test">-You Asked For It-</h1>
+            <p class="lyrics-test-test">Get the fuck up!<br>
+Yeah!<br>
+What?<br>
+Move!</p>
+
+            <h1 id="ff2" class="lyrics-test">-Shinjuku Masterlord-</h1>
+            <p class="lyrics-test-test">I'm back with a vengeance.<br>
+You had your moment now its time for you all to repent.<br>
+I'm back with that real shit.<br>
+So grab your pencil and prepare to take note my friend.<br>
+<br>
+Let me show you how to kill it like a prodigy.<br>
+Scratch your dreams like your daddy playing lottery.<br>
+Watch me make the crowd go dumb like lobotomy.<br>
+Everything I touch turn dust say goodbye to me.<br>
+<br>
+No I don't think you really ready for the realness.<br>
+White kid with the shoulder got a real chip.<br>
+From the front to the back make you feel this.<br>
+<br>
+Do you really think I give a fuck?<br>
+Because I don't.<br>
+Let me ask you one more time.<br>
+You think I give a fuck?<br>
+Because I don't.<br>
+Move out the way so I can spit my shit.<br>
+<br>
+You've got a lot of fucking nerve.<br>
+To stand there and judge me like your shit don't stink.<br>
+I suggest you take a fucking seat<br>
+And listen up I'll say this once cause I'm that<br>
+<br>
+O.G guaranteed to get shit started<br>
+Shut the whole game down then restart it,<br>
+Break a bitch in two like the sea parted.<br>
+No love for the weak or the fainthearted.<br>
+<br>
+See me sitting in the cut?<br>
+Roll a new one.<br>
+If you see me in the streets<br>
+What it do son?<br>
+No strings on me like Toulon.<br>
+<br>
+Do you really think I give a fuck?<br>
+Because I don't.<br>
+Let me ask you one more time.<br>
+You think I give a fuck?<br>
+Because I don't.<br>
+Move out the way so I can spit my shit<br>
+<br>
+You think I give a fuck?<br>
+Because I don't.<br>
+Let me ask you one more time.<br>
+You think I give a fuck?<br>
+Because I don't.<br>
+Move out the way so I can spit my shit<br>
+<br>
+I wanna know.<br>
+What do you really think?<br>
+<br>
+I wanna know.<br>
+What do you really think?<br>
+<br>
+You think I give a fuck?!<br>
+Because I don't!<br>
+<br>
+Don't get it twisted bitch.<br>
+<br>
+You think I give a fuck?!<br>
+Because I don't!
+</p>
+
+            <h1 id="ff3" class="lyrics-test">-Smokey-</h1>
+            <p class="lyrics-test-test">Running in circles.<br>
+So it seems.<br>
+<br>
+Running in circles.<br>
+Never ends.<br>
+<br>
+Tragically, you are stuck<br>
+Stuck in time.<br>
+Unlike me, gliding free.<br>
+So linear.<br>
+<br>
+Just like a dog.<br>
+Dirt on your paws.<br>
+<br>
+Just like a dog.<br>
+You dig your own grave.<br>
+<br>
+Run!<br>
+<br>
+Show your teeth.<br>
+Now play dead.<br>
+<br>
+Show your teeth.<br>
+Now play dead.<br>
+<br>
+Show your teeth.<br>
+Now play dead.<br>
+<br>
+Show your teeth.<br>
+Now play dead.<br>
+<br>
+All bark<br>
+No bite<br>
+You dumb little bitch.
+
+</p>
+
+            <h1 id="ff4" class="lyrics-test">-Natural Born Killer-</h1>
+            <p class="lyrics-test-test">Devil in me.<br>
+I only feel alive when I hurt you.<br>
+<br>
+Your misery.<br>
+I cherish the moments you die inside.<br>
+<br>
+I suggest you run and hide.<br>
+This is your last chance.<br>
+<br>
+I'll fucking hurt you.<br>
+<br>
+I wanna kill you!<br>
+<br>
+Meet the devil in me.<br>
+Do you like what you see?<br>
+<br>
+And if I'm back on the streets<br>
+It's not sweat, I'm relieved.<br>
+At least I got a chance to show you what you've done to me.<br>
+My whole life I've been bent on revenge.<br>
+<br>
+I'll put you in the same grave as your friends.<br>
+Ask anybody I'm as real as it gets.<br>
+<br>
+Bitch.<br>
+<br>
+I'll fucking hurt you.<br>
+<br>
+I wanna kill you!<br>
+<br>
+Meet the devil in me.<br>
+Do you like what you see?<br>
+<br>
+Meet the devil in me.<br>
+Do you like what you see?</p>
+
+            <h1 id="ff5" class="lyrics-test">-Flag Of The Beast-</h1>
+            <p class="lyrics-test-test">What more could I possibly say.<br>
+I've gone above and beyond of what you thought I'd be.<br>
+There's no surprise to me you just can't relate.<br>
+The depths I've fallen, you would never been able to take.<br>
+<br>
+But if you think you can then step up to plate.<br>
+<br>
+First you see it, then you don't believe it,<br>
+Then you're gonna be there to question "Why?".<br>
+Why am I the one who has to suffer and be crucified?<br>
+Some will call it fate,<br>
+or call it karma,<br>
+or simply call it fucked.<br>
+Say your getting older,<br>
+moving forward,<br>
+to me you're giving up.<br>
+<br>
+I am your fucking savior.<br>
+I am the fucking anti-Christ.<br>
+<br>
+Do you think you can handle the nightmare, of being alive when no one cares?<br>
+<br>
+But if you think you can then step up to plate.<br>
+<br>
+First you see it, then you don't believe it,<br>
+Then you're gonna be there to question "Why?".<br>
+Why am I the one who has to suffer and be crucified?<br>
+Some will call it fate,<br>
+or call it karma,<br>
+forget it,<br>
+call it fucked.<br>
+Say your getting older,<br>
+moving forward,<br>
+to me you're giving up.<br>
+<br>
+The critics and comments<br>
+The press and the nonsense<br>
+The fans who feel cheated and venues I damaged.<br>
+The people who left me and those who I banished.<br>
+Fuck it, I'm done.<br>
+I've got one thing to say.<br>
+Hate me if you it makes you feel better.<br>
+<br>
+I am your fucking savior.<br>
+I am the fucking anti-Christ.<br>
+I am the one and only answer.<br>
+I am the fucking anti-Christ.<br>
+<br>
+Hate me if you it makes you feel better.<br>
+You can hate me if you it makes you feel better.
+
+</p>
+
+            <h1 id="ff6" class="lyrics-test">Ice Man Confessions-</h1>
+            <p class="lyrics-test-test">Lately I've been trying desperately to<br>
+Understand these flaws that make me, me.<br>
+I know I've got some problems.<br>
+So tell me what's so perfect about you anyway?<br>
+<br>
+I thought I told you.<br>
+<br>
+I don't feel a thing I'll catch a body on a Tuesday.<br>
+It's not a joke I'll make you wish you never knew me.<br>
+<br>
+I don't feel a thing I'll catch a body on a Tuesday.<br>
+You're greeting reapers if you see me coming through G.<br>
+<br>
+30 minutes till you see the truth.<br>
+You can pray but no ones coming.<br>
+<br>
+Sometimes I sit and regret the thing's I've done.<br>
+The things I've said.<br>
+And now I live with the constant reminder of who I was<br>
+And the struggle of who I am.<br>
+<br>
+I thought I told you.<br>
+<br>
+I don't feel a thing I'll catch a body on a Tuesday.<br>
+It's not a joke I'll make you wish you never knew me.<br>
+<br>
+I don't feel a thing I'll catch a body on a Tuesday.<br>
+You're greeting reapers if you see me coming through G.<br>
+<br>
+30 minutes till you see the truth.<br>
+You can pray but no ones coming for you.<br>
+<br>
+30 minutes till you see the truth.<br>
+You can pray but no ones coming.</p>
+
+            <h1 id="ff7" class="lyrics-test">-Russian Hotel Aftermath-</h1>
+            <p class="lyrics-test-test">The only reason I continue to live is to spite you<br>
+Press my ear against the door<br>
+To hear the truth in your scathing words<br>
+<br>
+The hardest part<br>
+The hardest part<br>
+Is admitting to myself...<br>
+The hardest part<br>
+The hardest part<br>
+Is admitting to myself that you were right<br>
+<br>
+I'm just a loser<br>
+<br>
+A letter to my future self;<br>
+How the fuck you doing kid?<br>
+You went and ruined everything<br>
+Gone and fucked up all your dreams<br>
+Pour a drink on to the street<br>
+For all the friends you wish you had<br>
+Now that no one gives a fuck<br>
+It seems you went and ended up<br>
+Where you deserve, I guess<br>
+<br>
+I guess<br>
+<br>
+I've lived too long<br>
+I've lived too long<br>
+The only way I can make sense of this mess<br>
+I've lived too long<br>
+I've lived too long<br>
+The only way I can make sense of this mess<br>
+<br>
+Are you happy now?<br>
+Are you happy now?<br>
+Are you happy now that I hate myself?<br>
+<br>
+I hate myself<br>
+I hate myself<br>
+I hate myself<br>
+<br>
+Are you happy now?<br>
+I hate myself<br>
+<br>
+I hate myself<br>
+Are you happy now?</p>
+
+            <h1 id="ff8" class="lyrics-test">-Call Me Ninib-</h1>
+            <p class="lyrics-test-test">I am the Saturn God.<br>
+You are all my bastard sons.<br>
+Kneel before the chosen one.<br>
+If I were to cut you open I'd see my blood.<br>
+<br>
+Where will you run to now?<br>
+When everything that you think you know changes.<br>
+<br>
+Where will you run to now?<br>
+When all the lights they no longer shine for you.<br>
+<br>
+Where will you run to now?<br>
+You're out of time, had your best years wasted.<br>
+<br>
+Where will you run to now?<br>
+When all the love that you thought you had faded.<br>
+<br>
+I am the Saturn God.<br>
+You are all my bastard sons.<br>
+Kneel before the chosen one.<br>
+If I were to cut you open I'd see my blood.<br>
+<br>
+I don't need to listen to all you clones<br>
+You sound the same to me.<br>
+<br>
+I cant stand it.<br>
+Little do they know that I've been waiting here so patiently<br>
+<br>
+To come grab it.<br>
+Come and pay your homage but then get the fuck away from me.<br>
+<br>
+Fucking maggot.<br>
+I'll see you never, I've got better thing to do.<br>
+<br>
+Where will you run to now?<br>
+When everything that you think you know changes.<br>
+<br>
+Where will you run to now?<br>
+When all the lights they no longer shine for you.<br>
+<br>
+Where will you run to now?<br>
+You're out of time, had your best years wasted.<br>
+<br>
+Where will you run to now?<br>
+When all the love that you thought you had faded.</p>
+
+            <h1 id="ff9" class="lyrics-test">-Major Key Alert-</h1>
+            <p class="lyrics-test-test">I've heard it all before.<br>
+Yeah its nothing new.<br>
+<br>
+How you critique with no substance.<br>
+Shoot me down but reload with nothing.<br>
+Reach for dreams but seems you never touched it.<br>
+<br>
+Bitch I know the truth<br>
+And so do you.<br>
+You lack the skill and the stamina.<br>
+<br>
+Get to close and I'm programmed to damage ya.<br>
+People see me quick to grab the camera.<br>
+<br>
+You wish you were me.<br>
+You live like slaves.<br>
+Just know that I am king.<br>
+<br>
+You wish you were me.<br>
+I stand up here as I look down 'pon they.<br>
+<br>
+I'm sick of hearing that you want me to be<br>
+2007 crying over some bitch, ho please.<br>
+I appreciate the love and respect<br>
+Just know that I've changed.<br>
+It's been a decade get a fucking grip.
+</p>
+
+            <h1 id="ff10" class="lyrics-test">-Turtle In A Hare Machine-</h1>
+            <p class="lyrics-test-test">What's the look upon your face?<br>
+You look like you got something to say.<br>
+Another sneak diss? Oh you're so fucking lame.<br>
+I'll have you know that I've been reading your mind for weeks.<br>
+<br>
+Too tired to express how fucking sick you make me.<br>
+Drown under my burning bridge.<br>
+<br>
+Have I made myself clear now?<br>
+<br>
+These trying times.<br>
+I can not believe this is happening.<br>
+<br>
+Here we go again.<br>
+More of the same<br>
+More of the same<br>
+The same old shit.<br>
+<br>
+You're stepping like the ice<br>
+Is starting to get thin.<br>
+<br>
+Have I made myself clear?!<br>
+<br>
+These trying times.<br>
+I can not believe this is happening.<br>
+<br>
+I've lost all my patience.<br>
+These are wasted moments.<br>
+<br>
+I've lost all my patience.<br>
+Stay away from me.</p>
+
+            <h1 id="ff11" class="lyrics-test">-Torch-</h1>
+            <p class="lyrics-test-test">I did not pass the torch<br>
+just to be engulfed by the flames<br>
+<br>
+I'm breathing fire to survive<br>
+<br>
+Burn it down<br>
+<br>
+Rising from the ashes<br>
+I'm here to take back what is mine<br>
+I used to call you friend<br>
+What a fucking waste of time<br>
+<br>
+I cannot believe that you would<br>
+ever try and fucking take away<br>
+from me the only thing<br>
+I care about or I believe<br>
+<br>
+Now I'm having trouble letting<br>
+go of knowing you were always<br>
+living, eating, breathing,<br>
+cashing in on all my misery<br>
+<br>
+Tell me now<br>
+Do you see?<br>
+You cannot do this without me<br>
+<br>
+Tell me now<br>
+Do you see?<br>
+You cannot do this without me<br>
+<br>
+I did not pass the torch<br>
+just to be engulfed by the flames<br>
+<br>
+Do you know now?<br>
+You're nothing without me</p>
+
+            <h1 id="ff12" class="lyrics-test">-Derelict-</h1>
+            <p class="lyrics-test-test">I'm just a punchline<br>
+I'm know when I'm nothing<br>
+I am the epitome of everything<br>
+you should never want to be<br>
+I have a coldness just for everyday life<br>
+and I struggle just to speak to the people who know me<br>
+press the smiles on the surface<br>
+just to hide what's really on my chest<br>
+I'll take a no I never keep people,<br>
+to be me is easy you just have to be a piece of shit</p>
+
+            <h1 id="ff13" class="lyrics-test">-Gucci Prison-</h1>
+            <p class="lyrics-test-test">They say I'm fucking crazy.<br>
+Stupid also lazy.<br>
+Truth is it don't phase me.<br>
+Cause bitch I might be.<br>
+You'll never meet another mother fucker like me.<br>
+<br>
+I'll never change who I am.<br>
+Love it or leave it don't be tripping cause we ain't the same.<br>
+<br>
+I'll never change who I am.<br>
+Talk all the shit but acting different when we face to face.<br>
+<br>
+They say I'm fucking worthless.<br>
+No future and no purpose.<br>
+Just a damaged person.<br>
+Yeah bitch I might be.<br>
+You'll never meet another mother fucker like me.<br>
+<br>
+Just another bad seed from a good garden.<br>
+No good, low life with the blade sharpened.<br>
+Write a check with my mouth and cash it no fronting.<br>
+So don't be coming around unless you want to start something.<br>
+<br>
+Bitch I'll cut you<br>
+Bitch I'll cut you<br>
+Bitch I'll cut you<br>
+Wide open!<br>
+<br>
+They say I'm fucking crazy.<br>
+Stupid also lazy.<br>
+Truth is it don't phase me.<br>
+Cause bitch I might be.<br>
+You'll never meet another mother fucker like me.<br>
+<br>
+Bitch I'll cut you<br>
+Bitch I'll cut you<br>
+Bitch I'll cut you<br>
+Wide open!</p>
+          </div>
+        </div>
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+        </div>
+
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+        </div>
+
+            <div class="page-finish">
+              <a href="./security.html">Security Statements</a>
+              <a href="./terms.html">Terms of Service</a>
+              <a href="./privacy.html">Privacy Policy</a>
+              <a href="./contact.html">Contact</a>
+            </div>
+
+        </body>
+        </html>

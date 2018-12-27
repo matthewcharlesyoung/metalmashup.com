@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Shields</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/sheilds.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Sheilds - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Persistance</a>
+      <a href="#f2">Beneath Your Feet</a>
+      <a href="#f3">Oppression </a>
+      <a href="#f4">Pages</a>
+      <a href="#f5">The Silence</a>
+      <a href="#f6">Your Forked Tongue</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/guilt.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Guilt - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">I've Dealt With Worse</a>
+      <a href="#s2">No Hope</a>
+      <a href="#s3">Guilt</a>
+      <a href="#s4">Jordan</a>
+      <a href="#s5">But This Feels Worse</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/lifein.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Life In Exile - 2018</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">Intimacy</a>
+      <a href="#t2">Black Dog</a>
+      <a href="#t3">In the Grey</a>
+      <a href="#t4">Upside Down </a>
+      <a href="#t5">White Embers (feat. Spencer Charnas)</a>
+      <a href="#t6">It's Killing Me</a>
+      <a href="#t7">Delilah</a>
+      <a href="#t8">Love Is Dead</a>
+      <a href="#t9">Mother (feat. Joel Heywood)</a>
+      <a href="#t10">Sibling</a>
+      <a href="#t11">N35.E138 </a>
+      <a href="#t12">Aokigahara </a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/sheilds.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Sheilds - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Persistance-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f2" class="lyrics-test">-Beneath Your Feet-</h1>
+      <p class="lyrics-test-test">This Disease!<br>
+<br>
+Memory is all that's left until we burn it down,<br>
+These bones are wasting to dirt<br>
+Your decision debased them to poison<br>
+<br>
+The finger points as the compass turns<br>
+On your blood and on the source<br>
+The finger points as the compass turns<br>
+<br>
+We will follow our eyes as our path is not clear<br>
+We'll follow our eyes in search of life<br>
+<br>
+Will you take it again?<br>
+Everything we have left?<br>
+<br>
+The finger points as the compass turns<br>
+On the bones we built, watch as the crumble and burn<br>
+<br>
+We will follow our eyes as our path is not clear<br>
+We'll follow our eyes in search of life<br>
+<br>
+We are, we are the grave beneath your feet<br>
+We are, the poison that you drank<br>
+<br>
+We are, we are the grave beneath your feet<br>
+When you chose to drink your poison<br>
+You chose to leave us all behind<br>
+<br>
+When you chose to drink your poison<br>
+You chose to die.</p>
+
+      <h1 id="f3" class="lyrics-test">-Oppression-</h1>
+      <p class="lyrics-test-test">Our minds are full of misconceptions,<br>
+this place is one you'll never own<br>
+So back the fuck off<br>
+
+In our minds, our opinions, our impenetrable place of rest<br>
+We are brainwashed by the media<br>
+Every minute, every hour, every day.<br><br>
+
+How much of the world has been untouched by eyes of the earth?<br>
+How much of the world is there left to be burned?<br>
+
+I'll bury my head to block out the sun.<br>
+
+In our eyes, In our ears, its at the fucking door,<br>
+The world of nature has been brought to it's demise.<br>
+
+We have all broken like water upon rocks<br><br>
+
+How much of the world has been untouched by eyes of the earth?<br>
+How much of the world is there left to be burned?<br>
+
+I'll move these mountains with the rage you've harvested<br>
+
+I'll bury your head to block out the sun<br>
+
+I'll move these mountains with the rage you've harvested</p>
+
+      <h1 id="f4" class="lyrics-test">-Pages-</h1>
+      <p class="lyrics-test-test">I perambulate through my forest<br>
+Searching for the young and helpless who cowere in the night<br>
+<br>
+You can try and run but I will win this game<br>
+<br>
+I've been hear once before tonight<br>
+These endless pages will be the death of me<br>
+
+You can't escape, you cannot hide<br>
+(Vocal glitches)<br>
+
+You can't escape, you cannot hide<br>
+You can only hope I'll make it quick and painless<br><br>
+
+You can't escape, I'm lurking behind every step you make<br>
+
+I am always watching, I'll never rest<br>
+Until I have you in my arms<br>
+
+You can try and run but I will win this game<br>
+
+I've been hear once before tonight<br>
+These endless pages will be the death of me<br><br>
+
+I found you, You're fucking mine<br>
+
+My face is white from the emptiness inside<br>
+I'll fill this void of mine with your heart and soul<br>
+
+Are you ready to die</p>
+
+      <h1 id="f5" class="lyrics-test">-The Silence-</h1>
+      <p class="lyrics-test-test">As I fall into the hole where my heart was<br>
+I find myself thinking back to where this all began<br>
+
+It seems that im not good enough (good enough)<br>
+It seems that im not good enough<br>
+
+I walked this world in search of guidance<br><br>
+And all I found was you<br>
+
+Hiding in your, hiding in your lies<br>
+(The truth is yet to come)<br>
+
+But the truth and lies come with one heavy price<br>
+What can I<br>
+(What can I do to rectifiy this mess"<br><br>
+This mess<br>
+(This mess thw world has made of me)<br>
+Made of me<br>
+
+I can't stand the silence, wont you break the silence?<br>
+I can't stand the silence... Bleh<br>
+<br>
+Break the silence, wont you break<br>
+<br>
+The truth and lies come with one heavy price<br>
+What can I<br>
+(What can I do to rectifiy this mess"<br>
+This mess<br>
+(This mess thw world has made of me)<br>
+<br>
+I can't stand the silence because it makes me fucking sick<br>
+Of what I've become, of what I must do</p>
+
+      <h1 id="f6" class="lyrics-test">-Your Forked Tongue-</h1>
+      <p class="lyrics-test-test">My skin beings to crawl like a<br>
+comedown off your poison breath;<br>
+I was wrong to trust your forked tongue.<br>
+<br>
+How long have you been growing teeth?<br>
+Long enough to feed your starving greed<br>
+<br>
+SO BLEED!<br>
+<br>
+So bleed your fucking lies and false love when I cut your paper skin.<br>
+
+My heart would skip a beat with you around, I've learnt to deal with pain,<br>
+I've learnt to face the fact.<br>
+<br>
+My heart would skip a beat if you would smile, but you won't.<br>
+<br>
+You are riddled with holes, broken nose, broken home<br>
+Now there's nowhere to turn you should of just stayed at home.<br>
+Look at me now, look in my eyes<br>
+You have taken my sight, you've left me blind<br>
+<br>
+SO I'LL SHOOT YOU IN THE DARK!<br>
+<br>
+Hanging off your crucifix of broken bones and time you've spent<br>
+Taking what you did not need<br>
+<br>
+FUCK YOU face the consequence... OH!<br>
+<br>
+My heart would skip a beat with you around, I've learnt to deal with pain,<br>
+I've learnt to face the fact.<br>
+<br>
+My heart would skip a beat if you would smile, but you won't, Why won't you smile?<br>
+
+You are cold with no thought for your self<br>
+I wish you'd stay and be alive<br>
+I am here, won't you just come home<br>
+I wish you'd stay and be alive<br>
+<br>
+You taste like sweet black venom poison<br>
+Like blood from a wound<br>
+Black like malice and cold like a tomb<br>
+And I know that I'm not perfect<br>
+But you seem to breathe wounds<br>
+You live for their creation and when<br>
+you die they'll grow on your tomb...</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/guilt.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Guilt - 21015</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-I've Dealt With Worse-</h1>
+        <p class="lyrics-test-test">I've dealt with worse<br>
+<br>
+I float around searching for promise on this one way road<br>
+Wasted chances, lost and never found<br>
+The ground you walk on moves without me<br>
+<br>
+Wasted chances, lost and never found<br>
+My heart is clenched like a fist, I am done<br>
+The ground you walk on moves without me<br>
+<br>
+Where do we stand?<br>
+<br>
+Face to face with you, I can't tell where we stand<br>
+Am I more than a burden?<br>
+<br>
+Hand in hand with you, I'm overwhelmed, I'm overwhelmed<br>
+I can no longer love<br>
+I've dealt with worse but this feels worse<br>
+<br>
+I can no longer love<br>
+I've dealt with worse, you made this worse<br>
+<br>
+I found that love that I lost, it's filling up my chest<br>
+My ribs are cracking under the pressure<br>
+I want nothing less than the best for you<br>
+Make up your fucking mind<br>
+<br>
+I want nothing less than the best for you<br>
+So make up your mind<br>
+I want nothing less than the best for you<br>
+<br>
+Where do we stand?<br>
+<br>
+Face to face with you, I can't tell where we stand<br>
+Am I more than a burden?<br>
+<br>
+Hand in hand with you, I'm overwhelmed, I'm overwhelmed<br>
+I can no longer love<br>
+I've dealt with worse but this feels worse<br>
+<br>
+You had my heart in your hands and you tore it apart.</p>
+
+        <h1 id="s2" class="lyrics-test">-No Hope-</h1>
+        <p class="lyrics-test-test">No fucking hope<br>
+<br>
+I've seen this before<br>
+Another brother, another time<br>
+I can see you leaving my life<br>
+You spat back at the opportunity of making your life worthwile<br>
+<br>
+We have spent to many years trying to get you on your feet<br>
+(Your feet)<br>
+I am sick, I am sick of this<br>
+<br>
+This never ending lie<br>
+(the fucking lies)<br>
+It never ends, the fucking lies<br>
+<br>
+There's only so much i can take<br>
+There's only so much i can understand<br>
+<br>
+Now that you've reached your hell I know you'll burn<br>
+(Know you'll burn)<br>
+After flooding your veins with gasoline<br>
+I know that you'll burn<br>
+<br>
+Burn, blister, from the inside out<br>
+Fucking burn<br>
+<br>
+You can only blame yourself<br>
+<br>
+We have spent to many years trying to get you on your feet<br>
+(Your feet)<br>
+I am sick, I am sick of this<br>
+<br>
+This never ending lie<br>
+(the fucking lies)<br>
+It never ends<br>
+<br>
+Everything has died with everything you used to be<br>
+
+You broke the trust that kept us close<br>
+You lost the love I had for you<br>
+A shiver down my broken back for every time we took you back.</p>
+
+        <h1 id="s3" class="lyrics-test">-Guilt-</h1>
+        <p class="lyrics-test-test">How fucking dare you speak his name<br>
+You wear his death like its something you gained<br>
+How dare you even breathe<br>
+If guilt doesn't kill you then I will<br>
+<br>
+You think your safe from the lies that you preach<br>
+But I know where you sleep<br>
+You better bite your tongue, choke on your blood<br>
+<br>
+I am the voice at the back of your mind<br>
+I am everything you left behind<br>
+The space is filled with hate, I'll take it for mine<br>
+You are everything I despise<br>
+<br>
+How fucking dare you speak his name<br>
+You wear his death like its something you gained<br>
+How dare you even breathe<br>
+If guilt doesn't kill you then I fucking will<br>
+<br>
+I'd rather live in a fucking tomb<br>
+Than pass up an opportunity to<br>
+Cut your tongue from behind your teeth<br>
+I'd rather live in a fucking tomb<br>
+<br>
+I am the voice at the back of your mind<br>
+I am everything you left behind<br>
+The space is filled with hate, I'll take it for mine<br>
+You are everything I despise<br>
+<br>
+I am the voice of a thousand screaming<br>
+Our bleeding throats will bleed as one.</p>
+
+        <h1 id="s4" class="lyrics-test">-Jordan-</h1>
+        <p class="lyrics-test-test">ow can I find something that's not there?<br>
+
+How can I come to terms with the loss of a friend?<br>
+
+Lost inside the time spent crawling through my mind<br>
+Searching for something to explain this<br><br>
+
+I don't understand, it's something I can't grasp<br>
+And now it feels like such a waste<br>
+<br>
+With blood so young in your skin<br>
+<br>
+Your memory will carry on, you are gone from our side but not from our lives<br>
+
+I can't find a way to say goodbye, will you be alone?<br>
+'Cos we have lost ourselves down here<br>
+<br>
+Lost down here<br>
+<br>
+Your tired eyes, these burdens keep you blind<br>
+If only you had seen past the dark<br>
+<br>
+I can't move on by forgetting the past<br><br>
+But my pain is my burden, and life goes on<br>
+
+Life goes on, we have lost ourselves<br>
+
+I can't find a way to say goodbye, will you be alone?<br>
+'Cos we have lost ourselves down here<br>
+
+I know the best I can do (my very best)<br>
+Is what you'd have wanted (what do you want?)<br>
+<br>
+I can accept, I can accept,<br>
+you have left our lives but not our hearts.</p>
+
+        <h1 id="s5" class="lyrics-test">-But This Feels Worse-</h1>
+        <p class="lyrics-test-test">All of this time I've tried to push it down<br>
+I've dealt with worse but this feels worse<br>
+My pain is pure and it's yours to remember<br>
+I've dealt with worse but this feels worse<br>
+<br>
+You had my heart in your hands and you tore it apart<br>
+<br>
+All of this time I've tried to push it down<br>
+I've dealt with worse but this feels worse<br>
+My pain is pure and it's yours to remember<br>
+I've dealt with worse, you made this worse<br>
+Fuck<br>
+<br>
+And still I want nothing less than the best for you.</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/lifein.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Life In Exile - 2018</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-Intimacy-</h1>
+          <p class="lyrics-test-test">Dread,<br>
+Girding yourself for something terrible.<br>
+We all die, what makes you so fucking memorable?<br>
+<br>
+Was I born in the wrong fucking century?<br>
+Is this just how things are meant to be?<br>
+We are lonely; we are afraid of intimacy</p>
+
+          <h1 id="t2" class="lyrics-test">-Black Dog-</h1>
+          <p class="lyrics-test-test">The skin around my bones starts to unravel<br>
+And I live exposed. I’ve become so cold<br>
+The air inside my lungs starts to go stale as I decompose<br>
+<br>
+I am falling apart, I am falling apart<br>
+I am broken; dysfunctional, beyond repair<br>
+With my dark companion, crippled by his stare<br>
+I am falling apart<br>
+<br>
+This beast is all I have; meet my loathsome friend<br>
+Leave us be. I’m not getting any better<br>
+This beast is all I have; meet my loyal foe<br>
+Leave us be. I’m not getting any better<br>
+<br>
+Black dog<br>
+<br>
+It feels like my last day alive was long ago<br>
+A black dog follows me where ever I go<br>
+<br>
+Living this life I’d rather die<br>
+I’m done living this life; I’d rather die<br>
+I’m done being hounded by a black dog<br>
+<br>
+Feels like my last day alive;<br>
+Feels like I shouldn’t keep breathing</p>
+
+          <h1 id="t3" class="lyrics-test">-In the Grey-</h1>
+          <p class="lyrics-test-test">I should be dead by now<br>
+Dead by now<br>
+Thick Nails of perception, like claws,<br>
+Embedded in my flesh<br>
+Pulling me further back down into a nightmare<br>
+I could never envision<br>
+<br>
+I am sitting in the grey with glassed up eyes<br>
+This is insufferable. I am not myself<br>
+I am sick, I should be dead by now<br>
+I am sick of the life that waits for me ahead<br>
+I am sick, I should be dead by now<br>
+As I chewed on the belief<br>
+That the problem was always me<br>
+I should be dead by now<br><br>
+<br>
+My mind is a maze of corridors<br>
+For hours I would weep at the feeling in my teeth<br>
+<br>
+I am sitting in the grey<br>
+This is insufferable<br>
+I am not myself<br>
+I am sick, I should be dead by now<br>
+I am sick of the life that waits for me ahead<br>
+I am sick, I should be dead by now<br>
+As I chewed on the belief<br>
+That the problem was always me<br>
+<br>
+I've got to kick this fucking habit<br>
+I am too quick to give up on myself<br>
+<br>
+For hours I would weep at the feeling in my teeth<br>
+As I chewed on the belief<br>
+That the problem was always me</p>
+
+          <h1 id="t4" class="lyrics-test">-Upside Down-</h1>
+          <p class="lyrics-test-test">I spend 99% of my fucking time<br>
+feeling sorry for myself<br>
+Get up, get off your feet<br>
+<br>
+Goddamn, it seems I’ve got some issues to fix<br>
+I’ve lost time beating myself down<br>
+I’m knuckle deep into brick and mortar<br>
+As I bleed I release myself<br>
+<br>
+What’s coming next?<br>
+<br>
+My blood drips on the floor<br>
+Always low; so insecurev
+No running away; I’m losing all control<br>
+<br>
+I don’t know whats coming next for me<br>
+What am I supposed to see?<br>
+I don’t know whats coming next<br>
+I’m so obsessed; what’s coming next for me?<br>
+<br>
+Can I turn my life around if my world is spun upside down?<br>
+<br>
+I am fragile, I will persist and persevere<br>
+despite the doubtful voices<br>
+Stamp them out<br>
+I will stamp them out<br>
+<br>
+What’s coming next?</p>
+
+          <h1 id="t5" class="lyrics-test">-White Embers (feat. Spencer Charnas)-</h1>
+          <p class="lyrics-test-test">Drive through the streets that burn with gold<br>
+White embers turn to fucking mould<br>
+<br>
+Watch at the roads fold like paper<br>
+Watch as the sky bends backwards<br>
+Aren't you seeing this<br>
+Are you fucking blind<br>
+Parasites devour the earth<br>
+<br>
+Drive through the streets that burn with gold<br>
+White embers turn to fucking mould<br>
+<br>
+Why do my words catch in my throat<br>
+Why do you see right through me<br>
+<br>
+The world is at its knees begging for a helping hand<br>
+Comets blister through the atmosphere<br>
+We are all so fucked, nothing to be done<br>
+<br>
+Is this how it all ends<br>
+Why do my words catch in my throat<br>
+Why do you see through me<br>
+Why do you see me<br>
+Please let this be a dream<br>
+<br>
+Drive through the streets that burn with gold<br>
+White embers turn to fucking mould<br>
+Drive through the streets that burn with gold<br>
+White embers turn to fucking mould<br>
+<br>
+Why do words catch in my throat<br>
+Why do you see right through me</p>
+
+          <h1 id="t6" class="lyrics-test">-It's Killing Me-</h1>
+          <p class="lyrics-test-test">Keep me strong<br>
+<br>
+I was a child who never smiled<br>
+Every step I took felt like a mile<br>
+Compared to everyone I knew I wasn't the same<br>
+I lived in exile every day<br>
+<br>
+They say what doesn't kill you<br>
+Makes you stronger<br>
+It's killing me, killing me<br>
+There's no one to keep me strong<br>
+Keep me strong<br>
+<br>
+I was a child who never smiled<br>
+<br>
+Time has healed nothing<br>
+Time pulled this wound further apart<br>
+<br>
+They say what doesn't kill you<br>
+Makes you stronger<br>
+What's killing me, killing me<br>
+There's no one to keep me strong<br>
+<br>
+They say what doesn't kill you<br>
+Makes you stronger<br>
+What's killing me<br>
+Is having no one to keep me strong</p>
+
+          <h1 id="t7" class="lyrics-test">-Delilah-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t8" class="lyrics-test">-Love Is Dead-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t9" class="lyrics-test">-Mother (feat. Joel Heywood)-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t10" class="lyrics-test">-Sibling-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t11" class="lyrics-test">-N35.E138-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t12" class="lyrics-test">-Aokigahara-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+        </div>
+      </div>
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+      </div>
+
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+      </div>
+
+          <div class="page-finish">
+            <a href="./security.html">Security Statements</a>
+            <a href="./terms.html">Terms of Service</a>
+            <a href="./privacy.html">Privacy Policy</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+
+      </body>
+      </html>

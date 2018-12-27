@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Hannes Grossmann</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/theradical.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Radial Covenant - 2014</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Aeon Illuminate</a>
+      <a href="#f2">Alien Utopia</a>
+      <a href="#f3">The Sorcerer</a>
+      <a href="#f4">Solar Fire Cells</a>
+      <a href="#f5">The Voyager</a>
+      <a href="#f6">Radial Covenant I. + II.</a>
+      <a href="#f7">Euclidean Elements (Piano Version)</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/thecripts.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Crypts of Sleep - 2016</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">To Sow the Seeds of Earth</a>
+      <a href="#s2">Silence Speaks</a>
+      <a href="#s3">In the Eye of the Storm</a>
+      <a href="#s4">Hail Satan</a>
+      <a href="#s5">Oceanborn</a>
+      <a href="#s6">Gravity Waves</a>
+      <a href="#s7">The Crypts of Sleep</a>
+      <a href="#s8">Beyond the Boundaries of Death</a>
+      <a href="#s9">Anima Inferna</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/theradical.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Radial Covenant - 2014</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Aeon Illuminate-</h1>
+      <p class="lyrics-test-test">Sovereign and subtle sources of souls<br>
+Planets mightily merge in one vacuity<br>
+A distant dream from afar arises, arises by the sea<br>
+<br>
+Untouched by immense unlight to be<br>
+Life flows across in aeons of human self-conceit<br>
+<br>
+Call me the devil, call to arms darkest one<br>
+To be your voice in the dark<br>
+Call me your horror, call me to crave<br>
+when your heaven is torn apart<br>
+<br>
+Untouched but seen by those yet unseen<br>
+Light flows across for aeons in spectral self-conceit<br>
+<br>
+Call me the devil, call me the flame, call me when your heaven is torn apart<br>
+<br>
+Oh blackest aeon – evaluated force<br>
+Holy mother, dreadful creature – be the reason for all cause<br>
+Sing for me rightful father – marrow of the soul<br>
+Sacred seal of iniquity open up, open up thy womb<br>
+<br>
+Severed souls, take me to the netherworld<br>
+where sacred souls take you down inside<br>
+This blood guilt incurred by communion<br>
+casts down the flame of hate to one<br>
+<br>
+Untouched by immense unlight to be<br>
+Life flows across in aeons of shallow hearted self-conceit<br>
+<br>
+I see you burn in rousing fire<br>
+<br>
+What came from the water must be drowned in the sea</p>
+
+      <h1 id="f2" class="lyrics-test">-Alien Utopia-</h1>
+      <p class="lyrics-test-test">Old sweet years of old<br>
+Nature, seek perfection<br>
+Inhale dread and fear<br>
+to protect this false perception<br>
+<br>
+Camouflaged in faith<br>
+- mindless, soulless, impertinent -<br>
+the scorn of truth lies<br>
+at his hand<br>
+<br>
+Culture Cleansing Machine<br>
+Points at me with rogue daggers<br>
+wretched means of sheer accuracy<br>
+Umber harvest of hate<br>
+<br>
+Ideas to be<br>
+and ideals of moral<br>
+undermine idiocy<br>
+like marbles clog a rifle barrel<br>
+<br>
+For the rule of one<br>
+squalling into mass deception<br>
+where blind leads blind<br>
+one-eyed kings demand control<br>
+<br>
+Culture Cleansing Machine<br>
+Points at me with rogue daggers<br>
+wretched means of sheer accuracy<br>
+Umber harvest of hate<br>
+<br>
+Beyond that portal you'll reach<br>
+the endless, bodiless imperfection<br>
+Write your own decree<br>
+you'll be able to measure all you wish to believe<br>
+by abandoning this self-deceit</p>
+
+      <h1 id="f3" class="lyrics-test">-The Sorcerer-</h1>
+      <p class="lyrics-test-test">I – I am light and disorder<br>
+I have come to seek control of the sun<br>
+To be the one, be the great preserver<br>
+last call becoming second to none<br>
+<br>
+Envy youth for I am immortal<br>
+Heavens carry my soul in their sleeves<br>
+<br>
+Bright light binds profane possession<br>
+bright eyes level blind confidence<br>
+I have been (into) a black dream<br>
+I've seen through the eyes of a king<br>
+A fading antithesis your sunken prophet pleases<br>
+<br>
+Envy youth for I am immortal<br>
+Heavens carry my mind in their wake<br>
+<br>
+Worship though and meaning<br>
+In heaven your guard is feeding<br>
+- “Father, I died for you” -<br>
+ironic laughter<br>
+<br>
+Murder wreaks havoc and redemption until my soul bleeds<br>
+Ideals to me, unseen until my soul is redeemed<br>
+<br>
+Sorcerer of death's construction<br>
+Raveling into the symptoms you despise<br>
+A symphony of symmetric agony<br>
+Mother to the symptoms of our life's demise<br>
+<br>
+Sorcerer of death's construction</p>
+
+      <h1 id="f4" class="lyrics-test">-Solar Fire Cells-</h1>
+      <p class="lyrics-test-test">Step through the stars and stare into your dreams<br>
+Slip into the sun and starve into mortality<br>
+<br>
+Lock down the one perception of creed<br>
+The stars' shining duration a single soul exceeds<br>
+<br>
+Step through the stars, step through the gate<br>
+Step into the sun and kiss your god awake<br>
+Step through the stars and stare into your dreams<br>
+Through the sun, into infinity<br>
+<br>
+Lock down the one duration of oscillation<br>
+Read burning fire as you grow higher<br>
+Become solar cell fire<br>
+<br>
+
+Step through the stars and stare into your dreams<br>
+Slip into the sun and starve into you
+</p>
+
+      <h1 id="f5" class="lyrics-test">-The Voyager-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f6" class="lyrics-test">-Radial Covenant I. + II.-</h1>
+      <p class="lyrics-test-test">[I.]<br>
+<br>
+From now and beyond<br>
+beyond this world, beyond the sun<br>
+One soul shall become<br>
+the magma of radial dust<br>
+<br>
+By leaps of time steep unsound<br>
+a dimension opens up and closes down<br>
+beyond this world, beyond the sun<br>
+(lies) our bodies' overflow<br>
+multidimensional<br>
+<br>
+Truth lies behind the portal of three<br>
+Cast down your mortal being,<br>
+become the all and everything<br>
+<br>
+Slice time like spirals<br>
+Taste the lips of immortality<br>
+Become spectral beings<br>
+become the all and everything<br>
+<br>
+By leaps of time steep unsound<br>
+temporary monuments held unbound<br>
+<br>
+Create a universe abysmal and wide<br>
+with no such place like heaven in sight<br>
+Create a universe abysmal and wide<br>
+with no such place like heaven in sight<br>
+<br>
+Slice time like spirals<br>
+transform in all eternity<br>
+Embrace this alien euphony<br>
+<br>
+For time is non-linear<br>
+and death is merely a portal<br>
+the end means just revival of it all<br>
+<br>
+For I am the masked messiah<br>
+spiral dust and black light conspire<br>
+once I fall through the sea of lies<br>
+my soul shall arise from eternal hellfire<br>
+<br>
+Drowned by quantum gravity<br>
+Reborn a soulful entity<br>
+originates<br>
+<br>
+[II.]<br>
+<br>
+Fresh from the origin it elevates<br>
+sent by the oceans of time<br>
+Like a harlot's disappearing<br>
+rapid, unconscious - human kind<br>
+<br>
+High and higher<br>
+Fly above us<br>
+Seed hope like orchids<br>
+on a grave<br>
+<br>
+By reversing all physics<br>
+This grain of a soul is sent back into you<br>
+<br>
+Back through the portal of three<br>
+you give birth to a new entity<br>
+<br>
+My soul is a naked figure of old<br>
+but my mind's eyes revolt<br>
+<br>
+From now and beyond<br>
+beyond this world, beyond the sun<br>
+One soul shall become<br>
+the magma of our life's reward<br>
+<br>
+Devise a life abysmal and wide<br>
+Create your heaven deep inside<br>
+Devise a life abysmal and wide<br>
+with no such place like hell in sight</p>
+
+      <h1 id="f7" class="lyrics-test">-Euclidean Elements (Piano Version)-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/thecripts.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">The Crypts of Sleep - 2016</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-To Sow the Seeds of Earth-</h1>
+        <p class="lyrics-test-test">What came from water should have drowned in the sea<br>
+Who came for you to be the sworn enemy?<br>
+In your mind it began to grow logically<br>
+The cancer of God - mere debris<br>
+<br>
+Pure hatred drives you further<br>
+Dead mirrors reflect your world<br>
+In dreams that I behold God is Death<br>
+in disguise once faith has returned<br>
+<br>
+Sow the seeds far from Earth<br>
+Walls of water, spawned from dirt<br>
+Ashes remain when time has turned<br>
+<br>
+What was human once, now is off<br>
+My destination is set straight to straight above<br>
+Seems like there's nothing but chosen sons<br>
+In a culture for morons built on the cult of one<br>
+<br>
+One rule that "God gave to mortals"<br>
+is just put-on in human form<br>
+But in dreams that I behold God is Death<br>
+inflicted by the norm<br>
+<br>
+Sow the seeds far from Earth<br>
+Walls of water, spawned from dirt<br>
+Ashes remain when time has turned<br>
+<br>
+I - I am the immortal eye<br>
+I am a wave to alter the tide<br>
+I_see, see behind the curtain<br>
+of time to unfold the magic inside<br>
+<br>
+Sow the seeds far from Earth<br>
+Walls of water, spawned from dirt<br>
+Ash remains when time has turned</p>
+
+        <h1 id="s2" class="lyrics-test">-Silence Speaks-</h1>
+        <p class="lyrics-test-test">The fall of night<br>
+Calling, calling from above<br>
+Her voice, quite certain<br>
+Narrow yet far from laughter<br>
+<br>
+The tongue of the silent<br>
+Sirens - calling from within<br>
+A voice of reason<br>
+Deafening become the calls of sin<br>
+<br>
+Against all our reasons<br>
+Words like coils without a core<br>
+The sound of treason<br>
+In ravens' beaks he speaks: "Nevermore!"<br>
+<br>
+Silence speaks in tongues of fire<br>
+Sonic brigades across the night<br>
+Silence Speaks<br>
+In opposition word and mind unwind<br>
+<br>
+Silence speaks in devils' tongues of fire<br>
+Like starts so bright<br>
+Crack the core, inside the marrowv
+Mind is opening its door<br>
+<br>
+Within shade there's no light<br>
+Turning silence to gold<br>
+Choke on words from a figure in stories untold<br>
+Screams 'til throats are sore<br>
+It calls, unsound from shore to shore<br>
+<br>
+Silence speaks in devils' tongues of fire<br>
+Crack the core, inside the marrow<br>
+Mind's re-opening its door<br>
+<br>
+The fall of night<br>
+Calling, calling from above<br>
+The fall of reason<br>
+Silence - unbound forevermore</p>
+
+        <h1 id="s3" class="lyrics-test">-Silence Speaks-</h1>
+        <p class="lyrics-test-test">A savage creature claws<br>
+Sirens call, winter falls<br>
+Acid corrodes the skin<br>
+Like spikes pierce within<br>
+Beyond your realm of dreams<br>
+There's a restless deep your soul to keep<br>
+Hell awaits at the bottom of it all<br>
+It's you to heed the call<br>
+Don't live up to clichees<br><br>
+Time runs out, time's in vain<br>
+Matter to mind, break the chains<br>
+Fall far from grace<br>
+What is real to me<br>
+Is not what seems to be<br>
+I am the truth inside your dreams<br>
+I am the one who sleeps<br><br>
+Nowhere near too soon -<br>
+When sun increases earth becomes our tomb<br><br>
+All hope be found anew<br>
+Write when worlds collide, relentlessly<br>
+In lies all morals die like flies<br>
+Across the sky - In the eye of the storm<br>
+Hard to bear but true, cults come alive anew<br>
+An epidemic desire for torture<br>
+Once the pattern unwinds you can see right behind<br><br>
+a subtle rhyme phrased by vultures<br>
+Keep the secret of life in nutshells<br>
+Behind the secrecies of lies hides future hindsight<br>
+What is real to me<br>
+Is not what seems to be<br>
+I am the truth inside your dreams<br>
+I am the one who sleeps<br><br>
+Nowhere near too soon -<br>
+When sun increases earth becomes our tomb<br>
+All hope be found anew<br>
+Write when worlds collide, relentlessly<br>
+In lies all morals die like flies<br>
+Across the sky - In the eye of the storm<br>
+Nowhere near too soon -<br>
+When sun increases earth becomes our tomb<br>
+All hope be found anew<br>
+Write when worlds collide, relentlessly<br>
+In lies all morals die like flies<br>
+Across the sky - In the eye of the storm</p>
+
+        <h1 id="s4" class="lyrics-test">-Hail Satan-</h1>
+        <p class="lyrics-test-test">There is a pattern of guilt attached to your brain<br>
+There's a point of view in the eyes of the insane<br>
+There is nothing but a failed community<br>
+That appears so free but fears non-conformity<br>
+<br>
+Down with their morals, down with disease<br>
+Down - their idols collectively<br>
+They've done what is wrong, denied what is right<br>
+Hell stands on either side<br>
+<br>
+Hail Satan!<br>
+Just a feeble scheme in the machine of lies<br>
+Embrace your fear, roll the dice<br>
+Break the chains of faith to arise<br>
+<br>
+Burn down their church, bring down the priests<br>
+Down - the morals collectively<br>
+The dogma of guilt - I'm done with that shit<br>
+Break rules that the gods forbid<br>
+<br>
+Hail Satan!<br>
+Just a feeble scheme in the machine of lies<br>
+Embrace your fear, roll the dice<br>
+Break the chains of faith to arise<br>
+<br>
+
+Hail Satan!<br>
+Just a feeble scheme in the machine of lies<br>
+Embrace your fear, roll the dice<br>
+Break the chains!<br>
+<br>
+Hail Satan!</p>
+
+        <h1 id="s5" class="lyrics-test">-Oceanborn-</h1>
+        <p class="lyrics-test-test">Someone kills, someone dies, someone new is born<br>
+In a cycle of doom time flies, yet torn in between<br>
+two spectrums of none<br>
+Beneath the waves you'll find water<br>
+Because I am the one<br>
+Because I am the one you shed life upon<br>
+The tide's flowing maze<br>
+See the wind feed the waves<br>
+Oceanborn<br>
+Beneath the waves lies the source of life<br>
+To start was not our choice<br>
+If choices were pre-decided<br>
+Born into times, their past is our voice<br>
+A future seems subdivided<br>
+Like the sea endlessly<br>
+spills waves without wasting water<br>
+One, for his future, must bury the past<br>
+For all truth entails its opposite at last<br>
+Beneath the waves all ways might lead to the grave<br>
+<br>
+Because I am the one<br>
+Because I am the one you shed life upon<br>
+The tide's flowing maze<br>
+See the wind feed the waves<br>
+Oceanborn</p>
+
+        <h1 id="s6" class="lyrics-test">-Gravity Waves-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s7" class="lyrics-test">-The Crypts of Sleep-</h1>
+        <p class="lyrics-test-test">An offering to night's divide<br>
+The gates are opening on either side<br>
+Shading the sun, curtains fall
+Drapes of black fade to ends of all<br>
+Downstream on and on I flow<br>
+Across into the open<br>
+Downwards the spiral once more<br>
+To secret halls in my mind<br><br>
+Too dark to trust my own eyes<br>
+Light my thoughts with fire<br>
+A torch to see the past come alive<br>
+In secret realms of the night<br>
+Within the crypts of sleep<br>
+Digging in your soul too deep<br>
+REM - Eyes move, rapidly creep<br>
+Below, into the crypts of sleep<br>
+Travel in quantum leaps<br>
+Enter the new territory<br>
+Besiege temporary destinies<br>
+Down in the crypts of sleep<br>
+Restrictions may seem so weak<br>
+Fly over mountains steep -<br>
+Deep down in the crypts of sleep<br>
+In the shade of the sun<br>
+By the light of the moon<br>
+No need for aspiration<br>
+When day remains undone<br>
+My desires come to a close<br><br>
+In dreams obtained<br>
+Day never contemplates<br>
+For I'll never wake again<br>
+You'll never awake again</p>
+
+        <h1 id="s8" class="lyrics-test">-Beyond the Boundaries of Death-</h1>
+        <p class="lyrics-test-test">Black is no color obviously<br>
+It's unambiguous<br>
+No tone for white supremacy<br>
+No hue for sickness<br>
+Chaos is a stage surprisingly<br>
+Stairs to trample on the wind<br>
+Call for encores to your fate<br>
+Before in nil to transcend<br>
+Death may never die when none tries ever right<br>
+Dimensions unite<br>
+Faith means bleak survival<br>
+The selection of the weak<br>
+Just uptake, absorb the black<br>
+As blood begins to bleed<br><br>
+You got all it takes<br>
+To crush the heart of disbelief?<br>
+As end result of human flaws<br>
+Faith is blank deceit<br>
+Death may never die when none tries ever right<br>
+Dimensions unite<br>
+Nothing is where nothing hides<br>
+What is dead may never die<br>
+None is real, none alive<br><br>
+What is dead may never die<br>
+None dwells where no-one lies<br>
+What is dead may never die<br>
+The void may be your portal<br><br>
+From heaven sent to breed the immortal<br>
+Nothing never dies<br>
+None can tell if death is a portal<br>
+Nothing never dies<br>
+A dying son cannot be immortal<br>
+What is dead may never die<br>
+Never!<br><br>
+Can you see what truth is?<br>
+Can you feel for real?<br>
+As perceived so may be, for real, your destiny<br>
+Long forseen</p>
+
+        <h1 id="s9" class="lyrics-test">-Anima Inferna-</h1>
+        <p class="lyrics-test-test"> 	All the laws have come to an end<br>
+but flaws unfailing remain<br>
+All your past was mine<br>
+For myself - demand, after all, the sublime<br>
+All crafts move to one stream<br>
+A stream we think is the main one<br>
+So clear it seems to be our dream<br>
+But all results feel the same<br><br>
+Our conclusion, a grand delusion<br>
+Are we the kings of our times?<br>
+While we limit what others would die for<br><br>
+human limits stack and outreach the sky<br>
+Awaiting the last convulsion<br><br>
+Flaws, unfailing to blame<br>
+Reap the harvest of decline<br>
+From carbon soil may rise the end of time<br>
+Ring the bell for our demise<br>
+Abundantly one shall step aside<br>
+Infusions of gross illusions<br><br>
+Blood red runs through all veins<br>
+We harvest what we seeded before<br>
+Self-created "threats" are at the door<br>
+A cycle of violence can just be broken by non-violence<br>
+Yet men still push against the wheel<br>
+Awaiting the last convulsion<br>
+Flaws, unfailing to blame<br>
+Reap the harvest of decline<br>
+From carbon soil may rise the end of time</p>
+      </div>
+    </div>
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+    </div>
+
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+    </div>
+
+        <div class="page-finish">
+          <a href="./security.html">Security Statements</a>
+          <a href="./terms.html">Terms of Service</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+
+    </body>
+    </html>

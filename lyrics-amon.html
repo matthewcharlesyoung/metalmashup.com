@@ -1,0 +1,2836 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Amon Amarth</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/twilight.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Twilight Of The Thunder God - 2008</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Twilight Of The Thunder God</a>
+      <a href="#f2">Free Will Sacrifice</a>
+      <a href="#f3">Guardians Of Asgaard</a>
+      <a href="#f4">Where Is Your God?</a>
+      <a href="#f5">Varyags Of Miklagaard</a>
+      <a href="#f6">Tattered Banners And Bloody Flags</a>
+      <a href="#f7">No Fear For The Setting Sun</a>
+      <a href="#f8">The Hero</a>
+      <a href="#f9">Live For The Kill</a>
+      <a href="#f10">Embrace Of The Endless Ocean</a>
+    </div>
+</div>
+<div class="lyrics-page-page-tile">
+<div class="lyrics-page_tile">
+  <a href="#second"><img class="lyrics-page_image" src="./images/surtur.jpg" height= "100%" width="auto"/></a>
+</div>
+<div class="lyrics-page_album-title_wrap">
+  <h1 class="lyrics-page_album-title">Surtur Rising - 2011</h1>
+</div>
+  <div class="lyrics-page_album-songs">
+    <a href="#s1">War Of The Gods</a>
+    <a href="#s2">Töck's Taunt - Loke's Treachery Part II</a>
+    <a href="#s3">Destroyer Of The Universe</a>
+    <a href="#s4">Slaves Of Fear</a>
+    <a href="#s5">Live Without Regrets</a>
+    <a href="#s6">The Last Stand Of Frej</a>
+    <a href="#s7">For Victory Or Death</a>
+    <a href="#s8">Wrath Of The Norsemen</a>
+    <a href="#s9">A Beast Am I</a>
+    <a href="#s10">Doom Over Dead Man</a>
+    <a href="#s11">Aerials</a>
+  </div>
+</div>
+<div class="lyrics-page-page-tile">
+<div class="lyrics-page_tile">
+  <a href="#third"><img class="lyrics-page_image" src="./images/deciver.jpg" height= "100%" width="auto"/></a>
+</div>
+<div class="lyrics-page_album-title_wrap">
+  <h1 class="lyrics-page_album-title">Deceiver Of The Gods - 2013</h1>
+</div>
+  <div class="lyrics-page_album-songs">
+    <a href="#t1">Deceiver Of The Gods</a>
+    <a href="#t2">As Loke Falls</a>
+    <a href="#t3">Father Of The Wolf</a>
+    <a href="#t4">Shape Shifter</a>
+    <a href="#t5">Under Siege</a>
+    <a href="#t6">Blood Eagle</a>
+    <a href="#t7">We Shall Destroy</a>
+    <a href="#t8">Hel</a>
+    <a href="#t9">Coming Of The Tide</a>
+    <a href="#t10">Warriors Of The North</a>
+  </div>
+</div>
+<div class="lyrics-page-page-tile">
+<div class="lyrics-page_tile">
+  <a href="#fourth"><img class="lyrics-page_image" src="./images/jomsviking.jpg" height= "100%" width="auto"/></a>
+</div>
+<div class="lyrics-page_album-title_wrap">
+  <h1 class="lyrics-page_album-title">Jomsviking - 2016</h1>
+</div>
+  <div class="lyrics-page_album-songs">
+    <a href="#ff1">First Kill</a>
+    <a href="#ff2">Wanderer</a>
+    <a href="#ff3">On A Sea Of Blood</a>
+    <a href="#ff4">One Against All</a>
+    <a href="#ff5">Raise Your Horns</a>
+    <a href="#ff6">The Way Of Vikings</a>
+    <a href="#ff7">At Dawn's First Light</a>
+    <a href="#ff8">One Thousand Burning Arrows</a>
+    <a href="#ff9">Vengeance Is My Name</a>
+    <a href="#ff10">A Dream That Cannot Be</a>
+    <a href="#ff11">Back On Northern Shores</a>
+  </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/twilight.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Twilight Of The Thunder God - 2008</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Twilight Of The Thunder God-</h1>
+      <p class="lyrics-test-test">[featuring Roope Latvalan]<br><br>
+
+There comes Fenris' twin<br>
+His jaws are open wide<br>
+The serpent rises from the waves<br><br>
+
+Jormungandr twists and turns<br>
+Mighty in his wrath<br>
+The eyes are full of primal hate<br><br>
+
+Thor! Odin's son<br>
+Protector of mankind<br>
+Ride to meet your fate<br>
+Your destiny awaits<br>
+Thor! Hlödyn's son<br>
+Protector of mankind<br>
+Ride to meet your fate<br>
+Ragnarök awaits<br><br>
+
+Vingtor rise to face<br>
+The snake with hammer high<br>
+At the edge of the world<br><br>
+
+Bolts of lightning fills the air<br>
+as Mjölnir does it's work<br>
+the dreadfull serpent roars in pain<br><br>
+
+Thor! Odin's son<br>
+Protector of mankind<br>
+Ride to meet your fate<br>
+Your destiny awaits<br>
+Thor! Hlödyn's son<br>
+Protector of mankind<br>
+Ride to meet your fate<br>
+Ragnarök awaits<br><br>
+
+Mighty Thor grips the snake<br>
+Firmly by its tongue<br>
+Lifts his hammer high to strike<br>
+Soon his work is done<br>
+Vingtor sends the giant snake<br>
+Bleeding to the depth<br>
+Twilight of the thundergod<br>
+Ragnarök awaits<br><br>
+Twilight of the thunder god<br>
+Twilight of the thunder god<br>
+Twilight of the thunder god<br>
+Twilight of the thunder god<br><br>
+
+Thor! Odin's son<br>
+Protector of mankind<br>
+Ride to meet your fate<br>
+Your destiny awaits<br>
+Thor! Hlödyn's son<br>
+Protector of mankind<br>
+Ride to meet your fate<br>
+Ragnarök awaits</p>
+
+      <h1 id="f2" class="lyrics-test">-Free Will Sacrifice-</h1>
+      <p class="lyrics-test-test">See them gathered on the plains now<br>
+See an army strong and vast<br>
+As long as one of us remains here<br>
+None of them will ever pass<br><br>
+
+Here they come so raise the shields high<br>
+Like wolves they show their teeth<br>
+None of us will ever yield now<br>
+To the scavengers beneath<br><br>
+
+We're outnumbered ten to one here<br>
+Still, I love the odds<br>
+We will sacrifice them one by one<br>
+Send them off to the gods<br><br>
+
+Soon we will be gone<br>
+A free will sacrifice<br>
+As free men we are born<br>
+And free we shall die<br><br>
+
+Here they come ten thousand strong<br>
+Charging up the hill<br>
+This day will be both hard and long<br>
+They move in for the kill<br><br>
+
+Hold the line don't let it break<br>
+Use your sword and spear<br>
+A glory death, for all awaits<br>
+All who knows no fear<br><br>
+
+Hordes of men they hit the shields<br>
+Like waves they break away<br>
+We face our woven destiny<br>
+And we don't fear the grave<br><br>
+
+Soon we will be gone<br>
+A free will sacrifice<br>
+As free men we are born<br>
+And free we shall die
+
+</p>
+
+      <h1 id="f3" class="lyrics-test">-Guardians Of Asgaard-</h1>
+      <p class="lyrics-test-test">
+Standing firm against all odds<br>
+guarding the most sacred home<br>
+we protect the realm of gods<br>
+our destiny is carved in stone<br><br>
+
+three evil giants<br>
+of the south<br>
+are constantly on the attack<br><br>
+
+with lies and fire<br>
+from their mouths<br>
+but we always send them back<br><br>
+
+we are brothers<br>
+of the north<br>
+who are sharing the all father's blood<br><br>
+
+marching down the left hand path<br>
+we are spawned by Asagods<br>
+'cause we are!<br><br>
+
+we're the guardians<br>
+guardians of Asgaard<br>
+guardians<br>
+guardians of Asgaard<br>
+guardians<br>
+of Asgaard<br><br>
+
+we have faced our enemies<br>
+a thousand times or even more<br><br>
+
+still they cannot<br>
+make us kneel<br>
+one thousand years of constant war<br>
+the giants look for<br>
+any chance<br>
+to bring down Asgaard's mighty walls<br>
+no matter what they send at us<br>
+we will never let it fall<br>
+'cause we are!<br><br>
+
+We're the guardians<br>
+guardians of Asgaard<br>
+guardians<br>
+guardians of Asgaard<br>
+guardians<br>
+of Asgaard<br><br>
+
+Standing firm<br>
+against all odds<br>
+we are guarding<br>
+Asgård's mighty walls<br>
+we protect<br>
+the realm of Asagods<br>
+no matter<br>
+what they send at us<br>
+we will never<br>
+let them fall<br><br>
+
+We're the guardians<br>
+guardians of Asgård<br>
+guardians<br>
+guardians of Asgård<br>
+guardians<br>
+guardians of Asgård<br>
+guardians<br>
+of Asgård
+
+</p>
+
+      <h1 id="f4" class="lyrics-test">-Where Is Your God?-</h1>
+      <p class="lyrics-test-test">The enemy has come for you<br>
+Hear the pounding thunder hooves<br>
+There's no time to run or hide<br>
+Draw the weapon from your side<br><br>
+
+When they ride out<br>
+From morning mist<br>
+With sharp blades in mighty fists<br>
+One hundred warriors on horse<br>
+An awesome brutal force<br><br>
+
+You feel weak and scared<br>
+Fear has gripped your heart<br>
+You will soon be over run<br>
+You will soon be torn apart<br><br>
+
+Now, where is your god?<br>
+Does he hear your prayers?<br>
+Does he even care for you?<br>
+His silence speaks loud and clean<br><br>
+
+Raid is done!<br>
+See the country burn<br>
+All are gone!<br>
+Only misery remains<br>
+Raid is done!<br>
+The warriors return<br>
+All are gone!<br>
+All that's left is pain<br><br>
+
+The Vikings strike<br>
+So fast and hard<br>
+Those who run won't make it far<br>
+And those who chose to stand and fight<br>
+They have made the choice to die<br><br>
+
+The weapons tear through flesh and bone<br>
+Dying men that scream and moan<br>
+With severed limbs<br>
+To the hall of death<br><br>
+
+The battlefield is full of death<br>
+Feel the stench of rotting flesh<br>
+When the entire country burns<br>
+As the warriors return<br><br>
+
+And they came out<br>
+From morning mist<br>
+With sharp blades in mighty fists<br>
+They leave this land<br>
+All burned and scorn<br>
+Those alive will mourn<br><br>
+
+Now, where is your god?<br>
+Does he hear your prayers?<br>
+Does he even care for you?<br>
+His silence speaks loud and clean<br><br>
+
+Raid is done!<br>
+See the country burn<br>
+All are gone!<br>
+Only misery remains<br>
+Raid is done!<br>
+The warriors return<br>
+All are gone!<br>
+All that's left is pain<br>
+Raid is done<br>
+See the country burn,<br>
+Only misery remains<br><br>
+All are gone<br>
+Warriors return,<br>
+All that's left is pain<br>
+Where's your god?<br>
+Does he hear your prayers?<br>
+Does he even care?<br>
+Where's your god?<br>
+Does he hear your prayers?<br>
+A silence loud and clear!
+</p>
+
+      <h1 id="f5" class="lyrics-test">-Varyags Of Miklagaard-</h1>
+      <p class="lyrics-test-test">Miklagaard has been our home<br>
+For twenty years or more<br>
+We've lent our axes, spears and swords<br>
+In service of the emperor<br><br>
+
+We are loyal warriors<br>
+That's the oath we gave<br>
+To protect the emperor<br>
+Even to a violent grave<br><br>
+
+Our loyalty was always firm<br>
+We kept our given word<br>
+On these southern battlefields<br>
+Our northern war cries roared<br><br>
+
+Battles have been fought<br>
+Many gave their lives<br>
+But all who died by axe and sword<br>
+Were called to hall up high<br><br>
+
+Our time here<br>
+Is now at end<br>
+Can't help but reminisce<br>
+A cold spring day<br>
+So long ago<br>
+When we set out to sea<br><br>
+
+We!<br>
+Set out from Svitjod's<br>
+Shores!<br>
+With dreams of fame and<br>
+Gold!<br>
+And!<br>
+The work of weaving<br>
+Norn's!<br>
+Was for us unknown<br><br>
+
+We were loyal warriors<br>
+That's the oath we gave<br>
+To protect the emperor<br>
+Even to the grave<br><br>
+
+It's time to take farewell<br>
+We have been resolved<br>
+From the sacred oath we gave<br>
+It's time to go back home<br><br>
+
+Out time here<br>
+Is now at end<br>
+Our memories will stay<br>
+Of Miklagaard<br>
+Our southern home<br>
+Until the end of days<br>
+
+We!<br>
+Set out for Svitjod's<br>
+Shores!<br>
+With honor and<br>
+Rewards!<br>
+We return back<br>
+Home!<br>
+We return back<br>
+Home!<br>
+With honor and<br>
+Rewards!<br>
+We return back<br>
+Home!</p>
+
+      <h1 id="f6" class="lyrics-test">-Tattered Banners And Bloody Flags-</h1>
+      <p class="lyrics-test-test">There comes Lopt, the treacherous<br>
+Lusting for revenge<br>
+He leads the legions of the dead<br>
+Towards the Aesir's realm<br><br>
+
+They march in full battle dress<br>
+With faces grim and pale<br>
+Tattered banners and bloody flags<br>
+Rusty spears and blades<br><br>
+
+Cries ring out, loud and harsh<br>
+From cracked and broken horns<br>
+Long forgotten battle cries<br>
+In strange and foreign tongues<br><br>
+
+Spear and sword clash rhythmically<br>
+Against the broken shields they beat<br>
+They bring their hate and anarchy<br>
+Onto Vigrid's battlefield<br>
+
+There comes Lopt, the treacherous<br>
+He stands against the gods<br>
+His army grim and ravenous<br>
+Lusting for their blood<br><br>
+
+Nowhere is longer safe<br>
+The earth moves under our feet<br>
+The great world tree Yggdrasil<br>
+Trembles to its roots<br><br>
+
+Sons of Muspel gird the field<br>
+Behind them Midgaard burns<br>
+Hrym's horde march from Nifelheim<br>
+And the Fenris wolf returns<br><br>
+
+Heimdal grips the Giallarhorn<br>
+He sounds that dreaded note<br>
+Oden rides to quest the Norns<br>
+But their web is torn<br>
+The Aesir rides out to war<br>
+With armor shining bright<br>
+Followed by the Einherjer<br>
+See Valkyries ride<br><br>
+
+Nowhere is longer safe<br>
+The earth moves under our feet<br>
+The great world tree Yggdrasil<br>
+Trembles to its roots<br><br>
+
+Sons of Muspel gird the field<br>
+Behind them Midgaard burns<br>
+Hrym's horde march from Nifelheim<br>
+And the Fenris wolf returns
+</p>
+
+      <h1 id="f7" class="lyrics-test">-No Fear For The Setting Sun-</h1>
+      <p class="lyrics-test-test">
+I'm out of breath<br>
+And all my muscles ache<br>
+It feels like spikes<br>
+With every step I take<br><br>
+
+My heart beats<br>
+It's about to burst<br>
+This day my luck<br>
+Turned to the worse<br><br>
+
+There's nowhere to run<br>
+Darkness is closing in<br>
+I don't fear the setting sun<br>
+Or the twilight that it brings<br>
+Dark clouds fill the sky<br>
+My fate is close at hand<br>
+Today is the day that I die<br>
+Today I make my final stand<br><br>
+
+I fought so hard<br>
+For taste of victory<br>
+The war is lost<br>
+But I refuse to kneel<br><br>
+
+I can't go back now<br>
+There is no retreat<br>
+I will fight hard for<br>
+All that I believe<br><br>
+
+I'm out of breath<br>
+And all my muscles ache<br>
+It feels like spikes<br>
+With every step I take<br><br>
+
+I can't go back now<br>
+There is no retreat<br>
+I will fight 'til death<br>
+I make my final charge<br><br>
+
+I, make my final charge<br>
+I; have no fear in heart<br>
+I will no longer run<br>
+I, do not fear the dark<br><br>
+
+There's nowhere to run<br>
+Darkness is closing in<br>
+I don't fear the setting sun<br>
+Or the twilight that it brings<br>
+Dark clouds fill the sky<br>
+My fate is close at hand<br>
+Today is the day that I die<br>
+Today I make my final stand
+
+</p>
+
+      <h1 id="f8" class="lyrics-test">-The Hero-</h1>
+      <p class="lyrics-test-test">The blade I swing<br>
+Is black as night<br>
+Black as my soulless heart<br>
+It bears the burden<br>
+Of many lives<br>
+But I don't feel remorse<br><br>
+
+I lent my sword<br>
+To anyone<br>
+Willing to pay the price<br>
+No regrets for<br>
+What I've done<br>
+A mercenary's life<br><br>
+
+But there i was<br>
+On battleground<br>
+Until I felt the jaws of death<br>
+Cut into my flesh<br>
+Defending old and weak<br>
+But I did not retreat<br><br>
+
+Now, here I lie<br>
+In my own blood<br>
+And strangers cry for me<br>
+I'm prepared to meet the gods<br>
+I wish they'd let me be<br><br>
+
+I don't deserve<br>
+Their sympathy<br>
+I know who I am<br>
+My soul is death and misery<br>
+I am an evil man<br><br>
+
+I rest in my blood<br>
+Soon I will face the gods<br>
+Strangers cry for me<br>
+I wish they'd let me be<br><br>
+
+Show no sympathy<br>
+Shed no tears for me<br>
+I know who I am<br>
+I am an evil man<br><br>
+
+I know who I am<br>
+I am an evil man
+
+</p>
+
+      <h1 id="f9" class="lyrics-test">-Live For The Kill-</h1>
+      <p class="lyrics-test-test">[featuring Apocalyptica]<br><br>
+
+The pack of wolves<br>
+Are closing in<br>
+Now, hear the howling beasts<br>
+They move fast<br>
+Through winter woods<br>
+And soon it's time to feast<br><br>
+
+A vicious hunt<br>
+On through the night<br>
+The prey is short of breath<br>
+They feel the sting<br>
+Of burning eyes<br>
+That's fixed upon their necks<br><br>
+
+A predator's heart<br>
+Knows no remorse<br>
+It lives for the hunt<br>
+A predator's heart<br>
+Knows no remorse<br>
+It lives for the hunt<br>
+A natural force<br><br>
+
+They show their sharp<br>
+And grinning teeth<br>
+As howls are getting higher<br>
+Sending chills<br>
+Down fleeing spines<br>
+Their blood runs hot as fire<br><br>
+
+The vicious chase<br>
+Is soon at end<br>
+They're hunted until death<br>
+They feel the pain<br>
+Of sharpening steel<br>
+That's cutting through their flesh<br><br>
+
+Fearless warriors<br>
+Feed the wolves<br>
+Now hear the howling beasts<br>
+They move fast<br>
+Through winter woods<br>
+See the grey-backs feast<br><br>
+
+A natural force<br>
+It knows no remorse<br>
+And lives for the kill
+
+</p>
+
+      <h1 id="f10" class="lyrics-test">-Embrace Of The Endless Ocean-</h1>
+      <p class="lyrics-test-test">I stroke the blade with my hand<br>
+the sharp edge cuts the skin<br>
+blood drips to the rain wet sand<br>
+my journey can begin<br><br>
+
+Once a slave but now I'm free<br>
+my honor is restored<br>
+once again I'll ride the seas<br>
+free at last from whip and oar<br><br>
+
+I slide the sword into the sheath<br>
+the ocean god is hailed<br>
+and as we push out to the sea<br>
+we raise the red striped sails<br><br>
+
+I've missed the breeze of my home shores<br>
+the frozen lakes and winter snow<br>
+but now my dreams start to unfold<br>
+father, I'm coming home<br><br>
+
+The storm came down without remorse<br>
+and water crashed the rails<br>
+the ship was thrown back and forth<br>
+as strong winds ripped the sails<br><br>
+
+The icy waves embrace my skin<br>
+I am going numb<br>
+The endless ocean swallows me<br>
+This will be my cold wet tomb<br><br>
+
+Won't feel the breeze of my home shore<br>
+nor see the lakes or winter snow<br>
+my hopeful dreams lie ripped and torn<br>
+father, I die alone
+</p>
+
+    </div>
+  </div>
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/surtur.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Surtur Rising - 2011</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-War Of The Gods-</h1>
+        <p class="lyrics-test-test">War, the very first war of our world,<br>
+When the treacherous witch was killed<br>
+Three times burned and three times born,<br>
+By searing flames was Gullveig torn.<br><br>
+
+Death, Odin hurled his spear off with great force<br>
+Deep into the great vana-fyrd<br>
+battle horns gave up their sound<br>
+And Asgard walls razed to the ground.<br><br>
+
+The Vanir felt deceived<br>
+Hœnir was a fool<br>
+without Mímir at his side<br>
+Hœnir could not rule<br>
+In a fit of violent rage<br>
+Mímir's blood was shed<br>
+and to Odin's court they sent Mímir's severed head<br><br>
+
+Truce, so a brittle and frail peace was forged<br>
+And to ensure that the peace remained.<br>
+Njordr and Freyr to Asgard came<br>
+and Hön' and Mim to Vanaheim<br><br>
+
+Death, see the furious gods wanting blood,<br>
+Odin knew that a raging war<br>
+would not bring them any gain<br>
+Just leave a black and bitter stain.<br><br>
+
+Odin tog huvudet och<br>
+smorde det med örter<br>
+som hindrar det<br>
+från att ruttna<br>
+han kvad sedan<br>
+trollsånger över det<br>
+så att Mimer åter<br>
+kunde tala till honom<br><br>
+
+[English translation:]<br>
+Odin took the head, and anointed it with herbs<br>
+which prevents it from rotting<br>
+he sang his magic songs over it<br>
+so that Mimer be able to speak to him<br><br>
+
+The Vanir felt deceived<br>
+Hœnir was a fool<br>
+without Mímir at his side<br>
+Hœnir could not rule<br>
+In a fit of violent rage<br>
+Mímir's blood was shed<br>
+and to Odin's court they sent Mímir's severed head</p>
+
+        <h1 id="s2" class="lyrics-test">-Töck's Taunt - Loke's Treachery Part II-</h1>
+        <p class="lyrics-test-test">You come to me, eyes full of grief<br>
+you ask of me to shed all my tears<br>
+to let him return from kingdom of fears<br>
+Why should I weep? or lose any sleep?<br>
+He never brought me pleasure or glee<br>
+so why would I help to set Balder free<br><br>
+
+You come to me,eyes full of grief<br>
+all of your tears mean nothing to me<br>
+so why will you not just leave me to be<br>
+am I to blame? Well, I'm not ashamed!<br>
+Oh how I smiled when I heard the tale<br>
+Of Loke the sly, so clever and brave<br><br>
+
+Höder the fool,Lopt's willing tool<br>
+he held the twig that cut Balder's skin<br>
+Lopt aimed the shot<br>
+that killed Höder's twin<br>
+leave me alone<br>
+don't come here and moan<br>
+I've never wished to see Balder's well<br>
+so let his soul remain down in hel<br><br>
+
+My name is Töck and I won't cry<br>
+I won't let Balder return<br>
+Let hel keep her treasured prize<br>
+let his soul forever burn<br><br>
+
+You come to me and cannot believe<br>
+that this old crow now talking to you<br>
+is Loke not Töck you bloody dawn fools<br>
+you come to me and you do not see<br>
+all of your tears mean nothing to me<br>
+why will you not just leave me to be<br>
+
+My name is Töck,and I won't cry<br>
+I won't let Balder return<br>
+Let hel keep her treasured prize<br>
+let his soul forever burn</p>
+
+        <h1 id="s3" class="lyrics-test">-Destroyer Of The Universe-</h1>
+        <p class="lyrics-test-test">I rise up from muspelheim<br>
+My fury is sublime<br>
+The sword I bring burns violently<br>
+With wild and lethal flames<br><br>
+
+I march against the asagods<br>
+To bring the end of time<br>
+I am pure and endless pain<br>
+And Surtur is my name<br><br>
+
+See me rise, the mighty Surt<br>
+Destroyer of the universe<br>
+Bringer of flames and endless hurt<br>
+Scorcher of men and earth<br><br>
+
+Swordless frej with horn in hand<br>
+Rises to his final stand<br>
+He doesn't stand a single chance<br>
+I'll split his living corpse in half<br><br>
+
+And yet he stabbed me in the eye<br>
+He drove the horn in deep<br>
+The overwhelming, raging pain<br>
+Is driving me insane<br><br>
+
+The waves of flames that<br>
+I've unleashed will eat us all alive<br>
+The rage that burns within my heart<br>
+Is uncontrolled and wild<br>
+And now everything shall die!<br>
+Massive waves consume us all, the ocean is released<br>
+Our dying world quakes underneath<br>
+And sinks into the sea<br>
+And now nothing will survive!<br>
+Extinction waits for everyone<br>
+For gods and men alike<br>
+When all are gone of the old world<br>
+A new one will arise<br><br>
+
+See me rise, the mighty Surt<br>
+Destroyer of the universe<br>
+Bringer of flames and endless hurt<br>
+Scorcher of men and earth<br><br>
+
+See me die, the mighty Surt<br>
+Destroyer of the universe<br>
+Drowning in waves that floods the earth<br>
+The beginning, of a new rebirth</p>
+
+        <h1 id="s4" class="lyrics-test">-Slaves Of Fear-</h1>
+        <p class="lyrics-test-test">
+They speak of love and tolerance<br>
+They thrive on people's ignorance<br>
+To make you all slaves of fear<br><br>
+
+They feed on your anxiety<br>
+To build their dead society<br>
+They've kept you down for a thousand years<br><br>
+
+They nurture prejudice and hate<br>
+Condemn the wars that they create<br>
+In the name of whatever god<br>
+
+They gladly sacrifice your lives<br>
+Increasing power is their prize<br>
+Without regrets they'll spill your blood<br><br>
+
+They're feeding you lies<br>
+With calculating smiles<br>
+Enslavement of the human mind<br>
+As long as you kneel to their authority<br>
+Religion is what makes you blind<br><br>
+
+They're treating you as mindless fools<br>
+And use you as obedient tools<br>
+It's time to set your spirit free<br><br>
+
+This world we cannot tolerate<br>
+It's time to seal all preachers' fate<br>
+And let them hang from Oden's tree<br><br>
+
+Your minds are restrained<br>
+Obedience is the chain<br>
+They've locked you up and thrown away the key<br>
+Your souls are for sale,<br>
+And you're the ones who pay<br>
+But still you'll never be set free<br><br>
+
+They're feeding you lies<br>
+With calculating smiles<br>
+Enslavement of the human mind<br>
+As long as you kneel to their authority<br>
+Religion is what makes you blind</p>
+
+        <h1 id="s5" class="lyrics-test">-Live Without Regrets-</h1>
+        <p class="lyrics-test-test">From birth we're taught how to survive<br>
+We're taught how war is waged<br>
+And there are no men now alive<br>
+Who stops our wild rampage<br><br>
+
+Light at heart we bide our bane<br>
+whatever death awaits!<br>
+Norsemen live without regrets<br>
+We accept our woven fates<br><br>
+
+So fearlessly we charge ahead<br>
+There is no time to hesitate<br><br>
+
+Don't despair, show no fear<br>
+Live your life without regrets<br>
+Don't despair and show no fear<br>
+In the face of a certain death<br><br>
+
+A coward thinks he'll always live<br>
+If it keeps himself from strife<br>
+Old age leaves no rest and peace<br>
+though spears may spare his life<br><br>
+
+We don't mourn a friend that fell<br>
+or dread the day we'll fall ourselves<br>
+Warriors don't go to Hel<br>
+'cause we know Ygg will greet us well!<br><br>
+
+Fearlessly we charge ahead<br>
+There is no time to hesitate<br><br>
+
+Don't despair, show no fear<br>
+Live your life without regrets<br>
+Don't despair and show no fear<br>
+In the face of a certain death<br><br>
+
+So raise your horns to those who died<br>
+Let's drink to fallen friends tonight<br>
+Let's celebrate their glory life<br>
+We'll meet again in Valhall when we die<br>
+When we die!<br>
+When we die!
+</p>
+
+        <h1 id="s6" class="lyrics-test">-The Last Stand Of Frej-</h1>
+        <p class="lyrics-test-test">See him rise, from land of flames<br>
+our destruction is at hand.<br>
+It is time to make stand<br>
+now I face, and awesome foe<br>
+I will always stand my ground<br>
+To this end my fate is bound!<br><br>
+
+This fight is mine and mine alone<br>
+and there's no help from anyone!<br><br>
+
+His wrath burns!<br>
+With insane heat<br>
+all his fury is unleashed<br>
+there is no way to defeat!<br>
+The forces and the power that he wields<br><br>
+
+My hand holds the horn so firm<br>
+I am calm and ready to die<br>
+Everything around me burns<br>
+And I know that I will not survive<br><br>
+
+See him rise from land of flames<br>
+in this wild and barren land<br>
+I will make my final stand<br>
+My death awaits, I have no fear<br>
+To this end my fate is bound<br>
+though I'm doomed<br>
+I'll stand my ground!<br><br>
+
+This fight is mine and mine alone<br>
+and there's no help from anyone!<br><br>
+
+I go forth to meet my doom<br>
+but I will die in vain<br>
+perdition waits for everyone<br>
+The world will die in flames<br><br>
+
+With all my strength I run the horn<br>
+deep into his eye<br>
+And as he swings his burning sword<br>
+I die with a tired smile!
+</p>
+
+        <h1 id="s7" class="lyrics-test">-For Victory Or Death-</h1>
+        <p class="lyrics-test-test">Time!<br>
+has come to wash our shame away<br>
+to erase the image of defeat<br>
+We!<br>
+have licked our wounds,restored our strength<br>
+and our vengeance will be oh so sweet<br><br>
+
+They thought they had us down<br>
+that we'd never rise again<br>
+they will learn that they were deadly wrong<br>
+what's owed will be repaid<br><br>
+
+Again we'll feed the wolves<br>
+and then vengeance will be ours<br>
+we'll split their skulls and spill their guts<br>
+upon the frozen ground<br>
+Yeah,we'll never kneel again<br>
+not to deity nor men<br>
+now they'll taste our bitter hate<br>
+what's owed will be repaid<br><br>
+
+So raise the flag once more<br>
+and the eagle will be fed<br>
+once again we march to war<br>
+for victory or death<br><br>
+
+They arrived with talk of hvitekrist<br>
+by force they wanted us to kneel<br>
+with their swords held to our throats they preached<br>
+but we will make them pay we'll take their lives away<br><br>
+
+So Raise!<br>
+raise the flag once more<br>
+in the east the eagle will be fed<br>
+March!<br>
+again we march to war<br>
+we will march for victory or death<br>
+Pain!<br>
+the pain and suffering<br>
+is but a bleak and distant fading dream<br>
+Shame!<br>
+our disgrace; a withering thought<br>
+finally our names will be redeemed
+</p>
+
+        <h1 id="s8" class="lyrics-test">-Wrath Of The Norsemen-</h1>
+        <p class="lyrics-test-test">My head hurts like hell<br>
+Can't open my eyes<br>
+My clothes are all wet<br>
+And I'm freezing right through<br>
+Don't know where I am<br>
+Or how to get home<br>
+My arms they're so numb<br>
+And it's hard to get up<br><br>
+
+My muscles they ache<br>
+With every move<br>
+I stand on my feet<br>
+But my knees feel so weak<br><br>
+
+Somebody wake me<br>
+From this horrible dream<br>
+Somebody save me<br>
+From this terror I feel<br><br>
+
+I stumble around<br>
+on the soft muddy ground<br>
+I call out the name<br>
+of the friends I can't find<br>
+but only the wind<br>
+And the ravens reply<br><br>
+
+With every gasp<br>
+with every breath<br>
+smoke fills my lungs<br>
+and my intestines wrench<br>
+With every gasp<br>
+the sweet taste of death<br>
+The air is full of a thick<br>
+pungent stench<br><br>
+
+
+So comes then rain<br>
+it's colder than ice<br>
+I wash off my face<br>
+and open my eyes<br>
+And then I see<br>
+but wish I were blind<br><br>
+
+They are all dead<br>
+there's blood everywhere<br>
+The Norsemen they left<br>
+only death and despair<br>
+A stench of flesh<br>
+that fills the Autumn air<br><br>
+
+Somebody wake me<br>
+From this horrible dream<br>
+Somebody save me<br>
+From this terror and pain<br>
+No one can save me<br>
+From this horrible dream<br>
+No one can hear me<br>
+Or my heart-wrenching screams</p>
+
+        <h1 id="s9" class="lyrics-test">-A Beast Am I-</h1>
+        <p class="lyrics-test-test">Conceived was I<br>
+From chaos and hate<br>
+Of malice, deceit and blood<br>
+And how would they know<br>
+My fate is to rise<br>
+Against the Asagods<br>
+My being is full, full of a rage<br>
+An evil that can't be tamed<br>
+It darkens my soul<br>
+And blackens the blood<br>
+A fire that fills my veins<br><br>
+
+So how<br>
+Did I ever end up here?<br>
+Humiliated, broken and weak<br>
+I've waited<br>
+For a thousand years<br>
+To break these chains apart and<br>
+To finally break myself free<br><br>
+
+I bit the hand, off the mighty Tyr<br>
+When I couldn't, tare my ties<br>
+Now banished I dwell<br>
+A sword in my jaw<br>
+awaiting the end of time<br>
+In darkness I drown<br>
+Consumed by my hate<br>
+Longing for revenge<br>
+Allfather will pay<br>
+For his deceit<br>
+At the battle<br>
+Of Ragnarök<br><br>
+
+A beast am I<br>
+So vicious and grim<br>
+They fear my mean<br>
+Grinning teeth<br>
+I bide my time<br>
+my sweet revenge<br>
+Soon my ties will fall<br>
+And finally I will be free<br><br>
+
+So when you hear me howling<br>
+You'll know that I have come for you<br>
+When you hear me call your name<br>
+Your life will end in nameless pain<br><br>
+
+Conceived was I<br>
+From chaos and hate<br>
+Of malice, deceit and blood<br>
+And how would they know<br>
+My fate is to rise<br>
+Against the Asagods<br>
+My being is full, full of a rage<br>
+An evil that can't be tamed<br>
+It darkens my soul<br>
+And blackens the blood<br>
+A fire that fills my veins<br><br>
+
+A beast am I<br>
+So vicious and grim<br>
+They fear my mean<br>
+Grinning teeth<br>
+I bide my time<br>
+my sweet revenge<br>
+Soon my ties will fall<br>
+And finally I will be!<br>
+Finally break myself!<br>
+Finally I will be free!
+
+</p>
+
+        <h1 id="s10" class="lyrics-test">-Doom Over Dead Man-</h1>
+        <p class="lyrics-test-test">The autumn clouds are caving in<br>
+And night comes crawling, black as sin<br>
+Lightning strikes, and rain begins<br>
+A storm that tears my soul<br><br>
+
+I toss and tumble in my bed<br>
+My thoughts are spinning in my head<br>
+Darkness nears, soon I'll be dead<br>
+I'm losing all control<br><br>
+
+I've spent my life in foolish quests<br>
+for gold and riches, I confess<br>
+And now I'm left with just regrets<br>
+Too late to change my ways<br><br>
+
+My life, it seems, has slipped away<br>
+I leave no legacy to praise<br>
+Nothing more for me to say<br>
+My life has been a waste<br><br>
+
+When!<br>
+My time has come for me to leave<br>
+When!<br>
+When judgment's passed upon my life<br>
+When!<br>
+A cold dark grave will wait for me<br>
+Will!<br>
+Will my name live endlessly?<br>
+When!<br>
+My time has come for me to leave<br>
+When!<br>
+When judgment's passed upon my life<br>
+When!<br>
+A cold dark grave will wait for me<br>
+Will!<br>
+Will my name live endlessly?<br><br>
+
+So I die<br>
+But won't be mourned<br>
+Broken and alone<br>
+I wish that I were never born<br>
+
+So I die and won't be missed<br>
+No rune stone will be raised<br>
+As my body rots away<br><br>
+
+Die!<br>
+All friends and cattle pass away<br>
+Die!<br>
+And death will come for every man<br>
+Die!<br>
+But I know one thing never dies<br>
+Doom!<br>
+The sentence passed upon the dead<br>
+Now!<br>
+The time has come for me to leave<br>
+Now!<br>
+When judgement's passed up on my life<br>
+Now!<br>
+Now I will rest in my dark grave<br>
+Will!<br>
+They speak my name with reverence?<br><br>
+
+My life has been a waste<br>
+No rune stone will be raised<br>
+So I die, but won't be mourned<br>
+I wish that I were never born<br>
+I rest here in my shallow grave<br>
+As my body rots away</p>
+
+        <h1 id="s11" class="lyrics-test">-Aerials-</h1>
+        <p class="lyrics-test-test">[Bonus track]<br>
+[System Of A Down cover]<br><br>
+
+Life is a waterfall<br>
+we're one in the river<br>
+and one again after the fall<br>
+swimming through the void<br>
+we hear the word<br>
+we lose ourselves<br>
+but we find it all....<br><br>
+cause we are the ones that want to play<br>
+always want to go<br>
+but you never want to stay<br>
+and we are the ones that want to choose<br>
+always want to play<br><br>
+but you never want to lose<br>
+aerials, in the sky<br>
+when you lose small mind<br>
+you free your life<br>
+life is a waterfall<br>
+we drink from the river<br>
+then we turn around and put up our walls<br>
+swimming through the void<br>
+we hear the word<br><br>
+we lose ourselves<br>
+but we find it all...<br>
+cause we are the ones that want to play<br>
+always want to go<br>
+but you never want to stay<br>
+and we are the ones that want to choose<br>
+always want to play<br><br>
+but you never want to lose<br>
+aerials, in the sky<br>
+when you lose small mind<br>
+you free your life<br>
+aerials, so up high<br>
+when you free your eyes eternal prize<br>
+aerials, in the sky<br>
+when you lose small mind<br>
+you free your life<br>
+aerials, so up high<br>
+when you free your eyes eternal prize</p>
+
+      </div>
+    </div>
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/deciver.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Deceiver Of The Gods - 2013</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-Deceiver Of The Gods-</h1>
+          <p class="lyrics-test-test">Since I was born they have kept me down,<br>
+They have forced me to conform.<br>
+I will tear down their holy crown in a vengeful thunder storm,<br><br>
+
+I loathe their bloody righteous ways<br>
+It fills me with despise,<br>
+Fuelling flames of violent rage,<br>
+I will be their world's demise.<br><br>
+
+Asgård's always been my home<br>
+But I'm of different blood<br>
+I will overthrow the throne<br>
+Deceiver!<br>
+Deceiver of the gods!<br><br>
+
+All this rage, and all this hate,<br>
+It burns me deep inside,<br>
+And still it is, the only thing, keeping me alive.<br>
+Dark ambition within my heart and it's aching to break free<br>
+The one true nature of my soul, the giant lives in me.<br><br>
+
+Kneel!<br>
+You all shall kneel to me!<br>
+Or death will set you free!<br>
+You all shall kneel to me!<br><br>
+
+Fall!<br>
+You all shall fall to me!<br>
+Vengeance will be sweet!<br>
+You all shall fall to me!<br><br>
+
+Asgård's always been my home<br>
+But I'm of different blood<br>
+I will overthrow the throne<br>
+Deceiver of the gods!<br><br>
+
+Asgård's always been my home<br>
+I'm born from different blood<br>
+I've come to overthrow the throne<br>
+Deceiver!<br>
+Deceiver of the gods!<br>
+Deceiver of the gods!
+
+</p>
+
+          <h1 id="t2" class="lyrics-test">-As Loke Falls-</h1>
+          <p class="lyrics-test-test">Yeah!<br>
+
+Heimdall gazes east<br>
+A sail has caught his eye<br>
+He lifts his hand and sounds the horn<br>
+The undead army has arrived<br><br>
+
+Here comes Nagelfar<br>
+With Laufey's son on board<br>
+He brings chaos, hate and wrath<br>
+He brings the war to end all wars<br><br>
+
+Heimdall knows his fate<br>
+The end of all nine worlds<br>
+It's what the Vala has foreseen<br>
+He knows that everything shall burn<br><br>
+
+Facing Lopt's deceit<br>
+Now they finally meet<br>
+The champion and his enemy<br>
+On Vigrid's plains they'll find defeat<br><br>
+
+Their swords meet in a mighty clash<br>
+War cries sound, horns they blast<br>
+Their eager weapons whip and thrash<br>
+This day when all shall end<br><br>
+
+The lords of war are equal strong<br>
+This battle frantic and forlorn<br>
+The blades sing a macabre song<br>
+This day when all shall end<br><br>
+
+Heimdall's blade bites burning sharp<br>
+As it cuts through flesh and bone<br>
+Blood comes gushing from the wound<br>
+As Loke's head falls tumbling<br>
+Rolling to the burning ground</p>
+
+          <h1 id="t3" class="lyrics-test">-Father Of The Wolf-</h1>
+          <p class="lyrics-test-test">So he found the heart in barren land<br>
+It was beating, still alive<br>
+He held it gently in his hand<br>
+And looked up to the sky<br><br>
+
+With evil thoughts of vicious kind<br>
+And sinister disdain<br>
+His thoughts of bringing back to life<br>
+The witch that died in flames<br><br>
+
+Serpent's kin<br>
+Born of sin<br>
+Dark within<br>
+Father of the wolf!<br><br><br>
+
+He then devoured Gullveig's heart<br>
+And she was born again<br>
+They brought to life an evil force<br>
+A beast that can't be tamed<br><br>
+
+With dark deception in his soul<br>
+Betrayal of the gods<br>
+The bane of Oden now is born<br>
+Born of evil blood<br><br>
+
+Serpent's kin<br>
+Born of sin<br>
+Dark within<br>
+Father of the wolf!<br><br>
+
+They brought to life a malicious force<br>
+A vile beast that cannot be tamed<br>
+Fimbultýr's nemesis now is born<br>
+A vile beast that can't be restrained<br><br>
+
+Dark!<br>
+Deception in his<br>
+Soul!<br>
+Betrayal of the<br>
+Gods!<br>
+Oden's bane is<br>
+Born!<br>
+Born of evil blood!<br><br>
+
+Serpent's kin<br>
+Born of sin<br>
+Dark within<br>
+Father of the wolf<br><br>
+
+Born of sin
+
+</p>
+
+          <h1 id="t4" class="lyrics-test">-Shape Shifter-</h1>
+          <p class="lyrics-test-test">I was born of giant's blood<br>
+Raised in Asgård, the home of gods<br>
+I am the master of disguise<br>
+For this trait I've gained your prise<br><br>
+
+Fast in thought, quicker tongue<br>
+Brawl with me and you'll get stung<br>
+I am the master of deceit<br>
+My words bind or set you free<br><br>
+
+I am the walker on the wind<br>
+The shape shifter<br>
+Two-faced words<br>
+And a lying grin<br>
+The shape shifter<br><br>
+
+You call me evil; curse my name<br>
+But you only have yourselves to blame<br>
+Order needs its anarchy<br>
+Balance through calamity<br><br>
+
+We mixed our blood in olden days<br>
+Now I wander like a stray<br>
+We were brothers, now estranged<br>
+I will have my sweet revenge<br><br>
+
+My words are poison to your ears<br>
+I say the words you fear<br>
+Still you know it is the truth you hear<br>
+Ragnarök is drawing near<br><br>
+
+There you sit in Aegir's hall<br>
+Waiting for the coming fall<br>
+Council of the now condemned<br>
+Twilight of both gods and men<br><br>
+
+Face the facts; you're old and weak<br>
+Empty words are all you speak<br>
+No escape, there's no return<br>
+The universe shall bleed and burn<br><br>
+
+
+I am the eagle in the sky<br>
+The shape shifter<br>
+Vicious wolf<br>
+Howling in the night<br>
+The shape shifter<br>
+I am the walker on the wind<br>
+The shape shifter<br>
+Two-faced words<br>
+And a lying grin<br>
+The shape shifter<br>
+I am the eagle in the sky<br>
+The vicious wolf<br>
+Howling in the night<br>
+I am the walker on the wind<br>
+Lying words,<br>
+With an honest grin<br>
+The shape shifter</p>
+
+          <h1 id="t5" class="lyrics-test">-Under Siege-</h1>
+          <p class="lyrics-test-test">Outside these walls<br>
+An army awaits<br>
+But in these halls<br>
+We feel safe<br>
+
+Countless attacks<br>
+We have repelled<br>
+They won't turn back<br>
+They cannot be quelled<br><br>
+
+Supplies are running low<br>
+Starvation now awaits<br>
+Reinforcements will not show<br>
+The day is much too late<br><br>
+
+Broken and weak<br>
+Never give in<br>
+Prospects are bleak<br>
+We can't win<br><br>
+
+There is no hope<br>
+No time for lament<br>
+End of the rope<br>
+Our lives are spent<br><br>
+
+We have held out for months<br>
+Hoping for relief<br>
+Our fortress now our tomb<br>
+And salvation now our grief<br>
+We have held out for months<br>
+Waiting for relief<br>
+Our fortune's now our own<br>
+This is destiny<br><br>
+
+Supplies are running low<br>
+Starvation now awaits<br>
+Reinforcements never showed<br>
+As the daylight starts to fade<br>
+There's nothing left to lose<br>
+We have run out of time<br>
+There is nothing left to choose<br>
+Except how we shall die<br><br>
+
+Open the gates!<br>
+Now we attack!<br>
+Ride into fate!<br>
+No turning back!<br><br><br>
+
+Stand by the King!<br>
+To glory we ride!<br>
+Weapons and shield!<br>
+Together we die!<br><br>
+
+All is lost now!<br>
+Show no fear now!<br>
+All the world shall know our bravery!<br><br>
+
+All is lost now!<br>
+Show no fear now!<br>
+One last charge for death or victory!</p>
+
+          <h1 id="t6" class="lyrics-test">-Blood Eagle-</h1>
+          <p class="lyrics-test-test">Yeah!<br>
+
+Look to my burning eyes<br>
+Plead for your worthless life<br>
+All remorse I had has died<br>
+And all I have is hate inside<br><br>
+
+You took my soul from me<br>
+You took my family<br>
+You killed them all ferociously<br>
+Now this is what I give to thee<br><br>
+
+Carved upon your naked back<br>
+Blood eagle!<br>
+Skinned alive your ribs are cracked<br>
+Blood eagle!<br>
+Still alive you gasp for air<br>
+As panic strikes your eyes they stare<br>
+Terror grips your dying heart<br>
+Blood eagle!<br><br>
+
+Helpless on the ground<br>
+Hands and feet tightly bound<br>
+In my eyes no mercy found<br>
+My sharp knife starts to carve around<br><br>
+
+Penetrate your naked skin<br>
+Rip flesh and dig within<br>
+With a pleased and twisted grin<br>
+I spread your lungs like eagle's wings<br><br>
+
+The burning grief is tormenting me<br>
+The hate I feel is destroying me<br>
+Only vengeance will give me peace<br>
+Only vengeance will set my spirit free<br><br>
+
+
+Carved upon your naked back<br>
+Blood eagle!<br>
+Skinned alive your ribs will crack<br>
+Blood eagle!<br>
+Still alive you gasp for air<br>
+As panic strikes your eyes will stare<br>
+Slow death grips your tortured heart<br>
+Blood eagle!<br>
+Blood eagle!<br>
+Blood eagle!
+</p>
+
+          <h1 id="t7" class="lyrics-test">-We Shall Destroy-</h1>
+          <p class="lyrics-test-test">Sword and spear<br>
+Wall of shields<br>
+Standing strong<br>
+On this their chosen battle field<br><br>
+
+Form the lines<br>
+Shield by shield<br>
+Side by side<br>
+We're marching into destiny<br><br>
+
+March as one<br>
+Don't look back<br>
+Oden's sons<br>
+Attack!<br><br>
+
+Unleash hell! Do not repent!<br>
+Warfare grants us no lament<br>
+Let your weapons slash and tear<br>
+This is no place for fear<br><br>
+
+Hold the lines! Move as one!<br>
+In unity our victory's won<br>
+Our shields will form a mighty wall<br>
+United we shall never fall<br><br>
+
+Fear will not pierce our hearts<br>
+Though swords and arrows will<br>
+Victory is our reward<br>
+For all the blood we spill<br>
+We didn't come to waste our lives<br>
+Like pawns in a savage game<br>
+Our spirits, spears<br>
+And shields are linked<br>
+In a much stronger chain<br><br>
+
+March as one<br>
+Don't look back<br>
+Oden's sons<br>
+Attack!<br><br>
+
+[2x]<br>
+All are one<br>
+And one is all<br>
+Side by side<br>
+The battle calls<br>
+All are one<br>
+And one is all<br>
+Shield by shield<br>
+We'll never fall<br><br>
+
+Unleash hell! Do not repent!<br>
+Warfare grants us no lament<br>
+Let your weapons slash and tear<br>
+This is no place for fear<br><br>
+
+Charge with force! Break their ranks!<br>
+No remorse, crush their flanks!<br>
+Pulverize their human wall!<br>
+We shall destroy!
+
+</p>
+
+          <h1 id="t8" class="lyrics-test">-Hel-</h1>
+          <p class="lyrics-test-test">Welcome to my humble home<br>
+Your soul is mine to keep<br>
+There are no walls of rock and stone<br>
+Yet no one ever leaves<br><br>
+
+Those who die of age and plague<br>
+Are welcomed in my court<br>
+Murderers, miscreants<br>
+Will linger here and rot<br><br>
+
+Those who die inglorious<br>
+And those who die in shame<br>
+They are all sent to my dark halls<br>
+They all shall fear my name<br><br>
+
+Here hunger is your plate<br>
+Here famine is your knife<br>
+Here you will forever dwell<br>
+I welcome you to Hel<br><br>
+
+I welcome you to Hel<br><br>
+
+Now here you are in my cold realm<br>
+You are my honoured guest<br>
+At the banquette of the dead<br>
+Your soul will never rest<br><br>
+
+Your soul is mine to keep.<br>
+Your soul is mine to keep.<br>
+And you will never leave.<br>
+And you will never leave.<br><br>
+
+Here sickness is your bed<br>
+Here ruin is your fell<br>
+Here you will forever dwell<br>
+I welcome you to<br>
+Here hunger is your plate<br>
+Here famine is your knife<br>
+Here you will forever dwell<br>
+I welcome you to Hel</p>
+
+          <h1 id="t9" class="lyrics-test">-Coming Of The Tide-</h1>
+          <p class="lyrics-test-test">Racing 'cross the arctic lands<br>
+A mounted legion<br>
+Under my command<br>
+We're a brutal force<br>
+No men can withstand<br>
+Total havoc is at hand<br><br>
+
+
+See the black crows circle high<br>
+Waiting for brave men to die<br>
+They sense the coming of the tide<br>
+When opposition's swept aside<br><br>
+
+The fateful message<br>
+Reached us months ago<br>
+That our home was under siege<br>
+And since that day<br>
+We've been heading north<br>
+Our kinsmen needed our relief<br><br>
+
+As we near our fortress walls<br>
+Black smoke is rising to the sky<br>
+Burnt black ruins<br>
+Of our father's halls<br>
+And corpses greet our tired eyes<br><br>
+
+What madness led them to attack<br>
+Victory could not be won<br>
+They must've known<br>
+There was no turning back<br>
+And now they all are gone<br>
+No woman, child or man was spared<br>
+Their bodies lying where they fell<br>
+Suffering, anguish and despair<br>
+As they went through living hell<br><br>
+
+So now we're on the ride again<br>
+And vengeance is<br>
+Our newfound path<br>
+We draw our strength<br>
+From grief and pain<br>
+These bastards shall know<br>
+Our endless wrath<br><br>
+
+
+See the black crows circle high<br>
+Waiting for brave men to die<br>
+This is the coming of the tide<br>
+When opposition's swept aside</p>
+
+          <h1 id="t10" class="lyrics-test">-Warriors Of The North-</h1>
+          <p class="lyrics-test-test">We were the warriors of the north<br>
+Notorious and brave<br>
+We'd never lost a fight in war<br>
+We feared not the grave<br><br>
+
+The ruler of this northern court<br>
+My brother, lord, king<br>
+He always had our loyal swords<br>
+But we would feel his sting<br><br>
+
+The aging king had no descendants<br>
+No heir to take his throne<br>
+It filled his soul with fear<br>
+Transcendent<br>
+That next in line was my first-born<br><br>
+
+The king's heart grew<br>
+Full of dark deception<br>
+Full of foul conspiracy<br>
+This was when dark days<br>
+Had their inception<br>
+And we fell to his vile deceit<br><br>
+
+Robbed of arms, robbed of pride<br>
+But he spared our lives<br>
+The fear he had of Oden's wrath<br>
+Held his vengeful knife<br><br>
+
+With hearts so cold we left our homes<br>
+Banished from our land<br>
+A life in shame, a life in grief<br>
+Until we rise again<br>
+
+Winters come, winters pass<br>
+Twenty wasted years<br>
+We're aging men, our youth is gone<br>
+We will shed no tears<br>
+
+Winters come and winters pass<br>
+Twenty years have gone<br>
+Like a dream we fade away<br>
+Into oblivion<br><br>
+
+We are the warriors of the north<br>
+Notorious and brave<br>
+We're old but strong as before<br>
+And we don't fear the grave<br><br>
+
+From the south an army rises<br>
+They ride under cross of gold<br>
+From the shades we're called<br>
+In a time of crisis<br>
+To defend the king now weak and old<br><br>
+
+As the flames of warfare rage higher<br>
+We feel our destiny's embrace<br>
+We are aging men of an old empire<br>
+Now we can see Valhalla's gates<br><br>
+
+We!<br>
+March again<br>
+First in line<br>
+To reach Valhalla's mighty gates<br>
+
+We!<br>
+March again<br>
+March to fight<br>
+To reach Valhalla's mighty<br>
+We!<br>
+March again<br>
+Give our lives<br>
+To reach Valhalla's<br>
+Mighty royal gates
+</p>
+
+        </div>
+      </div>
+      <div class="lyrics-layout">
+        <div class="lyrics-layout_image">
+          <img id="fourth" class="lyrics-page_image" src="./images/jomsviking.jpg" height= "100%" width="auto"/>
+        </div>
+        <div class="lyrics-page_album-title_wrap">
+          <h1 class="lyrics-page_album-title">Jomsviking - 2016</h1>
+        </div>
+          <div class="lyrics-page_album-songs">
+            <h1 id="ff1" class="lyrics-test">-First Kill-</h1>
+            <p class="lyrics-test-test">The first man I killed was the earl's right-hand man<br>
+When he came to take her away<br>
+I ran his own sword straight through his throat<br>
+And then I stood there, watching him fade<br><br>
+
+The first blood I spilled was the blood of a varg<br>
+I had to wipe his smile away<br>
+I was not yet a man, nor was I a boy<br>
+But still, I made that bastard pay<br><br>
+
+So I left him there, on the stable floor<br>
+Bathing in a pool of his own blood<br>
+My one and only choice was to flee this land<br>
+To leave this wretched place for good<br><br>
+
+I am an outcast<br>
+All alone<br>
+I'm a nomad without home<br><br>
+
+I am an outlaw<br>
+I'm disowned<br>
+And I am no man's son<br><br>
+
+Through the cold midwinter nights on a southbound winding path<br>
+The stars and moon my only light; and the earl's men closing fast<br>
+I swore that I'd return; that I would see him burn<br>
+I will live it in my dreams; the smell, the blood, his dying screams<br><br>
+
+To my father I was dead, he took his hand from me<br>
+He drove me away, I was shunned<br>
+My one and only choice was to leave this land<br>
+To become the pagan they would hunt<br><br>
+
+I am an outcast<br>
+All alone<br>
+I'm a nomad without home<br><br>
+
+I am an outlaw<br>
+I'm disowned<br>
+And I am no man's son<br><br>
+
+I am an outcast<br>
+All alone<br>
+I'm a nomad without home<br><br>
+
+I am an outlaw<br>
+I'm disowned<br>
+And I am no man's son
+</p>
+
+            <h1 id="ff2" class="lyrics-test">-Wanderer-</h1>
+            <p class="lyrics-test-test">
+I journey through this frozen land on my own<br>
+There's no shelter anywhere down the road<br>
+When this mystic wanderer comes around<br>
+And the dying hope in my heart starts to grow<br><br>
+
+This vagrant offers help when there was none<br>
+To this outlawed murder on the run<br>
+Through the snowy mountains we roam<br>
+Mu journey towards freedom has now begun<br><br>
+
+On the run<br>
+All alone<br>
+Hope is gone<br>
+Wanderer<br><br>
+
+A blizzard hit with blinding force<br>
+The wind cut through the bone<br>
+And amidst the blur of snow<br>
+I found myself alone<br><br>
+
+Freezing winds brought me down<br>
+I laid myself to rest<br>
+In the deep, chilling cold<br>
+I knew I'd freeze to death<br><br>
+
+Left alone I had no choice<br>
+But to accept my fate<br>
+When the wanderer returned<br>
+Then I knew that my life was saved<br><br>
+
+On the run<br>
+All alone<br>
+Hope is gone<br>
+Wanderer<br><br>
+
+On the run<br>
+Not alone<br>
+Hope returns<br>
+Wanderer</p>
+
+            <h1 id="ff3" class="lyrics-test">-On A Sea Of Blood-</h1>
+            <p class="lyrics-test-test">Drifting alone upon the dragon ship<br>
+Eerily still, no winds that tear or whip<br>
+Silence deafens, the sea is mirror calm<br>
+Blood runs like the water from my palm<br><br>
+
+I'm standing by myself<br>
+Abiding<br>
+Just me and no one else<br>
+No hiding<br><br>
+
+Horizon crumbles under flaming skies<br>
+A shadow screams from thunderclouds up high<br>
+Nidhogg comes in winds of burning flames<br>
+Cast down war and endless pain<br><br>
+
+It's coming<br>
+Brace myself<br>
+I'm ready<br>
+It's coming<br>
+No escape<br>
+Stand steady<br><br>
+
+Out on this bloody sea I'll face my destiny<br>
+Lost in a dreadful dream I'll meet my fate<br><br>
+
+Out on this blood sea, this is my prophecy<br>
+A notion of what's to be, there's no escape<br><br>
+
+The dragon sweeps down with a roar<br>
+Sky and ocean shake<br>
+It tears up waves of blood and gore<br>
+The longship nearly breaks<br><br>
+
+Passing just above my head<br>
+A stench of putrid death<br>
+Rotting flesh of thousands dead<br>
+Dwells upon its breath<br><br>
+
+I turn around<br>
+Face myself<br>
+Yet it isn't I<br>
+With fear and rage<br>
+I run me through<br>
+As I watch me die!<br><br>
+
+Out on this bloody sea, I'll face my destiny<br>
+Lost in a dreadful dream, I'll meet my fate<br>
+Out on this bloody sea, this is my prophecy<br>
+A notion of what's to be, there's no escape<br><br>
+
+Get ready!<br>
+Stand steady!<br><br>
+
+It's coming<br>
+Brace myself<br>
+Abiding<br>
+It's coming<br>
+Certain death<br>
+No hiding</p>
+
+            <h1 id="ff4" class="lyrics-test">-One Against All-</h1>
+            <p class="lyrics-test-test">Winter's lost its grip<br>
+The ocean is set free<br>
+The ship glides through the broken ice<br>
+Out to an open sea<br><br>
+
+North winds fill the sails<br>
+They fly on frothing seas<br>
+As hope grows stronger in his heart<br>
+It's easier to breathe<br><br>
+
+Days turn into nights<br>
+Nights turn into days<br>
+His determination grows<br>
+With every breath he takes<br><br>
+
+There he stands alone, one man against all<br>
+With a sword in each hand, soon he will fall<br>
+There he stands alone, one man against all<br>
+With a sword in each hand, heeding the call<br><br>
+
+When the reach the Hano bay<br>
+There waits a ship of war<br>
+Like the bear attacks its prey<br>
+It comes at them with force<br><br>
+
+All men to the oars!<br>
+Row for all your worth!<br>
+Most likely this will be your last day<br>
+On this wretched earth!<br><br>
+
+The weak they try to run<br>
+But he's prepared to fight<br>
+One by one his friends are slain<br>
+Only he remains<br><br>
+
+He knows the end is near<br>
+They have him in their jaws<br>
+When a noble man appears<br>
+He tells them, "Withdraw!"<br><br>
+
+There he stands before him<br>
+As the skirmish quells<br>
+He offers him,<br>
+"Join our crew or join your friends in hell."<br><br>
+
+There he stands alone, one man against all<br>
+With a sword in each hand, and soon he will fall<br>
+There he stands alone, one man against all<br>
+With a sword in each hand, he's heeding the call
+</p>
+
+            <h1 id="ff5" class="lyrics-test">-Raise Your Horns-</h1>
+            <p class="lyrics-test-test">Victory<br>
+We fought hard and prevailed<br>
+Brutally<br>
+We were fighting<br><br>
+
+Stormy seas<br>
+Rolling thunder, piercing hail<br>
+Battlefield<br>
+Lit by lightning<br><br>
+
+Eagerly<br>
+We filled the waves with enemies<br>
+Hungrily<br>
+Ravens cawing<br><br>
+
+Home shore calls<br>
+We return on bloody seas<br>
+Twilight falls<br>
+Darkness crawling<br><br>
+
+So pour the beer for thirsty men<br>
+A drink that they have earned<br>
+And pour a beer for those who fell<br>
+For those who did not return<br><br>
+
+Raise your horns!<br>
+Raise them up to the sky!<br>
+We will drink to glory tonight<br>
+Raise your horns for brave fallen friends<br>
+We will meet where the beer never ends<br><br>
+
+No regrets<br>
+We went out to war and strife<br>
+To protect<br>
+King and country<br><br>
+
+Victory<br>
+Honor those who gave their life<br>
+Willingly<br>
+We will not grieve<br><br>
+
+So pour the beer for thirsty men<br>
+A drink that they have earned<br>
+And pour a beer for those who fell<br>
+For those who did not return<br><br>
+
+Raise your horns!<br>
+Raise them up to the sky!<br>
+We will drink to glory tonight!<br>
+Raise your horns!<br>
+Raise them up to the sky!<br>
+We will drink tonight!<br><br>
+
+Raise your horns!<br>
+Raise them up to the sky!<br>
+We will drink to glory tonight<br>
+Raise your horns<br>
+For brave fallen friends<br>
+We will meet in Valhalla again</p>
+
+            <h1 id="ff6" class="lyrics-test">-The Way Of Vikings-</h1>
+            <p class="lyrics-test-test">Whirling dust in morning air<br>
+Two warriors in the ring<br>
+With the strength of two great bears<br>
+They make their weapons sing<br><br>
+
+Sparks fly high when steel meets steel<br>
+And no one can believe<br>
+That these two men are best friends<br>
+Not enemies<br><br>
+
+They lash out with ferocious force<br>
+The fight grows more intense<br>
+But each avoid the other's sword<br>
+As if by seventh sense<br><br>
+
+Their muscles ache, their bones are sore<br>
+But none of them will yield<br>
+They fight a two-man practice war<br>
+As enemies<br>
+
+Faster!<br>
+Stronger!<br>
+Fight until your dying breath!<br>
+Fiercer!<br>
+Harder!<br>
+This is a matter of life and death!<br><br>
+
+Full on fight in training<br>
+It's the way of vikings<br>
+Every muscle straining<br>
+It's the way of the Jomsvikings<br>
+These men aim to shatter<br>
+It's the way of vikings<br>
+This is how we battle<br>
+It's the way of the Jomsvikings<br><br>
+
+Whirling dust in morning air<br>
+Two warriors in the ring<br>
+With the strength of two great bears<br><br>
+
+Sparks fly high when steel meets steel<br>
+And no one can believe<br>
+That these two men are best friends<br>
+Not enemies<br><br>
+
+Sun beats down with intense heat<br>
+The swordsmen start to break<br>
+Pain shoots through their tired feet<br>
+With every step they take<br><br>
+
+In this fight of iron wills<br>
+One man takes a knee<br>
+The other goes for the kill<br>
+Like an enemy<br><br>
+
+Faster!<br>
+Stronger!<br>
+Fight until your dying breath!<br>
+Fiercer!<br>
+Harder!<br>
+This is a matter of life and death!<br><br>
+
+Full on fight in training<br>
+It's the way of vikings<br>
+Every muscle straining<br>
+It's the way of the Jomsvikings<br>
+These men aim to shatter<br>
+It's the way of vikings<br>
+This is how we battle<br>
+It's the way of the Jomsvikings</p>
+
+            <h1 id="ff7" class="lyrics-test">-At Dawn's First Light-</h1>
+            <p class="lyrics-test-test">At dawn's first light<br>
+Run for your lives<br><br>
+
+Viking ships come out of the mist<br>
+Ominous sight<br>
+Flee or stand fast<br>
+You won't last<br><br>
+
+Warlords invade with axe and blade<br>
+Attack at first light<br>
+Unstoppable force<br>
+No remorse<br><br>
+
+Under attack, no turning back<br>
+You cannot run<br>
+Nowhere to hide<br>
+No shelter inside<br>
+
+Under attack, no turning back<br>
+Slaughter's begun<br>
+Nowhere to hid<br>
+No shelter inside<br><br>
+
+Slashing, killing<br>
+Thrashing, spilling<br>
+Blood for honor, death, and glory!<br><br>
+
+Out of the night<br>
+At dawn's first light<br>
+Longships arrive<br>
+Run for your lives!<br><br>
+
+Wounds won't mend your bitter end<br>
+Death to all<br>
+Flee or fight<br>
+No one survives<br><br>
+
+Bloodshed won't stop<br>
+'Til the last drop<br>
+You will fall<br>
+It matters not how hard you fought<br><br>
+
+Under attack, no turning back<br>
+You cannot run<br>
+Nowhere to hide<br>
+No shelter inside<br><br>
+
+Under attack, no turning back<br>
+Slaughter's begun<br>
+Nowhere to hid<br>
+No shelter inside<br>
+
+Slashing, killing<br>
+Thrashing, spilling<br>
+Blood for honor, death, and glory!<br><br>
+
+The ships bring terror to these shores<br>
+Death and all out war<br>
+Their oars are cutting through the waves<br>
+Like spades are digging graves<br><br>
+
+At dawn's first light<br>
+Run for your lives<br><br>
+
+Out of the night<br>
+At dawn's first light<br>
+Longships arrive<br>
+Run for your lives!</p>
+
+            <h1 id="ff8" class="lyrics-test">-One Thousand Burning Arrows-</h1>
+            <p class="lyrics-test-test">They bring him to the shore<br>
+His ship is ready made<br>
+He will not see them anymore<br>
+Here he cannot stay<br><br>
+
+The brotherhood is gathered<br>
+Their faces hard as stone<br>
+They have come to take farewell<br>
+In silence they mourn<br><br>
+
+"Our king has left our ranks<br>
+a wise and noble man<br>
+We owe him loyalty and thanks<br>
+He ruled with a steady hand<br><br>
+
+He will be missed by all<br>
+His heart has now been stilled<br>
+Tonight he'll dine in Odin's Hall<br>
+There he'll drink his fill"<br><br>
+
+The ship glides gently on the waves<br>
+As day turns into night<br>
+One thousand burning arrows<br>
+Fill the starlit sky<br><br>
+
+Two ravens on the longship<br>
+They spread their pitch-black wings<br>
+And lift up to the burning sky<br>
+A send-off for a king!<br><br>
+
+Into flames! The longship burst into flames!<br>
+Black smoke is rising high<br>
+To the eternal night<br><br>
+
+Into flames! The whole world burst into flames!<br>
+Nothing will be the same<br>
+Things will forever change<br><br>
+
+The flames are raging higher<br>
+They gnaw at wood and flesh<br>
+Soon the ship will break apart<br>
+And sink into the depth<br><br>
+
+This night we wait in silence<br>
+And when the morning breaks<br>
+Our king has left this world to walk<br>
+Through Valhalla's gates
+</p>
+
+            <h1 id="ff9" class="lyrics-test">-Vengeance Is My Name-</h1>
+            <p class="lyrics-test-test">The odds are stacked against me<br>
+Outnumbered three to one<br>
+These men are seasoned warriors<br>
+But I stand my ground<br><br>
+
+Waiting<br>
+Let them come<br>
+Ready<br>
+Cut them down<br><br>
+
+No chainmail for protection<br>
+I don't have a shield<br>
+Surprise my one advantage<br>
+Keeping my sword concealed<br><br>
+
+Hidden<br>
+Out of sight<br>
+Ready<br>
+Prepared to bite<br><br>
+
+The first man's coming at me<br>
+I am not afraid<br>
+The time has finally come now<br>
+To introduce my blade<br><br>
+
+Flashing<br>
+Fear its name<br>
+Slashing<br>
+Feel the pain<br><br>
+
+This is my sword<br>
+We are one and the same<br>
+My enemies' woe<br>
+Vengeance the name<br><br>
+
+The blade is swift and ruthless<br>
+It deals in death and harm<br>
+And as he tries to grab me<br>
+It cuts through his arm<br><br>
+
+First cut<br>
+Blood is shed<br>
+Dripping<br>
+Snow turns red<br><br>
+
+I've struck fear in their hearts<br>
+Now let the slaughter start<br><br>
+
+This is my sword<br>
+We are one in the same<br>
+My enemies' woe<br>
+Vengeance the name<br>
+This is my sword<br>
+The dealer of pain<br>
+Death of my foe<br>
+Vengeance the Game<br><br>
+
+The next man over reaches<br>
+And so he winds up dead<br>
+One cut is all that's needed<br>
+I removed his head<br><br>
+
+There's only one left standing<br>
+He's lost the will to fight<br>
+I point my sword towards him<br>
+He quickly takes flight<br><br>
+
+Running<br>
+From my sword<br>
+Victory<br>
+My reward<br>
+
+This is my sword<br>
+We are one and the same<br>
+My enemies' woe<br>
+Vengeance the name<br>
+This is my sword<br>
+The dealer of pain<br>
+Death of my foe<br>
+Vengeance my aim
+
+</p>
+
+            <h1 id="ff10" class="lyrics-test">-A Dream That Cannot Be-</h1>
+            <p class="lyrics-test-test">[Him:]<br>
+Years of wait are over now<br>
+She's almost in my grasp<br>
+Now I will fulfill my vow<br>
+She will be mine at last<br><br>
+
+[Her:]<br>
+I feel him near<br>
+The boy estranged has now returned a full grown man,<br>
+But still I fear that nothing's changed<br>
+He simply does not understand<br><br>
+
+[Him:]<br>
+Come with me<br>
+I'll set you free<br>
+And I'll show you<br>
+What your life could be<br><br>
+
+[Her:]<br>
+You can't see<br>
+That I am free<br>
+My life is mine, not yours.<br>
+So leave me be<br><br>
+
+[Him:]<br>
+Through forests deep, over mountains high<br>
+I've crossed the waves for her<br>
+In shadows dark, this cursed night<br>
+My thoughts and memories stir<br><br>
+
+[Her:]<br>
+I've left the memories<br>
+Of our youth behind<br>
+I don't know what he hopes to find<br>
+In the shadows he waits for me<br>
+For a dream that cannot be<br><br>
+
+[Him:]<br>
+Come with me<br>
+I'll set you free<br>
+And I'll show you<br>
+What your life could be<br><br>
+
+[Her:]<br>
+You can't see<br>
+That I am free<br>
+My life is mine, not yours.<br>
+So leave me be<br><br>
+
+[Him:]<br>
+She refuses to leave<br>
+So I grab her by force<br><br>
+
+[Her:]<br>
+I pull the knife I've concealed<br>
+I put the edge to his throat<br><br>
+
+[Him:]<br>
+Shocked by the attack<br>
+I can feel her final words sear<br><br>
+
+[Her:]<br>
+Leave and never come back<br>
+Or I'll cut you ear to ear<br><br>
+
+[Her:]<br>
+You can't see<br>
+That I am free<br>
+My life is mine, not yours.<br>
+So leave me be<br><br>
+
+[Both:]<br>
+I'll set you free<br>
+He said to me<br>
+And I'll show you what your life could be<br>
+I am free<br>
+She said to me<br>
+My life is mine, not yours.<br>
+So leave me be
+
+</p>
+
+            <h1 id="ff11" class="lyrics-test">-Back On Northern Shores-</h1>
+            <p class="lyrics-test-test">A thick fog lies ahead<br>
+The ocean's deadly calm<br>
+Their ship glides on the silent waves<br>
+Into the unknown<br>
+He cannot turn around<br>
+For him it's much too late<br>
+He puts his back into the oar<br>
+And rows towards his fate<br><br>
+
+The ship cuts through<br>
+The milk white mist<br>
+Through the blind they clearly hear<br>
+The oar strokes of their mighty fleet<br>
+Battle's drawing near<br>
+His heart pounds loud and wild<br>
+He's waited for this day<br>
+Then suddenly a dragon's head<br>
+Appears out of the haze<br><br>
+
+Back on the Northern shores<br>
+Just as he once swore<br>
+He vowed to return<br>
+And to make them burn<br><br>
+
+Then a Northern wind picks up<br>
+It sweeps the mist away<br>
+A might viking fleet appears<br>
+Patiently they wait<br>
+"Death or victory!"<br>
+Words by which they stand<br>
+No turning back! In for the kill!<br>
+Led by thy command!<br><br>
+
+"All men grab your swords and shields<br>
+The enemies lay ahead!<br>
+We'll make this bay our battlefield<br>
+and fill the waves with dead!"<br>
+Darkness then descends<br>
+Day turns into night<br>
+A massive cloud of thousand arrows<br>
+Fills the misty sky<br><br>
+
+With violent force<br>
+The two fleets crash<br>
+The battle now begins<br>
+Cries of war as weapons clash<br>
+Uncertain who will win<br><br>
+
+Thunder rolls 'cross the waves<br>
+Lightning cracks the sky<br>
+Clouds release hail big as grapes<br>
+As arrows are let fly<br><br>
+
+Hear the berserks roar!<br>
+They call to mighty Thor!<br>
+The fury in their raging eyes<br>
+Will burn forever more<br>
+Hear the weapons sing!<br>
+Feel the arrows sting!<br>
+They climb onto the Earl's great ship<br>
+And begin to swing<br><br>
+
+The fight is fierce as they attack<br>
+With sword and axe, no guts, no glory!<br>
+Arrow pierced, they won't back down<br>
+They battle on with heart and fury<br>
+Then it turns<br>
+The flanking ships give way<br>
+And soon they are embattled<br>
+Standing firm! Fight 'til death!<br>
+They refuse to die like cattle<br><br>
+
+Fighting for his life<br>
+No holds barred<br>
+So close to revenge<br>
+Close but yet so far<br><br>
+
+Then he stands before him<br>
+It's like the battle fades<br>
+He sees his father's eyes<br>
+As he's struck into the waves<br><br>
+
+Back on Northern shores<br>
+Just as he once swore<br>
+He has met his fate<br>
+In these cold dark waves<br><br>
+
+He looks to clouds up high<br>
+A dead and distant stare<br>
+She comes out of the light<br>
+See the chariot flare<br>
+Standing on the shore<br>
+He hears her silent call<br>
+Freja leads him through the door<br>
+Into the great hall
+</p>
+          </div>
+        </div>
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+        </div>
+
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+        </div>
+
+            <div class="page-finish">
+              <a href="./security.html">Security Statements</a>
+              <a href="./terms.html">Terms of Service</a>
+              <a href="./privacy.html">Privacy Policy</a>
+              <a href="./contact.html">Contact</a>
+            </div>
+
+        </body>
+        </html>

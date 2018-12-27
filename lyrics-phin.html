@@ -1,0 +1,2456 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Phinehas</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/thegod.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Thegodmachine - 2011</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Thegodmachine: The Speaking Stone</a>
+      <a href="#f2">Bad Blood</a>
+      <a href="#f3">A Pattern In Pain</a>
+      <a href="#f4">I Am The Lion</a>
+      <a href="#f5">From One End Of The Sky To The Other</a>
+      <a href="#f6">Legacy</a>
+      <a href="#f7">Crowns</a>
+      <a href="#f8">The Wishing Well</a>
+      <a href="#f9">My Horses Are Many</a>
+      <a href="#f10">Grace Disguised By Darkness</a>
+      <a href="#f11">Pendulum</a>
+      <a href="#f12">Thegodmachine: The Rider</a>
+      <a href="#f13">That I May Love You</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/thelast.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Last Word Is Yours To Speak - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Throes</a>
+      <a href="#s2">Fleshkiller</a>
+      <a href="#s3">The Deepest Of Graves</a>
+      <a href="#s4">Blood On My Knuckles</a>
+      <a href="#s5">Twisted</a>
+      <a href="#s6">De El Quatro</a>
+      <a href="#s7">Out Of Dust</a>
+      <a href="#s8">The Blessing And The Curse</a>
+      <a href="#s9">Dyson Sphere</a>
+      <a href="#f10">Manipulator's Wire</a>
+      <a href="#s11">Salting The Mine</a>
+      <a href="#s12">From A Burning Sun</a>
+      <a href="#s13">WWII</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/tillthe.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Till The End - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">Dead Choir</a>
+      <a href="#t2">White Livered</a>
+      <a href="#t3">Truth Be Told</a>
+      <a href="#t4">Non</a>
+      <a href="#t5">Forever West</a>
+      <a href="#t6">Tetelestai</a>
+      <a href="#t7">Coup De Grâce</a>
+      <a href="#t8">Omnis</a>
+      <a href="#t9">Seven</a>
+      <a href="#t10">Iliaster (More Than Skin)</a>
+      <a href="#t11">Evening Gray and Morning Red</a>
+      <a href="#t12">Moriar</a>
+      <a href="#t13">Till the End</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#fourth"><img class="lyrics-page_image" src="./images/darkflag.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Dark Flag - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#ff1">Dark Flag</a>
+      <a href="#ff2">Burning Bright</a>
+      <a href="#ff3">I Saw The Bombs Fall</a>
+      <a href="#ff4">The 38ᵗʰ Parallel</a>
+      <a href="#ff5">Hell Below</a>
+      <a href="#ff6">A War That Never Ends</a>
+      <a href="#ff7">Break the Earth</a>
+      <a href="#ff8">My Rosary</a>
+      <a href="#ff9">The Arduous March</a>
+      <a href="#ff10">Communion for Ravens</a>
+      <a href="#ff11">In Meaningless Names</a>
+      <a href="#ff12">Know Death; Know Forever</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/thegod.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Thegodmachine - 2011</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Thegodmachine: The Speaking Stone-</h1>
+      <p class="lyrics-test-test">Trembling in the shadow of your creation<br>
+Your knees grow weak<br>
+Watch my eyes beam with gold<br>
+And you’ll keep coming back<br>
+If you fixate your desire upon me<br>
+You’ll give me breath with your lungs<br>
+Feed me living!<br>
+I am what you fashioned<br>
+Your praise gives me power<br>
+With it I'll devour you</p>
+
+      <h1 id="f2" class="lyrics-test">-Bad Blood-</h1>
+      <p class="lyrics-test-test">Grieve that your body’s so worm-eaten inside<br>
+Crawling with infection, fed by your lies<br>
+Drop into the pit you dug with your pride<br>
+Now you’re nothing but a slave<br>
+You polish yourself<br>
+As if you were a monument<br>
+Reaching high like a tower to hell<br>
+And the ground concedes<br>
+<br>
+Pulled from the earth like rotting roots<br>
+Purge the demons draining your veins<br>
+Pride in your heart deceives you<br>
+Dragged from the depths of a dying world<br>
+Purge the demons draining your veins<br>
+Pride in your heart deceives you<br>
+<br>
+Keep your teeth before your tongue<br>
+Or you’ll claw for divinity<br>
+Your filthy rags: a disgusting crown<br>
+The offspring of an unhealed wound<br>
+<br>
+You wear your skin like a scoured corpse<br>
+After you heave you return like a dog<br>
+<br>
+Pulled from the earth like rotting roots<br>
+Purge the demons draining your veins<br>
+Pride in your heart deceives you<br>
+Dragged from the depths of a dying world<br>
+Purge the demons draining your veins<br>
+Pride in your heart deceives you<br>
+<br>
+Keep your teeth before your tongue<br>
+Or you’ll claw for divinity<br>
+Your filthy rags: a disgusting crown<br>
+The offspring of an unhealed wound<br>
+<br>
+You had love<br>
+But your heart is not your own<br>
+Grace is not beyond you<br>
+But you walked away<br>
+<br>
+The heavens will expose you<br>
+Hell-bent on destruction<br>
+Hell-bent on escape<br>
+Show us there’s nowhere to hide<br>
+Show us fear</p>
+
+      <h1 id="f3" class="lyrics-test">-A Pattern In Pain-</h1>
+      <p class="lyrics-test-test">As I charge the bloody fields<br>
+Waiting for your hands to pierce the depths<br>
+The world is stirring<br>
+Yet you keep silent to me<br>
+<br>
+This battle shakes the ground<br>
+But your voice could split the earth<br>
+The world is stirring<br>
+Yet you keep silent to me<br>
+<br>
+Eternity will never be long enough with you<br>
+When every step I take feels so worn<br>
+If heralds of glory sing<br>
+The minute life begins to fade<br>
+Then death is just a bridge between us<br>
+<br>
+See the enemy line the hills<br>
+So hide my fears from me<br>
+The world is stirring<br>
+Yet you keep silent to me<br>
+<br>
+Like a burning wound it kills me<br>
+That I haven't heard you in years<br>
+The world is stirring<br>
+Yet you keep silent<br>
+<br>
+Eternity will never be long enough with you<br>
+When every step I take feels so worn<br>
+If heralds of glory sing<br>
+The minute life begins to fade<br>
+Then death is just a bridge between us<br>
+<br>
+All I am is a scar-laden body<br>
+From those years you were gone<br>
+Now You appear to me<br>
+Faced with suffering death<br>
+You restore this porous heart that bleeds<br>
+Tvery time it beats<br>
+Your suture lives in me<br>
+There must be something You wished me to see<br>
+A pattern in this pain<br>
+<br>
+I see a pattern<br>
+I see You in this pain<br>
+I've waited for years<br>
+For what a brush with death has shown me<br>
+I will trust in Your grace<br>
+That speaks of the end<br>
+As my life begins to fade<br>
+I know Your blood was the bridge<br>
+The bridge between us<br>
+<br>
+Your blood was the bridge between us<br>
+Your blood<br>
+(Your blood was the bridge between us)<br>
+Your blood<br>
+(Your blood was the bridge between us)<br>
+Your blood<br>
+(Your blood was the bridge between us)<br>
+Your blood
+</p>
+
+      <h1 id="f4" class="lyrics-test">-I Am The Lion-</h1>
+      <p class="lyrics-test-test">Son of mine!<br>
+Can you hear the sound<br>
+Hear the sound of this repetition as clockwork<br>
+I'm always peeling back your skin<br>
+To rip the legions from your heart<br>
+Every scar you leave yourself<br>
+Is a jewel in the making<br>
+I would give new passion<br>
+Yet you've turned your back<br>
+<br>
+Like a devil of details<br>
+(Cut your throat)<br>
+You're so addicted<br>
+You'll swing the hammer<br>
+I'll turn your nails to gold<br>
+<br>
+Like a devil of details<br>
+You're so addicted<br>
+You'll swing the hammer<br>
+I'll turn your nails to gold<br>
+<br>
+You will know My voice<br>
+When the hair on your neck stands up<br>
+I opened this door<br>
+And I will bring the end<br>
+<br>
+All gives way and all will fall<br>
+To their knees and beg for grace<br>
+Son of Mine, these letters<br>
+I swear have not been burnt<br>
+<br>
+My heart, a child<br>
+Trembling in sight of his wake<br>
+(Trembling in sight of his wake)<br>
+Is longing to rest in the hollow<br>
+Hollow of Your hand<br>
+I know now what it is to be helpless<br>
+Like a foot on my neck to the ground<br>
+I'm longing to rest in the hollow<br>
+Hollow of Your hand<br>
+Here I am<br>
+I await you<br>
+<br>
+You will know My voice<br>
+Here I am<br>
+<br>
+My heart, a child<br>
+Trembling in sight of his wake<br>
+(Trembling in sight of his wake)<br>
+Is longing to rest in the hollow<br>
+Hollow of Your hand<br>
+I know now what it is to be helpless<br>
+Like a foot on my neck to the ground<br>
+I'm longing to rest in the hollow<br>
+Hollow of Your hand<br>
+Hollow (hollow) of Your hand<br>
+<br>
+I am the Lion!<br>
+<br>
+Clear the path<br>
+I am the Lion<br>
+You brood of snake<br>
+I am the Lion
+
+</p>
+
+      <h1 id="f5" class="lyrics-test">-From One End Of The Sky To The Other-</h1>
+      <p class="lyrics-test-test">Part the dark sky<br>
+That keeps me from Your eyes<br>
+Even as the darkness descends<br>
+My cry came to Your ears<br>
+As my heroes fail me<br>
+They leave me to fend on my own<br>
+My cry came to Your ears<br>
+<br>
+The earth withers beneath me<br>
+I'm always looking towards the clouds<br>
+I know we are not alone<br>
+Can't help but feel You in my bones<br>
+<br>
+When all is dead and gone<br>
+Your love will still remain<br>
+From one end of the sky to the other<br>
+You burn your banner<br>
+Cords of the grave<br>
+Snares of death<br>
+Cannot take me from You<br>
+I see the eyes of the empty<br>
+They form an eclipse above me<br>
+Until I find<br>
+Safety in Your memory<br>
+Safety in Your memory<br>
+Safety in Your memory<br>
+Safety in the memory<br>
+Of Your faithfulness<br>
+<br>
+Bright lights are breaking through the sky<br>
+Dark clouds are pouring from Your feet<br>
+The seas and valleys all run dry<br>
+So reach through the sky and capture me<br>
+My cry came to Your ears<br>
+(Bright lights are breaking through the sky)<br>
+Dark clouds are pouring from Your feet<br>
+Your love saved no mercy for Yourself<br>
+Reach through the sky and capture me!<br>
+<br>
+The earth withers beneath me<br>
+I'm always looking towards the clouds<br>
+I know we are not alone<br>
+Can't help but feel You in my bones<br>
+<br>
+When all is dead and gone<br>
+Your love will still remain<br>
+From one end of the sky to the other<br>
+You burn your banner<br>
+<br>
+The earth withers beneath me<br>
+I'm always looking towards the clouds<br>
+I know we are not alone<br>
+Can't help but feel You in my...<br>
+Bones</p>
+
+      <h1 id="f6" class="lyrics-test">-Legacy-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f7" class="lyrics-test">-Crowns-</h1>
+      <p class="lyrics-test-test">Draw your depiction<br>
+Stars become scars in the palm of Your hand<br>
+Bridged by blood<br>
+Your blood paints the paragon of unrequited love (unrequited love)<br>
+Do you remember pain followed by reassurance<br>
+And the light shining through<br>
+Bearing the poise of a Redeemer<br>
+Choking the shadows defeating death<br>
+<br>
+Providence:<br>
+Laid out before us<br>
+Father’s arms<br>
+Reaching as<br>
+The nations will hear a new song<br>
+As we’re lead to the water<br>
+The nations will hear a new song<br>
+As we’re lead to the water<br>
+<br>
+Give us discernment<br>
+Doors that glow at the sound<br>
+Of forerunners’ words (forerunners' words)<br>
+We are empty<br>
+Until you sit at the throne of our hearts<br>
+Break us free<br>
+Unshackled from our dire condition<br>
+We have hope<br>
+<br>
+Kings of earth, bow down<br>
+Lose your crowns<br>
+Kings of earth, bow down<br>
+Lose your crowns<br>
+Bow!<br>
+<br>
+The nations will hear a new song<br>
+As we’re lead to the water<br>
+The nations will hear a new song<br>
+Of rebirth<br>
+Of rebirth<br>
+<br>
+The nations will hear...<br>
+The nations will hear...<br>
+The nations will hear a new song<br>
+The nations will hear a new song<br>
+As we're lead to the water<br>
+A new song...<br>
+A new song...
+
+</p>
+
+      <h1 id="f8" class="lyrics-test">-The Wishing Well-</h1>
+      <p class="lyrics-test-test">A thunderstorm a distant shore<br>
+I’ve witnessed this before<br>
+Patience was fleeting<br>
+If a thousand coins on the ocean<br>
+floor would bring back love to me<br>
+I’ll wait forever<br>
+<br>
+Fill the sea with dreams of a wishing well<br>
+Waves bring back my coins to me<br>
+Drain the deep that teems with my empty shells<br>
+Slaves of sand still call for me<br>
+<br>
+I once had love to give<br>
+I once had hoped to live<br>
+The rarest stones will break my bones<br>
+And golden salt stops my lungs<br>
+The perfect limbs and haunting eyes<br>
+Begs the seas: begin to rise<br>
+<br>
+Fill the sea with dreams of a wishing well<br>
+Waves bring back my coins to me<br>
+Drain the deep that teems with my empty shells<br>
+Slaves of sand still call for me<br>
+<br>
+[Man:]<br>
+And when these delusions come to fruition<br>
+Believe you me<br>
+I'll strangle my self into nothingness, nothingness<br>
+And be reborn from the dream of a blasphemous fool<br>
+In my sordid pelt of mold<br>
+I’ll earn back years to me<br>
+The god of a nightmare will fall<br>
+As I take back what is…<br>
+<br>
+[Devil:]<br>
+Mine!<br>
+Worthless swine<br>
+Enraptured by my vanity<br>
+Your soul sank under the weight<br>
+Of gold you offered me<br>
+<br>
+[Man:]
+A waste of a life, squandered my heart until it rests<br>
+On the ocean floor, barren<br>
+Watching the light descend<br>
+Deeper and deeper<br>
+A deadening feeling starts to grow in my ribs<br>
+From where I lie<br>
+<br>
+([Devil:] From where I hide)<br>
+[Man:] The waves overflow<br>
+([Devil:] The snakes overgrown)<br>
+[Man:] With my blood<br>
+([Devil:] With your blood)<br>
+<br>
+[Man:]<br>
+Where are my years?<br>
+I’ll bleed dry by myself<br>
+I wish I was someone<br>
+<br>
+[Devil:]<br>
+You wish you were someone else<br>
+You wish you were someone else<br>
+You wish you were someone else...
+</p>
+
+      <h1 id="f9" class="lyrics-test">-My Horses Are Many-</h1>
+      <p class="lyrics-test-test">This is what it's like to be on fire<br>
+Burning through the coals<br>
+What a way to release this fury<br>
+And be consumed<br>
+A false prophet and a terrible liar<br>
+Trading money for souls<br>
+Abomination of a broad horizon<br>
+You sold them for a frail mansion<br>
+<br>
+It's nothing but dust<br>
+Your recompense and tongue<br>
+Will be fed down your throat<br>
+Oh you’d topple the pillars of a church<br>
+To make yourself a god<br>
+<br>
+When you speak, it’s a dead language<br>
+When you speak, it’s a dead language<br>
+<br>
+Forfeit (the grace you never...) preach<br>
+Forfeit<br>
+The grace you never preach<br>
+The grace you never preach<br>
+The grace you never preach<br>
+The grace you never preach<br>
+<br>
+Limb for limb<br>
+You’ll be torn to shreds<br>
+Eye for an eye<br>
+You'll be torn to shreds<br>
+<br>
+Throw it down like you never want to see it again<br>
+Come on!<br>
+If this is a slippery slope<br>
+You’re at the bottom of the ditch<br>
+Take advantage of the children<br>
+Yet you call yourself a man<br>
+If this is a slippery slope<br>
+You’re at the bottom of the ditch<br>
+Headlong<br>
+Headlong<br>
+Come on!</p>
+
+      <h1 id="f10" class="lyrics-test">-Grace Disguised By Darkness-</h1>
+      <p class="lyrics-test-test">I've felt their lives slip through my fingers<br>
+Now I watch them circle the drain<br>
+With breath like the torrent<br>
+They sink to the bottom<br>
+I've wasted so many chances<br>
+My efforts not a drop in the barrel<br>
+With a body like a boulder<br>
+I sink to the bottom<br>
+<br>
+Where is your mercy?<br>
+Where is your mercy now?<br>
+Where is your mercy?<br>
+Cause I've shown my teeth and have<br>
+had them kicked in one too many times<br>
+(Where is your mercy? Where is your mercy?)<br>
+And in my yearning He split the rock,<br>
+and the water gushed forth<br>
+<br>
+A voice keeps yelling, a voice keeps yelling<br>
+"This is where your proud waves end"<br>
+My fingers trace lines<br>
+On the surface I'm consumed<br>
+The sinking feeling, sinking feeling<br>
+"This is where your proud waves end"<br>
+I take my first step<br>
+And I'm thrown over the edge<br>
+<br>
+I tried to walk on the water<br>
+But now I just swim<br>
+They slip through my fingers<br>
+Now I watch them circle the drain<br>
+With breath like the torrent
+They sink to the bottom<br>
+I've wasted so many chances<br>
+My efforts not a drop in the barrel<br>
+With a body like a boulder<br>
+I sink to the bottom<br>
+<br>
+Where is your mercy?<br>
+Where is your mercy now?<br>
+Where is your mercy?<br>
+Where is your mercy?<br>
+Where is your mercy now?<br>
+Where is your mercy?<br>
+What grace is this that saves me<br>
+(Where is your mercy? Where is your mercy now?)<br>
+What grace is this that saves me<br>
+(Where is your mercy? Where is your mercy now?)<br>
+What grace is this that saves me<br>
+(Where is your mercy? Where is your mercy now?)<br>
+What grace is this that saves me<br>
+(Where is your mercy? Where is your mercy now?)<br>
+Where is your mercy now? Where?<br>
+Are you listening, oh God?<br>
+<br>
+I scream Your name, Your name, Your name<br>
+Are You outside of Your wrath, oh God?<br>
+Your name<br>
+And amongst the pile of dead<br>
+I see a light split the water from the heavens<br>
+And I feel God glowing inside me<br>
+My heart shakes with the music of the spheres<br>
+I no longer tremble in fear<br>
+For Redemption has found me<br>
+And in Redemption comes the overflow of peace</p>
+
+      <h1 id="f11" class="lyrics-test">-Pendulum-</h1>
+      <p class="lyrics-test-test">Bright lights are breaking through the sky<br>
+Dark clouds are pouring from your feet<br>
+The seas and valleys all run dry<br>
+Reach through the sky and capture me<br>
+<br>
+Bright lights are breaking through the sky<br>
+Dark clouds are pouring from your feet<br>
+The seas and valleys all run dry<br>
+Reach through the sky and capture me<br>
+<br>
+Bright lights are breaking through the sky<br>
+Dark clouds are pouring from your feet<br>
+The seas and valleys all run dry<br>
+Reach through the sky and capture me<br>
+<br>
+Bright lights are breaking through the sky<br>
+Dark clouds are pouring from your feet<br>
+The seas and valleys all run dry<br>
+Reach through the sky and capture me<br>
+<br>
+Bright lights are breaking through the sky<br>
+Dark clouds are pouring from your feet<br>
+The seas and valleys all run dry<br>
+Reach through the sky and capture me<br>
+<br>
+My heart a child trembling in sight of his wake<br>
+(Bright lights are breaking through the sky<br>
+Dark clouds are pouring from your feet)<br>
+Your blood was the bridge between us<br>
+(The seas and valleys all run dry<br>
+Reach through the sky and capture me)<br>
+(A new song)<br>
+<br>
+My heart a child trembling in sight of his wake<br>
+(Bright lights are breaking through the sky<br>
+Dark clouds are pouring from your feet)<br>
+Your blood was the bridge between us<br>
+(The seas and valleys all run dry<br>
+Reach through the sky and capture me)<br>
+(A new song)<br>
+<br>
+Reach through the sky and capture me
+</p>
+
+      <h1 id="f12" class="lyrics-test">-Thegodmachine: The Rider-</h1>
+      <p class="lyrics-test-test">Trapped in the trenches<br>
+Overrun by idols<br>
+We've strapped pride to our bones<br>
+And sealed it with our skin<br>
+Looking for a way to beat this system<br>
+We're trading life for a corpse<br>
+Entangled with the dead<br>
+And silenced by our guilt<br>
+We've strapped pride to our bones<br>
+And sealed it with our skin<br>
+<br>
+I've encased myself in a tomb<br>
+With gods as dead as me<br>
+Surrounded by stones<br>
+Of depravity<br>
+<br>
+I'm already dead<br>
+And I'm running out of answers<br>
+Outrunning all the answers<br>
+We want more<br>
+We want more<br>
+<br>
+Every failure leaves me deeper in the ground<br>
+Show me what I've become<br>
+<br>
+Oh, hanging skulls on my branches<br>
+Waist below the earth<br>
+I was a fool of lust<br>
+Since the day of my birth<br>
+<br>
+Oh my love, I haven't let you go<br>
+Golden skies will divide to receive your soul<br>
+Oh my son, you've just begun to grow<br>
+But we've strapped pride to our bones<br>
+And sealed it with our skin<br>
+<br>
+I've encased myself in a tomb<br>
+With gods as dead as me<br>
+Surrounded by stones<br>
+Of depravity<br>
+Turn this tomb to dust<br>
+<br>
+I'm already dead<br>
+Oh my love, I haven't let you go<br>
+Golden skies will divide to receive your soul<br>
+Oh my son, you've just begun to grow<br>
+But we've strapped pride to our bones<br>
+And sealed it with our skin<br>
+<br>
+Oh my God, You never let me go<br>
+Oh my God, You never let me go<br>
+Oh my God, You never let me go<br>
+(As lifeless as statues)<br>
+Oh my God, You never let me go<br>
+(As fleeting as dust in the air)<br>
+Oh my God, You never let me go<br>
+(We've robbed your splendor and replaced it with deceit)<br>
+Oh my God, You never let me go<br>
+(Replaced with deceit)<br>
+Oh my God, You never let me go<br>
+(Replaced with ruin)<br>
+<br>
+Show us what you see<br>
+Grace come swiftly<br>
+Show us what you see<br>
+Grace come swiftly<br>
+Show us what you see<br>
+Grace come swiftly<br>
+Show us what you see<br>
+Grace come swiftly<br>
+Show us what you see<br>
+Grace come swiftly<br>
+Show us what you see<br>
+Grace come swiftly<br>
+<br>
+Like the waves upon the shore<br>
+(Grace come swiftly)<br>
+We can't hear you in our hearts anymore<br>
+(Oh God give us rest in you)<br>
+Grace come swiftly and drag the axe further towards me<br>
+(Oh God give us rest in you)<br>
+The Son of man approaches the hollows<br>
+(Oh God give us rest in you)<br>
+He breaks the guilt in one fell swoop<br>
+(Oh God give us rest in you)<br>
+Beheading our treachery<br>
+(Oh God give us rest in you)<br>
+Oh God would you bring a burning downpour of Your, of Your...<br>
+Blood<br>
+<br>
+I can hear the hordes of ghosts<br>
+Screaming in Your choir<br>
+But would Your love make any difference<br>
+In a graveyard<br>
+<br>
+There's no running now<br>
+His thunder shakes the earth<br>
+There will be no trace of betrayal<br>
+<br>
+All creation trembles before You<br>
+As You lift Your hand<br>
+Your will be done</p>
+
+<h1 id="f12" class="lyrics-test">-That I May Love You-</h1>
+<p class="lyrics-test-test">[Instrumental]</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/thelast.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">The Last Word Is Yours To Speak - 2013</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Throes-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s2" class="lyrics-test">-Fleshkiller-</h1>
+        <p class="lyrics-test-test">Ignite my veins with your blood<br>
+to inspire new verses<br>
+I'm drained to my dregs<br>
+Replace my eyes with your fire to burn through the curses<br>
+Leave nothing that could hinder your blinding light<br>
+<br>
+Test me in the furnace of affliction<br>
+Refine me as you wish<br>
+When the die is cast<br>
+Breathe in me your animating spark<br>
+<br>
+I won't flinch when the Earth gives way<br>
+So take me now<br>
+It's not my blood to bleed<br>
+I won't flinch when the Earth gives way<br>
+So I cry out:<br>
+The last word is yours to speak<br>
+<br>
+Sharpen my tongue with precision only your words convey<br>
+I've kept waiting too long<br>
+Breathe in my lungs a passion that strangles corruption<br>
+Till there's nothing left<br>
+<br>
+Fleshkiller<br>
+We're engraved on your hand<br>
+<br>
+Test me in the furnace of affliction<br>
+Refine me as you wish<br>
+When the die is cast<br>
+Breathe in me your animating spark<br>
+<br>
+I won't flinch when the Earth gives way<br>
+So take me now<br>
+It's not my blood to bleed<br>
+I won't flinch when the Earth gives way<br>
+So I cry out:<br>
+The last word is yours to speak<br>
+<br>
+Fleshkiller
+Disease has no grasp on your reign<br>
+Fleshkiller<br>
+Prison cells won't contain your light<br>
+<br>
+With every crushing blow<br>
+we are engraved upon your hand<br>
+<br>
+I won't flinch when the Earth gives way<br>
+So take me now<br>
+It's not my blood to bleed<br>
+I won't flinch when the Earth gives way<br>
+So I cry out:<br>
+The last word is yours to speak</p>
+
+        <h1 id="s3" class="lyrics-test">-The Deepest Of Graves-</h1>
+        <p class="lyrics-test-test">Every time my eyes fall to<br>
+the stare of the unknown<br>
+You take the night and replace it with your dawn<br>
+When my path is unclear and my courage starts to fade<br>
+You sow life in the deepest of graves<br>
+<br>
+Somewhere between bearing my shame<br>
+and wearing my pain<br>
+You still find it in you to love me<br>
+for who I am<br>
+<br>
+When I fall prey to the snares of distrust<br>
+You're reaching out or I'd be crushed<br>
+Break my fears and shatter my guilt<br>
+An eternity of weight is gone<br>
+<br>
+Bearing my shame<br>
+and wearing my pain<br>
+You still find it in you to love me<br>
+Somewhere between bearing my shame<br>
+and wearing my pain<br>
+You still find it in you to love me<br>
+for who I am<br>
+<br>
+I never cease to fail you<br>
+But you still love me past my debt<br>
+<br>
+You sow life in the deepest of graves<br>
+<br>
+(For miles) I see no end to your flowing grace<br>
+You sow life in the deepest of graves<br>
+<br>
+Bearing my shame<br>
+and wearing my pain<br>
+You still find it in you to love me<br>
+Somewhere between bearing my shame<br>
+and wearing my pain<br>
+You still find it in you to love me<br>
+for who I am<br>
+</p>
+
+        <h1 id="s4" class="lyrics-test">-Blood On My Knuckles-</h1>
+        <p class="lyrics-test-test">Face your wrath<br>
+<br>
+I followed your shadow<br>
+to the devil's lair<br>
+Upon a pale horse,<br>
+pierced, gaunt and red<br>
+Trampling the chests of demons<br>
+and not looking back<br>
+The weight of redemption on my shoulders<br>
+when you said;<br>
+
+"I would give you more gold than you could fit in your fists,<br>
+the entire world is at your fingertips."<br>
+<br>
+Face your rage<br>
+and your hounds will turn on their own<br>
+With each nail<br>
+I will break your every bone<br>
+<br>
+Black and blue color my skin;<br>
+that smirk leaves your face<br>
+Reciprocated tenfold<br>
+when I break your curse<br>
+Hoisted up and bound by a traitor<br>
+I left him in a field;<br>
+his insides feed the birds<br>
+<br>
+"I would give you more gold than you could fit in your fists,<br>
+the entire world is at your fingertips."<br>
+<br>
+Face your rage<br>
+'Wrath' is too weak a word<br>
+<br>
+When I rise your fate is sealed<br>
+There will be nothing left but the blood on my knuckles<br>
+<br>
+'Wrath' is too weak a word<br>
+Face your rage<br>
+and your hounds will turn on their own<br>
+With these nails<br>
+I will break your every bone</p>
+
+        <h1 id="s5" class="lyrics-test">-Twisted-</h1>
+        <p class="lyrics-test-test">You breed malice into your pews<br>
+Like death you never have enough<br>
+<br>
+Spewing your poison<br>
+over the four corners of the world<br>
+You're twisted in knots<br>
+pouring salt in every wound<br>
+Spewing your poison<br>
+like seeds of discontent<br>
+Flaunting your hate<br>
+as a means of backwards religion<br>
+<br>
+Hell is not low enough to contain your depravity<br>
+Hell is not low enough to truly describe where you're heading<br>
+<br>
+Your mouth is a festering wound<br>
+Never shut long enough to heal<br>
+Like death you never have enough<br>
+So your thirst will be quenched<br>
+It's just a matter of time before you beg due recompense<br>
+All the hate you spew will not save you before them<br>
+<br>
+Death you never have enough<br>
+Like death you never have enough<br>
+<br>
+Fall to your knees<br>
+Your redeemer's robes won't save you<br>
+and even your rules betray you<br>
+You breed malice into your pews<br>
+and make them suffer under your abuse<br>
+<br>
+You breed malice into your pews<br>
+Like death you never have enough<br>
+<br>
+Fall to your knees, Pharisee<br>
+and burn<br>
+<br>
+Your mouth is a festering wound<br>
+Never shut long enough to heal<br>
+Like death you never have enough<br>
+So your thirst will be quenched<br>
+It's just a matter of time before you beg due recompense<br>
+All the hate you spew will not save you before them<br>
+<br>
+Depart from me for I never knew you
+</p>
+
+        <h1 id="s6" class="lyrics-test">-De El Quatro-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s7" class="lyrics-test">-Out Of Dust-</h1>
+        <p class="lyrics-test-test">Dry up the sea,<br>
+with a word turn it all to desert sand<br>
+Turn all the lights out in the sky,<br>
+blot out all the stars<br>
+<br>
+Make your presence unmistakable<br>
+and watch the devil flee<br>
+That old serpent that slipped through the cracks,<br>
+exiled back to the sea<br>
+So carry me to the foot of the throne room<br>
+or hide me in the ground<br>
+So bring me the head of the beast<br>
+or hide me in the ground<br>
+<br>
+Wake up your hearts<br>
+The dead come to rise<br>
+No longer apart<br>
+Your bodies will rise<br>
+Let all those who dwelt in dust<br>
+be born in the light of the guilt you crush<br>
+<br>
+The Earth resonates with your voice<br>
+Shaking the woodwork<br>
+WIth one swing the pride of a hopeless nation will fall down<br>
+<br>
+Bring me the head of the beast<br>
+or hide me in the ground<br>
+<br>
+Wake up your hearts<br>
+The dead come to rise<br>
+No longer apart<br>
+Your bodies will rise<br>
+Let all those who dwelt in dust<br>
+be born in the light of the guilt you crush<br>
+<br>
+When we meet face to face<br>
+The world and the depths will separate<br>
+So bring me the head of the beast<br>
+or hide me in the ground<br>
+Bury me<br>
+<br>
+I'd rather die than just sit back and watch you hurt<br>
+<br>
+Tired brothers, loving sisters,<br>
+To all those who have had enough;<br>
+Your fight isn't over, you're going to press on<br>
+<br>
+To a loveless generation<br>
+born to be an impending resurgence:<br>
+Let all those who dwelt in dust<br>
+be born in the light of the guilt you crush</p>
+
+        <h1 id="s8" class="lyrics-test">-The Blessing And The Curse-</h1>
+        <p class="lyrics-test-test">Get me back to the days when I felt young<br>
+When love was beautiful<br>
+Not just a touch to con<br>
+Over these years I've deadened my nerves<br>
+Friction for validation<br>
+Take me back<br>
+<br>
+You are the blessing<br>
+and I am the curse<br>
+I'm ready to run like a child<br>
+away from the hell I deserve<br>
+<br>
+Waiting in this darkened room<br>
+You're still fresh on my lungs<br>
+Hoping for a sign to prove I'm over the edge<br>
+Cut me from what's burnt on my eyes<br>
+Cut me away<br>
+I still wear you branded on my skin<br>
+<br>
+You are the blessing<br>
+and I am the curse<br>
+I'm ready to run like a child<br>
+away from the hell I deserve<br>
+You are the garden<br>
+and I am the drought<br>
+I'm emptied over the weeks away<br>
+Too fond of this bed to see it out<br>
+<br>
+Are my roots too low?<br>
+Am I drying up too fast to follow?<br>
+Have my veins run dry?<br>
+Will I ever hear your voice again<br>
+or feel your healing hand?<br>
+<br>
+(Even in the storm, I can hear you now)<br>
+Cut me away from the lies that this world has fed me<br>
+(You're still there, you call be back)<br>
+Give me a sign, I still wear her branded on my skin<br>
+(Even in the storm, I can hear you now)<br>
+Show me love for what you mean't it to be<br>
+(You're still there, you call me back)<br>
+Take me back<br>
+(Even in the storm, I can hear you now)<br>
+Lest I run headfirst into my lust<br>
+(You're still there, you call me back)<br>
+and further away from any future trust
+</p>
+
+        <h1 id="s9" class="lyrics-test">-Dyson Sphere-</h1>
+        <p class="lyrics-test-test">The confines of my eyes<br>
+but allow a sliver of light<br>
+Upon a pale blue sphere what purpose could I have<br>
+Climb with me to the top of the clouds<br>
+But I find that I am truly alone<br>
+<br>
+Can you hear my cicada's song<br>
+droning through the darkness?<br>
+Blurring the words and fading the meaning<br>
+until only static is left<br>
+Climb with me to the top of the clouds<br>
+But I find that I am truly alone<br>
+<br>
+'I am who contains the universe<br>
+who makes the ocean floor a road<br>
+I am who cranes the stars in place<br>
+I am who your mind cannot encase<br>
+Can you even think of me without reducing me?'<br>
+<br>
+I want to see you in all your glory<br>
+Clothed in clouds too big of a story<br>
+I wanna see you in all of your glory<br>
+I want to see you in all your glory<br>
+Prove it to me<br>
+I want to see you in all your glory<br>
+Clothed in clouds too big of a story<br>
+I want to see you in all of your glory<br>
+Prove it to me<br>
+<br>
+'You'd be lost to madness...<br>
+<br>
+Can you even think of me without reducing me?<br>
+I piece together dislocated limbs of the galaxy<br>
+<br>
+I'm looking down from the clouds all over creation<br>
+while you cling to the filthy means but it's my blood that you're washed in<br>
+Look up to the stars that I've set out like lanterns<br>
+to illuminate my child superseding your ransom<br>
+You live your life in the cracks of an infinite canvas<br>
+A mere fraction of a note in eternal stanzas<br>
+<br>
+The beginning, the end and what comes after<br>
+They point to me: I am their master'
+</p>
+
+        <h1 id="s10" class="lyrics-test">-Manipulator's Wire-</h1>
+        <p class="lyrics-test-test">Witness the fate of a generation<br>
+Bring me your sutures<br>
+I'll rip them out<br>
+Your past is evident<br>
+Held together by string<br>
+<br>
+Are you really yourself<br>
+or do your demons still haunt you?<br>
+Are you really yourself?<br>
+Your past owns you<br>
+Your stitches are your manipulator's wire<br>
+<br>
+Dread the night where the blood blends with the rest<br>
+You'll be shown what you've hidden away<br>
+Swept under the rug<br>
+Now the destruction refuses to relent<br>
+You'll be found drowning in shadows<br>
+if you breathe your past<br>
+<br>
+Gauze and string won't mend your wounds<br>
+Burying your future in oblivion<br>
+Your past owns you<br>
+<br>
+Dread the night where the blood blends with the rest<br>
+You'll be shown what you've hidden away<br>
+Swept under the rug<br>
+Now the destruction refuses to relent<br>
+You'll be found drowning in shadows<br>
+if you breathe your past<br>
+<br>
+Your past owns you<br>
+<br>
+Seethe all you corpses to scorch and deceive<br>
+<br>
+Are you really yourself<br>
+Or do your demons still haunt you?<br>
+Manipulator's wire<br>
+<br>
+Dread the night where the blood blends with the rest<br>
+You'll be shown what you've hidden away<br>
+Swept under the rug<br>
+Now the destruction refuses to relent<br>
+You'll be found drowning in shadows<br>
+Your past owns you<br>
+<br>
+Seethe all you corpses to scorch and deceive</p>
+
+        <h1 id="s11" class="lyrics-test">-Salting The Mine-</h1>
+        <p class="lyrics-test-test">We're only looking back to see<br>
+the miles we've left behind<br>
+What we thought was finished has only marked the beginning<br>
+I'm done with wasting my time to pay for your trend<br>
+You've been played out for years and it makes me so sick to watch<br>
+<br>
+We walk a tight rope to stay alive<br>
+You repeat yourself over and over<br>
+It's another day, another lie<br>
+They will chew you up just to spit you out<br>
+<br>
+We're only looking back to see the miles we've left behind<br>
+What we thought was finished has only marked the beginning<br>
+<br>
+The more you talk the less your words hold weight<br>
+A herd of cattle led to the butcher's block and put to sleep<br>
+<br>
+A wise man once told me that<br>
+"the only originality left is honesty." - Seth Webster<br>
+<br>
+We walk a tight rope to stay alive<br>
+You repeat yourself over and over<br>
+It's another day, another lie<br>
+They will chew you up just to spit you out<br>
+<br>
+So don't buy in, you're just another ticket sold<br>
+<br>
+We walk a tight rope to stay alive<br>
+You repeat yourself over and over<br>
+It's another day, another lie<br>
+They will chew you up just to spit you out<br>
+<br>
+We walk a tight rope to stay alive<br>
+It's getting old<br>
+It's another day, another lie<br>
+Don't buy in you're just another ticket sold<br>
+<br>
+They'll chew you up just to spit you out<br>
+So don't buy in<br>
+I'm not gonna pay for your trend
+</p>
+
+        <h1 id="s12" class="lyrics-test">-From A Burning Sun-</h1>
+        <p class="lyrics-test-test">To think of all the lives they've taken<br>
+Thrown in an endless void<br>
+Worth is not assigned by a man on a screen<br>
+Nor love by where we sleep<br>
+We conceal who we truly are<br>
+In hopes to thrill an audience<br>
+But there's not enough make up in this world<br>
+To cover all our scars<br>
+<br>
+A coward said that you'll never amount to anything<br>
+You've still got the breath in your lungs enough to fight the apathy<br>
+<br>
+Raise your voices loud and clear<br>
+They will tremble when they hear<br>
+We are not abandoned anymore<br>
+We're aiming to find you now<br>
+This is the last time you sell us out<br>
+We will not be silent anymore<br>
+<br>
+Desensitizing every truth we hold<br>
+A dystopic nightmare<br>
+Worth is not assigned by a man on a screen<br>
+Nor love by where we sleep<br>
+<br>
+Raise your voices loud and clear<br>
+They will tremble when they hear<br>
+We are not abandoned anymore<br>
+We are aiming to find you now<br>
+This is the last time you sell us out<br>
+We will not be silent anymore<br>
+<br>
+Reveal yourself for who you are<br>
+Apathy is dead<br>
+<br>
+A coward said that you'll never amount to anything<br>
+You've still got the breath in your lungs enough to fight the apathy<br>
+So walk out from behind those gates and feel the sun burn upon your face<br>
+You will be bestowed a new name etched in stone<br>
+Born in flame<br>
+<br>
+We are born from a burning sun<br>
+We are more than what's inside the gates we're from<br>
+Apathy is dead<br>
+Reveal yourself for who you are</p>
+
+<h1 id="s13" class="lyrics-test">-WWII-</h1>
+<p class="lyrics-test-test">Dear father I must first confess<br>
+that from the stone inside my chest<br>
+I have nothing to offer you<br>
+<br>
+I'm shaken by your righteousness<br>
+at a loss of words to do justice<br>
+so grant me grace in silence<br>
+<br>
+I will learn to love you<br>
+and abandon the rest<br>
+<br>
+If your children lost their voice to sing<br>
+and fled the shadow of your wing<br>
+would you reveal yourself to us?<br>
+<br>
+Crashing waves calm at your feet<br>
+but further still my body sinks<br>
+I am a man of little faith<br>
+<br>
+But I will learn to love you<br>
+and abandon the rest<br>
+<br>
+Not abandoned<br>
+Bound by grace we sing<br>
+You are my everything<br>
+<br>
+My last breath is yours<br>
+My last breath is yours to breathe<br>
+<br>
+My last word is yours<br>
+My last word is yours to speak<br>
+<br>
+To love you and abandon the rest</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/tillthe.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Till The End - 2015</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-Dead Choir-</h1>
+          <p class="lyrics-test-test">Dead choir<br>
+The moment i heard your footsteps shake upon the ground<br>
+It betrayed every hint of truth that fumbled out your mouth<br>
+The song you sang moved mountains silenced by fear<br>
+The unnerving complacency you wash down with your years<br>
+<br>
+Dead choir<br>
+Does it help you sleep at night<br>
+Dead choir<br>
+To judge those you’ve put out of sight<br>
+You’re no man of faith<br>
+You are incapable of change<br>
+And you’ve never been awake<br>
+<br>
+Sing me a song not with empty words<br>
+But with feet that follow<br>
+Sing me a song so sweet to hear<br>
+But long since forgotten<br>
+Grace come my way<br>
+How can you love a god that you cannot see<br>
+When you hate your fellow man standing in front of me<br>
+When will you remember that love first made you sing<br>
+The words that jumped off the pages to comfort suffering<br>
+<br>
+Dead choir<br>
+You think you’re serving someone else<br>
+Dead choir<br>
+But you’re only fooling yourself<br>
+You’re no man of faith<br>
+You’re a liar and a fake<br>
+You refuse to ever change<br>
+Without grace we would all be dead<br>
+We would all be dead<br>
+We would all be dead<br>
+<br>
+Sing me a song not with empty words<br>
+But with feet that follow<br>
+Awaken a verse<br>
+Oh grace, come my way<br>
+<br>
+Sing me a song not with empty words<br>
+But with feet that follow<br>
+Sing me a song so sweet to hear<br>
+But long since forgotten<br>
+Grace come my way</p>
+
+          <h1 id="t2" class="lyrics-test">-White Livered-</h1>
+          <p class="lyrics-test-test">[feat. Dominic Dickinson]<br>
+<br>
+I trusted you with my life and you made it my hell<br>
+<br>
+I would carve away at your skin to peel back your face<br>
+Searching for who you used to be if I knew it wasn’t a waste<br>
+<br>
+I trusted you with my life and you made it my hell<br>
+To the cold blooded deceiver<br>
+What do you have to say for yourself<br>
+To the cold blooded deceiver<br>
+I trusted you with my life and you made it my hell<br>
+<br>
+Too white livered to even offer explanation<br>
+Betrayer and a thief<br>
+Too white livered to even offer explanation<br>
+You smeared poison in our sheets<br>
+<br>
+Lying while lying in a wedding bed<br>
+You brought this into our home you played your games with my head<br>
+Deeper trace the wound across my neck<br>
+Deeper I was a promise you never kept<br>
+<br>
+I trusted you with my life and you made it my hell<br>
+To the cold blooded deceiver<br>
+What do you have to say for yourself<br>
+To the cold blooded deceiver<br>
+I trusted you with my life and you made it my hell<br>
+<br>
+Your skin is a casket because the man I once knew died<br>
+Next time you look in a mirror I hope your eyes go blind<br>
+I hope your eyes go blind<br>
+Next time you look in a mirror I hope your eyes go blind<br>
+I hope your eyes go blind</p>
+
+          <h1 id="t3" class="lyrics-test">-Truth Be Told-</h1>
+          <p class="lyrics-test-test">Teach me how to be brave in my last day<br>
+You grew up in a broken home and your mother said the porch was your bed<br>
+Manipulating your father into confinement<br>
+Just so they could cut the hairs from your head<br>
+They tried to steal your strength and beauty away<br>
+Forcing betrayal of a man i barely knew<br><br>
+Abandoned and thrown between white walls<br>
+But they could never, they will never break you<br>
+When they put the gun to your head<br>
+An angel stood between you and the trigger<br>
+When they said your breath was worth nothing<br>
+You made them listen to the voice of a leader<br>
+Teach me how to be brave in my last day<br><br>
+You awoke to empty hands so you worked them to the barest of bones<br>
+You were found knocked out with blood on the floor<br>
+But they could never, they will never break you<br>
+<br>
+When they put the gun to your head<br>
+An angel stood between you and the trigger<br>
+When they said your breath was worth nothing<br>
+You made them listen to the voice of a leader<br>
+Teach me how to be brave even in my dying day<br>
+The truth could never be taken from your lips<br>
+The shortness of breath you were clutching your chest<br><br>
+The world went black but for only a moment<br>
+You opened your eyes and they locked to mine<br>
+Never afraid you were never broken<br>
+I see now as you’re reaching out you never let a second pass away<br>
+Unbreakable reflection of grace teach me how to be brave in my last day<br>
+<br>
+Teach me how to be brave in my last day<br>
+Teach me how to be brave in my last day<br>
+Teach me how to be brave in my last day</p>
+
+          <h1 id="t4" class="lyrics-test">-Non-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t5" class="lyrics-test">-Forever West-</h1>
+          <p class="lyrics-test-test">Forever west follow the sunset<br>
+Leave the past in the darkness behind you<br>
+Forever west don’t let the sun set<br>
+Don’t look back never look back<br>
+<br>
+If you should find yourself all alone<br>
+Remembering the cold the night air brought<br>
+Its sting like salt biting the knives in our backs<br>
+We were waiting for a glint of light preceding dawn<br>
+When the hills bled paint like fire on the horizon<br>
+Upon a golden canvas sky<br>
+<br>
+Forever west follow the sunset<br>
+Leave the past in the darkness behind you<br>
+Forever west don’t let the sun set<br>
+Don’t look back never look back<br>
+<br>
+If you should find yourself alone<br>
+My stars will point you back to me<br>
+You’ll have to fight through the night for what’s at stake<br>
+You’ll have to fight through the night until morning breaks<br>
+Fight through the night<br>
+<br>
+The shadows grew as the light fell dim<br>
+To remind me of my struggle within<br>
+A contrast sharp enough to pierce my heart<br>
+But I’ll run until my legs go numb<br>
+Away, away from the dark<br>
+(Forever west follow the sunset)<br>
+<br>
+Forever west follow the sunset<br>
+Leave the past in the darkness behind you<br>
+Forever west don’t let the sun set<br>
+Don’t look back never look back<br>
+<br>
+Forever west follow the sunset<br>
+Forever west<br>
+Forever, forever, forever, forever<br>
+<br>
+You’ll have to fight through the night<br>
+You’ll have to fight through the night</p>
+
+          <h1 id="t6" class="lyrics-test">-Tetelestai-</h1>
+          <p class="lyrics-test-test">Oh how i long to see the end of every ending<br>
+To breathe before my last and begin beginning<br>
+Would you catch the wind with your arm<br>
+Or lift my oceans with a heave<br>
+All hell sound your sirens<br>
+Hold your breath for three words conceived:<br>
+It is finished<br>
+Walking down the streets i watch you turn your face from me<br>
+They ripped the skin from my back dissecting eternity<br>
+You clothed me in darkness given a rose but wearing the thorns instead<br>
+My last breath<br>
+I watch god hang his robes over the sun<br>
+To hide a child becoming corruption<br>
+Clean hands<br>
+Eternity nailed to a tree how tired you must have been<br>
+Clean hands<br>
+From a garden to misery bearing the weight of men<br>
+Yet you raise yourself higher to take your last breath<br>
+Demons pause with terror<br>
+I am blood enough to never run dry still you despise me<br>
+Sinking the spear in my side when you hung beside me on that day<br>
+Cursing at the wind will not stop the message i send<br>
+<br>
+Clean hands<br>
+Eternity nailed to a tree how tired You must have been<br>
+Clean hands<br>
+From a garden to misery bearing the weight of men<br>
+Yet You raise yourself higher to take Your last breath<br>
+<br>
+Bear witness once and for all<br>
+It is finished<br>
+<br>
+Would you catch the wind with your arm<br>
+Or lift my oceans with a heave<br>
+All hell sound your sirens<br>
+Hold your breath for three words conceived</p>
+
+          <h1 id="t7" class="lyrics-test">-Coup De Grâce-</h1>
+          <p class="lyrics-test-test">Dead end - prove yourself<br>
+<br>
+Motives lost in translation to nullification<br>
+You lied your way into fame<br>
+Scheming and slaying were perks for the taking<br>
+Stars in your eyes but you were playing a game<br>
+<br>
+Hear suspicion proving itself<br>
+<br>
+Dead end - jester and faker<br>
+Before your maker, wish a truce between you two<br>
+Dead end - take a bow for your act<br>
+‘Cause the curtain will fall on your neck like a noose<br>
+(Yeah)<br>
+<br>
+Hail marys aren’t enough<br>
+Your body’s ripe with rust<br>
+Hearing your scales scraping the ground<br>
+That disgusting and piercing sound<br>
+<br>
+Hear suspicion proving itself<br>
+<br>
+Fire - make sure to do your worst<br>
+Hail marys aren’t enough because you’ll still be cursed<br>
+Fire - make sure to do your worst<br>
+I hear suspicion proving itself<br>
+<br>
+The curtain will fall on your neck like a noose<br>
+Fire - hail marys aren’t enough ‘cause you’ll still be cursed<br>
+Fire - make sure to do your worst<br>
+I hear suspicion proving itself<br>
+<br>
+Dead end - jester and faker<br>
+Before your maker, wish a truce between you two<br>
+Dead end - the whole crowd will applaud<br>
+When the curtain falls on your neck like a noose
+</p>
+
+          <h1 id="t8" class="lyrics-test">-Omnis-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t9" class="lyrics-test">-Seven-</h1>
+          <p class="lyrics-test-test">I awoke in silence to broken glass<br>
+Blood stains the floor where I lay in separate halves<br>
+Trapped inside my mind my head welcomed the ground<br>
+Cursing in vain but my words offer no sound<br>
+<br>
+I am lost in the spiral<br>
+My shame is stronger than desire for survival<br>
+An angel pushed me when I was pulling away<br>
+Despite my best attempts she decided to stay<br>
+Trapped in the cracks of an empty shell<br>
+On borrowed time that was spent in hell<br>
+The sum of all my fears strung out over seven long, long years<br>
+<br>
+Drugs traverse my veins and leave me clutching the numb<br>
+My voice flies away further from my useless tongue<br>
+I sit quiet and still and hear worms eating the church<br>
+Maybe I believe them but I’m drunk from drinking my words<br>
+<br>
+I am lost in the spiral<br>
+My shame is stronger than desire for survival<br>
+An angel pushed me when I was pulling away<br>
+Despite my best attempts she decided to stay<br>
+Trapped in the cracks of an empty shell<br>
+On borrowed time that was spent in hell<br>
+The sum of all my fears strung out over seven long, long years<br>
+<br>
+Speak the words tonight, span the void inside<br>
+Let loose the words you’re free, come back, come back to me<br>
+Speak the words tonight, span the void inside<br>
+Let loose the words you’re free, come back, come back to me<br>
+<br>
+Seven years without a voice seven months away from my side<br>
+Seven spirals into the void but it ends now, it ends tonight<br>
+<br>
+I won’t drag you down anymore<br>
+I am more than dead weight floating adrift<br>
+But I could never feel it brush my lips<br>
+You ask me to span the void inside<br>
+But I believe my borrowed time’s run dry<br>
+I won’t drag your down anymore<br>
+Speak!<br>
+<br>
+I wear my past as the scars on my feet<br>
+Seven years without a voice seven months away from my side<br>
+Seven spirals into the void but it ends now, it ends tonight<br>
+Seven years without a voice seven months away from my side<br>
+Seven spirals into the void but it ends now, it ends tonight
+</p>
+
+          <h1 id="t10" class="lyrics-test">-Iliaster (More Than Skin)-</h1>
+          <p class="lyrics-test-test">Fate: What mere men define as the end<br>
+Fate: What I’ve seen as just the beginning<br>
+I am more than just a man<br>
+I walk in promise as an eternal soul<br>
+I am not afraid to die<br>
+<br>
+I may bleed but my soul is well<br>
+I may fall but I will live to tell<br>
+If you should strike me down I return tenfold<br>
+I may be dressed in skin but it’s only a threshold<br>
+<br>
+Oh, I was called the moment that you opened my eyes<br>
+To bring retribution to those who would steal your lives<br>
+<br>
+I tip the scale of the world (I tip the scale of the world)<br>
+With the weight of all compassion on my back<br>
+I tip the scale of the world (I tip the scale of the world)<br>
+But it’s my burden to bear (burden to bear)<br>
+If you should strike me down, I return tenfold<br>
+I may be dressed in skin but it’s only a threshold<br>
+<br>
+I may bleed but my soul is well<br>
+I may fall but I will live to tell<br>
+If you should strike me down I return tenfold<br>
+I may be dressed in skin but it’s only a threshold<br>
+<br>
+I tip the scale of the world<br>
+I am more than just a man<br>
+<br>
+I was called the moment that you opened my eyes<br>
+To bring retribution to those who would steal your lives
+</p>
+
+          <h1 id="t11" class="lyrics-test">-Evening Gray and Morning Red-</h1>
+          <p class="lyrics-test-test">Wading in dark waters, a shovel at my side<br>
+Digging a grave for the depths to fill with defeat that I would hide<br>
+Hearing grace kiss the waves but afraid of the breakers roar<br>
+Who would set sail to hold a candle amidst a thunderstorm?<br>
+<br>
+Like a hand grasping to sand I am filled and emptied constantly<br>
+How could I quiet the ocean that’s in front of me?<br>
+Toil and sweat and aspiration is but wringing rags into the deep<br>
+Tell me how I would ever stay the swarming seas<br>
+<br>
+Am I chasing the wind?<br>
+Am I drowning in the shallow end?<br>
+<br>
+Counting every step I take and boundaries you’ve assigned<br>
+But Davy Jones he beckons me back to die amongst the brine<br>
+Feet still sinking further, my body’s run a shore<br>
+Only in my nightmares have I seen this once before<br>
+<br>
+Drowning in the shallow under the weight of the undertow<br>
+Drowning in the shallow under the weight of the undertow<br>
+<br>
+Like a hand grasping to sand I am filled and emptied constantly<br>
+How could I quiet the ocean that’s in front of me?<br>
+Toil and sweat and aspiration is but wringing rags into the deep<br>
+Tell me how I would ever stay the swarming seas<br>
+<br>
+Am I chasing the wind?<br>
+Am I drowning in the shallow end?<br>
+Am I chasing the wind?<br>
+Am I drowning in the shallow end?</p>
+
+          <h1 id="t12" class="lyrics-test">-Moriar-</h1>
+          <p class="lyrics-test-test">I fixed eyes upon dreaded waning of life<br>
+Until I felt forever enter void and thus divide<br>
+If I stand against my darkness not all of me will die</p>
+
+          <h1 id="t13" class="lyrics-test">-Till the End-</h1>
+          <p class="lyrics-test-test">Till the end<br>
+<br>
+To those freedom ensnared<br>
+A dying breed to the true heir<br>
+Resurrect and testify<br>
+I was born to live free or die<br>
+Why consult the grave about the breathing<br>
+When I feel your heart still beating<br>
+It’s a counter intuitive love<br>
+You are not indentured servants to lust<br>
+<br>
+This is not a prayer to be blessed<br>
+This is a prayer to be broken<br>
+I do not fear what they fear<br>
+Till the end I’m singing<br>
+<br>
+From shadows valley low we march into the mend<br>
+Through hollows I won’t stop singing till the end<br>
+From shadows valley low we march into the mend<br>
+Through hollows I won’t stop singing till the end<br>
+<br>
+You were writhing in shackles<br>
+Tripping on plot holes<br>
+I can hear your voice begin to shake<br>
+You were birthing in my dreams<br>
+Hell’s newborn nightmare asleep<br>
+<br>
+From shadows valley low we march into the mend<br>
+Through hollows I won’t stop singing till the end<br>
+From shadows valley low we march into the mend<br>
+Through hollows I won’t stop singing till the end<br>
+<br>
+To those freedom ensnared<br>
+A dying breed to the true heir<br>
+Resurrect and testify<br>
+I was born to live free or die<br>
+<br>
+Till the end<br>
+Live free or die<br>
+Till the end<br>
+Live free or die<br>
+Till the end</p>
+        </div>
+      </div>
+
+      <div class="lyrics-layout">
+        <div class="lyrics-layout_image">
+          <img id="fourth" class="lyrics-page_image" src="./images/darkflag.jpg" height= "100%" width="auto"/>
+        </div>
+        <div class="lyrics-page_album-title_wrap">
+          <h1 class="lyrics-page_album-title">Dark Flag - 2017</h1>
+        </div>
+          <div class="lyrics-page_album-songs">
+            <h1 id="ff1" class="lyrics-test">-Dark Flag-</h1>
+            <p class="lyrics-test-test">I looked into darkness too long<br>
+Now it stares back<br>
+<br>
+Welcome to the inside<br>
+The world's largest prison<br>
+Where the only way out<br>
+Is six feet deep<br>
+<br>
+Forced to fear<br>
+By burden of indoctrination<br>
+A weight upon their eyelids<br>
+Asleep to the outside<br>
+The apotheosis of madness<br>
+Paints red a nation<br>
+Free will is a death sentence<br>
+There's no salvation<br>
+<br>
+Mourn when I say mourn<br>
+Or make your graves with the resistance<br>
+Bow when I say bow<br>
+Or fade in a vacuum of nonexistence<br>
+Dark flag: the insurmountable curtain<br>
+Dark flag: how can we be found?<br>
+<br>
+When light can't reach into shadow<br>
+How can we be found?<br>
+When light can't speak into me<br>
+It's trapped in-between hell and myself<br>
+<br>
+With the teachings of the great leader: we pledge<br>
+We oath to hold our guns to defend the state: we pledge<br>
+<br>
+Mourn when I say mourn<br>
+Or make your graves with the resistance<br>
+Bow when I say bow<br>
+Or fade in a vacuum of nonexistence<br>
+Dark flag: the insurmountable curtain<br>
+Dark flag: how can we be found?<br>
+<br>
+Where paranoia runs rampant as hunger<br>
+Welcome to the inside<br>
+Drowning articulation<br>
+It feels like madness<br>
+With no end in sight<br>
+How can we be found?<br>
+<br>
+When light can't reach into shadow<br>
+How can we be found?<br>
+When light can't speak into me<br>
+It's trapped in-between hell and myself<br>
+<br>
+Shrouded in shadow<br>
+They threw away the key<br>
+I looked into darkness<br>
+Now it stares back at me<br>
+<br>
+The only way out is six feet deep<br>
+Dark flag: how can we be found?<br>
+Dark flag: burn it to the ground
+</p>
+
+            <h1 id="ff2" class="lyrics-test">-Burning Bright-</h1>
+            <p class="lyrics-test-test">They stole you far away<br>
+To the end of the sea<br>
+From rib and clay<br>
+My lantern and key<br>
+<br>
+Home is the narrow and wide reaches of our shared scars<br>
+On tomorrow's horizon I want<br>
+To believe I choose to see<br>
+<br>
+When the sun is down<br>
+Show me how to reflect like the moon<br>
+The key is in my hands and I choose to burn bright<br>
+Safe years behind me burn bright<br>
+<br>
+I know now I am not alone<br>
+You've always found me in the deep of night<br>
+I could die well here, before morning comes<br>
+Because I can see all the lights of the sun in your eyes<br>
+<br>
+We spoke of lovely things<br>
+With guards not listening<br>
+We made plans to escape<br>
+Like in the movies<br>
+<br>
+Confiding in scripts<br>
+Kindling in secret<br>
+Our home discrete<br>
+In captors' keep<br>
+<br>
+In quiet still small moments<br>
+<br>
+Wait till they leave us alone<br>
+And don't look back,<br>
+Cross with me over the threshold<br>
+My inimitable half<br>
+<br>
+In quiet still small moments<br>
+I hear you breathe and I remember<br>
+I am alive<br>
+<br>
+I found you under distant stars<br>
+You saw me through my deepest dark<br>
+<br>
+I know now I am not alone<br>
+You've always found me in the deep of night<br>
+I could die well here, before morning comes<br>
+Because I can see all the lights of the sun in your eyes<br>
+<br>
+Home is the narrow and wide reaches of our shared scars<br>
+On tomorrow's horizon<br>
+I can see all the lights of the sun in your eyes<br>
+<br>
+The key in my hands and I choose to burn bright<br>
+Safe years behind me burn bright
+</p>
+
+            <h1 id="ff3" class="lyrics-test">-I Saw The Bombs Fall-</h1>
+            <p class="lyrics-test-test">I awoke from a nightmare<br>
+In a fit consciousness slow<br>
+Cold sweat and colder air<br>
+Blinding flashes cast a shadow<br>
+Before the sound hit the square<br>
+The end of it all<br>
+<br>
+They kept in from your TV screens<br>
+A slight of hand<br>
+But I dreamt of a lifeless rock<br>
+A cratered wasteland<br>
+<br>
+It's not just an alternate reality<br>
+I saw the bombs fall<br>
+It's not just overseas<br>
+I saw the bombs fall<br>
+<br>
+Are we really that far away?<br>
+Am I naïve to think?<br>
+That this I only a dream<br>
+Is it really that hard to recall<br>
+What brought the end of it all?<br>
+We lost our chance to rewrite history<br>
+<br>
+A path void of heroes<br>
+The abysmal waste of what could have been<br>
+Discerning only ones and zeroes<br>
+There's no space between for them<br>
+Peel back what covers your ears<br>
+Hear that a nation is crying out for mercy<br>
+Before it's too late for them to raise a sound<br>
+Mercy<br>
+<br>
+Are we really that far away?<br>
+Am I naïve to think?<br>
+That this is only a dream<br>
+Is it really that hard to recall?<br>
+What brought the end of it all?<br>
+We lost our chance to rewrite history<br>
+<br>
+Between the bodies in trenches and the blistering sky<br>
+It's not just overseas: I saw the bombs fall
+</p>
+
+            <h1 id="ff4" class="lyrics-test">-The 38ᵗʰ Parallel-</h1>
+            <p class="lyrics-test-test">[Instrumental]</p>
+
+            <h1 id="ff5" class="lyrics-test">-Hell Below-</h1>
+            <p class="lyrics-test-test">I sowed the salt but the<br>
+bitter weeds still grow<br>
+I fear a heaven above for the hell below<br>
+<br>
+I wept when guilt by association stared in irony<br>
+Avoiding its eyes bowing three times<br>
+I watched as hopes expire under the weight<br>
+Of standards I create and betray<br>
+<br>
+One day they sunk hungry fangs into the hand that feeds<br>
+A hand that bleeds<br>
+In trying to stifle their voices<br>
+I bowed their limbs, they bowed my knees<br>
+<br>
+Struck to silence by the gavel<br>
+Make him bleed for playing God<br>
+I sowed the salt but the bitter weeds still grow<br>
+I fear a heaven above for the hell below<br>
+<br>
+Lost in the waves of a sea of fire<br>
+One million portraits to fan the flame
+Burned in effigy<br>
+A fitting end to a cult of personality<br>
+<br>
+Struck to silence by the gavel<br>
+Make him bleed for playing God<br>
+I sowed the salt but the bitter weeds still grow<br>
+I fear a heaven above for the hell below<br>
+<br>
+Called to the judgement seat<br>
+Eye for an eye watch a man playing God bleed<br>
+<br>
+Struck to silence by the gavel<br>
+Make him bleed for playing God<br>
+I sowed the salt but the bitter weeds still grow<br>
+I fear a heaven above for the hell below<br>
+<br>
+Turn to the last page to see just how this ends<br>
+<br>
+I fear a heaven above for the hell below
+</p>
+
+            <h1 id="ff6" class="lyrics-test">-A War That Never Ends-</h1>
+            <p class="lyrics-test-test">First light under quiet clouded cloak<br>
+All hell broke the ridge<br>
+Wry trees up a narrow trail<br>
+A wordless story a war that never ends<br>
+<br>
+Brothers and sisters sleep in a bed hollowed by staves<br>
+Like discarded shells from guns of powerful men<br>
+Last one lays in red under swinging single light<br>
+No pulse: a war that never ends<br>
+<br>
+How clever you lie<br>
+How many ways you kill<br>
+Your cure is worse than the disease<br>
+Your sated shrine<br>
+Your cup overfilled<br>
+Your cure is worse than the disease<br>
+<br>
+Our proudest legacy is how unendingly we scheme<br>
+Of new ways to kill than condemn<br>
+A war that never ends<br>
+<br>
+It became our greatest prize to keenly wield skill to devise<br>
+More ways to cut than to mend<br>
+A war that never ends<br>
+<br>
+How clever you lie<br>
+How many ways you kill<br>
+Your cure is worse than the disease<br>
+Your sated shrine<br>
+Your cup overfilled<br>
+Your cure is worse than the disease<br>
+A war that never ends
+</p>
+
+            <h1 id="ff7" class="lyrics-test">-Break the Earth-</h1>
+            <p class="lyrics-test-test">If all it takes is a voice to lead,<br>
+Rise up Moses and teach me to speak<br>
+If all it takes is a mustard seed,<br>
+I'll trade my heart to move a mountain in me<br>
+<br>
+Struck me like lightning and called me by thunder<br>
+<br>
+To raise an army underground<br>
+I hear the trumpet, the final sound<br>
+We will rise from barren lowly dirt<br>
+First to strike the stone, break the earth<br>
+<br>
+Taunt the jaws of lions<br>
+And you will suffer teeth<br>
+Lash the backs of my people<br>
+You'll be scarred to bone underneath<br>
+<br>
+Oh I pray for the day my words unleash the rain<br>
+<br>
+If all it takes is a voice to lead<br>
+Rise up Moses and teach me to speak<br>
+If all it takes is a mustard seed<br>
+I'll trade my heart to move a mountain in me<br>
+<br>
+Move a mountain in me<br>
+Break the earth<br>
+<br>
+Heels to the throat of liberty<br>
+Always withdraw broken<br>
+Forbidden words of prophets<br>
+In time will be spoken<br>
+Rise up, from barren lowly dirt<br>
+Rise up, strike the stone, break the earth<br>
+<br>
+If you reap what you've sown, why has nothing grown<br>
+Oh I pray for the day my words unleash the rain<br>
+<br>
+If all it takes is a voice to lead<br>
+Rise up Moses and teach me to speak<br>
+If all it takes is a mustard seed<br>
+I'll trade my heart to move a mountain in me<br>
+<br>
+Struck me like lightning and called me by thunder<br>
+<br>
+To raise an army underground<br>
+I hear the trumpet, the final sound<br>
+We will rise from barren lowly dirt<br>
+First to strike the stone, break the earth</p>
+
+            <h1 id="ff8" class="lyrics-test">-My Rosary-</h1>
+            <p class="lyrics-test-test">Is there a power without or within?<br>
+Hope isn't grown, hope is awakened<br>
+The threat of law can't outweigh conviction<br>
+Hope isn't grown, hope is awakened<br>
+<br>
+Where are you now?<br>
+Are you present of an accident?<br>
+My rosary<br>
+Where are you now?<br>
+Will my faith meet sight or bayonet?<br>
+My rosary<br>
+<br>
+My first free choice was lying to the state<br>
+Given context to what lies past the gate<br>
+The fog surrounding my camp began to disperse<br>
+We took our chance for the fence but I wasn't first<br>
+<br>
+I've found that running away isn't the same as being free<br>
+I'm paralyzed in my sleep<br>
+Running away isn't the same as being free<br>
+You were my compass<br>
+My rosary<br>
+<br>
+Hope isn't grown, hope is awakened<br>
+<br>
+I slipped on ice and watched your hands reach out<br>
+Shaking as coils sent current throughout<br>
+Grounding the brunt of what should have been my fate<br>
+Opening the wires sending fire through your veins<br>
+Like a bridge I crawled over you to the outside<br>
+My first breath of freedom was your last breath of life<br>
+<br>
+I've found that running away isn't the same as being free<br>
+I'm paralyzed in my sleep<br>
+Running away isn't the same as being free<br>
+You were my compass<br>
+My rosary<br>
+<br>
+Is there a power without or within?<br>
+Hope isn't grown, hope is awakened<br>
+The threat of law can't outweigh conviction<br>
+Hope isn't grown, hope is awakened<br>
+<br>
+Where are you now? Are you present?<br>
+Where are you now? Are you an accident?
+</p>
+
+            <h1 id="ff9" class="lyrics-test">-The Arduous March-</h1>
+            <p class="lyrics-test-test">[Instrumental]</p>
+
+            <h1 id="ff10" class="lyrics-test">-Communion for Ravens-</h1>
+            <p class="lyrics-test-test">[feat. Jimmy Ryan]<br>
+<br>
+The smell of wine turned<br>
+Bread beneath the gallows tree<br>
+Ode to the nameless; a hooded child<br>
+Communion for ravens<br>
+<br>
+No hope to lose; no past to mourn<br>
+Born a slave deep in the earth<br>
+A famine stricken cursed womb<br>
+Nothing is sacred<br>
+The only escape is death<br>
+You would torture my family<br>
+To litter my tomb<br>
+<br>
+I refuse to live dead any longer<br>
+<br>
+Hooks in the wall over open flame<br>
+Silence escape<br>
+Bowing heads into the earth<br>
+No hope; no name<br>
+<br>
+I refuse to live dead any longer<br>
+<br>
+The smell of wine turned<br>
+Bread beneath the gallows tree<br>
+Ode to the nameless; a hooded child<br>
+Communion for ravens<br>
+<br>
+I saw the stone walls fall<br>
+Crushing their will to dust<br>
+Swept away with the river's current<br>
+But still I see every face<br>
+<br>
+In blood or famine<br>
+Silence escape<br>
+Grow old to die here<br>
+No hope; no name<br>
+<br>
+I refuse to live dead any longer<br>
+<br>
+The smell of wine turned<br>
+Bread beneath the gallows tree<br>
+Ode to the nameless; a hooded child<br>
+Communion for ravens<br>
+<br>
+I refuse to live dead any longer
+
+</p>
+
+            <h1 id="ff11" class="lyrics-test">-In Meaningless Names-</h1>
+            <p class="lyrics-test-test">Counting days with each cell door creak<br>
+I know the number of every chain link<br>
+Grieving walls draw near to mind<br>
+The deafening hush of waiting to die<br>
+<br>
+Hold fast to hope of another day<br>
+Hold fast it can't last forever<br>
+The meaningless names of far off places<br>
+I have to believe something better awaits<br>
+<br>
+I sense a waste in every exhale<br>
+Breath escapes iron bar and nail<br>
+Forgotten silence condemned<br>
+Darkness as my only friend<br>
+<br>
+But hold fast to hope of another day<br>
+Hold fast it can't last forever<br>
+The meaningless names of far off places<br>
+I have to believe something better awaits<br>
+<br>
+I am waiting to die among a swarm of flies<br>
+Every day is a lifetime in chains<br>
+Every day<br>
+<br>
+Hold fast to hope of another day<br>
+Hold fast it can't last forever<br>
+The meaningless names of far off places<br>
+I have to believe something better awaits<br>
+<br>
+I have to believe. I have to believe</p>
+
+            <h1 id="ff12" class="lyrics-test">-Know Death; Know Forever-</h1>
+            <p class="lyrics-test-test">I had to be broken<br>
+to be pieced back together<br>
+I had to know death to know forever<br>
+<br>
+An angel hiding in the hearts of a stone<br>
+And the sculptor's patient means<br>
+Cutting through rubble to the bone<br>
+To carve her into being<br>
+The unsung and lonely orphan<br>
+And the namer of names<br>
+A refuge and father given<br>
+Granting title, will, and claim<br>
+<br>
+Broken; pieced back together<br>
+Know death; know forever<br>
+<br>
+When sorrows rise<br>
+The thorns in my side<br>
+Make me alive<br>
+I wear my scars like a crown<br>
+I had to be lost to be found<br>
+<br>
+Oh captive wearer of chains<br>
+And the holder of keys<br>
+Deliver ankles and wrists from pain<br>
+To abound as eternally free<br>
+<br>
+Broken to be pieced back together<br>
+I had to know death to know forever<br>
+<br>
+When sorrows rise<br>
+The thorns in my side<br>
+Make me alive<br>
+I wear my scars like a crown<br>
+I had to be lost to be found<br>
+<br>
+Broken before the maker<br>
+All death will know forever<br>
+<br>
+I wear my scars like a crown<br>
+I had to be lost to be found</p>
+          </div>
+        </div>
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+        </div>
+
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+        </div>
+
+            <div class="page-finish">
+              <a href="./security.html">Security Statements</a>
+              <a href="./terms.html">Terms of Service</a>
+              <a href="./privacy.html">Privacy Policy</a>
+              <a href="./contact.html">Contact</a>
+            </div>
+
+        </body>
+        </html>

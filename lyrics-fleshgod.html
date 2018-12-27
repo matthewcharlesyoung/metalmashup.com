@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Fleshgod Apocalypse</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/laber.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Labyrinth - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Kingborn</a>
+      <a href="#f2">Minotaur (Wrath Of Poseidon)</a>
+      <a href="#f3">Elegy</a>
+      <a href="#f4">Towards The Sun</a>
+      <a href="#f5">Warpledge</a>
+      <a href="#f6">Pathfinder</a>
+      <a href="#f7">The Fall Of Asterion</a>
+      <a href="#f8">Prologue</a>
+      <a href="#f9">Epilogue</a>
+      <a href="#f10">Under Black Sails</a>
+      <a href="#f11">Labyrinth</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/king.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">King - 2016</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Marche Royale</a>
+      <a href="#s2">In Aeternum</a>
+      <a href="#s3">Healing Through War</a>
+      <a href="#s4">The Fool</a>
+      <a href="#s5">Cold As Perfection</a>
+      <a href="#s6">Mitra</a>
+      <a href="#s7">Paramour (Die Leidenschaft Bringt Leiden)</a>
+      <a href="#s8">And The Vulture Beholds</a>
+      <a href="#s9">Gravity</a>
+      <a href="#f10">A Million Deaths</a>
+      <a href="#s11">Syphilis</a>
+      <a href="#s12">King</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/laber.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Labyrinth - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Kingborn-</h1>
+      <p class="lyrics-test-test">Carving my soul through the flesh<br>
+While this void is still breeding the sin<br>
+I'm torn apart by the vile executor<br>
+As we're torn apart as the executors kill<br>
+Concealed in seas of perdition<br>
+Where the mother eternity has drowned<br>
+In the shade of this black superstition<br>
+The King of bastard seed's destined to burn<br>
+<br>
+Like the bridges of Athens<br>
+Time of oppression and decay!<br>
+My vengeance will burn<br>
+Injustice and sorrow!<br>
+Are scorching the land of the slaves<br>
+<br>
+Son of the dark<br>
+Lord of the solitude<br>
+On the throne of his will<br>
+Derangement of a soul<br>
+The seed of fears<br>
+Born as a king of despair<br>
+<br>
+Bless thee who'll find sacred weapons<br>
+That will lead him to victory<br>
+Dominating the leverage of reason<br>
+He rises killing the brigands of will<br>
+<br>
+Sinis is waiting the vagabond<br>
+Lacerating the wisdom with the trees<br>
+Skiron's feeding the giant turtle<br>
+While Procrustes is ripping his limbs<br>
+<br>
+Glimpses of glory appearing in my dreams<br>
+As I rest under this holy sky<br>
+Condemned! The land of the fathers<br>
+As I stand before the eternal demise<br>
+<br>
+Under the stone lay the arms<br>
+While my fate is revealing to me<br>
+Looking up at the throne of my father<br>
+I'll follow the path that will lead to the sea<br>
+Cursed is the breed of my body<br>
+Thousands of drops that fall to the ground<br>
+Now I know for the sake of the deities<br>
+The king of coward seed's sentenced to burn
+</p>
+
+      <h1 id="f2" class="lyrics-test">-Minotaur (Wrath Of Poseidon)-</h1>
+      <p class="lyrics-test-test">Caught in this fort of disgrace for a god's oppression<br>
+These corridors behold the disease<br>
+As I am feeding my guts with the flesh of the race of abomination<br>
+I collect the souls I bury beneath<br>
+Forever tied by the arms of the desolation,<br>
+A stain for the sovereign of greed<br>
+And I was born like a prince, wickedly raised in devastation<br>
+I dishonoured the descent with my seed<br>
+<br>
+Kill the king!<br>
+<br>
+For all the treason he concealed in deceit<br>
+<br>
+Gods kill for me and bless my pain<br>
+For the monstrosity that I had to feel<br>
+Gods kill the king!<br>
+<br>
+Cast in shadow,<br>
+Forgotten and lost forever,<br>
+Eternal slave,<br>
+Prince of darkness<br>
+I rule on nothing<br>
+<br>
+Hail, hail!<br>
+<br>
+Asterion, Lord of Suffering<br>
+<br>
+Torn by the lust for control he betrayed Poseidon<br>
+The reckoning arises from the sea,<br>
+For it's the land of the pain,<br>
+Falling for the guilt of the despotic Minos,<br>
+Cursed shall be the name for the rest of the days.<br>
+Blood from the womb of the queen<br>
+Pouring like a rainfall,<br>
+A stain for the land of the king<br>
+The ghastly sperm of the beast fecundates like an infection<br>
+I, dishonoured, the abominated beast<br>
+<br>
+Kill the king!<br>
+<br>
+For all the treason he concealed in deceit<br>
+<br>
+Gods kill for me and bless my pain<br>
+For the monstrosity that I had to feel<br>
+Gods kill the king!<br>
+<br>
+Cast in shadow,<br>
+Forgotten and lost forever,<br>
+Eternal slave,<br>
+Prince of darkness<br>
+I rule on nothing<br>
+<br>
+Hail!<br>
+<br>
+Asterion, Lord of Suffering</p>
+
+      <h1 id="f3" class="lyrics-test">-Elegy-</h1>
+      <p class="lyrics-test-test">Cast by the dark embrace<br>
+The night is captivating me like a siren<br>
+Seductive voice of my frustration<br>
+Refusing wisdom, feeding my dread<br>
+Twisting all the warps of my insanity<br>
+As I am scorched in a slow decay<br>
+Demonic courtiers torment my spirit with misleading speech<br>
+To let the faith of the one sadly crawl before the deceiver<br>
+And make the pain rip the soul of the unbridled sleeper<br>
+<br>
+Gods! Partake my grave endeavor<br>
+Gods liberate the force giving me a new vigor<br>
+Gods! Unleash the rage so unfairly enslaved<br>
+Lead me to this leech draining innocence<br>
+Concealed between the bleeding walls of my suffering<br>
+And bless the sword that's gonna slay<br>
+The beast that I confined into myself<br>
+Surpassing all the edges forever<br>
+<br>
+Bound to this labyrinth<br>
+Selene is tricking me<br>
+Misled by darkness 'n' tainting lies of my mortality<br>
+Can't find the passage to my own rise<br>
+Enforcing all the gates of duality<br>
+I let my days falter in decline<br>
+Invaders of my shelter<br>
+Becoming stronger in my hearth and driving me to madness<br>
+They dominate like a storm with a raging power<br>
+And burn the core, lacerate, the forsaken hero<br>
+<br>
+Grace of the gods for one that will live forever and find the secret of a scar!<br>
+<br>
+Cold through my flesh is the blade of my abysmal vengeance<br>
+The dagger lacerates my neck while I'm feeling conscious<br>
+The muscle's pushing through my veins<br>
+Red lymph that from my new mouth come outside<br>
+Like words I never told you<br>
+<br>
+Gods take this prayer of my last tragic epilogue<br>
+Concealed between the bleeding walls was my suffering<br>
+And bless the sword that's gonna slay<br>
+The beast that I confined into myself<br>
+To transmigrate and live forevermore
+</p>
+
+      <h1 id="f4" class="lyrics-test">-Towards The Sun-</h1>
+      <p class="lyrics-test-test">The draining path of existence<br>
+With all our burdens to bring<br>
+As fathers dream in frustration<br>
+The sons slowly've drowned in disease<br>
+Is this reflection of sorrow that brings us all down to the hole?<br>
+Is this fulfillment of hollow that sadly is emptying our souls?<br>
+So we spread our wings like falcons<br>
+But we are too tied to this earth<br>
+Locked in this fortress of treason we wait<br>
+The coming of the glorious day<br>
+Shall we be ready to face this?<br>
+Or will we turn on the other side?<br>
+When time will come for us to spread those wings<br>
+And start moving out limbs to fly!<br>
+<br>
+Towards the sun!<br>
+I see the splendor of the light again<br>
+Show me father the secrets of flight!<br>
+Swear it now, you will let me soar<br>
+<br>
+Thrown in the void and carried by fate<br>
+I'd rather fall than standing enslaved<br>
+Looking down at the vastness of sea<br>
+Mesmerized by water reflecting me<br>
+And our souls forever lost<br>
+Now will reach the stars and deliver us<br>
+From Poseidon, the God of the Sea<br>
+This unfolding release confears immortality<br>
+<br>
+Rush of deliverance, from those who wanna seize<br>
+Outrageous irreverence, to those who wanna lead<br>
+<br>
+I cut through the air, carried by dreams<br>
+I'd rather fall than closing my wings<br>
+Looking up at the greatness of sky<br>
+Left behind the labyrinth of compromise<br>
+And my soul forever gone, Now it flies too far<br>
+And will stand before<br><br>
+Mighty Helios, the God of the Sun<br>
+The unmerciful one, I'm burning forevermore!<br>
+<br>
+Gone too far<br>
+Falling down from your dream<br>
+Your wings' burning on the sun<br>
+All your deeds they'll be sung like a warning for the world to see
+</p>
+
+      <h1 id="f5" class="lyrics-test">-Warpledge-</h1>
+      <p class="lyrics-test-test">Tearing acts to destroy<br>
+They're breeding a slaughter of the mortal race<br>
+With the foolish right to immolate<br>
+It's bleeding life on this soil<br>
+Inglorious existence is condemned to crawl<br>
+All the rage of the slayer unfolds as King Minos<br>
+<br>
+Calls the flesh, tribute of souls!<br>
+On the stone lay the fourteen!<br>
+<br>
+For my father's oppression<br>
+Dictated by who deceives and depraves<br>
+Under the weight of salvation I bend, my fear's<br>
+<br>
+Calling from the island<br>
+The screaming silent voice<br>
+Forever<br>
+This curse endlessly damnates the fourteen sons of Greece<br>
+<br>
+I, before the sea<br>
+Know there's only one vision in me<br>
+The solution is clear<br>
+No more enclosed in disease<br>
+And finally free from all fears<br>
+Towards those lands<br>
+Where the glory solemnly descends<br>
+On my luminous spear<br>
+If I will fall, the black sails'll appear!<br>
+<br>
+Bound, on the enemies' field<br>
+The screams of the innocents resonate<br>
+Where the candor's food for the beast<br>
+Down in this fortress of sacrifice<br>
+Conceived by the one who detested the gods<br>
+I am destined to stumble and fall as King Minos<br>
+<br>
+All the ones who will try<br>
+To step into this place they will not return<br>
+They'll be crumbled by the darkest lord<br>
+They'll fall
+</p>
+
+      <h1 id="f6" class="lyrics-test">-Pathfinder-</h1>
+      <p class="lyrics-test-test">I'm prevaricated, enslaved within my fears<br>
+Misplaced by sorrow and despair<br>
+Can't betray my seal<br>
+I must engage the reflection of Pasifae's guilt<br>
+The seed of Knossos dominates<br>
+This realm of desperate keens<br>
+<br>
+Gates of terror<br>
+Shine before my shield<br><br>
+'Cause I'm born to become a hero<br>
+To defeat or be torn? Whatever!<br>
+<br>
+I deliberate, to hush my inner screams<br>
+She rips the darkness of my thoughts<br>
+Can't deny this deal<br>
+I won't get lost through this maze<br>
+Holding hard this thread<br>
+For I will slay the shame of Crete<br>
+My path will lie ahead<br>
+<br>
+God Poseidon<br>
+I emerge from seas of tears<br>
+And march towards my fears<br>
+The son of vengeance calls<br>
+<br>
+Fall is the source of my victory<br>
+As there's no force without a fight<br>
+So let me stride on this path that will lead me to the end<br>
+Of a twisted life, that stands before my eyes<br>
+<br>
+Now, next to the core<br>
+I see the longhorned shade<br>
+His smelling breath corrupts the air<br>
+He's growling with disdain<br>
+A vacillate when I see this abnormal being<br>
+But with your help I will be safe<br>
+I can find the strength to kill
+
+</p>
+
+      <h1 id="f7" class="lyrics-test">-The Fall Of Asterion-</h1>
+      <p class="lyrics-test-test">I'll stand before my inner slime, mirror of disgrace<br>
+To look into the deepest void where the evil lies<br>
+For I was lost into these spires<br>
+A maze of self-destructive torment of the reason<br>
+And now I know there's something more crawling through my veins<br>
+A voice resounds between these walls like a leading trace<br>
+The golden light of self-awareness revealing me the mug of the one I hate<br>
+This wrecker's chasing me forever<br>
+<br>
+Grace of gods is forgotten!<br>
+You left behind all the purest breeds<br>
+Guide me to my own vengeance!<br>
+<br>
+Betrayed!<br>
+And for so long my spirit faded<br>
+Through all the catastrophic matters of my existence<br>
+And all the steps I had to take for my escape<br>
+Were deeply marked by all the hate I spit against<br>
+My own creator, the great deceiver<br>
+Into these eyes, now blaze the red flames of my rise<br>
+And burn the pain, all the uncertainties are washed away<br>
+Facing the beast that I despise, into the fight!<br>
+<br>
+I couldn't see the way to fall and rise again<br>
+To change the destiny of a reign<br>
+Condemned to sink into a neverending war<br>
+Of sacrifice and horror<br>
+It has been dictated by the cowardice of men!<br>
+Now I see the matter of killing this intruder<br>
+That has been stealing all my strength to dim my pureness<br>
+I'm taking back my role, I put an end to it all<br>
+Using my bare hands to take his life away!<br>
+<br>
+I stand before the guilty one as it falls from grace<br>
+I see his eyes fading away, where the evil lied<br>
+And I realize for the first time:<br>
+What I have faced's the darkest side of my existence<br>
+And now I know there's something more beating with my heart<br>
+A voice resounds inside my soul like a piercing sharp<br>
+The golden wire of mortal fate's revealing me the liberating path<br>
+To leave behind this pain forever</p>
+
+      <h1 id="f8" class="lyrics-test">-Prologue-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f9" class="lyrics-test">-Epilogue-</h1>
+      <p class="lyrics-test-test">Oh,<br>
+Bright son of destiny<br>
+Bringer of light in this darkness<br>
+Beautiful prince<br>
+Now take my hand again<br>
+Forever tied by the thread of our fate<br>
+Now, we're together again<br>
+<br>
+Cold and desolate is the nature of my soul<br>
+Forever indifferent to the screams of shadows<br>
+Lying deep in the void<br>
+So give it up<br>
+Now face the score<br>
+In the heart of the chosen one<br>
+There's no deliverance<br>
+<br>
+I have to face all this scorn<br>
+Staining my own land with useless tears<br>
+Look in the eyes of the one<br>
+Feeding himself with my deepest fears<br>
+Oh,<br>
+I'll touch your heart again<br>
+Waken the cold lonely dreamer<br>
+I, will illuminate your soul<br>
+Wounded by emptiness<br>
+Please take me far from this land of pain<br>
+Now, on the waves of the sea<br>
+<br>
+I had to face all this scorn<br>
+Staining my own land with useless tears<br>
+Look, now I am too tired to fight<br>
+And run away from this filling light<br>
+<br>
+Nightmares and shadows<br>
+Together we'll drown in the sea<br>
+Believe me!<br>
+You'll walk by my side
+</p>
+
+      <h1 id="f10" class="lyrics-test">-Under Black Sails-</h1>
+      <p class="lyrics-test-test">After the greatest negation<br>
+Time has come for my rise<br>
+Resolution obtained by the chosen one<br>
+Unbound bringer of light<br>
+Ruler of Athens<br>
+No respect for the wights<br>
+All the legions will hail and my force'll prevail<br>
+On the enemies<br>
+<br>
+Terrorize with pain, annihilate the weak now!<br>
+Instigate despair, purify with fire<br>
+Under my iron command<br>
+Forever the vile'll decline<br>
+Victory! We shout under this pitch black sky<br>
+We're darkened by Dyonisus' lymph<br>
+We celebrate this glory day<br>
+Forever chanted shall be our own ventures<br>
+Hail! Hail! Sons of the gods we sail<br>
+Towards the shores of endeavors we are one!<br>
+Cruel is the fate of the conceited core of man<br>
+Under the black sails we stand<br>
+<br>
+Blessed by maximum glory now it's time for revenge<br>
+I despise all the weaks, born to be king<br>
+Adversary of fate<br>
+Writing this hateful story of forsaking and pain<br>
+Leading me to the void as ego dictates<br>
+Cut the thread with old days<br>
+<br>
+To become the new emperor<br>
+There's no space for the fears<br>
+She will wander alone drowning in tears<br>
+There in Naxos she'll be towards the father's land<br>
+Now unfold the sails wide<br>
+Where I take my owed throne, vested with crown<br>
+Time is coming to
+
+</p>
+
+      <h1 id="f11" class="lyrics-test">-Labyrinth-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/king.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">King - 2016</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Marche Royale-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s2" class="lyrics-test">-In Aeternum-</h1>
+        <p class="lyrics-test-test">Bow your head before your king, as I’m the bringer of light<br>
+The chosen one amongst all men, the lord and master of light<br>
+“But who decided it all?”<br>
+Shut up you servant,, respect divine right<br>
+For I belong to the elite of mankind<br>
+Enlightened guardian of justice and right<br>
+My word is law or it’s eye for an eye<br>
+<br>
+Bow down before the sovereign of the kingdom<br>
+I will lead you through the hardest times<br>
+Devote we are to the crown, in sole command forever glorious<br>
+<br>
+Hail: Long live the great king!<br>
+<br>
+Born with the fire inside<br>
+The flame of wisdom burns in my noble heart<br>
+Turns into guiding light that blows the mist on the path<br>
+“We’ll follow you ‘till the end!”<br>
+Balance of power, the art of the wise<br>
+Ancestral pride to preserve for my bloodline<br>
+Resounds my name through spirals of time<br>
+Until kingdom come I<br>
+<br>
+God bless my soul, guide my fury through this cold war<br>
+Hunting Judas down<br>
+Now free my hands from the spires of the serpent<br>
+Death to the traitors of the crown<br>
+<br>
+No one to trust and no one to save<br>
+As this court is a den of snakes<br>
+Walk alone through this treacherous world<br>
+Mutilating the venomous tongue<br>
+Your misleading words, hide desire to prevail<br>
+In this devious show, fail<br>
+<br>
+No one is virtuous, no one is grown<br>
+No one deserves to be heir to the throne<br>
+‘Till their veins will be filled with their gall<br>
+I will stand for the sake of the sacred crown<br>
+Forever at war<br>
+You deceiving worms will be smashed by my rage<br>
+In the name of god, slayed<br>
+<br>
+In aeternam, draining struggle to serve my reign<br>
+With full force restore the integrity<br>
+Purify consciences through blood<br>
+Extirpate those cancers, dictate my law<br>
+‘Till the day of my fall<br>
+Beware you’ll pay for your faults
+</p>
+
+        <h1 id="s3" class="lyrics-test">-Healing Through War-</h1>
+        <p class="lyrics-test-test">I am the healer of all diseases<br>
+I push my drug in this world<br>
+Strategic torment and fake relief<br>
+The tricky strings that I pull<br>
+With infantry blood and mothers’ tears<br>
+I wash the hands of this court<br>
+<br>
+I believe in nothing, believe in no release<br>
+As darkness rises without fire, war is the remedy<br>
+<br>
+I breed the hunger and spread the thirst<br>
+I burn the wheat that I sow<br>
+Embodied essence of contradiction<br>
+I bend the steel that I forge<br>
+I am the answer to every need<br>
+I am the minister of war<br>
+<br>
+“Nihil de corum sententia dicturus sum<br>
+Qui turpissinam servitutem deditionis nomine appellant<br>
+Animi est ista mollitia non virtus<br>
+Paulisper inopiam ferre non posse<br>
+Qui se ultro morti offerant tacilius reperiuntur<br>
+Quam qui dolorem patienter ferant”<br>
+<br>
+Burn this world to the ground<br>
+Tear down whatever you encounter, exterminate all<br>
+And make no prisoners or slaves, kill’em, destroy their heritage<br>
+For every soldier falling down behead ten of them<br>
+As the only order is to maraud ‘till we dominate<br>
+Inflamed with the anthem you will rise, slay without mercy the enemy<br>
+<br>
+I am the bleeding, I am the scar<br>
+I cauterize through my sword<br>
+Perpetual fire that darkens stars<br>
+As I’m the rise, I am the fall</p>
+
+        <h1 id="s4" class="lyrics-test">-The Fool-</h1>
+        <p class="lyrics-test-test">Die...of laughter in delight before a living dead<br>
+Victim into this masquerade, forgot who I am<br>
+This story is driving me mad<br>
+My life is hanging by a thread that is about to break<br>
+Suicidal tendencies burn inside the mind of this miserable man<br>
+Is it life? Is it death?<br>
+I don't give a shit<br>
+Still...<br>
+Is it life? Is it death?<br>
+When you fool yourself<br>
+Fucked<br>
+<br>
+Bleed behind this painful mask I wear<br>
+I'm falling from a misleading grace<br>
+The life I dreamed is killing me<br>
+<br>
+Stuck on the tightrope<br>
+Staring down to the void beneath<br>
+In imposed equilibrium<br>
+I stand swinging in my indecision<br>
+Uncompassionate result of a fearing existence<br>
+I don't care if my time has come<br>
+All I want is my liberation<br>
+<br>
+Drunk, I make it through the night with spirits hand in hand<br>
+My soul must be anesthetized, I can't bear this pain<br>
+To my frustration engaged <br>
+Just like to get laid with the worst enemy I've inside<br>
+but I cannot change myself<br>
+No way to squeeze blood from the stone that I am<br>
+Is it life? Is it death?<br>
+Fuck!<br>
+Is it life? Is it death?<br>
+When you fool yourself<br>
+Why?<br>
+<br>
+Bleed behind this painful mask I wear<br>
+I'm falling from a misleading grace<br>
+The life I dreamed is killing me<br>
+Bleed behind this painful mask I wear<br>
+I'm falling from a misleading grace<br>
+The life I dreamed is tearing me down</p>
+
+        <h1 id="s5" class="lyrics-test">-Cold As Perfection-</h1>
+        <p class="lyrics-test-test">In this passing world<br>
+There’s no time to regret<br>
+Life’s too fast to fold<br>
+So why lie to yourself<br>
+‘cause there’s nothing more<br>
+“Can’t you see my light?”<br>
+That what mirrors behold<br>
+“Don’t speak, let me shine bright”<br>
+You, my flower blown by the whispers of age<br>
+Beauty in the storm that relentlessly fades<br>
+<br>
+Cold through the winter of life<br>
+Pulled down below into an ocean of lies<br>
+My withering rose<br>
+<br>
+What a dreadful curse<br>
+Cast by nature on life<br>
+Nothing lasts forever<br>
+Can’t turn back the hands of time<br>
+Like a grain of sand<br>
+Pray for me my Lord<br>
+In its hourglass awaits<br>
+“For the burden I hold”<br>
+For the very end when all torments decay<br>
+And the vanity will leave your heart in peace<br>
+<br>
+“My lady listen to your beloved King<br>
+I can see your eyes are now scared<br>
+And veiled by the mist of despair<br>
+Do not be conquered by your own fears<br>
+Don’t let the illusion of perfection seduce you<br>
+Or you will be lost forever”<br>
+<br>
+Desperate while my youth fades away<br>
+Sorrow is dragging my soul down<br>
+There’s no word you can say to save me
+My love</p>
+
+        <h1 id="s6" class="lyrics-test">-Mitra-</h1>
+        <p class="lyrics-test-test">et the almighty come inside your pure heart<br>
+And wash away your fears<br>
+The holy spirit will fulfil you<br>
+In the shadows where ours sins are concealed<br>
+There is no pain and no bleed<br>
+No suffering at all in this godly night<br>
+You will be blessed by my seed as we pray together<br>
+“I and you as one<br>
+Kneel down before the holy god” true believer<br>
+Kneel down before the holy god<br>
+Let me take your soul<br>
+Kneel down before the holy god true believer<br>
+As for a progeny to come we’ll sacrifice it in the name of<br>
+<br>
+Mitra, icon of our god<br>
+Mitra, a god of scum<br>
+<br>
+I want to take you, I want to feel you<br>
+I need to have you until you need too<br>
+<br>
+I want to take you, I want to feel you<br>
+I will possess you until I’ll kill you<br>
+<br>
+Let the shepherd call the name of his land<br>
+And lead it back to the fold<br>
+I’ll be the sheepdog protecting you in the sunlight<br>
+And the wolf in the dark<br>
+Like virgin Mary conceived in miraculous deceit<br>
+On that holy night<br>
+You shall accept in your blooming flesh<br>
+My spiritual power<br>
+Key to paradise
+Kneel down before the holy god true believer<br>
+Let me take your soul<br>
+True believer<br>
+As for a progeny to come we’ll sacrifice it in the name of<br>
+<br>
+Mitra, icon of our god<br>
+Mitra, a god of scum<br>
+Mitra, icon of our lord<br>
+Mitra, the lord of cum</p>
+
+        <h1 id="s7" class="lyrics-test">-Paramour (Die Leidenschaft Bringt Leiden)-</h1>
+        <p class="lyrics-test-test">Die Leidenschaft bringt leiden!<br>
+Wer beschwichtigt<br>
+Beklommenes Herz<br>
+Das allzu viel verloren?<br>
+Wo sind die Stunden<br>
+Überschnell verflüchtigt?<br>
+Vergebens war das<br>
+Schönste dir erkoren!<br>
+<br>
+Trüb ist der Geist<br>
+Verworren das beginnen;<br>
+Die hehre Welt<br>
+Wie schwindet sie den Sinnen!<br>
+<br>
+Da schwebt hervor Musik<br>
+Mit Engelschwingen<br>
+Verflicht zu Millionen<br>
+Tön‘ um töne<br>
+Des Menschen wesen<br>
+Durch und durch zu dringen<br>
+Zu überfüllen ihn<br>
+Mit ew’ger schöne:<br>
+Das Auge netzt sich<br>
+Fühlt in höher’n sehnen<br>
+Den Götter Wert der<br>
+Töne wie der tränen<br>
+<br>
+Und so das Herz erleichtert<br>
+Merkt behende,<br>
+Daß es noch lebt und schlägt<br>
+Und möchte schlagen<br>
+Zum reinsten Dank<br>
+Der Überreichen spende<br>
+Sich selbst erwiedernd<br>
+Willig dar zutragen<br>
+Da fühlte sich o daß es ewig bliebe!<br>
+Das Doppelglück der Töne wie der Liebe…
+</p>
+
+        <h1 id="s8" class="lyrics-test">-And The Vulture Beholds-</h1>
+        <p class="lyrics-test-test">Cast out, ignored<br>
+Disdained and scorned<br>
+Humiliated by those I’ll rise above<br>
+Like a vulture<br>
+I want for the lion to die<br>
+Natural right set by purity of blood<br>
+Ever longing the role I’m entitled to<br>
+I will never renounce to that crown<br>
+For no reason at all<br>
+<br>
+Time has come for me to reign<br>
+My throne I claim now<br>
+Oh father<br>
+Let your heart hear<br>
+Your firstborn words<br>
+I feel it’s time for me<br>
+To rule this world<br>
+<br>
+Tired, fed up,<br>
+Sick of it all<br>
+I’m surrounded by crooks and prostitutes<br>
+In this court<br>
+Leeches suck royal blood without a brake<br>
+Weaving in shadow to pursue their goals<br>
+Imperceptible revolt against the lord<br>
+Neverending conspiracy<br>
+Shame on this pharisaic court<br>
+<br>
+I, amongst the lies<br>
+Screaming but silent<br>
+Thrown away while I conspire<br>
+For I will live no more in the shadows<br>
+And I’ll never surrender myself to this fate<br>
+In my disgrace bred by deceivers<br>
+I lift my head<br>
+With the heart in flames<br>
+Without fear I will satisfy my desire<br>
+Castigating the traitors as I overcome<br>
+<br>
+Irate, furious,<br>
+Out of control<br>
+I will kill all these tamperers one by one<br>
+Destroying obstacles<br>
+Standing between me and my rise<br>
+Annihilating the aims of betrayers<br>
+I’ll extort what is mine with my own hands<br>
+Desecrating my ancestry line<br>
+To prevail on this land</p>
+
+        <h1 id="s9" class="lyrics-test">-Gravity-</h1>
+        <p class="lyrics-test-test">Before you squander this treasure<br>
+Just let me hold it in my hands<br>
+I feel the weight of metal<br>
+I feel it's gravity again<br>
+<br>
+At the side of this splendour<br>
+I just become insane<br>
+<br>
+I, alone on the sly with my drug<br>
+Fill my veins with this gold dust<br>
+Astray, i feel alive again<br>
+<br>
+Internal state of anger<br>
+A neverending disease<br>
+Can't feel ashamed of myself<br>
+Cannot be blamed for my greed<br>
+I'd do whatever it takes to satisfy my need<br>
+<br>
+I, alone on the sly with my drug<br>
+Fill my veins with this gold dust<br>
+Astray, i feel alive again<br>
+<br>
+Above the sky<br>
+Through diamonds and stars<br>
+In this place i belong<br>
+I relieve my heart<br>
+High on gold<br>
+<br>
+Pervaded in pleasure<br>
+I let my greedy soul fly<br>
+In delirium i attain my obscene desires<br>
+<br>
+I, alone on the sly with my drug<br>
+Fill my veins with this gold dust<br>
+Astray, i feel alive again</p>
+
+        <h1 id="s10" class="lyrics-test">-A Million Deaths-</h1>
+        <p class="lyrics-test-test">Back in the trench beneath this grey sky<br>
+Together waiting for the end<br>
+We stick our chests out decorated with medals<br>
+Before the lead will replace all the pride in these hearts<br>
+And there will be no celebration, forgotten names etched in the mud<br>
+Me I believe honour lasts forever, therefore I sacrifice<br>
+My life is yours<br>
+<br>
+This stench of flesh in putrefaction<br>
+Inebriates the living dead<br>
+Breathing the soul of the slain in battle<br>
+We wait in line with our comrades our ration of hell<br>
+Under the flag of our nation we fight the enemy until the last stand<br>
+We earn on the field the respect of fathers, united we immolate<br>
+Our lives are yours<br>
+<br>
+Bleeding under the scars<br>
+Going for a recognition, going for a purple heart<br>
+We are becoming insane here, forgotten in fox holes<br>
+We fight the primal fear more than the real foe<br>
+No we can’t discern them clearly from our companions<br>
+We’re going insane here. Why don’t you hear us?<br>
+Why don’t you rescue us all?<br>
+<br>
+Hidden in my shelter under heavy enemy attack,<br>
+My thoughts ink the letters<br>
+That will never reach my hearth<br>
+Memories are stabbing my soul like a bayonet<br>
+I forgot the reason why we are confined in this hell<br>
+<br>
+“Honour goes far beyond death and suffering<br>
+And only through the sacrifice of the brave will peace be restored.<br>
+Don’t despair my sons, keep your heads high<br>
+For your names will be remembered forever in time”<br>
+<br>
+To defend you my sire I have blown away my soul<br>
+Devastating my own life<br>
+With no rewards<br>
+Choking my existence with lies<br>
+Led by the devil to paradise: Down
+
+</p>
+
+        <h1 id="s11" class="lyrics-test">-Syphilis-</h1>
+        <p class="lyrics-test-test">“My beloved king<br>
+I compose this letter to you<br>
+In the sleepless nightmare hours of the night<br>
+Wandering through cold empty corridors<br>
+I can hear these walls<br>
+Screaming your magnificent name and<br>
+I can find no peace”<br>
+<br>
+I have to protect my breed<br>
+No matter who I love, no matter how I feel<br>
+It’s in my pure drops, it’s in my royal seed<br>
+<br>
+My great love don’t let me fall apart<br>
+Desire is killing me<br>
+Don’t you let me drown in tears<br>
+<br>
+Don’t cry<br>
+You know it’s a hopeless wish<br>
+No future for us, but only bitter tears<br>
+Preserve your frail heart<br>
+From an unending bleed<br>
+<br>
+“Oh lord<br>
+How long shall I bear the burden<br>
+Of my tormenting silence<br>
+And live my life in the shadows<br>
+This is a frightful conflict, this is not life<br>
+Please, come and take me<br>
+Please, my love, please”<br>
+<br>
+I will never come again<br>
+I forbid this love forever<br>
+As time has come to forget<br>
+And leave it to the past<br>
+So make the right choice to save us<br>
+Before it’s too late<br>
+Can’t soil my blood for nothingv
+And waste my heritage<br>
+Can’t blacken my name<br>
+And lose my purity
+</p>
+
+        <h1 id="s12" class="lyrics-test">-King-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+      </div>
+    </div>
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+    </div>
+
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+    </div>
+
+        <div class="page-finish">
+          <a href="./security.html">Security Statements</a>
+          <a href="./terms.html">Terms of Service</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+
+    </body>
+    </html>

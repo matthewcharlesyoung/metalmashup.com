@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">The Dialectic</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/weare.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">We Are Obscurity - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Demonize</a>
+      <a href="#f2">Dark Archon</a>
+      <a href="#f3">We Are Obscurity</a>
+      <a href="#f4">Tabula Rasa (Blank Slate)</a>
+      <a href="#f5">The Illusion That I Command</a>
+      <a href="#f6">No End To The Suffering</a>
+      <a href="#f7">Mephisto Manifesto </a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/thedialectic.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Dialectic - 2016</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">No Hymns</a>
+      <a href="#s2">Follow Me Into Hell</a>
+      <a href="#s3">Misbegotten One</a>
+      <a href="#s4">Dying At The Altar</a>
+      <a href="#s5">Dominance Displayed</a>
+      <a href="#s6">Never Again</a>
+      <a href="#s7">Religion Kills</a>
+      <a href="#s8">Bury Them</a>
+      <a href="#s9">Innocence Lost</a>
+      <a href="#f10">	Final Frontier</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/weare.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">We Are Oscurity - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Demonize-</h1>
+      <p class="lyrics-test-test">Now, you stand here before me,<br>
+and propose that he is not malevolent.<br>
+That you "God" has a meaningful purpose,<br>
+and as I destroy everything that it has created.<br>
+Madness will bring you to me,<br>
+and I will be your undoing.</p>
+
+      <h1 id="f2" class="lyrics-test">-Dark Archon-</h1>
+      <p class="lyrics-test-test">God damn, I'd rather watch the planet die.<br>
+Never let another word slip from the mouths of angels.<br>
+Their wings will burn in my name<br>
+Fall from the skies as they turn to ash.<br>
+<br>
+This is your last request<br>
+In the name of one who will rip apart your chest.<br>
+I'll annihilate your kind until there's nothing left.<br>
+You don't mean shit to me.<br>
+<br>
+All your heroes are slain.<br>
+Six Hundred Sixty Six reasons to remember my name.<br>
+Your sins are to blame.<br>
+You'll all burn in hell, you'll all burn the same.<br>
+<br>
+and now, I slay all the opposing foes.<br>
+The inferno of my rage; unparalleled wrath.<br>
+I will stain the heavens with your blood<br>
+Black out the skies.<br>
+<br>
+I form my darkness in the center of the kingdom, and rot it inside out<br>
+I've created a monster of myself, NOW TIME TO LET IT OUT!<br>
+<br>
+Fuck what you've heard, and forget what you've seen<br>
+This is the end of the line, and the end of your dreams.<br>
+<br>
+God damn, I'd rather watch the planet die.<br>
+Never let another word slip from the mouths of angels.<br>
+Their wings will burn in my name<br>
+Fall from the skies as they turn to ash.<br>
+<br>
+This is your last request<br>
+In the name of one who will rip apart your chest.<br>
+I'll annihilate your kind until there's nothing left.<br>
+You don't mean shit to me.<br>
+<br>
+All your heroes are slain.<br>
+Six Hundred Sixty Six reasons to remember my name.<br>
+Your sins are to blame.<br>
+You'll all burn in hell, you'll all burn the same.</p>
+
+      <h1 id="f3" class="lyrics-test">-We Are Obscurity-</h1>
+      <p class="lyrics-test-test">Who the fuck do you think you are, fooling people who were damned from the start.<br>
+Who do you think decides. where the fuck you go when you die?<br>
+<br>
+There is no afterlife, nor one you seek through judgement.<br>
+Blame your god for failure that you've placed upon yourselves.<br>
+Get on your fucking knees, and beg for rain of mercy.<br>
+We are the nothingness, we are obscurity.<br>
+<br>
+We are the Glory of the dark one.<br>
+This is my pact, to the Darkened Archon.<br>
+We are now beyond your control.<br>
+Fall to your knees as we conquer this world.<br>
+<br>
+WE ARE NOW BEYOND YOUR CONTROL<br>
+YOU WILL FALL TO YOUR KNEES AS WE CONQUER THIS WORLD.<br>
+<br>
+Mankind's arrogance will lead us far astray.<br>
+For this virgin birth has distorted our reality.<br>
+Your existence will bear down on us all.<br>
+The Antichrist lives within our lies, inside our disposition to worship an unseen god.<br>
+There are no inhibitions.<br>
+The end of all Religion is upon us all.<br>
+We are nothing, but dust.<br>
+There is no savior from extinction, in God we mistrust.<br>
+<br>
+WE ARE OBSCURITY.<br>
+<br>
+Where's your emperor, where's your king?<br>
+Where's your hope when your walls fall down?<br>
+I'd rather be six feet under.<br>
+Closer to hell.<br>
+Conqueror, that's what they call me.<br>
+That's what I am.<br>
+With the blood of your Facist God spilled by my hands.<br>
+<br>
+In a world that has devolved to hell, where do you find things as rare as true salvation?<br>
+YOUR EXISTENCE WILL BEAR DOWN ON US ALL.<br>
+We are all just one step from damnation. What is true salvation?<br>
+To lie amongst the damned.<br>
+<br>
+FALL TO YOUR KNEES AS WE CONQUER THIS WORLD!<br>
+<br>
+WE WILL CONQUER THIS WORLD!</p>
+
+      <h1 id="f4" class="lyrics-test">-Tabula Rasa (Blank Slate)-</h1>
+      <p class="lyrics-test-test">I am so fed up with all the shit I have to put up with every day.<br>
+The world is rotting, and I just don't give a FUCK.<br>
+Society has become a fucking joke.<br>
+Everyone is out to get me.<br>
+I hate the way things have become.<br>
+There is no way out.<br>
+<br>
+Now watch as I pave my way to victory.<br>
+Becoming everything YOU EVER WANTED TO BE.<br>
+I am the greatest, nobody can harm me.<br>
+You want a battle? Well you'd better bring an army.<br>
+<br>
+Pupils are dilating, it is becoming hard to breathe.<br>
+Every step that I take is in the wrong direction.<br>
+My body is nauseated from the fumes of genocide<br>
+I crawl in my shell, and die alone.<br>
+<br>
+Ah, how I've longed for this day.<br>
+When I become just ANOTHER FUCKING OUTCAST!<br>
+<br>
+My mouth is full of incisions, and all I can taste is blood.<br>
+<br>
+Now soon, I'll be one with the dead.<br>
+As you look to the skies for the answers to nothingness.<br>
+<br>
+Oh, nothingness. Nothingness, it's all we are, and all we'll ever be.<br>
+NOTHINGNESS<br>
+<br>
+WE WERE LEFT ON THIS EARTH TO ROT</p>
+
+      <h1 id="f5" class="lyrics-test">-The Illusion That I Command-</h1>
+      <p class="lyrics-test-test">Fight until the end.<br>
+Be one with them; blend in with the dead.<br>
+Resurrection of the fallen is at hand.<br>
+Silenced; Conformed to a type of decadence.<br>
+For what is it worth?<br>
+THIS IS THE ILLUSION THAT I COMMAND!</p>
+
+      <h1 id="f6" class="lyrics-test">-No End To The Suffering-</h1>
+      <p class="lyrics-test-test">
+Deformed, and suffering. Never to sleep.<br>
+Wide awake, with your mouth wired shut.<br>
+In this anguish.<br>
+We crawl to an unknown destination.<br>
+<br>
+We will suffer.<br>
+We all suffer.<br>
+
+Your circle of life will cease to sustain, and fail.<br>
+Your kind will be damned to the caverns of hell.<br>
+THE SUFFERING HAS COME, AND IT'S AFFECTING EVERYONE!<br>
+<br>
+We will suffer<br>
+We all suffer.<br>
+<br>
+{Hell has come to your worthless planet, to entomb, and annihilate everything you have achieved.<br>
+Bleed at the hands of the suffering, the end has come.}<br>
+<br>
+Your world is broken.<br>
+All hope is lost<br>
+Hope is lost.<br>
+<br>
+ALL HOPE IS LOST.<br>
+<br>
+I am the parasite, inside martyrs.<br>
+Eternally damned to feed upon their souls.<br>
+NOTHING can satisfy hell.<br>
+Mouths wired shut. Listen, don't tell.<br>
+<br>
+This form of hatred can never be changed, I'm a danger to myself, and a danger to the living<br>
+I am the darkness. I am the light.<br>
+Begin to suffer. Begin to die.<br>
+<br>
+NOTHING can satisfy hell.<br>
+ETERNAL; you hope and you pray.<br>
+NOTHING can satisfy hell.<br>
+But to keep it at bay.<br>
+<br>
+WE WILL SUFFER.<br>
+<br>
+This form of hatred can never be changed,<br>
+I'm a danger to myself, and a danger to the living.<br>
+I am the darkness. I am the light.<br>
+Begin to suffer. Begin to die.</p>
+
+      <h1 id="f7" class="lyrics-test">-Mephisto Manifesto-</h1>
+      <p class="lyrics-test-test">I'LL PURGE THIS WHOLE FUCKING WORLD!<br>
+<br>
+How does it feel to know you'll die alone?<br>
+How does it feel to suffer?<br>
+How does it feel to know that you will rot in a hole.<br>
+Why even bother going on, and on with no entrance or exit?<br>
+Hell won't take me, and heaven won't let me in.<br>
+What's the point of existence?<br>
+I am ashamed to be alive, FUCK EVERYTHING.<br>
+<br>
+Arrogance, ignorance, we're all the same.<br>
+Poison our minds, and take us to our graves.<br>
+<br>
+I'll tie the rope, and end the life of your pitiful "father".<br>
+Cry now, and mourn as faith is slain, and your planet dies.<br>
+<br>
+AND IT WILL DIE THE SLOWEST DEATH!<br>
+Mother earth will choke on her last breath.<br>
+Rest in pieces.<br>
+<br>
+So show no remorse for the damned<br>
+There is no hope for you to understand<br>
+This is "God": the only threat to ourselves<br>
+We've turned our home into hell<br>
+<br>
+THIS IS "GOD"!<br>
+<br>
+I know that I am alive, but I just want to die.<br>
+<br>
+I'll tie the rope, and end the life of your pitiful "father".<br>
+Cry now, and mourn as faith is slain, and your planet dies.<br>
+The hate I bear is overwhelming. Manifested in sorrow.<br>
+The hate I am, manifested in divine blood.<br>
+<br>
+Manifested in divine blood.<br>
+<br>
+AND IT WILL DIE THE SLOWEST DEATH!<br>
+Mother earth will choke on her last breath.<br>
+Rest in pieces.<br>
+<br>
+So show no remorse for the damned<br>
+There is no hope for you to understand<br>
+This is "God": the only threat to ourselves<br>
+We've turned our home into hell<br>
+<br>
+THIS IS "GOD"!</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/thedialectic.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">The Dialectic - 2016</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-No Hymns-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s2" class="lyrics-test">-Follow Me Into Hell-</h1>
+        <p class="lyrics-test-test">The end has come<br>
+The time is nigh<br>
+Legions of demons will black out the sky<br>
+Your world will cease to exist WHILE I THRIVE<br>
+<br>
+I'll suck the life from every last unborn child<br>
+<br>
+Bloodlust, and fire will rain from the skies<br>
+Earth is encroaching on the end<br>
+Disease, and famine have spread across the globe<br>
+Now we lethargically march<br>
+<br>
+It is time to drown all believers<br>
+Consume their lives with hate<br>
+At last I'll see the day<br>
+The world will be without a god<br>
+<br>
+FOLLOW ME INTO HELL<br>
+BEHOLD THE AGONY<br>
+AS YOU UNKNOWINGLY<br>
+FOLLOW ME INTO HELL<br>
+YOUR FINAL RESTING PLACE<br>
+AS I ERADICATE<br>
+FOLLOW ME<br>
+INTO HELL<br>
+<br>
+FOLLOW ME INTO HELL<br>
+BEHOLD THE AGONY<br>
+AS YOU UNKNOWINGLY<br>
+FOLLOW ME INTO HELL<br>
+YOUR FINAL RESTING PLACE<br>
+AS I ERADICATE<br>
+FOLLOW ME<br>
+<br>
+I've tried holding in my demons for far too long<br>
+Keep me alive while the fire consumes me<br>
+<br>
+Keep me alive while the fire consumes me<br>
+WHILE THE FIRE CONSUMES ME<br>
+<br>
+Every second; every day<br>
+Every minute; every way<br>
+You regret. Kill yourself.</p>
+
+        <h1 id="s3" class="lyrics-test">-Misbegotten One-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s4" class="lyrics-test">-Dying At The Altar-</h1>
+        <p class="lyrics-test-test">We will never die<br>
+Our memories live on in every sin<br>
+And every dying second we all will burn from within<br>
+But we love the feeling of agony<br>
+And we live to worship the pain<br>
+<br>
+The pain is all we are<br>
+And we live on<br>
+Eternally deprived of salvation<br>
+<br>
+Bring me torment, bring me death<br>
+<br>
+This is not a culling<br>
+This is an extermination<br>
+I believe in purity<br>
+I believe in death<br>
+<br>
+Fuck the world, and fuck the shit that walk along it's surface.<br>
+They will believe anything they're told, all without purpose, and<br>
+I am so sick of everything.<br>
+I will show you, I'll ruin everything.<br>
+<br>
+I walk alone, but the darkness it follows<br>
+Steadily behind, but warping slightly<br>
+I know that we are dying<br>
+Decaying along with our cancerous earth<br>
+<br>
+With strength in numbers<br>
+We could end it all<br>
+
+Fuck the world, and fuck the shit that walk along it's surface<br>
+They will believe anything they're told, all without purpose, and<br>
+I am so sick of everything<br>
+I will show you, I'll ruin everything</p>
+
+        <h1 id="s5" class="lyrics-test">-Dominance Displayed-</h1>
+        <p class="lyrics-test-test">We do not live.<br>
+We do not die.<br>
+We are out of the cycle.<br>
+Never ending now you see.<br>
+Even the mighty will fall before me.<br>
+Take me to the heart of man.<br>
+A testament to my oppression.<br>
+Fill me with it's blood.<br>
+<br>
+This is hate.<br>
+This is power.<br>
+This is humanity's darkest hour.<br>
+The foundation of man will fall from the crucifixion.<br>
+<br>
+Dark forces surround me.<br>
+I'll let them in, and suffer no more.<br>
+The infection spreads to those around me.<br>
+I have the power now witness my dominance displayed.<br>
+<br>
+I have the power now witness my dominance displayed.<br>
+<br>
+So many men, an endless amount of space here in hell.<br>
+if you are seeking torment, you will be overwhelmed.<br>
+The time has come to pledge allegiance to the masses that are overtaking your world.<br>
+As the foundation of man falls from the crucifixion.<br>
+<br>
+Dark forces surround me.<br>
+I'll let them in, and suffer no more.<br>
+The infection spreads to those around me.<br>
+I have the power now witness my dominance displayed<br>
+<br>
+Dominance Displayed<br>
+<br>
+Prepare for a new era.<br>
+You will be overwhelmed.<br>
+Know your place, pledge allegiance to the masters you obey.<br>
+We rise; again you fall.<br>
+Know your place.<br>
+If you say a word you will be cast aside, shut your fucking mouth, and know your place<br>
+credits
+</p>
+
+        <h1 id="s6" class="lyrics-test">-Never Again-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s7" class="lyrics-test">-Religion Kills-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s8" class="lyrics-test">-Bury Them-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s9" class="lyrics-test">-Innocence Lost-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s10" class="lyrics-test">-Final Frontier-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+      </div>
+    </div>
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+    </div>
+
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+    </div>
+
+        <div class="page-finish">
+          <a href="./security.html">Security Statements</a>
+          <a href="./terms.html">Terms of Service</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+
+    </body>
+    </html>

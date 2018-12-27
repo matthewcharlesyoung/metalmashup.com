@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Mouth Of The South</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/trans.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Transparency - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Prologue</a>
+      <a href="#f2">Uprooted</a>
+      <a href="#f3">Selfless</a>
+      <a href="#f4">Whanau</a>
+      <a href="#f5">Monologue</a>
+      <a href="#f6">Part Two</a>
+      <a href="#f7">Riddance</a>
+      <a href="#f8">Convictions</a>
+      <a href="#f9">Epilogue</a>
+      <a href="#f10">Nothing But The Blood</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/struggle.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Struggle Well - 2014</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Blind Guides</a>
+      <a href="#s2">Running Scared</a>
+      <a href="#s3">Dry Bones</a>
+      <a href="#s4">Good Intentions</a>
+      <a href="#s5">Simply Grace</a>
+      <a href="#s6">Idle Hands</a>
+      <a href="#s7">Hollow Veins</a>
+      <a href="#s8">Endless Cycle</a>
+      <a href="#s9">Porcelain Faith</a>
+      <a href="#f10">Nameless; Faceless</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/trans.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Transparency - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Prologue-</h1>
+      <p class="lyrics-test-test">This is my grave this is my gate<br>
+this is a gun to my head<br>
+This is my long walk home from hell<br>
+This is my death bed<br>
+Put me in the ground and send my flesh to hell<br>
+A casket for this skin that's plagued in filth<br>
+</p>
+
+      <h1 id="f2" class="lyrics-test">-Uprooted-</h1>
+      <p class="lyrics-test-test">This is my life<br>
+I will live it to the fullest, just try and stop me<br>
+I'm not wasting my time<br>
+I've been given a purpose, I will not let it die<br>
+<br>
+I will not change for you, that doesn't mean that I'm not changing<br>
+I'm growing into the man that I was born to be<br>
+I'm chasing my dreams<br>
+I am living<br>
+I follow my convictions<br>
+This is my passion<br>
+<br>
+9-5 never cut it for me this is life and I intend on living<br>
+You can try to say I'm wasting my time but just because<br>
+I'm not you doesn't mean that you're right<br>
+I am convinced<br>
+We're so consumed with life, we've forgotten how to live<br>
+<br>
+Don't hold me back<br>
+Cause I am trying to live my life the way I should<br>
+It won't make sense to you<br>
+And I doubt it ever could<br>
+This is the path for me, the only one I've ever known<br>
+And even if you're not by my side I am never alone<br>
+<br>
+When will you see that this is the life for me<br>
+I will not conform to your way of living<br>
+You've made your bed so you could dream<br>
+But I've turned my dreams into reality<br>
+<br>
+I am not alone<br>
+We are alive, and we will not be stopped<br>
+I am not alone<br>
+We are alive, and we will not be stopped
+</p>
+
+      <h1 id="f3" class="lyrics-test">-Selfless-</h1>
+      <p class="lyrics-test-test">Let's go back, back to the days<br>
+when I was young, when I was just a child<br>
+Before everything got tough and life was care free<br>
+I wish I could take you there,<br>
+back to the good old days. What happened to our family?<br>
+<br>
+Now I am afraid that things won't ever be the same<br>
+<br>
+If I could be half the man that you are<br>
+I'd have no fear in me at all<br>
+If I could be half the man that you are<br>
+I'd be just fine and be filled with strength to stand tall<br>
+<br>
+You've shown me how to be a man<br>
+<br>
+There will never come a time when I am done learning<br>
+I just want to make you proud of me<br>
+<br>
+It breaks my heart when I see you hurting,<br>
+I just want to you to be healed<br>
+I will never stop praying for restoration<br>
+You've poured your life out for me and my brothers alike<br>
+It's honor to call you father and to have been raised by your side<br>
+<br>
+I wish that I could change things for you<br>
+Give back to the man who's given everything<br>
+I wish that I could change things for you<br>
+And show you how much you mean to me<br>
+<br>
+You've shown me how to be a man<br>
+<br>
+If I could take away your pain, I swear I'd give you my heart<br>
+You given everything I could ask for nothing more</p>
+
+      <h1 id="f4" class="lyrics-test">-Whanau-</h1>
+      <p class="lyrics-test-test">hat have you gotten yourself into now?<br>
+Living behind bars you've thrown away your crown.<br>
+Brother is a funny word for someone like you<br>
+but the blood that's in my veins is in your<br>
+veins and I swear I'll pull you through<br>
+<br>
+Look at this life you threw away do you even<br>
+know what it's worth?<br>
+When I look into your eyes<br>
+I can see all the pain, I can see all the hurt<br>
+You've run away before but you don't know what<br>
+you're running from.<br>
+You're going in circles back to where you begun.<br>
+If you could see through your eyes without<br>
+the glaze and without the high<br>
+you would see that it killed me watching you die.<br>
+<br>
+I watched you die<br>
+And now we can't ever go back to the days<br>
+when you were the only one that<br>
+kept my head on straight<br>
+<br>
+This is what family is for<br>
+Don't you forget that I will stand by you to the grave<br>
+<br>
+This is what family is for<br>
+<br>
+Oh brave climber (oh, brave climber)<br>
+has this mountain conquered you?<br>
+Or will you find the strength to<br>
+live the life that God intended you to lead?<br>
+Do you remember (do you remember)<br>
+that I still look up to you?<br>
+And I will be your strength till<br>
+there is nothing left in me.<br>
+(2nd time= "please remember")<br>
+<br>
+Brother I swear I'll pull you through<br>
+This is not the end of you<br>
+<br>
+Was heaven not enough, you had to dive into hell?<br>
+I know you're searching for a cure but God is not in that needle<br>
+Was heaven not enough for you?</p>
+
+      <h1 id="f5" class="lyrics-test">-Monologue-</h1>
+      <p class="lyrics-test-test">So here we are again, miles apart<br>
+because I'm stuck in this depression that<br>
+feels like possession because the progression<br>
+of my transgressions led to an<br>
+obsession with digression.<br>
+So here is my confession.<br>
+<br>
+I don't grow I just regress<br>
+Cause I've got this heart full of regret<br>
+And the pain keeps seeping in<br>
+Now my foundation is a mess Cause when<br>
+I sit inside this house it never feels<br>
+like it's my home.<br>
+I am crashing and I am sinking<br>
+and I don't wanna go down alone.<br>
+<br>
+So speak to me<br>
+I'm sick of talking to these walls. Can you even hear me?<br>
+<br>
+What if I said I don't believe in you?<br>
+Would we at least be making progress?<br>
+You said luke-warm and you would spit me out<br>
+Well I tried to be on fire, but these waves have snuffed me out<br>
+<br>
+I'm washed up on this stage screaming at<br>
+the heavens up above me.<br>
+I'm weak and unashamed cause I've got nothing left to lose<br>
+If this is what it takes to be alive<br>
+then I'll scream until my heart is beating<br>
+I'm afraid to die,<br>
+cause I know I'm so far away from you<br>
+<br>
+It's not that I'm lost, it's just<br>
+that I can't seem to find the strength<br>
+to carry on, to carry on one more day.<br>
+I know the way, it's been engraved in my head.<br>
+But what was supposed to make me alive has<br>
+left me feeling dead.<br>
+It's time to come clean so here is the honest<br>
+truth. I've let my emotion take the place of you.<br>
+<br>
+Give it time give it time.<br>
+I've heard it all before.<br>
+But I've been waiting for so long.<br>
+Give me something more than an unbelieving<br>
+heart and malcontent.<br>
+I'm desperate for the strength<br>
+to say "I was born for this"<br>
+<br>
+When did emotion become my reality?<br>
+I've tried and I've tried to be<br>
+the man that you made me to be.<br>
+My flesh is weary and my spirit is dead,<br>
+I've got so many questions,<br>
+get them out of my head!<br>
+<br>
+Where were you when my walls came crashing in?<br>
+Where were you when she walked away<br>
+never to come back again? Were you<br>
+asleep when my heart turned to<br>
+stone and sunk me into this sea?<br>
+Where were you? God, where are you?<br>
+Take me back to when I was young (take me back)<br>
+I want to feel alive again<br>
+I want to love you like I once did
+</p>
+
+      <h1 id="f6" class="lyrics-test">-Part Two-</h1>
+      <p class="lyrics-test-test">Right by your side,<br>
+before you were birthed into this life.<br>
+I've been right here with open ears<br>
+Was I asleep?<br>
+I will never rest,<br>
+I will never rest until you know that I am<br>
+for you not against you and I will never let you go<br>
+I know, I know, I know that you are hurting<br>
+Just know, just know, just know I can feel your pain<br>
+I've been here the entire time<br>
+With open arms screaming out your name<br>
+<br>
+I never wanted it to be like this<br>
+But you have to understand<br>
+I've got you right in the palm of my hands<br>
+Run to me with your broken legs<br>
+I'll take your mangled<br>
+bones and teach you how to stand<br>
+<br>
+I look back, I look back on all the things<br>
+you've seen and it breaks my heart<br>
+But don't forget,<br>
+don't forget your pain was nailed to me<br>
+Lay your burdens down at the foot the cross<br>
+<br>
+When you run away I will chase you<br>
+In your darkest days you cannot hide from me<br>
+<br>
+I can see in the dark<br>
+I can see in the dark<br>
+I can see in the dark<br>
+I can see in the dark, come back to me<br>
+<br>
+I can see it in your eyes that your dead<br>
+But I can bring you back to life,<br>
+I can bring you back to life<br>
+I can see it in your eyes that your searching<br>
+I can be your light, I can be your light<br>
+Come back to me, I will set you free,<br>
+take away your shame and seat you among kings<br>
+Open your eyes, I'm right by your side<br>
+With outstretched hands screaming, "here am I!"</p>
+
+      <h1 id="f7" class="lyrics-test">-Riddance-</h1>
+      <p class="lyrics-test-test">I'm sick,<br>
+so sick of this complacency and the apathy of my heart<br>
+Im stuck with paralytic tendencies<br>
+This passivity has torn me apart<br>
+<br>
+I am trying to find my way back home<br>
+But I've had a hard time with these dry and weary bones<br>
+I am a Pharisee by definition<br>
+Far too proud to admit when I am wrong<br>
+I am a plague to my own existence<br>
+I'm killing myself with this repetitious sin<br>
+I am a hypocrite!<br>
+Wash me clean I am so desperate to be free<br>
+<br>
+Set me free<br>
+It's time I called you out<br>
+For all pain and death that you have caused<br>
+No more holding back<br>
+I've drawn my line I won't back down<br>
+This is the end of you<br>
+No longer a thorn in my side<br>
+This is the end of you<br>
+I'm taking back my life<br>
+<br>
+Rid me of myself<br>
+<br>
+Cycle endless cycle, when will my<br>
+hands be clean when will I be set free<br>
+I've been asleep all these years<br>
+with open eyes it's time I wake up<br>
+<br>
+And separate myself from all this pain<br>
+You and I are not the same<br>
+Im sick of always feeling like I'm weak<br>
+God, set me free<br>
+<br>
+So here we are, me myself and<br>
+I but your voice is in my head<br>
+I've got nothing left to lose<br>
+cause I'm already dead<br>
+God, put me to sleep.<br>
+Put me to sleep, oh God.<br>
+Put me to sleep.<br>
+Put an end to my depravity.<br>
+<br>
+And at the end of it all I<br>
+look back on everything that have made me fall<br>
+Now there's only one thing left to say<br>
+This is my life... And this time I choose to walk away</p>
+
+      <h1 id="f8" class="lyrics-test">-Convictions-</h1>
+      <p class="lyrics-test-test">This place is not my home,<br>
+it wasn’t ever meant to be.<br>
+I’m still searching. I’m still searching.<br>
+I’ve been held back, I’ve been shut down but I am not dead yet.<br>
+I’m still swinging and I’m still holding on to hope.<br>
+I’ve been clinging to the edge with just my<br>
+fingertips and I’ve been praying to God,<br>
+don’t let me lose my grip.<br>
+<br>
+I will not fall. I will never compromise my faith.<br>
+I’m holding firmly to the truth and I will not back down.<br>
+This life has drained me dry and though<br>
+my flesh is weak and broken my soul will never die.<br>
+<br>
+I will not settle for what this world has.<br>
+I’ve danced with the devil in hell and I will not go back.<br>
+I’ve found myself in the one who calls me son.<br>
+Take me home, God, let your kingdom come.<br>
+<br>
+This place is not my home I was born for the less traveled road.<br>
+I’ve got a lot of growing left to do<br>
+but I swear that I will see this through.<br>
+<br>
+I’ve felt the weight of the world crash down on me.<br>
+I’ve been to hell and back and I’m still breathing<br>
+I’ve screamed my lungs out and<br>
+displayed my flaws but I find rest in the arms of God.<br>
+No roots no place to call home.<br>
+I’m a wanderer, vagabond; I’m bread for the road.<br>
+No roots no place to call home.<br>
+I’m a wanderer, vagabond, sustained by God alone</p>
+
+      <h1 id="f9" class="lyrics-test">-Epilogue-</h1>
+      <p class="lyrics-test-test">If this is life that I'm<br>
+        living then I wonder what death is like.<br>
+With a million questions running, I've got the feeling<br>
+hat something is not right<br>
+I've tried to be alive, but I've fallen short<br>
+I am so sick of this cycle, there must be something more<br>
+<br>
+This is endless<br>
+This is sickening<br>
+This is everything I never wanted it to be<br>
+This is hell<br>
+This can't be happening<br>
+I'm a failure, I'm a liar, I'm a hypocrite<br>
+I am not who I claim to be<br>
+What could you possibly see in me?<br>
+<br>
+I could never turn my back on you<br>
+Grace like an ocean, I am lost in the depths of your truth<br>
+You have seen my heart and the wicked things I've done<br>
+And yet you call me "son"<br>
+<br>
+This is my awakening, and my call to arms<br>
+<br>
+Show me this world through the holes in your hands<br>
+<br>
+I'm alive, I'm alive, I have been set free<br>
+I was blind but now my eyes are open, I can see I am flawed,<br>
+I am flawed, but You have made me clean<br>
+I know I'm not perfect but I serve a perfect king<br>
+<br>
+I am nothing<br>
+You are everything<br>
+Let this truth resonate in my soul<br>
+Take my life God, I give you control I have stumbled,<br>
+I have fallen,<br>
+I've grown weary,<br>
+and yet I'm still walking<br>
+I've been stuck here with all these questions inside my head<br>
+But I will never forget the words that you have said<br>
+<br>
+"You are the child of the king you have been set free.<br>
+There is nothing that can separate you from me.<br>
+I am the one that calls you son,<br>
+I formed you in the womb,<br>
+I conquered the grave,<br>
+your home is not a tomb."<br>
+<br>
+God this just can't be,<br>
+I'm so unworthy but your grace has<br>
+washed me clean and now I'm learning<br>
+that you’re changing everything and I<br>
+am not the same, you made everything change...<br>
+<br>
+When you called my name my heart<br>
+stopped and our pulse became the same<br>
+When you calmed my soul<br>
+ felt the earth shake and the mountains tremble<br>
+When you called my name I finally came alive again<br>
+When you call me son,<br>
+I feel your blood in my veins and your breath in my lungs<br>
+When you call my name</p>
+
+      <h1 id="f10" class="lyrics-test">-Nothing But The Blood-</h1>
+      <p class="lyrics-test-test">What can wash away my sin?<br>
+Nothing but the blood of Jesus;<br>
+What can make me whole again?<br>
+Nothing but the blood of Jesus.<br>
+<br>
+Oh! precious is the flow<br>
+That makes me white as snow;<br>
+No other fount I know,<br>
+Nothing but the blood of Jesus.<br>
+<br>
+For my pardon, this I see,<br>
+Nothing but the blood of Jesus;<br>
+For my cleansing this my plea,<br>
+Nothing but the blood of Jesus.<br>
+<br>
+Nothing can for sin atone,<br>
+Nothing but the blood of Jesus;<br>
+Naught of good that I have done,<br>
+Nothing but the blood of Jesus.<br>
+<br>
+This is all my hope and peace,<br>
+Nothing but the blood of Jesus;<br>
+This is all my righteousness,<br>
+Nothing but the blood of Jesus.<br>
+<br>
+
+Now by this I’ll overcome<br>
+Nothing but the blood of Jesus,<br>
+Now by this I’ll reach my home<br>
+Nothing but the blood of Jesus.<br>
+
+Glory! Glory! This I sing—<br>
+Nothing but the blood of Jesus,<br>
+All my praise for this I bring<br>
+Nothing but the blood of Jesu</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/struggle.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Struggle Well - 2014</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Blind Guides-</h1>
+        <p class="lyrics-test-test">Truth is an unshakeable doctrine<br>
+One undefiled from the world and it’s corruption<br>
+You may not believe like me one day every eye will see that…<br>
+God is not dead nor does he sleep<br>
+<br>
+Check the facts and purge the lies<br>
+There is truth out there to find<br>
+We’re all just digging graves when<br>
+we trust the words of blind guides<br>
+<br>
+You’ve made your own religion<br>
+With yourself as your god<br>
+<br>
+We’ve forgotten the truth and forged it into a lie<br>
+We’ve forgotten about God<br>
+<br>
+Did you hang the stars in the sky?<br>
+Can you add a single day to your life?<br>
+Was it your hands that formed this place?<br>
+And did your words separate the night from the day?<br>
+<br>
+I know that truth is not based on just what we see<br>
+There is more to all of this<br>
+I know that truth is not based on just what we see<br>
+And I’m not afraid to say what I need to<br>
+There is more to all of this<br>
+<br>
+There is no excuse or reason to believe all these lies<br>
+Check the facts; seek the truth and open up your eyes<br>
+<br>
+I’m not brainwashed and I don’t<br>
+believe everything that I see<br>
+We’re saturated with lies,<br>
+ignorance and blasphemy<br>
+You have every right to believe what you choose<br>
+But there is one God, there is one way,<br>
+there is only one truth<br>
+There is one God<br>
+There is one way<br>
+There is one truth<br>
+I’m not shoving it down your throat<br>
+but I’d take a bullet if it means this gets to you<br>
+<br>
+Blind guides<br>
+Throw off your scales and open up your eyes<br>
+Blind guides<br>
+Come back home the door is open wide</p>
+
+        <h1 id="s2" class="lyrics-test">-Running Scared-</h1>
+        <p class="lyrics-test-test">I’m sick of holding back and<br>
+biting my tongue when I look around<br>
+There is a change to be made and it’s not change gonna change itself<br>
+Who do we think that we are?<br>
+We’ve got our hands tied behind our backs<br>
+We cannot be the change that we wish to see on our own<br>
+<br>
+I’m tired of running scared from everything<br>
+It’s time we pick our heads up and be the change<br>
+These shackles do not have a hold on you or me<br>
+So why are you afraid when you’ve already been set free?<br>
+<br>
+Back against the wall where did your spine go?<br>
+<br>
+I can’t just turn my back on everything<br>
+My mind was freed when I opened my spirit to the king<br>
+<br>
+Are you free now?<br>
+<br>
+Fear of man or fear of yourself<br>
+What are you afraid of?<br>
+Are you free now?<br>
+<br>
+Leader, overcome!<br>
+Head up, you are not alone<br>
+Leader, overcome!<br>
+Eyes up, you’re not on your own<br>
+<br>
+I’ve been down this road before<br>
+I’ve felt the pain and the doubt of this broken world<br>
+I’ve been down this road too many times<br>
+I can’t just sit back and let you die<br>
+I’ve watched my mother and my brother fight their demons on their own<br>
+And though there’s pain I found strength in this broken home<br>
+I will never turn my back on you<br>
+(So I hope you’ll fight this with me)<br>
+Fists clenched and now we’re swinging<br>
+<br>
+Fight off your demons with everything you’ve<br>
+got till your knuckles are bleeding<br>
+This is life or death so just keep swinging<br>
+Fight off your demons<br>
+Fight off your demons<br>
+Are you free now?</p>
+
+        <h1 id="s3" class="lyrics-test">-Dry Bones-</h1>
+        <p class="lyrics-test-test">[feat. Brother Friend]<br>
+<br>
+Staring down this barrel<br>
+Our silence breeds death<br>
+Speak up; speak out<br>
+Resurrect<br>
+<br>
+Dry bones with potential of life<br>
+But we mime to an audience blind<br>
+(Pull the pin)<br>
+No concern for the lost of this world<br>
+We shut our mouths as we walk on by<br>
+Will you be the one to break the silence?<br>
+And not settle for positivity just to spare an offense<br>
+<br>
+Do not hesitate to speak<br>
+Life is caged only by teeth<br>
+Do not hesitate to speak<br>
+Life is what this world needs<br>
+Four winds fill these sails and propel us down this sea<br>
+Give us the breath of life; give us words to speak<br>
+<br>
+Death is equal to life when life is unmentioned<br>
+Point the barrel pull the trigger<br>
+just like keeping your mouth shut<br>
+<br>
+Resurrection; resurrection<br>
+Use your words, use your actions, use whatever it takes<br>
+We are ambassadors of life; boldly proclaim<br>
+<br>
+It has been so much longer than 4 days,<br>
+what are you waiting for?<br>
+You can already smell the flesh decomposing,<br>
+what more motivation do you need?<br>
+Life starts at the tip of your teeth,<br>
+like an ocean growing from your throat,<br>
+a hydrant to the seed, a water warrior with a<br>
+plowshare sword commanding willows<br>
+from concrete! Discover new ways of self harm,<br>
+cut yourself to the core,<br>
+separate the goats from the sheep!<br>
+Your fear of man is a cop-out,<br>
+it has nothing do with what you perceive others to see.<br>
+Your tongue is a rudder, but you lack<br>
+passion for the sea.<br>
+So what comes out is drought<br>
+soaking moisture from dessert air,<br>
+hanging dry,<br>
+your bones and the tome of life<br>
+from which you refuse to speak,<br>
+becomes your condemning tomb.<br>
+So I ask, "In whom do you believe?"<br>
+<br>
+Come forth<br>
+No longer dry bones<br>
+Come forth<br>
+Breath of life fill these lungs<br>
+Come forth</p>
+
+        <h1 id="s4" class="lyrics-test">-Good Intentions-</h1>
+        <p class="lyrics-test-test">Lost in the lust and pull of<br>
+the desires of my eyes<br>
+It starts a fire in my skin<br>
+And burns it's way into my heart<br>
+This sin tore us apart<br>
+And now it's too late to go back<br>
+Cause I lost track of all the love that I said we shared<br>
+It's like smoke and mirrors<br>
+<br>
+I don't know my heart<br>
+I don't know my plans<br>
+Everything has fallen apart<br>
+God save this wretched man<br>
+<br>
+I have fallen apart and I can’t free myself<br>
+I can’t let go<br>
+I have fallen apart and I can’t free myself<br>
+Who will save me now?<br>
+<br>
+There must be something wrong with me<br>
+<br>
+Every time I try it’s like I’m digging my own grave<br>
+It’s like there’s poison in my veins<br>
+Every time I think I’m getting closer to break through<br>
+I make the same mistakes<br>
+<br>
+I've been chasing the wind<br>
+I’ve been playing god<br>
+replaced these gifts with efforts<br>
+How did I end up like this?<br>
+I used to be passionate<br>
+I used to have conviction flowing through my veins<br>
+I used to be in love with you<br>
+God, you must be so disappointed in me<br>
+<br>
+My knuckles are callused and stained with your blood<br>
+God save this wretched man<br>
+I must have worn out your patience by now<br>
+This has become my hell<br>
+<br>
+I swear to God something is wrong with me<br>
+Cause I can’t breath; feels like I’m suffocating<br>
+I know it’s not just the snake around my neck<br>
+But these hands that pushed the nails into your flesh<br>
+God these hands have pulled the apple from the tree<br>
+And I've been striving for atonement but it's just out of reach<br>
+This whole time I thought I was living in your name<br>
+Hands to the plow? I was digging my own grave<br>
+I've been trying, I've been trying to somehow earn your grace<br>
+I've been lying, I've been lying; wearing masks to hide my face<br>
+I've been thinking to myself, does this cycle ever end?<br>
+I've been falling short and burning out; your patience must be thin<br>
+Have I worn out your patience yet?
+</p>
+
+        <h1 id="s5" class="lyrics-test">-Simply Grace-</h1>
+        <p class="lyrics-test-test">[feat. Brother Friend]<br>
+<br>
+O little man, what know you of our patience?<br>
+Talk to us about time as if you know I AM, the one who made it<br>
+Talk to us about pain as if you know I AM, the one who laid it<br>
+All down for you at the crown of the place, stripped of its flesh,<br>
+The hill without a face, to give you a foundation of mercy<br>
+To carve into your hands, valleys for our grace.<br>
+We can see that you are hurting,<br>
+Suffocating in your tightly woven mask.<br>
+It’s enough to keep you breathing, but not near enough to last<br>
+If you keep asking all these questions<br>
+One of you will die of asphyxiation<br>
+You lead a double life, and only do half the living.<br>
+<br>
+We said to be like Christ, you cannot be like the trinity.<br>
+Of a single mind, yet thrice, you've not uncovered that mystery<br>
+Only we can be three in one without anything spilling<br>
+Where we do not absolutely intend it to be.<br>
+<br>
+So have you started reaching for the ties behind your head?<br>
+Or do your fingers fumble scratching your eyes out instead?<br>
+Have you learned nothing? O man, listen to what we said!<br>
+Trade your trying for trusting, and let us do the rest.<br>
+<br>
+And just so you know we intend to spill all over creation<br>
+But for some reason you are not making the connection<br>
+That includes you<br>
+Which of our actions has ever led you to believe<br>
+Our intentions are to exclude?<br>
+What makes you think that we exude anything other<br>
+than unmerited favor toward the entirety of your endeavors?<br>
+Historically, when have we ever proved to be anything less<br>
+than your forever victorious Savior?<br>
+Was it the beginning when we made man in our likeness?<br>
+Or on the ark of Noah when we saved you from the torrents?<br>
+Perhaps it was when we promised the land of milk and honey?<br>
+Or delivered you from your enemies and closed on them, the sea?<br>
+<br>
+And you ask for your chains back! You have loved a new slavery!<br>
+No matter how much you nag, we will not place you on that tree!<br>
+You cannot sacrifice your words and acts!<br>
+You cannot convince us of your piety!<br>
+You can be still, relax, let us sing to you our poetry.<br>
+We could speak in the way you ask,<br>
+but what would you hear more audibly?<br>
+<br>
+Have you started reaching for the ties behind your head?<br>
+Or do your fingers fumble scratching your eyes out instead?<br>
+Have you learned nothing? O man, listen to what we said!<br>
+Trade your trying for trusting, and let us do the rest.<br>
+<br>
+I will condescend my finger tip<br>
+To graciously fold your hip<br>
+You have fought for long enough<br>
+I see your seam starting to rip<br>
+Let me cut the strings for you strung<br>
+Stretching from the corners of your lips<br>
+And separate the plastic grafted<br>
+To your cheeks, ears, nose, and chin<br>
+It will hurt at first, but trust me,<br>
+Your flesh must be stripped<br>
+Be ready with the oil<br>
+and keep your lamp wick well trimmed<br>
+Wait for me eagerly, I will send the second skin<br>
+You knot this thing thoroughly,<br>
+But it is not a match for the One who<br>
+will undo all the damage that you did<br>
+He will take the hewn with open wounds and<br>
+sew your folds back into Him<br>
+Your tattered attempts to mend the holes<br>
+will soon hold inside the hem of his robe<br>
+made white by his life,<br>
+red in his death,<br>
+whole at moment I chose to resurrect,<br>
+then yours the second you accept<br>
+that I want nothing less than the best<br>
+for all my elect.<br>
+I have the authority to command<br>
+and the power to affect,<br>
+The strength to defend,<br>
+The compassion to protect<br>
+You work futility to its end<br>
+And forsake the day of rest<br>
+But when you grow tired again<br>
+I will be there to help you unforget...<br>
+<br>
+It's my hands that formed you out of clay<br>
+(It’s your hands that formed me from the clay)<br>
+It's my hands that lavish you with love and grace<br>
+(Those same hands are filled with love and grace)<br>
+My hands were held by nails to the tree<br>
+(It’s your hands held by nails up on that tree)<br>
+It's my hands that will bring you back to me<br>
+(Those same hands are reaching toward me)</p>
+
+        <h1 id="s6" class="lyrics-test">-Idle Hands-</h1>
+        <p class="lyrics-test-test">Comfortable and poised<br>
+We sit on our thrones, we sit on our hands and we let them die<br>
+We’re all too blind, we’re blinded by our American eyes<br>
+I will not, I will not be idle<br>
+(Stretch out your hands)<br>
+<br>
+Living in a new perspective<br>
+Everything I once held close I count it all as lost<br>
+What is life lived selfishly when nothing goes with me?<br>
+Hollow and empty.<br>
+My hands cling far too tight to the things of this life,<br>
+I’m finally letting go<br>
+<br>
+What is life lived selfishly?<br>
+<br>
+Rip out my eyes cause I don’t see right<br>
+Selfish and blind to my pride I am my own disease<br>
+<br>
+Hollow and empty<br>
+I can take nothing with me<br>
+Hollow and empty<br>
+I’ve served myself and hordes the rest<br>
+<br>
+Life is more fulfilling when you put yourself last<br>
+I have learned this the hard way all of my life<br>
+I’ve been given more than enough its time I give back<br>
+<br>
+Servant of all<br>
+<br>
+Idle hands murder the helpless<br>
+Let these words end the silence<br>
+Stretch out your hands<br>
+<br>
+I never wanted to come to this<br>
+End my pride and my selfishness<br>
+I will not, I will not be idle<br>
+(I refuse, I refuse)<br>
+<br>
+Living in a new perspective<br>
+Everything I once held close I count it all as lost<br>
+What is life lived selfishly when nothing goes with me?<br>
+Hollow and empty.<br>
+My hands cling far too tight to the things of this life,<br>
+I’m finally letting go
+</p>
+
+        <h1 id="s7" class="lyrics-test">-Hollow Veins-</h1>
+        <p class="lyrics-test-test">[feat. Landon Tewers]<br>
+<br>
+I know this has come back to me<br>
+I opened the doors that have led me here<br>
+Face to face with the devil<br>
+I've been fighting these demons for the last few years<br>
+<br>
+I’ve grown weary<br>
+Struck down and worn out<br>
+Turn the page once more<br>
+I placed myself here<br>
+<br>
+I let them lead me to the slaughter<br>
+Step by step into this living hell<br>
+I let them slide the noose around my neck<br>
+When they chained me I sat still<br>
+<br>
+Dancing with the devil I am plagued with disease<br>
+Fill my veins with your blood, spark my pulse into a beat<br>
+<br>
+Purge this poison from my veins<br>
+I’m calling them out<br>
+Every demon that I’ve faced,<br>
+every devil that’s held me down<br>
+I'll spew you because I’m tired of being warm<br>
+And my home is not this storm<br>
+<br>
+I’m through with you<br>
+No more darkness, no more shame<br>
+Turn on the lights, give you no place to remain<br>
+Your hold on me is no longer here<br>
+<br>
+“Have you forgotten that I dwell<br>
+in the depths of your dark and filthy heart?<br>
+I did not merely force my way in,<br>
+I found an open door.<br>
+I left and came back to discover your hollow veins,<br>
+so I made my home. I know everything about you,<br>
+I know everything about you.<br>
+I know<br>
+your secrets and the things you<br>
+do when you think your alone.<br>
+I live in the shadows you create;<br>
+you’ve made this place into my home.”<br>
+<br>
+I let them lead me to the slaughter<br>
+Step by step into this living hell<br>
+But as I cry out to my Father<br>
+My strength begins to swell<br>
+<br>
+Your lies are replaced with the truth<br>
+This heart was never mine to give<br>
+I may have opened the doors<br>
+But now I choose to live<br>
+<br>
+Dancing with the devil I’ve been plagued with disease<br>
+You’ve filled my veins with your blood,<br>
+sparked my pulse into a beat<br>
+<br>
+Bind the host, shine your light,<br>
+give them no places to hide<br>
+<br>
+Go to hell, dark passenger<br>
+Back to where you came from<br>
+Go to hell, dark passenger<br>
+I stand with heaven as a child of the king<br>
+Go to hell.
+</p>
+
+        <h1 id="s8" class="lyrics-test">-Endless Cycle-</h1>
+        <p class="lyrics-test-test">You can gauge out my eyes<br>
+But I’ve already seen enough to last a life time<br>
+You can cut off my hands<br>
+But I'm a thief at heart and I know I'll steal again<br>
+No more innuendos<br>
+No more hiding my face<br>
+The truth is that I keep looking at<br>
+your daughters the wrong way<br>
+Sever my flesh from me<br>
+<br>
+I can’t stop tossing and turning<br>
+Reliving the regrets that I can’t seem to forget<br>
+Wipe the slate clean; I want to be set free<br>
+I believed a lie; this is not me<br>
+<br>
+My fantasies are built on things I was never meant to see<br>
+I’ve turned into the man that I was never meant to be<br>
+God knows I tried but the devil whispered<br>
+lies and I believed; I believed<br>
+(This is not me)<br>
+<br>
+I believed a lie<br>
+I believed a lie<br>
+My flesh knows the way back to her door<br>
+And no matter how strong my heart<br>
+is I keep going back for more<br>
+Going back for more<br>
+I believed a lie<br>
+<br>
+Replace these lies with the truth<br>
+I want to see the right way<br>
+Replace these lies with the truth<br>
+I am not my mistakes<br>
+<br>
+I am not my mistakes
+</p>
+
+        <h1 id="s9" class="lyrics-test">-Porcelain Faith-</h1>
+        <p class="lyrics-test-test">[feat. Trevor Bartlet]<br>
+<br>
+You've gone too far now<br>
+I saw the tide swell<br>
+Violent, pulling at your feet<br>
+Now the currents pulling you under<br>
+I watched you sink<br>
+Past the point of turning back<br>
+No sense of direction<br>
+No evidence of conviction<br>
+I can see through your masks<br>
+I see the pain that you feel<br>
+Was your faith ever real?<br>
+Because I swear it was<br>
+<br>
+What made you turn your back on the God<br>
+who was so present in your past<br>
+Where are your monuments?<br>
+Where are all your reminders?<br>
+How could you forget what he has done?<br>
+<br>
+I wish I could understand<br>
+And take away what's caused you pain<br>
+If I could I would bear it myself<br>
+I would remove what made you hurt<br>
+Let it burn in hell<br>
+If I could I would take your place<br>
+I would carry your burdens<br>
+All the way to my grave<br>
+<br>
+You are not alone<br>
+And you never were<br>
+<br>
+You uprooted from the soil you once knew<br>
+And sought growth in the thorns<br>
+No roots will survive in the shallows<br>
+Now you're drowning in scorn<br>
+<br>
+It's not my goal to cure you<br>
+I'm far too weak to do that on my own<br>
+But with everything I am I will do my<br>
+best to point you back home<br>
+<br>
+Hear the call<br>
+<br>
+I want you to know that I'm right here<br>
+I want you to know I'm not going anywhere<br>
+<br>
+(I want you to know you're not alone)<br>
+I will never give up, I will never stop<br>
+I will fight for you even with nothing left<br>
+So never give up, and never give in<br>
+When you fall down I will pick you up again<br>
+It breaks my heart to see you like this<br>
+<br>
+Here you are<br>
+No strength to stand<br>
+You gave up everything<br>
+You let go of his hand<br>
+(When you let go of his hand)<br>
+Here the call
+</p>
+
+        <h1 id="s10" class="lyrics-test">-Nameless; Faceless-</h1>
+        <p class="lyrics-test-test">I’ll shrink myself so that<br>
+everyone can see<br>
+Past the doubt and know that<br>
+this is not about me<br>
+<br>
+I was born into a world of sin in a universe of grace<br>
+All my struggles have been shaping and changing me<br>
+And reforming my face<br>
+<br>
+I don’t want to be a better version of me<br>
+Just to feed my vanity<br>
+Change my name to the one that conquers graves<br>
+Make me more like you<br>
+<br>
+I am nothing without grace<br>
+(Flowing through my veins)<br>
+I am nothing without grace<br>
+Everything I have has been given to me<br>
+<br>
+My path has not led me here to exalt my own name<br>
+If I put myself on the pedestal this<br>
+will have all been in vain<br>
+<br>
+I’ve got a novels worth of testimony<br>
+infused within these notes<br>
+And I’ll spill my guts until the day I<br>
+die just to bring an ounce of hope<br>
+<br>
+This is not about me<br>
+This is not about mev
+No man can ever attain to the power of<br>
+the cross; the name above all names<br>
+There’s a lot for me to learn and I don’t<br>
+have all the answers<br>
+But I know enough to know that I am only<br>
+here because he conquered death<br>
+<br>
+I know there’s beauty in the desert and<br>
+there’s glory in the storm<br>
+So I’ll keep my hands stretched to the sky<br>
+and wait for the son to make me warm<br>
+<br>
+I am nothing without grace<br>
+(Flowing through my veins)<br>
+I am nothing without grace<br>
+Everything I have has been given to me
+</p>
+      </div>
+    </div>
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+    </div>
+
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+    </div>
+
+        <div class="page-finish">
+          <a href="./security.html">Security Statements</a>
+          <a href="./terms.html">Terms of Service</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+
+    </body>
+    </html>

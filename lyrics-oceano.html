@@ -1,0 +1,1708 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Oceano</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/conta.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Contagion - 2010</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Precursor To Enslavement</a>
+      <a href="#f2">Viral Re-animation</a>
+      <a href="#f3">Regulated Disposal Of Life</a>
+      <a href="#f4">Quarantine</a>
+      <a href="#f5">The Contaminated</a>
+      <a href="#f6">Exist In Confinements</a>
+      <a href="#f7">Persuasive Oppression</a>
+      <a href="#f8">Weaponized</a>
+      <a href="#f9">Sadistic Experiments</a>
+      <a href="#f10">Remnants Aflame</a>
+      <a href="#f11">Ending Intellect</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/invis.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Incisions - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Eternal Wasteland</a>
+      <a href="#s2">Slow Murder</a>
+      <a href="#s3">Slave Of Corporotocracy</a>
+      <a href="#s4">Internal War</a>
+      <a href="#s5">Self Exploited Whore</a>
+      <a href="#s6">New Age Apophis</a>
+      <a href="#s7">Embrace Nothingness</a>
+      <a href="#s8">Incisions</a>
+      <a href="#s9">Blasphemous Mask</a>
+      <a href="#f10">Severed Appendages</a>
+      <a href="#s11">Disseverance</a>
+      <a href="#s12">The Reclaimation</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/ascend.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Ascendants - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">Nephilim</a>
+      <a href="#t2">Transient Gateways</a>
+      <a href="#t3">The World Engine</a>
+      <a href="#t4">Dead Planet</a>
+      <a href="#t5">The Taken</a>
+      <a href="#t6">Dawn Of Descent</a>
+      <a href="#t7">The Dulce Incident</a>
+      <a href="#t8">Arc Of Creation</a>
+      <a href="#t9">External Existence</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#fourth"><img class="lyrics-page_image" src="./images/revel.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Revelation - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#ff1">Dark Prophecy</a>
+      <a href="#ff2">Lucid Reality</a>
+      <a href="#ff3">Path to Extinction</a>
+      <a href="#ff4">The Great Tribulation</a>
+      <a href="#ff5">Illusions Unravel</a>
+      <a href="#ff6">Majestic 12</a>
+      <a href="#ff7">Final Form</a>
+      <a href="#ff8">The Event</a>
+      <a href="#ff9">Human Harvest</a>
+      <a href="#ff10">Revelation</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/conta.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Contagion - 2010</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Precursor To Enslavement-</h1>
+      <p class="lyrics-test-test">Replacing God,<br>
+human hands conceive and contort a vile creation.<br>
+A fatal form is about to be born,<br>
+A curse that's birthed with a purpose.<br>
+Fear is an infallible<br>
+distraction when populations confirm.<br>
+Propaganda blinds them all while before their eyes,<br>
+the blueprint to a deceptive design unfolds.<br>
+<br>
+An infectious catalyst has been utilized<br>
+and deployed, to initiate and spread<br>
+the installment of new order.<br>
+The encroaching wave invades your home.<br>
+Silence with no trace of its presence,<br>
+This was created to destroy.<br>
+<br>
+Silent, with no trace of<br>
+its presence and created to destroy.<br>
+<br>
+This is pain,<br>
+This is real bloodshed,<br>
+And you're surrounded by suffering.<br>
+No precaution can spare you from infection,<br>
+This was created to destroy.<br>
+<br>
+This is pain,<br>
+This is real bloodshed,<br>
+And you're surrounded by suffering.<br>
+<br>
+Sharing in these repulsive transformations,<br>
+your family watches in horror<br>
+as the symptoms take hold.<br>
+Vomit spews and internal acids burn your throat.<br>
+Blood flows from every orifice,<br>
+your body's virulently overtaken.<br>
+<br>
+Conditions worsen as skin<br>
+cracks and begins to peel.<br>
+The fissures spread exposing flesh.<br>
+Skin cracks and begins to peel,<br>
+The fissures spread exposing flesh.<br>
+<br>
+You are the first to fall victim<br>
+to instant contagiousness,<br>
+Skin cracks and begins to peel.<br>
+You are the first of many to suffer from this epidemic,<br>
+The precursor to enslavement</p>
+
+      <h1 id="f2" class="lyrics-test">-Viral Re-animation-</h1>
+      <p class="lyrics-test-test">[feat. Alexandre Erian and Steve Marois of "Despised Icon"]<br>
+<br>
+The streets are overflown with<br>
+the presence of stagnant corpses,<br>
+The first victims of infection.<br>
+Their stricken bodies omit<br>
+a formidable stench<br>
+of dermal decomposition.<br>
+<br>
+The vile scent of death has crept unto your doorstep,<br>
+Intruded your sensory glands,<br>
+stimulating a thirst<br>
+for further investigation.<br>
+An urge you should never have acted upon.<br>
+<br>
+Oblivious to the perils you've entered.<br>
+Presumed to be dead,<br>
+the infected are resurrected.<br>
+Like a swarm they approach with malicious<br>
+intent and amongst them all you're surrounded.<br>
+<br>
+The starving horde overtakes you,<br>
+Teeth and nails desperately serrate through delicate flesh.<br>
+Their abuse rips open fresh wounds,<br>
+exposing your blood to their hazardous pathogens.<br>
+<br>
+You're now one with the infected,<br>
+Soon to be revitalized by an unholy resurrection.<br>
+<br>
+Let it spread.<br>
+With each person infected,<br>
+the contagion grows stronger.<br>
+<br>
+Virally re-animated,<br>
+through a continuous cycle,<br>
+you have risen as a vessel of<br>
+contaminants by which the<br>
+contagion shall spread.</p>
+
+      <h1 id="f3" class="lyrics-test">-Regulated Disposal Of Life-</h1>
+      <p class="lyrics-test-test">Increasingly civilians contract<br>
+the infection at an alarming rate,<br>
+flooding nearest cities in a rampage<br>
+to satisfy their now instinctive thirst,<br>
+depopulating the human race.<br>
+<br>
+A manhunt is upon us by a selective<br>
+few appointed under governmental regulation,<br>
+To track and exterminate the infected<br>
+in an effort to resolve<br>
+their disastrous situation.<br>
+<br>
+Possessing endless amounts of weaponry,<br>
+authorities unleash their<br>
+personal army of hired mercenaries,<br>
+Paid to wage war against an ongoing adversary.<br>
+<br>
+Upon first sight of the infected,<br>
+they fall victimized to gunfire.<br>
+In an emotionless disposal of life,<br>
+this has become another<br>
+inhumane display of execution.<br>
+<br>
+Remnants of exploded skulls<br>
+and floating grey matter,<br>
+hundreds of bullet-filled bodies litter the streets.<br>
+The pavement's soaked<br>
+red as a result of bloodshed,<br>
+Another town's left in<br>
+uin by the war against infection.
+</p>
+
+      <h1 id="f4" class="lyrics-test">-Quarantine-</h1>
+      <p class="lyrics-test-test">You awake to the putrid stench<br>
+of decomposing flesh,<br>
+Welcome to oblivion.<br>
+Do not pray, for salvation won't come,<br>
+Your savior does not dwell in this place.<br>
+<br>
+So turn your back on your faith,<br>
+It only further holds you captive.<br>
+You are the bastard dying children of this race,<br>
+Turn your back on all faith.<br>
+<br>
+A desensitized state of consciousness<br>
+disables every attempt to recall your origin.<br>
+The sight and pungence of scorched<br>
+human remnants foreshadow<br>
+the purpose of containment.<br>
+<br>
+Showing symptoms of the afflicted ones,<br>
+you're forcibly secluded<br>
+from the general populous.<br>
+Restrained, sedated,<br>
+and internally tested.<br>
+Archaic instruments have penetrated flesh.<br>
+<br>
+Painfully extracting blood<br>
+in search of virulent,<br>
+crimson spray stains the walls.<br>
+Their draining torture<br>
+device induces seizure.<br>
+Vital signs are weakened,<br>
+Sickness flows from every artery,<br>
+And there is no hope<br>
+of survival for the diseased.<br>
+<br>
+You are the bastard<br>
+dying children of this race,<br>
+Condemned and left in quarantine.<br>
+<br>
+There is no hope for survival,<br>
+Sickness flows from every artery.<br>
+<br>
+Embrace oblivion,<br>
+You are the bastard dying<br>
+children of this race.</p>
+
+      <h1 id="f5" class="lyrics-test">-The Contaminated-</h1>
+      <p class="lyrics-test-test">As migraines become overwhelming,<br>
+perception is rendered contorted.<br>
+Mentally you've grown unstable,<br>
+Devoid of human emotion.<br>
+Something has burrowed into your psyche,<br>
+forcing you to lose touch with your own self.<br>
+A transformation is apparent,<br>
+You're becoming what was once unimaginable.<br>
+<br>
+ALIVE BUT DECEASED,<br>
+Revived so long as life is drained completely.<br>
+Alive but deceased.<br>
+<br>
+What remains is a symbiotic<br>
+co-existence interdependent<br>
+upon the blood and the flesh.<br>
+<br>
+Recognizing the illness which<br>
+threatens your body,<br>
+you attempt to repress a horrid envisionment;<br>
+that of your ill-fate,<br>
+and the torment you'll face.<br>
+<br>
+For sustenance of what dwells within,<br>
+you are beckoned to satisfy<br>
+its internal urge to feed,<br>
+Coerced to murder if necessary,<br>
+Possessed to consume<br>
+decaying organisms that lie beneath.<br>
+<br>
+Instantly vomiting upon devourment.<br>
+<br>
+This appalling display of<br>
+demoralization brings forth insight to your disease,<br>
+Damned forever to scavenge this land.<br>
+Further transforming into<br>
+a monster that's alive but deceased,<br>
+Revived so long as life is drained completely.<br>
+As one of the infected,<br>
+accept the fact that you're damned.
+</p>
+
+      <h1 id="f6" class="lyrics-test">-Exist In Confinements-</h1>
+      <p class="lyrics-test-test">Spoken:]<br>
+The apprehensive conditions of our nation<br>
+Is now expunged within human nature.<br>
+Surrender severely subliminal,<br>
+Upon the mercy of apparitions<br>
+Whom expressed little incentive deliberation.<br>
+In exchange for their beliefs do merely exist.<br>
+Below their pedestal of deceit,<br>
+Provided a mental solitude for extract from their design.<br>
+The outside is truly like a fine minute of this life.<br>
+Do you decide to fight in resistance?<br>
+Do you dare defy what subsequent exist in confinement?</p>
+
+      <h1 id="f7" class="lyrics-test">-Persuasive Oppression-</h1>
+      <p class="lyrics-test-test">feat. Nick Arthur of "Molotov Solution"]<br>
+<br>
+Infiltrating defenses and evolving with every strand,<br>
+the contagion shall continue to spread.<br>
+<br>
+Stranded in a devastated wasteland<br>
+of contaminants, the population<br>
+is slowly depleting in distress.<br>
+What remains of a helpless<br>
+civilization is depleted by an invisible threat.<br>
+<br>
+So government drastically exerts its power,<br>
+Through the provision of new<br>
+laws and enforcement of home<br>
+invasions to search and extract those infected.<br>
+<br>
+Containment camps are erected<br>
+for protection under the "Anti-contagion act",<br>
+A document that holds no<br>
+truth within its pages and<br>
+provides no real solutions.<br>
+<br>
+This is a persuasive attempt to further oppress you,<br>
+<br>
+This is corruptive.<br>
+<br>
+Witness a greater vision.<br>
+To purify the nation of its ailments,<br>
+human rights are compromised,<br>
+marshal law is put in effect<br>
+to suppress public action<br>
+and freedom of speech.<br>
+Politics swiftly evolve<br>
+into a fascist tyranny.<br>
+<br>
+Witness a greater vision.<br>
+<br>
+Infiltrating defenses and evolving<br>
+with every strand,<br>
+the contagion shall continue to spread.<br>
+This is a greater vision,<br>
+a long awaited master plan,<br>
+which will begin and end in your oppression.
+</p>
+
+      <h1 id="f8" class="lyrics-test">-Weaponized-</h1>
+      <p class="lyrics-test-test">With retinas exposed towards an empty sky,<br>
+the majority relies on religion,<br>
+Citing God as a scapegoat for this unrelenting plight.<br>
+Such devastation is not divine,<br>
+The corruptive hands of our leaders<br>
+orchestrated their own nations decline.<br>
+<br>
+Deceivers, transposing fear into<br>
+a mechanism to delude their fraud.<br>
+Such devastation is not divine,<br>
+Don't believe their lies,<br>
+THIS PLAGUE WAS WEAPONIZED.<br>
+<br>
+Such devastation is not divine,<br>
+These are lies.<br>
+You have been betrayed,<br>
+Overruled by an isolated state of secrecy<br>
+that shall stimulate new birth into an age of suffering.<br>
+<br>
+The population has contracted a viral infliction of life,<br>
+And now questions arise.<br>
+What shall be done with the damned?<br>
+So what shall be done with the damned?<br>
+<br>
+This plague was weaponized with no source of antidote,<br>
+The only cure is genocide.<br>
+<br>
+This plague was weaponized,<br>
+Extermination is the only cure.<br>
+So fall to your knees, they have you defeated.<br>
+Fall to your knees, they have you defeated.<br>
+Fall to your knees and die.
+</p>
+
+      <h1 id="f9" class="lyrics-test">-Sadistic Experiments-</h1>
+      <p class="lyrics-test-test">Government has influenced and<br>
+orchestrated abduction of civilians<br>
+For use as subject in secretive experiments,<br>
+Forcibly exposing them to deadly pathogens.<br>
+<br>
+Survival was never the outcome expected.<br>
+<br>
+Survival was never expected.<br>
+Tests are conducted to observe<br>
+a fatality of their infection,<br>
+Created with only harmful intent<br>
+of slowly killing its host and<br>
+increasing the potential to spread.<br>
+<br>
+You are chosen, the first casualty<br>
+to demonstrate its bodily affliction.<br>
+<br>
+Suspended from appendages,<br>
+your spinal cord is punctured.<br>
+The virulent's injected<br>
+in an agonizing procedure.<br>
+<br>
+Monitored at distance,<br>
+initial ailments run its course.<br>
+<br>
+Veins protrude and begin to rupture.<br>
+Flesh separates, hanging from weakened limbs.<br>
+Boils inflate with plasma,<br>
+spontaneously bursting through the skin.<br>
+<br>
+YOUR BODY IS DISFIGURED.<br>
+<br>
+This experience continues to worsen as infection fully takes over.<br>
+<br>
+Subjective to their sadistic experiments,<br>
+you are transformed into a sight of abomination.
+</p>
+
+      <h1 id="f10" class="lyrics-test">-Remnants Aflame-</h1>
+      <p class="lyrics-test-test">Every contagious strand must be wiped away,<br>
+Located and declared completely absent.<br>
+A national vaccination is underway,<br>
+to eliminate the presence of infestation.<br>
+<br>
+The presence of infestation must be eliminated at any price.<br>
+<br>
+Purging a curse which they created to coercively<br>
+Transform the populous into slaves,<br>
+the final goal is to depopulate,<br>
+and a murderous cleansation process begins.<br>
+<br>
+Immersed in filth, single file and blind-folded,<br>
+the infected are imprisoned in awaitance of death.<br>
+Instantaneous as contamination,<br>
+they are viciously slain<br>
+by a barrage of ammunition.<br>
+<br>
+Casualties quickly accumulate,<br>
+Casualties quickly accumulating.<br>
+<br>
+Each blood-soaked corpse is gutted.<br>
+Innards disgorged, scraped barren for experimentation.<br>
+Empty and left for a massive stockpile to form,<br>
+the rotted corpses are torched.<br>
+Bodies carefully cast aflame until<br>
+the soil is littered with the<br>
+steaming white ash of their remains.</p>
+
+      <h1 id="f11" class="lyrics-test">-Ending Intellect-</h1>
+      <p class="lyrics-test-test">Were your plans to overthrow?<br>
+I'll let you experience struggle.<br>
+Ignoring suggestive influence,<br>
+your intellect has merely lead you to martyrdom.<br>
+<br>
+Which shall serve as a deterrent<br>
+for those who chose to follow.<br>
+<br>
+Corrupting public thought, influencing paranoia,<br>
+breeding a new infectious plight based off mental terrorism.<br>
+For such defection, find punishment in execution.<br>
+(Your execution)<br>
+For such defection, find punishment in execution.<br>
+Now face the repercussions of these acts.<br>
+<br>
+Tortured, nearly beaten to death, your tongue<br>
+is severed from your mouth,<br>
+a reminder that there's no freedom of speech anymore.<br>
+As your soul bleeds out, your body shall be left to rot,<br>
+and the rodents to feed upon your corpse.<br>
+<br>
+Silence is simply that easy.<br>
+<br>
+You have failed to deconstruct a flawless design,<br>
+Bow to a real oppressor.<br>
+Your voice and mind are the true contagion,<br>
+So you must be exterminated.</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/invis.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Incisions - 2013</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Eternal Wasteland-</h1>
+        <p class="lyrics-test-test">I'll raise a toast at the end of this world,<br>
+When God doesn't love you anymore.<br>
+An aborted birth at the hands of the father.<br>
+A fist full of insignificance<br>
+Intended to be spit out,<br>
+Or flushed down.<br>
+I'll savor the end,<br>
+Savor the end of you all.<br><br>
+Humored at the thought of lives lost,<br>
+Renouncing existence you're surely better off.<br>
+Since conception humans quickly earned the crown<br>
+As bastards sons, the unwanted crown.<br>
+At the end I will stand alone upon hallowed ground.<br>
+Bodies beneath my feet,<br>
+Watching earth transform,<br><br>
+Into eternal wasteland.<br>
+A massive unmarked grave of decomposing corpses,<br>
+The aroma of death,<br>
+Spread across the globe.<br><br>
+Blackened skies blind the few whom survive,<br>
+Covering the flaming landscape!<br>
+Depletion of human existence,<br>
+We now share one common goal;<br><br>
+I want you dead,<br>
+Dead in this wasteland,<br>
+Dead.<br>
+I await the final breath of man.<br>
+I want you dying where you stand.<br>
+The soil becomes your eternal home<br>
+Once the world transforms to a wasteland.<br>
+To a wasteland!</p>
+
+        <h1 id="s2" class="lyrics-test">-Slow Murder-</h1>
+        <p class="lyrics-test-test">I've got nothing<br>
+But this collection of knives<br>
+And decisions to make<br>
+I'll take my time mapping out every incision made<br>
+<br>
+I have nothing<br>
+So I'll take my time<br>
+<br>
+Breaking bones<br>
+Savoring your screams for mercy<br>
+Bathing in warm tubs of crimson<br>
+Welcome to the start of our intimate torture session<br>
+<br>
+Why am I the only one who sees through the lifetime of lies?<br>
+Now each cut will signify the way<br>
+You forced me to suffer every day<br>
+<br>
+As I hold your life in my hands<br>
+As I hold your life in my hands<br>
+As I hold your life in my hands<br>
+Understand<br>
+Now understand<br>
+I'm capable of murder<br>
+I'm capable of murder<br>
+I'm capable of murder<br>
+<br>
+I've got nothing but time<br>
+And this collection of knives<br>
+To ensure you endure endless amounts of torture<br>
+Slow murder<br>
+To rectify the past<br>
+I lust for your blood on my hands<br>
+<br>
+Now kneel before me<br>
+Embrace the blade as it penetrates deep<br>
+<br>
+Skin splitting insegments<br>
+My mouth watering as it rips<br>
+The gurgling heard as you're choking on<br>
+blood is almost satisfaction enough<br>
+<br>
+I'm further aroused at the sight of your naked mangled corpse<br>
+Spread wide open as if your innards to be fucked<br>
+<br>
+As I hold your life in my hands<br>
+As I hold your life in my hands<br>
+As I hold your life in my hands<br>
+Understand<br><br>
+Now understand<br>
+I'm capable of murder<br>
+I'm capable of murder<br>
+I'm capable of murder<br>
+<br>
+I've got nothing<br>
+So I'll take my time<br>
+Ah, nothing<br>
+<br>
+I'll take my time with each incision<br>
+So you can feel the pain<br>
+<br>
+I'll take my time with each incision<br>
+I'll take my time with each incision<br>
+Feel my pain</p>
+
+        <h1 id="s3" class="lyrics-test">-Slave Of Corporotocracy-</h1>
+        <p class="lyrics-test-test">You're a slave!<br>
+Gaze in the mirror, take a look at yourself.<br>
+Eyes glazed over, a lesser man.<br>
+More like a walking corpse.<br><br>
+Mindless and dilapidated,<br>
+Executing a mentally embedded repetition of motions.<br>
+Every waking day another moment enslaved.<br>
+Conditioned to be numb and complacent.<br><br>
+Vital signs are deceiving,<br>
+Every breath you take<br>
+Is not yours to keep.<br><br>
+The light shining at the end of the tunnel,<br>
+Advertently deceiving.<br>
+Since birth we were cursed<br>
+With the mark of the beast,<br>
+A symbolic surrender of life<br>
+And its meaning.<br><br>
+Since birth we were cursed<br>
+With the mark of the beast.<br>
+Vital signs are deceiving.<br>
+Every breath you take<br>
+Is not yours to keep,<br>
+The American Dream is a fallacy!<br>
+You're already dead<br>
+In compliance with normalcy.<br><br>
+Our captors wage war<br>
+With worthless paper<br>
+To devalue our lives;<br>
+Relinquishing mind,<br>
+Body and soul.<br>
+Servants to the machine!<br>
+A slave of corporatocracy!<br><br>
+Once you exit this world,<br>
+You won't be remembered,<br>
+Unless humanity transcends<br>
+This monetary monarchy.<br>
+Slave!<br>
+Open your eyes,<br><br>
+Get off your knees.<br>
+Slave of corporatocracy.<br><br>
+Slave!<br>
+Open your eyes,<br>
+Get off your knees.<br>
+Slave!</p>
+
+        <h1 id="s4" class="lyrics-test">-Internal War-</h1>
+        <p class="lyrics-test-test">I never contemplated from adolescence to a man<br>
+Why I'm so quiet, with little friends,<br>
+Could the reason be I'm whispering to spirits?<br>
+Apparitions inside my head.<br>
+I tried fighting off the demons<br>
+Until the showed me what I needed,<br>
+Conjuring emotions and violent solutions.<br><br>
+I let them burrow deeper and possess a part of me.<br>
+Now I am one with the damned!<br>
+They're fucking tempting me!<br>
+The tension keeps rising!<br><br>
+Tell me it's alright to make wreckless decisions,<br>
+Assert my vengeance!<br>
+I want to force them to feel what it's like to be<br>
+Still covered in the scars of past oppressors.<br>
+Fortunately, I healed faster indulging in grief.<br>
+Still, I'll never forgive what was done to me!<br>
+My escape is empty highways.<br>
+A simple pen serves well as my weapon,<br>
+After being held captive,<br>
+slightly considering death,<br>
+Once one thing I loved was robbed from me.<br><br>
+Slicing a knife through the wrist<br>
+Was the first and final attempt.<br>
+Leaving behind the mental abuse and emotional stress,<br>
+I'm harmed, buf finally free.<br>
+When I think about it I don't need help.<br><br>
+I just inflicted scars to watch myself bleed.<br>
+Maybe to realize how damaged I am internally.<br>
+No longer suppressing memories,<br>
+The past had to be released!<br>
+I'm not miserable now.<br>
+Still you couldn't handle what transpires within my dreams.<br>
+Incessant rambling, Horrific crime scenes.<br>
+If there was a god, he's punishing me.<br>
+For years of defiance and blasphemy.<br>
+Where was my calm before or after the storm?<br>
+Even when I reach R.E.M. my mind is still at war.</p>
+
+        <h1 id="s5" class="lyrics-test">-Self Exploited Whore-</h1>
+        <p class="lyrics-test-test">Your purpose is to intake every load.<br>
+Tarnish your name, admit you're filthy.<br>
+A disgrace upon your own self,<br>
+A simple but useful whore.<br>
+For in the world everyone plays a role.<br><br>
+Dripping in anticipation to ingest ejaculates.<br>
+All willing penetrate your tender orifice<br>
+Leaving you numb and gaping,<br>
+Awaiting the next to fornicate flesh.<br><br>
+Filling every hole,<br>
+You fit this role so well.<br>
+Unshamed, you've finally earned your worth.<br>
+Why do you yearn for respect?<br>
+Dripping in anticipation to ingest ejaculates.<br>
+You ignore all morals to be seen and fucked at will.<br><br>
+You're filthy!<br>
+You're merely a wounded lamb amongst starven wolves.<br>
+Forever cursed with the burden of escaping their hold.<br>
+Simple, useful whore,<br>
+You fit this role so well.<br>
+Exploit yourself and sell your soul to me.</p>
+
+        <h1 id="s6" class="lyrics-test">-New Age Apophis-</h1>
+        <p class="lyrics-test-test">You have no choice but to fear me.<br>
+A demi-god amongst young mortal souls.<br>
+Betrayed, slain, recycled<br>
+Through the depths of hell,<br>
+Resurrected from traitors blood,<br>
+I am born of sin.<br><br>
+Origins pre-dating old testaments.<br>
+Bringing forth onslaught and darkness,<br>
+Bear witness as I drain this world!<br>
+Witness rebirth of animalistic urge.<br>
+Driven by disgust<br>
+And this lust for degradation,<br>
+I remain in unrest<br><br>
+Till Deconstruction is attained.<br>
+Oppose and endure my wrath!<br>
+All whom oppose shall be disgorged, hung, and bled Out<br><br>
+Upon your own trusted cross,<br>
+Carcass abandoned to rot<br>
+Beneath the sun and before your God.<br>
+I'm not benevolent.<br>
+I'm not the beast within your revelation.<br>
+I am the first wave of your devastation!<br>
+I shall feast upon the brave!<br>
+Like insects, crawl and beg.<br>
+Beg for release.<br><br>
+Accept the inherent evil.<br>
+I'm slaughtering every saint sent to destroy me,<br>
+For all eyes to see you can resist no more.<br>
+Simply bow at my feet,<br>
+I am the new age apophis!<br>
+I am the new age apophis!</p>
+
+        <h1 id="s7" class="lyrics-test">-Embrace Nothingness-</h1>
+        <p class="lyrics-test-test">Ridges inbed in skin,<br>
+Would you miss me if I were dead?<br>
+Hurt mutually if I bled?<br>
+Reminisce of times shared,<br>
+Would my memorial be remissable upon decay?<br>
+I'm forgettable anyway...<br>
+<br>
+I'm not a prophet nor a poet,<br>
+Struggled but lived life to its fullest,<br>
+In hopes that someday someone might notice,<br>
+I'm not afraid to live and don't fear death!<br>
+<br>
+I'm not scared of being alone.<br>
+Long since grown numb to the world.<br>
+My only fear's not being remembered.<br>
+Or mourned for beyond the grave.<br>
+Because I'm already fading away.<br>
+Falling further into nothingness's embrace.<br>
+<br>
+There is nothing beyond the grave,<br>
+The afterlife's not what they say,<br>
+Stone walls of black and grey.<br>
+<br>
+Embrace nothingness.<br>
+<br>
+Embrace.</p>
+
+        <h1 id="s8" class="lyrics-test">-Incisions-</h1>
+        <p class="lyrics-test-test">Plagued with morbid visions<br>
+of pain to inflict upon you,<br>
+I'm resurrected to hate.<br>
+Holding true to the nature of a killer,<br>
+Tasting weakness, exposing blood,<br>
+digging deeper into your neck.<br><br>
+Exposing blood and digging deeper!<br>
+Manifested in me,<br>
+Forcing veins to cold,<br>
+Embracing malicious thoughts,<br>
+Contemplated murdering her,<br>
+Your hate's manifested in me!<br>
+Empoweing the advantage of lacking sympathy,<br>
+Shown through further exposing my wounds.<br><br>
+Let's start carving incisions where it counts.<br>
+First, you must be strangled, trampled upon,<br>
+Fuck compassion I'm coming straight for your throat!<br>
+Filled with morbid visions of pain to inflict upon you,<br>
+I'm resurrected to hate!<br>
+Spewing wasted words,<br>
+Will they remain so plentiful once life flows away?<br><br>
+I've lost sense of humanity<br>
+Now there can only be violence, violence, violence!<br>
+<br>
+Manifested in me.<br>
+Your hate's manifested in me.</p>
+
+        <h1 id="s9" class="lyrics-test">-Blasphemous Mask-</h1>
+        <p class="lyrics-test-test">Bearing 666, you entice the serpent.<br>
+So where lies your devotion?<br>
+What's your purpose?<br>
+You have no business bearing 666.<br><br>
+Witness unprivileged mortals<br>
+Incapable of true Evils.<br>
+Demons know your face<br>
+And know your faith is trivial.<br>
+Endure tribulation!<br><br>
+Impure within your blasphemy,<br>
+Residing behind a mask of novelty.<br>
+The demons sense weakness behind your eyes.<br>
+Do you possess blackness in your hearts?<br>
+Denouncers of God and the heavens,<br>
+Bearing inverted crosses and the number of satan.<br>
+How deep do your symbolic convictions run?<br><br>
+Are you willing to sacrifice to revel in sin?<br>
+To sustain this image, blood must stain your skin.<br>
+Through dark ritual you must kill.<br>
+Prove your worth in embrace of the Anti-Christ,<br>
+One with his minions, they beckon you to kill!<br><br>
+Bearing 666, you must kill!<br>
+Surely none shall stand in acceptance,<br>
+Just as soon none shall bow.<br>
+Bearing 666, Imposers!<br>
+You are revoked of your blasphemous mask!</p>
+
+        <h1 id="s10" class="lyrics-test">-Severed Appendages-</h1>
+        <p class="lyrics-test-test">You don't know where you are,<br>
+Taken to some place sacred,<br>
+Bound by the neck, near strangulation,<br>
+A dark undisclosed location.<br>
+Before you lie instruments of destruction,<br><br>
+A repertoire of punishment.<br>
+Smothered in entrails of past infliction<br>
+Each tool accustomed to mutilating flesh.<br>
+Deep breaths with lungs punctured<br>
+Leave you in a panic for air.<br>
+Jaw dislocated, it's painful to speak.<br><br>
+Your body frail and weakening.<br>
+Barely standing,<br>
+A result of repeated battery at my hands!<br>
+I am the artist of this morbid masterpiece.<br>
+These tools of beautry and you as my canvas,<br>
+You are my canvas!<br>
+The masochistic acts soon executed, however cruel,<br>
+Are intricate, the blood splatter that of artistry.<br><br>
+Prepair yourself.<br>
+Embrace only agony.<br>
+Take one look at me<br>
+Anticipate your suffering!<br>
+Keep your eyes on me.<br>
+First the frame is deconstructed,<br>
+Blunt force snaps through bone,<br>
+Each limb dislocated<br>
+And left dangling limp,<br>
+You've collapsed upon your own leges.<br><br>
+The suffering has not reached its peak,<br>
+It only intensifies as<br>
+I commence severing appendages.<br>
+The suffering has not reached its peak!<br><br>
+Removing every limb,<br>
+Slowly succumb to death.<br>
+My face sprayed in crimson mist<br>
+From exposed arteries.<br>
+Before you fade away<br>
+Witness the walls change from white to red.<br>
+The final liters of life<br>
+Pulse through your veins.<br>
+You've been abandoned,<br>
+Left to bleed out.<br>
+Now die alone!</p>
+
+        <h1 id="s11" class="lyrics-test">-Disseverance-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s12" class="lyrics-test">-The Reclaimation-</h1>
+        <p class="lyrics-test-test">We are the uprising,<br>
+Revivers of a dying scene.<br>
+We are the uprising of a dying scene.<br><br>
+The architects to rebuild<br>
+What once was standing,<br>
+We must purge the filth of our generation.<br>
+Infiltrate, reclaim and rebuild!<br>
+Reigning holocaust upon antagonists<br>
+And the elite immersed<br>
+In dissatisfaction and negativity.<br><br>
+Failing to surrender you won't succeed.<br>
+Your weaponized words are not so threatening.<br>
+Attacking from safe distance,<br>
+Only cowards throw shit and run.<br>
+We retaliate stronger!<br>
+We retaliate stronger,<br>
+Face to face stabbing straight to the front!<br><br>
+Predictable the routine has become,<br>
+Why are you trying to act tough?<br>
+Reveal your face from the flickering screen,<br>
+You're the next target.<br>
+No more arguments,<br>
+Let's cut straight to the chase,<br>
+We're calling you out to slit your throat!<br><br>
+A beheading of hypocrisy,<br>
+Choke on every final word you speak.<br>
+We are eternal<br>
+And your're the last of a dying breed.<br>
+We are eternal.</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/ascend.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Ascendants - 2015</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-Nephilim-</h1>
+          <p class="lyrics-test-test">Nephilim.<br>
+Descendant of the stars,<br>
+a spawn of hybrid conception.<br>
+I am alive!
+</p>
+
+          <h1 id="t2" class="lyrics-test">-Transient Gateways-</h1>
+          <p class="lyrics-test-test">Behold luminescent spirals overhead,<br>
+the hidden element of travel unveiled.<br>
+A mythos of science few can comprehend nor possess.<br>
+Connectivity of every outer realm.<br>
+The axis where timelines intersect.<br>
+A transient gateway manipulating time and space.<br>
+<br>
+To harness its powers, one must ascend.<br>
+Transported through the cosmos,<br><br>
+projected to the furthest distance,<br>
+crossing dimensions, who would you save?<br>
+Transported through the cosmos.<br>
+Crossing dimensions, who would you save?<br>
+Would you even care to help?<br>
+Or throw such a gift away,<br>
+to withhold for selfish embellishments?<br><br>
+Who would you save?<br>
+Would you remain light years away<br>
+f you could warn an alien<br>
+race of a shortened existence?<br>
+Burdened or does benevolence beckon?<br>
+Watch them die or open the portals.<br>
+Open the portals!</p>
+
+          <h1 id="t3" class="lyrics-test">-The World Engine-</h1>
+          <p class="lyrics-test-test">Our mother earth is in peril.<br>
+Our mother earth, they’ve come to rape her 'til it bleeds.<br>
+Our dead planet's resources are useless.<br>
+Descending with malicious purpose,<br>
+beating all species into submission<br>
+to drive this planet to its knees. To wipe the<br>
+slate clean, demolish and redevelop the<br>
+biosphere in the image of their own.<br>
+Cower! Cower before their death machine!<br><br>
+An imposing display of power,<br>
+destructive forms of technology,<br>
+plowing a path of debris and lifelessness.<br>
+Tremors resonate through the earth. Every<br>
+person, every home, trampled in its wrath.<br>
+Terraformed and changed forever!<br>
+The world is terrified!<br>
+This is no longer your home,<br>
+but a host to forces unimaginable.</p>
+
+          <h1 id="t4" class="lyrics-test">--Dead Planet</h1>
+          <p class="lyrics-test-test">Malevolent are the architects<br>
+who have changed their<br>
+ways. Glaring down on us, overwhelmed with disgust.<br>
+hey now<br>
+anticipate the end.<br>
+Human DNA deemed a tainted creation. We were<br>
+forewarned, signs were ignored.<br><br>
+Now we must submit to extermination.<br>
+A predestined termination,<br>
+a chance to redesign their failing offspring.<br>
+You were forewarned,<br>
+and now you msut meet your end.<br>
+Aborted, so then<br>
+we can begin again.<br><br>
+hanneling power, drained from within the Earth to<br>
+construct superior specimen.<br><br>
+But before the end, you're forced to<br>
+watch this world burn<br>
+and transform into a dead planet.<br>
+Watch this<br>
+world burn and transform into a dead planet.<br><br>
+This is a dead planet, a<br>
+wasteland,<br>
+it's fucking worthless.</p>
+
+          <h1 id="t5" class="lyrics-test">-The Taken-</h1>
+          <p class="lyrics-test-test">Awakened, blinded by lights,<br>
+an untraceable vessel illuminates the night.<br>
+Mesmerized as it levitates.<br>
+An unworldly presence invades<br>
+the mindscape to communicate.<br><br>
+Entranced, your body slips into psychic restraints.<br>
+Now you elevate to relive relapsed<br>
+recollections of an abductee.<br>
+Dissecting flesh,<br>
+no scars of entry left.<br><br>
+Relive relapsed recollections of an abductee.<br>
+Dissecting flesh, no scars of entry left.<br>
+From your insides, you are tracked,<br>
+there's nowhere to hide!<br>
+A foreign device resides embedded.<br><br>
+Or is it all in<br>
+your head? This is your life,<br>
+a slave to experiments.<br>
+This is your life and now your captors beckon,<br>
+tracing locations.<br>
+It is time to elevate again!<br><br>
+You are one of the taken!<br>
+A mutilated possession.<br>
+Internally violated, mentally numbed.<br>
+This encounter won't return you.<br>
+The true Gods have new purpose for you.</p>
+
+          <h1 id="t6" class="lyrics-test">-Dawn Of Descent-</h1>
+          <p class="lyrics-test-test">This is not the second coming of lore,<br>
+don’t pray revoke,<br>
+dismiss your dissipating God and cherish<br>
+one last night until humanity’s lost.<br>
+War! The streets are dying for war.<br>
+Cherish one last night until humanity’s<br>
+lost forever.<br><br>
+Violence, an insatiable<br>
+threat in the wake of imposing events.<br>
+Shattered faith manifests,<br>
+the truth has led to social unrest.<br>
+We are the cause of their presence,<br>
+now bear witness.<br>
+Every mind is inundated,<br>
+every eye captive as monolithic transports draw closer,<br><br>
+transmitting telepathic<br>
+information. Human origin and creation<br>
+are finally exposed.<br>
+Dispelling organized religion as a fraud,<br>
+society loses direction once it’s lost its hold.<br><br>
+Witness the blood of riots flood the streets,<br>
+triggered by desperation disbelief.<br>
+The pile of bodies increase, the<br>
+backfire of a collapsed monarchy.<br>
+All that they've taught you is a lie.<br><br>
+A lie.<br>
+Cherish one last night until humanity’s lost.<br>
+War, the streets are dying for war.<br>
+Cherish one last night until humanity’s lost,<br>
+the streets are dying for war!<br>
+Panic, disbelief, and<br>
+desperation,<br>
+the streets are filled<br>
+with war and stained red with death.
+</p>
+
+          <h1 id="t7" class="lyrics-test">-The Dulce Incident-</h1>
+          <p class="lyrics-test-test">The penetration of barren<br>
+land through rock and soil.<br>
+An objective must be fulfilled.<br>
+Construction under the surface with<br>
+an undisclosed purpose. Digging down,<br>
+igging down as signs of pressure build.<br><br>
+The threshold weakens and begins to fail.<br>
+A nauseating stench omits from the bowels<br>
+of the earth as gaseous fumes erupt!<br>
+Beneath the structure implodes,<br>
+an ancient underworld exposed,<br>
+but something dwells at these depths.<br><br>
+Sensing a presence inside the dismal confines,<br>
+beyond the darkness and dust.<br>
+Elusive figures<br>
+arise revealing the face of humanoid life forms<br>.
+A kind colonized and hidden below.<br>
+A massive horde, they approach.<br><br>
+Shots fire in panic! A massacre ensues.<br>
+Unfazed by gunfire a sacred power is exhumed,<br>
+every target subjected to<br>
+amputations and gaping burn wounds.<br>
+Casualties outweigh the rescued,<br>
+a conflict buried with time<br>
+and each body in its tomb.</p>
+
+          <h1 id="t8" class="lyrics-test">-Arc Of Creation-</h1>
+          <p class="lyrics-test-test">Taken and lead,<br>
+entering strange corridors.<br>
+Housing a mixture of unfamiliar<br>
+lifeforms and native creatures of Earth.<br><br>
+Segregated and on display, sedated for transport.<br>
+A course is left unknown,<br>
+the hope of return at its furthest distance.<br>
+Impulsed to<br>
+explore the spacious constraints.<br>
+Oblivious to their constant surveillance,<br>
+accessing rooms of voluminous proportions.<br>
+Within these walls hold a brilliant display.<br><br>
+The regeneration of extinct life.<br>
+Re-creation!<br>
+Worldly limits sustained,<br>
+holding every known species<br>
+captive. You are enslaved!<br><br>
+Within astonishing scale of confinement,<br>
+your final purpose is revealed.<br>
+Preserved and displayed,<br>
+imprisoned light years away on their home planet!
+</p>
+
+          <h1 id="t9" class="lyrics-test">-External Existence-</h1>
+          <p class="lyrics-test-test">The external remains in stasis.<br>
+Sedative, a constant cycle.<br>
+Delving deeper through landscapes,<br>
+once thought to be reveries.<br>
+A body at rest, as lines intersect.<br>
+Traversing exterior realities,<br>
+beyond sight and out of reach.<br><br>
+Re-occurring states of<br>
+subconscious being forcibly released.<br>
+Subconscious abilities are now unleashed!<br>
+Brainwaves shift,<br>
+elevate to a higher dimension.<br>
+Reality transcends illusion.<br><br>
+As this body decays,<br>
+I am sustained,<br>
+immortal within the flesh.<br>
+An entity without an ending,<br>
+only exit from this<br>
+celestial plane.<br>
+As this body decays,<br>
+I'm sustained as an entity without an ending,<br>
+only exit from this plane!<br>
+Just know there is something beyond the grave,<br>
+in R.E.M I'm more alive than awake.<br><br>
+A heightened sense of existence,<br>
+submerge in the infinite!<br><br>
+Brainwaves shift,<br>
+elevate to a higher dimension.<br>
+Reality transcends illusion.<br>
+Submerge inside the infinite,<br>
+death is not the end!</p>
+
+        </div>
+      </div>
+
+      <div class="lyrics-layout">
+        <div class="lyrics-layout_image">
+          <img id="fourth" class="lyrics-page_image" src="./images/revel.jpg" height= "100%" width="auto"/>
+        </div>
+        <div class="lyrics-page_album-title_wrap">
+          <h1 class="lyrics-page_album-title">Revelation - 2017</h1>
+        </div>
+          <div class="lyrics-page_album-songs">
+            <h1 id="ff1" class="lyrics-test">-Dark Prophecy-</h1>
+            <p class="lyrics-test-test">Adhere to a new prophecy<br>
+Fear this dying earth<br>
+The bleeding out of humanity<br>
+Too long have you let your faith damn you to burn<br>
+While the world crumbles deep under<br>
+And your faces still drown in the scriptures<br>
+How long till you look past the sky?<br><br>
+How long till you deny?<br>
+How long till you live more than sacrifice?<br>
+It can't begin until the sleeper awakens<br>
+Denounce the falsehoods of salvation<br>
+An unforgivable sin, no matter how you repent<br>
+It's your fault your home planet is fucked<br>
+It's your fault earth is fucked<br><br>
+It's your fault<br>
+And as they look down<br>
+Our ascendants in disgrace<br>
+Something becomes clearer now<br>
+Earth is diseased and humans are the plague</p>
+
+            <h1 id="ff2" class="lyrics-test">-Lucid Reality-</h1>
+            <p class="lyrics-test-test">ucid dream states remotely view<br>
+A new landscape upon the horizon<br>
+Upon the horizon<br>
+As the vessel rests<br>
+Let your spirit escape towards the stars<br>
+As the vessel rests<br>
+Let your spirit escape<br>
+Project past the stars<br>
+Departing from the body to hold no true form<br>
+The conscious mind is one converged with the soul<br>
+Departing from the body to hold no true form<br><br>
+The conscious mind is one converged with the soul<br>
+To exit this world<br>
+Escape this world<br>
+Telepathy guides you<br>
+As you slip through the dream realm<br>
+You will be taken<br>
+To a new home and astral plane<br>
+You will be taken<br>
+To a new home and astral plane<br>
+You will be taken<br>
+By the ascendants<br>
+The ancients guide a path to your salvation<br>
+The ancients guide a path towards your ascension<br>
+Separate and ascend<br>
+Before this all meets an end<br>
+Separate and ascend
+</p>
+
+            <h1 id="ff3" class="lyrics-test">-Path to Extinction-</h1>
+            <p class="lyrics-test-test">A council of ascendants has been beckoned<br>
+To overwatch this planet in distress<br>
+Conflicted between the choice to turn their backs<br>
+On you all, or intervene<br>
+But at what cost?<br>
+At what cost is affirmation of their convictions?<br>
+You must struggle to learn<br><br>
+You must struggle to learn<br>
+How to emphasize for all species<br>
+How to access conscious connectivity<br>
+Where the fuck is your compassion?<br>
+You must struggle to learn<br>
+You must struggle to learn<br><br>
+Preservation holds the key<br>
+Evolve into a greater human being<br>
+Time is wearing thin<br>
+Denial or enlightenment<br>
+This is the dawning of their descent<br>
+Awaken<br>
+Oh' world!<br>
+No problem can go ignored<br><br>
+Accept your role<br>
+Emphasize for all species<br>
+Accept conscious connectivity<br>
+Find your compassion<br>
+Or prepare to burn<br>
+Are you prepared to burn?<br><br>
+You lack all compassion<br>
+You have no concern<br>
+With your own planet<br>
+Are you prepared to burn?<br><br>
+Are you prepared to burn<br>
+On your path to extinction?<br>
+Are you prepared to burn?</p>
+
+            <h1 id="ff4" class="lyrics-test">-The Great Tribulation-</h1>
+            <p class="lyrics-test-test">Accelerated and elevated.<br>
+Spared from imminent destruction.<br>
+Crossing through the umbra of a deceased planet.<br>
+Passing of many suns, towards the<br>
+nearest location where the portals open.<br>
+A celestial bridge of transport grants preservation.<br><br>
+A new era encroaches.<br>
+Still there's much to accomplish.<br>
+Dropped in a strange unknown.<br>
+Nothing but hope is promised.<br>
+The challenge,<br>
+To unlearn what they once knew,<br>
+To not repeat the past with the same outcome.<br>
+Soon the tribulations of few<br><br>
+shall return to haunt the many.<br>
+Inherent lust for chaos and depravity<br>
+Returning is the lust for chaos and depravity.<br><br>
+The tribulations of few return to haunt the many.<br>
+Those chosen by the ascendants,<br>
+They have lost their way.<br>
+Relapsing back to deconstruction.<br>
+Rebuilding constraints which kept<br>
+their minds in suppression.<br>
+Segregation between the species turns aggressive.<br>
+Man develops currency.<br>
+Implementing law enforcement,<br>
+outbreaks of violence escalate.<br><br>
+Those chosen by the ascendants<br>
+they have lost their way.<br>
+<br>
+What will become of their colony?<br>
+<br>
+Humanity has lost its way.</p>
+
+            <h1 id="ff5" class="lyrics-test">-Illusions Unravel-</h1>
+            <p class="lyrics-test-test">Locked in a stasis of distraction<br>
+Taking advantage<br>
+Of your brain dead habits!<br>
+Your masters want to keep you in the dark<br>
+In fear of facing questions<br>
+Oblivious to overhead<br>
+Still you're kept blinded<br>
+Expand your sights, gaze above<br><br>
+Watch the illusions unravel<br>
+Contours of strange craft are exposed<br>
+What is their purpose?<br>
+Expand your sights, gaze above<br>
+Watch the illusions unravel<br>
+Cloaked within the cloud formations<br>
+To remain evasive unnoticed<br><br>
+The planet has long been occupied by a distant presence<br>
+Still you're kept blinded<br>
+Your masters keep you in the dark<br>
+Reflective technology manipulates light<br>
+Invisible and out of sight<br>
+For continued observation of their flawed creation<br>
+True gods invested in your progress<br>
+Your masters keep you in the dark</p>
+
+            <h1 id="ff6" class="lyrics-test">-Majestic 12-</h1>
+            <p class="lyrics-test-test">No disclosure in sight<br>
+Mankind's bound tight under an endless oppression<br>
+Sanctions to weaponize a deep web of misinformation<br>
+Misguided remain the masses<br>
+Deeper research brings forth misdirection<br>
+Your knowledge restricted<br>
+They hold the truth<br><br>
+And hide it right in front of you<br>
+False documents and hoaxes continue<br>
+Misguided the masses remain<br>
+Their esoteric agenda goes unnoticed<br>
+The black curtain must be lifted<br><br>
+Come together and demand disclosure<br>
+The black curtain must be lifted<br>
+</p>
+
+            <h1 id="ff7" class="lyrics-test">-Final Form-</h1>
+            <p class="lyrics-test-test">[Instrumental]</p>
+
+            <h1 id="ff8" class="lyrics-test">-The Event-</h1>
+            <p class="lyrics-test-test">Explosions and screams resonate<br>
+in the distance<br>
+Notice the thousands lifeless at your feet<br>
+Overwhelmed with fear<br>
+Struggling for breath<br><br>
+And a recollection of why you're still here<br>
+Everyone has left<br>
+Everyone has left you here<br>
+You were condemned to die here<br>
+Endure the event<br>
+Condemned, discarded, left to decay<br>
+Intake your final breaths<br>
+And recollect of why you were abandoned here<br><br>
+Above a sky so bleak the sun intensely burns<br>
+Scorching through the lands<br>
+Until no sign of life is visible<br>
+The environment has transformed into an abysm<br>
+The terrain begins to quake as billows of smog erupt<br>
+It all unfolds<br>
+Earth is engulfed and exists no longer<br>
+All life disposed
+</p>
+
+            <h1 id="ff9" class="lyrics-test">-Human Harvest-</h1>
+            <p class="lyrics-test-test">Eclipsed world<br>
+We all observe<br>
+Drained of life to its core<br>
+It sustains no longer<br><br>
+The ancient ones have returned to implicate a culling<br>
+A search for those to resurrect<br>
+As they succumb to slumber<br>
+They approach silent and untraced<br>
+A metaphysical transference through the brainwaves<br>
+The human harvest has commenced<br><br>
+Only an eligible few will be guided to evade the event<br>
+The human harvest has commenced<br>
+What has been learned?<br>
+What has been sacrificed since implications of the end?<br>
+Those who've done nothing<br>
+Cleansed from existence<br><br>
+Vanquished -imprisoned<br>
+Left to be swallowed by the void<br>
+Bodies will scatter<br>
+A floating graveyard<br>
+Witness the littered remains as reminder<br>
+Of the planet you ignored<br>
+The planet you ignored<br>
+Through space and time<br>
+Through the dawn of an era<br>
+Through space and time<br>
+From a distant planet<br>
+All observe earth implode</p>
+
+            <h1 id="ff10" class="lyrics-test">-Revelation-</h1>
+            <p class="lyrics-test-test">Projected<br>
+Wondering where I am now<br>
+It's useless<br>
+Slower are the seconds<br>
+Darkness envelops a cold empty view<br>
+An X-point approaches<br>
+Granting access to the deepest of black holes<br>
+Back to where I call home<br>
+Matter breaks from its form<br><br>
+My body is no longer whole<br>
+Finding peace within everything that I endure<br>
+Consciousness found<br>
+Amplified are the senses now<br>
+Fully merged with the beyond<br>
+Consciousness found<br><br>
+Fragmented mental shards<br>
+Transported to alternate dimensions<br>
+All timelines lead back to you<br>
+Infinite timelines lead back to you<br>
+Was my purpose to fall off course and<br>
+Forewarn the earth of these revelations viewed?<br>
+Here I am now
+To forewarn your world of revelations viewed
+</p>
+          </div>
+        </div>
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+        </div>
+
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+        </div>
+
+            <div class="page-finish">
+              <a href="./security.html">Security Statements</a>
+              <a href="./terms.html">Terms of Service</a>
+              <a href="./privacy.html">Privacy Policy</a>
+              <a href="./contact.html">Contact</a>
+            </div>
+
+        </body>
+        </html>

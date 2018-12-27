@@ -1,0 +1,2476 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Cannibal Corpse</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/tourture.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Torture - 2012</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Demented Aggression</a>
+      <a href="#f2">Sarcophagic Frenzy</a>
+      <a href="#f3">Scourge Of Iron</a>
+      <a href="#f4">Encased In Concrete</a>
+      <a href="#f5">As Deep As The Knife Will Go</a>
+      <a href="#f6">Intestinal Crank</a>
+      <a href="#f7">Followed Home Then Killed</a>
+      <a href="#f8">The Strangulation Chair</a>
+      <a href="#f9">Caged… Contorted</a>
+      <a href="#f10">Crucifier Avenged</a>
+      <a href="#f11">Rabid</a>
+      <a href="#f12">Torn Through</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/skeletal.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">A Skeletal Domain - 2014</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">High Velocity Impact Spatter</a>
+      <a href="#s2">Sadistic Embodiment</a>
+      <a href="#s3">Kill Or Become</a>
+      <a href="#s4">A Skeletal Domain</a>
+      <a href="#s5">Headlong Into Carnage</a>
+      <a href="#s6">The Murderer's Pact</a>
+      <a href="#s7">Funeral Cremation</a>
+      <a href="#s8">Icepick Lobotomy</a>
+      <a href="#s9">Vector Of Cruelty</a>
+      <a href="#f10">Bloodstained Cement</a>
+      <a href="#s11">Asphyxiate To Resuscitate</a>
+      <a href="#s12">Hollowed Bodies</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/redbeforeblack.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Red Before Black - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">Only One Will Die</a>
+      <a href="#t2">Red Before Black</a>
+      <a href="#t3">Code Of The Slashers</a>
+      <a href="#t4">Shedding My Human Skin</a>
+      <a href="#t5">Remaimed</a>
+      <a href="#t6">Firestorm Vengeance</a>
+      <a href="#t7">Heads Shoveled Off</a>
+      <a href="#t8">Corpus Delicti</a>
+      <a href="#t9">Scavenger Consuming Death</a>
+      <a href="#t10">In The Midst Of Ruin</a>
+      <a href="#t11">Destroyed Without A Trace</a>
+      <a href="#t12">Hideous Ichor</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/tourture.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Touture - 2012</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Demented Aggression-</h1>
+      <p class="lyrics-test-test">Pain is my reward from psychotic tendencies<br>
+Pain I give to you<br>
+Pain relentlessly<br>
+Torturing has reached a level no one's ever seen<br>
+Suffer for your life<br>
+Rabid force extreme<br>
+Rage is my obsession driven by my cruelty<br>
+Rage is my release<br>
+Rage relentlessly<br>
+Ravaging continues through my scattered lunacy<br>
+Malice for your life<br>
+Rapid force extreme<br>
+<br>
+Demented aggression<br>
+<br>
+Hate is the reason I embrace these fantasies<br>
+Hate engulfs my mind<br>
+Hate relentlessly<br>
+With pain and rage and hatred relentlessly<br>
+<br>
+With pain<br>
+Rage and hate<br>
+Beatings come faster<br>
+Beatings last longer<br>
+With pain<br>
+Rage and hate<br>
+Beatings are forever<br>
+I don't think you'll live [2x]<br>
+<br>
+Don't think you'll live<br>
+Don't think you'll live<br>
+I don't think you'll live<br>
+<br>
+Pain is my reward from psychotic tendencies<br>
+Rage is my release<br>
+Hate relentlessly<br>
+With pain and rage and hatred relentlessly<br>
+<br>
+With pain<br>
+Rage and hate<br>
+Torture coming faster<br>
+Torture lasting longer<br>
+With pain<br>
+Rage and hate<br>
+Torture is forever<br>
+I don't think you'll live [2x]<br>
+<br>
+Don't think you'll live<br>
+Don't think you'll live<br>
+I don't think you'll live<br>
+<br>
+Left as a pummeled mound of waste<br>
+Rot and decay under the sun<br>
+<br>
+With pain<br>
+Rage and hate<br>
+Suffering is faster<br>
+Suffering is longer<br>
+With pain<br>
+Rage and hate<br>
+Suffering is forever<br>
+[2x]<br>
+I don't think you'll live </p>
+
+      <h1 id="f2" class="lyrics-test">-Sarcophagic Frenzy-</h1>
+      <p class="lyrics-test-test">Here they come<br>
+No chance of stopping them now<br>
+Trudging forward<br>
+On a quest - for human flesh<br>
+Panic is a catalyst<br>
+They crave limbs - to rip and twist<br>
+Now soon to be within - their grasp<br>
+<br>
+Run - the chase begins<br>
+Terror - they're closing in<br>
+Must attempt to refrain from defeat<br>
+Done - fallen to the ground<br>
+Clawing - disturbing sounds<br>
+Can't escape the gnashing of their teeth<br>
+<br>
+Tearing off the outer skin to invade the inside<br>
+Sanguinary mastication now the pain is increased<br>
+Slashing of the arteries, completely defiled<br>
+Bleeding out and soon to rot - carrion feast<br>
+<br>
+They cannot stop the craving for more blood!!!<br>
+<br>
+Attacking with no sign of remorse<br>
+Nothing can stop this showing of force<br>
+A virulent onslaught - rotten, decayed<br>
+As they continue to feed on the corpse<br>
+<br>
+Attacking with no sign of remorse<br>
+Nothing can stop this showing of force<br>
+A virulent onslaught - rotten, decayed<br>
+As they continue to feed on the corpse<br>
+<br>
+Onward - to feed<br>
+Never will the cycle end<br>
+Only bones are left behind<br>
+Cannot stop this craving for more blood!!!
+</p>
+
+      <h1 id="f3" class="lyrics-test">-Scourge Of Iron-</h1>
+      <p class="lyrics-test-test">In thrall to the evil lord<br>
+A procession of the damned<br>
+Sweating blood to serve the beast<br>
+Desolation of their souls<br>
+<br>
+They slave in fire<br>
+Whips of Hades at their backs<br>
+The Scourge of Iron<br>
+Hell's eternal pact<br>
+<br>
+Lash them<br>
+Rip their skin<br>
+Scourge of Iron<br>
+Rending flesh<br>
+<br>
+On earth they lived by force<br>
+Now the villains march in chains<br>
+Men of violence doomed in death<br>
+Their reward for a life of sin<br>
+<br>
+They slave for eons<br>
+There will be no relief<br>
+Mere pawns of evil<br>
+Used and then enslaved<br>
+<br>
+Lash them<br>
+Rip their skin<br>
+Scourge of Iron<br>
+Rending flesh<br>
+<br>
+Lash<br>
+Rip their skin<br>
+Scourge of Iron<br>
+Rending flesh<br>
+<br>
+Demonic sadists<br>
+Flay the damned with steel<br>
+The whip strips flesh<br>
+<br>
+Torments beyond the material world<br>
+skinless, bleeding<br>
+Robbed of pride and power<br>
+<br>
+In the grip of the infernal<br>
+And the evil will not die<br>
+Iron whip will be relentless<br>
+And the pain will never end<br>
+<br>
+Lash them<br>
+Rip their skin<br>
+Scourge of Iron<br>
+Rending flesh<br>
+<br>
+Lash<br>
+Rip their skin<br>
+Scourge of Iron<br>
+Rending flesh
+</p>
+
+      <h1 id="f4" class="lyrics-test">-Encased In Concrete-</h1>
+      <p class="lyrics-test-test">Bound blindfolded<br>
+Thickened liquid soaks my feet it's rising upward<br>
+Shrieks of panic<br>
+Hardened liquid traps my feet insanity is closer<br>
+<br>
+I don't want to die<br>
+No one hears my cries<br>
+Liquid to my knees<br>
+Encased in concrete<br>
+Come to realize<br>
+My life won't last long<br>
+Hardened to my knees<br>
+Encased in concrete<br>
+<br>
+Can't break free immobilized<br>
+Thinning air asphyxiates<br>
+Won't cling on to life much longer<br>
+Almost over<br>
+<br>
+Almost covered<br>
+Thickened liquid to my chest it's rising upward<br>
+Silent panic<br>
+Hardened liquid to my chest insanity is here<br>
+<br>
+Gag<br>
+A tube is forced down my throat to breathe<br>
+Air<br>
+Convulsions from the oxygen intake<br>
+Lungs<br>
+Are barely expanding slow suffocation<br>
+Choke<br>
+Ice cold cement is poured over my head<br>
+<br>
+Massive pressure as it sets<br>
+Never to be seen again<br>
+Won't cling on to life much longer<br>
+Almost over<br>
+<br>
+Wanted to survive<br>
+No one heard my cries<br>
+Liquid transforming<br>
+Encased in concrete<br>
+Come to realize My life won't last long<br>
+Shrouding my body<br>
+Encased in concrete<br>
+<br>
+Encased in concrete
+</p>
+
+      <h1 id="f5" class="lyrics-test">-As Deep As The Knife Will Go-</h1>
+      <p class="lyrics-test-test">The blade goes in you and it enters smooth<br>
+Disturbing moans begin to soothe<br>
+Scraping bone with steel to feel it once<br>
+Keep pushing hard it never stops<br>
+<br>
+Had to do it<br>
+Had to put it in your gut<br>
+Nothing to it<br>
+Grab the handle let it slice<br>
+<br>
+Heart polluted<br>
+As it's cut out of your chest<br>
+Gushing fluids<br>
+Bleeding it dry<br>
+<br>
+As deep as the knife will go<br>
+A life changing transfer of power<br>
+As deep as the knife will go<br>
+<br>
+As deep as the knife will go<br>
+Every inch of it in you savored<br>
+As deep as the knife will go<br>
+<br>
+The blade has always done its job well<br>
+Seems like its work is never done<br>
+Scraping bone with steel to feel it twice<br>
+Keep pushing hard it doesn't stop<br>
+<br>
+Desecrated<br>
+A body rid of living<br>
+Future faded<br>
+Gaping hole from front to back<br>
+<br>
+Heart dissected<br>
+As it sits upon your chest<br>
+Gushing fluids<br>
+Drain you empty<br>
+<br>
+As deep as the knife will go<br>
+A life changing transfer of power<br>
+As deep as the knife will go<br>
+<br>
+As deep as the knife will go<br>
+Every inch of it in you savored<br>
+As deep as the knife will go<br>
+<br>
+Bleed it dry<br>
+Bleed it dry<br>
+Drain you empty<br>
+Drain you empty<br>
+<br>
+As deep as the knife will go<br>
+A life changing transfer of power<br>
+As deep as the knife will go<br>
+<br>
+As deep as the knife will go<br>
+Every inch of it in you savored<br>
+As deep as the knife will go
+
+</p>
+
+      <h1 id="f6" class="lyrics-test">-Intestinal Crank-</h1>
+      <p class="lyrics-test-test">Butchers drag me to the rack<br>
+Bind my hands to the bar<br>
+Legs are fastened to the table<br>
+Hooded man unsheathes his knife<br>
+<br>
+Incisions will be made<br>
+Blood drips from the blade<br>
+Visceral display<br><br>
+
+Hook attached inside<br>
+Cavity gaping wide<br>
+Soon I will die<br>
+<br>
+Intestinal crank<br>
+<br>
+Merciless, they turn the crank<br>
+Interrogation has begun<br>
+Awake I'm being disemboweled<br>
+Rotation pulling out the guts<br>
+<br>
+Excruciating pain<br>
+Body starts to strain<br>
+Struggle in vain<br>
+<br>
+Tortured by this tool<br>
+Intestines on the spool<br>
+Barbarous cruelty<br>
+<br>
+Intestinal crank<br>
+Intestinal crank<br>
+<br>
+Winding<br>
+Innards<br><br>
+
+And the crank will turn<br>
+And the crank will turn<br><br>
+
+Turning<br>
+Pulling<br>
+
+Unremitting pain<br>
+Turn the crank again<br><br>
+
+Twisting<br>
+Coiling<br>
+
+Drawing out the guts<br>
+Drawing out the guts<br>
+
+The rack<br>
+Stretching<br><br>
+
+Snapping cartilage<br>
+Dislocate joints<br><br>
+
+Writhing<br>
+Broken<br><br>
+
+I will die in pain<br>
+I will die in pain<br><br>
+
+Torment<br>
+Endless<br><br>
+
+Disemboweled alive<br>
+Disemboweled alive<br><br>
+
+Intestinal Crank
+</p>
+
+      <h1 id="f7" class="lyrics-test">-Followed Home Then Killed-</h1>
+      <p class="lyrics-test-test">Creeping in the shadows<br>
+Shadows of the night<br>
+Wading through the darkness<br>
+A death before the light<br>
+Blending in with faces<br>
+Faces of the night<br>
+Safe at home in comfort<br>
+At home is where you'll die<br><br>
+
+Watching you<br>
+Knowing your every move<br>
+Hearing you<br>
+Every single word that you spew<br>
+Carving you<br>
+Is what I'm about to do<br>
+Saving you<br>
+From the torment of this earth to be buried for rebirth<br>
+<br>
+Silently I enter through the broken basement window now to wait<br>
+It's twelve o'clock the time has come ascend the staircase to the hunted one<br>
+Make way to the second floor right outside your open bedroom door<br>
+One last time to sleep in peace unaware of brutal things that<br>
+<br>
+Will be done<br>
+To you after you awake<br>
+Enter slow<br>
+Machete leads the way<br>
+Eerie calm<br>
+Death is in the air<br>
+Savage thrust<br>
+Death is everywhere<br><br>
+
+Adrenaline is pumping as my heart is pounding faster yours slows down<br>
+Choke on blood and breathe your last breath mangled<br>
+guts I wear to celebrate<br>
+Stay inside and fuck the corpse an innards orgy satisfies my needs<br>
+Finally I feel complete by eating brains and flesh<br>
+
+Followed home then killed<br>
+Sacrificed in vain<br>
+Followed home then killed<br>
+I stalked you for years<br>
+Followed home then killed<br><br>
+
+Take what's left in garbage bags and throw them in a hole I dug out back<br>
+Clean the room I killed you in making sure the clues of sin are gone<br>
+Revel in my vicious deed and replay what had happened in my head<br>
+Vivid memories of you remain of your remains<br>
+<br>
+Followed home then killed<br>
+Sacrificed in vain<br>
+Followed home then killed<br>
+I stalked you for years<br>
+Followed home then killed<br>
+<br>
+Followed home then killed
+</p>
+
+      <h1 id="f8" class="lyrics-test">-The Strangulation Chair-</h1>
+      <p class="lyrics-test-test">Trapped in this prison awaiting my death<br>
+Condemned to die by draconian means<br>
+An eye for an eye is the rule of this land<br>
+But the victim in question did not die by my<br>
+<br>
+Hand<br>
+A mockery of justice<br>
+Inequity<br>
+The murderer will live but I will die<br>
+<br>
+Strapped to a chair unable to breathe<br>
+Other condemned have died before me<br>
+Constrained in the chair I saw fear in their eyes<br>
+The executioner smiled as he took their<br>
+<br>
+Lives<br>
+Crushing their windpipes<br>
+Garroted<br>
+Throttled with iron they succumb to death<br>
+<br>
+The Strangulation Chair<br>
+Constriction of the throat<br>
+No air for the lungs, no blood for the brain<br>
+<br>
+A death I don't deserve<br>
+Blameless of this crime<br>
+Only I know this is true<br>
+<br>
+The Strangulation Chair<br>
+The spinal column breaks<br>
+Then my life will cease, my final release<br>
+<br>
+A death I have not earned<br>
+But still have to face<br>
+They are the murderers now<br>
+<br>
+My day has come now it's my turn to die<br>
+Hands tied they lead me away<br>
+The executioner collars my neck<br>
+In terror I wait for my strangulation<br>
+my strangulation, my strangulation<br>
+<br>
+Death<br>
+My mind slips to darkness<br>
+Unconscious forever<br>
+The crime they committed they will not know<br>
+<br>
+The Strangulation Chair<br>
+Constriction of the throat<br>
+No air for the lungs, no blood for the brain<br>
+<br>
+A death I don't deserve<br>
+Blameless of this crime<br>
+Only I know this is true<br>
+<br>
+The Strangulation Chair<br>
+The spinal column breaks<br>
+Then my life will cease, my final release<br>
+
+A death I have not earned<br>
+But still have to face<br>
+They are the murderers now
+</p>
+
+      <h1 id="f9" class="lyrics-test">-Caged… Contorted-</h1>
+      <p class="lyrics-test-test">Abducted by a psychopath with evil intent<br>
+Beaten to the point of unconsciousness<br>
+Awakened by the sound of someone screaming in pain...<br>
+<br>
+Realizing now that you are trapped in a cage<br>
+Arms and legs in disarray<br>
+Bones have all been broken and your limbs are displaced<br>
+Body in a horrible state<br>
+Unbearable effluvium polluting the air<br>
+A nauseating stench of death<br>
+Maggots are all over on the walls and the floor<br>
+Patiently awaiting for - your flesh...<br>
+
+<br>
+Numerous victims litter the room<br>
+You are not the only one<br>
+Various forms of torture<br>
+Profaned existence for you all<br>
+<br>
+Strapped to tables - chained to the walls<br>
+Fingers are reaching out between floorboards<br>
+Others are floating in the air held up by hooks<br>
+Drained of their lives...<br>
+<br>
+Caged...Contorted<br>
+<br>
+Realizing now that you will die in this place<br>
+Emaciating skin awaits<br>
+For the maggots that will crawl onto your body and face<br>
+The final phase of your demise...<br>
+<br>
+Paralyzing agony has left you for dead<br>
+The psychopath returns to finish the task<br>
+Dying to the sound of others creaming in pain...<br>
+<br>
+Caged... Contorted
+</p>
+
+      <h1 id="f10" class="lyrics-test">-Crucifier Avenged-</h1>
+      <p class="lyrics-test-test">Crucifixion, peasants bound to the cross<br>
+Heartless judgement, tyrannical laws<br>
+Among the jurists pangs of conscience arise<br>
+Conspiracy begins, the crucifier must fall<br>
+<br>
+Assassination was attempted but failed<br>
+The conspirators are captured and jailed<br>
+Enraged by the plot now he vows his revenge<br>
+Hunt them down, seek their death, merciless<br>
+<br>
+Collaborators face a summary trial<br>
+They are guilty there can be no denial<br>
+Convicted plotters face the hammer and nail<br>
+The traitors will be punished, the traitors will die<br>
+<br>
+Their compunction, a sentence of death<br>
+Thoughts of mercy are replaced by dread<br>
+Punishment for traitors, swift and severe<br>
+Kill them all, they will die, crucify<br>
+<br>
+Avenged, the crucifier has returned to kill<br>
+Vengeance, the betrayers bound and hung by nails<br>
+Avenged, the crucifier has returned to kill<br>
+Revenge, their betrayal only brought them hell<br>
+<br>
+Punctured by piercing, the beam dripping blood<br>
+As a deterrent they are left there for months<br>
+Their agonizing deaths will serve to warn the rest<br>
+Betrayers will be hunted, betrayers will die<br>
+<br>
+Wretched traitors, sun cooking their flesh<br>
+Rotting slowly they're begging for death<br>
+Transfixed by iron only bones will remain<br>
+He will hunt, hell's pursuit, execute<br>
+<br>
+Avenged, the crucifier has returned to kill<br>
+Vengeance, the betrayers bound and hung by nails<br>
+Avenged, the crucifier has returned to kill<br>
+Revenge, their betrayal only brought them hell<br>
+<br>
+No remorse for their deaths<br>
+No one will be spared from this fate<br>
+Hammer spikes through their hands<br>
+Penetrate the soles of their feet<br>
+<br>
+Plant the stakes in the ground<br>
+Raise the crosses of the condemned<br>
+Proclaim judgement with blood<br>
+Triumph for the killers of men<br>
+<br>
+Avenged, the crucifier has returned to kill<br>
+Vengeance, the betrayers bound and hung by nails<br>
+Avenged, the crucifier has returned to kill<br>
+Revenge, their betrayal only brought them hell<br>
+<br>
+Avenged, the crucifier has returned to kill<br>
+Vengeance, the betrayers bound and hung by nails<br>
+Avenged, the crucifier has returned to kill<br>
+Revenge, their betrayal only brought them hell
+
+</p>
+
+      <h1 id="f11" class="lyrics-test">-Rabid-</h1>
+      <p class="lyrics-test-test">Like a virus of the mind<br>
+My rage will spread<br>
+My obsession with murder<br>
+Roils in my head<br>
+<br>
+Killing victims with my hands<br>
+I cannot control<br>
+These extreme compulsions<br>
+Burn in my soul<br>
+<br>
+Foaming at the mouth I leap<br>
+Onto my prey<br>
+Target of my violence<br>
+Will die today<br>
+<br>
+Feel the victim's cracking bones<br>
+He screams in pain<br>
+Only slaughter brings me peace<br>
+I have gone insane<br>
+<br>
+Rabid<br>
+<br>
+Inflammation of the brain<br>
+Fury overwhelms<br>
+There is something wrong with me<br>
+I am not well<br>
+<br>
+Victim's head<br>
+Thumbs in his eyes<br>
+Blood is squirting from the sockets<br>
+Pours down the sides<br>
+<br>
+Smash his teeth with my fist<br>
+Tear off his nose<br>
+Laughing at his shattered face<br>
+Rage only grows<br>
+With my fingers gouge his throat<br>
+Rip slabs of flesh<br>
+I continue the assault<br>
+But he is clearly dead<br>
+<br>
+Rabid<br>
+<br>
+Can't restrain my need to kill them drives me mad<br>
+I'm insane I want to spill blood with my hands<br>
+<br>
+Schizophrenic mania<br>
+Paranoid anxiety<br>
+Violent ferocity<br>
+Criminal insanity<br>
+<br>
+I am obsessed with butchery I am mad<br>
+A trail of corpses so much blood on my hands<br>
+<br>
+Rabid<br>
+Rabid</p>
+
+      <h1 id="f12" class="lyrics-test">-Torn Through-</h1>
+      <p class="lyrics-test-test">iolently torn through the back <br>
+of the head as debris from<br>
+the skull hits the ground<br>
+Writhing and twitching from brains<br>
+being splattered I'll never get used to that sound<br>
+Gaze at the fear in eyes horrified<br>
+terrified just as a life will expire<br>
+Blood drips away from an utter<br>
+disgrace in hell I will kill you again<br>
+<br>
+Torn through with vengeance o blame<br>
+Torn through for wanting you dead<br>
+<br>
+Anger summoned evil deep inside my rotting soul<br>
+Remnants of a morbid past implies my mind is out of control<br>
+Putrid vision seen before but only seen by me<br>
+Screaming voices whisper murder<br>
+Pent up wrath is fed with killing sprees<br>
+<br>
+Prolonged brutal rampage slaughter with no end in sight<br>
+Remnants of a morbid past implies my mind is out of control<br>
+<br>
+Unforgiving pain is what another death sets free<br>
+Sacrifice of sanity accelerates my lack of control<br>
+<br>
+Putrid vision seen before but only seen by me<br>
+Screaming voices whisper murder<br>
+Pent up wrath is fed with killing sprees<br>
+<br>
+Killing sprees<br>
+Killing sprees<br>
+Killing sprees<br>
+Killing sprees<br>
+<br>
+8 more to kill<br>
+8 more to kill<br>
+7 to kill<br>
+<br>
+7 to kill<br>
+7 to kill<br>
+6 more to kill<br>
+<br>
+6 more to kill<br>
+6 more to kill<br>
+5 more to kill<br>
+<br>
+5 more to kill<br>
+5 more to kill<br>
+4 more to kill<br>
+<br>
+Violently torn through the back of the head as debris from<br>
+the skull hits the ground<br>
+Writhing and twitching from brains being splattered<br>
+in hell I will kill you again<br>
+<br>
+Torn through with vengeance to blame<br>
+Torn through for wanting you dead<br>
+<br>
+4 more to kill<br>
+4 more to kill<br>
+3 more to kill<br>
+<br>
+3 more to kill<br>
+3 more to kill<br>
+2 more to kill<br>
+<br>
+2 more to kill<br>
+2 more to kill<br>
+1 more to kill<br>
+<br>
+1 more to kill<br>
+1 more to kill<br>
+1 more to kill<br>
+1 more killing spree</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/skeletal.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">A Skeletal Domain - 2014</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-High Velocity Impact Spatter-</h1>
+        <p class="lyrics-test-test">Climbing<br>
+Heights unimagined unattained<br>
+To drop bodies from the sky<br>
+Falling<br>
+Alive in mid air moving fast<br>
+Heads exploding on the ground<br>
+Throwing<br>
+Corrupted souls in front of trains<br>
+Just to watch the bodies fly<br>
+Grinning<br>
+At the site of shredded innards<br>
+Brains exploded all around.<br>
+<br>
+High velocity impact spatter.<br>
+<br>
+Slamming<br>
+You into walls excessive speed<br>
+Creates catastrophic sounds<br>
+Scraping<br>
+Fresh blood and guts from off the pavement<br>
+Before stench of death sets in<br>
+Piercing<br>
+Between the eyes and unexpected<br>
+Liquid red spraying behind<br>
+Killing<br>
+Impact spatter brutal force<br>
+Something I will always need.<br>
+<br>
+High velocity impact spatter.<br>
+<br>
+A necro potion is made<br>
+From the remains of the dead<br>
+<br>
+Daily ritual intake<br>
+Drinking remains of the dead.<br>
+<br>
+Death after life after death<br>
+Only obtained in one way.<br>
+<br>
+High velocity impact spatter
+</p>
+
+        <h1 id="s2" class="lyrics-test">-Sadistic Embodiment-</h1>
+        <p class="lyrics-test-test">A sharpened sense of supreme evil<br>
+Triggered in the mind<br>
+A gruesome transformation of the body<br>
+And the soul<br>
+A dreaded life of worthlessness<br>
+Now has a new meaning<br>
+Wreak havoc like a vile wretch<br>
+Possessed until the end<br>
+<br>
+Anger<br>
+Released<br>
+Torture<br>
+Returning<br>
+<br>
+Sadistic embodiment<br>
+Sadistic embodiment<br>
+<br>
+Spreading the corruption<br>
+Flowing is destruction<br>
+To obliterate all that is good this world<br>
+<br>
+A sharpened knife to butcher people<br>
+Sitting in the hand<br>
+For gruesome transformations of<br>
+The body and the soul<br>
+Their dreaded lives of worthlessness<br>
+Will have a new meaning<br>
+Wreak havoc on a vile wretch<br>
+Dissected until dead<br>
+<br>
+Anger<br>
+Released<br>
+Torture<br>
+Returning<br>
+<br>
+Sadistic embodiment<br>
+Sadistic embodiment<br>
+<br>
+Spreading the corruption<br>
+Flowing is destruction<br>
+To obliterate all that is good in this world<br>
+<br>
+You were in the way<br>
+<br>
+The mutilation leads to death<br>
+Existence now irrelevant<br>
+Never will be in the way again<br>
+<br>
+The mutilation leads to death<br>
+Existence now irrelevant<br>
+Never will be in the way again<br>
+<br>
+Vicious<br>
+Anger<br>
+Released<br>
+Torture<br>
+Returning<br>
+<br>
+Sadistic embodiment<br>
+Sadistic embodiment<br>
+</p>
+
+        <h1 id="s3" class="lyrics-test">-Kill Or Become-</h1>
+        <p class="lyrics-test-test">Viral contagion unleashed upon the earth<br>
+Billions of infected dead soon rise<br>
+Stalking the living to feast upon the flesh<br>
+Its fight or flee to survive<br>
+<br>
+Living out the days and nights in absolute fear<br>
+Never knowing when and where the<br>
+threat of the undead draws near<br>
+Thoughts of those left behind<br>
+Are slowly tormenting your mind<br>
+<br>
+Killing is essential to survive<br>
+The world you once knew forever changed<br>
+Scavenging just to stay alive<br>
+Time to release your inner rage<br>
+<br>
+Fire up the chainsaw<br>
+Hack all their heads off<br>
+Fire up the chainsaw<br>
+Hack their fucking heads off<br>
+<br>
+If you want to live you have to kill or become<br>
+There's no other way you have to kill or become<br>
+If you want to live you have to kill or become<br>
+There's no other way you have to kill or become<br>
+<br>
+Fire up the chainsaw<br>
+Hack all their heads off<br>
+Fire up the chainsaw<br>
+Hack their fucking heads off<br>
+<br>
+Viral contagion unleashed upon the earth<br>
+Billions of infected dead soon rise<br>
+Stalking the living to feast upon the flesh<br>
+Its fight or flee to survive<br>
+
+Fire up the chainsaw<br>
+Hack all their heads off<br>
+Fire up the chainsaw<br>
+Hack their fucking heads off<br>
+<br>
+If you want to live you have to kill or become<br>
+There's no other way you have to kill or become<br>
+If you want to live you have to kill or become<br>
+There's no other way you have to kill or become<br>
+<br>
+Fire up the chainsaw<br>
+Hack all their heads off<br>
+Fire up the chainsaw<br>
+Hack their fucking heads off</p>
+
+        <h1 id="s4" class="lyrics-test">-A Skeletal Domain-</h1>
+        <p class="lyrics-test-test">Trapped beneath rotting remains<br>
+A slow decay of life takes its form<br>
+<br>
+Withered death and bone emerge<br>
+From cemeteries of the earth<br>
+Replacing all that is known from this world<br>
+<br>
+Towering structures take shape<br>
+As more cities are laid to waste<br>
+<br>
+Survivors of this morbid fate<br>
+The reborn meek not live not dead<br>
+Are left to start a new<br>
+Misshapen and half mutated<br>
+Not a zombie not a human<br>
+Evil creatures grew<br>
+<br>
+Not one thing left alive but them<br>
+The strongest will begin to reign<br>
+<br>
+A new society takes place<br>
+Where the way of the cannibal<br>
+Rules in this skeletal domain<br>
+<br>
+A kingdom of the damned<br>
+<br>
+Carnal war consuming them by<br>
+Eating flesh for nourishment<br>
+Solution for a short-term survival<br>
+<br>
+Slaughtered are the weakest first<br>
+Feeding those with evil thirst<br>
+As blood of the dead saturates the ground<br>
+<br>
+Again the end has begun<br>
+Another kingdom will be damned<br>
+<br>
+Survivors of this morbid fate<br>
+The reborn meek not live not dead<br>
+Are left to start a new<br>
+<br>
+Misshapen and half mutated<br>
+Not a zombie not a human<br>
+Evil creatures grew<br>
+<br>
+Not one thing left alive but them<br>
+The strongest will begin to reign<br>
+<br>
+A new society takes place<br>
+Where the way of the cannibal<br>
+Rules in this skeletal domain<br>
+<br>
+Survivors of this morbid fate<br>
+The reborn meek not live not dead<br>
+Are left to start a new<br>
+<br>
+Misshapen and half mutated<br>
+Not a zombie not a human<br>
+Evil creatures grew<br>
+<br>
+Not one thing left alive but them<br>
+The strongest will begin to reign<br>
+<br>
+A new society takes place<br>
+Where the way of the cannibal<br>
+Rules in this skeletal domain
+</p>
+
+        <h1 id="s5" class="lyrics-test">-Headlong Into Carnage-</h1>
+        <p class="lyrics-test-test">No hesitation as the bloodshed begins<br>
+Frenzied violence, raging death<br>
+Devastation as the killers<br>
+Savagely murder all in sight<br>
+<br>
+Mutilators swarming hacking off limbs<br>
+Falling bodies, severed heads<br>
+Pure destruction by the mob<br>
+Butchering all that they can see<br>
+<br>
+Honing their insanity<br>
+Headlong into carnage without fear<br>
+Ruthless human weapons with no conscience, unaware<br>
+<br>
+Rampaging killers slash with furious hate<br>
+Bones are breaking, blood is spilled<br>
+Mutilation feeds their hunger<br>
+Brutally killing satisfied<br>
+Relentless slaughter innards hang from their blades<br>
+<br>
+Disembowelment, of their prey<br>
+In the bloodbath all their vile<br>
+Dreams will come to pass<br>
+<br>
+Weaponized psychopathy<br>
+Headlong into carnage seeking blood<br>
+Seething minds distorted by the violence and pain<br>
+<br>
+Driven by adrenaline<br>
+Headlong into carnage they attack<br>
+Merciless and brutal take the head off of your neck<br>
+<br>
+Sweat flies while throats are cut<br>
+Tendons snapping, sinew tearing<br>
+Blood pours from gaping wounds<br>
+Sadistic chaos, grips you<br>
+<br>
+Bones crack from heavy blows<br>
+Fractured cheekbones, shattered skull<br>
+Bludgeoning without remorse<br>
+Eyes bulge and spurt out blood<br>
+<br>
+Extensive killing many thousands have died<br>
+Bodies rotting, stench of death<br>
+Desolation as the killers<br>
+Scavenge the corpses of the slain<br>
+<br>
+Insane desire, killing cannot end<br>
+Psychotic evil, mania<br>
+Stimulation by the blood<br>
+Searching for people they can kill<br>
+<br>
+Weaponized psychopathy<br>
+Headlong into carnage seeking blood<br>
+Seething minds distorted by the violence and pain<br>
+<br>
+Driven by adrenaline<br>
+Headlong into carnage they attack<br>
+Merciless and brutal take the head off of your neck</p>
+
+        <h1 id="s6" class="lyrics-test">-The Murderer's Pact-</h1>
+        <p class="lyrics-test-test">
+Coercion and threats<br>
+Made their demands<br>
+Held the past over my head<br>
+One mistake has made me their tool<br>
+Blackmailing a means to the end, I'm forced into the pact<br>
+<br>
+Murderer<br>
+Is this what I am?<br>
+<br>
+Homicide<br>
+How can I stop this?<br>
+<br>
+Not a violent man but now I'm forced to kill<br>
+Seems to be no other way<br>
+Trapped by an accident, tragic and fatal<br>
+The crime was unintentional, but this I cannot prove<br>
+<br>
+Murderer<br>
+Is there no way out?<br>
+<br>
+Suicide<br>
+Is that the answer?<br>
+<br>
+Desperation<br>
+Deal has been made<br>
+No turning back<br>
+I'm bound to kill by the murderer's pact<br>
+<br>
+Steel myself for the task at hand<br>
+Preparing the tools that I need<br>
+Sharpen the blades, make the kill quick<br>
+Extortion drove me to the deed, I take from it no joy<br>
+<br>
+Murderer<br>
+Now I will do this<br>
+<br>
+Homicide<br>
+I have made my choice<br>
+<br>
+Sins of the past<br>
+Haunt me today<br>
+Should have confessed<br>
+<br>
+Motive concealed<br>
+Undetected<br>
+Hunting him down<br>
+His life will end<br>
+I'm bound to kill by the murderer's pact<br>
+<br>
+Thrust of the blade repulses<br>
+Commit the heinous crime<br>
+Stabbing him repeatedly<br>
+Gouge his neck, slash his face<br>
+<br>
+See his look of terror<br>
+He knows his time has come<br>
+Cannot show him mercy<br>
+Make him die, finish it<br>
+<br>
+Blood on the knife<br>
+His body slumps<br>
+Corpse left to rot<br>
+The deed is done<br>
+<br>
+But in my mind<br>
+There is no peace<br>
+Two dark secrets<br>
+That I must keep<br>
+I'm bound to kill by the murderer's pact
+
+</p>
+
+        <h1 id="s7" class="lyrics-test">-Funeral Cremation-</h1>
+        <p class="lyrics-test-test">
+Stand before the corpse<br>
+Of the man I killed<br>
+His mother is behind me<br>
+Puts her hand on my shoulder<br>
+Torment deep inside<br>
+To be unleashed on those inside<br>
+Starting with this bitch<br>
+I grab her arm and smash<br>
+Her body on her lifeless son<br>
+<br>
+A day of mourning fuels annihilation<br>
+I will kill them all by funeral cremation<br>
+<br>
+Relatives must die<br>
+Of the man I killed<br>
+One by one destroyed<br>
+Nothing left when it is over<br>
+Torment deep inside<br>
+To be unleashed on those inside<br>
+Ending with his kids<br>
+Blood is flowing from their bodies<br>
+Out of misery<br>
+<br>
+Out of their misery<br>
+In with my cruelty<br>
+Erase the present<br>
+To forget the past<br>
+Chaotic fury<br>
+Was driven by fear<br>
+Fear so intense<br>
+My whole family was slaughtered by me<br>
+<br>
+A day of mourning fuels annihilation<br>
+I will kill them all by funeral cremation<br>
+<br>
+Out of their misery<br>
+In with my cruelty<br>
+Erase the present<br>
+To forget the past<br>
+Chaotic fury<br>
+Was driven by fear<br>
+Fear so intense<br>
+My whole family was slaughtered by me
+</p>
+
+        <h1 id="s8" class="lyrics-test">-Icepick Lobotomy-</h1>
+        <p class="lyrics-test-test">Ominous nefarious completely insane<br>
+Doctor Butcher and his dungeon of death<br>
+Unorthodox therapies performed on the brain<br>
+Prolific practitioner of pain<br>
+<br>
+Laying out the tools of his trade<br>
+Psychosurgery<br>
+Scalpel, ice-pick and drill<br>
+Subject securely restrained<br>
+Electroshock is engaged<br>
+Prepare for the final phase<br>
+Cranial penetration<br>
+<br>
+Ominous nefarious completely insane<br>
+Doctor Butcher and his dungeon of death<br>
+Unorthodox therapies performed on the brain<br>
+Prolific practitioner of pain<br>
+<br>
+Brain cutter<br>
+Soul killer<br>
+Thousands of subjects lobotomized<br>
+Brain cutter<br>
+Soul killer<br>
+The butcher has altered their lives<br>
+Brain cutter<br>
+Soul killer<br>
+Thousands of subjects lobotomized<br>
+Brain cutter<br>
+Soul killer<br>
+The butcher has altered their lives<br>
+<br>
+Laying out the tools of his trade<br>
+Psychosurgery<br>
+Scalpel, ice-pick and drill<br>
+Subject securely restrained<br>
+Electroshock is engaged<br>
+Prepare for the final phase<br>
+Cranial penetration<br>
+<br>
+Ice-pick lobotomy
+</p>
+
+        <h1 id="s9" class="lyrics-test">-Vector Of Cruelty-</h1>
+        <p class="lyrics-test-test">Inborn, lack of conscience<br>
+I think but cannot feel<br>
+Affectations<br>
+Manipulations<br>
+Victims bend to my will<br>
+<br>
+Passed through generations<br>
+Murderous ways<br>
+Proclivity for violence<br>
+No remorse or shame<br>
+<br>
+Murder, a fascination<br>
+Dispatching those who trust<br>
+My compulsion<br>
+<br>
+Fleeting fulfillment<br>
+No joy will ever last<br>
+<br>
+The soulless walk among you<br>
+Concealed by deceit<br>
+Smiling when I face you<br>
+Slashing when you turn<br>
+<br>
+This vector of cruelty<br>
+Denied me a soul<br>
+Genetic mutation<br>
+Driving me<br>
+<br>
+Your pleas cannot move me<br>
+No mercy to give<br>
+I seek domination<br>
+A master of pain<br>
+<br>
+This vector of cruelty<br>
+Emotionless, cold<br>
+No human connection<br>
+Weakening<br>
+<br>
+Cold-blooded and willful<br>
+I slaughtered them all<br>
+They thought I'd protect them<br>
+But I made them die<br>
+<br>
+Legacy, abnormality<br>
+The ladder twists, and the rungs are broken<br>
+Impregnate, and the vector spreads<br>
+<br>
+Momentum shifts, and I start controlling<br>
+Parasite, of morality<br>
+Malevolent, eyes are empty<br>
+Merciless, I cannot care<br>
+<br>
+This vector of cruelty<br>
+Denied me a soul<br>
+Genetic mutation driving me<br>
+<br>
+Your pleas cannot move me<br>
+No mercy to give<br>
+I seek domination<br>
+A master of pain<br>
+<br>
+This vector of cruelty<br>
+Emotionless, cold<br>
+No human connection<br>
+Weakening<br>
+<br>
+Cold-blooded and willful<br>
+I slaughtered them all<br>
+They thought I'd protect them<br>
+But I made them die
+</p>
+
+        <h1 id="s10" class="lyrics-test">-Bloodstained Cement-</h1>
+        <p class="lyrics-test-test">Stalking his prey<br>
+He prepares for the ambush<br>
+I hear his steps<br>
+But without trepidation<br>
+Hyper aware<br>
+I will strike back<br>
+<br>
+When he brandished the blade<br>
+Gave his intentions away<br>
+<br>
+Back to the wall, I have no choice<br>
+It's time to fight or die<br>
+I will respond with overwhelming force<br>
+A switch turns on and I must survive<br>
+<br>
+Fearless resolve<br>
+As I spring into action<br>
+<br>
+Quickly disarm<br>
+And remove his advantage<br>
+Only one thing on my mind<br>
+Stop his attack<br>
+<br>
+Now he's on the defense<br>
+Momentum is shifting my way<br>
+<br>
+A savage brawl, I hear his voice<br>
+Pure terror in his cries<br>
+Break his balance, slam him to the ground<br>
+Following through to stay alive<br>
+<br>
+Landing multiple blows<br>
+The blood is starting to spray<br>
+<br>
+Will not stop till I am sure<br>
+The threat has been put down<br>
+Raining down with forearm thrusts<br>
+Torrents of blood flow from his eyes<br>
+Bloodstained cement<br>
+<br>
+No weakness to exploit<br>
+His ambush failed<br>
+Hammer fists break facial bones<br>
+Knuckles bleed from shards of teeth<br>
+<br>
+Smash his skull onto the pavement<br>
+Make the bastard pay<br>
+Don't stop until it cracks<br>
+And spills out his brain<br>
+<br>
+Bloodstained cement<br>
+<br>
+When he chose me as prey<br>
+A fatal mistake was made<br>
+<br>
+Consequences of his choice<br>
+Led to his bloody end<br>
+Warning potential assailants<br>
+Target you choose could be your death<br>
+<br>
+Such a grisly display<br>
+The ultimate price has been paid<br>
+<br>
+Standing breathless I see him<br>
+Dead in a pool of blood<br>
+Never again will he terrorize<br>
+Executed by his final mark</p>
+
+        <h1 id="s11" class="lyrics-test">-Asphyxiate To Resuscitate-</h1>
+        <p class="lyrics-test-test">Die every day<br>
+Dying for years now<br>
+Kill every day<br>
+Killing for years<br>
+<br>
+Revive every day<br>
+Reviving for years now<br>
+Kill every day<br>
+<br>
+You have died and<br>
+I brought you back<br>
+While you see the dark<br>
+I see the light<br>
+<br>
+Die every day<br>
+Dying for years now<br>
+Kill every day<br>
+Killing for years<br>
+<br>
+Revive every day<br>
+Reviving for years now<br>
+Kill every day<br>
+You have died and<br>
+I brought you back<br>
+While you see the dark<br>
+I see the light<br>
+A light so dark controlling me<br>
+Altering who I'm supposed to be<br>
+<br>
+Die every day<br>
+Revive every day<br>
+Kill every day<br>
+<br>
+Die every day<br>
+Always the same<br>
+Killed every day<br>
+<br>
+Dying for years<br>
+Revived you for years<br>
+Kill you for years<br>
+<br>
+Killing for years<br>
+Always the same<br>
+Killing for years<br>
+<br>
+Die every day<br>
+Revive every day<br>
+Kill every day<br>
+<br>
+Die every day<br>
+Always the same<br>
+Killed every day<br>
+<br>
+Dying for years<br>
+Revived you for years<br>
+Kill you for years<br>
+<br>
+Killing for years<br>
+Always the same<br>
+Killing for years<br>
+You have died and<br>
+I brought you back<br>
+While you see the dark<br>
+I see the light<br>
+A light so dark controlling me<br>
+Altering who I'm supposed to be<br>
+<br>
+Choking Asphyxiate<br>
+Gasping Resuscitate<br>
+Starling Asphyxiate<br>
+Lifeless Resuscitate<br>
+<br>
+Choking Asphyxiate<br>
+Gasping Resuscitate<br>
+Starling Asphyxiate<br>
+Lifeless Resuscitate<br>
+Asphyxiate Resuscitate<br>
+Asphyxiate Resuscitate<br>
+<br>
+You have died and<br>
+I brought you back<br>
+While you see the dark<br>
+I see the light<br>
+<br>
+You have died and<br>
+I brought you back<br>
+While you see the dark<br>
+I see the light<br>
+A light so dark controlling me<br>
+Altering who I'm supposed to be<br>
+A light so dark controlling me<br>
+Altering who I'm supposed to be
+</p>
+
+        <h1 id="s12" class="lyrics-test">-Hollowed Bodies-</h1>
+        <p class="lyrics-test-test">Putrid mess lays in the woods<br>
+Removed of organs and meat<br>
+13 mounds of bony flesh<br>
+Hollowed out except for maggots<br>
+That dwell<br>
+Deep inside the skulls<br>
+Of victims that they cleaned<br>
+How did this horror unfold<br>
+<br>
+No trace of evidence was left behind<br>
+At this scene of gore<br>
+Will the truth ever be told<br>
+<br>
+Only time will tell<br>
+<br>
+Will there be more to find<br>
+Some more hollowed bodies<br>
+Will there be more to find some more hollowed bodies<br>
+With their untold stories<br>
+<br>
+Cadavers rot<br>
+Cadavers rot hollowed<br>
+<br>
+13 more corpses are found<br>
+13 miles exactly south<br>
+26 more to the north<br>
+2 stacks of 13 humans<br>
+13 miles apart from one another<br>
+In a line<br>
+Why did this horror unfold<br>
+<br>
+2 more<br>
+1 to the west<br>
+1 to the east make 6 in total<br>
+Will the truth ever be told<br>
+<br>
+Only if I tell<br>
+<br>
+Will there be more to find<br>
+Some more hollowed bodies<br>
+Will there be more to find some more hollowed bodies<br>
+With their untold stories<br>
+<br>
+Cadavers rot<br>
+Cadavers rot hollowed<br>
+<br>
+Bodies were found<br>
+Hollowed bodies<br>
+Bodies were found<br>
+Hollowed bodies</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/redbeforeblack.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Hollowed Bodies - 2017</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-Only One Will Die-</h1>
+          <p class="lyrics-test-test">A violent conflict<br>
+Between two foes<br>
+At close quarters<br>
+Pound and slash, the blood will flow<br>
+<br>
+Barbaric melee<br>
+A hateful duel<br>
+Shared abhorrence gives the conflict<br>
+<br>
+Fuel<br>
+Add to the fire<br>
+Lies<br>
+Resentment built<br>
+For years<br>
+<br>
+Now<br>
+It's time to end this<br>
+Fight<br>
+Until the death<br>
+Striking to kill<br>
+Only one<br>
+Only one will die<br>
+<br>
+The cracking bones<br>
+And shattered teeth<br>
+Wounds are swelling<br>
+Lacerations running deep<br>
+<br>
+Losing blood<br>
+But still we fight<br>
+Both resolved to end the other's<br>
+<br>
+Life<br>
+The only answer<br>
+Hate<br>
+Can only end<br>
+With death<br>
+<br>
+Now<br>
+It's time to end this<br>
+Fight<br>
+Until the death<br>
+Striking to kill<br>
+Only one<br>
+Only one will die<br>
+<br>
+Both of us are killers<br>
+Both of us are evil men<br>
+Unforgiving murderers today may kill again<br>
+<br>
+Both of us will throttle<br>
+Strangling with rage<br>
+Both consumed by madness, revenge has us enslaved<br>
+<br>
+Both are badly wounded<br>
+And struggle to survive<br>
+Both are fighting to the death but only one will die<br>
+<br>
+Both of us will bludgeon<br>
+Both of us will pound<br>
+Facial bones will splinter soon, the blood will drench the ground<br>
+<br>
+Both are rending flesh<br>
+Both are gouging eyes<br>
+Escalating violence, the brawl intensifies<br>
+<br>
+Both of us will throttle<br>
+Strangling with rage<br>
+Both consumed by madness, revenge has us enslaved<br>
+<br>
+Both are badly wounded<br>
+And struggle to survive<br>
+Both are fighting to the death but only one will die<br>
+<br>
+Kill<br>
+The only answer<br>
+Hate<br>
+Can only end<br>
+With death<br>
+<br>
+Now<br>
+It's time to end this<br>
+Fight<br>
+Until the death<br>
+Striking to kill<br>
+Only one<br>
+Only one will die
+</p>
+
+          <h1 id="t2" class="lyrics-test">-Red Before Black-</h1>
+          <p class="lyrics-test-test">Knives brought the blood<br>
+That's on the ground<br>
+Blood will paint the sky<br>
+Into darkness<br>
+<br>
+Overtorture lacerated sacrificial decimation<br>
+Overviolent mutilation brutally eviscerated<br>
+Dead beyond dead<br>
+<br>
+Red before black<br>
+Made to suffer through the torture<br>
+Red then black into the unknown<br>
+With no coming back<br>
+Red before black<br>
+Disemboweling frantically<br>
+Pure ecstasy pure misery<br>
+Blood flows from the attack<br>
+<br>
+Cut for the blood<br>
+Dried on the ground<br>
+Blood painted the sky<br>
+Through the darkness<br>
+<br>
+Overviolent mutilation brutally eviscerated<br>
+Overkilling eradicated monumental crimson staining<br>
+Dead beyond dead<br>
+<br>
+Red before black<br>
+Made to suffer through the torture<br>
+Red then black into the unknown<br>
+With no coming back<br>
+Red before black<br>
+Disemboweling frantically<br>
+Pure ecstasy pure misery<br>
+Blood flows from the attack<br>
+<br>
+Bleed before death bleed during death bleed after death<br>
+Perpetual bloodshed onslaught through hatred<br>
+<br>
+Overtorture lacerated sacrificial decimation<br>
+Overviolent mutilation brutally eviscerated<br>
+Dead beyond dead<br>
+<br>
+Red before black<br>
+Made to suffer through the torture<br>
+Red then black into the unknown<br>
+With no coming back<br>
+Red before black<br>
+Disemboweling frantically<br>
+Pure ecstasy pure misery<br>
+Blood flows from the attack</p>
+
+          <h1 id="t3" class="lyrics-test">-Code Of The Slashers-</h1>
+          <p class="lyrics-test-test">Systematic in our ways of attack<br>
+Deviant by nature this is our habitat<br>
+Once you've entered there's no chance of escape<br>
+Next thing you know cold steel in your face<br><br>
+Your predetermined fate is in our hands<br>
+Deliverance of pain upon the stroke of our knives<br>
+Predatory impulses controlling our minds<br>
+You make a sound we'll end your fucking life<br><br>
+
+Gripping you right by the throat no chance to run<br>
+Horror unfolds<br>
+Ripping apart the souls of the ones we hunt<br>
+The slashers code<br>
+Extremely rapacious<br>
+Insatiable bloodlust<br>
+We'll kill anyone who comes at us<br><br>
+
+Jagged are the knives we wield<br>
+You know you're gonna lose this fight<br>
+Your hands a useless shield<br>
+Blood is gonna spray tonight<br>
+Provided by our steel<br>
+Accept the violence<br><br>
+
+Gripping you right by the throat no chance to run<br>
+Ripping apart the souls of the ones we hunt<br><br>
+
+Jagged are the knives we wield<br>
+You know you're gonna lose this fight<br>
+Your hands a useless shield<br>
+Blood is gonna spray tonight<br>
+Provided by our steel<br>
+Accept the violence<br><br>
+
+Jagged are the knives we wield<br>
+You know you're gonna lose this fight<br>
+Your hands a useless shield<br>
+Blood is gonna spray tonight<br>
+Provided by our steel<br>
+Accept the violence<br><br>
+
+Systematic in our ways of attack<br>
+Deviant by nature this is our habitat<br>
+Once you've entered there's no chance of escape<br>
+Next thing you know cold steel in your face<br>
+Your predetermined fate is in our hands<br>
+Deliverance of pain upon the stroke of our knives<br>
+Predatory impulses controlling our minds<br><br>
+You make a sound we'll end your fucking life<br>
+We'll end your fucking life<br>
+We'll end your fucking life]</p>
+
+          <h1 id="t4" class="lyrics-test">-Shedding My Human Skin-</h1>
+          <p class="lyrics-test-test">Up from the depths of creation<br>
+To dwell among a world for the weak<br>
+Confined to this creature of foreign flesh substance<br>
+Reformed from within<br>
+A savage conclusion impending<br>
+Demonic invasion of a dominant hierarchy<br>
+<br>
+Alternate paths of temptation<br>
+In tongues an evil purity will speak<br>
+Symbolic redemption through an imminent transformation<br>
+<br>
+Human in form but not of this earth, species reborn<br>
+Blood uniform is worn in disgust, will violently be shredded and torn<br>
+Human in form, a vicious rebirth from not of this earth, species reborn<br>
+Blood uniform is worn in disgust, will violently be shredded and torn<br>
+<br>
+Slow slicing<br>
+Mutating through the blood<br>
+Self carving<br>
+Erupting from within<br>
+<br>
+Shedding my human skin<br>
+<br>
+Human in form but not of this earth, species reborn<br>
+Blood uniform is worn in disgust, will violently be shredded and torn<br>
+Human in form, a vicious rebirth from not of this earth, species reborn<br>
+Blood uniform is worn in disgust, will violently be shredded and torn<br>
+<br>
+Savage conclusion impending<br>
+In tongues an evil purity will speak<br>
+Demonic invasion of a dominant hierarchy</p>
+
+          <h1 id="t5" class="lyrics-test">-Remaimed-</h1>
+          <p class="lyrics-test-test">All that remains<br>
+Are those that were remaimed<br>
+<br>
+Crush the village and plunder<br>
+Like many times before<br>
+Rape the women and slaughter all the children<br>
+Everyone is mangled and deformed<br>
+They all have lost a limb or two<br>
+With another one to follow<br>
+Decaying torn off penises<br>
+Which the men were made to chew and swallow<br>
+<br>
+Subjected to these atrocities<br>
+Like many times before<br>
+The women bore bastard children who were mangled and deformed<br>
+Born without a limb or two<br>
+Like it fucking matters<br>
+At most they'll live for several years until the next raid occurs<br>
+<br>
+The first time they came<br>
+All were horribly maimed<br>
+And every time after<br>
+Remaimed through sick laughter<br>
+Remaimed<br>
+<br>
+Remaimed until they die<br>
+Die from being maimed again<br>
+Remaimed<br>
+<br>
+The first time they came<br>
+All were horribly maimed<br>
+And every time after<br>
+Remaimed through sick laughter<br>
+Remaimed<br>
+<br>
+Remaimed until they die<br>
+Die from being maimed again<br>
+Remaimed</p>
+
+          <h1 id="t6" class="lyrics-test">-Firestorm Vengeance-</h1>
+          <p class="lyrics-test-test">Venomous blood courses through our veins<br>
+Poisoned by indignation<br>
+So much blood on their callous hands<br>
+Cruelty their ruination<br>
+<br>
+Firestorm vengeance<br>
+Firestorm vengeance<br>
+<br>
+They sought to oppress<br>
+Under duress<br>
+Never thinking of this day<br>
+<br>
+No cheeks were turned<br>
+Now the bodies burn<br>
+And the tyrants writhe in pain<br>
+<br>
+No mercy for the merciless<br>
+The time for that has passed<br>
+<br>
+Flagellate before they burn<br>
+They scream with every lash<br>
+<br>
+Ravaging their halls of torture and death<br>
+Craving retribution<br>
+Winds of hatred fan the flames<br>
+Reprisal's conflagration<br>
+<br>
+Firestorm vengeance<br>
+Firestorm vengeance<br>
+Firestorm vengeance<br>
+<br>
+Searing heat chars their flesh<br>
+Burning judgment<br>
+Punish them<br>
+<br>
+Furious inferno<br>
+They cry in pain<br>
+No mercy<br>
+<br>
+Firestorm<br>
+Payback for their crimes<br>
+<br>
+No escape from this hell<br>
+They will burn here<br>
+Flames consume<br>
+<br>
+Bodies burnt to the bone<br>
+Reduced to coals<br>
+The oppressors pay<br>
+<br>
+Firestorm<br>
+Persecution ends<br>
+Firestorm<br>
+Despot burn in hell<br>
+<br>
+Firestorm vengeance<br>
+Firestorm vengeance<br>
+Firestorm vengeance
+</p>
+
+          <h1 id="t7" class="lyrics-test">-Heads Shoveled Off-</h1>
+          <p class="lyrics-test-test">Back in Nam he killed a man<br>
+A shovel was used to cut his head off<br>
+Now forever changed lust to decapitate<br>
+Chop at the neck to keep the skull intact<br>
+<br>
+Going insane<br>
+Come back deranged<br>
+<br>
+He buries his victims<br>
+Only the heads exposed<br>
+The screams don't bother him<br>
+But he likes to make them stop<br>
+<br>
+Eyes wide open<br>
+As they see the shovel<br>
+Coming at them slowly<br>
+Blood spurts through the air<br><br>
+Head detaches from the body<br>
+The eyes can still see but<br>
+The brain starts to die rapidly<br><br>
+
+Back in Nam he killed a man<br>
+Many more would die<br>
+Shovels used to cut their heads off<br><br>
+Now forever changed lust to decapitate<br>
+Chop at the neck to keep the skull intact<br>
+
+Going insane<br>
+Come back deranged<br><br>
+
+The open neck holes fester<br>
+Ravaged by the vultures
+Bodies for the insects and<br>
+The skulls are for the collection<br><br>
+Brains and eyes are eaten<br>
+Gnaw the skin though rotten<br>
+Only bones will remain but<br>
+The skulls are for the collection<br><br>
+
+Killings confirmed by the hundreds<br>
+Were carried out after the war in due time<br><br>
+Killings confirmed by the thousands<br>
+Were carried out after the war with his mind<br>
+
+Heads shoveled off</p>
+
+          <h1 id="t8" class="lyrics-test">-Corpus Delicti-</h1>
+          <p class="lyrics-test-test">nter the scene, horrific violence, deceptive pretense<br>
+Feeble attempt to mislead with false evidence, corpus delicti<br><br>
+
+Luminol reveals the truth<br>
+Blood spatter throughout the entire room<br>
+Virtue is choked out by foul ambition<br>
+Welcome to the killing room<br><br>
+
+Capricious malevolence<br>
+No body, no homicide<br>
+Imaginary intruder<br>
+Contributing blood continuously<br>
+Bleach the stains<br>
+Forward to entropy<br><br>
+
+Luminol reveals the truth<br>
+Blood spatter throughout the entire room<br>
+Virtue is choked out by foul ambition<br>
+Welcome to the killing room<br>
+Enter the scene, horrific violence, deceptive pretense<br>
+Feeble attempt to mislead with false evidence, corpus delicti<br><br>
+
+Capricious malevolence<br>
+No body, no homicide<br>
+Imaginary intruder<br>
+Contributing blood continuously<br>
+Bleach the stains<br>
+Forward to entropy</p>
+
+          <h1 id="t9" class="lyrics-test">-Scavenger Consuming Death-</h1>
+          <p class="lyrics-test-test">Hammers swing, cracking their skulls<br>
+Blades slash, spraying their blood<br>
+He waits, watching them kill<br>
+When they're done, he will feed<br>
+Scavenger consuming death<br>
+Yield of violence gives him life<br>
+Scavenger consuming death<br>
+Parasite awaits your demise<br><br>
+
+Viscera, torsos torn<br>
+Chopping off legs and arms<br>
+Sounds of violence draw him near<br>
+Soon he'll feed, soon he'll feed<br>
+Scavenger consuming death<br>
+Yield of violence gives him life<br>
+Scavenger consuming death<br>
+Parasite awaits your demise<br>
+Scavenger consuming death<br>
+Body parts and severed heads<br>
+Scavenger consuming death<br>
+Human vulture seeks your end<br>
+Scavenger<br><br>
+Gruesome forager<br>
+Tracking murderers<br>
+What they leave behind will feed this ghoulish fiend<br>
+Cannibal<br>
+Waits for you to fall<br>
+Insatiable<br>
+Your mangled corpse will soon become his latest meal<br><br>
+They have died<br>
+Eat their flesh<br>
+Before they rot<br>
+Gnaw and tear<br>
+The fresh meat<br>
+Leave only bones<br>
+A morbid harvest, once alive<br>
+Murdered, butchered, eaten, they're gone<br>
+Exploit the carnage, he survives<br>
+Hunting, waiting, reaping, death's spawn<br>
+Eat them all<br><br>
+
+Scavenger consuming death<br>
+Yield of violence gives him life<br><br>
+Scavenger consuming death<br>
+Parasite awaits your demise<br>
+Scavenger consuming death<br>
+Body parts and severed heads<br>
+Scavenger consuming death<br>
+Human vulture seeks your end
+
+</p>
+
+          <h1 id="t10" class="lyrics-test">-In The Midst Of Ruin-</h1>
+          <p class="lyrics-test-test">The present has become the past<br>
+Mayhem and chaos foreboding<br><br>
+
+Brought back to the dark ages<br>
+Modern technology wiped from the earth<br>
+A world darkened once again<br><br>
+In the midst of ruin we will be<br>
+Anarchy<br><br>
+
+Malicious indifference ruling the land<br>
+You'd better be ready to die<br>
+It's kill or be killed<br>
+Barely surviving through primitive warfare<br>
+Only the strongest will thrive<br>
+I will not be killed<br><br>
+
+Every man for himself<br>
+Most of them turn to suicide<br>
+The populace forced to revert<br>
+Lacking in normalcy<br>
+Anarchy<br><br>
+
+In the midst of ruin<br><br>
+
+Most life will cease to exist<br><br>
+
+Malicious indifference ruling the land<br>
+You'd better be ready to die<br>
+It's kill or be killed<br>
+Barely surviving through primitive warfare<br>
+Only the strongest will thrive<br>
+I will not be killed<br><br>
+
+The present has become the past<br>
+Mayhem and chaos foreboding<br>
+
+Brought back to the dark ages<br>
+Modern technology wiped from the earth<br>
+A world darkened once again<br>
+In the midst of ruin we will be<br>
+Anarchy
+</p>
+
+          <h1 id="t11" class="lyrics-test">-Destroyed Without A Trace-</h1>
+          <p class="lyrics-test-test">Festering morbid decay<br>
+Saturates the air again<br>
+Stenches of a different pleasure<br>
+Boiling blood hole deepens<br>
+Filled with remains, once pitiful lives<br>
+Slaughtered day by day<br>
+Die without a face<br>
+Destroyed without a trace<br><br>
+
+Vanished when unfit for life<br>
+Betrayal not uncommon<br>
+Severed for the sacrifice<br>
+Appease the inner demon<br>
+Filled with remains, once pitiful lives<br>
+Boiling blood hole deepens<br>
+Die without a face<br>
+Destroyed without a trace<br><br>
+
+Given away<br>
+Life is taken away<br><br>
+
+Coordinate the mutilations<br>
+Simplify the deviance<br>
+Rectify the situation<br>
+Bodies chopped with diligence<br>
+Discarded humans melting fast<br>
+Enveloped in putrid vapor<br>
+Slaughtered day by day<br>
+Destroyed without a trace<br>
+
+Given away<br>
+Life is taken away<br>
+Morbid decay<br>
+In vain they have suffered and died<br><br>
+
+Gathered for the execution, brutal murders one by one begin<br>
+They will die, they will die, they will die, they will die<br>
+Dissected for incineration, chosen for annihilation<br>
+They will die, they will die, they will die, they will die<br><br>
+
+Never to be seen or heard<br>
+Now just a memory gone for all eternity<br>
+Cast into non-existence<br>
+Given away<br>
+Life is taken away<br><br>
+
+Festering morbid decay<br>
+Saturates the air again<br>
+Stenches of a different pleasure<br>
+Boiling blood hole deepens<br>
+Filled with remains, once pitiful lives<br>
+Slaughtered day by day<br>
+Die without a face<br>
+Destroyed without a trace<br><br>
+
+Gathered for the execution<br>
+Brutal murders one by one begin<br>
+Dissected for incineration<br>
+Chosen for annihilation<br><br>
+
+Never to be seen or heard<br>
+Now just a memory gone for all eternity<br>
+Burnt into non-existence<br><br>
+
+Given away<br>
+Life is taken away<br>
+Morbid decay<br>
+In vain they have suffered and died
+</p>
+
+          <h1 id="t12" class="lyrics-test">-Hideous Ichor-</h1>
+          <p class="lyrics-test-test">Decay, distinct and putrid<br>
+Moldering remnants compel<br>
+Fetor, the stench entices me<br>
+<br>
+Singular insanity guiding me, driving me<br>
+Consume the putrefied rot<br>
+Bodies of the dead<br>
+Nourish me<br>
+<br>
+Madness, obsessive hunger<br>
+Sickening urges demand<br>
+Offal, I crave voraciously<br>
+<br>
+Cadaver in the cemetery beckoning, summoning<br>
+Ghastly fumes diffuse retch<br>
+Flowing from within<br>
+I must drink<br>
+<br>
+Hideous ichor drips from the coffin<br>
+Inside the corpse has stirred<br>
+Horrors within my sustenance<br>
+But is is truly dead?<br>
+<br>
+Hideous ichor exudes from the crypt<br>
+Necrotic but somehow alive<br>
+The eyes of the dead blankly stare<br>
+But did it truly die?<br>
+<br>
+Siphoning of the blood<br>
+Plunging my hands in rot<br>
+Macabre desire, death<br>
+Macabre desire, death<br>
+<br>
+Feeding this ghoulish urge<br>
+To give me strength this way<br>
+Macabre desire, death<br>
+Macabre desire, death<br>
+<br>
+Was I hunting it<br>
+Or was it luring me<br>
+Macabre desire, death<br>
+Macabre desire, death<br>
+<br>
+Hideous ichor drips from the coffin<br>
+Inside the corpse has stirred<br>
+Horrors within my sustenance<br>
+But is is truly dead?<br>
+<br>
+Hideous ichor exudes from the crypt<br>
+Necrotic but somehow alive<br>
+The eyes of the dead blankly stare<br>
+But did it truly die?
+</p>
+        </div>
+      </div>
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+      </div>
+
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+      </div>
+
+          <div class="page-finish">
+            <a href="./security.html">Security Statements</a>
+            <a href="./terms.html">Terms of Service</a>
+            <a href="./privacy.html">Privacy Policy</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+
+      </body>
+      </html>

@@ -1,0 +1,2060 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title"></h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/theunion.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">the Union Of Crowns - 2012</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Redeemer</a>
+      <a href="#f2">The Maiden</a>
+      <a href="#f3">Lionheart</a>
+      <a href="#f4">Message To A King</a>
+      <a href="#f5">An Honourable Reign</a>
+      <a href="#f6">Knight Life</a>
+      <a href="#f7">Royal Blood</a>
+      <a href="#f8">Bitemarks</a>
+      <a href="#f9">Abdication Of Power</a>
+      <a href="#f10">Kingdom</a>
+      <a href="#f11">1603</a>
+      <a href="#f12">Sceptres</a>
+      <a href="#f13">Vacant Throne</a>
+      <a href="#f14">A Curse</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/runes.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Runes - 2014</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Man On Fire</a>
+      <a href="#s2">Shadow, A Creator</a>
+      <a href="#s3">The Torch</a>
+      <a href="#s4">Watcher</a>
+      <a href="#s5">Our Gift</a>
+      <a href="#s6">Darker Water</a>
+      <a href="#s7">Another Journey</a>
+      <a href="#s8">Under The Sun</a>
+      <a href="#s9">Year Of Harvest</a>
+      <a href="#f10">Garden Of Thorns</a>
+      <a href="#s11">Divine Breath</a>
+      <a href="#s12">Last Of The Ice</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/earthbound.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Earthbound - 2016</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">The Eternal</a>
+      <a href="#t2">Last Light</a>
+      <a href="#t3">Earthbound</a>
+      <a href="#t4">The Burden</a>
+      <a href="#t5">Cemetery</a>
+      <a href="#t6">Restless & Cold</a>
+      <a href="#t7">301</a>
+      <a href="#t8">Memories</a>
+      <a href="#t9">For Us</a>
+      <a href="#t10">Bloodline</a>
+    </div>
+</div>
+
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/theunion.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Union Of Crowns - 2012</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Redeemer-</h1>
+      <p class="lyrics-test-test">So now I know that this is where we need to go to believe and get<br>
+stronger. I have nothing to say, you have nowhere to run, Let's stay<br>
+strong here, our life can get better.<br><br>
+
+Forgiveness for your crimes is not praying this time. I'm calling<br>
+recompense; I'm calling out your lies. Realise in other people eyes, the<br>
+consequences were not mended By a sign of a cross, upon your fucking<br>
+forehead.<br><br>
+
+Shallow man, you've forsaken all you love (for the last time) Oh shallow<br>
+man for this is not the end, the time hast come for strength, please don't<br>
+give in. Show me the will to fight, after this there's life, this is where<br>
+you start to believe Oh shallow man for this is not the end, the time hast<br>
+come for strength, please don't give in. Struggle through and show, there<br>
+is always hope this is where you start to believe you can grow.<br><br>
+
+So now I know that this is where we need to go to believe and get<br>
+stronger. I have nothing to say, you have nowhere to run, Let's stay<br>
+strong here, our life can get better.<br><br>
+
+You Feel a weight has lifted.. you feel your dawn is new You must hold<br>
+inside a fear of the hell that waits for you. Redeemer, you have tried to<br>
+gather strength from skies. You have no knowledge, no concept of when you<br>
+die.<br><br>
+
+Shallow man, you've forsaken all you love (for the last time) Oh shallow<br>
+man for this is not the end, the time hast come for strength, please don't<br>
+give in. Show me the will to fight, after this there's life, this is where<br>
+you start to believe you can grow Oh shallow man for this is not the end,<br>
+the time hast come for strength, please don't give in. Struggle through<br>
+and show, there is always hope this is where you start to believe.<br><br>
+
+So now I know that this is where we need to go to believe and get<br>
+stronger. I have nothing to say, you have nowhere to run, Let's stay<br>
+strong here, our life can get better.</p>
+
+      <h1 id="f2" class="lyrics-test">-The Maiden-</h1>
+      <p class="lyrics-test-test">I will be dead before I lose<br>
+My chance to stop this and refuse<br>
+To pay the price for time it takes<br>
+To kill and stop before it breaks<br><br>
+
+I will take it all<br>
+Before I die<br>
+Holding back the truth<br>
+Will take over my life<br><br>
+
+A speech I knew I'd have to give one day<br>
+Maybe it would be better saved for another day<br>
+Who am I to say?<br><br>
+
+Who am I to say?<br>
+
+I'll be free without you<br>
+I'll be back to the start again<br>
+Without this weight around my neck<br>
+I can put this all to rest<br><br>
+
+I'll be free without you<br>
+I'll be back to the start again<br>
+Let's take this time to realise<br>
+Learn from what's been said<br><br>
+
+Find me among the ashes where I belong<br>
+How do I become stronger?<br>
+How do I survive this?<br>
+Find me among the ashes so where do I belong in this?<br><br>
+
+Ever morning world<br>
+Ever moving space<br>
+Maybe it would be better saved for another day<br><br>
+
+[2x]<br>
+I spoke to the maiden<br>
+She hasn't said a word<br>
+I told her I wasn't coming home<br>
+She knew she'd forever be alone<br><br>
+
+I'll be free without you<br>
+I'll be back to the start again<br>
+Without this weight around my neck<br>
+I can put this all to rest<br><br>
+
+I'll be free without you<br>
+I'll be back to the start again<br>
+Let's take this time to realise<br>
+Learn from what's been said<br><br>
+
+Find me among the ashes where I belong<br>
+How do I become stronger?<br>
+How do I survive this?<br>
+Find me among the ashes so where do I belong?<br><br>
+
+I'll be free without you<br>
+I'll be back to the start again<br>
+Without this weight around my neck<br>
+I can put this all to rest<br><br>
+
+I'll be free without you<br>
+I'll be back to the start again<br>
+Let's take this time to realise<br>
+Learn from what's been said<br>
+What's been said<br>
+What's been said
+</p>
+
+      <h1 id="f3" class="lyrics-test">-Lionheart-</h1>
+      <p class="lyrics-test-test">Oh ive never seen myself before<br>
+spending all of my time in promised lands<br>
+and our home the only place ive ever known<br>
+im not alone<br><br>
+
+Lionheart<br>
+you were the one who had my back from the start<br>
+Lionheart<br>
+you were the one who had my back from the start<br>
+from the very start<br>
+Lionheart<br><br><br>
+
+Over and over and this is how it ends<br>
+time after time our passions never ends<br>
+this is where we came from<br>
+and this is were we met<br>
+faces remembered we'll never forget<br><br>
+
+Now is our chance to make a stand<br>
+this is the era of the common man<br>
+burn us alive with the fire thats in our eyes<br>
+burn us alive our bodies end where our souls survive<br><br>
+
+Over and over and this is how it ends<br>
+time after time our passion never ends<br>
+this is where we came from<br>
+and this is where we met<br>
+faces remembered we'll never forget<br><br>
+
+over and over<br>
+time after time<br>
+this is how it ends<br><br>
+
+over and over and this is how it ends<br>
+time after time our passions never ends<br>
+this is where we came from<br>
+and this is where we met<br>
+faces remembered we'll never forget<br><br>
+</p>
+
+      <h1 id="f4" class="lyrics-test">-Message To A King-</h1>
+      <p class="lyrics-test-test">here’s no sacrifice; you don’t need to justify,<br>
+free from all your shackles, she’s gone but not forgotten.<br><br>
+
+Did she tear the tongue from your head? Are you voiceless now?<br>
+Speak up, speak up!<br>
+Did she tear the tongue from your head? Are you voiceless now?<br>
+Speak up, speak up!<br>
+It will never be the same.<br><br>
+
+I hear the serpent lies,<br>
+But I resist them this time,<br>
+For the message spoken<br>
+Will leave me broken<br>
+I will suffocate.<br><br>
+
+I won't be, I won't be swayed, I know the game<br>
+I won't be, I won't be swayed, I know your fucking aim<br>
+It won't be long, forever torn, we can move on.<br>
+It’s not the way we planned this, you aren’t the one I<br>
+loved when we first met that day!<br>
+It’s changed and I can’t stand it.<br>
+Don’t try and test me, I’ve been locked inside your<br>
+labyrinth for far too long, and now we’re breaking out!<br><br>
+
+It won't be long. Forever torn, we can move on<br>
+It's not the way we planned this<br>
+You aren't the one I loved when we first met that day<br>
+It's changed and I can't stand it<br><br>
+
+I hate the way you pushed me! My life became so empty,<br>
+ through times that hurt and killed you lost me.<br>
+Let’s break this chain and try to get free, let’s get<br>
+ through and break out, it’s for the best.<br>
+Put this to the rest; I will never forget,<br>
+don’t stop now; take it on, the final test!<br>
+See what this means... there’s nothing left!<br>
+You need to hold inside and you need to<br>
+realise she wasn’t who you thought she could be.<br><br>
+
+Follow me, and I’ll show you,<br>
+Follow me, and I’ll show you who you used to be.
+</p>
+
+      <h1 id="f5" class="lyrics-test">-An Honourable Reign-</h1>
+      <p class="lyrics-test-test">Reign upon me, show me how I will survive.<br>
+ Try and tell me a way to feel alive.<br>
+ Bring it back to life, to whole new heights and tell me what is needed.<br>
+ I know you'll guide me home down this darkened road. Rain upon me,<br>
+shower me with the tears of salvation. Hold me close, hold me near.<br><br>
+
+I find myself another year spent facing a wall...<br>
+My life; our path has never been shown<br>
+but we move on. Fighting to keep our reign from them.<br><br>
+
+We will fall into the blacker sense of reason.<br>
+Choose your side. I hope to God you pick the right one this time.<br><br>
+
+We are The Crown! We are The Crown! Stand up and scream it loud!<br>
+Triumphant;<br>
+immovable.<br><br>
+
+In darkness we find ourselves.<br>
+
+I knew we would pursue the right path,<br>
+even if it was long. We haven't changed,<br>
+we stay the same; ever strong.<br>
+
+Show me the new day...<br>
+know as long as our hearts are beating,<br>
+we will always find our way.</p>
+
+      <h1 id="f6" class="lyrics-test">-Knight Life-</h1>
+      <p class="lyrics-test-test">My life becoming worthless<br>
+I'll never learn, I'll never learn from it<br>
+My worth becoming senseless<br>
+I'll never learn, I'll never fucking learn<br><br>
+
+I live for the knight life<br>
+But nothing I can do can make me feel alive<br>
+Standing on my own tonight<br>
+My blurring vision, I see nothing in plain sight<br><br>
+
+I live for the knight life<br>
+But nothing I can do can make me feel alive<br>
+Standing on my own tonight<br>
+My blurring vision, I see nothing in plain sight<br><br>
+
+Have I taken this too far?<br>
+Have I gone over the edge?<br>
+Because I cannot believe in this or what anyone has said<br>
+I have broken this line...<br>
+I have wasted my time...<br>
+I need to grow up and move on<br>
+Before this takes over my life<br><br>
+
+Lie after lie I've shed and every chance I had<br>
+To finally better myself in life<br>
+I took all you had to give<br>
+It left me washed up and worthless in society<br><br>
+
+Overcome!<br><br>
+
+I know you'll never trust me<br>
+If I cannot ever trust myself<br>
+I know you'll never trust me<br>
+If I cannot ever trust myself<br><br>
+
+Have I taken this too far?<br>
+Have I gone over the edge?<br>
+Because I cannot believe in this or what anyone has said<br>
+I have broken this line...<br>
+I have wasted my time...<br>
+I need to grow up and move on<br>
+Before this takes over my life</p>
+
+      <h1 id="f7" class="lyrics-test">-Royal Blood-</h1>
+      <p class="lyrics-test-test">Dead walking!<br>
+
+I've got to get out, Got to get away from here somehow,<br>
+I've got to get out,<br>
+Got to get away from this crowd.<br><br>
+
+Rise, come alive, have hope,<br>
+Our fight, the struggle in life,<br>
+To make our own way across to the other side.<br><br>
+
+Show me the light, Illuminate the night,<br>
+Got to get out of sight, Stop fueling this endless fight.<br><br>
+
+Realize! Realize, you've been living a goddamn lie,<br>
+I've been watching the<br>
+shadows moving in different ways<br>
+I have seen the way the world has changed,<br>
+I don't trust the dark these days.<br><br>
+
+I've been watching the shadows moving in different ways,<br>
+I have seen the way the world has changed,<br>
+I don't trust the dark these days.<br><br>
+
+Rise, come alive, have hope, Our fight, the struggle in life,<br>
+To make our own way across to the other side.<br><br>
+
+Show me the light, Illuminate the night,<br>
+Got to get out of sight, Stop fueling this endless fight.<br>
+
+As I fall away, I'll find myself someday, somehow, someway</p>
+
+      <h1 id="f8" class="lyrics-test">-Bitemarks-</h1>
+      <p class="lyrics-test-test">Oh Lord, have mercy, don't tell me I have sinned...<br>
+For no one in this world has seen the sights that I have seen!<br>
+I wouldn't wish it upon my own worst enemy<br>
+I haven't slept in days, my reality fades...<br>
+I'm not sure that I'm awake<br><br>
+
+The dead are dead in your eyes, but they are alive in mine<br>
+The dead died in your lives, but the live in mine<br><br>
+
+I've looked for a lifetime, I've seen so many things<br>
+But nothing could be clearer in this god forsaken scene<br>
+So this is where I am now, just trying to survive!<br>
+I'm holding close this secret until the day I die<br><br>
+
+I know it 'cause I've seen it<br>
+I have been on my knees for weeks<br>
+I can't decide if it's a trick of the mind<br>
+Or the absence of sleep...<br>
+The absence of sleep?<br>
+If there's anyone within these four walls<br>
+Make yourself be known<br><br>
+
+The blood upon the walls is now upon my hands<br>
+The blood upon the walls is now upon my fucking hands!<br>
+The blood upon the walls is now upon my hands<br>
+The blood upon the walls is now upon my fucking hands!<br><br>
+
+I've looked for a lifetime, I've seen so many things<br>
+But nothing could be clearer in this god forsaken scene<br>
+So this is where I am now, just trying to survive!<br>
+I'm holding close this secret until the day I die<br><br>
+
+I see your bite marks baby<br>
+I'm not going to lie and say it's all okay<br>
+I see your bite marks baby<br>
+I'm not going to lie and say it's all okay<br>
+I see your bite marks baby<br>
+I'm not going to lie and say it's all okay<br>
+I see your bite marks baby<br>
+I'm not going to lie and say it's all okay<br><br>
+
+The blood upon the walls is now upon my hands<br>
+The blood upon the walls is now upon my fucking hands!<br>
+The blood upon the walls is now upon my hands<br>
+The blood upon the walls is now upon my ...<br>
+The blood upon the walls is now upon my fucking hands!</p>
+
+      <h1 id="f9" class="lyrics-test">-Abdication Of Power-</h1>
+      <p class="lyrics-test-test">I’ll watch the life drain from your eyes,<br>
+I’ll pull the teeth from your smile,<br>
+first let me just show you what it’s like to be alive.<br>
+You’re nothing more than a parasite,<br>
+spending all your life treading over all the ones you love.<br>
+You have cornered me for the last time and by the dawn,<br>
+I will rise again!<br><br>
+
+I look inside and can’t forget the way you shot me down,<br>
+just like an enemy, and that’s all you are to me.<br>
+It’s time for you to see what this has done,<br>
+what you have become!<br>
+Too blind to see;<br>
+you are my enemy!<br><br>
+
+What makes you think you’ve gone unnoticed?<br>
+You were too blind,<br>
+I knew your game years ago.<br>
+Show me one good reason why<br>
+I shouldn’t remove the blood from your veins!<br>
+You took all I had and you<br>
+tore it apart and set it into flames,<br>
+You made me a hollow shell,<br>
+but by the dawn I will rise again!<br><br>
+
+I look inside and can't forget<br>
+the way you shot me down like an enemy<br>
+And that's all you are to me<br>
+It's time for you to see what<br>
+this has done, what you have become!<br>
+Too blind to see... You are my enemy<br><br>
+
+I'll stop fighting to believe<br><br>
+
+Never again will I trust you<br>
+Never again will I stand by your side<br>
+Never again will I trust you<br>
+Never again will I stand by your side<br><br>
+
+I look inside and can't forget<br>
+the way you shot me down like an enemy<br>
+And that's all you are to me<br>
+It's time for you to see what<br>
+this has done, what you have become!<br>
+Too blind to see...<br>
+You are my enemy<br><br>
+
+I look inside and I can't forget<br>
+The way you prove me down<br>
+This time you've got what you deserved<br>
+I'm finished wasting time on you</p>
+
+      <h1 id="f10" class="lyrics-test">-Kingdom-</h1>
+      <p class="lyrics-test-test">Blind, we follow. Through sickness, through sorrow.<br>
+I need you on my side,<br>
+just give me the chance, just give me the sign!<br>
+I said I'd never let you<br>
+go, but time has played it's role,<br>
+and this is how it ends. Uncertain,<br>
+unprepared, forever in despair.<br>
+Alone and I am scared. Fight on!<br><br>
+
+Alive! You cannot leave me on my own,<br>
+it's no life worth living. I<br>
+shouldn't have to do this on my own at<br>
+the beginning. We made sacrifices.<br>
+We made sacrifices.<br><br>
+
+Blind, we follow. Through sickness,<br>
+through sorrow. I need you on my side,<br>
+just give me chance,<br>
+just give me the sign. I said I'd never let you go,<br>
+for once just stay, don't go.<br>
+And this is how it ends. Uncertain,<br>
+unprepared, forever in despair.<br>
+Alone and I am scared. Live on!<br><br>
+
+Losing a battle to the game of life,<br>
+Love was your downfall. Finding our<br>
+solace in the moment,<br>
+for your heart and for your memory.<br><br>
+
+As the last bit of breath slowly leaves your lungs.<br>
+When the blood seizes<br>
+within your veins.<br>
+I remember the last thing I heard you say<br>.
+You say you<br>
+"feel me in your heart",<br>
+Now I feel you in my soul.<br><br>
+
+We were like stone.
+</p>
+
+      <h1 id="f11" class="lyrics-test">-1603-</h1>
+      <p class="lyrics-test-test">Will I be left here, alone in sadness?<br>
+I feel the end now, I've gone and lost this.<br><br>
+
+When I think of you from time to time<br>
+I know the differences means I'll wait a while<br>
+Until the sun rises on your side of town<br>
+I hope the signal I had can still be found<br><br>
+
+I feel alone, I fear I won't get through this<br>
+All this has shown; the truth in the madness.<br>
+It's time to breathe and know that you've got it.<br>
+All this has shown; the truth in the madness.<br><br>
+
+Will I be left here, alone in sadness?<br>
+I feel the end now, I've gone and lost this.<br><br>
+
+Can you not hear me? I can't keep trying...<br>
+I wouldn't leave this without an ending.<br><br>
+
+I have had my thoughts. I'm sure you've had your dreams.<br>
+When your life has no plan, you don't need schemes.<br>
+You learn that the road is a home and when the strangers stare,<br>
+you know you're never alone. (Never alone)<br><br>
+
+I feel alone, I fear I won't get through this<br>
+All this has shown; the truth in the madness.<br>
+It's time to breathe and know that you've got it.<br>
+All this has shown; the truth in the madness.<br><br>
+
+Will I be left here, alone in sadness?<br>
+I feel the end now, I've gone and lost this.
+</p>
+
+      <h1 id="f12" class="lyrics-test">-Sceptres-</h1>
+      <p class="lyrics-test-test">Separate the life you once knew,<br>
+let me take you back to years ago; you never knew what I could do!<br>
+We’re running out of time!<br><br>
+
+I am, the fucking viper!<br>
+The very venom that stings your tongue!<br>
+I am, the very demon..you’re not the man you thought you knew!<br><br>
+
+We went alone, into the world unknown,<br>
+it wasn’t until later on, that my true face was shown.<br><br>
+
+I asked you for your soul, then corrupted all that was so beautiful.<br><br>
+
+You’re alive but you’re barely living.<br>
+You were my saviour, I was your sin.<br>
+
+Exorcise me! Oh, the demon...the demon, it has me!<br>
+
+Always looking for a new horizon, nothing ever seems to satisfy me,<br>
+I’m the new kind of monster, I am the cause, the catalyst and your<br>
+disease.<br><br>
+I’m spreading the lies,<br>
+you need to sever the ties!<br>
+You’re alive but you’re barely living.<br>
+You were my saviour, I was your sin.<br><br>
+
+The betrayal we were living in!<br>
+Nothing could prepare you for that life of sin!<br>
+
+We went alone, into the world unknown!
+</p>
+
+      <h1 id="f13" class="lyrics-test">-Vacant Throne-</h1>
+      <p class="lyrics-test-test">
+Take it back to sanity; to reason,<br>
+we are lost, at the breaking point; half way between struggle and relief.<br>
+
+We have to find the way through; we have to find a way!<br>
+We have to find a way through to find a better day.<br><br>
+
+Vacant throne, we ought to know, that the only way that we can succeed is<br>
+to overthrow.<br>
+
+Release control, relinquish all you’ve ever known!<br><br>
+
+Our father... creation rebuilding hope within our nation,<br>
+our mother... forgiveness, she helps us find the faith within us.<br>
+Take it back and back, to where we started,<br>
+through the wars we came; we fought and lasted.<br><br>
+I’ll go through hell to bring you down!<br>
+Take your life, your crown. The throne you’ve lived with...we’ll take it<br>
+all, no one can worship!<br>
+I’ll go through hell to bring you down,<br>
+take your life, your crown.</p>
+
+      <h1 id="f14" class="lyrics-test">-A Curse-</h1>
+      <p class="lyrics-test-test">The way I feel has been a curse.<br>
+Forever lost...<br>
+I should've learnt.<br>
+It's how you feel,<br>
+and what you think<br>
+combined as one<br>
+decide within.<br><br>
+
+To write this over<br>
+to be around<br>
+I held your hands,<br>
+though mine were bound.<br><br>
+
+I'll never go back to the start<br>
+nothing would change here.<br>
+I'd break your heart.<br>
+Never forget us<br>
+for it was real.<br>
+If we move on apart<br>
+in time, I'll heal.
+</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/earthbound.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">The Union Of Crowns" - </h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Man On Fire-</h1>
+        <p class="lyrics-test-test">Fear of the sacred<br>
+We're blurring lines between the real and the fake here.<br>
+And so I scream, "Return to me.<br>
+Return to me. Return to me."<br><br>
+
+Breathe slowly; take shallow breaths<br>
+So I shut you down; there's nothing left<br>
+Why are all the saints sick of governing<br>
+the knowledge that we're insane?<br>
+Dear body, come to haunt me<br>
+We drive ourselves through the fire's light<br><br>
+
+"Free me," said the man on fire.<br>
+"Release me to the higher.<br>
+Fighting certainty I know, I won't regret this."<br>
+"Find me," said the man on fire.<br>
+"Release me to the higher.<br>
+Forever in the dark alone, forgotten."<br><br>
+
+My passion must be frightening<br>
+I just shout to the dark<br>
+And all I have is screaming<br>
+I see paranoia, dark is calling me<br>
+All the voices of the souls that used to be<br>
+I must find a way to drown out the sound<br>
+I must find a way to drown out the sound<br><br>
+
+"Free me," said the man on fire.<br>
+"Release me to the higher.<br>
+Fighting certainty I know, I won't regret this."<br>
+"Find me," said the man on fire.<br>
+"Release me to the higher.<br>
+Forever in the dark alone, forgotten."<br><br>
+
+Set me alight, for I am losing it.<br>
+Set me alight, for I am losing it.<br>
+Set me alight, for I am losing it.<br>
+Set me alight, for I am losing it.<br><br>
+
+Fear of the sacred<br>
+We're blurring lines between the real and the fake here.<br>
+And so I scream, "Return to me.<br>
+Return to me. Return to me."
+
+</p>
+
+        <h1 id="s2" class="lyrics-test">-Shadow, A Creator-</h1>
+        <p class="lyrics-test-test">She beckons me, like a siren calling<br>
+Her bite will take your soul, frozen where you stand<br>
+My eyes have never seen her so cruel<br>
+The wrath she brings, steals the warmth of my soul<br><br>
+
+Draw near, let us keep our minds,<br>
+Don’t let the dark and the cold take your lives<br>
+Hear our prayers<br>
+May the God’s keep them near<br>
+Pray our shadows will appear<br>
+Hear our prayersv
+May the God’s keep them near<br>
+We must hold on until the new year<br><br>
+
+Stay safe, until the frost is clear<br>
+To hide ourselves away, until the sun appears<br><br>
+
+Her voice upon the wind, let’s me know she’s calling<br>
+Three have fallen, but we remain, surrounded<br>
+Pain turns to absent feeling<br><br>
+
+Our grasp may weaken but our hearts won’t be still<br><br>
+
+Draw near, let us keep our minds,<br>
+Don’t let the dark and the cold take your lives<br>
+Hear our prayers<br>
+May the God’s keep them near<br>
+Pray our shadows will appear<br>
+Hear our prayers<br>
+May the God’s keep them near<br>
+We must hold on until the new year<br><br>
+
+Stay safe, until the frost is clear<br>
+To hide ourselves away, until the sun appears<br><br>
+
+Feel the cold, when the winds blow<br>
+Feel the cold, when the winds blow<br><br>
+
+Stay safe, until the frost is clear<br>
+To hide ourselves away, until the sun appears<br>
+Stay safe, until the frost is clear<br>
+To hide ourselves away, until the sun appears</p>
+
+        <h1 id="s3" class="lyrics-test">-The Torch-</h1>
+        <p class="lyrics-test-test">I’m told the end is not far away<br>
+I’ve seen the change, it’s ours to save<br>
+Before the sun has time, has time to fade<br>
+We must light the torch, to find our way<br><br>
+
+I felt the earth moving today<br>
+And I saw a change in the waves<br>
+The sky went from blue to black<br>
+And all leaves have all been burnt away<br>
+We have to find a way to turn back the hands<br>
+Our time is running out, I can see it in the sands<br>
+Don’t be afraid, for we can change<br>
+I have seen the future told, but it’s not set in stone<br><br>
+
+Free your soul before the fire consumes you<br>
+Ground yourself, before the winds remove you<br>
+Raise your head above, before the earth it buries you<br>
+Save your breath, before the waters they drown you<br><br>
+
+I’m told the end is not far away<br>
+I’ve seen the change, it’s ours to save<br>
+Before the sun has time, has time to fade<br>
+We must light the torch, to find our way<br><br>
+
+I’ve heard the forest screaming<br>
+For help the river’s pleading<br>
+How could we let it go this far?<br>
+Murderers<br>
+We have to find a way to turn back the hands<br>
+Our time is running out I can see it in the sands<br><br>
+
+The beacon of hope, shrouded in black<br>
+We have to see the dark away, just set the torch alight<br><br>
+
+Set the torch alight<br>
+Set the torch alight<br><br>
+
+I’m told the end is not far away<br>
+I’ve seen the change, it’s ours to save<br>
+Before the sun has time, has time to fade<br>
+We must light the torch, to find our way</p>
+
+        <h1 id="s4" class="lyrics-test">-Watcher-</h1>
+        <p class="lyrics-test-test">I am forever the watcher,<br>
+Oath sworn protector,<br>
+Foretold your saviour,<br><br>
+
+I won't abandon you,<br>
+I cannot lose you,<br>
+I won't throw this hope away,<br>
+the hope you once knew,<br><br>
+
+I pray this sickness never ends.<br>
+I will not leave you, to suffer at the hands<br>
+Of sin.<br>
+If I were silenced,<br>
+Your name I would still speak.<br><br>
+
+There isn't a moment that you will leave my eyes<br>
+As you become faint in person<br>
+You're stronger in my mind,<br>
+So fight the demon inside<br>
+Fight the demon inside<br><br>
+
+Let go, let others take control,<br>
+The poison will drain and the possession will lose its hold,<br><br>
+
+I am forever the watcher,<br>
+Oath sworn protector,<br>
+Foretold your saviour,<br>
+And I will never abandon you<br>
+I cannot ever lose you<br><br>
+
+I pray this sickness never ends.<br>
+I will not leave you, to suffer at the hands<br>
+Of sin.<br>
+If I were silenced,<br>
+Your name I would still speak.<br><br>
+
+I won't abandon you<br>
+I cannot lose you<br>
+I won't throw this all away<br>
+I won't abandon you<br>
+I cannot lose you<br>
+I won't throw this all away<br><br>
+
+I pray this sickness never ends.<br>
+I will not leave you, to suffer at the hands of sin.<br>
+If I were silenced,<br>
+Your name I would still speak.</p>
+
+        <h1 id="s5" class="lyrics-test">-Our Gift-</h1>
+        <p class="lyrics-test-test">Take my hand<br>
+We are bound<br>
+You never have to feel alone<br>
+For we are found<br><br>
+
+Rise up all chosen<br>
+This is your moment to shine<br>
+‘Cause if you feel how I feel then there’s nothing to fear ‘cause this is your life<br><br>
+
+I grant you eternity sat at my side<br>
+All I ask is for your loyalty until the end of time<br><br>
+
+You knew you could prey on my heart<br>
+You knew you could sell me from the start<br>
+Now I know that this could be the end of me<br>
+Falling for the same game that you sold to him<br>
+I see this for what it is, we need it to believe in<br>
+You’ve preyed upon us for the final time<br><br>
+
+Let go, lose control,<br>
+Forget the ones you used to know<br>
+We are your family, this is your home now<br>
+Don’t fucking forget the mess we found you in<br>
+A gift turned a curse<br>
+A pact of blood until the end of the earth<br><br>
+
+You knew you could prey on my heart<br>
+You knew you could sell me from the start<br>
+Now I know that this could be the end of me<br>
+Falling for the same game that you sold to him<br>
+I see this for what it is, we need it to believe in<br>
+You’ve preyed upon us for the final time<br><br>
+
+Now I know that this could be the end of me<br>
+Falling for the same game that you sold to him<br>
+I see this for what it is, we need it to believe in<br>
+You’ve preyed upon us for the final time</p>
+
+        <h1 id="s6" class="lyrics-test">-Darker Water-</h1>
+        <p class="lyrics-test-test">I feel a storm is rising<br>
+The sound of the beast unleashing<br>
+This isn’t how I want the story to play out<br>
+There’s something beneath the water, that’s moving<br>
+The clarity in my reflection, I’m losing<br>
+A serpent beneath the surface<br>
+A force that has been unharnessed<br>
+I cannot keep it bottled up anymore<br><br>
+
+I’ve become lost in the sea<br>
+Where saints become sinners<br>
+And hate needs to breathe<br>
+I’ve never felt this before<br>
+The darkest of feelings so far from the shore<br><br>
+
+I’ve been the viper since day one<br>
+Spitting venom with a forked tongue<br>
+The time has come, to shed the shadows<br>
+I, the demon unleashed<br><br>
+
+There’s something beneath the water, that’s moving<br>
+The clarity in my reflection, I’m losing<br>
+I see the serpent rising, I feel the rage is gathering<br>
+I’m losing the battle between wrong and right<br><br>
+
+I’ve become lost in the sea<br>
+Where saints become sinners<br>
+And hate needs to breathe<br>
+I’ve never felt this before<br>
+The darkest of feelings so far from the shore<br><br>
+
+I’ve been the viper since day one<br>
+Spitting venom with a forked tongue<br>
+The time has come, to shed the shadows<br>
+I, the demon unleashed<br><br>
+
+The time has come, to shed the shadows<br>
+I, the demon unleashed</p>
+
+        <h1 id="s7" class="lyrics-test">-Another Journey-</h1>
+        <p class="lyrics-test-test">We’ve seen the signs, we chose the path<br>
+Our fate was bound to stone<br>
+I saw a time we when we were free<br>
+A glimpse of pure redemption<br>
+I believe<br>
+That our luck is changing<br>
+We believe<br>
+Let our minds be our guide<br><br>
+
+I have seen, the lines of our journey<br>
+I have seen, a wealth worth earning<br>
+I believe, I believe uncertainty is the best for me<br>
+
+I’m looking up into the sky<br>
+Reading in between the lines<br>
+The future will come for me<br>
+I’m guided by the path that leads me<br><br>
+
+I’m on the edge, too high to breathe<br>
+Yet I see it clearly, within my mind, never deviating<br>
+I believe<br>
+That our luck is changing<br>
+We believe<br>
+Let our minds be our guide<br><br>
+
+Follow me into the sky<br>
+My will is stronger now<br>
+The path burnt in my eyes<br>
+From the divine<br>
+Follow me into the sky<br>
+My will is stronger now<br>
+The path burnt in my eyes<br>
+From the divine<br><br>
+
+I have seen, the lines of our journey<br>
+I have seen, a wealth worth earning<br>
+I believe, I believe uncertainty is the best for me<br><br>
+
+I’m looking up into the sky<br>
+Reading in between the lines<br>
+The future will come for me<br>
+I’m guided by the path that leads me<br><br>
+
+I’m looking up into the sky<br>
+Reading in between the lines<br>
+[?]<br>
+Reading these signs is the key<br><br>
+
+Follow me into the sky<br>
+My will is stronger now<br>
+The path burnt in my eyes<br>
+From the divine<br>
+Follow me into the sky<br>
+My will is stronger now<br>
+The path burnt in my eyes<br>
+From the divine<br>
+Follow me into the sky<br>
+My will is stronger now<br>
+The path burnt in my eyes<br>
+From the divine</p>
+
+        <h1 id="s8" class="lyrics-test">-Under The Sun-</h1>
+        <p class="lyrics-test-test">Let them hear us, let it be heard<br>
+Our bond will never be broken<br>
+No roads abandoned, no bridges burned<br><br>
+
+So follow us home<br>
+Our brothers won’t die alone<br>
+The future is ours to make it our own<br>
+
+Another year and the world keeps turning<br>
+No money could buy the lessons we’re learning<br>
+This family stands strong, to overcome it all<br>
+And we will never divide, never divide<br>
+Never divide the solid lines<br>
+Be proud of the choice of taking this side<br>
+Living out our lives<br><br>
+
+WE ARE THE BRAVE<br>
+WE ARE THE BRAVE<br><br>
+
+I feel that this is where we rise<br>
+Together looking for the light<br>
+It seems so clear to me now that we are, under the sun<br>
+I see us moving further on<br>
+The path that we first came upon<br>
+It seems so clear to me now that we are, under the sun<br><br>
+
+With our hands on our hearts<br>
+And our heads to the sky, heads to the sky<br>
+We stand as one, until we die<br><br>
+
+WE ARE THE BRAVE<br>
+WE ARE THE BRAVE<br><br>
+
+We will not abandon<br>
+No man left unsaved<br>
+Forever as one, nobody forgotten<br>
+We are the last of the brave<br><br>
+
+I feel that this is where we rise<br>
+Together looking for the light<br>
+It seems so clear to me now that we are, under the sun<br>
+I see us moving further on<br>
+The path that we first came upon<br>
+It seems so clear to me now that we are, under the sun<br><br>
+
+We seek no glory in vain, we are the last of the brave<br>
+We seek no glory in vain, we are the last of the brave</p>
+
+        <h1 id="s9" class="lyrics-test">-Year Of Harvest-</h1>
+        <p class="lyrics-test-test">e put all our hope in northern stars<br>
+I hope the end of the winter isn’t too far<br>
+It’s this chemistry that’s forever pulling me<br>
+The feeling of wanting more than misery<br><br>
+
+Our hope is in each other<br>
+We must not stray from the path first chosen<br>
+As the light draws dim and the frost draws near<br>
+We must not fear<br>
+For it will clear<br><br>
+
+This is the path I’ve created<br>
+Hoping for the answers<br>
+Hoping that it’s not been in vain<br>
+Finding a way through the winter<br>
+Waiting for the harvest<br>
+Waiting to be rid of the cold<br><br>
+
+Move child<br>
+Now is the time<br>
+We’ve waited for these roots grow<br>
+And waited for the sun to shine<br>
+Leave now<br>
+Gather all you can<br>
+All our life’s work in one moment<br>
+Now stick to the plan<br>
+Stick to the plan<br><br>
+
+Year of the harvest<br>
+Hope of the lost<br>
+Year of the harvest<br>
+Hope of the lost<br><br>
+
+This is the path I’ve created<br>
+Hoping for the answers<br>
+Hoping that it’s not been in vain<br>
+Finding a way through the winter<br>
+Waiting for the harvest<br>
+Waiting to be rid of the cold<br><br>
+
+Rid of the cold<br>
+It’s starting over and I cannot bear to consume<br>
+Trying to figure a way to get through<br><br>
+
+This is the path I’ve created<br>
+Hoping for the answers<br>
+Hoping that it’s not been in vain<br>
+Finding a way through the winter<br>
+Waiting for the harvest<br>
+Waiting to be rid of the cold<br>
+Rid of the cold<br>
+</p>
+
+        <h1 id="s10" class="lyrics-test">-Garden Of Thorns-</h1>
+        <p class="lyrics-test-test">Look now, at what you’re becoming<br>
+Just an empty shell of the man I used to know<br>
+Because you’ve paid the price<br>
+You’ve sold your soul and life<br>
+And now I hear them coming to drag you back to hell<br><br>
+
+Wash away the blood<br>
+But we still see the sin<br>
+Nothing short of hell is what you’re living in, living in<br>
+Wash away the blood<br>
+But we still see the sin<br>
+Nothing short of hell is what you’re living in, living in<br><br>
+
+A fear of falling through the cracks it guides me<br>
+I must stay away, be sure not to stray<br>
+A shot at fighting through the hate that fills me<br>
+I must stay away, be sure not to stray<br><br>
+
+What have you become?<br>
+Salvation comes to those who look above<br>
+I never said that this would be enough<br>
+Your sins are far great, you’ve come here too late<br><br>
+This is your fate<br>
+
+To learn you must suffer<br>
+To repay debts you’ve stolen<br>
+Repenting is now the only way<br>
+Or there is no salvation here<br>
+Get up off of your knees and learn how to bleed<br><br>
+
+Wash away the blood<br>
+But we still see the sin<br>
+Nothing short of hell is what you’re living in, living in<br>
+Wash away the blood<br>
+But we still see the sin<br>
+Nothing short of hell is what you’re living in, living in<br><br>
+
+A fear of falling through the cracks it guides me<br>
+I must stay away, be sure not to stray<br>
+A shot at fighting through the hate that fills me<br>
+I must stay away, be sure not to stray<br><br>
+
+What have you become?<br>
+Salvation comes to those who look above<br>
+I never said that this would be enough<br>
+Your sins are far great, you’ve come here too late<br>
+What have you become?<br>
+You’ve sold the souls of all you know and love<br>
+I never said that this would be enough<br>
+Your sins are far too great,<br>
+You’ve come here too late<br>
+This is your fate
+</p>
+
+        <h1 id="s11" class="lyrics-test">-Divine Breath-</h1>
+        <p class="lyrics-test-test">Searching for divine breath<br>
+This is, our final test<br><br>
+
+For years you’ve been the forefront of my mind<br>
+I have felt relief, ended the curse<br>
+So take me away<br>
+For the last time<br>
+Take me away<br>
+
+We could drift away<br>
+For the last time<br>
+Take me away
+</p>
+
+        <h1 id="s12" class="lyrics-test">-Of Glory-</h1>
+        <p class="lyrics-test-test">
+We are alive<br>
+We woke again to see the sun rise<br>
+When we were falling, falling from grace, did you catch us?<br>
+You never did, you never did<br>
+When we were falling, falling from grace, did you catch us?<br>
+You never did, you never did<br><br>
+
+We never asked you for your loyalty<br>
+But now the tides are changing<br>
+It’s all you offer me<br>
+To break the chains that have been holding us<br>
+We’ve been held down too long to be free<br><br>
+
+Oppressor<br>
+You’re perched so high that you can’t hear us<br>
+Oppressor<br>
+I see your lies for what they truly are<br><br>
+
+We’ve remembered how this should be done<br>
+We’ve foreseen how life can move on
+With the feeling that we can push through, it all<br>
+As our shackles fall away, remembering the glory days<br>
+We will never stray away, to forget the everlasting pain<br><br>
+
+This is our moment<br>
+To break the hold we’ve always<br>
+Known<br><br>
+
+We’ve remembered how this should be done<br>
+We’ve foreseen how life can move on<br>
+With the feeling that we can push through, it all<br>
+As our shackles fall away, remembering the glory days<br>
+We will never stray away, to forget the everlasting pain<br><br>
+
+Oppressor<br>
+You’re perched so high that you can’t hear us<br>
+Oppressor<br>
+I see your lies for what they truly are<br><br>
+
+You said you were behind us but failed to see<br>
+At the end there’s no time for defeat<br>
+Don’t hold me back I feel full of belief<br>
+I am alive, we will not die<br><br>
+
+WE WILL NOT DIE<br><br>
+
+When we were falling, falling from grace, did you catch us?<br>
+You never did, you never did<br>
+When we were falling, falling from grace, did you catch us?<br>
+You never did, you never did<br>
+</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/runes.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Runes - </h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-The Eternal-</h1>
+          <p class="lyrics-test-test">I collect the souls of the desperate<br>
+The disenfranchised, broken & the weak<br>
+You must pay your way<br>
+Pay your way to meet with me<br>
+Place a coin between your teeth and pray to your god<br>
+That your memories keep<br>
+You are nothing more than a power gain<br>
+A lost spirit used for gain<br><br>
+
+Your soul has drifted, now it's mine to keep<br>
+A spirit lost inside it's calling me<br>
+Across the planes you know you'll never see<br>
+Damned eternally<br><br>
+
+Do you want my heart?<br>
+Pay with your soul<br>
+I'll fill the emptiness you'll never be alone<br>
+Do you want my heart?<br>
+Pay with your soul<br>
+And if you can't afford it you'll always be alone<br><br>
+
+I'll drown you in this ecstasy<br>
+Blinded by your love<br>
+Place your symbols across me<br>
+Banks burst; my river becomes a sea!<br><br>
+
+Your soul has drifted, now it's mine to keep<br>
+A spirit lost inside it's calling me<br>
+Across the planes you know you'll never see<br>
+Damned eternally<br><br>
+
+Set the price to see the other side<br><br>
+
+Your soul has drifted, now it's mine to keep<br>
+A spirit lost inside it's calling me<br>
+Across the planes you know you'll never see<br>
+Damned eternally</p>
+
+          <h1 id="t2" class="lyrics-test">-Last Light-</h1>
+          <p class="lyrics-test-test">
+Follow the light<br>
+Down the tunnel<br>
+Just know I'll be waiting<br>
+I'll be waiting for you<br>
+Follow the light<br>
+Down the tunnel<br>
+Just know I'll be waiting<br>
+I'll be waiting for you<br><br>
+
+Learn to forget<br>
+Is what they tell me to<br>
+Destroy the past & start new<br>
+I'd rather fade away<br>
+Than be dreaming awake<br><br>
+
+Have you ever laid on your back at night?<br>
+Stared into darkened corners<br>
+And seen faces of the dead alive?<br>
+Apparitions of a tormented mind<br><br>
+
+Let the light take my soul<br>
+I'm ready to let go<br>
+Lower my body below<br>
+Beyond the sky is home<br><br>
+
+Follow the light<br>
+Down the tunnel<br>
+Just know I'll be waiting<br>
+I'll be waiting for you<br><br>
+
+When they take me I will be happy<br>
+And when they take me I will be happy<br>
+I won't fear the touch of death<br>
+To see you standing next to me<br><br>
+
+Let the light take my soul<br>
+I'm ready to let go<br>
+Lower my body below<br>
+Beyond the sky is home<br>
+Let the light take my soul<br>
+I'm ready to let go<br>
+Lower my body below<br>
+Beyond the sky is home<br><br>
+
+A memory is not enough!<br><br>
+
+When the light of day fades<br>
+My soul will drift away<br>
+And I promise you I'll meet you at the gates<br>
+When the light of day fades<br>
+My soul will drift away<br>
+And I promise you I'll meet you at the gates<br>
+When the light of day fades<br>
+My soul will drift away<br>
+And I promise you I'll meet you at the gates<br><br>
+When the light of day fades<br>
+My soul will drift away<br>
+And I promise you I'll meet you at the gates<br><br>
+
+(When the light of day fades<br>
+My soul will drift away<br>
+And I promise you I'll meet you at the gates)</p>
+
+          <h1 id="t3" class="lyrics-test">-Earthbound-</h1>
+          <p class="lyrics-test-test">Do you remember a time,<br>
+When we looked to the stars at night?<br>
+Do you remember our lives,<br>
+Free from the poison, free from the lies?<br>
+Let me alter your surroundings<br>
+Step beyond all that you know<br>
+This could be the end of us<br>
+How far can our future go?<br><br>
+
+To live to feel the Earth in motion<br>
+I can see there’s much hope in changing this world,<br>
+But no one’s listening<br>
+We’ve been living our lives so long in denial,<br>
+Like whispers to the wind<br>
+
+EARTHBOUND!<br><br>
+We are shackled to the same ground<br>
+Our hope! One chance!<br><br>
+
+EARTHBOUND!<br><br>
+We are shackled to the same ground<br>
+Our hope! One chance!<br><br>
+
+This is a part of the future<br>
+I don’t think I’m ready to lose yet<br>
+We must be better than we’ve ever shown<br>
+For your resolution<br>
+You should stand as you must<br>
+To bring life into a dying sun<br><br>
+
+To live to feel the Earth in motion<br>
+I can see there’s much hope in changing this world,<br>
+But no one’s listening<br>
+We’ve been living our lives so long in denial,<br>
+Like whispers to the wind<br><br>
+
+We were given one chance<br>
+To make this world our own<br>
+We were given one chance<br>
+To make this world our own<br>
+To let this become…<br><br>
+
+DESOLATION!<br>
+Of all we know!<br>
+Desolation of our own!<br><br>
+
+To live to feel the Earth in motion, is all I need<br>
+I can see there’s much hope in changing this world,<br>
+But no one’s listening<br>
+We’ve been living our lives so long in denial,<br>
+Like whispers to the wind<br><br>
+
+EARTHBOUND!<br>
+We are shackled to the same ground<br>
+Our hope! One chance!<br><br>
+
+EARTHBOUND!<br>
+We are shackled to the same ground<br>
+Our hope! One chance!</p>
+
+          <h1 id="t4" class="lyrics-test">-The Burden-</h1>
+          <p class="lyrics-test-test">I should've been first of know<br>
+When the cracks began to show<br>
+I guess I fell so<br>
+I guess I fell so; lost in the crowd<br>
+Not wanting to be found<br>
+We have to rise above<br>
+I just have to<br>
+I just have to<br><br>
+
+Hail no hero, fear no evil<br><br>
+
+So this is how I become<br>
+A man, alone, set free<br>
+The only way to survive<br>
+Integrity<br>
+The path I've walked down is one of uncertainty<br>
+So now the burden has gone I can believe<br><br>
+
+Just let it all go<br><br>
+
+See what I have seen<br>
+Believe, believe<br>
+Feel what I have felt<br>
+Believe<br>
+
+I have seen the depths of misery<br>
+Just one more year of this?<br>
+I don't think so, I don't think so<br>
+So I'll pass on the torch and I free myself from chains<br>
+I hope you can, I hope you can<br><br>
+
+Hail no hero, fear no evil<br>
+
+So this is how I become<br>
+A man, alone, set free<br>
+The only way to survive<br>
+Integrity<br>
+The path I've walked down is one of uncertainty<br>
+So now the burden has gone I can believe<br>
+I can believe<br><br>
+
+So take your cross back<br>
+And free me from the burden<br>
+So weightless I am lifted<br><br>
+And I'll let you feel your body sink<br>
+So take your cross back<br>
+And free me from the burden<br>
+So weightless I am lifted<br>
+And I'll let you feel your body sink<br><br>
+
+So this is how I become<br>
+A man, alone, set free<br>
+The only way to survive<br>
+Integrity<br>
+The path I've walked down is one of uncertainty<br>
+So now the burden has gone I can believe
+</p>
+
+          <h1 id="t5" class="lyrics-test">-Cemetery-</h1>
+          <p class="lyrics-test-test">Amongst the old bones<br>
+Is where I call my home<br>
+Stories from the headstones<br>
+Old bones<br>
+Is where I call my home<br><br>
+
+I'd rather die than feel like this<br>
+To live in fire<br>
+Is it worth it for his sacrifice?<br>
+Far removed from the image in his mother's eye<br>
+This isn't life (this isn't life), this isn't life<br><br>
+
+Burn in the fire, the sulfur is stinging my eyes<br>
+Downfall of the liar, you have to pay for all you've sewn<br><br>
+
+Within the cemetery walls<br>
+Beyond the colour of stone<br>
+I've learned to know<br>
+Inside the cemetery walls<br>
+You're lost to bones<br>
+Within the cemetery walls<br>
+Beyond the colour of stone<br>
+I've learned to know<br>
+Inside the cemetery walls<br>
+You're lost to bones<br><br><br>
+
+Is there hope? Is there strength?<br>
+You've been looking to the sky for a while<br>
+And whilst I've made up my mind<br>
+You're seeking solace in the higher<br><br>
+
+I'm fucking buried,<br>
+I'm fucking buried in a shallow grave<br>
+I guess it's fear that holds me down<br>
+I am shrouded in the darkest of days<br>
+Will I be saved?<br><br>
+
+Within the cemetery walls<br>
+Beyond the colour of stone<br>
+I've learned to know<br>
+Inside the cemetery walls<br><br>
+You're lost to bones<br>
+Within the cemetery walls<br>
+Beyond the colour of stone<br>
+I've learned to know<br>
+Inside the cemetery walls<br>
+You're lost to bones<br><br>
+
+Was it worth it to sell your soul?<br>
+Was it worth it to know you'll always be alone?<br>
+Was it worth it to sit upon your fucking throne?<br>
+Was it worth it? I guess we'll never know<br>
+Was it worth it to sell your soul?<br>
+Was it worth it to know you'll always be alone?<br>
+Was it worth it to sit upon your fucking throne?<br>
+Was it worth it?</p>
+
+          <h1 id="t6" class="lyrics-test">-Restless & Cold-</h1>
+          <p class="lyrics-test-test">I am<br>
+Broken and cold<br>
+Restless and low<br>
+I am<br>
+A child alone<br>
+Lost in the road<br>
+I am<br>
+Broken and cold<br>
+Restless and low<br>
+I am<br>
+A body without a soul<br><br>
+
+Broken, I feel like my soul has been lifted<br>
+For 25 years I've been drifting<br>
+A shade so cold, a heart of stone<br>
+To the darkness I call my own<br>
+I am screaming<br>
+'Am I more then just flesh & bone'<br><br>
+
+You don't want me to say, what I've wanted to say<br>
+It would unleash a hell<br>
+Worst than you've ever known<br>
+
+It wasn't ever meant to end in this way<br>
+We kept our heads below<br>
+The art of letting go<br>
+It wasn't ever meant to feel like this<br>
+No<br>
+We kept our heads below<br>
+The art of letting go<br>
+
+I am knotted, I am twisted<br>
+Silence, not a whisper<br>
+Mouth sewn shut, you never know who is listening<br>
+Haunted<br>
+So many things I could never say<br>
+For fear of destroying all the progress we've made<br><br>
+
+It wasn't ever meant to end in this way<br>
+We kept our heads below<br>
+The art of letting go<br>
+It wasn't ever meant to feel like this<br><br>
+No<br>
+We kept our heads below<br>
+The art of letting go<br><br>
+
+I am<br>
+Broken and cold<br>
+Restless and low<br>
+I am<br>
+A body without a soul
+</p>
+
+          <h1 id="t7" class="lyrics-test">-301-</h1>
+          <p class="lyrics-test-test">[feat. Jamey Jasta of Hatebreed]<br><br>
+
+This is where the industry falls<br>
+Blow it up, blow it up, blow it up<br>
+Tear it down, tear it down, tear it down<br>
+It's time to rip apart the walls around your fortress<br>
+This isn't bitterness, this is our legacy<br>
+You could never be a part of anything real<br>
+You lie to sell and teach to steal<br><br>
+
+For all those whose only aim<br>
+Is destruction in search of selfish gain<br>
+I know that you will never learn<br>
+Fuck you for thinking I've been burned<br>
+We are the broken<br>
+But the fearless ones<br><br>
+
+You are nothing, you are worthless<br>
+Don't act like you've earned this<br>
+We will expose and let the truth be known<br><br>
+
+301!<br>
+Tell me where you came from<br>
+We are sick to death of hearing it<br>
+301!<br>
+Tell me where you came from<br>
+We are sick to death of hearing it<br><br>
+
+For all those whose only aim<br>
+Is destruction in search of selfish gain<br><br>
+
+I know that you will never learn<br>
+Fuck you for thinking I've been burned<br>
+We are the broken<br>
+But the fearless ones<br><br>
+
+Tell me where you've been and what you've done<br>
+And how you're better then everyone<br>
+Now you're perfect 'just because'<br>
+But to most you're a worthless cunt<br>
+No one fucking asked you, no one truly cares<br><br>
+Behind my back is your safest bet<br>
+Save us all your worthless threats<br>
+No on fucking asked you did I say care?<br>
+I know you're not the only judge<br>
+301<br>
+Tell me where you came from<br><br>
+
+I know that you will never learn<br>
+Fuck you for thinking I've been burned<br>
+We are the broken<br>
+But the fearless ones<br><br>
+
+I know that you will never learn<br>
+Fuck you for thinking I've been burned<br>
+We are the broken<br>
+But the fearless ones</p>
+
+          <h1 id="t8" class="lyrics-test">-Memories-</h1>
+          <p class="lyrics-test-test">Reveal the plan you have form me<br>
+Now I'm lost<br>
+Wandering endlessly<br>
+I hear<br>
+I hear their cries to me<br>
+Dragging me backwards eternally<br>
+Are you intent on returning me?<br>
+To the life I left so violently<br><br>
+
+I am fading<br>
+Forever falling<br>
+From the shadows<br>
+I hear you calling<br>
+Always drifting away<br>
+To never see the light of day<br><br>
+
+Just a memory gone<br>
+Just a memory lost without a cause<br>
+Just a memory gone<br>
+To be turned to an afterlife alone<br>
+Just a memory gone<br>
+Just a memory lost without a cause<br>
+Just a memory gone<br>
+To be turned to an afterlife alone<br><br>
+
+I have seen myself not in reflection<br>
+The broken promises that lead to no ascension<br>
+I regret my choice but what could I do?<br>
+I thought I did my best to be there for you<br>
+Cold<br><br>
+
+Just a memory gone<br>
+Just a memory lost without a cause<br>
+Just a memory gone<br>
+To be turned to an afterlife alone<br>
+Just a memory gone<br>
+Just a memory lost without a cause<br>
+Just a memory gone<br>
+To be turned to an afterlife alone<br><br>
+
+Just a memory gone<br>
+Just a memory lost without a cause<br>
+Just a memory gone<br>
+To be turned to an afterlife alone<br>
+Just a memory gone<br>
+Just a memory lost without a cause<br>
+Just a memory gone<br>
+To be turned to an afterlife alone<br><br>
+
+Just a memory gone (Just a memory gone)<br>
+Just a memory lost (Just a memory lost)<br>
+Just a memory gone<br>
+To be turned to an afterlife alone
+</p>
+
+          <h1 id="t9" class="lyrics-test">-For Us-</h1>
+          <p class="lyrics-test-test">Remember this<br>
+Before you speak what's on your lips<br>
+You have to change the way you think<br>
+If not for me, for you<br><br>
+
+It seems we are born to hate<br>
+Eradicate, eradicate, eradicate<br>
+Open your eyes to lead the blind<br>
+We are the people under one sky<br>
+Listen and learn<br>
+Hear the ground shake<br>
+We're bound to, bound to, bound to break the laws the higher create<br>
+Living in a false sense of fate<br><br>
+
+Am I the only one who ever felt like this?<br><br>
+
+Remember this<br>
+Before you speak what's on your lips<br>
+You have to change the way you think<br>
+If not for me, for you<br>
+Remember this<br>
+Before you speak what's on your lips<br>
+You have to change the way you think<br>
+If not for me, for you<br><br>
+
+Can't you see we are bound to - break?<br>
+Can't you hear the ground shake?<br>
+Why must we allow others to dictate?<br>
+Can't you see that we are bound to break?<br><br>
+
+Remember this<br>
+Before you speak what's on your lips<br>
+You have to change the way you think<br>
+If not for me, for you<br>
+Remember this<br>
+Before you speak what's on your lips<br>
+You have to change the way you think<br>
+If not for me, for you<br><br>
+
+Whether it's the colour of someone's skin,<br>
+Or it's the god that they believe in,<br>
+It shouldn't matter<br>
+It's the same world we are living in<br>
+It doesn't have to feel like this<br>
+Enough<br><br>
+
+Fighting for borders that don't exist<br>
+Condemning others that try to resist<br><br>
+
+Remember this<br>
+Before you speak what's on your lips<br>
+You have to change the way you think<br>
+If not for me, for you<br>
+Remember this<br>
+Before you speak what's on your lips<br>
+You have to change the way you think<br>
+If not for me, for you
+</p>
+
+          <h1 id="t10" class="lyrics-test">-Bloodline-</h1>
+          <p class="lyrics-test-test">
+Welcome to the viper's nest<br>
+Don't look into my eyes for comfort<br>
+I'll make sure nothing's left<br>
+You've never seen anything as evil<br>
+I can see the strength within your eyes<br>
+Bu I know you've got death upon your lips<br>
+Feel the venom from our tongues<br>
+It's sick<br>
+I, the demon<br><br><br>
+
+I will show you how to lose control<br>
+Rip through the mask, reveal a face you've never known<br>
+Take from you the time you stole<br>
+All I'm owed<br>
+You must know<br><br>
+
+Get up<br>
+And show me what you think you've learned<br>
+I can tell right now you've never been burned<br>
+Or ripped apart at the seams<br>
+I'll show you disease<br>
+The serpent's scales don't weigh in your favor<br>
+There's no forgiveness, the is no saviour<br>
+Sentenced to the sickness<br><br>
+
+I will show you how to lose control<br>
+Rip through the mask, reveal a face you've never known<br>
+Take from you the time you stole<br>
+All I'm owed<br>
+You must know<br><br>
+
+Enemies of disease<br>
+Enemies<br>
+Enemies of disease<br>
+Enemies<br><br>
+
+So you think that you're a king amongst men<br>
+Once removed of crown, you'll never rule again<br><br>
+
+This is our bloodline<br>
+Risen from the depth<br>
+We have bleed enough times, drained, there's nothing left<br>
+This is our bloodline<br>
+We have bleed enough times
+</p>
+        </div>
+      </div>
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+      </div>
+
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+      </div>
+
+          <div class="page-finish">
+            <a href="./security.html">Security Statements</a>
+            <a href="./terms.html">Terms of Service</a>
+            <a href="./privacy.html">Privacy Policy</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+
+      </body>
+      </html>

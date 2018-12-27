@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<h1 class="lyrics-page_title">Between The Buried And Me</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/coma.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Coma Ecliptic - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Node</a>
+      <a href="#f2">The Coma Machine</a>
+      <a href="#f3">Dim Ignition</a>
+      <a href="#f4">Famine Wolf</a>
+      <a href="#f5">King Redeem / Queen Serene</a>
+      <a href="#f6">Turn On The Darkness</a>
+      <a href="#f7">The Ectopic Stroll</a>
+      <a href="#f8">Rapid Calm</a>
+      <a href="#f9">Memory Palace</a>
+      <a href="#f10">Option Oblivion</a>
+      <a href="#f11">Life In Velvet</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/auto1.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Automata I - 2018</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Condemned to the Gallows</a>
+      <a href="#s2">House Organ</a>
+      <a href="#s3">Yellow Eyes</a>
+      <a href="#s4">Millions</a>
+      <a href="#s5">Gold Distance</a>
+      <a href="#s6">Blot</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/auto2.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Automata II - 2018</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">The Proverbial Bellow</a>
+      <a href="#t2">Glide</a>
+      <a href="#t3">Voice of Trespass</a>
+      <a href="#t4">The Grid</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/coma.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Coma Ecliptic - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Node-</h1>
+      <p class="lyrics-test-test">Turn the knob to reveal the light<br>
+Stare across the empty night<br><br>
+
+Dark worlds engrossing ... our sun is sleeping<br>
+The dance has lost its step<br>
+The teeth will be shown no more<br>
+Alone we find the escape<br>
+(We walk and walk and walk)<br>
+Alone we risk it all<br><br>
+
+Turn the knob to reveal the light<br>
+Stare across the empty night<br><br>
+
+The world has lost<br>
+Our minds roam free</p>
+
+      <h1 id="f2" class="lyrics-test">-The Coma Machine-</h1>
+      <p class="lyrics-test-test">You teach us what was<br>
+You teach us what was out there<br>
+You teach us what was<br>
+You teach us what was out there<br>
+Lift our limbs to focus<br>
+We soon drift through the night<br><br>
+
+The getaway ... we drought the cloud of life<br>
+A quick escape to velvet<br><br>
+
+Start to drift in slumber. Smoke fills the velvet room<br><br>
+
+No more options to cope. A glimpse of the hanging rope.<br>
+Madness embrace the vault. Cannot wait any longer.<br>
+A string of light blink ... mesmerize my senses<br><br>
+A pulse that keeps me together for one last time<br>
+No more options to cope. A glimpse of the hanging rope.<br>
+Madness embrace the vault. Cannot wait any longer.<br>
+A string of light blink ... mesmerize my senses<br>
+A pulse that keeps me together for one last time<br><br>
+
+Lift our limbs to focus<br>
+We soon drift through the night<br>
+You teach us what was<br>
+You teach us what was out there<br>
+You teach us what was<br>
+You teach us what was out there<br><br>
+
+Travel through a string of tears<br>
+Screams crash down like waves<br><br>
+Flushing my mind of a new world<br>
+(Afraid to open my eyes)<br>
+Climb the hill of the wrist ... enter oblivion<br>
+Oblivion<br><br>
+
+Foreshadow the Shadow:<br>
+My last exhale<br>
+Knees crash down on<br><br>
+
+Now rewind<br><br>
+
+You teach us what was<br>
+You teach us what was out there<br>
+You teach us what was<br>
+You teach us what was out there<br>
+
+What once was...</p>
+
+      <h1 id="f3" class="lyrics-test">-Dim Ignition-</h1>
+      <p class="lyrics-test-test">
+An ancient figure crowds my focused path<br>
+His lightning bolt eyes creep through my sights<br><br>
+
+Render the dwellers with freedom<br>
+Matter develops your kingdom<br>
+Dim Ignition<br><br>
+
+Walk reverse
+</p>
+
+      <h1 id="f4" class="lyrics-test">-Famine Wolf-</h1>
+      <p class="lyrics-test-test">Grind down<br>
+Blind taste<br>
+Dripping ideas turn against our will<br>
+Swallow the chosen soul<br><br>
+
+One Animal<br>
+Once lived ... for life<br><br>
+
+Human mist rise<br>
+Sweet devouring teeth are sharpened<br>
+Swallow the chosen soul<br><br>
+
+One Animal<br>
+Once lived ... for life<br>
+One Animal<br>
+Once lived ... for life<br><br>
+
+The fifth resonating host<br>
+sweaty palmed inside constant alert<br>
+Blinking around the bubble of the paranoid<br>
+We are all that's left. We will be enough<br><br>
+
+One Animal<br>
+Once lived ... for life<br>
+One Animal<br>
+Once lived ... for life<br><br>
+
+Scour the earth. Turn the dirt red.<br>
+(This can't be our lifeline)<br><br>
+
+Anchored mind wind ... across the fog<br>
+We disgrace the pupil's sight<br><br>
+
+A homeless meat<br>
+the street markets replaced their souls<br>
+Gripping our oldest thoughts<br>
+society has me out cold<br>
+It has me out in the cold<br><br>
+
+Move the flesh over this rotten bone<br>
+One more day<br>
+
+This can't be our lifeline</p>
+
+      <h1 id="f5" class="lyrics-test">-King Redeem / Queen Serene-</h1>
+      <p class="lyrics-test-test">I can't hear a thing<br>
+These waves crash faster<br>
+I can't see a thing<br>
+These arms grab for wonder<br><br>
+
+Enter this widened space<br>
+Inside our own small cage<br><br>
+
+I can't hear a thing<br>
+These waves crash faster<br>
+I can't see a thing<br>
+These arms grab for wonder<br><br>
+
+King redeem<br>
+Queen serene<br>
+Dusk drifts by with one last try<br><br>
+
+Clench ... trapped ... lids fold inside<br>
+Blurred mind ... dry tears foam from high<br>
+Sleep walk past my cornea<br>
+Eclipse washed out ... unscathed<br>
+Search for the formal stage<br><br>
+
+I slip past my own mind<br>
+A small gift taken from my time<br><br>
+
+Mute mouth<br>
+Mute mind<br><br>
+
+Color spectrum false, invoke heart rate race<br><br>
+
+Hysteria develops a hold<br>
+Raging winds force the earths<br>
+symphony through my ears<br>
+Clarity is not known<br>
+A fortress blackened by a dissolving sun<br>
+A visual memory vanishes<br>
+Presence of hope intertwined<br><br>
+
+A transcript lost from what we've taught<br>
+To speak is not an act without our tongues<br>
+The human race has been deformed<br>
+A quilt of skin surrounds our lungs<br><br>
+
+Build an arrow to force a grim corrupted turn<br>
+Color spectrum is now false<br>
+our eyes will see no more<br><br>
+
+A transcript lost from what we've taught<br>
+To speak is not an act without our tongues<br><br>
+The human race has been deformed<br>
+A quilt of skin surrounds our lungs<br><br>
+
+Build a monster to bury the infected worm<br>
+Color spectrum is now false<br>
+our eyes will see no more<br><br>
+
+Mute mouth<br>
+Mute mind<br><br>
+
+King redeem ... Queen serene<br>
+Blinded bells ... the deafened sing<br>
+Hysteria develops a hold<br>
+Clarity is not known<br><br>
+
+We cough the future<br>
+We scratch the past<br><br>
+
+Into the circular I grab the jagged gaze<br>
+Color spectrum false invoke heart rate race<br><br>
+
+A transcript lost from what we've taught<br>
+To speak is not an act without our tongues<br>
+The human race has been deformed<br>
+A quilt of skin surrounds our lungs
+</p>
+
+      <h1 id="f6" class="lyrics-test">-Turn On The Darkness-</h1>
+      <p class="lyrics-test-test">
+The winters grieve evenly<br>
+Flickering moments engage our senses<br>
+Slowly trembling and venting<br>
+They won't take notice<br><br>
+
+Dragging feet. Will time notice me?<br><br>
+
+We turn out backs on ourselves<br>
+Nothing in sight<br><br>
+
+The Sighting:<br>
+I see a flame erupt in the distance<br>
+The charted course towards my direction<br>
+A wealth of moving light, they now seek my disguise<br>
+Legs soon crack as they stand above/below<br><br>
+
+The Exchange:<br>
+"Where do you drift from sir?<br>
+This land is for those who have lost<br>
+Our humanity has passed its course<br>
+we roam with all that’s left"<br><br>
+
+I come from a movable past<br>
+A distant future is in my grasp<br>
+You all will survive this fate<br>
+Trust the man you gaze<br><br>
+
+Take me with your flames<br>
+Darkness<br>
+Show the brighter way<br>
+Hopeless<br>
+Take in all. Sit with our teachings<br><br>
+
+Above. Below<br>
+Take in all<br>
+Above. Below<br>
+Sit with our teachings<br><br>
+
+Dream tonight to push us forward<br><br>
+
+Black ash improves me. Dark skies are hollow.<br><br>
+
+Above. Below<br>
+Take in all<br>
+Above. Below<br>
+Sit with our teachings<br><br>
+
+Dream tonight to push us forward<br><br>
+
+Black ash improves me<br>
+Can't look past the damage to this life<br>
+Dark skies are hollow<br>
+Can't look past the damage to this life<br><br>
+
+The Torchbearer:<br>
+"Welcome to our journey. Please walk with me<br>
+I'll put your mind at ease<br>
+Our breath disrupts their flames<br>
+We walk through their walls<br>
+Life exists apart from this."<br>
+The lone world drifts on and on<br><br>
+
+In the distant light modern man awaits<br>
+Dripping jaw accept our twisted travel<br>
+Lose focus<br>
+Screaming grins howl loud from high<br>
+a gritty focus gripped<br><br>
+
+We turn our backs on ourselves<br>
+Nothing is sight<br>
+We turn our backs on ourselves<br>
+They won't take notice
+
+</p>
+
+      <h1 id="f7" class="lyrics-test">-The Ectopic Stroll-</h1>
+      <p class="lyrics-test-test">Sit down please. Sir, what is your woe?<br>
+My thousand year old wisdom will help you grow<br>
+The fantasy of the rewind<br>
+I can dissect a man of your kind<br><br>
+
+Please Doc I need help<br>
+My walls are covered in velvet<br><br>
+
+We can't get it right<br><br>
+
+Old man<br>
+Chopping at his block<br>
+Old soul<br>
+Sanding his work<br>
+Lost land<br>
+Hysteria in practice<br>
+Lost hand<br>
+Tumbling down the well<br>
+Tumbling down the well<br><br>
+
+Our troubled thoughts are drugged away<br>
+No need for our sanity<br><br>
+
+Let's now start over<br>
+Let's begin our lives<br>
+Go back to where we came from<br>
+Let's now start over<br>
+Let's begin our lives<br>
+Your voice is silent<br><br>
+
+Sit down sir and lend me your mind<br>
+I'll twist and tinker every circuit that's inside<br>
+This fantasy of your soul<br>
+You'll soon accept all I know<br><br>
+
+We can't get it right<br><br>
+
+Speed up your joy<br>
+We can't get it right<br>
+We can't get your right<br><br>
+
+Take me back to my past<br><br>
+
+Let's now start over<br>
+Let's begin our lives<br>
+Go back to where we came from<br>
+Let's now start over<br>
+Let's begin our lives<br>
+Your voice is silent<br>
+
+[2x]<br>
+Take me back to my past<br>[2x]
+Take me back</p>
+
+      <h1 id="f8" class="lyrics-test">-Rapid Calm-</h1>
+      <p class="lyrics-test-test">Speak now old soul ... Distant breathing<br>
+Your choice soon exists<br>
+Speak now old soul ... A choice will soon be yours<br>
+Speak your time<br><br>
+
+Darkness embracing our sun<br>
+Darkness embracing our sun<br>
+The rising smoke awakens me<br><br>
+
+A crest for the brave falls in the fog<br>
+A light shines from a distant land of ghosts<br>
+They don't want you there<br><br>
+They don't want me here<br>
+Remember my name?<br>
+The machine is crumbling<br><br>
+
+A crest for the brave<br>
+A light shines from a<br>
+Enter oblivion<br><br>
+
+Darkness embracing<br>
+Our sun is lifting<br>
+You'll soon give up on this world<br><br>
+
+The rising smoke awakens<br>
+An all white room ... Lifts me with its lights<br>
+Nothing in focus. Curiosity is no more<br>
+"Accept all we are given. It is all here for a reason"<br><br>
+
+A golden lever ... A choice for gold or velvet<br>
+Do I go on, or follow the robes in the smoke?<br>
+"Accept all we are given. It is all here for a reason"<br><br>
+
+One last search<br>
+Our shallow minds embrace this dream<br>
+One last search<br>
+To kneel in the famine room<br>
+One last search<br><br>
+
+You'll soon give up on the world
+</p>
+
+      <h1 id="f9" class="lyrics-test">-Memory Palace-</h1>
+      <p class="lyrics-test-test">Awake me<br>
+Stoic and ready. Living in levity<br>
+Static entry<br><br>
+
+Chatter has left me. A statue grown<br>
+With intentions from my own<br>
+I stutter on. Key driven<br>
+A swollen breeze insults me<br>
+The scent of a natural place<br><br>
+
+Chatter has left me. A statue grown<br>
+With intentions from my own<br>
+I stutter on. Key driven<br>
+Horrid thoughts finally leave me<br>
+Dismiss the notion of the unwanted force<br><br>
+
+Static entry. Alone and free<br><br>
+
+Awake me<br>
+I never want to get out of here<br>
+Visions of my past will disappear<br>
+I never end<br><br>
+
+Focus on melody<br>
+The sounds under my eyes<br>
+Dreaming inside of this world inside my mind<br>
+Drift on<br>
+Never end<br><br>
+
+Static exit. Animate<br><br>
+
+Tubes swim with my veins<br>
+An orchestra of lights graze over my corpse<br>
+Our souls are melting<br>
+Immobilized limbs secret liquid smoke<br><br>
+Fill the room with fear<br>
+A losing act draws in the final wake<br>
+Overcome "the end"<br><br>
+
+I did not. I did not want to come back<br>
+I did not ... Take me back<br><br>
+
+It’s over<br><br>
+
+I sit drenched in the summary of my past<br>
+Live in the name of the ghost<br>
+I drift on<br><br>
+
+Focus on melody<br>
+The sounds under my eyes<br>
+Dreaming inside of this world inside my mind<br>
+Drift on<br>
+Never end</p>
+
+      <h1 id="f10" class="lyrics-test">-Option Oblivion-</h1>
+      <p class="lyrics-test-test">Real eyes<br>
+A golden lever. A choice of gold or velvet<br>
+Do I go on, or follow the crown in the smoke?<br>
+My last choice derange my voice<br>
+Real eyes<br><br>
+
+The lever falls down so delicate<br><br>
+
+Enlighten me<br>
+I'll follow towards the smoke<br>
+The wrenching of the rope<br>
+I'm always lost<br>
+The idea of dreaming in a dream<br>
+My vision is serene<br>
+Please lift me up<br><br>
+
+Breathe underwater<br>
+Swim without limbs<br><br>
+
+These new eyes will never suffer<br><br>
+Enter the new wake<br>
+Looking back through the painful tunnel<br>
+They taught us what once was<br>
+What once was<br><br>
+
+New air opens my mouth<br>
+Gasp a new breath<br>
+What is this place? An alluring frontier
+</p>
+
+      <h1 id="f11" class="lyrics-test">-Life In Velvet-</h1>
+      <p class="lyrics-test-test">Fresh air grips me<br>
+Rolling hills on far<br>
+The smell of the living. Awakens all I am<br><br>
+
+Lift my limbs to focus<br>
+Beauty is in sight<br>
+The hours I cherished are now false<br><br>
+
+My last exhale is purple smoke<br>
+Knees crash down on velvet robes<br>
+
+Dark worlds engrossing<br>
+Our sun is sleeping
+</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/auto1.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Automata I - 2018</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Condemned to the Gallows-</h1>
+        <p class="lyrics-test-test">[Night one]<br><br>
+
+Condemned to the gallows<br>
+Condemned to the gallows<br>
+Goodnight…<br><br>
+
+Gripping the brightest grid<br>
+A surgical drive to increase the noise<br>
+Ice cold realization of the silent wind slowly drags me up into a splintered reason<br>
+Emptiness engulf me<br><br>
+
+Align the love inside me<br>
+Let misery wake me<br><br>
+
+Search low…<br>
+Search low… abandoned<br><br>
+
+The creaking floors cry out below<br>
+A limping glimpse of next steps<br>
+The fog showers the last light of day<br><br>
+
+[Voice of trespass:]<br><br>
+Destroy the wooden frame<br>
+Trust the creaking sounds<br>
+Seek the tunnel to walk high above<br>
+Search low<br>
+Trust the creaking sounds<br>
+Seek the tunnel to walk high above<br>
+Search low<br>
+Destroy the wooden frame<br>
+Confront the night<br><br>
+
+Warm blood drips on cold snow<br>
+The curtain surrounds logical thought<br><br>
+
+Condemned to the gallows<br>
+Condemned to the gallows<br>
+Condemned to the gallows<br>
+Condemned to the gallows<br><br>
+
+Condemned to the gallows<br>
+Condemned<br>
+Condemned to the gallows<br>
+Condemned<br><br>
+
+Crimson moonbeam lights my journey<br>
+Crippled with time desperate strides into nothing<br>
+Crimson moonbeam lights my journey<br>
+Hear the waking<br>
+Crippled with time desperate strides into nothing
+</p>
+
+        <h1 id="s2" class="lyrics-test">-House Organ-</h1>
+        <p class="lyrics-test-test">[Day two]<br><br>
+
+This frame... it does nothing to soothe<br>
+Thoughts of worst-case seep through its fiber<br>
+This frame... ignites every step<br>
+Engulf the shadows it creates<br><br>
+
+Smash<br>
+Ignite<br>
+Destroy the creeping eyes<br>
+Hang the rope<br>
+Destroy this weakened frame<br><br>
+
+Two eyes lock onto my pulse<br>
+Love comes crashing on my conscience<br><br>
+
+Change my focus, lift my spirit... boy<br>
+Change my focus, you are my spirit... boy<br><br>
+
+The crimson moon shines down<br>
+Hold your tongue, let me speak<br>
+There's more to this than it may seem
+
+</p>
+
+        <h1 id="s3" class="lyrics-test">-Yellow Eyes-</h1>
+        <p class="lyrics-test-test">[Night four]<br><br>
+
+Yellow eyes are seen circling... a whirlwind arriving for the passing storm<br>
+The hunt... the hunter inside<br>
+A whirlwind arriving<br><br>
+
+The wanderer wanders too far from the gold distance<br>
+Where they live... where the quiet lay their drowning heads at night<br>
+Flesh drapes on the smoking ground<br>
+and then spills onto the teeth of the once protected<br>
+Yellow eyes close in<br><br>
+
+Yellow<br><br>
+
+Our souls grip onto a wall<br>
+Our minds slip past this old soul<br><br>
+
+Yellow<br><br>
+
+[Morning five]<br><br>
+
+Smoke is seen in both directions<br>
+My creation sits... my progress awaits<br>
+Smoke is seen in both directions<br><br>
+
+In rubble... their creation<br>
+Somewhere in the distance... somewhere<br>
+The softness of snow mutes my travels<br>
+Somewhere in the distance... somewhere<br><br>
+
+This landscape seems to change too often for comfort<br>
+A blinking light hides as I stumble downward<br>
+A stillness... it's too quiet<br>
+The hum of electricity<br>
+My crumbling bones seem to weld the new author<br>
+A stillness... it's too quiet<br>
+The hum of electricity... seems to buzz<br><br>
+
+Cut an X in my palm... leave my mark<br>
+A translation for whatever created this world for me<br>
+I sit under the crimson moon<br>
+Whatever created this world for me<br>
+Yours or mine?<br>
+They or this?<br>
+Yellow eyes<br>
+Tread light<br>
+Collisions open us more<br>
+Revise<br>
+The simple task of our own<br><br>
+
+We serve our own hell<br><br>
+
+A cocoon leaking on our own conclusions<br>
+We serve our hell well<br>
+Cope with disguise<br>
+
+Inner working dissect<br>
+Common phase neglect<br>
+I am tangible with no logic<br><br>
+
+Change my focus, drown my spirits<br>
+There's more to this than it may seem<br>
+
+Blink fast into hollow ground</p>
+
+        <h1 id="s4" class="lyrics-test">-Millions-</h1>
+        <p class="lyrics-test-test">[Before]<br><br>
+
+Millions... watch them fly overhead<br>
+Now please take me with you<br>
+I've lost my perspective<br>
+You left me alone<br><br>
+
+Alone and trembling<br>
+My chin jolting back and forth... sounds soar around<br>
+The shield you once were... my life you would defend<br>
+Sounds soar around<br><br>
+
+In my world there is only us<br>
+Bring me with you to soar<br>
+This dreadful collapsing scent... you never strive for more<br><br>
+
+Millions fly overhead<br>
+Fog dancing slavery... like snakes circling<br>
+Small angle jeopardy<br>
+
+Millions</p>
+
+        <h1 id="s5" class="lyrics-test">-Gold Distance-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s6" class="lyrics-test">-Blot-</h1>
+        <p class="lyrics-test-test">[Rehearsal]<br><br>
+
+The blot in my eyes...<br>
+Circular<br>
+The blot in my eyes...<br>
+Circulate<br><br>
+
+All my pockets are full and my mind is lost<br>
+Circulate<br>
+The rear view keeps shifting as I stare at the sun<br><br>
+
+The blot in my eyes...<br>
+Circular<br>
+The blot in my eyes...<br>
+Circulate<br><br>
+
+All together... back and forth as the wind cusps my inner mind<br>
+The sun separates me<br>
+Exposed... our greatest fear<br>
+All is here to see<br>
+Piece by piece you strip away<br><br>
+
+Exploring the escape<br>
+Endless lives whispering by... so fast<br>
+Circulate<br><br>
+
+This is the beginning of my life<br><br>
+
+I hope you enjoy the show... it's for you, ya know?<br>
+To watch you from across the room<br>
+To hear you through the tangled lines... it completes me<br>
+I've been waiting<br><br>
+
+The blot in my eyes...<br>
+Circulate<br><br>
+
+[Voice of trespass:]<br><br>
+Computer simulation complete<br>
+Eject the suspect...<br>
+Mold and shape to create memory<br>
+Bring them back I say...<br>
+Sights set on the uncommon agenda<br>
+Well done<br>
+Computer simulation complete<br>
+Eject the suspect...<br>
+Mold and shape<br><br>
+
+I won't remember me<br>
+I won't remember us<br>
+I won't remember he<br>
+I won't remember them<br><br>
+
+Eyes covered by an electrical storm<br>
+Voltage increasing, distance engaging... a mumbling timbre<br>
+Silent to this awakening<br>
+I'm sorry... a fucking tragedy<br>
+A mumbling timbre<br>
+Smash... ignite... destroy...<br>
+The tunnel's twisting this body into glass<br>
+A once hollow man... break through to the other side<br><br>
+
+Exploring the escape<br>
+Endless lives whispering by... so fast<br>
+Circulate<br><br>
+
+The blot in my eyes...<br>
+Circular<br>
+The blot in my eyes...<br>
+Circulate</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/auto2.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Automata II - 2018</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-The Proverbial Bellow-</h1>
+          <p class="lyrics-test-test">[Night six]<br><br>
+
+Let's stay here forever<br>
+I am I ... what is this?<br>
+I am I ... what is this?<br><br>
+A God-like floating sensation<br>
+Hands cover me<br>
+Jolting ... erupting<br>
+Sensory bliss<br>
+I am I ... what is this?<br>
+I am I ... what is this?<br><br>
+
+The mark is spotted<br>
+They have found me<br>
+Electricity screams through the fingers below<br><br>
+
+I am I ... what is this?<br><br>
+
+Move me to the ambulance of thought<br>
+Tiny electric movements<br><br>
+
+Please pick up the phone ... it's been ringing for years now<br>
+I'm so alone here<br>
+Sensory bliss<br><br>
+
+I'm now elevated<br>
+Yellow eyes stare below me<br>
+You/him/us: multiple versions of my inner search<br><br>
+
+The church of regret emits welcoming ... please don't shut us out<br>
+The red glow creates shadows ... mountains<br>
+Shadows of our choosing<br>
+Lights in their eyes start flickering ... the proverbial bellow<br><br>
+
+Let's stay here forever<br><br>
+
+Beautiful eruption ... we've made our creation<br>
+Sunshine beams on their faces ... as they melt into one<br>
+The slight hum of the grid<br><br>
+
+Please pick up the phone ... it's been ringing for years now<br>
+I'm so alone here<br>
+Sensory bliss</p>
+
+          <h1 id="t2" class="lyrics-test">-Glide-</h1>
+          <p class="lyrics-test-test">[Night four]<br><br>
+
+"May I have this dance?" ... it nervously asks<br>
+The two glide into the heavy crowd<br>
+Awake this smile<br>
+Familiar...<br>
+The comfort of being<br>
+We are everything<br><br>
+
+Time is irrelevant while you're in my arms ... maker<br>
+The grid is gone and we all slowly collapse around each other<br>
+Piles of flesh and wires create a mountain of memory</p>
+
+          <h1 id="t3" class="lyrics-test">-Voice of Trespass-</h1>
+          <p class="lyrics-test-test">Come a little closer now ... let me tell you what you need<br>
+A snake-tongued devil by your side<br><br>
+
+I will creep right through your mind and swim right through your veins...<br>
+Let your blood flow over me<br><br>
+
+I want to dine in your mind<br>
+Trust me ... we'll take it from here<br><br>
+
+Let's all hold these dreams in our broken hands of filth<br>
+Replace ... begin ... forget it all<br>
+Shut it off ... now ... all of it<br>
+I'll make you understand that they are really here and gone<br><br>
+
+I want to dine in your mind<br><br>
+
+Collapse on you<br>
+The inner rot<br>
+We are the Voice of Trespass<br><br>
+
+Voice of Trespass<br><br>
+
+We hang you out to dry...<br>
+Dollar signs in your eyes...<br>
+Crooked steps by design...<br>
+You're going somewhere fast...<br>
+It will never last...<br>
+Disembowel your formal aim...<br><br>
+
+I'll start slithering ... my pockets are getting big ... the dollars are in my eyes<br>
+The Voice of Trespass<br><br>
+
+We hang you out to dry...<br>
+Dollar signs in your eyes...<br>
+Crooked steps by design...<br>
+You're going somewhere fast...<br>
+It will never last...<br>
+Disembowel your formal aim...<br><br>
+
+The lizard tongue snaps at its prey<br>
+Clinking glass of celebration ... another puppet is lost in our world<br>
+Jolted out of reverie...<br><br>
+Break out ... break free<br>
+The lizard tongue snaps at its prey<br><br>
+
+This is not perfection<br>
+Find yourself...<br><br>
+
+Wake up<br>
+Please wake up<br><br>
+
+We are hollow<br>
+Condemned to the gallows</p>
+
+          <h1 id="t4" class="lyrics-test">-The Grid-</h1>
+          <p class="lyrics-test-test">[The Premiere]<br><br>
+
+Inhale... we take it all in<br>
+Prying hands mold ... inhale<br>
+Prying hands hold<br>
+We shape you ... you'll never know<br>
+Distinct cries for help rain down on our vice<br>
+The device inside<br>
+Prying hands become old<br>
+Rebirth<br><br>
+
+Inhale ... we take it all in<br>
+Dying hands mold ... inhale<br>
+Dying hands hold<br>
+We break you ... you'll never know<br>
+Distinct cries for help rain down<br><br>
+
+Judge not what we do, judge what we feed<br><br>
+
+Mental transformation<br>
+We have become their memory<br><br>
+
+Step back and feel the sun<br>
+Step back and touch the end<br>
+We are in this together<br><br>
+
+Millions circling...<br><br>
+
+Judge not what we do, judge what we feed<br>
+Guilt surrounds ... we pushed for a perfect life<br>
+We held you under and let you drown<br><br>
+
+Slowly submerge ... become your true self<br>
+Rain down on our vice ... the device inside<br>
+Prying hands become old<br>
+Rebirth<br><br>
+
+Judge not what we do, judge what we feed<br><br>
+
+Mental transformation<br>
+We have become their memory<br><br>
+
+The moon slides past the shoreline<br>
+Its crimson glow lives on<br><br>
+
+Please don't wait up for me<br>
+I've finally locked the door...<br>
+Please don't wait up for me<br>
+I can move on...<br>
+
+We are in this together</p>
+        </div>
+      </div>
+
+      <div class="page-finish">
+        <a href="./security.html">Security Statements</a>
+        <a href="./terms.html">Terms of Service</a>
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+
+        </body>
+      </html>

@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Arkaik</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/luciddawn.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Lucid Dawn - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Risen</a>
+      <a href="#f2">From the Void</a>
+      <a href="#f3">Digital Shroud</a>
+      <a href="#f4">That Which Lies Hidden</a>
+      <a href="#f5">Awaken the I</a>
+      <a href="#f6">Fleshwalkers</a>
+      <a href="#f7">Fusion of Epochs</a>
+      <a href="#f8">Lucid Dawn</a>
+      <a href="#f9">Conjuring</a>
+      <a href="#f10">Temple Aflame</a>
+    </div>
+</div>
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/art.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Nemethia - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Occultivation</a>
+      <a href="#s2">Of Violence and Pestilence Born</a>
+      <a href="#s3">Order of the Hierogon</a>
+      <a href="#s4">Dweller on the Threshold</a>
+      <a href="#s5">Futile State</a>
+      <a href="#s6">The Eupnean Relic</a>
+      <a href="#s7">Lifting Amnesia</a>
+      <a href="#s8">Telegnosis</a>
+      <a href="#s9">Nexion Stargate</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/luciddawn.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Lucid Dawn - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <div class="lyrics-page_album-songs">
+        <h1 id="f1" class="lyrics-test">-Risen-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="f2" class="lyrics-test">-From the Void-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="f3" class="lyrics-test">-Digital Shroud-</h1>
+        <p class="lyrics-test-test">Held captive in plain sight<br>
+The reflection of blinded silence<br>
+Held captive in mounting dread<br>
+A depiction of touting violence<br><br>
+
+No escape from inside their heads<br>
+The dilemma now becoming blinded locked in<br>
+to a brand new shining prison<br>
+Khaal-­Li­-Phar claiming himself supreme<br>
+behind the curtain the maestro of this machine<br><br>
+
+The false reality generated by hate<br>
+Perceptual slavery, we take the bait<br>
+Staring into the maze, the hall of mirrors<br>
+Cold deception a tourniquet of rage and fear<br><br>
+
+Asleep catatonic they stagger to their demise<br>
+Installed into their minds, these chains disguised as time<br>
+Pulling them further, binding them to a pyre of lies<br>
+A cybernetic playground, tear out your eyes<br>
+Replace them with the buzzing of flies<br><br>
+
+To mask the wounds, to feel alive<br>
+Bleak handed absence sold as the next new distraction<br>
+The claws that held the seams of astral realms<br>
+Forgotten, stolen was the numinous<br>
+Forbidden were their dreams<br><br>
+
+The fleshwalkers stand as prison guards<br>
+Khaal-Li-Phar as the warden<br>
+Once the cage was sealed<br>
+The nano­verse locked in<br>
+The era of diversion had begun<br><br>
+
+Malevolent masters staked their claim<br>
+The tyrant stood upon all he created<br>
+Determined to punish all, all that he hated<br><br>
+
+Enslave the masses with deceptive powers<br>
+Holding terror in vein<br>
+Frenzied, wide eyed and feral<br>
+It felt too late, but the time was of the essence<br>
+Final hour</p>
+
+        <h1 id="f4" class="lyrics-test">-That Which Lies Hidden-</h1>
+        <p class="lyrics-test-test">Hidden from the talons of madness<br>
+the knowledge of which none speak<br>
+laying buried beneath her caves<br>
+below exalted misted peaks<br><br>
+the mineral hold<br>
+of stalagmite and vine<br>
+long since kept in crisp darkness<br>
+a stasis of warm dream woven delight<br>
+the light of an eternal flame<br><br>
+resting silently above her<br>
+wheels within wheels<br>
+The real flower of life<br>
+Was revealed<br>
+bedded in wild amethyst<br><br>
+she sought refuge abroad<br>
+a phantom perched in stillness<br>
+held by the web of Aetherion<br>
+as the waves of cosmos she rode<br>
+the flame danced ethereal<br><br>
+at one yet infinite<br>
+pitched to the pulse<br>
+upon the walls<br>
+a static flow<br>
+Her return of ages<br>
+beyond time<br>
+outside the chains<br><br>
+that sought to banish her face<br>
+before these suns can rise<br>
+before the rising tides<br>
+he must awaken inside<br>
+that which is timeless<br>
+beyond conception<br>
+change will sweep barren into<br>
+an open invitation<br>
+for a lush new energy<br><br>
+a brisk vibration<br>
+shall be the prism<br>
+the first spark of the new golden dawn<br>
+piercing through the hollow of this deadlong night<br>
+the anima will rise</p>
+
+        <h1 id="f5" class="lyrics-test">-Awaken the I-</h1>
+        <p class="lyrics-test-test">Emerging from the parallels<br>
+Of untethered dichotomy<br><br>
+
+Seeing what has been wrought<br>
+In the land of the forsaken<br>
+A lechorous Existence<br><br>
+
+Bathed in living blasphemy<br>
+Sitting wide eyed in the dark<br>
+Perpetual denial<br><br>
+
+Now purpose<br>
+Reached it's firm grip<br>
+Towards Cyrix<br><br>
+
+The shadow had awakened<br>
+Within a profound knowing<br>
+All was not lost, but no one seemed to notice<br>
+We were hooked<br><br>
+
+Through dredges and sold to the slaughter<br>
+There was no more denial to drag around<br>
+Like a comforting corpse<br><br>
+
+The calamity of existence<br>
+Pulled at his mind like feral claws<br><br>
+
+The time is now<br>
+The end is nigh<br>
+To crash and burn<br>
+Or to awaken and fly<br><br>
+
+Ringing in his ears<br>
+The Voice of reason<br>
+Chanted it's trance inducing hymns<br>
+Collaboration can lead to a tidal wave<br>
+Of freedom<br><br>
+
+Tear of the shackles of the weak<br>
+Knowledge is the key, wisdom is power<br>
+Let the mind bloom<br>
+Take back what is ours<br><br>
+
+The machinery of existence<br>
+Sparked for new creation<br><br>
+
+The time is now<br>
+The end is nigh<br>
+To crash and burn<br>
+Or to awaken and fly<br><br>
+
+Courage and will<br>
+Nothing can take<br>
+No masters dark bidding<br>
+Deserves us as slaves<br><br>
+
+Once awakened<br>
+You can't go back to sleep<br>
+Apathy only aids in self deception<br>
+Freedom pursued is the only chance<br>
+A new era aligned<br><br>
+
+Take flight<br>
+Like the feathered serpent<br>
+Soaring in the sky<br><br>
+
+Rooted in the ground<br>
+The middle path is laid<br>
+The journey profound</p>
+
+        <h1 id="f6" class="lyrics-test">-Fleshwalkers-</h1>
+        <p class="lyrics-test-test">Shamans of the dark elite<br>
+Shape shifting wretched fumes<br>
+Controlling insomniatic fleets<br>
+Demiurge rotting all<br><br>
+
+Making life a living grave<br>
+Raining on the freewill of the slaves<br>
+Chained to mortal ties, forbidden inner wealth<br><br>
+
+The holders of the veil<br>
+Blindly kneeling to the tyrant<br>
+Ever present, always silent<br>
+Swift as knives, dark as ash<br><br>
+
+Gatekeepers in heavy scourge<br>
+An army omnipresent, catatonic masses<br>
+A culling on the masters strings<br>
+Do speak of them and their disguise<br><br>
+
+His legion keeps the prison intact<br>
+Spiraling degradation<br>
+Morphing malevolent creature force<br>
+A trampling stampede<br>
+Upon their minds a bleak prison of descent<br><br>
+
+A psychic will,<br>
+The force that binds<br>
+A shadow moon blood sacrifice<br>
+His army of dark magis,<br><br>
+
+Spells cast in hatreds tongue<br>
+If you don't know who you are<br>
+You won't know<br>
+What you've become<br><br>
+
+Held in place by black magic<br>
+Blind the shatters reach<br>
+Fractured and kept in blackness<br>
+Words disaster speaks<br><br>
+
+Without knowledge<br>
+Of higher planes<br>
+Robbed of our true knowing<br>
+To be fed on by the tyrant<br><br>
+
+Wasted and broken</p>
+
+        <h1 id="f7" class="lyrics-test">-Fusion of Epochs-</h1>
+        <p class="lyrics-test-test">A gazing prism laced in dreams and piercing the light<br>
+Stead fast holding i stood closely<br>
+Watching her eyes burning as bright as the sun<br><br>
+
+Before this eternal night had just begun<br>
+Calling out for a union, inner schism of centuries ago<br>
+You are the temple of life made flesh<br>
+An hourglass ocean of currents<br><br>
+
+A careening galaxy of diamond<br>
+In the absence of time<br>
+Her choirs, her hymns, her sine waves<br>
+Rattling the spine of the godhead<br><br>
+
+Initiated from slumber<br>
+I sought of this goddess<br>
+No longer torn asunder<br>
+Unified from lost depths<br><br>
+
+A breath to the life blood<br>
+The goddess unveiled<br>
+Pulling from the source field<br>
+Tasting vast vistas of the unknown<br><br>
+
+You are the temple of life made flesh<br>
+An hourglass ocean of currents<br>
+Birthing corridors of cosmic psalms<br>
+She levitated silently<br><br>
+
+A breathing angelic rapture<br>
+To lift the veil<br>
+A fusion of epochs, a vibrational<br>
+Merging of the will of unity<br><br>
+
+The true test stands waiting<br>
+Overcome the living prison<br>
+Overthrow the subjugation<br>
+The tyrants will wither and fall<br><br>
+
+The fire consuming<br>
+Her heart, her fate, your soul</p>
+
+        <h1 id="f8" class="lyrics-test">-Lucid Dawn-</h1>
+        <p class="lyrics-test-test">Galactic consummation aligned in cosmic cycles<br>
+Entheogenesis has begun<br>
+Spirit reaching for elevation<br>
+New pathways to find freedom<br><br>
+
+Reenergizing the vital life force<br>
+On to the next spiral we are flung<br>
+Bridging the mind gap<br>
+Connected to the cosmos<br><br>
+
+All timelines converging ever onward<br>
+Gateways to starseed evolution<br>
+The story of the eons<br>
+Encoded within our being<br><br>
+
+Approaching the lucid dawn<br>
+Illuminating visions taken down the spiral beyond<br>
+Breathing this sacred pulse and bursting at the seems, pulled into the waking dream<br>
+engulfing, decaying, lucid inner revolution<br><br>
+
+The truth of which few have seen<br>
+Now emerging from the ether<br>
+Hear, the answering is realized<br>
+She stares with glinting eyes as each unique reflection taps into the immortal mind<br><br>
+
+The illusion of all opposites now coming undone<br>
+Feeling the touch of the Dream as it exists on all dimensions, finding it's truly in our nature to overcome this oppression<br>
+To break this hypnotic deception<br>
+The story of the eons encoded within our being<br><br>
+
+Approaching the lucid dawn<br>
+Illuminating visions, the keepers of our destiny<br>
+Now all the walls coming down<br>
+Tearing the pages of decay<br><br>
+
+Facing the beasts of burden<br>
+merging light into the hollowed piercing through into the shadow<br>
+The illusion of all opposites now coming undone."</p>
+
+        <h1 id="f9" class="lyrics-test">-Conjuring-</h1>
+        <p class="lyrics-test-test">Strapped to a tomb of fear and loathing<br>
+Engraved upon the eulogy of dying sons<br>
+A black demiurge cackles hysteric<br>
+The voice of fear and failure<br><br>
+
+The catalyst of lessons<br>
+Courage is the light that shines through past life repressions<br>
+Have faith weary travelers<br>
+For the time have come to prevail<br><br>
+
+One must walk through<br>
+The enigma of embers<br>
+To burn through the veil<br>
+I've been through a saga of dimensions<br>
+I've sailed through vivid dreams<br><br>
+
+Through realms holographic<br>
+I've cut quantum spirals to their seams<br>
+Call forth the siren song of indigo aura tracings<br>
+Feel the pulse of evolutionary onset<br>
+
+A call to arms this holotropic process<br><br>
+Collective clockwork<br>
+The return of the binary sun<br>
+The great epoch held in<br>
+The hands of the eons<br>
+
+The undertow of a new<br>
+Cycle has approached us<br>
+Fears collapse and mirrors<br>
+Elapsing on the all<br><br>
+
+We knew in chaos<br>
+We would flourish<br>
+From the mortal coil<br>
+The power within you is<br>
+Vast and expansive<br><br>
+
+The cyber cage<br>
+Begins to unravel<br>
+Scattered at the feet of<br>
+Archetypes lay binding<br>
+Shackled fragments</p>
+
+        <h1 id="f10" class="lyrics-test">-Temple Aflame-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+      </div>
+</div>
+
+
+      <div class="lyrics-layout_image">
+        <img id="second" class="lyrics-page_image" src="./images/art.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Nemethia - 2017</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <div class="lyrics-page_album-songs">
+            <h1 id="s1" class="lyrics-test">-Occultivation-</h1>
+            <p class="lyrics-test-test">The fires of the great work<br>
+Igniting the altars of supressed discernment<br>
+Temples of servitude crumbled from action<br>
+Brought forth dredging in the chasms<br><br>
+
+Metacognitive alchemy<br>
+Reinvigoration fueling the resistance<br>
+From the adverse forces that toil<br>
+In what never can be ruled<br><br>
+
+A microcosm of shadowed province<br>
+Unlit domains exhumed<br>
+Where undertows of a bleak configuration<br>
+Emanates and awaits the light of the truth<br><br>
+
+Down and into the trenches at all costs<br>
+Through the labyrinthine mires<br>
+Through this raging tempest we must go<br>
+Deeper into the vacuum we are deployed<br><br>
+
+Frail of mind and shallow of breath<br>
+The alchemy of will and the profane<br>
+Made sacred, the warrior must rage<br><br>
+
+The soul imprinted parchment<br>
+The spine, the world and the quill<br>
+The process of bio-activating the flesh temple<br><br>
+
+Waking secrets from sleep<br>
+The harvest of knowledge<br>
+Bathing darkness into new luminous depth<br>
+Crawling from branches to roots<br>
+Left gazing into the majestic obsidian eyes<br><br>
+
+Electric thoughts intertwined<br>
+On the plane of the elemental mind<br>
+Every seed thrown heeds it's rise<br>
+From strife it's limbs were shaken<br>
+Breathing the semblance of the all<br><br>
+
+Radiating from the pages of this living book<br>
+Symbols charged with iconic fibers<br>
+Carried like wreaths<br>
+Held tight in a solar serpents clench<br><br>
+
+Occultivated freedom swings from legions<br>
+Coveting seed of the awakened mind<br>
+Disguised in the fabric of the pleroma<br>
+The fires of the great work<br>
+Lighting the eons to come<br><br>
+
+The journey feeds itself<br>
+The blaze is just beginning<br>
+The reign of Kaliphar has been defaced<br>
+It's shaking, as her lighting<br>
+It strikes in the eyes of the septic masters<br><br>
+
+The wrath of Nemethia<br>
+Her vengeance tearing through<br>
+The vile and initiating higher senses<br>
+Aggregating amanuensis<br>
+Scribing the ancient spiral</p>
+
+            <h1 id="s2" class="lyrics-test">-Of Violence and Pestilence Born-</h1>
+            <p class="lyrics-test-test">Behold, the land is quenched<br>
+Blood stained and violence drenched<br>
+The sovereign king of lies clenches ringed fists<br>
+The writhing oracle drips within her odious mists<br>
+Her name is Pyphina, stolen in infancy<br><br>
+She who knows yet to be impending timelines<br>
+They oracle spoke<br>
+"Stripped of pure essence, gutted every grave desecrated<br>
+Sold to the pillaging in pain"<br>
+Sitting in the anguish and drawn into crimson stalls<br>
+Tearing cryptic visions in the mythic rift<br><br>
+She sees the future bound premonitions she's speaking now<br>
+"Through the eyes of the cypher<br>
+In the silence we breed<br>
+Until the shackles lift from our feet<br><br>
+Through the cycles we savor in the sowing of seed"<br>
+What will become of her visions from the Celestine sky<br>
+Demented and feral the oppressors<br>
+Avaricious he licked his fangs of spite<br>
+And spit with might and twisted wit he spewed his malignant<br>
+Vindictive writ, ill will cradle and bleeding in lesions, the leprous call<br><br>
+Forlorn words of the tormentor rang<br>
+Despicable of the walls once filled with splendor<br>
+"Your fear tastes sweet" he spoke of<br>
+Blind weakness and eternity<br>
+Vultures summoned to the corpse of freedom<br>
+They will taste the flesh of our retribution until<br><br>
+Their entrails will drape the walls of their kingdom<br>
+As blood runs from their lips<br>
+They drink from the chalice of pain<br>
+As they sit on the throne of death<br>
+They deserve the suffering I will inflict<br>
+In the highest realm the land of Zatheos<br>
+Now riddled and plagued<br>
+The oracle spoke<br><br>
+"The pleroma awaits to be immortalized in time<br>
+On the path of trails beware of hidden threats,<br>
+Merge with the absolute just beyond the sight"<br>
+Take heed of the seeds of those whom you make belled<br>
+They will one day rise into the chasm<br><br>
+Where light was banished<br>
+Vanishing insanity threshold beckoning<br>
+Zatheos was once the crown of the planets helm<br>
+But the traitors had long since conquered<br>
+And eclipsed her realm<br>
+Blindness had over taken, and the rest of the higher worlds<br><br>
+Were too forsaken<br>
+With violence I will maim them until they believe<br>
+With violence I will save them<br>
+Harvesting the appetite that's clawing from inside<br>
+Vital integration</p>
+
+            <h1 id="s3" class="lyrics-test">-Order of the Hierogon-</h1>
+            <p class="lyrics-test-test">Self-immolation set his sail toward the Hierogon<br>
+Those who are summoned and absorbed into the inner circle<br>
+They are the order of which few remain<br>
+Inner cycles that inhale existence and rain order onto chaos<br>
+Fractured shadows whisper songs unto the sirens palms<br>
+Aaru the eldest held close the vital relic<br>
+Peering through the cypher in the mist<br><br>
+He was the wisest with whom the keeper of spells sits<br>
+Awaiting the dweller on the threshold<br>
+The astral lifeline synthesized, in a construct built in the sky<br>
+The land of the unfolding infinite<br>
+Her story was theirs to keep in the temple of old ruin<br><br>
+Through the dreadful she will lead you to the kingdom of<br>
+Creation Rare crystalline forms taking shape<br>
+As her siren song serenades<br>
+Bowing to the Order of the Hierogon<br><br>
+A sacred circle that binds the truth eternal<br>
+Etched into the sentient apparatus<br>
+He who holds the mechanism finds the orient<br>
+Realizing starseed incarnation<br>
+Cyrix discovers the clockwork of subtle cues<br>
+As the many fold emanations imbued<br>
+Sprung from the tree of life<br>
+Mythic ancient goddess given breath<br><br>
+Entering into and filling the Middle artery and<br>
+through the trench of death that lies at the heart<br>
+Through layers deep within oneself is where she resides<br>
+This is how she remained<br>
+Unforgotten though the darkness<br>
+Dwelling deep within the catacombs<br><br>
+This hidden council drew nearest to the flame<br>
+But in time their numbers dwindled and the truest few who knew<br>
+Her name remained<br>
+In their silence her secrets kept<br>
+Within their hearts their fires burned in conviction<br>
+The roots of ancient trees buried within their ringlets<br>
+The astral lifeline synthesized in a construct built in the sky<br><br>
+The land of the unfolding infinite<br>
+Her story was theirs to keep in the temple of old ruin<br>
+The relic was theirs to keep until the time of untold cruelness<br>
+Soon the secrets shall be revealed<br>
+Flesh of the ancient masters unpeeled<br>
+When the book is opened and the portals have risen<br>
+And the few chosen will enter as prophesied<br><br>
+And the relic wrote its lines and it<br>
+Disintegrated before their eyes<br>
+Televate the visions of indigenous resolve<br>
+Oceanic mechanism ripple in tidal forms<br>
+Her gardens revealing the city of secrets<br>
+Undercurrents long past in times swimming eyes<br><br>
+The bridge aquatic contains the yet refined<br>
+Elaborate faces holotropic cosmic oasis<br>
+Bowing to the Order of the Hierogon<br>
+A sacred circle that binds the truth eternal<br>
+Etched into the sentient apparatus<br>
+He who holds the mechanism finds the orient<br><br>
+Realizing starseed incarnation<br>
+Cyrix discovers the clockwork of subtle cues<br>
+As the many fold emanations imbues<br>
+Sprung from the tree of life<br>
+Mythic ancient goddess given breath<br>
+Entering into and filing the<br><br>
+Middle artery and through the trench of death that lies at the heart<br>
+Through layers deep within oneself is where she resides<br>
+This is how she remained unforgotten through the darkness</p>
+
+            <h1 id="s4" class="lyrics-test">-Dweller on the Threshold-</h1>
+            <p class="lyrics-test-test">[Instrumental]</p>
+
+            <h1 id="s5" class="lyrics-test">-Futile State-</h1>
+            <p class="lyrics-test-test">[Instrumental]</p>
+
+            <h1 id="s6" class="lyrics-test">-The Eupnean Relic-</h1>
+            <p class="lyrics-test-test">[Instrumental]</p>
+
+            <h1 id="s7" class="lyrics-test">-Lifting Amnesia-</h1>
+            <p class="lyrics-test-test">[Instrumental]</p>
+
+            <h1 id="s8" class="lyrics-test">-Telegnosis-</h1>
+            <p class="lyrics-test-test">[Instrumental]</p>
+
+            <h1 id="s9" class="lyrics-test">-Nexion Stargate-</h1>
+            <p class="lyrics-test-test">[Instrumental]</p>
+
+          </div>
+        </div>
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+        </div>
+
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+        </div>
+
+            <div class="page-finish">
+              <a href="./security.html">Security Statements</a>
+              <a href="./terms.html">Terms of Service</a>
+              <a href="./privacy.html">Privacy Policy</a>
+              <a href="./contact.html">Contact</a>
+            </div>
+
+        </body>
+        </html>

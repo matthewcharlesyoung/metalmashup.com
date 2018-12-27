@@ -1,0 +1,2258 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">The Color Morale</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/mydevil.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">My Devil In Your Eyes - 2011</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Nerve Endings</a>
+      <a href="#f2">Human(s) Being</a>
+      <a href="#f3">The Dying Hymn</a>
+      <a href="#f4">Be Longing Always</a>
+      <a href="#f5">Walkers</a>
+      <a href="#f6">Demon Teeth</a>
+      <a href="#f7">Falling Awake</a>
+      <a href="#f8">Quote On Quote</a>
+      <a href="#f9">This Lost Song Is Yours</a>
+      <a href="#f10">Fill; Avoid</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/knowhope.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Know Hope" - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Burn Victims</a>
+      <a href="#s2">Smoke And Mirrors</a>
+      <a href="#s3">Learned Behavior</a>
+      <a href="#s4">Living Breathing Something</a>
+      <a href="#s5">Strange Comfort</a>
+      <a href="#s6">In Light In Me</a>
+      <a href="#s7">Silver Lining</a>
+      <a href="#s8">Steadfast</a>
+      <a href="#s9">Hole Hearted</a>
+      <a href="#f10">Saviorself</a>
+      <a href="#s11">Have. Will</a>
+      <a href="#s12">Never Enders</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/holdon.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Hold On Pain Ends - 2014</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">Damnaged</a>
+      <a href="#t2">Outer Demons</a>
+      <a href="#t3">Prey For Me</a>
+      <a href="#t4">Lifeline (Left To Write)</a>
+      <a href="#t5">Scar Issue</a>
+      <a href="#t6">Suicide;Stigma</a>
+      <a href="#t7">The Ones Forgotten By The One Forgetting</a>
+      <a href="#t8">Developing Negative</a>
+      <a href="#t9">Is Happiness A Mediocre Sin?</a>
+      <a href="#t10">Between You And Eye</a>
+      <a href="#t11">Throw Your Roses</a>
+      <a href="#t12">Hold On Pain Ends</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#fourth"><img class="lyrics-page_image" src="./images/desolate.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Desolate Divine - 2016</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#ff1">Lonesome Soul</a>
+      <a href="#ff2">Clip Paper Wings</a>
+      <a href="#ff3">Walls</a>
+      <a href="#ff4">Trail Of Blood</a>
+      <a href="#ff5">Version Of Me</a>
+      <a href="#ff6">Home Bittersweet Home</a>
+      <a href="#ff7">Misery Hates Company</a>
+      <a href="#ff8">Perfect Strangers</a>
+      <a href="#ff9">Broken Vessel</a>
+      <a href="#ff10">Fauxtographic Memory</a>
+      <a href="#ff11">Keep Me In My Body</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/mydevil.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">My Devil In Your Eyes - 2011</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Nerve Endings-</h1>
+      <p class="lyrics-test-test">Dreams are forever reoccurring,<br>
+And life is what happens when we can't fall asleep,<br>
+We need to bare one another's burdens,<br>
+Real family and friends will always stab you in the front,<br>
+The end result is not one damned thing after another,<br>
+It's one damned thing over and over,<br>
+We are condemned and this is how we learn.<br><br>
+
+Don't you see it's time to let go of everything,<br>
+that's keeping us from the truth,<br>
+keeping me from you,<br>
+so what good are all the pictures,<br>
+if they have yet to gather flames,<br>
+leave your past in the past and focus on what you don't want framed.<br><br>
+
+Dreams are forever reoccurring,<br>
+And life is what happens when we can't fall asleep,<br>
+And dreams are the same thing as nightmares.<br><br>
+
+Don't you see it's time to let go of everything,<br>
+that's keeping us from the truth,<br>
+keeping me from you,<br>
+so what good are all the pictures,<br>
+if they have yet to gather flames,<br>
+leave your past in the past and focus on what you don't want framed.<br><br>
+
+Oh leave your past in the past,<br>
+We don't have to keep our mistakes displayed.<br><br>
+
+You are keeping me awake.<br>
+Leave your past behind you.<br><br>
+
+Dreams are forever reoccurring.
+</p>
+
+      <h1 id="f2" class="lyrics-test">-Human(s) Being-</h1>
+      <p class="lyrics-test-test">[This is the real world in real time<br>
+And I am sick of rendering<br>
+So toss your seeds on cement<br>
+And see if they can grow alone<br>
+<br>
+There is a reason behind weeds<br>
+When walls are broken we can break<br>
+Through them all<br>
+To see what continues to grow<br>
+<br>
+It's hard to see humility<br>
+Because humanity is lead by us men<br>
+And we all need exorcisms and exercising<br>
+{were} born with two sides and need to stay in shape<br>
+<br>
+You're so insecure standing in your own skin<br>
+Someday you won't need it<br>
+<br>
+And I can't do this on my own<br>
+And I will always be an imperfect human just being me, just being me<br>
+And I will always be an imperfect human being me<br>
+Stop worrying about where you've been because it brought you back to me<br><br>
+
+It's hard to see humility<br>
+Because humanity is lead by us men<br>
+And we all need exorcisms and exercising<br>
+{were} born with two sides and need to stay in shape<br><br>
+
+And we can be delivered even if it's late<br>
+Being late is okay if we reach our destination<br><br>
+
+I am not afraid to die<br>
+I am not afraid to die<br>
+I am terrified of life<br>
+I am terrified<br><br>
+
+I am not afraid to die<br>
+I am not afraid to die<br>
+I am terrified of life<br>
+I am terrified<br><br>
+
+You're so insecure standing in your own skin<br>
+Someday you won't need it anymore<br>
+I will walk alone</p>
+
+      <h1 id="f3" class="lyrics-test">-The Dying Hymn-</h1>
+      <p class="lyrics-test-test">So go ahead and turn away<br>
+See where it gets you in the long run.<br>
+I'm trying my hardest to grow<br>
+When it's embedded in your bones<br>
+It grows with.<br><br>
+
+Are we all punished for sins of fathers.<br>
+It seems so pointless to have an existence<br>
+In a world misused.<br><br>
+
+It seems so pointless to have an opinion<br>
+When yours is never true.<br><br>
+
+Just try to imagine<br>
+A life without love<br>
+But death has its hold on us.<br>
+So think upon beauty<br>
+Its like painting a picture<br>
+When everything's shaded in grey<br>
+And even when we've been face to face<br>
+We have never seen eye to eye<br>
+So take a good look in mine<br>
+It's a window to a soul that knows not why.<br><br>
+
+You can't continue this direction<br>
+It's detours and dead ends.<br>
+Don't join this kind of company<br>
+Unless your joining to fight.<br>
+Fight for your life.<br><br>
+
+Losing the fight is getting knocked down and staying there.<br><br>
+
+So why do I turn away it's getting me nowhere.<br>
+Nowhere in the long run<br><br>
+
+The world can't make you faithless when faith is first.<br>
+Where is your faith</p>
+
+      <h1 id="f4" class="lyrics-test">-Be Longing Always-</h1>
+      <p class="lyrics-test-test">(I've got my father's teeth<br>
+And my mother's bygones.<br>
+We are all victims of consequence.<br>
+And we can built it or tear it down<br>
+With the same two hands!)<br><br>
+
+(We all fail,<br>
+But we are not all failures.<br>
+Preaching to never fail,<br>
+We don't have to live like this!)<br><br>
+
+Don't live your life in shame,<br>
+(Chasing what was too far away!)<br>
+It's not a contest<br>
+And look if you want.<br>
+You'll speak and you'll speak,<br>
+But not around to me.<br>
+Broken homes lead the way<br>
+For twisted tongues.<br><br>
+
+(Broken homes<br>
+Lead way for twisted tongues,<br>
+We will not be forgotten.<br>
+This will be the reason I refuse<br>
+To find to a way break this empathy.<br>
+We want too easy!)<br><br>
+
+(I found a foot hole in the fault line.<br>
+There was only a voice,<br>
+There was only Him.<br>
+And this is what it said:)<br><br>
+
+I still love you somehow,<br>
+And I still love you somehow.<br><br>
+
+Don't live your life just yet,<br>
+(Chasing what was too far away!)<br>
+It's not a contest<br>
+And look if you want.<br>
+You'll speak and you'll speak,<br>
+But not around to me.<br>
+Broken homes lead the way<br>
+For twisted times.<br><br>
+
+(I still love you, I still love you somehow!)<br><br>
+
+(I still love you somehow.<br>
+I still love you somehow<br>
+And I always will!)<br><br>
+
+(You've got a tape worm<br>
+Growing within your soul.<br>
+You're gonna have to dig it out alive.<br>
+Dig it out. Dig it out, dig it out!)<br><br>
+
+I still love you somehow,<br>
+And I still love you somehow.</p>
+
+      <h1 id="f5" class="lyrics-test">-Walkers-</h1>
+      <p class="lyrics-test-test">We don't feel the world turn,<br>
+Take these steps in my days,<br>
+One at a time.<br>
+We all start the same dreams,<br>
+Don't try them, you're asleep.<br><br>
+
+(We all try to run from our problems<br>
+And straight to the answers.<br>
+We all spend our time chasing grace,<br>
+But not listening to own my faith.<br>
+Without that faith we'd just decay!)<br><br>
+
+We are not useless.<br><br>
+
+We are not useless just used.<br>
+And I see something<br>
+In you I'm going to prove.<br>
+(Useless and used!)<br>
+We've been used.<br>
+(This is what we're all going through!)<br><br>
+
+Whom ever loses us, whom ever loses us.<br>
+(Whom ever loses us, whom ever loses us!)<br><br>
+
+We are not useless.<br><br>
+
+We are not useless just used.<br>
+And I see something in you<br>
+I'm going to prove.<br>
+(Useless and used,<br>
+This is what we're all going through!)<br><br>
+
+(You never know when you're close.<br>
+Close inside,<br>
+Until you reach inside and force it out.<br>
+Will we ever we make the demons leave?<br>
+So we can learn in peace.<br>
+We've all got it buried underneath!)<br><br>
+
+Whom ever loses us, whom ever uses us.<br><br>
+
+They say that home is where the heart is<br>
+It's all we've got to part with.<br>
+We all have to find love alone.<br>
+They say that home is where the heart is,<br>
+You make me your home.<br><br>
+
+We won't feel the world turn,<br>
+If we keep standing still.
+</p>
+
+      <h1 id="f6" class="lyrics-test">-Demon Teeth-</h1>
+      <p class="lyrics-test-test">Twenty something<br>
+Years of seclusion<br>
+Seems to be quite enough<br><br>
+
+Just get me out of this town<br>
+It's like a dried up,<br>
+lake full of debris and I am starting to drown<br>
+Sometimes I can see clearer<br>
+Through rear view mirrors<br>
+Then windshields with<br>
+All the places I've been<br><br>
+
+How do I find my destination?<br>
+Neither one of us is getting out<br>
+Of the situation alive<br>
+Until the other one dies<br><br>
+
+And it wont be me<br>
+You clench your hold like you clench your teeth<br>
+And I will send you back to hell<br>
+Holding your jaw,<br>
+Like your demon teeth<br><br>
+
+Your demon teeth<br><br>
+
+Put your ghosts in the past<br>
+Don't put your torment back<br>
+Beneath it's reoccurring<br>
+Pull apart its jaw<br>
+And smash out its teeth<br><br>
+
+Who do I believe?<br>
+When everyone sees and speaks<br>
+Based in part by what they themselves believe<br>
+I'd Rather see a man of god<br>
+Than hear from one<br>
+Any day of the week<br>
+So take hold of these demons<br>
+Cast them into pigs<br>
+But don't let a single one of them leap<br>
+Take their filth<br>
+And let them learn<br>
+(No, no, no, no) Just let them teach<br><br>
+
+[x2]<br>
+Instead of reading the book (I've read the book)<br>
+Try Meeting The Author (I've met the author)<br><br>
+
+That's my problem, I've had the devil on both sides<br>
+With god at the bottom (ughhhh)<br><br>
+
+Chin Up<br>
+Chin Up<br><br>
+
+He doesn't pick where he stands,<br>
+I pick where I place him.</p>
+
+      <h1 id="f7" class="lyrics-test">-Falling Awake-</h1>
+      <p class="lyrics-test-test">In spite of my cheerful demeanor<br>
+I'm afraid to set foot in the world<br>
+We watch the same dead clocks<br>
+These small hands need to meet the larger again<br><br>
+
+I chose a road, one that I didn't know...<br>
+Now it has brought me here<br>
+The stories that I have gathered in travels,<br>
+I wouldn't trade for the years, back<br><br>
+
+There's a war inside,<br>
+I need something to get me through this<br>
+Without you, am I ever myself<br>
+The only thing holding us back is us<br>
+You should back away from us<br>
+And ghosts from the last time<br>
+Are all the same<br>
+We can live again<br>
+We can live again<br>
+We can live again<br>
+All we can do is try and try and try and try to change<br>
+For ourselves<br><br>
+
+The night has been my covering<br>
+And the day is my disguise<br>
+But I can't seem to stay far enough away,<br>
+From self created lies<br><br>
+
+For those of you who question your purpose<br>
+Look inside the eyes staring back at you<br>
+Past your devil<br>
+They long for purpose too<br>
+And maybe that's yours, I know cause it's mine<br><br>
+
+You are the second hand air that I breathe<br>
+And these songs were made for you to sing before me<br>
+And they are more than just sound<br>
+And you are more than just an audience<br>
+This is the family I've found<br><br>
+
+The night has been my covering<br>
+And the day is my disguise<br>
+But I can't seem to stay far enough away,<br>
+From self created lies<br><br>
+
+I chose a road, and now I know<br>
+Nothing will ever come easy<br>
+I chose this road<br>
+Staying asleep is worse than falling awake<br>
+I chose this road<br>
+Staying asleep is worse than falling awake</p>
+
+      <h1 id="f8" class="lyrics-test">-Quote On Quote-</h1>
+      <p class="lyrics-test-test">(You said to live life<br>
+And live it in abundance,<br>
+But you yourselves are abundantly dead!)<br><br>
+
+(And if not for a reason,<br>
+I would have another reason to stay.<br>
+I need to find a place<br>
+Where I can fill my faith,<br>
+I don't need it taken!)<br><br>
+
+(Oh, I will learn to let you go.<br>
+Oh, learn to let you go<br>
+Back to your shadow!)<br><br>
+
+Take me to the place<br>
+Where I can restore my faith.<br>
+Oh, I wrote and said that you are skin.<br>
+One day they will be<br>
+The earth and it's world.<br><br>
+
+(Are you a preacher or a pastor,<br>
+A teacher and a bastard?<br>
+Are you...<br>
+Are you a preacher or a pasture,<br>
+A teacher and a bastard just like me?<br>
+Just like me!)<br><br>
+
+(You said to live life.<br>
+Since the day we were made,<br>
+We've all started to die.<br>
+But I can only listen once,<br>
+Well, nobody ever dies once!)<br><br>
+
+Take me to the place<br>
+Where I can restore my faith.<br>
+Oh, I wrote and said that you are skin.<br>
+One day they will be<br>
+The earth and it's world.<br><br>
+
+(Go on, speak for yourself.<br>
+Speak for yourself!)<br><br>
+
+(Pull apart your scarecrows,<br>
+Pull apart your scarecrows!)</p>
+
+      <h1 id="f9" class="lyrics-test">-This Lost Song Is Yours-</h1>
+      <p class="lyrics-test-test">Has the dark been forever calling<br>
+When I stare off alone, is the devil with<br>
+I didn't create the disease, I just diagnosed<br>
+I wanna be missed but I just can't go<br>
+<br>
+No, don't take me back there<br>
+Don't take me back there, no<br>
+Bury me a hole in the sky<br>
+Not in my mind<br>
+No one ever makes it out of life alive<br>
+That's no excuse for you to not try<br>
+<br>
+Has the dark been forever calling<br>
+When I take trips alone, is the devil with<br>
+I didn't create the disease<br>
+You were created in me<br>
+<br>
+No, don't take me back there<br>
+Don't take me back there, no<br>
+<br>
+Our life's a road not a destination<br>
+In my travels tonight, you were my inspiration<br>
+You'll make it past this night<br>
+More alive<br><br>
+
+The cleanest we'll be is the day before<br>
+We're buried in soil<br>
+Where we'll make peace with worms<br>
+And I've seen you in dust<br>
+But not dirt<br>
+You'll make your peace<br>
+But you still won't know where you belong<br>
+But I'll be there with you<br><br>
+
+The world's tried to make me<br>
+Put a hole through my own head<br>
+And bury me there<br>
+It would be too easy<br>
+This is the lost not the last<br>
+I've always needed<br>
+Help<br>
+<br>
+We all have our scars to show<br>
+They will forever try to close<br>
+We've all made mistakes but grown from<br>
+The last song that you'll hear<br>
+Will be your own</p>
+
+      <h1 id="f10" class="lyrics-test">-Fill; Avoid-</h1>
+      <p class="lyrics-test-test">I’ll never know comfort till the sun sets.<br>
+I’ve always known the struggle when the light and my eyes met.<br>
+They connect.<br>
+Put me back in the earth.<br><br>
+I came from dust and not dirt.<br><br>
+You made me from dust, not dirt.</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/knowhope.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Know Hope" - 2013</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Burn Victims-</h1>
+        <p class="lyrics-test-test">They say the things that love you will never stay,<br>
+is that really true?<br>
+I guess you made everyone leave before they could hurt you, but who taught this to you?<br><br>
+Hurting people will always be hurting people,<br>
+it was you that made me me<br>
+Every storm made me soak to find strong roots,<br>
+I am reminded, I am reminded<br>
+All my roots are starting to show yet I'm still trying to grow<br>
+And I am reminded, I am reminded there is still hope<br><br>
+
+And I hope one day you will understand pain is just a brand<br>
+I've given my life to keep it away from your skin<br>
+And I hope one day you will understand pain is never planned<br>
+And the start of a cycle is always the end when we are the victims<br><br>
+
+And that's how I know I need to write about this for you<br>
+The youth that never got told the truth<br>
+That's my problem, I've got intentions on both sides<br>
+Stitched together with lies and more songs left to write<br>
+Do things write this time about how<br>
+To untangle all the knots that we keep tied<br>
+My stomach is weak because you made me me and someone made you you<br>
+We are the victims and I am the hope<br><br>
+
+And I hope one day you will understand pain is just a brand<br>
+I've given my life to keep it away from your skin<br>
+And I hope one day you will understand pain is never planned<br>
+And the start of a cycle is always the end when we are the victims<br>
+And I hope one day you will understand pain is never planned<br>
+When the start of the cycle is always the end when we are the victims<br><br>
+
+You, you are the victim and I am still learning that I can be the hope</p>
+
+        <h1 id="s2" class="lyrics-test">-Smoke And Mirrors-</h1>
+        <p class="lyrics-test-test">f you give up on me, then I give up on everything<br>
+I didn't come this far to not tell you the truth<br>
+And you'll know it's true because the,<br>
+answers that I tell you will make you all feel sick<br>
+Feel hateful, feel useless and used,<br>
+just remember that every piece of trash<br>
+Was one time itself first used<br><br>
+
+Say the word<br><br>
+
+Say the word and I will go quickly to a light<br>
+Too much of any one thing at a time will leave you blind<br>
+Say the word and I will go quickly to a light<br>
+Too much of any one thing at a time just left me blind<br><br>
+
+You need to get through what you are going through<br>
+Some day someone, somewhere will need you<br>
+If you give up on me, then I give up on everything<br>
+Back and forth my reason grows, I didn't choose this I was chose<br>
+Back and forth my reason grows, I didn't choose this and I want to go<br>
+Home is where the hurt is and no one even knows<br><br>
+
+Say the word and I will go quickly to a light<br>
+Too much of any one thing at a time will leave you blind<br>
+Say the word and I will go quickly to a light<br>
+Too much of any one thing at a time just left me blind<br><br>
+
+If you give up on me then I give up on everything<br>
+If you give up on me then I give up on everything</p>
+
+        <h1 id="s3" class="lyrics-test">-Learned Behavior-</h1>
+        <p class="lyrics-test-test">We are the same disease<br>
+One way too old<br>
+One way too young to treat<br>
+Our feet stuck in the same concrete<br>
+We just want to be free<br><br>
+
+Aren't you sick of knowing that you could truly be<br>
+Something that stays and makes a difference before it leaves<br>
+Aren't you sick of hearing all the pain in me<br>
+Aren't you sick of being sick from the same disease<br><br>
+
+Come to me with anything that you'll ever need<br>
+Come to me when you're rebuilding<br>
+Sometimes it's good to build up walls, not to keep anyone outv
+But to see who cares enough to knock them down<br><br>
+
+We can start again<br>
+With our names written in new cement<br>
+We can write the date<br>
+Right after we dig ourselves out of the messes we've made<br>
+You'll never know<br>
+What you have until it's gone<br>
+Through hell for you<br><br>
+
+Come to me with anything that you'll ever need<br>
+Come to me when you're rebuilding<br>
+Sometimes it's good to build up walls, not to keep anyone out<br>
+But to see who cares enough to knock them down<br><br>
+
+You'll never stop making mistakes<br>
+But if you learn from them you will never make the same ones twice<br>
+Next time there may be no next time<br><br>
+
+Come to me with anything that you'll ever need<br>
+Come to me when you're rebuilding<br>
+Sometimes it's good to build up walls, not to keep anyone out<br>
+But to see who cares enough to knock them down</p>
+
+        <h1 id="s4" class="lyrics-test">-Living Breathing Something-</h1>
+        <p class="lyrics-test-test">Question everything<br>
+Have I already been buried<br>
+I can see no light but I am still stuck here breathing<br>
+Maybe a wretch like me is supposed to stay forever buried<br>
+So you can see the analogy of what happens,<br>
+to you when you keep things buried beneath<br>
+I have been buried for years but why am I still breathing<br>
+I don't make mistakes<br>
+I bury them<br><br>
+
+Suffocating soul that the devil just won't claim<br><br>
+
+I dug this grave now it's time to tell the truth from it<br>
+You put one foot on the lid when did I let it close<br>
+One foot on the lid 5 feet left to go<br>
+Forgive your enemies but never forget their names<br>
+<br>
+
+I am my own worst enemy<br>
+Suffocating soul that the devil won't claim<br>
+I don't know if I believe in you anymore but everything needs an analogy</p>
+
+        <h1 id="s5" class="lyrics-test">-Strange Comfort-</h1>
+        <p class="lyrics-test-test">I know I'm lost with no motivation to find my way back<br>
+I left myself down a paper trail of the pages of my mind, now I want them back,<br>
+I'm somewhere between no courage among the other things I lack<br>
+Lost in desperation where an ember turns to an ash<br>
+Somewhere along this path I crossed the line<br>
+Broken promises I've made without thinking twice<br><br>
+Left my second thought and reason behind<br>
+All in the name of making this world mine<br>
+All in the name of building my own<br>
+Why do I think that I have to live this life alone, I know I'm lost<br><br>
+
+I know, I know I'm lost, I know, I know I'm lost<br>
+But what scares me the most is I'm starting to feel at home<br>
+I know, I know I can't stay here forever,<br>
+when we lose ourselves we find each other<br><br>
+
+I find this strange comfort in being lost in life<br>
+Wherever I end up will I belong there this time?<br>
+So when you feel your heart sink into your chest<br>
+Don't forget everything is okay in the end<br>
+We are not okay but this is not the end yet<br><br>
+
+We are not okay but this is not the end yet<br>
+We are not okay but this is not the end<br><br>
+
+I know, I know I'm lost, I know, I know I'm lost<br>
+But what scares me the most is I'm starting to feel at home<br>
+I know, I know I can't stay here forever,<br>
+when we lose ourselves we find each other</p>
+
+        <h1 id="s6" class="lyrics-test">-In Light In Me-</h1>
+        <p class="lyrics-test-test">How am I supposed to write about<br>
+hope with catchy hooks and melodies and make you sing along<br>
+Well I titled this whole album before I tried to write a song<br>
+And the truth is hope can be a burning sun<br>
+The closer that you seem to get the quicker you get lost in the sight of<br>
+It keeps casting it's shadow of our burdens behind,<br>
+us and the more we try stand inside the light<br>
+The more a darkness seems to grow<br>
+Is darkness the shade where I've found peace<br>
+<br>
+So maybe this time I need to be standing for someone to believe<br>
+Like a weathered oak with know hope carved in me<br>
+So maybe this time I need to be standing for someone to believe<br>
+You can take the life from me but I'll always be here standing,<br>
+Still very time you need me<br>
+Hope is at the root but each day<br>
+It's still casting a shadow of my darkness behind me<br>
+And the more I try to show you with the light<br>
+The more a darkness seems to follow<br>
+You will never change what you refuse to face<br>
+Like a shadow we always grow every time we try to find the light<br>
+<br>
+So maybe this time I need to be standing for someone to believe<br>
+Like a weathered oak with know hope carved in me<br>
+So maybe this time I need to be standing for someone to believe<br>
+You can take the life from me<br>
+Maybe this time I need to be<br>
+Maybe this time I need to be me<br>
+You don't know who you are anymore<br>
+Tonight I don't know either but we are standing still<br><br>
+
+We can't be moved<br>
+When hope is at the root of you<br>
+Every time the wind grows still and I continue to lose movement<br>
+You are there to walk up chin down and carve your name<br>
+Every time the wind grows still and life pushes you further<br>
+Come carve your name<br>
+Know hope in me</p>
+
+        <h1 id="s7" class="lyrics-test">-Silver Lining-</h1>
+        <p class="lyrics-test-test">Some days you're the pigeon<br>
+And some days you are the statue<br>
+Some days you're meant to just sit back and observe<br>
+While the world takes its turn and just shits all over you<br>
+Some days you need the rain because no one gets paid<br>
+To come clean up the messes that life makes all over you<br>
+I don't know who I am in this moment<br>
+I know I disappoint you<br>
+You don't know who I am anymore<br>
+Well that makes two of us<br>
+Are you following a god and this song got in the way<br>
+I'm sorry I'm sorry but I am not sorry<br>
+Is this the truth, the light, the sight,<br>
+the roots, or the noose<br><br>
+Everyone is religious only until they don't need to be anymore<br>
+That's not faith no not to me<br>
+All I have let to make are memories and mistakes<br>
+And new questions I'll take to the grave<br>
+Do you know how it feels to have your past sink<br><br>
+it's teeth right into your back<br>
+Only to turn around and see yourself<br>
+Keep the hell away from me<br>
+The devil you know is better than the devil you don't<br>
+Keep the hell away from me<br>
+You can still lead a positive life with a negative mind<br>
+Keep the hell away from me</p>
+
+        <h1 id="s8" class="lyrics-test">-Steadfast-</h1>
+        <p class="lyrics-test-test">We've been deserted, that doesn't mean that we deserve it<br>
+Is it worth it, keeping ourselves at bay<br>
+Set sail, you've spent way too much time living your life, in exile<br>
+To say goodbye, to the shoreline<br><br>
+
+Maybe if I'm sent off to sea, I'll find out what this means to me<br>
+I've got a message I carry, that I have forgotten to read<br>
+
+Maybe if I'm sent off to sea, I'll find out what this means to me<br>
+I've got a message I carry, that I have forgotten to read<br><br>
+
+I don't need another day, floating away<br>
+Lost in the sea of regret I've made<br>
+I want to wash up new for once<br>
+For once I don't want to float face down<br><br>
+
+We've been deserted, that doesn't mean that we deserve it<br>
+Is it worth it, keeping ourselves at bay<br><br>
+
+You can try and fail, but don't fail to try<br>
+Do I deserve this<br>
+If you're deserted, you can't desert it<br>
+You can never leave an island in your<br>
+Mind until you lose sight of the shoreline<br>
+You can try and fail, but don't fail to try<br>
+Some people spend their entire lives in exile<br>
+You can't never leave, an island<br>
+Until you lose sight of the shoreline<br>
+Times like these they come in waves<br>
+Make your footprint and send it right back away<br><br>
+
+All you're saying to me tonight, here in the open skyline<br>
+Without darkness, no star can learn to guide the way<br><br>
+
+Maybe if I'm sent off to sea, I'll find out what this means to me<br>
+I've got a message I carry, that I have forgotten to read<br>
+
+Maybe if I'm sent off to sea, I'll find out what this means to me<br>
+I've got a message I carry, that I have forgotten to read<br><br>
+
+You are not as lost as me<br>
+You are not as lost as me<br>
+
+No your not, no your not as lost as me<br>
+If you were and you were I wouldn't be here writing<br><br>
+
+No your not, no your not as lost as me<br>
+If you were if you were I wouldn't be here writing<br>
+
+Some day you will find me</p>
+
+        <h1 id="s9" class="lyrics-test">-Hole Hearted-</h1>
+        <p class="lyrics-test-test">Am I stuck inside my own mind<br>
+Or am I just an insect in amber frozen in a moment and forgotten in time<br>
+Where is my mind<br>
+I don't want the world to see me I want the world to see where it is I've been<br>
+I just want someone to feel like they can be something<br>
+There's got to be more than feeling this alone<br><br>
+
+I've been through enough to leave me alone<br>
+Now I feel so confused<br>
+Maybe I was made to learn on my own<br><br>
+
+I don't want to go to the grave wondering what I could have made<br>
+Will I ever change<br>
+I don't want to live day by day wondering if I'll ever change<br>
+Get back<br>
+I don't want to live day by day<br>
+It's never too late to make the change<br>
+Everyone you've known<br>
+These moments you're lost and alone<br>
+You've pushed everyone away even when they tried to stay<br>
+Where did this come from<br>
+Enough is enough<br><br>
+
+I've been through enough to leave me alone<br>
+Now I feel so confused<br>
+Maybe I was made to learn on my own<br><br>
+
+I can't do this on my own
+</p>
+
+        <h1 id="s10" class="lyrics-test">-Saviorself-</h1>
+        <p class="lyrics-test-test">I wish I had more time to<br>
+Sort out all of this inside my mind<br>
+I only have one day<br>
+it's given at dawn and at dusk it gets taken away<br>
+I can't control what I think<br>
+so how can I control what I say<br>
+I don't know who I am at the moment and I can't pray<br>
+I can't pray for the answers anymore<br>
+I only have myself to blame for losing control<br>
+I've always needed something maybe I needed to be alone<br>
+and I don't need to be saved<br>
+I'm not saying that it's too late<br><br>
+but way too much has changed<br>
+you call it savior<br>
+and I call it a learned behavior<br>
+you call it the light I refuse to see<br><br>
+and I call it the mask I've seen underneath<br>
+just do and say the same thing<br>
+no opinion preserved in stained glass holds more moral truth to me<br>
+I only have myself to blame for losing control<br>
+I still need to be saved just not by you<br><br>
+I just need to be safe<br>
+but not by you</p>
+
+        <h1 id="s11" class="lyrics-test">-Have. Will-</h1>
+        <p class="lyrics-test-test">And I owe it all to you<br>
+This change must fall on your<br>
+Change for everyone else and you'll do things backwards<br>
+Nothing works out itself<br>
+Move on<br>
+So stop running away<br>
+I can feel you cause your feet are keeping time with me<br>
+How could anyone choose to live this way<br>
+In the past they won't escape<br>
+We are the same you and me<br>
+No direction and a steady pace<br><br>
+Some of us don't choose to live this way<br>
+Maybe the best part of you was waiting for your past to die<br><br>
+
+This change must fall on your<br>
+Change for everyone else and you'll do things backwards<br>
+Nothing works out itself<br>
+Move along<br><br>
+
+Today one step can lead to many<br>
+And I want you to run in time with me not away<br>
+It's so much easier to just breathe<br>
+In the air than it is to exist in it<br><br>
+
+Sometimes we carry ourselves only as dead weight<br>
+Sometimes it takes your whole world falling apart<br>
+To really know what you stand for<br>
+What do you stand for<br>
+Life falls apart but did you ever see where every piece could land<br>
+Maybe pieces of you were preplanned to fall apart<br>
+So they could fall together<br>
+So they fall in place for someone else<br><br>
+
+And you said that you needed a voice<br>
+And I needed a reason<br>
+To believe<br>
+Believe in yourself because you are the same as me<br>
+No one every changes if they don't change for themselves<br>
+You're not alone<br>
+How are we supposed to live<br>
+How are we supposed to breathe<br>
+How are we supposed to carry on with all of this buried<br><br>
+
+This change must fall on you<br>
+Change for everyone else and you'll live your life backwards<br>
+I understand you<br>
+You're not evil despite what they may say
+</p>
+
+        <h1 id="s12" class="lyrics-test">-Never Enders-</h1>
+        <p class="lyrics-test-test">And I'm too abused to walk away from this<br>
+Of all I've been through I just wouldn't change it<br>
+If I could go back in time and change everything<br>
+I wouldn't change a thing because it made me who I am<br>
+And I'm so confused<br>
+I don't seem to know what's real or what's make<br>
+believe anymore but I must move forward for you<br>
+And do this all for you<br>
+Without you there is no me and I'll stay even if you choose to leave<br>
+The world will always keep turning it's back on me<br>
+And I just wouldn't change it<br><br>
+
+If I could go back in time and change everything<br>
+I wouldn't change a thing because it made me<br>
+I am not leaving this room tonight until<br>
+I know that I've changed at least one life<br>
+And you are not leaving not knowing,<br>
+not knowing how you are changing mine<br><br>
+
+Please don't sing louder than me unless<br>
+Your singing with a heart backing a beat<br>
+Then you'll know there's a reason for<br>
+This song to find you and sing along<br><br>
+
+This is not another singalong<br>
+This is one breath made from different lungs</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/holdon.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Hold On Pain Ends - 2014</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-Damnaged-</h1>
+          <p class="lyrics-test-test">You did well, devil.<br><br>
+
+Family life.<br>
+It's like puzzle pieces disconnected.<br>
+Pictures frames will never find.<br>
+This broken home my demons still reside.<br>
+You would think we could have lived together with all this hell inside.<br><br>
+
+Mother, I just needed you to know.<br>
+Something good grew out from all of the cracks inside our broken home.<br>
+I am a lonely soul, a kid flying his kite alone.<br>
+Or am I just a head in the clouds, welcoming wind every time there's a storm?<br><br>
+
+Where do I go now?<br>
+I grew up in a house God built with the devils blueprints with no foundation found.<br>
+I went to hell to have some words with the devil about what he did, but it was empty.<br><br>
+Everyone moved out.<br><br>
+
+Mother, I just needed you to know<br>
+Something good grew out from all of the cracks inside our broken home.<br>
+And father, I needed you the most<br>
+But I'm still a kid in aging skin, a hypocrite trying to grow.<br>
+<br>
+Every time I try<br>
+To bury the wreckage of that old house in my mind.<br>
+I see the same crow on the power line.<br>
+He could have flown to any other home,<br>
+But he'll never stop chasing mine.<br>
+He’ll never stop chasing mine.<br><br>
+
+It's a strange kind of comfort<br>
+Learning to always love<br>
+The cracks inside broken homes.<br><br>
+
+Mother, I just needed you to know<br>
+Something good grew out from all of the cracks in our broken home.<br>
+And father, I needed you the most,<br>
+But I'm still a kid in aging skin, and I will always love you both.</p>
+
+          <h1 id="t2" class="lyrics-test">-Outer Demons-</h1>
+          <p class="lyrics-test-test">We'll all stop singing songs<br>
+And start singing out our pain instead<br>
+I hope one day to bury the past so deep<br>
+My ghost can't find it<br><br>
+
+Is this you being yourself or<br>
+Acting on part to please someone else<br>
+Take a look at your health<br>
+Take a look in someone else's eyes<br>
+But don't deface yourself<br><br>
+
+Go on, try to delete me<br>
+Deceive me, you can't<br>
+I will destroy you<br>
+That demon inside before it destroys everything<br><br>
+
+At some point<br>
+You'll have to make a few decisions<br>
+Boundaries don't keep anybody out<br>
+They only fence us in<br>
+I've got myself and no one else<br>
+Our demons are made from a past<br>
+But we leave them a home in hell<br><br>
+
+I've got myself and no one else<br>
+And I am just fine with this<br>
+I've got myself and no one else<br>
+But I'm not okay, who am I kidding?<br><br>
+
+Is this you being yourself or<br>
+Acting on part to please someone else<br>
+Take a look at your health<br>
+Take a look in someone else's eyes<br>
+But don't deface yourself<br><br>
+
+Go on, try to delete me<br>
+Deceive me, you can't<br>
+I will destroy you<br>
+That demon inside before it destroys everything<br>
+<br>
+I will destroy you<br>
+Leave now<br>
+While you still have the legs to take you<br><br>
+
+Go on, try to delete me<br>
+Deceive me, you can't<br>
+I will destroy you<br>
+That demon inside before it destroys me<br><br>
+
+Maybe I don't need to<br>
+Find a demon that plays well with mine<br>
+Maybe I need to let go<br>
+Of the hell I keep raising inside on my own<br>
+On my own</p>
+
+          <h1 id="t3" class="lyrics-test">-Prey For Me-</h1>
+          <p class="lyrics-test-test">When you are changing the life you know,<br>
+this can be oh so hard to face.<br>
+But what’s worse is regret that one day you’ll wake up.<br>
+Pretending to love someone before you love yourself.<br><br>
+
+When will our hearts be free?<br>
+Because our ribs are cages.<br><br>
+
+Where do I belong when everything I've loved has come and gone?<br>
+Where do I belong when even my own shadow leaves me when darkness comes?<br><br>
+
+There's got to be a crack in everything.<br>
+Otherwise, a light could never find it's way in.<br><br>
+
+Years of love are lost in the hatred of a moment.<br>
+You'll never know what it's worth until it’s a memory, so you should own it.<br>
+One person’s insecurity can become a reality<br>
+for someone else when we use each other to find love in ourselves.<br><br>
+
+When will our hearts be free?<br>
+Because our ribs are cages.<br><br>
+
+Where do I belong when everything I've loved has come and gone?<br>
+Where do I belong when even my own shadow leaves me when darkness comes?<br>
+
+When will our hearts be free?<br>
+cause our ribs are cages.<br>
+
+Where do I belong when everything I've loved has come and gone?<br>
+Where do I belong when even my own shadow leaves me when darkness comes?<br>
+When darkness comes, when darkness comes, what do I need?</p>
+
+          <h1 id="t4" class="lyrics-test">-Lifeline (Left To Write)-</h1>
+          <p class="lyrics-test-test">Without our ups and downs,<br>
+We're all just living dead.<br>
+I put my pulse on paper<br>
+Because I want out from inside of my head.<br><br>
+
+Don't write yourself off.<br>
+Say what you think and mean what you say,<br>
+Unless you're OK living life<br>
+with a pulse that's flatlining.<br><br>
+
+I guess we only get a chance<br>
+To write our stories once.<br>
+We need to look back and say<br>
+that one time was plenty enough.<br><br>
+
+Are we confusing our heart with our mind?<br>
+Are they on the same page or did<br>
+we write one off and push the other behind?<br><br>
+
+Take me anywhere but here,<br>
+Away from these insecurities I fear.<br>
+Take me anywhere but here,<br>
+Just make sure if you are the one that will have me,<br>
+You know just what you're taking.<br><br>
+
+You know you had a darkness inside,<br>
+Floor to sky, left to write.<br>
+It was on the record we made last time.<br><br>
+
+And any writer writes afraid of the next line,<br>
+To put down on paper the things<br>
+he's tried to erase in his mind.<br><br>
+
+And I am no longer afraid of mine,<br>
+A writer that found a reason for the pain inside.<br>
+A word is dead when it's said, some say.<br>
+I say it just began to live that day.<br><br>
+
+I said it once I'll say it again.<br>
+Maybe you weren't listening.<br>
+I said it once I'll say it again.<br>
+To live backwards isn't evil, it's rewriting.<br><br>
+
+Take me anywhere but here,<br>
+Away from these insecurities I fear.<br>
+Take me anywhere but here,<br>
+Just make sure if you are the one that will have me,<br>
+You know just what you're taking.<br><br>
+
+I said it once<br>
+I'll say it again.<br>
+I said it once<br>
+I'll say it again.<br>
+Are you listening?<br>
+Are you listening?<br>
+The best stories are written<br>
+when they're spent rewriting</p>
+
+          <h1 id="t5" class="lyrics-test">-Scar Issue-</h1>
+          <p class="lyrics-test-test">Today feels like it might be the wrong day for me to die.<br>
+I’ve been spending too much time believing in self-created lies<br>
+And words are just words, until they're put in to work.<br>
+And I’m standing so firm in this, firm in this.<br><br>
+
+Leave a mark upon the world, not across your arms,<br>
+a mark upon the world too beautiful for scars.<br>
+
+I can only hold up half the sky at one time<br>
+and I got through today so I could help you sleep at night.<br><br>
+
+I feel a tired in my eyes trying to find the sunrise<br>
+and I’m learning that life is getting through the night.<br>
+
+Leave a mark upon the world, not across your arms,<br>
+a mark upon the world too beautiful for scars.<br><br>
+
+I understand you.<br>
+A track record of track marks,<br>
+a small collection of stories<br>
+that never get told again.<br>
+I understand you.<br>
+Take pride in all the marks upon your soul.<br>
+Oh, they should show you<br>
+you've been through a hell of a life alone.<br><br>
+
+Leave a mark upon the world, not across your arms,<br>
+a mark upon the world too beautiful for scars.</p>
+
+          <h1 id="t6" class="lyrics-test">-Suicide;Stigma-</h1>
+          <p class="lyrics-test-test">So much heart, so much time, but not enough.<br>
+Self-inflicted pain can come and<br>
+Remain in the fear inside of all of us,<br>
+Desperately and endlessly<br>
+Trying to find a means to some kind of peace.<br>
+We can't learn when things come easy.<br><br>
+Now that we are prepared for war,<br>
+We have an effective means to<br>
+Preserving peace for each and everyone.<br><br>
+The chances of you even being born<br>
+Were forty million to one.<br>
+There's two parts of the statistic;<br>
+I want you to live.<br>
+Suicide doesn't end the pain,<br>
+it passes to the ones you love and remains.<br><br>
+Take yourself out of the equation<br>
+And the problem stays.<br>
+When I speak such a word,<br>
+Are you uneasy with how it's heard?<br>
+The stigma will never leave<br>
+Unless all of us can just start talking.<br>
+The only people I know resting in peace<br>
+Without fear or anxiety are the deceased.<br><br>
+That's why they say "may the dead rest in peace."<br>
+The things we feel we could never change,<br>
+Can end up changing everything.<br>
+Now that we are prepared for war,<br>
+We have an effective means to<br>
+Preserving peace for each and everyone.<br><br>
+The chances of you even being born<br>
+Were forty million to one.<br>
+There's two parts of the statistic<br>
+And I want you to live through one.<br>
+Sometimes to win a battle inside, you need to start a war.<br>
+Sometimes to win a battle inside, you need to start a war.<br>
+Now that we are prepared for war,<br>
+We have an effective means to<br>
+Preserving peace for each and everyone.<br><br>
+The chances of you even being born<br>
+Were forty million to one.<br>
+There's two parts of the statistic<br>
+And I want you to live through one<br>
+I want you to live through one.<br>
+I want you to live through one.</p>
+
+          <h1 id="t7" class="lyrics-test">-The Ones Forgotten By The One Forgetting-</h1>
+          <p class="lyrics-test-test">All these voices in my head.<br>
+I’ll never know just what I'll feel,<br>
+let alone what will be said.<br>
+We all forget the things we say<br>
+but we never forget how we felt<br>
+when we let ourselves feel.<br><br>
+One head so many voices.<br>
+Maybe I'll spend my whole life licking wounds.<br>
+My tongue feels likes it's got two jobs<br>
+to twist and say shit I don't need to.<br>
+And to come between my stomach and my head,<br>
+separate, which one of you do I listen to?<br>
+Parts of me miss pieces of you.<br>
+Oh all these voices in my head.</p>
+
+          <h1 id="t8" class="lyrics-test">-Developing Negative-</h1>
+          <p class="lyrics-test-test">I never knew exactly how this could feel.<br>
+Retelling stories from a movie life from reel to real.<br>
+You're still slowly developing and you'll die<br>
+if you're exposed to too much light at one time.<br>
+People like us have learned to feel at home<br>
+in the darkest corners of their minds.<br><br>
+
+What hurts me the most is hiding the scars across my body<br>
+and not knowing if they had a reason to close.<br>
+You and I know the price now its time to make change.<br>
+Listen decisions will need to be remade.<br><br>
+
+I told you sometimes days like these don't change.<br>
+I know you and I we have the same trouble keeping blood in our veins.<br><br>
+
+Addiction its not so much about us overcoming.<br>
+Sometimes maybe it’s more about us just replacing.<br>
+Look you and I will always have this song<br>
+just like I know I had a reason to write it.<br>
+Its not just a breathless sing along.<br><br>
+
+I will relive this so that you'll never have to feel alone.<br>
+I will relive this when you're alone<br>
+I will be the voice inside of your headphones.<br><br>
+
+I told you sometimes days like these don't change.<br>
+I know you and I we have the same trouble keeping blood in our veins.<br><br>
+
+I know some days I wish I could just erase the past<br>
+but if I hide my wounds ashamed then you'd never know we’re the same.<br>
+Let my darkness illuminate take my hand and let me light your way.<br>
+Just keep the blood inside your veins.<br><br>
+
+You and I know the price now its time to make change.<br>
+Listen decisions will need to be remade.<br><br>
+
+I told you sometimes days like these don't change.<br>
+I know you and I we have the same trouble keeping blood in our veins.</p>
+
+          <h1 id="t9" class="lyrics-test">-Is Happiness A Mediocre Sin?-</h1>
+          <p class="lyrics-test-test">Am I defined by the hell you left me in<br>
+Or the influence I make while living it?<br>
+Sometimes you find yourself stuck in the middle of nowhere<br>
+But the middle of nowhere is where we find ourselves<br>
+And only time will tell how long we stay<br><br>
+
+The hardest part about feeling<br>
+Like life has fallen apart<br>
+Is that feeling for some of us<br>
+That it always will because it always does<br><br>
+
+I see that things are getting bad again<br>
+I'm not seeing you lately, you've been hiding<br>
+Let's get lost together in a new direction<br>
+We may not have it all together<br>
+But together we can have it all<br>
+But we're still here and only time<br>
+Will tell how long we stay<br><br>
+
+The hardest part about feeling<br>
+Like life has fallen apart<br>
+Is that feeling for some of us<br>
+That it always will because it always does<br><br>
+
+You call it a demon<br>
+I call it self sabotage in hiding<br>
+You call it a demon<br>
+Or is happiness a mediocre sin?
+</p>
+
+          <h1 id="t10" class="lyrics-test">-Between You And Eye-</h1>
+          <p class="lyrics-test-test">And now I know there's a place in my mind I go.<br>
+Secluded, where my head is quick but my heart is slow.<br>
+I bottle things up for too long waiting on someone to find me.<br>
+I'm a message lost in a sinking sea.<br><br>
+
+We all want to be found and held so close<br>
+so all that we know that is broken falls back together.<br><br>
+
+No one is ever going to believe in yourself for you<br>
+and every false belief that you think is true was put inside of you.<br>
+Imperfection and not accepting who you are, I'm guilty too.<br>
+Your imperfections make you perfect to me.<br>
+Now learn to just stay you.<br><br>
+
+Everyone you know is fighting a battle of their own.<br>
+Now do unto yourself what your neighbors never show.<br>
+What a world we live in we’re falling for everything and anyone but us.<br><br>
+
+You just want somebody to love the hell out of you<br>
+but you will never find that kind of love in someone before yourself.<br><br>
+
+We all want to be found and held so close<br>
+so all that we know that is broken falls back together.<br><br>
+
+No one is ever going to believe in yourself for you<br>
+and every false belief that you think is true was put inside of you.<br>
+Imperfection and not accepting who you are, I'm guilty too.<br>
+Your imperfections make you perfect to me.<br>
+Now learn to just stay you.<br><br>
+
+I understand you more than you think I do.<br>
+Stop looking up to me start looking up to you.<br>
+Imperfection and not accepting who you are, I’m guilty too.<br>
+Will you spend another day believing what the world wants you to?<br><br>
+
+No one is ever going to believe in yourself for you<br>
+and every false belief that you think is true was put inside of you.<br>
+Imperfection and not accepting who you are, I'm guilty too.<br>
+Your imperfections make you perfect to me.<br>
+Now learn to just stay you.<br>
+Learn to just stay you.</p>
+
+          <h1 id="t11" class="lyrics-test">-Throw Your Roses-</h1>
+          <p class="lyrics-test-test">I can see your eyes looking up at me<br>
+to see if anyone is noticing.<br>
+No one has been there to listen<br>
+all the more reason to sing.<br>
+I promise this won’t last forever.<br>
+I don't want to let you make that choice.<br>
+You don't need to abuse your arms but use your voice.<br><br>
+
+I know right now you think that no one is listening.<br>
+If we fall together, we'll live forever and never grow alone.<br><br>
+
+When I look out, I see a field of youth<br>
+and it is filled with doubt.<br>
+A field of flowers pulling their petals off way too soon.<br>
+One by one. Dropping like flies no one is speaking up.<br><br>
+
+I know right now you think that no one is listening.<br>
+If we fall together, we'll live forever and never grow alone.<br>
+You can grow out from decay<br>
+but what you do with your today<br>
+can resonate to everything, keep growing.<br><br>
+
+We've been pulled from the earth.<br>
+We know but we can still grow though.<br>
+We've both started to die and slow.<br>
+Why pick ourselves early?<br>
+We're dying here anyways.<br>
+Remember I can show you light,<br>
+but you will have to learn<br>
+how to grow on your own.<br>
+What is a rose with no thorn?<br><br>
+
+I know right now you think that no one is listening.<br>
+If we fall together, we'll live forever and never grow alone.<br>
+<br>
+You can grow out from decay<br>
+but what you do with your today<br>
+can resonate to everything, keep growing.</p>
+
+          <h1 id="t12" class="lyrics-test">-Hold On Pain Ends-</h1>
+          <p class="lyrics-test-test">And sometimes the most beautiful pain in life<br>
+is the kind you can't disguise or hide.<br>
+And the hard truth about life.<br>
+If I'm not allowed to give up on mine,<br>
+you are not allowed to not even try.<br><br>
+
+One day at a time you'll have to remake<br>
+the same decision as the one I made last night.<br>
+<br>
+You and I have already started to die.<br>
+And now that I understand, why I've never felt quite so alive.<br>
+And I feel like I've sang about scars a hundred times<br>
+but for the record I’ve found the reason for mine.<br><br>
+
+And sometimes we need to find a reason<br>
+for the pain in our own lives.<br>
+Mine was you and I promise this song<br>
+is a place for the truth.<br>
+We can’t keep hiding and hurting.<br>
+I know I’ve tried to.<br><br>
+
+One day at a time we just might have to remake<br>
+the decision every day for the rest of life.<br>
+<br>
+You and I have already started to die.<br>
+And now that I understand, why I've never felt quite so alive.<br>
+And I feel like I've sang about scars a hundred times<br>
+but for the record I’ve found the reason for mine.<br>
+<br>
+And for the record, I'm in California still writing one day at a time.<br>
+And for the record, I refuse to be ashamed of all my scars.<br>
+You and I are both the same.<br>
+<br>
+We've already cheated death so many times.<br>
+If we’re going to die, why not cheat it again tonight?<br>
+<br>
+You and I have already started to die.<br>
+And now that I understand, why I've never felt quite so alive.<br>
+And I feel like I've sang about scars a hundred times<br>
+but for the record I’ve found the reason for mine.</p>
+        </div>
+      </div>
+
+      <div class="lyrics-layout">
+        <div class="lyrics-layout_image">
+          <img id="fourth" class="lyrics-page_image" src="./images/desolate.jpg" height= "100%" width="auto"/>
+        </div>
+        <div class="lyrics-page_album-title_wrap">
+          <h1 class="lyrics-page_album-title">Desolate Divine - 2016</h1>
+        </div>
+          <div class="lyrics-page_album-songs">
+            <h1 id="ff1" class="lyrics-test">-Lonesome Soul-</h1>
+            <p class="lyrics-test-test">Cashing in on rainchecks I live withdrawn from surroundings<br>
+I'm trying to feel it's not very rich nothing stays golden<br>
+Yesterday is in the past but tomorrow I don't see coming<br>
+We have a gift a new today but I'm so sick of the present<br>
+I'm breathing just fine but am I alive<br>
+I'm living safe as a lonesome soul<br><br>
+But I'm dying to feel so much less alone<br>
+I'm reaching out but I'm feeling nothing<br>
+As heavy-hearted as a feather with no wind<br>
+And broken-hearted moving in circles<br>
+Like an angel with one wing<br>
+I'm still there walls surrounding me<br>
+I'm still there with bricks others have thrown<br><br>
+I'm reaching out but I'm feeling nothing</p>
+
+            <h1 id="ff2" class="lyrics-test">-Clip Paper Wings-</h1>
+            <p class="lyrics-test-test">
+Floating on like a plastic bag without a home<br>
+Pages folded became paper planes that we could fly<br>
+We've clipped every wing we used to fly<br><br>
+
+Your wings might be broken but it's not too late<br>
+You hide your emotions so you can escapev
+You cant be afraid to make mistakes<br>
+And you can't fake perfection<br><br>
+
+Broken compass still moving forward<br>
+A constant north the one I'll never know<br>
+Like everything I gravitate to what ends up killing me<br>
+We're separated by a hell of a lot more than the sky<br>
+
+It's not what you've done but what you'll choose to do</p>
+
+            <h1 id="ff3" class="lyrics-test">-Walls-</h1>
+            <p class="lyrics-test-test">I feel at home with shadows from ghosts of the living<br>
+I dance along to melodies as silent choirs sing<br>
+I'm sick of always giving when there's nothing left to lose<br>
+That place we're in is breaking<br>
+It's try to break me too<br><br>
+
+I built these walls to keep the outside world from me<br>
+And I'll fight to stay in the hell of my own mind<br>
+It's safer on the inside<br>
+Underneath where you can't ever get to me<br>
+And I'll fight to stay in the hell of my own mind<br>
+It's safer on the inside (built these walls)<br><br>
+
+Chaos reigns<br>
+Inside of all of us<br>
+All this pain<br>
+It's not where I belong<br>
+It's not my fate<br>
+You're a hypocrite<br>
+You're the dying proof of it<br>
+Now I know<br><br>
+
+Broken people just like you can be so dangerous<br>
+Knowing you'll survive by feeding off the rest of us</p>
+
+            <h1 id="ff4" class="lyrics-test">-Trail Of Blood-</h1>
+            <p class="lyrics-test-test">There's nothing like a trail of blood<br>
+to find your way back home<br>
+And nothing feels as cold inside<br>
+as heaven down below<br>
+I've been lost and never found,<br><br>
+afraid to speak my truth out loud<br>
+With empty hands I came into<br>
+this world, and I'll leave just the same<br><br>
+
+Death, you cannot take me,<br>
+you've tried and failed before<br>
+With everything so deafening,<br>
+each breath worth fighting for<br>
+I refuse to be your casualty<br>
+cause pain has its reward<br>
+No longer trapped in agony,<br>
+you cannot take me, I survive the storm<br><br>
+
+Is hell a place or just a word,<br>
+because as far as I can see<br>
+They both feel like one in the same,<br>
+so which do I believe?<br>
+Some days we feel everything<br>
+and others not at all<br>
+Do I cave beneath the weight<br>
+or rise above it all?<br><br>
+
+Death, you cannot take me,<br>
+you've tried and failed before<br>
+With everything so deafening,<br>
+each breath worth fighting for<br><br>
+I refuse to be your casualty<br>
+cause pain has its reward<br>
+No longer trapped in agony,<br>
+you cannot take me, I survive the storm<br><br>
+
+Maybe that's the hell that I'm living<br>
+Battles between where I'm numb or I'm feeling<br>
+Remember when we filled our lives<br>
+With the will to fucking live<br><br>
+
+Death, you cannot take me,<br>
+you've tried and failed before<br>
+With everything so deafening,<br>
+each breath worth fighting for<br>
+I refuse to be your casualty<br>
+cause pain has its reward<br>
+No longer trapped in agony,<br>
+you cannot take me, I survive the storm<br><br>
+
+There's nothing like a trail of blood<br>
+to find your way back home<br>
+There's nothing like a trail of blood<br>
+to find your way back home
+</p>
+
+            <h1 id="ff5" class="lyrics-test">-Version Of Me-</h1>
+            <p class="lyrics-test-test">You're the one who started this,<br>
+now it's time to finish it<br>
+Don't become something you despised<br>
+when you started<br>
+I can feel it in my bones,<br>
+feel it in the air tonight<br>
+Starting arguments with the ghosts<br>
+of people still alive<br><br>
+
+I knew exactly what you wanted,<br>
+I pretend to want the same<br>
+Another reason I'm too haunted<br>
+by what could have been<br>
+I feel dead in myself<br>
+and I can't feel alive in anyone else<br>
+<br>
+If it made you hurt, made you feel so much<br>
+It must be love that I gave up<br><br>
+
+What if this version of me<br>
+Gave up today on who it could be?<br>
+I know I'm still broken because<br>
+I can't fix myself with somebody else that's breaking<br><br>
+
+Whether you believe you can or can't change<br>
+I guess that you'll be right either way<br>
+The dark can't keep hiding in darknes<br>
+It's getting harder to see<br><br>
+
+If it made you hurt, made you feel so much<br>
+It must be love that I gave up<br><br>
+
+What if this version of me<br>
+Gave up today on who it could be?<br>
+I know I'm still broken because<br>
+I can't fix myself with somebody<br>
+else that's breaking<br>
+What if we could just escape<br>
+from our situations?<br>
+Out of our heads,<br>
+let our hearts do the heavy lifting<br>
+What if this version of me<br>
+Gave up today on who it could be,<br>
+who it could be?<br><br>
+
+What if this version of me<br>
+Gave up today on who it could be?<br><br>
+
+What if this version of me<br>
+Gave up today on who it could be?<br>
+I know I'm still broken because<br>
+I can't fix myself with somebody<br>
+else that's breaking<br>
+What if we could just escape<br><br>
+from our situations?<br>
+Out of our heads,<br>
+let our hearts do the heavy lifting<br>
+What if this version of me<br>
+Gave up today on who it could be,<br>
+who it could be?<br>
+Who it could be?<br>
+Who it could be?<br>
+Who it could be?<br>
+Who it could be?</p>
+
+            <h1 id="ff6" class="lyrics-test">-Home Bittersweet Home-</h1>
+            <p class="lyrics-test-test">On my own, let's face it, that's all I've ever known<br>
+What's left to show, that I can break a foundation as quickly as it poured?<br>
+But I still believe in things I've never seen<br>
+It's bittersweet being homesick for places that don't exist to me<br><br>
+
+Can we be honest to each other<br>
+so I can tell the truth myself?<br>
+We've all tried to please the world from inside our hollow shell<br><br>
+
+The safest arms are not my own<br>
+I can't carry the weight of<br>
+what I can't even hold<br><br>
+
+Can we be honest to each other<br>
+so I can tell the truth myself?<br>
+We've all tried to please the world<br>
+from inside our hollow shell<br>
+I'm not satisfied with happiness,<br>
+not satisfied with hell<br>
+Can we be honest to each other?<br>
+I'm not happy here with myself<br><br>
+
+"Counting down the hours<br>
+till the sun comes up again,<br>
+A repeat of the yesterday<br>
+that I'm stuck within.<br>
+Maybe I need urgency,<br>
+maybe medicine,<br>
+It's a hard pill to swallow<br>
+when you feel like a<br>
+raindrop in an ocean."<br><br>
+
+Can we be honest to each other<br>
+so I can tell the truth myself?<br>
+We've all tried to please<br>
+the world from inside our hollow shell<br>
+I'm not satisfied with happiness,<br>
+not satisfied with hell<br>
+Can we be honest to each other?<br>
+I'm not happy here with myself</p>
+
+            <h1 id="ff7" class="lyrics-test">-Misery Hates Company-</h1>
+            <p class="lyrics-test-test">
+Forget about yesterday, it's moved on from you<br>
+Live without the doubt that just won't go away<br>
+We've all stood at the edge,<br>
+contemplated jumping<br>
+A leap of fear, loss of faith, we can't go<br><br>
+
+You see a face you think you know<br>
+But it's not the one I show<br>
+I feel more, more at home<br>
+In the places I don't know<br><br>
+
+I don't belong to my mistakes<br>
+Tired of sleeping wide awake<br>
+It's killing me slowly<br>
+It's crowded and lonely<br>
+Even when I crawl I drag my feet<br>
+When did the world take hold of me?<br>
+It's killing me slowly<br>
+It's crowded and lonely<br>
+I can't feel at all<br>
+I can't feel at all<br><br>
+
+I find myself back here again<br>
+But I'm not empty-handed<br><br>
+I'm not leaving, I'm not done<br>
+I'm not the kind that would run<br>
+Being lost is a lovely place<br>
+To find yourself again<br><br>
+
+You see a face you think you know<br>
+But it's not the one I show<br>
+I feel more, more at home<br>
+In the places I don't know<br><br>
+
+I don't belong to my mistakes<br>
+Tired of sleeping wide awake<br>
+It's killing me slowly<br>
+It's crowded and lonely<br>
+Even when I crawl I drag my feet<br>
+When did the world take hold of me?<br>
+It's killing me slowly<br>
+It's crowded and lonely<br>
+I can't feel at all<br><br>
+
+I owe another shot to the world<br>
+It took a shot at me and missed<br>
+I owe another chance to myself<br>
+Take me back to the beginning<br>
+We all come from something<br><br>
+
+I belong to my mistakes<br>
+Tired of sleeping wide awake<br>
+It's killing me slowly<br>
+It's crowded and lonely<br>
+Even when I crawl I drag my feet<br>
+When did the world take hold of me?<br>
+It's killing me slowly<br>
+It's crowded and lonely<br>
+I can't feel at all<br>
+I can't feel at all</p>
+
+            <h1 id="ff8" class="lyrics-test">-Perfect Strangers-</h1>
+            <p class="lyrics-test-test">I recognize that smell, it's heaven scent<br>
+It reminds me of bridges I've been burning<br>
+And I have been abusing things and I am using<br>
+Every excuse to leave, but I just want you to stay<br>
+<br>
+And I want to say goodbye,<br>
+but in my head I said goodnight<br>
+I always find a way to mess up<br>
+good things in my life<br><br>
+Close your eyes on the chapter<br>
+and this night<br>
+I know you've tried to read me,<br>
+but I threw that page away, away<br>
+<br>
+Maybe if we could just start over<br>
+Go back to when we were<br>
+just perfect strangers<br>
+I could reintroduce myself<br>
+As someone I'm a hell<br>
+of a lot more happy with<br><br>
+
+And I want to say goodbye,<br>
+but in my head I said goodnight<br>
+I'll always find a way to mess up<br>
+good things in my life<br>
+Close your eyes on the chapter<br>
+and this night<br>
+I know you've tried to read me,<br>
+but I threw that page away, oh-oh<br>
+But I threw that page away<br>
+<br>
+Are these the saddest stories<br>
+Because they're told the most?<br>
+<br>
+Ooh, let's keep it at goodnight<br>
+I always find a way to mess up<br>
+good things in my life<br>
+Close your eyes on the chapter<br>
+and this night<br><br>
+I know you've tried to read me,<br>
+but I threw that page away<br><br>
+
+Close your eyes, say goodnight<br>
+Close your eyes, say goodnight
+</p>
+
+            <h1 id="ff9" class="lyrics-test">-Broken Vessel-</h1>
+            <p class="lyrics-test-test">At the rate things are going,<br>
+it's getting hard to breathe<br>
+And if I don't leave soon,<br>
+this will be the death of me<br>
+Another chapter of my life<br>
+I keep keeping myself from sharing<br>
+You're the compass I still follow,<br>
+there's no gravity<br><br>
+
+I'm like a broken vessel,<br>
+but I didn't sink in the sea<br>
+I'm drowning now<br>
+cause I let you inside of me<br>
+I wanna feel the fire again, fire again<br>
+The flame is gone and all I want<br>
+Is the fire again, fire again<br>
+The most beautiful hell I've ever seen<br><br>
+
+Suffocating here on dry land<br>
+While you're somewhere<br>
+pushing somebody else in<br>
+I bought in, you were oh so deep<br>
+But I won't dive again<br><br>
+
+I'm like a broken vessel,<br>
+but I didn't sink in the sea<br>
+I'm drowning now<br>
+cause I let you inside of me<br>
+I wanna feel the fire again, fire again<br>
+The flame is gone and all I want<br>
+Is the fire again, fire again<br>
+The most beautiful hell I've ever seen<br><br>
+
+I wanna feel the fire again<br>
+The most beautiful hell I've ever been<br>
+I'm like a broken vessel,<br>
+but I didn't sink in the sea<br>
+I'm drowning now<br>
+cause I let you inside of me</p>
+
+            <h1 id="ff10" class="lyrics-test">-Fauxtographic Memory-</h1>
+            <p class="lyrics-test-test">There are things that I'm dying to tell you<br>
+About things that are killing me to say<br>
+And I know that I don't want to lose you<br>
+But we both know I'll push you away<br>
+<br>
+Fauxtographic memory<br>
+A mind that's still developing<br>
+I turn my back on all I see<br>
+Cause everything feels make believe<br>
+Fauxtographic memory<br>
+A mind that's still developing<br>
+I turn my back on all I see<br>
+Cause everything feels make believe<br>
+You tried to stay, I made you leave<br>
+And made the world give up on me<br>
+I can't accept reality<br>
+Cause everything feels make believe<br>
+<br>
+Cause everything feels make believe<br>
+<br>
+I keep swallowing the hell<br>
+so you don't stomach it<br>
+From what it's like to be around<br>
+someone that lives like this<br>
+I keep losing sleep in beds<br>
+still made from soaking sheets<br>
+And I'm still haunted<br>
+by the ghosts of people still breathing<br>
+<br>
+I already hate the words,<br>
+they're not a thing we even share<br>
+Stop looking for a metaphor,<br>
+it isn't there<br>
+<br>
+Fauxtographic memory<br>
+A mind that's still developing<br>
+I turn my back on all I see<br>
+Cause everything feels make believe<br>
+You tried to stay, I made you leave<br>
+And made the world give up on me<br>
+I can't accept reality<br>
+Cause everything feels make believe<br>
+<br>
+Cause everything feels make believe<br>
+<br>
+You're wasting away<br>
+You'll have to learn to love within<br>
+You'll have to learn to live without<br>
+You're wasting away<br>
+You'll have to learn to love within<br>
+You'll have to learn to live without<br>
+You're wasting away<br>
+<br>
+Fauxtographic memory<br>
+A mind that's still developing<br>
+I turn my back on all I see<br>
+Cause everything feels make believe<br>
+You tried to stay, I made you leave<br>
+And made the world give up on me<br>
+I can't accept reality<br>
+Cause everything feels make believe
+</p>
+
+            <h1 id="ff11" class="lyrics-test">-Keep Me In My Body-</h1>
+            <p class="lyrics-test-test">Turn me upside down like an hourglass<br>
+Time is running out and<br>
+too much time has passed<br>
+Slipping through the fingers<br>
+of calloused idle hands<br>
+Grasping for a breath<br>
+while choking on the sand<br>
+<br>
+Maybe I'm too scared to stand in my own skin<br>
+Maybe I've become transparent<br>
+<br>
+If I only have one life left to leave<br>
+Get me out of my own head,<br>
+but keep me in my body<br>
+This is the lie that I believe<br>
+Always blaming someone else,<br>
+but I do this to myself<br>
+<br>
+You're suffocating me with positivity<br>
+But either way, it's still fucking suffocating<br>
+I refuse to be what you want from me<br>
+I can't be perfect, but tell me what the fuck is perfect anyways?<br>
+<br>
+If I only have one life left to leave<br>
+Get me out of my own head,<br>
+but keep me in my body<br>
+This is the lie that I believe<br>
+Always blaming someone else,<br>
+but I do this to myself<br>
+<br>
+I do this to myself<br>
+I do this to myself<br>
+<br>
+It's okay to not be okay<br>
+It's okay to feel this way<br>
+<br>
+It's okay to feel this way<br>
+It's okay to feel this way<br>
+<br>
+I'd rather live than die this way<br>
+I'd rather give than take away<br>
+<br>
+If I only have one life left to leave<br>
+Get me out of my own head,<br>
+but keep me in my body<br>
+This is the lie that I believe<br>
+Always blaming someone else,<br>
+but I do this to myself<br>
+<br>
+It's okay to feel this way<br>
+It's okay to feel this way<br>
+It's okay to feel this way<br>
+It's okay to feel this way<br>
+'Cause everything feels make believe</p>
+          </div>
+        </div>
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+        </div>
+
+        <div class="lyrics-under">
+        <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+        </div>
+
+            <div class="page-finish">
+              <a href="./security.html">Security Statements</a>
+              <a href="./terms.html">Terms of Service</a>
+              <a href="./privacy.html">Privacy Policy</a>
+              <a href="./contact.html">Contact</a>
+            </div>
+
+        </body>
+        </html>

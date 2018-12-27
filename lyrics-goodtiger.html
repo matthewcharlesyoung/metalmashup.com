@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Good Tiger</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/aheadfull.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">A Head Full Of Moonlight - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Where Are The Birds</a>
+      <a href="#f2">Snake Oil</a>
+      <a href="#f3">Enjoy The Rain</a>
+      <a href="#f4">I Paint What I See</a>
+      <a href="#f5">Aspirations</a>
+      <a href="#f6">Latchkey Kids</a>
+      <a href="#f7">All Her Own Teeth</a>
+      <a href="#f8">Understanding Silence</a>
+      <a href="#f9">'67 Pontiac Firebird</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/wewillall.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">We Will All Be Gone - 2018</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">The Devil Thinks I'm Sinking</a>
+      <a href="#s2">Float On</a>
+      <a href="#s3">Such A Kind Stranger</a>
+      <a href="#s4">Blueshift</a>
+      <a href="#s5">Salt of The Earth</a>
+      <a href="#s6">Grip Shoes</a>
+      <a href="#s7">Just Shy</a>
+      <a href="#s8">Nineteen Grams</a>
+      <a href="#s9">Cherry Lemon</a>
+      <a href="#f10">I'll Finish This Book Later</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/aheadfull.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">A Head Full Of Moonlight - 2015</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Where Are The Birds-</h1>
+      <p class="lyrics-test-test">Just one kiss is enough to get<br>
+me drunk right from your lips.<br>
+I would swim through the deepest oceans just to hear your name.<br>
+(I would, I would, I would)<br>
+I thought I knew right from wrong.<br>
+But the blood upon these hands has proved me wrong.<br>
+My mistakes can’t be covered up.<br>
+You should cover up,<br>
+Won’t you cover up?<br>
+<br>
+Just hold on and dance like there’s no tomorrow.<br>
+Let’s hold on cause without you there is no me.<br>
+
+I would run through the darkest forest just to taste your skin.<br>
+Melt the sun if for just one second I could stop the pain.<br>
+(I would, I would, I would)<br>
+I thought I knew right from wrong.<br>
+But the blood upon these hands has proved me wrong.<br>
+My mistakes can’t be covered up.<br>
+You should cover up,<br>
+Won’t you cover up?<br>
+<br>
+Just hold on and dance like there’s no tomorrow.<br>
+Let’s hold on cause without you there is no me.<br>
+
+You seem to think you’re bound and gagged and here all just for me.<br>
+You can leave, what could I do.<br>
+<br>
+I thought I learned right from wrong.<br>
+<br>
+Just hold on and dance like there’s no tomorrow.<br>
+Let’s hold on cause without you there is no me.</p>
+
+      <h1 id="f2" class="lyrics-test">-Snake Oil-</h1>
+      <p class="lyrics-test-test">This edict dictates the mind will<br>
+stay in a creative state.<br>
+I’m not a scholar but I’m pretty<br>
+sure you’ve earned the right to keep creating.<br>
+I cannot breathe, I cannot speak,<br>
+please let me leave or let me sleep.<br>
+There’s no leaving here. Never.<br>
+Please tell me the benefits of keeping me locked up.<br>
+Maybe if we tried hard working together,<br>
+we’d escape insanity forever and ever.<br>
+<br>
+I took a look outside my window.<br>
+I painted wings and tried to fly.<br>
+Closed my eyes and I jumped.<br>
+Imagination ran dry.<br>
+I took a look outside my window.<br>
+I painted wings and tried to fly.<br>
+Break me out from this fictitious life.<br>
+<br>
+This edict dictates the mind will stay in a creative state.<br>
+I’m not a scholar but I’m pretty sure you’ve earned…<br>
+Don’t let me die like this.<br>
+<br>
+What else can I paint when I’m watching skylines.<br>
+What is this crimson?<br>
+Blood is much redder.<br>
+Please expand this room.<br>
+<br>
+I’m just waiting here.<br>
+I’m just pacing here.<br>
+I’m just wasting here.<br>
+<br>
+I took a look outside my window.<br>
+I painted wings and tried to fly.<br>
+Closed my eyes and I jumped.<br>
+Imagination ran dry.<br>
+I took a look outside my window.<br>
+I painted wings and tried to fly.<br>
+Break me out from this fictitious life.</p>
+
+      <h1 id="f3" class="lyrics-test">-Enjoy The Rain-</h1>
+      <p class="lyrics-test-test">Just one drink to get through the day.<br>
+It’s getting darker and harder to stay in this place.<br>
+Where the flowers aren’t blooming.<br>
+I’m touch and go. Can you relate?<br>
+Medicate before this session. I’ll be late.<br>
+And I’m constantly fearing the plot that I’ll take.<br>
+<br>
+Why do I need all these bottle dry?<br>
+I don’t want this.<br>
+<br>
+The feeling of drowning in air. (I’m dry)<br>
+Enjoy the rain while you can. (I’m dry)<br>
+There’ll be no water in hell. (I’m dry)<br>
+Enjoy the rain while you can.<br>
+And I’m constantly fearing the plot that I’ll take.<br>
+<br>
+Why do I need all these bottle dry?<br>
+I don’t want.<br>
+<br>
+I’m gonna try.<br>
+Control desires.<br>
+<br>
+Swim up. (swim up, swim up)<br>
+I need a little air.<br>
+I can’t breathe.<br>
+I need a better balance.</p>
+
+      <h1 id="f4" class="lyrics-test">-I Paint What I See-</h1>
+      <p class="lyrics-test-test">Red is the color of love.<br>
+Blue is the color of my waning. My waning.<br>
+Yellow is envy. Maybe it’s green?<br>
+Somewhere there lies a color in between.<br>
+You know where my pallet lies.<br>
+Brushes complete the rain.<br>
+Oils come together to remember my name.<br>
+<br>
+I cannot believe the colors you are seeing. (Whoa, whoa)<br>
+It takes a certain kind of mind to lead me away.<br>
+I wonder if I could be swayed?<br>
+Maybe all you got to do is paint the canvas gray.<br>
+<br>
+I paint what I see with reckless abandonment.<br>
+Self-portraits reflect me reflecting.<br>
+If I could mix all these paints, color would show emotional state.<br>
+Well sometimes take a step back just to see what you create.<br>
+<br>
+I cannot believe the colors you are seeing. (Whoa, whoa)<br>
+It takes a certain kind of mind to lead me away.<br>
+I wonder if I could be swayed?<br>
+Maybe all you got to do is paint the canvas gray.<br>
+<br>
+Sketch the stress of daily living.<br>
+Paint the life of someone else.<br>
+<br>
+Red. Red. Red. Red.</p>
+
+      <h1 id="f5" class="lyrics-test">-Aspirations-</h1>
+      <p class="lyrics-test-test">Take a look into these eyes<br>
+and tell me what you see.<br>
+I built your trust just like this world.<br>
+Hopefully it won’t end badly.<br>
+Take these whispers in your ear and tell me what you hear.<br>
+Crashing the world brick by brick.<br>
+Told you all it would end badly.<br>
+<br>
+I would like to build this world around you.<br>
+And I would like to crush this world around you.<br>
+<br>
+Don’t you forget that there were ways around the mess that I had made.<br>
+Take it in stride cause you are all I need.<br>
+<br>
+I would like to build this world around you.<br>
+And I would like to crush this world around you.<br>
+<br>
+Let me in, let me in, let me in baby.<br>
+Let me in, let me in, let me in oh honey.<br>
+<br>
+Honey I built all these things for you.<br>
+Honey what do I have left to prove?<br>
+<br>
+Beyond the moon, beyond the stars is a place inside my heart.<br>
+I built all these things for you.<br>
+Something no mortal could ever do.<br>
+Take what I’ve given and try to leave.<br>
+Take what I’ve given and try to leave.<br>
+<br>
+I would like to build this world around you.<br>
+And I would like to crush this world around you.<br>
+<br>
+Around you.
+</p>
+
+      <h1 id="f6" class="lyrics-test">-Latchkey Kids-</h1>
+      <p class="lyrics-test-test">Let me help you choose.<br>
+Don’t live with your ghosts.<br>
+You’ve been rolling the rice for too long,<br>
+And the hand you want, the hand you need, you’ll never get.<br>
+<br>
+Bit into the sky. It filled our heads with moonlight.<br>
+Almost too vivid to see where we were, what could have been.<br>
+Bit into the sky. It filled our heads with moonlight.<br>
+Almost too vivid to see where we were, what could have been.<br>
+<br>
+There is little time. Don’t waste it on god.<br>
+<br>
+Dive in. Trust in your presence.<br>
+The worth you seek, the worth you need, you’ll achieve.<br>
+<br>
+Bit into the sky. It filled our heads with moonlight.<br>
+Almost too vivid to see where we were, what could have been.<br>
+Bit into the sky. It filled our heads with moonlight.<br>
+Almost too vivid to see where we were, what could have been.<br>
+<br>
+Speak for a reason.<br>
+Sink in your empathy.
+</p>
+
+      <h1 id="f7" class="lyrics-test">-All Her Own Teeth-</h1>
+      <p class="lyrics-test-test">Chip away the glass, it separates what’s real.<br>
+With all these fragments I’ll build you.<br>
+Maybe we could show each other glass can bend.<br>
+I must break you.<br>
+Maybe we can start to rebuild when I’m through.<br>
+You’ll love this.<br>
+<br>
+Are you a Scorpio? I would like to know,<br>
+cause I think I might like this.<br>
+Am I your Romeo? Please don’t kill me yet,<br>
+cause I think that you’re still wet.<br>
+<br>
+Fuck it!<br>
+<br>
+Shattered I can’t feel or separate what’s real.<br>
+Holding on to a memory of making what you loved.<br>
+Nothing is what it seems.<br>
+I must break you.<br>
+Maybe we can start to rebuild when I’m through.<br>
+You’ll love this.<br>
+<br>
+Are you a Scorpio? I would like to know,<br>
+cause I think I might like this.<br>
+Am I your Romeo? Please don’t kill me yet,<br>
+cause I think that you’re still wet.<br>
+<br>
+Could I ever be part of your consideration baby?<br>
+Take into account we grew apart in heaven.<br>
+Never thought I’d be part of your consideration baby.<br>
+Take into account we grew apart in heaven.<br>
+<br>
+Am I your Romeo?</p>
+
+      <h1 id="f8" class="lyrics-test">-Understanding Silence-</h1>
+      <p class="lyrics-test-test">Birds look above ahead of time.<br>
+We’ve been marked as a threat.<br>
+There’s no logic for my trial.<br>
+Will I see some rest?<br>
+<br>
+If I never walk again, all that’s occurred so worthless.<br>
+The way we’ve seen these words so distant.<br>
+Lost sense in what control our tongues.<br>
+<br>
+Do they know my name?<br>
+<br>
+Oh me oh my, this mess of mine.<br>
+Need to own my regret.<br>
+I have begged the fairer kind to help make my bed.<br>
+<br>
+If I never walk again, all that’s occurred so worthless.<br>
+The way we’ve seen these words so distant.<br>
+Lost sense in what control our tongues.<br>
+<br>
+Do they know my name?</p>
+
+      <h1 id="f9" class="lyrics-test">-'67 Pontiac Firebird-</h1>
+      <p class="lyrics-test-test">This is it: the only city I’ve walked in.<br>
+Stay close to me, we won’t bow heads for anybody.<br>
+<br>
+If they stop moving it will kill them. I can fly forever.<br>
+This desert’s lost its charm. I’ve had my fill of scales and leather.<br>
+If they stop moving it will kill them but I can fly forever.<br>
+<br>
+The desert’s lost its charm.<br>
+I can fly forever.<br>
+<br>
+Old people in old buildings.<br>
+They’re moving away.<br>
+Old people in old buildings.<br>
+They’re moving away.<br>
+<br>
+Have some dignity you fucking cunt!<br>
+<br>
+We’ve grown strong bones.<br>
+We have strong iron.<br>
+They’ve been messing with my town.<br>
+And I am not afraid.<br>
+Stop fucking with my town.<br>
+Let’s ditch the car and go running.<br>
+<br>
+If they stop moving it will kill them. I can fly forever.<br>
+This desert’s lost its charm. I’ve had my fill of scales and leather.<br>
+If they stop moving it will kill them but I can fly forever.<br>
+<br>
+The desert’s lost its charm.<br>
+The desert’s lost its charm.<br>
+<br>
+This is the only city I’ve ever watched.</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/wewillall.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">We Will All Be Gone - 2018</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-The Devil Thinks I'm Sinking-</h1>
+        <p class="lyrics-test-test">Please, don't swim<br>
+There's something in the water<br>
+Please, don't swim<br>
+<br>
+There's something in the water (close to you)<br>
+Please, don't swim<br>
+There's something in the water<br>
+Please, don't swim<br>
+There's something in the water (close to you)<br>
+Please, don't swim<br>
+There's something in the water<br>
+Please, don't swim
+There's something in the water (close to you)<br>
+Please, don't swim<br>
+There's something in the water<br>
+Please, don't swim<br>
+There's something in the water (close to you)<br>
+<br>
+Can you feel it<br>
+The movement across your feet?<br>
+Take one last look<br>
+Can you see it<br>
+The dragging across your feet?<br>
+Take one last look<br>
+Can you feel it<br>
+The movement across your feet?<br>
+Take one last look<br>
+Can you see it<br>
+The dragging across your feet?<br>
+<br>
+Take one last look<br>
+<br>
+Can't even wrap my head around the situation<br>
+Can't even wrap my head around you<br>
+Can't even wrap my head around the situation<br>
+Can't even wrap my head around you<br>
+<br>
+Try to keep your head above the water<br>
+Can't even wrap my head around...<br>
+<br>
+Can you feel it<br>
+The movement across your feet?<br>
+Take one last look<br>
+Can you see it<br>
+The dragging across your feet?<br>
+Take one last look<br>
+Can you feel it<br>
+The movement across your feet?<br>
+<br>
+Take one last look<br>
+Can you see it?<br>
+<br>
+The dragging across your feet?<br>
+<br>
+Weightless and unbound<br>
+Weightless and unbound<br>
+<br>
+Until we all drown<br>
+The visions will keep us going<br>
+Take off these wet clothes<br>
+I'm drying off</p>
+
+        <h1 id="s2" class="lyrics-test">-Float On-</h1>
+        <p class="lyrics-test-test">The other night I walked around<br>
+And came to a decision<br>
+The River guiding me<br>
+It ate my soul and left my body<br>
+The creatures fed on me<br>
+Clearing the last of my existence<br>
+The River comforts me<br>
+It's calmer now<br>
+The water's rising<br>
+<br>
+(The rain, the rain, the rain, the rain)<br>
+<br>
+I've become, I've become<br>
+What I've wanted<br>
+<br>
+I'm floating on<br>
+(Don't even know what you are missing)<br>
+<br>
+The tired ivory streams<br>
+Through the flood of the collected<br>
+He river asks of me<br>
+To give me mind to those deserving<br>
+Letting go of raw materials<br>
+That once had made me<br>
+The river teaches me<br>
+Adore the now<br>
+Not passing moments<br>
+<br>
+I've become, I've become<br>
+What I've wanted<br>
+<br>
+I'm floating on<br>
+(Don't even know what you are missing)<br>
+<br>
+Oh, won't you float<br>
+Won't you float<br>
+Won't you float away<br>
+Ignore the things around you<br>
+Float with me<br>
+<br>
+I'm floating on<br>
+(Don't even know what you are missing)</p>
+
+        <h1 id="s3" class="lyrics-test">-Such A Kind Stranger-</h1>
+        <p class="lyrics-test-test">Try shifting the weight from the throat<br>
+Grasp dense as ceramic<br>
+Try shifting the weight from the throat<br>
+Grasp dense as ceramic<br>
+<br>
+These rough hands could start a fire<br>
+Exfoliate the day<br>
+It's a tough pill to swallow<br>
+When the pillow feels like stone<br>
+Wish I could hibernate<br>
+But I'd lose what's at stake<br>
+It's getting easier with time<br>
+<br>
+I just don't have the stomach<br>
+To swallow what I think is hopeless<br>
+In a few years, we'll be laughing<br>
+Take a few years to view the world<br>
+<br>
+My veins have a fury that's churning<br>
+My lungs have a fire that's burning<br>
+Mean I can't, means I won't go hungry<br>
+It means I can't starve<br>
+I can't starve<br>
+<br>
+Free the moths 'cause they are tired<br>
+Of filling pocket space<br>
+Write a memoir on a napkin<br>
+I wish I could hibernate<br>
+But I'd lose what's at stake<br>
+It's getting easier with time<br>
+<br>
+I just don't have the stomach<br>
+To swallow what I think is the new world<br>
+<br>
+My veins have a fury that's churning<br>
+My lungs have a fire that's burning<br>
+Means I can't, means I won't go hungry
+It means I can't starve<br>
+<br>
+Try shifting the weight from the throat<br>
+Grasp dense as ceramic<br>
+Try shifting the weight from the throat<br>
+Grasp dense as ceramic<br>
+<br>
+I just don't have the stomach<br>
+To swallow what I think is hopeless<br>
+<br>
+My veins have a fury that's churning<br>
+My lungs have a fire that's burning<br>
+Means I can't means I won't go hungry<br>
+It means I can't starve<br>
+Means I can't means I won't go hungry<br>
+It means I can't starve</p>
+
+        <h1 id="s4" class="lyrics-test">-Blueshift-</h1>
+        <p class="lyrics-test-test">Choked on my own words<br>
+Not everything turns out right<br>
+Just one more thing<br>
+Please hold me down<br>
+This feels so familiar<br>
+The smell of these burning bones<br>
+<br>
+Just one more thing<br>
+Please hold me down<br>
+Just one more thing<br>
+Keep searching<br>
+<br>
+A choice to endure the weight<br>
+Or swallow the sour taste<br>
+Let’s move on<br>
+Cut out my tongue<br>
+<br>
+Absorbed by the moment<br>
+Dread in its salted form<br>
+Just one more thing<br>
+Please hold me down<br>
+This sound an acquaintance<br>
+Echoes of hollow skin<br>
+<br>
+Just one more thing<br>
+Please hold me down<br>
+Just one more thing<br>
+Keep searching<br>
+<br>
+A choice to endure the weight<br>
+Or swallow the sour taste<br>
+Let’s move on<br>
+Cut out my tongue<br>
+<br>
+Just one more thing<br>
+Keep straining<br>
+Just one more thing<br>
+Just one more thing<br>
+Keep searching<br>
+Just one more<br>
+<br>
+A choice to endure the weight<br>
+Or swallow the sour taste<br>
+Let’s move on<br>
+Cut out my tongue<br>
+<br>
+My tongue</p>
+
+        <h1 id="s5" class="lyrics-test">-Salt of The Earth-</h1>
+        <p class="lyrics-test-test">I tightened my grip<br>
+Around my bow<br>
+I'll try to save you all<br>
+Knuckles turning white<br>
+Blood runs cold<br>
+There's a boy with no face<br>
+<br>
+I don't feel there's much separation<br>
+I'm an animal<br>
+Hope leaves when the waves come crashing<br>
+<br>
+I've never been a religious man<br>
+But I'm slipping under drowning<br>
+In your eyes<br>
+I've never been a religious man<br>
+But I'm slipping under drowning<br>
+In your<br>
+
+Footprints in the snow<br>
+The sun runs off<br>
+The gloom begins to grow<br>
+The bleak reaches these bones<br>
+Rushing through<br>
+There's a boy with no face<br>
+<br>
+I don't feel there's much separation<br>
+I'm an animal<br>
+Hope leaves when the waves come crashing<br>
+<br>
+I've never been a religious man<br>
+But I'm slipping under drowning<br>
+In your eyes<br>
+I've never been a religious man<br>
+But I'm slipping under drowning<br>
+In your<br>
+<br>
+I left you the forest<br>
+Let the spirit go<br>
+Rid this place of monsters</p>
+
+        <h1 id="s6" class="lyrics-test">-Grip Shoes-</h1>
+        <p class="lyrics-test-test">t's tough, supporting what seems like fantasies<br>
+Clouds collapse your lungs<br>
+The bends have had their ways<br>
+<br>
+It's rough, watching potential slip into the fray<br>
+Perspective lost, spinning out<br>
+We're not boys just climbing trees<br>
+<br>
+You say you're always living out your dreams<br>
+You're just sleeping<br>
+Crooked floors should never stop your feet<br>
+From moving<br>
+<br>
+(Hopeless)<br>
+<br>
+They'll ask, "Whatever happened to him anyway?"<br>
+Water in your chest<br>
+Drown your cries again<br>
+We'll say, "He was exactly who we thought he was"<br>
+Perspective lost, spinning out<br>
+We're all boys just losing years<br>
+<br>
+You say you're always living out your dreams<br>
+You're just sleeping<br>
+Crooked floors should never stop your feet<br>
+From moving<br>
+<br>
+Say you need it more<br>
+And you took it all<br>
+I didn't look and I don't have it now<br>
+I couldn't watch you fall<br>
+<br>
+You say you're always living out your dreams<br>
+You're just sleeping<br>
+Crooked floors should never stop your feet<br>
+From moving<br>
+<br>
+From moving<br>
+From moving<br>
+From moving<br>
+From moving</p>
+
+        <h1 id="s7" class="lyrics-test">-Just Shy-</h1>
+        <p class="lyrics-test-test">I didn't run<br>
+I took advantage of you sometimes<br>
+I can't deal with selfishness<br>
+No honesty in these eyes<br>
+In these eyes<br>
+I need any other reason<br>
+<br>
+I take all that I need<br>
+To keep on walking<br>
+It tastes like sand, it tastes like dust<br>
+I take all that I need<br>
+To keep on walking<br>
+It tastes like sand, it tastes like...<br>
+<br>
+I'll break a door<br>
+Leaving my interests<br>
+I will not, I hope you're dying<br>
+No honesty in these eyes<br>
+In these eyes<br>
+I need any other reason<br>
+<br>
+I take all that I need<br>
+To keep on walking<br>
+It tastes like sand, it tastes like dust<br>
+I take all that I need<br>
+To keep on walking<br>
+It tastes like sand, it tastes like dust<br>
+It tastes like...<br>
+<br>
+I burn my mouth<br>
+Swallowing<br>
+ignorance<br>
+I burn my mouth<br>
+Swallowing<br>
+ignorance<br>
+<br>
+The words won't come<br>
+The words won't go<br>
+Your words won't come<br>
+My words won't...<br>
+<br>
+I take all that I need<br>
+To keep on walking<br>
+It tastes like sand, it tastes like dust<br>
+I take all that I need<br>
+To keep on walking<br>
+It tastes like sand, it tastes like dust<br>
+It tastes like...<br>
+I take all that I need<br>
+To keep on walking<br>
+It tastes like sand<br>
+I take all that I need<br>
+To keep on walking<br>
+It tastes like sand<br>
+<br>
+It tastes like sand<br>
+It tastes like sand</p>
+
+        <h1 id="s8" class="lyrics-test">-Nineteen Grams-</h1>
+        <p class="lyrics-test-test">I saw the sun come up<br>
+Took every bit strength that I had<br>
+Continue to wander I'm not longer a stranger of land<br>
+<br>
+Swallow your liquid keepsake<br>
+Souvenirs that you treasure best<br>
+Acquaint strangers, lines in their face tell a story<br>
+<br>
+Once upon a time the world scared me, not the case now<br>
+<br>
+I saw the sun come up<br>
+Took every bit strength that I had<br>
+Continue to wander I'm not longer a stranger of land<br>
+I saw the sun come up<br>
+Took every bit strength that I had<br>
+<br>
+Continue to wander I'm not longer a stranger of land<br>
+Traversing through great unknowns<br>
+No trade in value as for as I'm concerned<br>
+Kinship is left at home<br>
+Form new bonds stronger than before<br>
+Stronger than before<br>
+<br>
+Once upon a time the world scared me, not the case now<br>
+<br>
+I saw the sun come up<br>
+Took every bit strength that I had<br>
+Continue to wander I'm not longer a stranger of land<br>
+I saw the sun come up<br>
+Took every bit strength that I had<br>
+Continue to wander I'm not longer a stranger of land</p>
+
+        <h1 id="s9" class="lyrics-test">-Cherry Lemon-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s10" class="lyrics-test">-I'll Finish This Book Later-</h1>
+        <p class="lyrics-test-test">Dive into the land of papercuts and ink stained cufflinks<br>
+These words open doors<br>
+Keep a record of your receipts<br>
+To remind you of the joy of the sunset escape<br>
+<br>
+The poem will bring you down<br>
+Your hatreds float away like butterflies<br>
+And maybe you'll read this tonight<br>
+Gain credence through what you'll recite<br>
+<br>
+Dust the page often<br>
+Take your time<br>
+<br>
+Though it seems a constant duel<br>
+When you feed yourself the words that open up the child in you<br>
+Grab the bourbon from the shelf<br>
+This moment needs to be cemented, cemented<br>
+<br>
+The poem will bring you down<br>
+Your hatreds float away like butterflies<br>
+And maybe you'll read this tonight<br>
+Gain credence through what you'll recite<br>
+And maybe you'll read this tonight<br>
+<br>
+Dust the page often<br>
+Take your time</p>
+
+      </div>
+    </div>
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+    </div>
+
+    <div class="lyrics-under">
+    <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+    </div>
+
+        <div class="page-finish">
+          <a href="./security.html">Security Statements</a>
+          <a href="./terms.html">Terms of Service</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+
+    </body>
+    </html>

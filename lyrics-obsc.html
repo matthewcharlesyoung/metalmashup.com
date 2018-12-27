@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title"></h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/omni.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Omnivium - 2011</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">Septuagint</a>
+      <a href="#f2">Vortex Omnivium</a>
+      <a href="#f3">Ocean Gateways</a>
+      <a href="#f4">Euclidean Elements</a>
+      <a href="#f5">Prismal Dawn</a>
+      <a href="#f6">Celestial Spheres</a>
+      <a href="#f7">Velocity</a>
+      <a href="#f8">A Transcendental Serenade</a>
+      <a href="#f9">Aevum</a>
+      <a href="#f10">Concerto</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/ark.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Akróasis - 2016</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Sermon Of The Seven Suns</a>
+      <a href="#s2">The Monist</a>
+      <a href="#s3">Akróasis</a>
+      <a href="#s4">Ten Sepiroth</a>
+      <a href="#s5">Ode To The Sun</a>
+      <a href="#s6">Fractal Dimension</a>
+      <a href="#s7">Perpetual Infinity</a>
+      <a href="#s8">Weltseele</a>
+      <a href="#s9">Melos</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/dil.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Diluvium - 2018</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">Clandestine Stars</a>
+      <a href="#t2">Emergent Evolution</a>
+      <a href="#t3">Diluvium</a>
+      <a href="#t4">Mortification Of The Vulgar Sun</a>
+      <a href="#t5">Ethereal Skies</a>
+      <a href="#t6">Convergence</a>
+      <a href="#t7">Ekpyrosis</a>
+      <a href="#t8">The Seventh Aeon</a>
+      <a href="#t9">The Conjuration</a>
+      <a href="#t10">An Epilogue To Infinity</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/omni.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Omnivium - 2011</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-Septuagint-</h1>
+      <p class="lyrics-test-test">I assume a true above and below<br>
+One more and first of all<br>
+I endeavor the deadly uniformity<br>
+That erudition brought into this world<br>
+<br>
+I doubt wherever the earth's gravit<br>y
+That is boldly presumed to extend<br>
+Over the whole structure of the world<br>
+Effective beyond a certain radius<br>
+<br>
+Aeon, uniformity, divine<br>
+This empty space extending on all sides<br>
+Where the suns of the suns are subordinated<br>
+I thought of a great manifold of different ones<br>
+<br>
+Where double stars moving alternately<br>
+Round each other but not round a third one<br>
+A whole that does not tolerate a middle<br>
+As masses of light flow into each other<br>
+<br>
+If this universe increased to its extremity<br>
+When the other side transists into a black hole<br>
+A downward spiral of the corporeal masses<br>
+our existence is complete in both directions<br>
+<br>
+I assume a separation of powers that be<br>
+Of purely demonic divine chaos<br>
+I endeavor the deadly uniformity<br>
+That erudition brought into the world<br>
+<br>
+When we can pass over into the other<br>
+A world, pure and silent through death<br>
+This empty space extending on all sides<br>
+A true above, a true below</p>
+
+      <h1 id="f2" class="lyrics-test">-Vortex Omnivium-</h1>
+      <p class="lyrics-test-test">For the very reason a part gets the upper hand<br>
+The might within space represses the internal<br>
+So that they have become two worlds then<br>
+Divine determination, free, pure and unadulterated<br>
+<br>
+Vortex Omnivium-Where consciousness is the end of all<br>
+Divine revelation, and words become flesh<br>
+Vortex Omnivium- When arousing transitory<br>
+Sentiments become pure anger and wrath<br>
+<br>
+Our thoughts will come to rest only at the final unity<br>
+United life will follow separated subsistence<br>
+Within this whisper of life, within this sensible world<br>
+This substantive being will break the tie of eternal rest</p>
+
+      <h1 id="f3" class="lyrics-test">-Ocean Gateways-</h1>
+      <p class="lyrics-test-test">I consider our Earth as a part of the lowest area<br>
+We live as we were at the bottom of the sea<br>
+Where nothing is pure and undespoiled<br>
+Where everything is eaten and eroded<br>
+<br>
+Where the grips of externality is unable freely<br>
+To emerge beyond a certain space of this one<br>
+Where nothing is pure and undespoiled<br>
+Where everything is wet and salt<br>
+<br>
+Where earth and spirit unite<br>
+An opposition to the visible<br>
+A call of the purified souls<br>
+Emerges beyond, breaks free<br>
+<br>
+Deliverance - an acroamatic halo<br>
+Deprivation - in particular obedience<br>
+Eclipsed - shackled and torn apart<br>
+Emptiness - devoid of heart and soul
+</p>
+
+      <h1 id="f4" class="lyrics-test">-Euclidean Elements-</h1>
+      <p class="lyrics-test-test">Our time will be devised as they will be<br>
+Taken from the present, above and below<br>
+When you become the salt in the wounds<br>
+Mankind will rise again - baptism by fire<br>
+<br>
+An imagination along unrestricted bounds<br>
+A distant future, appearance of illusion<br>
+When you feel the merge within the wounds<br>
+Mankind will rise again - baptism by fire<br>
+<br>
+When we fall toward a new sun aeon<br>
+Nothing more than a mere underneath<br>
+When you see throughout the worlds<br>
+Within the suns - downward and dead<br>
+<br>
+Between our visible world<br>
+At the place, highest of all<br>
+I will turn to my mind's eye<br>
+Where the blame lies with me<br>
+<br>
+We are here among ourselves<br>
+With the sun and stars above us<br>
+An abyss within the depth<br>
+At a splendid place, above and below</p>
+
+      <h1 id="f5" class="lyrics-test">-Prismal Dawn-</h1>
+      <p class="lyrics-test-test">Behind those halls yonder,<br>
+above the caliginoous enigma<br>
+Where soul and spirit unite, there lies buried everything I have<br>
+Where we left the quiet sanctuary that united us on this side<br>
+To be separated for aeons, enchained in eternity<br>
+<br>
+I lost you when I am chased away yet again<br>
+Yet your feeble remnants adores them<br>
+I am torn away even from the area of ground that covers you<br>
+Which was the very last thing I had of you<br>
+<br>
+I lost you when I am chased away yet again<br>
+Yet your mortal remains rest peacefully and purely<br>
+<br>
+Whatever part of this earth will retain them<br>
+Passing the world beyond, I'll be with you
+<br>
+This is our heart, our mind, our conscience<br>
+Our soul no longer belongs to us<br>
+Returning home to eternal freedom<br>
+Begin a new course, ennoble our essence<br>
+<br>
+In the latter we find one law and one purpose<br>
+A purpose that can not be from this world<br>
+Beyond abyss through which blackness shines in<br>
+<br>
+Behind those halls, where soul and spirit unite<br>
+There lies buried everything I have in the Prismal Dawn</p>
+
+      <h1 id="f6" class="lyrics-test">-Celestial Spheres-</h1>
+      <p class="lyrics-test-test">The inclination will become naught<br>
+When a justifiable longing is accorded to it<br>
+Within the magnitude of the object<br>
+For the gain of an everlasting truth<br>
+<br>
+Amalgamation will be scorned by both<br>
+When there is a whisper of faith<br>
+Within the halls of eternity
+<br>
+For a wish of silence in the black eclipse<br>
+Light and vision, day and night, will break free<br>
+<br>
+A night like day and a day like night embrace us all<br>
+Our wishes find their final resting place in us<br>
+A moonlit night touches our inner being<br>
+...and makes a shudder run through our flesh<br>
+<br>
+A night like day and a day like night embrace us all<br>
+Our wishes find their final place<br>
+<br>
+When our mind disappears into a sudden<br>
+Shuddering movement and leaves behind in his soul<br>
+A painful longing for its survival<br>
+Light and vision, day and night, will break free</p>
+
+      <h1 id="f7" class="lyrics-test">-Velocity-</h1>
+      <p class="lyrics-test-test">This is the end, where everything finishes<br>
+What will be revealed in silence<br>
+This is the end, where each secret disappears<br>
+Fragrance of the dead, redemption of the weak<br>
+<br>
+Those who arise despite ourselves<br>
+Where the left hand path begins<br>
+A fragment is pushing through, enforces my memory<br>
+My mind has been swaying for some time<br>
+<br>
+Your sign, suggesting a pale remembrance<br>
+Where everything finally disappears<br>
+<br>
+This is the end, where everything finishes<br>
+What will be revealed in silence<br>
+This is the end, where each secret disappears<br>
+Fragrance of the dead, redemption of the weak<br>
+<br>
+Between the worlds, where the one merge with the other through them<br>
+Where the growth of an external world amalgamate into a spirit truth<br>
+Where a transition occurs within death and salvation<br>
+You'll see the whole, the whole of the undivided one<br>
+<br>
+At a stage where you'll lead delightful<br>
+The one that is fallen awaits frightful
+</p>
+
+      <h1 id="f8" class="lyrics-test">-A Transcendental Serenade-</h1>
+      <p class="lyrics-test-test">In deepest depths, at the dark side of<br>
+a burning star.<br>
+By the dully shining black sun - the dance of the dead.
+</p>
+
+      <h1 id="f9" class="lyrics-test">-Aevum-</h1>
+      <p class="lyrics-test-test">Where profound souls shy away from self fulfillment<br>
+We stroll in silence through this universe<br>
+Where abysmal pansophy wallows in deepness<br>
+To enjoy the bliss of a fractional existence<br>
+<br>
+The holiest necessity of inner being is not a law for nature<br>
+In nature even divine necessity takes on the bleach animosity<br>
+To keep our inner being free of this contradiction<br>
+With the irresistible force fore of a terrible necessity once present<br>
+<br>
+Those who are ashamed to start from the earth<br>
+To climb up from the creature mankind<br>
+To draw those thoughts that are beyond<br>
+Earth, fire, water, and air<br>
+<br>
+Void Dimension - as man stands here on earth<br>
+Void Dimension - as flash of eternity<br>
+<br>
+As man stands here on earth in this life<br>
+As flash of eternity that enlighten this gloominess<br>
+Portraying this progeny of their soul as enigma<br>
+Devoured by its own will, unbounded, inevitable<br>
+<br>
+Wherever one thing reaches into the other<br>
+Neither of the others can leave<br>
+Each requires the other</p>
+
+      <h1 id="f10" class="lyrics-test">-Concerto-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/ark.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Akróasis - 2016</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Sermon Of The Seven Suns-</h1>
+        <p class="lyrics-test-test">The Sermon of the Seven Suns<br>
+A funeral of worlds<br>
+
+Enshrouded, devoured, consumed in solitude<br>
+Forsaken, abandoned, decayed in eternity<br>
+A manifest in birth and death<br>
+For each moment in time<br>
+<br>
+At first enthrallment, a stream of grace<br>
+Kingdom come - Evaporation<br>
+Eternal enslavement, a touch of salvation<br>
+Demise, disillusion, cremation<br>
+<br>
+Perdition, damnation, serpentine affliction<br>
+Sustained, unbroken, beyond redemption<br>
+A manifest in birth and death<br>
+For each moment in time<br>
+<br>
+A second emergent, a glint of bliss<br>
+Kingdom come – Annihilation<br>
+Scattered radiation, a kiss of death<br>
+Vitiation, elimination, evisceration<br>
+<br>
+A virgin planet, blazed in fire<br>
+By a mass of flame, the ultimate fate<br>
+A spark of life, vanished in naught<br>
+In a grand inferno, a funeral of worlds<br>
+<br>
+After hundreds of thousands of years<br>
+A seventh sun reborn in agonyv
+A destroyer constrained in pitch black sorrow<br>
+Breathless silence, a new born empty shell<br>
+<br>
+Light bringer, deceiver, cancer of the universe<br>
+A manifest in birth and death<br>
+For each moment in time</p>
+
+        <h1 id="s2" class="lyrics-test">-Sermon Of The Seven Suns-</h1>
+        <p class="lyrics-test-test">I, I am the immanent and transcendent<br>
+Incarnated through matter and halo<br>
+I, I am a vermin, a Eucharist<br>
+Resurrected in endless endeavour<br>
+<br>
+So it shall come<br>
+As I create<br>
+In orbital resonance<br>
+<br>
+I, I am the parasite, the heretic<br>
+Cursed eternal cosmic force<br>
+I, I am the monist, enlightener<br>
+Doomed to fail – Eternally<br>
+<br>
+Convergent stars – A synergy condemned in bloom<br>
+In time and space – Liminal agnosia<br>
+<br>
+This is the end<br>
+An abysmal atrocious demise<br>
+This is the end<br>
+When soul and spirit unite<br>
+<br>
+Convergent stars – A synergy condemned in bloom<br>
+In time and space – Liminal agnosia<br>
+In full emptiness – Visual audibility<br>
+Devoured downfall – Inexorable destiny</p>
+
+        <h1 id="s3" class="lyrics-test">-Akróasis-</h1>
+        <p class="lyrics-test-test">Within a fountain of stars, deforming<br>
+remnants pulsate<br>
+in eclectic wisdom sublime, warping quantiles vibrate<br>
+Divine, a glimpse of carbon-based life, A gargantuan symmetric pursuit<br>
+in harmonic order, monolithic derivation, of seminal repute<br>
+Arise – Emanation of cosmos and time<br>
+Revive – Relinquished, forsaken, deserted mankind<br>
+Omnipresent, eudemonic, abandoned in ecstasy<br>
+Beyond all finite and infinite, quantile elements scintillate<br>
+in serendipity stillborn, a harmonic resonance amain</p>
+
+        <h1 id="s4" class="lyrics-test">-Ten Sepiroth-</h1>
+        <p class="lyrics-test-test">A crown, created with divine will<br>
+An inﬁnite light of the creator<br>
+<br>
+Through wisdom, from nothingness, a ﬁrst revelation<br>
+An unbound ﬂash widespread, sheer cataclysm<br>
+<br>
+A vessel, made of comprehension<br>
+To give it grasp, of breadth and depth<br>
+<br>
+Ten Sepiroth – A central state of unity<br>
+Ten Sepiroth – Emanations pure creation<br>
+<br>
+Upholding the heavens, saturating the stars<br>
+In splendor bright glory, deliverance ascends<br>
+Sustaining the cosmos, a maelstrom of spirits<br>
+In newborn distress, emblazed sparkling spheres<br>
+<br>
+Loving grace of inspiring vision<br>
+Withhold this victory in mere sincerity<br>
+To envision the concentric circles<br>
+Conscious alone the heretic<br>
+<br>
+Through wisdom, from nothingness, a ﬁrst revelation<br>
+An unbound ﬂash widespread, sheer cataclysm<br>
+Ten Sepiroth – A central state of unity<br>
+Ten Sepiroth – Emanations pure creation
+</p>
+
+        <h1 id="s5" class="lyrics-test">-Ode To The Sun-</h1>
+        <p class="lyrics-test-test">What sudden blaze of majesty<br>
+Is that which we from hence descry<br>
+To whom our vows and wishes bend<br>
+Here our solemn search has end<br>
+Mother of a hundred gods<br><br>
+Divine creation give her odds<br>
+Who had thought this clime had held<br>
+A deity, numinous and unparalleled<br>
+This this is she - Sitting like a Goddess bright<br>
+This this is she - In the center of her light<br>
+Mark what radiant state she spreads<br>
+In circle round her shining throne<br>
+Scatter radiance like silver shreds<br>
+This this is she<br>
+To the celestial sirens harmony<br><br>
+And turn the adamantine spindle round<br>
+On which the fate of gods and men is wound<br>
+This this is she<br>
+Fame that her high worth to raise<br>
+Once seemed so lavish and profuse<br>
+We may justly now accuse<br>
+Of detraction from her praise<br>
+<br>
+This this is she</p>
+
+        <h1 id="s6" class="lyrics-test">-Fractal Dimension-</h1>
+        <p class="lyrics-test-test">Piece and piece, composed infinite order<br>
+Lacunarity denied<br>
+A swarm of harmony, a libertine in disbelief<br>
+A symphony of forms, a choral remnant of stars<br>
+Quantifying eclectic textures<br>
+Intrinsic perfection<br>
+Periphery atonality<br><br>
+Errors withhold<br>
+A heavenward cathedral of tones<br>
+A crystal momentum so pure<br>
+A Fractal Dimension<br><br>
+So concinnous and clear<br>
+Apollonian multiverse<br>
+Of moulds, immortal<br>
+A Fractal Dimension, concinnous and clear</p>
+
+        <h1 id="s7" class="lyrics-test">-Fractal Dimension-</h1>
+        <p class="lyrics-test-test">In vein endeavor, a toroid, nacreous and bright<br>
+A triptych trinity of grace and height<br>
+Perceived and obsolete, merge into decay<br>
+Defeated, primordial grandeur<br>
+<br>
+Into the void – Illuminate, elucidate, enlighten once bliss<br>
+Into the light – Occult, enwomb, disguise this abyss<br>
+<br>
+Orbital ubiquity, blistering shining surface<br>
+A freedom of faith, conscience and creed<br>
+Spangled with stars, perished inanity<br>
+Vanished, dissolving polarity<br>
+<br>
+Beyond all matter and moral<br>
+Within perpetual infinity<br>
+This cosmic body, a transcendent reality<br>
+This absolute unity, a multitude of forms<br>
+<br>
+A human shell, scattered in eternal silence<br>
+A perennial stream of recurring thoughts<br>
+Trapped forever, as stellar ion cluster<br>
+Enchained, in idle captured state<br>
+<br>
+Time – An Aeon of strain<br>
+Time – A sinuous deformity<br>
+<br>
+This cosmic body, a transcendent reality<br>
+This absolute unity, a multitude of forms<br>
+<br>
+Beyond all matter and moral<br>
+Within perpetual infinity<br>
+Unique universal spirits<br>
+As vivid and pure.</p>
+
+        <h1 id="s8" class="lyrics-test">-Weltseele-</h1>
+        <p class="lyrics-test-test">As I walk through time and space<br>
+Nourished from this holy feasts<br>
+I tear through cosmic sea<br>
+Obtain a universes farewell kiss<br>
+Levitated in unmeasured far<br>
+A blissful dream illuminated<br>
+<br>
+Captured in this bright sparkling glitter dome<br>
+An enlightened shimmering black chamber<br>
+Levitating grand massive comets<br>
+Into here and then ascend to rise<br>
+<br>
+A maze built by suns and planets within<br>
+To cut through evanescent inﬁnite gravity<br>
+Their presence, spirited, edged and alive<br>
+A momentum in allegiance, devotion and pride<br>
+<br>
+As I reach for stars and unformed ground<br>
+I shoot for the moon in eventide unbound<br>
+Their presence, spirited, edged and alive<br>
+A momentum in allegiance, devotion and pride<br>
+<br>
+Evermore supernal emboldened<br>
+Transcend sincere desire<br>
+From ﬂuid to form, and liquid to life<br>
+In barren earth moribund<br>
+
+Suppressed in dreadful contestation<br>
+In smoldering, rotten sympathy<br>
+Blazed in vast pervade paradise<br>
+In surplus, stained resplendence<br>
+<br>
+Broaden, unbundles pursuit of life<br>
+In blessed observance combined<br>
+Conceive, subsist in gratitude<br>
+From each universe echoed<br>
+<br>
+Weltseele – A magnitude diaspora</p>
+
+        <h1 id="s9" class="lyrics-test">-Melos-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/dil.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Diluvium - 2018</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-Clandestine Stars-</h1>
+          <p class="lyrics-test-test">Resplendence, as servants we<br>
+are hidden in distress<br>
+In silence we glare, in light, ablaze<br>
+Embraced, aligned in pitch-black mass we rot<br>
+And drown into time and space<br>
+<br>
+And we are crawling from abyss, in a sudden flash widespread<br>
+Through time and space, as a stream of grace<br>
+<br>
+When we have fallen, down into the void<br>
+Esteem the fading, our inner mourning flame<br>
+<br>
+In obedience, in damnation we are damned to obsess<br>
+In reticence we shine, in glitter, sparkling bright<br>
+Sustained, forgotten, as shivered souls we spoil<br>
+And drown into time and space<br>
+<br>
+In a moment of disguise, we descry sombrous rebirth<br>
+In a stream of grace descend, as clandestine stars<br>
+When we have fallen, dawn beyond all grief<br>
+Withstand the burden, we promise our last farewell<br>
+<br>
+
+Embraced, aligned in pitch-black mass widespread<br>
+Extolled our remains, as clandestine stars we rot</p>
+
+          <h1 id="t2" class="lyrics-test">-Emergent Evolution-</h1>
+          <p class="lyrics-test-test">Annihilate, accelerate,<br>
+surge into cold pristine state<br>
+Invisible radiation, everlasting desecration<br>
+Profane sun, pervading light, splendor burst to virgin dust<br>
+Revelation, restitution, a riven covenant<br>
+<br>
+Arise nocturnal star, into the void of eternal light<br>
+From brume into renascence, emergent evolution<br>
+Perennial aeonic divine eclipse<br>
+<br>
+Arise - light of shining bliss<br>
+Divine - night in cosmic abyss<br>
+Devastate, discreate, putrefied and liquefied<br>
+Separation, isolation, final dissolution<br>
+Celestial spheres, a pallid flame, repulsive procreation<br>
+Manifestation, adumbration, luminous in radiance<br>
+<br>
+Arise celestial bliss, into the void of divine essence<br>
+As a swarm into renascence, emergent evolution<br>
+Concentric primordial subsistence reborn<br>
+<br>
+Arise - light of shining bliss<br>
+Divine - night in cosmic abyss<br>
+<br>
+Recreate, generate, turning into supreme black light<br>
+Ethereal abomination, artificial entity<br>
+Profane sun, pervading light, splendor burst to virgin dust<br>
+Revelation, restitution a riven covenant - arise
+</p>
+
+          <h1 id="t3" class="lyrics-test">-Diluvium-</h1>
+          <p class="lyrics-test-test">When radiation fades and remnants dissipate<br>
+Sacrificed we reunite in obedience<br>
+Decayed and lapsed in entropy<br>
+Bewailed, intoned the last elegy<br>
+<br>
+Elapsed this diminished last piece of time<br>
+Shattered, convulsed, distressed in clarity<br>
+<br>
+Diluvium - a vortex of primordial black holes, unbound<br>
+Diluvium - a stream into nothingness, unleashed<br>
+<br>
+Drowned evaporation, enduring lucent purity<br>
+Grand deprivation, eternal cosmic unity<br>
+<br>
+When resplendence elapsed, and fragments abrogates<br>
+Consecrated we insist in allegiance<br>
+Constrained and deformed in ecstasy<br>
+Enrapt, entranced in parity<br>
+<br>
+Bygone this languished finite state of mind<br>
+Battered, relinquished, distraught deformity
+</p>
+
+          <h1 id="t4" class="lyrics-test">-Mortification Of The Vulgar Sun-</h1>
+          <p class="lyrics-test-test">I overcome this world<br>
+Endowed with golden light<br>
+Obliterate and recreate<br>
+<br>
+A serenade of life and death<br>
+Embraced in eternal night<br>
+Infinite and purified<br>
+<br>
+A last gathering of time and space<br>
+In solitude, I drawn to stars<br>
+Dissolving in eclectic haze<br>
+In malice, I saturate in gloom<br>
+<br>
+I overcome this world<br>
+Perished in perpetual bliss<br>
+Devastate and recreate<br>
+<br>
+Beyond the veil, blessed initiate descent<br>
+In magnitude, splendor bright unscathed<br>
+Shattered in pieces, vanquished volition<br>
+Mortification of the vulgar sun</p>
+
+          <h1 id="t5" class="lyrics-test">-Ethereal Skies-</h1>
+          <p class="lyrics-test-test">Cosmic havoc in oblivious embrace<br>
+To deport this alternation<br>
+Arcade of aeons, motion in time<br>
+Dissolves in absolution<br>
+<br>
+Conflagration - back to primordial condition<br>
+Cosmogenesis - life and death<br>
+<br>
+In ethereal skies, we transcend in eclectic divine<br>
+As a glimpse of light, forevermore<br>
+In wandering stars, we emerge from light to abyss<br>
+As abandoned gods, we redeem in purgatory<br>
+<br>
+Deliverance, a slender form of desolation<br>
+In bareness, beyond profound abyss<br>
+Perception, a final glimpse of dignity<br>
+In radiation of the blackest light<br>
+<br>
+
+Retrogression, in solitary meditation<br>
+In clarity, consigned to infinity<br>
+Perpetuity, a constant shattered past<br>
+In sempiternal neutrality
+</p>
+
+          <h1 id="t6" class="lyrics-test">-Convergence-</h1>
+          <p class="lyrics-test-test">Consumed in a vortex,<br>
+beheld the celestial wrath<br>
+With our spirits aligned, we immersed in evenfall<br>
+Engrossed in infinity, congealed in perpetual spleen<br>
+In consciousness remained, the universe’s final call<br>
+<br>
+At the edge of time, a convergent entity<br>
+<br>
+Erased in blackness, obtained eternal path<br>
+In our shivers sublime, we collapsed in crimson sprawl<br>
+Enthralled in sparkling loss, transcend in eternal gleam<br>
+Annihilation unbound, in maenadic velocity<br>
+Rise, convergent black star, revive from life into decay<br>
+<br>
+Dissolve in cosmic seas, enthralled to strain the burden<br>
+As an anthem of life and death, as an epitaph of all light<br>
+<br>
+
+Our last funeral, redeemed sustaining the vortex<br>
+Drowning down eclectic bliss, we remain relieved in deliverance</p>
+
+          <h1 id="t7" class="lyrics-test">-Ekpyrosis-</h1>
+          <p class="lyrics-test-test">Forevermore, an eternal wave enfolds,<br>
+ekpyrosis occur<br>
+Transits in fiery red, invoked flat fourth dimension<br>
+Extending to all sides, the equation of state<br>
+<br>
+As branes, in true magnitude we collide in cosmos and light<br>
+Expanse, in matter and time, void dimension, eternal night<br>
+<br>
+Into the absolute, as we blend into cosmic mist, conflagration behold<br>
+Reborn in shattered past, in the midst of erasing stars<br>
+At the world’s dawn, the eternal cosmic night<br>
+<br>
+
+Forevermore, an eternal wave enfolds<br>
+Bleach into the absolute, spirit divine<br>
+In time and space aligned<br>
+In time and space, eternal night</p>
+
+          <h1 id="t8" class="lyrics-test">-The Seventh Aeon-</h1>
+          <p class="lyrics-test-test">Foul and tainted, putrid in spite<br>
+Departed, serene, deceived in faith<br>
+Emanated and ruptured in creed<br>
+Condemned forever, captured in doom<br>
+<br>
+Devoured in oblivion, redeemed in gloom<br>
+And abandon demise, I stare in eternal despair of yore<br>
+<br>
+Perseverant and keen, I endure the curse<br>
+In boundless spirits, the faith of gods<br>
+<br>
+Devoured in oblivion, redeemed in gloom<br>
+And abandon demise, I stare in eternal despair of yore<br>
+The seventh aeon elating, the bringer of light enfolding its vigor<br>
+In a halo of light, I bare as remaining grandeur once more<br>
+<br>
+
+Shrouded in silence, unhallowed black sermon<br>
+Condemned forever, captured in doom<br>
+<br>
+Devoured in oblivion, redeemed in gloom<br>
+And abandon demise, I stare in eternal despair of yore<br>
+The seventh aeon elating, the bringer of light enfolding its vigor<br>
+In a halo of light, I bare as remaining grandeur no more
+</p>
+
+          <h1 id="t9" class="lyrics-test">-The Conjuration-</h1>
+          <p class="lyrics-test-test">The one who has fallen<br>
+Wrapped in nocturnal despise<br>
+Surrender of the cosmic lie<br>
+<br>
+Conjuration, evoke above and below<br>
+Arcane, occult, clandestine stars witnessed<br>
+<br>
+The one who has drowned<br>
+Enshrouded in splendor so bright<br>
+Inclination of the blackest light<br>
+<br>
+Fragrance of the perished, redemption revealed<br>
+Slaver, strive, iniquitous life redeemed in wrath<br>
+<br>
+Invocation, ascend to its source and<br>
+Crave, cure, purity, the surrender of cosmic lies<br>
+<br>
+In revelation, fathomless glory<br>
+Sacrificed mortals, a scorned trinity<br>
+</p>
+
+          <h1 id="t10" class="lyrics-test">-An Epilogue To Infinity-</h1>
+          <p class="lyrics-test-test">I, I'm the bringer of light and glance into<br>
+Doom, resurrected in gloom<br>
+I enfold, as your destiny and blaze into<br>
+Fate, incarnated in grace into<br>
+<br>
+A farewell to the stars, redeemer of the final abyss<br>
+A farewell to eternal spheres, deliverer of the solar eclipse<br>
+<br>
+I, I'm the savior, liberator, destroyer<br>
+In eclectic sanctuary<br>
+I pass, within remnants of yore, neglect<br>
+A purified divine achieved<br>
+<br>
+I, I'm the savior of light and glance into<br>
+Doom, I wander in gloom<br>
+And drown in ablaze of perpetual distress<br>
+Dissolving in aeons of perennial black mass<br>
+Chaos, distress, and wrath and death<br>
+<br>
+Deliverance and consciousness, aeonic destiny<br>
+Immanent and transcendent, where spirits reunite<br>
+A maelstrom of unity, eternal and divine<br>
+A farewell to infinity, each soul glorified
+</p>
+        </div>
+      </div>
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+      </div>
+
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+      </div>
+
+          <div class="page-finish">
+            <a href="./security.html">Security Statements</a>
+            <a href="./terms.html">Terms of Service</a>
+            <a href="./privacy.html">Privacy Policy</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+
+      </body>
+      </html>

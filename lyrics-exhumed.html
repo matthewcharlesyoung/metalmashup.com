@@ -1,0 +1,1902 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Exhumed</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/allguts.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">All Guts, No Glory - 2011</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">All Guts, No Glory</a>
+      <a href="#f2">As Hammer to Anvil</a>
+      <a href="#f3">Your Funeral, My Feast</a>
+      <a href="#f4">Through Cadaver Eyes</a>
+      <a href="#f5">Death Knell</a>
+      <a href="#f6">Distorted and Twisted to Form</a>
+      <a href="#f7">I Rot Within</a>
+      <a href="#f8">Dis-assembly Line</a>
+      <a href="#f9">Necrotized</a>
+      <a href="#f10">Funereality</a>
+      <a href="#f11">So Let It Be Rotten… So Let It Be Done</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/necro.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Necrocracy - 2013</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Coins Upon The Eyes</a>
+      <a href="#s2">The Shape Of Deaths To Come</a>
+      <a href="#s3">Necrocracy</a>
+      <a href="#s4">Dysmorphic</a>
+      <a href="#s5">Sickened</a>
+      <a href="#s6">(So Passes) The Glory Of Death</a>
+      <a href="#s7">Ravening</a>
+      <a href="#s8">Carrion Call</a>
+      <a href="#s9">The Rotting</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/deathrevenge.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Death Revenge - 2017</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">Death Revenge Overture</a>
+      <a href="#t2">Defenders Of The Grave</a>
+      <a href="#t3">Lifeless</a>
+      <a href="#t4">Dead End</a>
+      <a href="#t5">Night Work</a>
+      <a href="#t6">Unspeakable</a>
+      <a href="#t7">Gravemakers Of Edinburgh</a>
+      <a href="#t8">The Harrowing</a>
+      <a href="#t9">A Funeral Party</a>
+      <a href="#t10">The Anatomy Act Of 1832</a>
+      <a href="#t11">Incarnadined Hands</a>
+      <a href="#t12">Death Revenge</a>
+      <a href="#t12">Death Revenge Underture</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/allguts.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">All Guts, No Glory - 2011</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-All Guts, No Glory-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f2" class="lyrics-test">-As Hammer to Anvil-</h1>
+      <p class="lyrics-test-test">Pulverization- bones snap, break, and rend<br>
+Trituration- truncheon falls again and again<br>
+Castigation- dumbstruck, dazed and contused<br>
+Excruciation- blackened, bludgeoned, blinded, and bruised<br>
+As hammer to anvil<br>
+As hammer…<br>
+As hammer to anvil<br>
+To anvil…<br><br>
+Agonized- pummeled, crushed, pounded, and beat<br>
+Tenderized- cringing, battered human meat<br>
+Traumatized- painful, unbearable, ceaseless throbbing<br>
+Brutalized- thrashed and subjected to quite a drubbing<br>
+As hammer to anvil<br>
+As hammer…<br>
+As hammer to anvil<br>
+To anvil…<br><br>
+Forging death, upon this human anvil<br>
+Prepared to smite as I raise the handle<br>
+Writhe in pain, at the hammer’s blow<br>
+Hammer fells, like tolling bells<br>
+Ring out their dull and pounding knells<br>
+The final sounds, you’ll ever know<br><br>
+
+
+I smash your brittle bones to powder<br>
+Screams crescendo ever louder<br>
+<br>
+
+Your shattered torso now gone to bits<br>
+A puzzle of pieces that no longer fit<br>
+As hammer to anvil<br>
+As hammer…<br>
+As hammer to anvil<br>
+To anvil…</p>
+
+      <h1 id="f3" class="lyrics-test">-Your Funeral, My Feast-</h1>
+      <p class="lyrics-test-test">Epicurean pathology<br>
+Shattered gross anatomy<br>
+Bodily fluids, foul and septic<br>
+I sing the body decrepit<br>
+Your funeral, my feast<br>
+You’ll never rest in peace<br>
+Tagged, sectioned, then slabbed<br>
+Slurp fluids from your body-bag<br><br>
+Repulsive, jaundiced flesh - The stomach-turning sight, that I love best<br>
+Necrosis setting in - Discolored, rotting, mottled skin<br>
+The weevils writhe and squirm - Your torso now alive with worms<br>
+As organs liquefy - I whet my abhorrent appetite<br>
+Your funeral, my feast<br><br>
+A masterstroke of rotting meat<br>
+My dinner table’s where you rest in piece<br>
+Your funeral, my feast<br>
+Gruesome garnish, moist carnage<br>
+Raw bits of human garbage<br>
+The chunks seep, they won’t keep<br>
+Gnashing through, as each piece bleeds<br>
+Your decay, my entrée<br><br>
+I wouldn’t have it any other way<br>
+Maggot millet, stuffs your gullet<br>
+To please my most deranged of palettes<br>
+Splenetic, ghastly taste - The stinking savor of pathological waste<br>
+Trypsin and Pepsin marinate - The loathsome bowels I masticate<br>
+To dine upon this foul concoction - Requires a taste for extreme unction<br>
+But for those who have the stomach - We sate our hunger on tripe and vomit<br>
+Your funeral, my feast<br>
+A masterstroke of rotting meat<br>
+My dinner table’s where you rest in piece<br>
+Your funeral, my feast<br>
+<br>
+
+Your funeral, my feast
+</p>
+
+      <h1 id="f4" class="lyrics-test">-Through Cadaver Eyes-</h1>
+      <p class="lyrics-test-test">I see the world through cadaver eyes<br>
+Sickened by the sight of all that I despise<br>
+Rotting mass devoured by maggots and flies<br>
+A ghoulish feast upon the necrotized<br>
+I see the world through cadaver eyes<br>
+A sucking grave from which nothing will rise<br>
+Too late we’ve just begun to realize<br>
+All that we touch, we cause to rot and die<br><br>
+The ichor in which we’re immured<br>
+Clotted, purulent, and impure<br>
+Infected well past any hope of cure<br>
+This is the world that I see<br>
+Decaying for the feasts of parasites<br>
+The human wreckage whets their appetites<br>
+In the polluted carnage they delight<br>
+Our flesh their fetid fantasy<br><br>
+Their fetid fantasy<br>
+Through cadaver eyes - the shroud torn back<br>
+To view the carnage at which we hack - bleeding black<br>
+Through cadaver eyes - see only death<br>
+The putrid truth of what is left - rotten flesh<br>
+Inhale the crematory’s noxious reek<br>
+Savor the stench of a world deceased<br>
+The taste of slaughter that our palettes seek<br>
+To dull the buzzing in our brains<br><br>
+Taste the blight fester within your flesh<br>
+With every mouthful that you gasp for breath<br>
+Revolted by this wretched world grotesque<br>
+And every horror it contains<br>
+Every horror it contains<br><br>
+Through cadaver eyes - the shroud torn back<br>
+To view the carnage at which we hack - bleeding black<br>
+Through cadaver eyes - see only death<br>
+The putrid truth of what is left - rotten flesh<br>
+<br>
+Through cadaver eyes - the shroud torn back<br>
+To view the carnage at which we hack - bleeding black<br>
+Through cadaver eyes - see only death<br>
+The putrid truth of what is left - rotten flesh<br>
+All the world is a cadaver’s eye<br>
+We crawl like maggots from beneath its stye<br>
+Engorged we consume, to be consumed in time<br>
+A noisome plague in both death and life</p>
+
+      <h1 id="f5" class="lyrics-test">-Death Knell-</h1>
+      <p class="lyrics-test-test">Purulent portents augur decrepit demise<br>
+A tumescent terminus draws near<br>
+Sloughing skin, boils erupt before your very eyes<br>
+Carbuncles and lesions appear<br>
+Wracked with infection - excruciated<br>
+An affliction which will not abate<br>
+Eczemic flesh stripped away - excoriated<br>
+A fetid, disease-ridden fate<br>
+Moribund, vomiting blood<br>
+All over the hospital floor<br><br>
+Not long for this earth, it only gets worse<br>
+Physiognomy ridden with sores<br>
+Rendered grotesque, thorax fills with cess<br>
+Suffering until your demise<br>
+Corrode from within, sepsis sets in<br>
+Innards begin to liquefy<br>
+Too late, face fate- Await, death’s gate<br>
+Sound the death knell - Sound the death knell<br>
+Overripe omens ooze out of your maw<br>
+Excrescent expectorate expunged<br>
+Sallowed skin, blistered and raw<br>
+Hacking up bits of clot-caked gunge<br><br>
+Riddled with welts - suppurated<br>
+Day by day this decay sprays its filth<br>
+Drain the pus into pans - intubated<br>
+Discharging bloody, pyomorphic swill<br>
+Feculent, purulent<br>
+Rampant infection now grown out of hand<br>
+Nauseated, expectorated<br>
+Bits of innards floating in your bedpan<br>
+Too late, face fate- Await, death’s gate<br>
+Sound the death knell - Sound the death knell<br>
+<br>
+
+Disgusting yourself, you turn inside out<br>
+Epidermal revulsion takes hold<br>
+Prognosis is grim, there can no more doubt<br>
+You’re soon to be stiff, dead and cold<br>
+Vital organs spew forth - regurgitated<br>
+Prolapse of bowels, sinew and crud<br>
+Sanguineous breath - asphyxiated<br>
+Esophagus torn, drown in your own blood<br>
+Violent death, terminal breath<br>
+The hospital bed now a gore-soaked grave<br>
+Your execrable corpse, taken down to the morgue<br>
+Fodder for pathologists depraved<br>
+Too late, face fate- Await, death’s gate<br>
+Sound the death knell - Sound the death knell
+</p>
+
+      <h1 id="f6" class="lyrics-test">-Distorted and Twisted to Form-</h1>
+      <p class="lyrics-test-test">Life made to imitate art<br>
+Disfigured features re-sected upon being torn apart<br>
+My cubist rhinoplasty has left you defaced<br>
+Any semblance of dignity erased and replaced<br>
+The face of death staring at you is only your own<br>
+Distorted and twisted to form<br>
+The medium of meat, tendon, sinew and bone<br><br>
+Distorted and twisted to form<br>
+Eye-sockets rerouted, now to re-wire your shattered jaw<br>
+Aesthetic mutilation leaves facial tissue red raw<br>
+Gouged, cleft and hacked, now you’re drastically deformed<br>
+Through your grisly countenance, as an objet d’art you are reborn<br>
+The face of death staring at you is only your own<br>
+Distorted and twisted to form<br>
+The medium of meat, tendon, sinew and bone<br>
+Distorted and twisted to form<br><br>
+Sightless eyes - gaze vacantly at the monstrous face in the reflection<br>
+Chiaroscuro realized - Obscure art incarnated through unnatural selection<br>
+<br>
+
+Disintegrating death masque<br>
+eering features rearranged disgustingly askew<br>
+The work of a hack<br>
+our visage gleams with the moist sheen of sanguine and sinew<br>
+<br>
+
+The face of death staring at you is only your own<br>
+Distorted and twisted to form<br>
+The medium of meat, tendon, sinew and bone<br>
+Distorted and twisted to form
+</p>
+
+      <h1 id="f7" class="lyrics-test">-I Rot Within-</h1>
+      <p class="lyrics-test-test">This olidous odyssey<br>
+A macabre descent<br>
+Through a mass of necrosis<br>
+To reach beyond the end<br>
+Suppurative cessation<br>
+An ending in gore<br>
+Pathological obsession<br>
+To reach the rotten core<br>
+Tangle of bowels I now unravel deep within<br>
+Lost in this carnal labyrinth<br>
+Tumescent hive, or just a human rubbish bin<br>
+Lost in this carnal labyrinth, I rot within<br>
+Serpentine intestines<br>
+Their coil unwinds<br>
+Mortuous vexation<br><br>
+Is all there is to find<br>
+Repugnant, reeking maze<br>
+That seems without egress<br>
+Enterotome, chisel and bonesaw the keys<br>
+To open the abscess<br>
+Tangle of bowels I now unravel deep within<br>
+Lost in this carnal labyrinth<br>
+Tumescent hive, or just a human rubbish bin<br>
+Lost in this carnal labyrinth, I rot within<br><br>
+
+Quagmire in pus<br>
+Livor Mortis’ aftermath<br>
+Posthumous waste<br>
+Culling human chaff<br>
+The grotesque grip<br>
+Of death’s dissolve<br>
+Ensnared in entrails<br>
+The puzzle unsolved<br><br>
+Tangle of bowels I now unravel deep within<br>
+Lost in this carnal labyrinth<br>
+Tumescent hive, or just a human rubbish bin<br>
+Lost in this carnal labyrinth, I rot within
+</p>
+
+      <h1 id="f8" class="lyrics-test">-Dis-assembly Line-</h1>
+      <p class="lyrics-test-test">Throw open the drawers in the dissection ward<br>
+Hone the keen of the scalpel’s dread blade<br>
+Scrub down the slab, for toes yet to be tagged<br>
+And Y-shaped thoracic incisions to be made<br>
+Slice - through the corpses that now lay before us<br>
+Postmortem butchery<br>
+Hack - through the thorax with bonesaw and pick-axe<br>
+Recreational pathology<br><br>
+In death we are brought to this - Dis-assembly line<br>
+Our legacy is hacked to bits - Dis-assembly line<br>
+On toe-tags our epigraphs writ, reduced to bone,<br>
+flesh, bowels and shit<br>
+Dis-assembly line<br>
+Ribcages shattered, gastric acids spatter<br>
+The trocar suctions sebum and bile<br><br>
+Craniotomies botched, cold blood curdles and clots<br>
+Staining forceps, hemostat and file<br>
+Rend - through cold flesh, never minding the mess<br>
+Dis-organized carnal junk heap<br>
+Slash - limb, hands, and feet, autopsy incomplete<br>
+Just another piece of dead meat<br><br>
+In death we are brought to this - Dis-assembly line<br>
+Our legacy is hacked to bits - Dis-assembly line<br>
+On toe-tags our epigraphs writ,<br>
+reduced to bone, flesh, bowels and shit<br>
+Dis-assembly line<br>
+<br>
+
+Cankered cadavers, strewn in swollen disorder<br>
+An abattoir of the deceased<br>
+Slaughter the dead, spraying green, black and red<br>
+In gastric discharge I stand ankle-deep<br>
+Tear - out the brains of the sadistically splayed<br>
+Indignities heaped upon their expiration<br>
+Shred - unseeing eyes and gash venal, flabby thighs<br>
+With macabre, sardonic vexation<br>
+In death we are brought to this - Dis-assembly line<br><br>
+Our legacy is hacked to bits - Dis-assembly line<br>
+On toe-tags our epigraphs writ,<br>
+reduced to bone, flesh, bowels and shit<br>
+Dis-assembly line</p>
+
+      <h1 id="f9" class="lyrics-test">-Necrotized-</h1>
+      <p class="lyrics-test-test">A shamble of rancid flesh despoiled and left to rot<br>
+Another commodity, slaughtered, skinned, and cheaply bought<br>
+The scent entices, the necrovores began to slaver<br>
+Scavengers buzz and burrow in their putrescent palaver<br>
+If you bleed it, they will come<br>
+As sharks grown voracious at the scent of chum<br>
+Necrotized - anaesthetized<br>
+Necrotized - dehumanized<br><br>
+Bile-baiting is child’s play, second nature of the beast<br>
+To serve up a bilious buffet for our feculent, feral feast<br>
+A thrill-kill marathon to hyper-stimulate the reptile brain<br>
+Tune in, turn on, to a titillating thanatotic refrain<br>
+If you bleed it, they will come<br>
+To feast upon what’s spewed from humanity’s rectum<br>
+Necrotized - desensitized<br>
+Necrotized - lobotomized<br><br>
+The mind of morbidity perplexed<br>
+Putrefaction’s pungent, prurient hex<br>
+With vivisecting vitriol we vex<br>
+Our sordid, soiled, slaughterous secrets<br>
+<br>
+Shocking, septic, sickening scenes, all taken to extremes<br>
+Sardonic grins, take the place of outraged screams<br>
+When waking nightmare is de rigeur for the daily grind<br>
+Waxing grotesque is the best means of killing time<br>
+If you bleed it, they will come<br>
+To live vicariously through the deaths and lives of scum<br>
+Necrotized - commoditized<br>
+Necrotized - cadaverized<br>
+Necrotized</p>
+
+      <h1 id="f10" class="lyrics-test">-Funereality-</h1>
+      <p class="lyrics-test-test">Necrotopian vision of a world deceased<br>
+A tumescent carcass upon which the morbid feast<br>
+The salubrious veneer pulled back to reveal<br>
+A gruesome hulk of rotting meat where fluids congeal<br>
+Truth - without beauty<br>
+Cruelty - without beauty<br>
+Funereality<br>
+Global mass-grave for humanity<br>
+Where the ghoulish feed on atrocities<br>
+Funereality<br>
+Immersed within a miasma of carnage<br>
+We chew our way through a quagmire of human garbage<br>
+This world belongs to the maggots, weevils and grubs<br>
+Who gladly join us in the graves that we’ve so eagerly dug<br>
+Truth - without beauty<br>
+Cruelty - without beauty<br>
+Funereality<br>
+The mass-grave grows exponentially<br>
+The voracious feed as the rapacious bleed<br>
+Funereality<br>
+<br>
+Our destiny manifest only in autopsies<br>
+A landscape of monuments and cemeteries<br>
+Befouled air smelling thick of the crematory<br>
+Our deadened world laid to rest permanently<br>
+Truth - without beauty<br>
+Cruelty - without beauty<br>
+Funereality<br>
+An abattoir of grotesqueries<br>
+A planetary mortuary<br>
+This is funereality</p>
+
+      <h1 id="f11" class="lyrics-test">-So Let It Be Rotten… So Let It Be Done-</h1>
+      <p class="lyrics-test-test">Desensitized to the necrotized, a trompe-l’oeil made zombified<br>
+Mocking death mask for the mortified -deformed<br>
+Repellant rite now sanctified, pallid parody of the putrefied<br>
+In formaldehyde death now baptized - reborn<br>
+The sickening sight now sanitized<br>
+In celebration of the demised<br><br>
+Death unrevealed - decay clumsily disguised<br>
+But behind the lurid, leering eyes<br>
+Decomposition will arise<br>
+So let it be rotten - so let it be done<br>
+Behind the shroud decrepitude begun<br>
+So let it be rotten - so let it be done<br><br>
+So let it be rotten<br>
+So let it be rotten - so let it be done<br>
+So let it be rotten<br>
+<br>
+Immured deep within the absurd, beyond the pale obscenely blurred<br>
+Rigor mortis sets in undeterred - putrescent<br><br>
+Embalmed in lugubrious repose, as from within you decompose<br>
+Unmoved by orchid, lily, or rose - quiescent<br>
+The distasteful scent lurks just beneath<br>
+The truth of death lay out of reach<br>
+Its cold caress - would curdle funeral wreaths<br>
+But beyond the mendacious mask you’ll see<br>
+Putrefaction’s perfidy<br><br>
+So let it be rotten - so let it be done<br>
+Within the casket, decay has claimed its throne<br>
+So let it be rotten - so let it be done<br>
+Death worms its way into the corpse its work begun<br>
+So let it be rotten – let it be done</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/necro.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Necrocracy - 2013</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Coins Upon The Eyes-</h1>
+        <p class="lyrics-test-test">Place these coins upon your eyes<br>
+The final payment in your necrotic tithe<br>
+And so the gleam that rendered you blind<br>
+Affords the last entertainment you'll ever buy<br>
+<br>
+Filthy lucre's gleam - leaves you excoriated at the seams<br>
+The rented corpse you've been, now teems, a necrovore's unburied dream<br>
+Coin of the realm misspent - another grey life, came and went<br>
+Sundered and rent, your carcass spent upon the wheel unbent<br>
+<br>
+Coins - upon the eyes<br>
+You paid to live, now pay to die<br>
+<br>
+A lifetime bled out by degrees<br>
+Haemorrhaging figuratively<br>
+Now as you pay the final fee<br>
+It comes to pass quite literally<br>
+<br>
+Evil's root unquenched - from your cold dead hands your legacy wrenched<br>
+Into the trench to stench along the other dead blood-drenched<br>
+Mortgaged life past due - just as you knew you'd one day rue<br>
+The contract in blood they drew, you signed and what ensued is that they ran you through<br>
+<br>
+Coins - upon the eyes<br>
+You paid to live, now pay to die<br>
+<br>
+Now pay to die<br>
+<br>
+DIE!<br>
+Die - even as you think you live<br>
+Die - with all you have to give<br>
+Die - lifesblood drained as through a sieve<br>
+Die - with all your regrets to forgive - never forgive<br>
+<br>
+This tenebrous tariff will cost you dear<br>
+In sweat and blood, but please no tears<br>
+Clinking coppers fall upon dead ears<br>
+Overdrawn and overtaxed for years<br>
+<br>
+Coffin nails are never still - ever more plots we've yet to fill<br>
+Another deposit in the till, gravehills, rising grim and still<br>
+Some say that death is dead - it's all undertaking, too much overhead<br>
+But in sooth I'm in the red, in my deathbed I repose obscenely overfed<br>
+<br>
+Coins - upon the eyes<br>
+You paid to live, now pay to die</p>
+
+        <h1 id="s2" class="lyrics-test">-The Shape Of Deaths To Come-</h1>
+        <p class="lyrics-test-test">An endless funeral procession marches on<br>
+Numbed and grey as they delay their slow decay into the ground<br>
+Nameless tombs amid the gloom, await like shadowed, grim cocoons<br>
+They are the dead and this dirge is their swansong<br>
+<br>
+Those of the unlife infest the carcass of the world<br>
+Bloodless eyes look to the sky as their flag is unfurled<br>
+Marionettes dance out their days pulled by razor-wire strings<br>
+Inching nearer to their graves with every requiem they sing<br>
+<br>
+Dust to destiny they inherit a dying world undone<br>
+An oblong box to mold them, in the shape of deaths to come<br>
+Upon battered, shredded heartstrings, their threnody strummed<br>
+Lives without meaning form the shape of deaths to come<br>
+<br>
+The shape of deaths to come<br>
+<br>
+Dead words fall on dead ears to fill dead time<br>
+As into their gilded coffins, they eagerly climb<br>
+To die out their last days, in a wasteful, putrid haze<br>
+And so en masse, at last they deteriorate into decline<br>
+<br>
+Those of the unlife ingest the carcass of the world<br>
+Slobbering lips are licked as their banner is unfurled<br>
+Puppeteers slash a danse macabre with their razor-wire strings<br>
+Dragging us deeper into the grave with every requiem - we sing<br>
+<br>
+Dust to destiny they inherit a dying world undone<br>
+An oblong box to mold them, in the shape of deaths to come<br>
+Upon battered, shredded heartstrings, their threnody strummed<br>
+Lives without meaning form the shape of deaths to come<br>
+<br>
+The shape of deaths to come<br>
+<br>
+An endless funeral procession marches on<br>
+Numbed and grey as they delay their slow decay into the ground<br>
+Nameless tombs amid the gloom, await like shadowed, grim cocoons<br>
+They are the dead and this dirge is their swansong<br>
+<br>
+Those of the unlife infest the carcass of the world<br>
+Bloodless eyes look to the sky as their flag is unfurled<br>
+Marionettes dance out their days pulled by razor-wire strings<br>
+Inching nearer to their graves with every requiem they sing<br>
+<br>
+Dust to destiny they inherit a dying world undone<br>
+An oblong box to mold them, in the shape of deaths to come<br>
+Upon battered, shredded heartstrings, their threnody strummed<br>
+Lives without meaning form the shape of deaths to come<br>
+<br>
+The shape of deaths to come<br>
+<br>
+Dead words fall on dead ears to fill dead time<br>
+As into their gilded coffins, they eagerly climb<br>
+To die out their last days, in a wasteful, putrid haze<br>
+And so en masse, at last they deteriorate into decline<br>
+<br>
+Those of the unlife ingest the carcass of the world<br>
+Slobbering lips are licked as their banner is unfurled<br>
+Puppeteers slash a danse macabre with their razor-wire strings<br>
+Dragging us deeper into the grave with every requiem - we sing<br>
+<br>
+Dust to destiny they inherit a dying world undone<br>
+An oblong box to mold them, in the shape of deaths to come<br>
+Upon battered, shredded heartstrings, their threnody strummed<br>
+Lives without meaning form the shape of deaths to come<br>
+<br>
+The shape of deaths to come</p>
+
+        <h1 id="s3" class="lyrics-test">-Necrocracy-</h1>
+        <p class="lyrics-test-test">A moribund procession, rots its way through the streets<br>
+Eagerly slavering for the essence they'll secrete<br>
+Smearing the walls of the world, with mephitic putrescence<br>
+They drag all within it, to their state of excrescence<br>
+<br>
+Necrocracy<br>
+One nation buried under the debt<br>
+Necrocracy<br>
+One nation rotting under the dead<br>
+Necrocracy<br>
+A nation nursed on bile, filth, and gall<br>
+Necrocracy<br>
+With gibbeting and pustules for all<br>
+<br>
+Under blighted skies, a foul banner is raised<br>
+As the feast now begins, for all that decays<br>
+The reek of the slaughter, mars the smog-stricken skies<br>
+And the heady thrill of the kill, bloodstains dead livid eyes<br>
+<br>
+Necrocracy<br>
+One nation rabid under the sword<br>
+Necrocracy<br>
+One nation ravenous and engorged<br>
+Necrocracy<br>
+A nation nursed on bile, filth, and gall<br>
+Necrocracy<br>
+With gibbeting and pustules for all<br>
+<br>
+A morbid chorus cries out, "unlife is now birth"<br>
+And proclaims its dominion, over all the earth<br>
+<br>
+A mordant chorus descants "only the dead truly live"<br>
+A decrepit decree that we must never forgive<br>
+<br>
+Necrocracy<br>
+One nation gorged to their grue-glutted fill<br>
+Necrocracy<br>
+One nation wallows in a cesspool of swill<br>
+Necrocracy<br>
+A nation nursed on bile, filth, and gall<br>
+Necrocracy<br>
+With gibbeting and pustules for all</p>
+
+        <h1 id="s4" class="lyrics-test">-Dysmorphic-</h1>
+        <p class="lyrics-test-test">The things you see and believe<br>
+The reflection displays quite differently<br>
+Dysmorphic impressions held tenaciously<br>
+Open your eyes, behold reality<br>
+<br>
+If you can bear the disappointment<br>
+When you see what you truly are<br>
+If you can choke back the repulsion<br>
+At all of your pustules, buboes, and scars<br>
+<br>
+Dysmorphic - vision of self and state<br>
+Honor and compassion, avarice and hate<br>
+Dysmorphic - reflection forever barred<br><br>
+Can't accept what we truly are - dysmorphic<br>
+<br>
+Sickened, you infect all that has occurred<br>
+With twisted truths and honeyed wordsv
+The soothing deceptions you've always heard<br>
+As you shamble along immured in the absurd<br>
+<br>
+Twisted self-image cultivated<br>
+Self-gratifying death mask to hide behind<br>
+Dysmorphic animus to turn your eyes from<br>
+The rotting truth you would find<br>
+<br>
+Dysmorphic - vision of self and state<br>
+Honor and compassion, avarice and hate<br>
+Dysmorphic - reflection forever barred<br>
+Can't believe how disgusting we truly are<br>
+Dysmorphic - vision, from many one<br>
+The truth undone before we begun<br>
+Dysmorphic - spawned from slaughter and war<br>
+Can't accept ourselves as we truly are - dysmorphic<br>
+<br>
+Dysmorphic - eyes that cannot, will not see<br>
+Dysmorphic - distasteful truths exhumed from your mind's cemetery<br>
+<br>
+So scrub the blood from your conscience<br>
+With a steady stream of comforting lies<br>
+Prey-like sheep as you stand ankle-deep<br>
+In a river of corpses left behind<br>
+<br>
+Dysmorphic - vision of self and state<br>
+Honor and compassion, avarice and hate<br>
+Dysmorphic - reflection forever barred<br>
+Can't believe how disgusting we truly are<br>
+Dysmorphic - vision, from many one<br>
+The truth undone before we begun<br>
+Dysmorphic - spawned from slaughter and war<br>
+Can't accept ourselves as we truly are - dysmorphic</p>
+
+        <h1 id="s5" class="lyrics-test">-Sickened-</h1>
+        <p class="lyrics-test-test">The first ripening pustule - reared its black head today<br>
+A mephitic harbinger - of inexorable decay<br>
+Carbuncles and buboes - weeping welts to ensue<br>
+Blood bears infection - as it courses through<br>
+In sickness as in health - sickened by the sight<br>
+Of myself in the mirror - cowering from the light<br>
+Sickened in heart and mind - bowed beneath this blight<br>
+Flesh suppurates - blood drains to white<br>
+<br>
+Once infected death's grip seizes through my veins<br>
+Blackening sores erupt, fever boils through my brains<br>
+<br>
+A contagious affliction, sputum expectorates red<br>
+Sickened unto the grave<br>
+As epidermal revulsion marks me as soon to be dead<br>
+Sickened unto the grave<br>
+Sickened - unto the grave<br>
+<br>
+My family and neighbors - come shun my face<br>
+For fear of infection - I'll be left to my fate<br>
+Writhing in dejection - in an abhorrent state<br>
+My blood drains to white - sickened unto the grave<br>
+The pustules rupture - a foul, fetid spew<br>
+Swollen piles leaking - infectious, discolored grue<br>
+My shocking reflection - I no longer recognize<br>
+As I succumb to decay - before my festered eyes<br>
+<br>
+The only solace I find is that as the contagion spreads<br>
+I'll be joined by you all amongst the numberless dead<br>
+<br>
+A contagious affliction, sputum expectorates red<br>
+Sickened unto the grave<br>
+As epidermal revulsion marks me as soon to be dead<br>
+Sickened unto the grave<br>
+Sickened - unto the grave<br>
+<br>
+Life looms somewhere forgotten in a feverish haze<br>
+As my extremities contort beneath my gore-grizzled gaze<br>
+Waking hours turned to nightmare as my senses decay<br>
+And my blood drains to white, sickened unto the grave<br>
+<br>
+There's a ripening reek that emanates from my crotch<br>
+And I dare not speak the horrid shade of the blotch<br>
+That marks my face as one soon to be at death's door<br>
+As I now become totally rotten to the gore - totally rotten to the gore<br>
+<br>
+As my bowels liquefy and my skin sloughs away<br>
+Sickened unto the grave<br>
+I welcome the cold comfort of death's black embrace<br>
+Sickened unto the grave<br>
+Sickened - unto the grave</p>
+
+        <h1 id="s6" class="lyrics-test">-(So Passes) The Glory Of Death-</h1>
+        <p class="lyrics-test-test">Terminal condition,<br>
+rampant infection spread too far - leaving many scars<br>
+Cadaverous contagion,<br>
+to necrotize, slash, and mar - blood now black as tar<br>
+Repugnant epidemic,<br>
+deadened hearts beat as one - keeping time with death's drum<br>
+The rotting now systemic,<br>
+the end at last must come - now the grue starts to run<br>
+<br>
+A global funeral, a worldwide wake<br>
+Lay it all to rest, for the worms to take<br>
+Experiment that failed, we now must help it die<br>
+And let our death knell now decry:<br>
+<br>
+Sic transit gloria mortem<br>
+So passes the glory of death<br>
+Sic transit gloria mortem<br>
+<br>
+So long unrecognized, dying once disguised as life<br>
+on the edge of a knife<br>
+But lift the putrid veil, beyond the pale and see the light<br>
+existence wrought with strife<br>
+A shattered hope undone, the dead were taught they'd<br>
+none to serve a brutal lesson unlearned<br>
+They then enthroned, 'pon their own bones the<br>
+masters that they deserved for a gravesite reserved<br>
+<br>
+A global funeral, a worldwide wake<br>
+Lay it all to rest, for the worms to take<br>
+Experiment that failed, we now must help it die<br>
+And let our death knell now decry:<br>
+<br>
+Sic transit gloria mortem<br>
+So passes the glory of death<br>
+Sic transit gloria mortem<br>
+So passes the glory - of death...<br>
+<br>
+For the glory of death - so many caskets were nailed<br>
+For the glory of death - so many bloody banners were hailed<br>
+For the glory of death - so many putrefying years<br>
+For the glory of death - we present an anthem to fall on dead ears<br>
+<br>
+Sign the death certificate, tag the toe, close the box - and let it rot<br>
+Place this vile grotesquery in the vault and turn the lock - and pray it's forgot<br>
+Misshapen and horrendous, filthy, diseased, and impure - a necrotopia obscure<br>
+Better off reduced to ash thus its extinction assured - but bury it deep, to be sure<br>
+<br>
+A global funeral, a worldwide wake<br>
+Lay it all to rest, for the worms to take<br>
+Experiment that failed, we now must help it die<br>
+And let our death knell now decry:<br>
+<br>
+Sic transit gloria mortem<br>
+So passes the glory of death<br>
+Sic transit gloria mortem<br>
+So passes the glory - of death...</p>
+
+        <h1 id="s7" class="lyrics-test">-Ravening-</h1>
+        <p class="lyrics-test-test">Gorging - the glut of grue consumed, vigorously<br>
+Swollen, distended appetites - deformed prosperity<br>
+Ingesting - the inhumed inhumane, indiscriminately<br>
+The all-consuming, never stopping - virulent voracity<br>
+<br>
+And as you toil, they reap the despoiled<br>
+<br>
+A ravening<br>
+Voracious hungering<br>
+Consuming, slavering, a ravening, so sickening<br>
+Ever feeding - ravening<br>
+<br>
+Swallowing - your self subsumed, insidiously<br>
+Your life, your death, your thoughts entombed - so callously<br>
+Regurgitating - repugnant retch repeated, endlessly<br>
+A malignant mantra metastasized - takes hold internally<br>
+<br>
+And as you build, their graveyards you'll fill<br>
+<br>
+A ravening<br>
+Voracious hungering<br>
+Consuming, slavering, a ravening, so sickening<br>
+Ever feeding - ravening<br>
+<br>
+Slaking - they sup salivating, salaciously<br>
+Bottomless hunger never sated - consume gratuitously<br>
+Accumulating - avariciously accruing, acrimoniously<br>
+Coffers and coffins overflow - in horrific harmony<br>
+<br>
+And as you slave, you save your masters the task of digging your grave<br>
+<br>
+A ravening<br>
+Voracious hungering<br>
+Consuming, slavering, a ravening, so sickening<br>
+Ever feeding - ravening]</p>
+
+        <h1 id="s8" class="lyrics-test">-Carrion Call-</h1>
+        <p class="lyrics-test-test">All who walk 'mongst the graves through the murk and the gloom<br>
+You that crawl to the depths of the filth in the tomb<br>
+So obsessed with the fruits of the autopsy room<br>
+Heed this carrion call, join with the exhumed<br>
+<br>
+A voice descanting dirges<br>
+Upon dead ears these requiems fall<br>
+The cacophony of our vilest urges<br>
+Indulge them one, indulge them all<br>
+Come six feet deep to our level<br>
+And heed this carrion call<br>
+Join this repugnant revel<br>
+Heed the carrion call<br>
+<br>
+Those who shudder at filth but can't turn away<br>
+Deaf to love songs that but cloy and betray<br>
+When life is a tomb you can do naught but decay<br>
+Heed this carrion call to snatch your carcass away<br>
+<br>
+A voice descanting dirges<br>
+Upon dead ears these requiems fall<br>
+The cacophony of our vilest urges<br>
+Indulge them one, indulge them all<br>
+Come six feet deep to our level<br>
+And heed this carrion call<br>
+Join this repugnant revel<br>
+Heed the carrion call<br>
+<br>
+The carrion call - ringing out long and clear, foul and loud<br>
+The carrion call - an intoxicating reek spreads like a noxious cloud<br>
+The carrion call - a blast of fetid, stinking, putrid air<br>
+The carrion call - you reek to high heaven, but you no longer care<br>
+<br>
+Join with the dead, hold high your severed head<br>
+From our graves to the streets we're inexorably led<br>
+Stink through the night as we paint the town red<br>
+Awash in the ichor we've all willingly bled<br>
+<br>
+A voice descanting dirges<br>
+Upon dead ears these requiems fall<br>
+The cacophony of our vilest urges<br>
+Indulge them one, indulge them all<br>
+Come six feet deep to our level<br>
+And heed this carrion call<br>
+Join this repugnant revel<br>
+Heed the carrion call</p>
+
+        <h1 id="s9" class="lyrics-test">-The Rotting-</h1>
+        <p class="lyrics-test-test">Deep within the grave<br>
+Where the cadaver lies decayed - there lurks the rotting<br>
+Within every fetid corpse<br>
+This process festers on its course - to speed the rotting<br>
+<br>
+Its ubiquity cannot be denied - a gruesome trade, sempiternally plied<br>
+<br>
+From the waste in which we wallow<br>
+To the flesh we gluttonously swallow - we consume the rotting<br>
+In rubbish bins of medical waste<br>
+Awaits the horrendous, wretched taste - of the rotting<br>
+<br>
+That first whiff sure to nauseate - and its rancid fruit we regurgitate<br>
+<br>
+The rotting's coming<br>
+The end it brings<br>
+The rotting is the destiny of all that's breathing<br>
+The rotting's strumming<br>
+On your heartstrings<br>
+The rotting's coming - 'til you're the corpse that we're bereaving<br>
+<br>
+In the slither of the grubs<br>
+The maggots writhing in their chum - there feed the rotting<br>
+In suppurating stools<br>
+That dribble ichor into pools - there reeks the rotting<br>
+<br>
+The grue that binds us together - is everyone devouring one another<br>
+<br>
+The rotting's coming<br>
+The end it brings<br>
+The rotting is the destiny of all that's breathing<br>
+The rotting's strumming<br>
+On your heartstrings<br>
+The rotting's coming - 'til you're the corpse that we're bereaving<br>
+<br>
+The rotting<br>
+<br>
+he humble and the great<br>
+All consumed by the same fate - become the rotting<br>
+In its blackening embrace<br>
+All is eventually erased - by the rotting<br>
+<br>
+The putrid waste upon which we've built our lives - as we decay, maggots and weevils thrive<br>
+<br>
+The rotting's coming<br>
+It was here all along<br>
+The rotting is an acrid, stinking, putrid savor<br>
+The rotting's strumming<br>
+Its discordant song<br>
+The rotting's thrumming<br>
+A defective dirge to scourge your neighbors<br>
+<br>
+The rotting</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/deathrevenge.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">Death Revenge - 2017</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-Death Revenge Overture-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t2" class="lyrics-test">-Defenders Of The Grave-</h1>
+          <p class="lyrics-test-test">(A welcome to the ghoulish age of<br>
+late-Georgian Scottish grave-robbery and a warning to the bereaved)<br>
+<br>
+“The security inspired by rank and wealth against these irreverent
+intrusions on the sanctuary of the dead, is, as we all know,<br>
+a mistaken confidence, since neither marble nor<br>
+heraldry is a protection against such practices;<br>
+for what the audacious atrocity of the resurrection-man cannot,<br>
+the venality of the sexton certainly, will accomplish”<br>
+Thomas Wakely, The Lancet newspaper 1832<br>
+<br>
+“'...a coffin was registered with the expressed purpose of<br>
+frustrating the resurrectionists... designed to be made<br>
+in cast or wrought iron, with concealed spring catches on the inner<br>
+side of the lid to prevent levering, and joined in<br>
+such a way as to thwart any attempt to force the sides<br>
+of the coffin apart... Some parishes had communal mortsafes<br>
+or 'jankers' – huge coffin-shaped pieces of stone or metal<br>
+put on new graves.” - Ruth Richardson Death,<br>
+Dissection, and the Destitute 1987<br>
+<br>
+“Resurrection men, your fate deplore,<br>
+Retire with fore vexation,<br>
+Your mystery's gone, your art's no more,<br>
+No more your occupation :<br>
+Surgeons no more shall ye ransack<br>
+The grave with feelings callous<br>
+Tho' on the Old Bailey turn'd your back,<br>
+Your only hopes the gallows” - Mr. Diben The Patent Cof in 1818<br>
+<br>
+Stalk through hallowed headstones<br>
+For notes and coin, trade flesh and bone<br>
+Your eternal rest may, become nocturnal wrest<br>
+<br>
+The newly deceased, still bereaved<br>
+Snatched from their peace, taken without leave<br>
+Truncated repose, for the decomposed<br>
+<br>
+Adamantine clasp of the mortsafe, the muddy bonds of earth<br>
+Patent coffins do not vouchsafe, calm repose beneath the turf<br>
+<br>
+Stone walls do not a prison make, nor six feet of sod a grave<br>
+Pray the lord your soul to take, you'll need defenders of the -<br>
+<br>
+Graves' occupants, so dearly prized<br>
+But to butcher, not to eulogize<br>
+To rest they were laid, now sold under the blade<br>
+<br>
+Who turns the key to the mortsafe, when the sexton stuffs his purse?<br>
+Nightwatchmen cannot vouchsafe, calm repose beneath the turf<br>
+<br>
+Stone walls do not a prison make, nor six feet of sod a grave<br>
+So pray the lord your soul to take, you'll need defenders of the grave<br>
+Defenders of the grave, hallmarks of this ghoulish age<br>
+Defenders of the grave, defenders of the -<br>
+<br>
+Stone walls do not a prison make, nor shovels full of sod a grave<br>
+So pray the lord your soul to take, you'll need defenders of the grave<br>
+Defenders of the grave, hallmarks of this ghoulish age<br>
+Defenders of the grave, defenders of the - grave</p>
+
+          <h1 id="t3" class="lyrics-test">-Lifeless-</h1>
+          <p class="lyrics-test-test">(In which the boyhoods of Dr. Knox and<br>
+William Hare mold their decrepit destinies)<br>
+<br>
+“...From my earliest childhood I have been a dreamer and a visionary.... I<br>
+have dwelt ever apart from the visible world. Well did I come to know the<br>
+presiding dryads of those trees, and often have I watched their wild dances<br>
+in the struggling beams of a waning moon – but of these things I must not<br>
+now speak. I will tell only of the lone tomb in the darkest of the hillside<br>
+thickets....” - H.P Lovecraft, ​The Tomb<br>
+<br>
+Dr. Knox:​ Mem'ry haunts me clearly<br>
+The winter of my thirteenth year<br>
+Wind moaned through headstones dreary<br>
+A siren song only I could hearv
+A fevered brain infected<br><br>
+Where terrors spawned each night<br>
+A young man grew dejected<br>
+A waking dream, a fright amongst frights<br>
+<br>
+Dr. Knox: ​Though my symptoms at last abated<br>
+And the coughing fits did surcease<br>
+An insalubrious nature gestated<br>
+Breeding malaise, a subtle disease<br>
+<br>
+Narrator: ​Then with each passing breath<br>
+In life, he dwelt in death<br>
+Dr. Knox: ​This truth I now confess:<br>
+<br>
+Dr. Knox:​ A morbid mind obsessed<br>
+Unhealthy thoughts depressed<br>
+By cryptic dreams possessed<br>
+To ever dwell among, the lifeless<br>
+<br>
+Lifeless!<br>
+<br>
+Hare:​ A casket-builder's low-born boy<br>
+Child of the grave in name and fact<br>
+Grey days and nights in dark employ<br>
+Set destiny 'pon its deathly path<br>
+<br>
+Hare: ​Dismissed as morbid youth<br>
+Obsessions quite uncouth<br>
+Led to unpleasant truths<br>
+<br>
+Hare / Dr. Knox:​ A morbid mind obsessed<br>
+Unhealthy thoughts depressed<br>
+By cryptic dreams possessed<br>
+To ever dwell among, the lifeless<br>
+As all life ends in death<br>
+So with each passing breath<br>
+My destiny professed<br>
+To ever dwell among, the lifeless<br>
+<br>
+Dr. Knox:​ Into the family crypt, I stealthily crept<br>
+Knowing not what I sought 'mongst the mold and the rot<br>
+A sight that was not soon forgot<br>
+And as I lay in the grave, finding the solace I'd craved<br>
+At peace there with the decayed, though they called me depraved<br>
+It was there a dark path was paved<br>
+<br>
+Dr. Knox / Hare:​ A morbid mind obsessed<br>
+Unhealthy thoughts depressed<br>
+By cryptic dreams possessed<br>
+To ever dwell among, the lifeless<br>
+As all life ends in death<br>
+So with each passing breath<br>
+A destiny professed<br>
+To ever dwell among, the lifeless<br>
+<br>
+Lifeless​!</p>
+
+          <h1 id="t4" class="lyrics-test">-Dead End-</h1>
+          <p class="lyrics-test-test">(In which most unwholesome paths are set<br>
+upon by our protagonists, the future Dr. Knox and young William Hare, to<br>
+the chagrin of polite society)<br>
+<br>
+“These heads of the profession convert the science of which they are ever<br>
+chattering, into a mean and sordid trade, and those institutions which<br>
+were founded in the purest spirit of benevolence and philanthropy,<br>
+are transformed into warehouses of human wretchedness”<br>
+​The​ ​Lancet ​newspaper​ ​editorial 1829<br>
+<br>
+“It is disgusting to talk of anatomy as a science, whilst it is cultivated<br>
+by a means of practices which would disgrace a race of cannibals”<br>
+​The​ ​Lancet newspaper​ ​editorial 1832<br>
+<br>
+“Anatomy is the basis of surgery... it informs the head, guides the hand,<br>
+and familiarizes the heart to a kind of necessary inhumanity”<br>
+William Hunter's introductory lecture to anatomy students 1780<br>
+<br>
+“The outcasts of society, who, being pointed out as resurrection men,<br>
+unable to maintain themselves by any honest employment and are driven<br>
+to become thieves and housebreakers...”<br>
+Benjamin Brodie ​Observations ​1832<br>
+<br>
+Dr. Knox: ​My occupation was a'calling, like a tumor, it within me swelled<br>
+A path some found appalling, that I would come to know so well<br>
+A cadaverous career awaited, the filthy task I'd undertake<br>
+With a gruesome thirst for knowledge, that only the dead could slake<br>
+My studies dismissed as morbid, incurring the headmaster's scorn<br>
+My deathly imagination derided, and into the darkness borne<br>
+From clandestine forays into graveyards, to the operating theater's grisly scenes<br>
+<br>
+My bloody studies dug ever deeper into the obscene and the unclean<br>
+<br>
+Narrator: ​For in death's sleep what dreams may come?<br>
+And in death's name, what deeds must be done -<br>
+<br>
+Dr. Knox: ​As an anatomist, a necrologist<br>
+But I'll never be an apologist<br>
+My chosen path, to carve up stiffs<br>
+A career dismissed​ ​as a dead end<br>
+A surgeon's trade, a butcher's blade<br>
+You mourn a rest to which you won't be laid<br>
+To serve my much derided trade<br>
+Your legacy will fade to a dead end<br>
+<br>
+Hare: ​The pounding of my father's coffin-nails beat a dolorous refrain<br>
+But by staving in those caskets, a richer living could be gained<br>
+My heart beat time with the hammer-falls, I learned to pluck men from the grave<br>
+<br>
+And earned the name of “resurrection-man,” plying that reviled trade<br>
+<br>
+Narrator: ​For in death's sleep what dreams may come?<br>
+And in death's name, what deeds must be done<br>
+<br>
+Hare: ​As a resurrectionist, a necrologist<br>
+But I'll never be an apologist<br>
+My chosen path, to dig up stiffs<br>
+A career dismissed as a dead end<br>
+<br>
+Dr. Knox:​ A surgeon's trade, ​Hare:​ a wooden spade<br>
+<br>
+Dr. Knox / Hare: ​You mourn a rest to which you won't be laid<br>
+​To serve our much benighted trades<br>
+Your legacy will fade to a dead end</p>
+
+          <h1 id="t5" class="lyrics-test">-Night Work-</h1>
+          <p class="lyrics-test-test">(In which Dr. Knox makes the acquaintance<br>
+of Misters Burke and Hare, Resurrectionists by trade)<br>
+<br>
+“The bulk of the work was done at night, using wooden shovels... and a<br>
+“dark lanthorn” - a device commonly used by burglars: designed to shed light<br>
+where necessary, but not to attract attention... A hole would be dug at the<br>
+head of the grave, down to the coffin, and hooks or a crow-bar inserted<br>
+under the lid. The weight of earth on the rest of the lid acted as a<br>
+counter-weight, so that when pressure was exerted lid invariably snapped across,<br>
+and the body could be hoisted out of the grave with ropes.”<br>
+Ruth Richardson ​Death, Dissection, and the Destitute​ 1987<br>
+<br>
+“The corporation of corpse-stealers, I am told, support themselves and<br>
+Families very comfortably, and that no-one should be surprised at the<br>
+Nature of Such a Society, the late Resurrectionists in St. Saviours,<br>
+St. Giles's and St. Pancras churchyards, are memorable Instances of<br>
+this laudable Profession.” <br>
+Anonymous ​A View of London and Westminster 1728<br>
+<br>
+“Blest be ye man [that] spares these stones, And curste be ye [that] moves<br>
+my bones” William Shakespeare's epitaph 1616<br>
+<br>
+Hare: ​Welcome to our nocturnal vocation<br>
+Disembalming we grimly extract the expired<br>
+Disinterring by lanthorn illumination<br>
+To fulfill anatomists' cadaverous desires –<br>
+<br>
+Dr. Knox: ​Giving Nightwatchmen fits with the mortsafes you've picked Finding<br>
+fresh graves to dig, I must say it's a hell of a gig<br>
+
+Night work be done, the lifeless made graveless. our prize to be won<br>
+Exhumed by torchlight, dead weight dead to rights<br>
+This night work, an unholy sight, undertaken tonight<br>
+<br>
+Hare: ​A livelihood in death we scrape<br>
+Your casket vacant, corpse taken forthwith<br>
+From our fell spades you will not escape<br>
+Second coming ignominious, unclean and sick<br>
+<br>
+Dr. Knox: ​Wooden shovels and picks, from your tomb you'll be nicked<br>
+Sink to new depths of sick, compunction cut to the quick<br>
+<br>
+Night work be done, the lifeless made graveless our prize to be won<br>
+Exhumed by torchlight, dead weight dead to rights<br>
+This night work, an unholy sight, undertaken tonight<br>
+<br>
+Dr. Knox: ​It's a dirty job, finding fresh graves to rob<br>
+Solo - Michael Burke<br>
+<br>
+Dr. Knox: ​These are dirty deeds, six feet of dirt, dug dirt cheap<br>
+<br>
+Dr. Knox: ​It's a dirty job, finding fresh graves to rob<br>
+Toil as the casket's slaves, death is our living wage<br>
+<br>
+​Night work be done, the lifeless made graveless our prize to be won<br>
+Exhumed by torchlight, dead weight dead to rights<br>
+This night work, an unholy sight, undertaken this -<br>
+Night work be done, the lifeless made graveless our prize to<br>
+be won Exhumed by torchlight, dead weight dead to rights<br>
+This night work, an unholy sight, undertaken tonight</p>
+
+          <h1 id="t6" class="lyrics-test">-Unspeakable-</h1>
+          <p class="lyrics-test-test">(In which Mister Hare, spurred by greed<br>
+and the lack of ethics of the anatomists, proposes a drastic<br>
+and loathsome course of action)<br>
+<br>
+“...a wretch who is not worth a farthing while alive, becomes a valuable<br>
+article when knock'd on the head and carried to an anatomist<br>
+and acting on this principle, have clear'd the streets of some of<br>
+those miserable offcasts of society, whom nobody miss'd because nobody<br>
+wish'd to see them again” Sir Walter Scott<br>
+<br>
+“If this horrid traffic in human flesh be not, by some means or other,<br>
+prevented, the churchyards will not be secure against the shovel of the<br>
+midnight plunderer, nor the public against the dagger of the midnight assassin.”<br>
+Editorial, ​The Lancet ​newspaper 1829<br>
+<br>
+“...when there is a difficulty in obtaining bodies, and their value is so<br>
+great, you absolutely throw a temptation in the way of these men to commit<br>
+murder for the purpose of selling the bodies of their victims.”<br>
+Sir Henry Halford, May 1828<br>
+<br>
+Dr. Knox: ​Cold stiffs may fetch five sovereigns Warmer bodies a few<br>
+schilling more Trade in death to make a living<br>
+Ghastly currency of gore<br>
+Your cadaveric chores, so<br>
+<br>
+​Unspeakable!<br>
+<br>
+Dr. Knox: ​The freshest of corpses through most heinous courses<br>
+​Unspeakable!<br>
+<br>
+Dr. Knox: ​The warmer the corpse The more rich the reward<br>
+In this foul trade of flesh, bone and gore<br>
+<br>
+Dr. Knox: ​Fresher specimens are ever needed The scalpel thirsts for still-warm<br>
+death Law and decorum should go unheeded When prices soar for a pound of flesh<br>
+So I may slice up what's left<br>
+<br>
+Unspeakable!<br>
+<br>
+Hare: ​Just think what we'll gain When we harvest the slain<br>
+​Unspeakable!<br>
+<br>
+Hare: ​And the throats we would slit Would never be missed<br>
+​Unspeakable! Burke: ​And so business is furthered By cold-blooded murder?<br>
+​Unspeakable!<br>
+<br>
+Dr. Knox: ​The demand has increased<br>
+For the freshly deceased<br>
+And so now the living you'll reap<br>
+<br>
+Hare: ​The cemeteries crawl with sentries<br>
+The sexton demands his bribe<br>
+Graveyard gates ensure their entries<br>
+Remain inhumed inside<br>
+Yet another source of bodies<br>
+Surrounds us every day<br>
+Is not every soul but a corpse to be?<br>
+And should we not just speed them on their way?<br>
+<br>
+Burke: ​Compunction be dashed<br>
+Though this course may seem rash<br>
+<br>
+​Unspeakable!<br>
+<br>
+Hare: ​There's so much more profit<br>
+When we fill the coffins<br>
+<br>
+​Unspeakable!<br>
+<br>
+Hare: ​The tramps and the urchins<br>
+We'll make fodder for surgeons<br>
+<br>
+​Unspeakable!<br>
+<br>
+Dr. Knox: ​They live lives without worth<br>
+Death cannot be much worse<br>
+Wretched ways to make your purse burst<br>
+<br>
+​Unspeakable!</p>
+
+          <h1 id="t7" class="lyrics-test">-Gravemakers Of Edinburgh-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t8" class="lyrics-test">-The Harrowing-</h1>
+          <p class="lyrics-test-test">(In which Burke and Hare master the irredeemable<br>
+art of procuring the freshest specimens of cadaver by the most<br>
+nefarious means imaginable)<br>
+<br>
+“'Knowst thou not any, whom corrupting gold<br>
+Would tempt unto a close exploit of death?'<br>
+'I know a discontented Irishman,<br>
+whose humble means match not his haughty mind.<br>
+Gold were as good as twenty orators,<br>
+and will, no doubt, tempt him to do any thing'”<br>
+Richard III,​ William Shakespeare<br>
+<br>
+“In Edina town, where your friend you may meet<br>
+At morning, in health, walking forth in the street<br>
+And, at evening, decoy'd and depriv'd of life<br>
+His corpse fresh and warm is laid out for the knife”<br>
+​Edinburgh Broadsheet 1832<br>
+<br>
+Hare: ​The first corpse was mere happenstance<br>
+But the second was no accident<br>
+The end soon followed pitiably<br>
+Choking out curses 'til his life was spent<br>
+<br>
+Dr. Knox: ​Each morrow the kill comes easier<br>
+Murder grown precise<br>
+Axphyxiated bodies bear testament<br>
+To your mastery - of this most deadly device<br>
+<br>
+Dr. Knox: ​A corpse is but a corpse<br>
+How they are obtained, is not my concern<br>
+So long as they come to my door<br>
+<br>
+Hare: ​With coppers o'er blind eyes, like the one you've turned<br>
+
+Dr. Knox: ​Death is the last fact of life, scrawled out by dissecting knives<br>
+
+Hare: ​As I'm taking your life<br>
+​You won't survive the harrowing<br>
+<br>
+Hare: ​So gasp your last breath as you choke, incomprehension, of life's final joke<br>
+<br>
+Dr. Knox: ​At the end of your rope<br>
+<br>
+​Now your hope is narrowing<br>
+You won't survive the harrowing<br>
+
+Hare:​ At first I felt revulsion<br>
+Which then gave way to fear<br>
+Finally came apathy<br>
+And at last I came to see things clearly<br>
+
+Dr. Knox: ​A reaver that hunts by gaslight<br>
+The stranglehold comes grim and cold<br>
+But your wallet filled with notes and coins<br>
+Weighs more 'pon you, ​t​hen all of the dead you have sold<br>
+<br>
+Dr. Knox: ​A corpse is but a corpse<br>
+How they are obtained, is not my concern<br>
+So long as they come to my door<br>
+<br>
+Hare: ​With coppers o'er blind eyes, like the one you've turned<br>
+
+Dr. Knox: ​Death is the last fact of life, scrawled out by dissecting knives<br>
+
+Hare: ​As I'm taking your life<br>
+
+C​You won't survive the harrowing<br>
+
+Hare: ​So gasp your last breath as you choke, incomprehension, of life's final joke<br>
+
+Dr. Knox: ​At the end of your rope<br>
+<br>
+​Now your hope is narrowing<br>
+Death is overpowering<br>
+You won't survive the harrowing<br>
+<br>
+Dr. Knox: ​Death is the last act of life, post-scripted by dissecting knives<br>
+Hare: ​To which I'm giving your life<br>
+​You won't survive the harrowing<br>
+Hare: ​Gasp your last breath as you choke, incomprehension, of life's final joke<br>
+Dr. Knox: ​At the end of your rope<br>
+​Now your hope is narrowing<br>
+Death is overpowering<br>
+Life's but time you're borrowing<br>
+You won't survive the harrowing</p>
+
+          <h1 id="t9" class="lyrics-test">-A Funeral Party-</h1>
+          <p class="lyrics-test-test">(In which a shocking discovery is made<br>
+in West Port, Edinburgh, the repellant nature and lurid details of which<br>
+stun and shock the city to its very core)<br>
+<br>
+“...a most extraordinary circumstance that took place on Friday night,<br>
+the 31s​ t​ October 1828, in a House in the West Port, Edinburgh, where<br>
+an old Woman of the name of Campbell is supposed to have been Murdered,<br>
+and her Body Sold to a Medical Doctor.”<br>
+Edinburgh​ ​Broadsheet​ 3r​d​ of November, 1828<br>
+<br>
+“Up the close and doun the stair<br>
+But and been with Burke and Hare<br>
+Burke's the butcher, Hare's the thief<br>
+Knox the boy that buys the beef”<br>
+19t​h​ century Edinburgh skipping rhyme<br>
+<br>
+Hare: ​Follow me to my humble lodging<br>
+What's mine is yours, such as it may be<br>
+
+Dr. Knox: ​Enjoy the hospitality, soon you'll be cold dead anatomy<br>
+
+Hare: ​Along the narrow, crooked wynd<br>
+Then through the close, this house you'll find<br>
+
+Dr. Knox: ​So many honored guests to fete, always an empty bed to let<br>
+<br>
+A funeral party<br>
+Hare: ​Drink up, the hour is growing late<br>
+​A funeral party<br>
+<br>
+Dr. Knox: ​The fete will end when you meet your fate<br>
+Hare: ​Here you may rest from your journeys<br>
+And warm your bones with a dram of whiskey<br>
+Dr. Knox: ​Drink to what's left of your health, soon you'll be<br>
+another corpse to sell<br>
+Hare: ​Intoxicated, the room starts to spin<br>
+And at that moment our night work begins<br>
+Dr. Knox: ​Quietly asphyxiate, you see your end, but far too late<br>
+A funeral party<br>
+Burke: ​Drink up, the hour is growing late<br>
+ ​A funeral partyv
+Dr. Knox: S​ tuff the carcass in a crate<br>
+<br>
+Narrator: ​All revels must come to their end<br>
+So for the constable the tenants send<br>
+False friends meet most unpleasant ends<br>
+The corpus delicti now made evident<br>
+<br>
+A funeral party<br>
+Burke: ​Step inside and have a quaff<br>
+​A funeral party<br>
+Hare: ​Where guests soon shuffle off<br>
+A funeral party<br>
+Narrator: ​Protests of innocence rebuffed<br>
+A funeral party<br>
+<br>
+Narrator: ​The life of the party - snuffed</p>
+
+          <h1 id="t10" class="lyrics-test">-The Anatomy Act Of 1832-</h1>
+          <p class="lyrics-test-test">“Burke and Hare... it is said, are the<br>
+real authors of the measure. It would have been well if this fear had been<br>
+manifested and acted upon before sixteen human beings had fallen victims<br>
+to the supineness of the Government and the Legislature.<br>
+It required no extraordinary sagacity, to foresee that the worst<br>
+consequences must inevitably result from the system of traffic<br>
+between resurrectionists and anatomists, which the executive government<br>
+has so long suffered to exist.”<br>
+​The​ ​Lancet​ Newspaper, 1832<br>
+<br>
+“The inducement of this species of murder is the value of a dead body...<br>
+[which] arrives from the scarcity of them in proportion to the demand...<br>
+The scarcity of dead bodies for the purposes of dissection arises from<br>
+a violent prejudice against dissection in the vulgar mind...<br>
+This prejudice, against the conversion of inanimate flesh to the<br>
+only useful purpose of which it is susceptible is fostered...<br>
+in particular by the law, which directs that the bodies of<br>
+murderers shall be 'anatomised'... for the express purpose,<br>
+one might almost think, of strengthening the vulgar prejudice<br>
+against dissection.”<br>
+Edward Gibbon Wakefield, 1831</p>
+
+          <h1 id="t11" class="lyrics-test">-Incarnadined Hands-</h1>
+          <p class="lyrics-test-test">(In which pangs of conscience at last<br>
+pierce the veil of our heroes' occluded consciences,<br>
+long since numbed by their morbid professions)<br>
+<br>
+“But woe to the riches and skill thus obtained,<br>
+Woe to the wretch that would injure the dead<br>
+And woe go his portion whose fingers are stained<br>
+With the red drops of life that he cruelly shed”<br>
+​Ballad of William Burke ​circa 1829<br>
+<br>
+“[had] the receiver of these sixteen strangled bodies been punishable as<br>
+well as the murderer, the crimes, which have cast a stain on the character<br>
+of the nation and of human nature, would not have been committed”<br>
+Thomas Wakely ​The Lancet​ newspaper 21s​ t​ March, 1829<br>
+<br>
+Dr. Knox: ​What is a man? Is he the sum of his beliefs?<br>
+Or is he measured by the depths of his misdeeds?<br>
+Is he but flesh and bone? The sum of component parts?<br>
+Is he what he has wrought? Or what he has torn apart?<br>
+<br>
+Hare: ​Our abhorrent enterprise, so deeply despised<br>
+But evidence, I'll provide, to spare my own hide<br>
+<br>
+Hare: ​I'll send Burke to his grave<br>
+To be betrayed​ ​by incarnadined hands<br>
+<br>
+Dr. Knox: ​Am I a butcher uncouth?<br>
+The telltale truth​ ​are these incarnadined hands<br>
+<br>
+Dr. Knox: ​Am I a slaughterer or a surgeon? A taker or giver of life?<br>
+
+Hare: ​A thief or a murderer? For which crime am I to be tried?<br>
+
+Dr. Knox: ​So many I've anatomized, truly I was desensitized I never failed<br>
+to edify, ​Hare:​ nor to brutalize<br>
+<br>
+Dr. Knox: ​The stain of the grave<br>
+I am betrayed by incarnadined hands<br>
+
+Burke: ​The meager length of the noose<br>
+The punishment due for incarnadined hands<br>
+<br>
+Dr. Knox: ​Please tell me who I am - Please tell me who I am!<br>
+Dr. Knox: ​What is a man? Is he the end or is he the means?<br>
+Burke: ​For lucre's gleam, undertaking hideous misdeeds<br>
+Dr. Knox: ​I once thought I knew, but now I see it true<br>
+When you look into death, it looks back into you<br>
+<br>
+Dr. Knox: ​The stain of the grave<br>
+I am betrayed​ ​by incarnadined hands<br>
+
+Burke: ​The meager length of the noose<br>
+The punishment due​ ​for incarnadined hands<br>
+<br>
+Dr. Knox / Hare: ​Please tell me who I am</p>
+
+          <h1 id="t12" class="lyrics-test">-Death Revenge-</h1>
+          <p class="lyrics-test-test">(In which the final grim realization is reached)<br>
+<br>
+“The mob, which was immense... received with shouts the solitary wretch who<br>
+found his way to the gallows out of the five or six who seem not less<br>
+guilty than he.”<br>
+Sir Walter Scott, 28t​ h​ of January 1829<br>
+<br>
+“...The town of Edinburgh was filled with an immense crowd of spectators,<br>
+from all places of the surrounding country, to witness the execution<br>
+of a Monster, whose crime stands unparalleled in the annals of Scotland.”<br>
+Edinburgh Broadsheet 1829<br>
+<br>
+“Every effort [had been] employed to convert my misfortune into positive<br>
+and intended personal guilt of the most dreadful character...”<br>
+Dr. Robert Knox 1829<br>
+<br>
+“The sickly and the hale<br>
+Were murder'd, pack'd up, and sent off<br>
+To Knox's human sale<br>
+That man of skill, with subjects warm<br>
+Was frequently supplied<br>
+Nor did he question when or how<br>
+The persons brought had died!”<br>
+Edinburgh children's verse circa 1829<br>
+<br>
+“That his class received him, in consequence of these horrid disclosures,<br>
+with three cheers... that savage yell within those blood-stained walls<br>
+is no more, to the voice of the public, than so much squeaking and<br>
+grunting in a pig-sty during a storm of thunder.... and instead of<br>
+serving to convince anyone... of their lecturer's innocence,<br>
+it has had... the very opposite effect – exhibiting a ruffian<br>
+recklessness of general opinion and feeling on a most appalling<br>
+subject.”<br>
+Christopher North ​Blackwood,​ 1829<br>
+<br>
+Dr. Knox: ​A “noxious” butcher, a name they will rue When their<br>
+carcasses yield postmortem truths Although Burke and Hare,<br>
+have their usefulness proved From their sordid acts, I stand far removed<br>
+But now from the grave's final jape<br>
+<br>
+I shan't emerge wholly unscathed From this calumny there's no escape<br>
+A lifetime of work that may all go to waste A gentleman born,<br>
+now stained by disgrace Once a surgeon,<br>
+now a ghoul in his place<br>
+<br>
+Dr. Knox: ​Death and life forever intertwined<br>
+And within their vulgar minds<br>
+The penny dreadful they seek they will find, they'll have their death<br>
+revenge I plied my trade bound to the grave<br>
+Now they've labeled me depraved<br>
+My name and my work bear their stain, this is their death revenge<br>
+<br>
+Hare: ​Burke alone stands judged for both our transgressions<br>
+The hangman awaits him, then postmortem dissection<br>
+Yet all that peers back from the looking glass<br>
+Are the ghosts of my past, screaming to their last<br>
+<br>
+Hare: ​And now my grave, final jape<br>
+Is writ large on Burke's cadaverous face<br>
+From the noose he shall have no escape<br>
+Why let both of our lives go to waste?<br>
+In my confession the blame lay misplaced<br>
+Once a man, soon a corpse in his place<br>
+<br>
+Hare: ​Forfeit his life to extend mine<br>
+Thus ends our partnership in crime<br>
+Lady justice though said to be blind, still takes her​ ​death revenge<br>
+<br>
+Burke: ​I earned my living from the grave<br>
+And committed acts depraved<br>
+Life ends unsaved and betrayed, the price paid: Death Revenge<br>
+<br>
+Dr. Knox / Hare: ​Death and life forever intertwined<br>
+And within the morbid mind<br>
+There's only darkness left to find, the final​ ​death revenge<br>
+We lived our lives within the grave<br>
+And in turn became depraved<br>
+And now naught remains to be saved, the final​ ​death revenge</p>
+
+          <h1 id="t13" class="lyrics-test">-Death Revenge Underture-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+        </div>
+      </div>
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+      </div>
+
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+      </div>
+
+          <div class="page-finish">
+            <a href="./security.html">Security Statements</a>
+            <a href="./terms.html">Terms of Service</a>
+            <a href="./privacy.html">Privacy Policy</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+
+      </body>
+      </html>

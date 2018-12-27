@@ -1,0 +1,1912 @@
+<!DOCTYPE html>
+<html lang="EN-GB">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Metal Mashup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./main.css"/>
+  <link rel="stylesheet" media="screen and (max-width: 1230px)" href="./main-max-845.css"/>
+</head>
+
+<nav>
+  <div class="top-nav">
+    <ul class="nav">
+      <li class="top-left"><a href="#">Search</a></li> <!--load up a mega menu search bar-->
+      <li>
+        <button onclick="login()">Login</button>
+          <div id="login-form" class="login-content">
+            <div class="shut">
+              <button onclick="shut()"><img class="shut-img" src="./images/shut.svg" alt="close"/></button>
+            </div>
+            <div class="login-upper">
+              <h1 class="login-upper_title">Metal Mashup</h1>
+              <h2 class="login-upper_text">Not for the faint of ear</h2>
+            </div>
+            <div class="login-bottom">
+              <form class="login-login" action="#">
+                <div class="login-bottom_username">
+                  <h2 class="login_title">Log In To Metal Mashup</h2>
+                  <h2 class="login_text">To log in, please enter your email address below:</h2>
+                  <input type="email" placeholder="Email Address" name="uname" required/>
+                  <input type="password" placeholder="Password" name="psw" required/>
+                  <button class="login-button" type="submit">Log in</button>
+                </div>
+                <div class="sign-up">
+                <h4>Don't have an account?<a href="./sign.html">Sign Up</a></h4>
+                </div>
+                <div class="forgot">
+                  <a href="./forgot.html">Forgot Password?</a>
+                </div>
+                <div class="terms">
+                  <a href="./security.html">Security Statements</a>
+                  <a href="./terms.html">Terms of Service</a>
+                  <a href="./privacy.html">Privacy Policy</a>
+                </div>
+              </form>
+            </div>
+          </div>
+      </li> <!--load up a mega menu that contains a login script -->
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./shop.html">Shop</a></li>
+      <li><a href="./advert.html">Advertising</a></li>
+      <li><a href="./newsletter.html">Newsletter<a/></li>
+    </ul>
+  </div>
+
+  <script>
+
+  function login(){
+    document.getElementById("login-form").classList.toggle("login-show");
+  }
+
+  function shut(){
+    document.getElementById("login-form").classList.remove("login-show");
+  }
+  </script>
+
+  <div class="bottom-nav">
+    <div class="site-logo">
+      <h1 class="site-logo_title">Metal Mashup</h1>
+      <h3 class="site-logo_slogan">Not for the faint of ear</h3>
+    </div>
+    <div class="center-nav">
+      <ul class="cell one" id="first">
+        <li class="top"><a href="./index.html">Home</a></li>
+        <li class="bottom"><a href="./news.html">News</a></li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./review-space.html">Reviews</a></li>
+        <li class="bottom"><a href="./features.html">Features</a></li>
+      </ul>
+
+      <ul class="cell three">
+        <li class="top"><a href="./community.html">Community Page</a></li>
+        <li class="bottom lyrics"><a href="./lyrics.html">Lyrics</a>
+          <ul class="mega-drop">
+            <ul class="column">
+              <li class="head"><a href="#">Metalcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-thedevil.html">The Devil Wears Prada</a></li>
+                <li class="list_item"><a href="./lyrics-asi.html">As I Lay Dying</a></li>
+                <li class="list_item"><a href="./lyrics-august.html">August Burns red</a></li>
+                <li class="list_item"><a href="./lyrics-sirens.html">Sirens and Sailors<a/></li>
+                <li class="list_item"><a href="./lyrics-fit.html">Fit For A King<a/></li>
+                <li class="list_item"><a href="./lyrics-forall.html">For All Eternity</a></li>
+                <li class="list_item"><a href="./lyrics-forever.html">Forevermore</a></li>
+                <li class="list_item"><a href="./lyrics-ithe.html">I The Breather</a></li>
+                <li class="list_item"><a href="./lryrics-inhearts.html">In Hearts Wake</a></li>
+                <li class="list_item"><a href="./lyrics-issues.html">Issues</a></li>
+                <li class="list_item"><a href="./lyrics-bury.html">Bury Tomorrow</a></li>
+                <li class="list_item"><a href="./lyrics-kill.html">Killswitch Engage</a></li>
+              </ul>
+            </ul>
+
+            <ul class="column">
+              <li class="head"><a href="#">Deathcore</a></li>
+              <ul class="column_list">
+                <li class="list_item"><a href="./lyrics-chel.html">Chelsea Grin</a></li>
+                <li class="list_item"><a href="./lyrics-impending.html">Impending Doom</a></li>
+                <li class="list_item"><a href="./lyrics-inthemid.html">In The Midst Of Lions</a></li>
+                <li class="list_item"><a href="./lyrics-afterthe.html">After The Burial</a></li>
+                <li class="list_item"><a href="./lyrics-jobfor.html">Job For A Cowboy</a></li>
+                <li class="list_item"><a href="./lyrics-oceano.html">Oceano</a></li>
+                <li class="list_item"><a href="./lyrics-thyart.html">Thy Art is Murder</a></li>
+                <li class="list_item"><a href="./lyrisc-sui.html">Suicide Silence</a></li>
+                <li class="list_item"><a href="./lyrics-emm.html">Emmure</a></li>
+                <li class="list_item"><a href="./lyrics-allshall.html">All Shall Perish</a></li>
+                <li class="list_item"><a href="./lyrics-boris.html">Boris The Blade</a></li>
+                <li class="list_item"><a href="./lyrics-black.html">Black Tongue</a></li>
+              </ul>
+            </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Tech-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-anight.html">A Night In Texas</a></li>
+                  <li Class="list_item"><a href="./lyrics-rings.html">Rings of Saturn</a></li>
+                  <li class="list_item"><a href="./lyrics-ark.html">Arkaik</a></li>
+                  <li class="list_item"><a href="./lyrics-archspire.html">Archspire</a></li>
+                  <li class="list_item"><a href="./lyrics-beyond.html">Beyond Creation</a></li>
+                  <li class="list_item"><a href="./lyrics-aborted.html">Aborted</a></li>
+                  <li class="list_item"><a href="./lyrics-obsc.html">Obscura</a></li>
+                  <li class="list_item"><a href="./lyrics-decr.html">Decrepit Birth</a></li>
+                  <li class="list_item"><a href="./lyrics-alter.html">Alterbeast</a></li>
+                  <li class="list_item"><a href="./lyrics-brain.html">Brain Drill</a></li>
+                  <li class="list_item"><a href="./lyrics-necro.html">Necrophagist</a></li>
+                  <li class="list_item"><a href="./lyrics-slug.html">Slugdge</a></li>
+                </ul>
+              </ul>
+
+              <ul class="column">
+                <li class="head"><a href="#">Prog-Metal</a></li>
+                <ul class="column_list">
+                  <li class="list_item"><a href="./lyrics-thecon.html">The Contortionist</a></li>
+                  <li class="list_item"><a href="./lyrics-auras.html">Auras</a></li>
+                  <li class="list_item"><a href="./drew.html">Drewsif Stalin's Musical Endevors</a></li>
+                  <li class="list_item"><a href="./between.html">Between The Buried And Me</a></li>
+                  <li class="list_item"><a href="./dreamt.html">Dream Theater</a></li>
+                  <li class="list_item"><a href="./opeth.html">Opeth</a></li>
+                  <li class="list_item"><a href="./text.html">Textures</a></li>
+                  <li class="list_item"><a href="./peri.html">Periphery</a></li>
+                  <li class="list_item"><a href="./lyrics-tess.html">Tesseract</a></li>
+                  <li class="list_item"><a href="./lyrics-prot.html">Protest The Hero</a></li>
+                  <li class="list_item"><a href="./lyrics-jin.html">Jinjer</a></li>
+                  <li class="list_item"><a href="./lyrics-veil.html">Veil Of Maya</a></li>
+                </ul>
+              </ul>
+
+              <div class="border">
+                <div class="album">
+                  <a href="./lyrics-tess.html"><img src="./images/clairvoyant.jpg" height="150px" width="155px" alt="Clairvoyant album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-afeast.html"><img src="./images/affk.jpg" height="150px" width="155px" alt="Hell On Earth album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-asi.html"><img src="./images/asi.jpg" height="150px" width="155px" alt="My Own Grave album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-sheilds.html"><img src="./images/shields.jpg" height="150px" width="155px" alt="Life In Exile album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-thedevil.html"><img src="./images/roots.jpg" height="150px" width="155px" alt="With Roots Above and Branches Below album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ithe.html"><img src="./images/life.jpg" height="150px" width="155px" alt="Life Reaper album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-chel.html"><img src="./images/night.jpg" height="150px" width="155px" alt="Eternal Nightmare album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./lyrics-ohsleep.html"><img src="./images/sleep.jpg" height="150px" width="155px" alt="Son of The Morning album art"/></a>
+                </div>
+                <div class="album">
+                  <a href="./reflect.html"><img src="./images/clear.jpg" height="150px" width="155px" alt="Color Clear album art"/></a>
+                </div>
+              <div class="album">
+                <a href="./lyrics-ulta.html"><img src="./images/ulta.jpg" height="150px" width="155px" alt="Ulta Ulla album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-thevoy.html"><img src="./images/aqua.jpg" height="150px" width="155px" alt="Emergent Evelution album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-phin.html"><img src="./images/till.jpg" height="150px" width="155px" alt="Till The End album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-power.html"><img src="./images/power.jpg" height="150px" width="155px" alt="Power Trip album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obs.html"><img src="./images/lie.jpg" height="150px" width="155px" alt="The Bigest Lie album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-obsc.html"><img src="./images/obs.jpg" height="150px" width="155px" alt="Akrosis album art"/></a>
+              </div>
+              <div class="album">
+                <a href="./lyrics-glass.html"><img src="./images/glass.jpg" height="150px" width="155px" alt="The Royal Thousand album art"/></a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+      <ul class="cell two">
+        <li class="top"><a href="./events.html">Events<a/></li>
+          <li class="bottom"><a class="logo" href="https://www.facebook.com" target="_blank"><img class="logo_image" src="./images/facebook.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.twitter.com"  target="_blank"><img class="logo_image" src="./images/twitter.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.instagram.com" target="_blank"><img class="logo_image" src="./images/instagram.png" height="20px" width="20px"/></a>
+            <a class="logo" href="https://www.youtube.com" target="_blank"><img class="logo_image" src="./images/youtube.png" height="20px" width="20px"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <a class="nav-right_a" href="./mashup-rec.html">Mashup Recomendations</a>
+        <a class="nav-right_a" href="./non-metal.html">Non-Metal Mondays</a>
+        <a class="nav-right_a" href="./contact.html">Contact Mashup</a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="small-nav">
+    <div class="small-nav_button">
+      <button onclick="navigation()" class="nav-button"><img src="./images/menu1.png" height="20px" width="20px"></button>
+    </div>
+        <div id="button-menu" class="button-menu_content">
+          <div class="small-content-top">
+              <a href="./index.html">Home</a>
+              <a href="./news.html">News</a>
+              <a href="./review-space.html">Reviews</a>
+              <a href="./features.html">Features</a>
+              <a href="./community.html">Community Page</a>
+              <a href="./lyrics.html">Lyrics</a>
+              <a href="./events.html">Events</a>
+          </div>
+          <div class="small-content-bottom">
+            <div class="nav-option-wrap">
+              <ul>
+              <li><a href="./login.html" class="small-nav-option">Login</a></li>
+              <li><a href="./about.html" class="small-nav-option">About</a></li>
+              <li><a href="./shop.html" class="small-nav-option">Shop</a></li>
+              <li><a href="./advert.html" class="small-nav-option">Advertising</a></li>
+              <li><a href="./newsletter.html" class="small-nav-option">Newsletter<a/></li>
+              </ul>
+            </div>
+            <div class="small-wrap">
+                <a href="https://www.facebook.com" target="_blank"><img class="small-menu-logo" src="./images/facebook.png" alt="Facebook"/></a>
+                <a href="https://youtube.com" target="_blank"><img class="small-menu-logo" src="./images/youtube.png" alt="Youtube"/></a>
+                <a href="https://twitter.com" target="_blank"><img class="small-menu-logo" src="./images/twitter.png" alt="Twitter"/></a>
+                <a href="https://instagram.com" taregt="_blank"><img class="small-menu-logo" src="./images/instagram.png" alt="Instagram"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="small-nav_logo">
+          <h1 class="small-logo">Metal Mashup</h1>
+          <h3 class="small-slogan">Not for the faint of ear</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<script>
+function navigation(){
+document.getElementById("button-menu").classList.toggle("show");
+}
+</script>
+</nav>
+<body>
+<h1 class="lyrics-page_title">Silent Planet</h1>
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">Albums</h1>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#first-album"><img class="lyrics-page_image" src="./images/thenight.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Night God Slept - 2014</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#f1">The Well</a>
+      <a href="#f2">XX (City Grave)</a>
+      <a href="#f3">I Drowned In The Desert</a>
+      <a href="#f4">Native Blood</a>
+      <a href="#f5">Tiny Hands (Au Revoir)</a>
+      <a href="#f6">Firstwake</a>
+      <a href="#f7">Darkstrand (Hibakusha)</a>
+      <a href="#f8">First Mother (Lilith)</a>
+      <a href="#f9">To Thirst For The Sea</a>
+      <a href="#f10">Wasteland (Vechnost)</a>
+      <a href="#f11">Depths II</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#second"><img class="lyrics-page_image" src="./images/everything.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">Everything Was Sound - 2016</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#s1">Inherit The Earth</a>
+      <a href="#s2">Psychescape</a>
+      <a href="#s3">Dying In Circles</a>
+      <a href="#s4">Understanding Love As Loss</a>
+      <a href="#s5">Tout Comprendre</a>
+      <a href="#s6">Panic Room</a>
+      <a href="#s7">REDIVIDEЯ</a>
+      <a href="#s8">Nervosa</a>
+      <a href="#s9">C'est Tout Pardonner</a>
+      <a href="#f10">Orphan</a>
+      <a href="#s11">No Place To Breathe</a>
+      <a href="#s12">First Father</a>
+      <a href="#s13">Inhabit The Wound</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page-tile">
+  <div class="lyrics-page_tile">
+    <a href="#third"><img class="lyrics-page_image" src="./images/whenthe.jpg" height= "100%" width="auto"/></a>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">When The End Began - 2018</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <a href="#t1">Thus Spoke</a>
+      <a href="#t2">The New Eternity</a>
+      <a href="#t3">Northern Fires (Guernica)</a>
+      <a href="#t4">Afterdusk</a>
+      <a href="#t5">Visible Unseen</a>
+      <a href="#t6">Look Outside: Dream</a>
+      <a href="#t7">Vanity of Sleep</a>
+      <a href="#t8">In Absence</a>
+      <a href="#t9">Share the Body</a>
+      <a href="#t10">Firstborn (Ya'aburnee)</a>
+      <a href="#t11">Lower Empire</a>
+      <a href="#t12">Look Inside: Awake</a>
+      <a href="#t13">The Anatomy of Time (Babel)</a>
+      <a href="#t14">Depths III</a>
+    </div>
+</div>
+
+<div class="lyrics-page-page">
+<h1 class="lyrics-page_sub">lyrics</h1>
+</div>
+
+<div class="lyrics-layout">
+  <div class="lyrics-layout_image">
+    <img id="first-album" class="lyrics-page_image" src="./images/thenight.jpg" height= "100%" width="auto"/>
+  </div>
+  <div class="lyrics-page_album-title_wrap">
+    <h1 class="lyrics-page_album-title">The Night God Slept - 2014</h1>
+  </div>
+    <div class="lyrics-page_album-songs">
+      <h1 id="f1" class="lyrics-test">-The Well-</h1>
+      <p class="lyrics-test-test">Mother, tell me story or sing me a song<br>
+It's a sacred sort of disorder how these sisters came along<br>
+Of flocks of fools, and dozens of men<br>
+Who fell through their thrones into the abyss of again<br>
+The kings of earth, crippled with crowns<br>
+And the cursed criminal who turned it upside down<br>
+<br>
+So we shout, "Hold us together, tear me apart"<br>
+May our suffering sing the hymns we couldn't hear<br>
+"Hold us together even if it tears me apart"<br>
+May our blood be spilled for the life of this world<br>
+<br>
+"Do you feel whole? Will you see my face?"<br>
+You are, I'm not, but you are<br>
+Dead to conceive life that tells out stories<br>
+<br>
+"Hold us together, tear me apart"<br>
+May our suffering sing the hymns we couldn't hear<br>
+"Hold us together even if it tears me apart"<br>
+May our blood be spilled for the life of this world</p>
+
+      <h1 id="f2" class="lyrics-test">-XX (City Grave)-</h1>
+      <p class="lyrics-test-test">This injustice renders my thoughts ineffectual<br>
+Forgive me, Lover, and forget my sullen face<br>
+Privilege brings us to this place of human currencies<br>
+We buried our sisters in a glass display<br>
+Only to evaporate to a toxic skyline<br>
+Underneath we sell off the bodies<br>
+<br>
+My body became a graveyard where they buried thirsty souls<br>
+Show me your righteous leader; I'll show you the bullet holes<br>
+The preacher with the parched tongue and the "God" that he controls<br>
+"Shake off the sin, shake off the sin"<br>
+And spit out your cacophony of lies<br>
+<br>
+I'll climb through your screen<br>
+And bleed out the image you left in me<br>
+<br>
+But God, are you man? Then how do you see me?<br>
+From where you sit up in heaven, looking down on my hell<br>
+My body chokes back<br>
+"I have nothing to draw with and the well is deep<br>
+Where can I get living water?"<br>
+<br>
+Enslaved in the "Land of the Free"<br>
+My prison is our wedding bed where you left me for dead<br>
+You'll leave us for dead<br>
+Apathy was our anchor to a digital sea<br>
+Where you drown in the comfort of our complicity<br>
+<br>
+Can Love save me?<br>
+Will Your wrath avenge us?</p>
+
+      <h1 id="f3" class="lyrics-test">-I Drowned In The Desert-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f4" class="lyrics-test">-Native Blood-</h1>
+      <p class="lyrics-test-test">The barren wastes, bearing down on me<br>
+Cracks in the clouds leave me wondering<br>
+Did the oceans dry out and return to the sky<br>
+For a privileged perspective of our final goodbye?<br>
+<br>
+Pretend it's a house of peace while she's buried underneath<br>
+You built your Father's house over my mother's grave<br>
+<br>
+Bodies; a mass grave collapse the concave floor<br>
+These sanctimonious steeples will meet us in the dirt<br>
+Because the earth is trembling<br>
+If only we had eyes to see it shake<br>
+Ignorant until we expire<br>
+<br>
+When the ocean fills our veins and the soil becomes my bones<br>
+Maybe we'll fall asleep tonight to the madness<br>
+In the melody poured out for slaves<br>
+<br>
+We were dressed in potential now we're draped in sorrow<br>
+Our race is a bloodstain spattered on a profane political campaign<br>
+Manifest your destiny<br>
+Stripes and stars comprise my prison bars; the cost of liberty<br>
+<br>
+Maybe we'll fall asleep tonight to the madness<br>
+In the melody poured out for slaves<br>
+Maybe this storm is a perfect score for wretched bodies washed ashore<br>
+Poured out for me<br>
+<br>
+The life I loved looking up at me<br>
+Saplings struck like daggers hemorrhaging streams<br>
+As the breath of my people return to the ground<br>
+So forests can once more abound<br>
+<br>
+The suffering cross that overcame<br>
+The name of love made concurrent with shame<br>
+<br>
+This melody; I thought it familiar<br>
+It sounds like your heartbeat keeping time<br>
+Then you turn and remind me that this pain has a purpose<br>
+And maybe we'll fall asleep tonight</p>
+
+      <h1 id="f5" class="lyrics-test">-Tiny Hands (Au Revoir)-</h1>
+      <p class="lyrics-test-test"> awoke in the summer the sun struck the earth<br>
+To furnish us with fire<br>
+But jealous hands fashioned their cross to a sword<br>
+Brandished their gift as a torch to burn the light<br>
+To the dead we owe only the truth; the human condition<br>
+Surveying the space between the nave<br>
+I saw my own infernal grave; existential imperfection<br>
+We sat scrawling out notes on scratched oak tombs<br>
+Bullets bouncing off stonewall saints laid to rest<br>
+By our Forebear at their children, at the dissidence of despair<br>
+This proximal milieu could close the door<br>
+To the closeness that keeps us inside the spaces that we hide<br>
+My heart burns cold as life leaves my daughter's eyes<br>
+I am the mother of the dying, the dust, the denouement<br>
+How can absence take my father's house?<br>
+How can nothing take my daughter's life?<br>
+Walk me out from this tomb<br>
+If you are the gate could you make a way?<br>
+Come down from that cross; hold out your hands so I can see<br>
+<br>
+"Je suis sorti vivant du four crématoire<br>
+Je suis le témoin sacré de l'église<br>
+Je suis une mère qui a tout perdu"<br>
+<br>
+This fire burns your name on my lips; this smoke chokes your song on my throat<br>
+Now let death lynch my lungs I offer what's left of this withering tongue<br>
+But oh, no exit so bright as the light that shines behind the Son<br>
+I leapt through stained glass saints to fall to the garden where we first begun</p>
+
+      <h1 id="f6" class="lyrics-test">-Firstwake-</h1>
+      <p class="lyrics-test-test">You'd be choking on your flame,<br>
+my Son without a name<br>
+Made king of all the wastes<br>
+And forever will swallow us alive, we'll be abstracted from time<br>
+We can let the tides wash over<br>
+<br>
+This is the epilogue to the introduction<br>
+Lost in the sound<br>
+Hold tight all your systematic theories<br>
+That help you to sleep at night<br>
+But remember that there could be no sufficient certitudes in hell<br>
+<br>
+Father, forgive them for they know not what they do<br>
+Mother, receive me because I'm coming home to you<br>
+Does this cup run dry?<br>
+<br>
+Look at what we've done again<br>
+We wage war in the name of love<br>
+Using gold to fill the holes in your hands<br>
+<br>
+Caught in the paradox; juxtaposed between bifurcated black and white<br>
+And my propensity to fail you<br>
+Caught in the cyclical narrative of violence<br>
+That invokes your name to justify genocide<br>
+They'll take everything<br>
+<br>
+We traded water for salt<br>
+Something whole for something equally as broken as us<br>
+Now dying of thirst we'll write this out in blood<br>
+And shut you in a stone cold time where the air rots out<br>
+Leaving us alone<br>
+We chose to be alone<br>
+I was given to cup to quench parched<br>
+Tongues<br>
+But I became drunk and lust lynched my lungs<br>
+<br>
+Father, forgive them<br>
+For they know not what they do<br>
+Mother, receive me, because I'm coming home to you<br>
+Does this cup run dry?<br>
+For they know not what they do</p>
+
+      <h1 id="f7" class="lyrics-test">-Darkstrand (Hibakusha)-</h1>
+      <p class="lyrics-test-test">My hand, held to the glare of this burnt impasse<br>
+Yours, necessarily on the other side of some sickly meta-xis<br>
+You're stopped in stasis, matched with mine<br>
+I'll quantify time with meter<br>
+With rhyme to calculate a way to prove that you are alive<br>
+<br>
+Isolated, trapped between<br>
+A picture of you now stained on the street<br>
+Oh mother, teach me how to die<br>
+In your shadow I saw to a distant future<br>
+Your life was only a nominal fee<br>
+Singing the sound of silence, signaling the end<br>
+They took your life, mother, as a pretense to pretend<br>
+The hand that feeds us sat you down<br>
+Covered my eyes, thrusted the styli<br>
+Retraced the timeline to call it suicide<br>
+<br>
+Will you wait for me?<br>
+<br>
+Death was the chorus; our lives framed in refrain<br>
+Softly we sing notes better sung by our dead<br>
+I'd rather sleep and see you soon than die alone<br>
+In the wake of this nuclear catastrophe<br>
+We were meant to create, you spoke us out of nothing<br>
+Out of the chaos we've caused<br>
+Naked we came, shadows we leave<br>
+<br>
+Salt of the earth: Preserve their songs<br>
+Light of the world: Burn out the shadows<br>
+<br>
+Infinite echoes of stifled screams<br>
+The abyss you've created will ever stare back into me</p>
+
+      <h1 id="f8" class="lyrics-test">-First Mother (Lilith)-</h1>
+      <p class="lyrics-test-test">Awake, awake your eyes or forever fallen<br>
+Sister, can you see me through the boundaries of this garden?<br>
+When every man will take your voice, every God will fate your end<br>
+You planted paradox in the center of our humanity<br>
+My ambivalent proclivity for insufficiency<br>
+<br>
+Should I sleep or should I die alone?<br>
+Life to death or flesh to decompose<br>
+You captured me<br>
+<br>
+I'm awakened by a fate that screams<br>
+"You will bear the weight to give this world<br>
+A beating heart that never ends"<br>
+Now bring me a love that will live and die by my every word I speak<br>
+Won't you lie in this bed that we have made?<br>
+I must become something more than this<br>
+<br>
+Should I sleep or should I die alone?<br>
+Life to death or flesh to decompose<br>
+You've captured me<br>
+Should I sleep or should I die alone?<br>
+Life to death or flesh to decompose<br>
+You've captured me</p>
+
+      <h1 id="f9" class="lyrics-test">-To Thirst For The Sea-</h1>
+      <p class="lyrics-test-test">[Instrumental]</p>
+
+      <h1 id="f10" class="lyrics-test">-Wasteland (Vechnost)-</h1>
+      <p class="lyrics-test-test">We "won the War"<br>
+We made a temple to thieves enshrining the great criminal<br>
+Who promised heaven without God<br>
+<br>
+If we had sight to seem to see the seven seas<br>
+Could cease to be or freeze in me<br>
+We'd shake this sudden sundering<br>
+And subsequently cross the strait and traverse the wastes<br>
+We'll beat our rifles to shovels<br>
+Aand dig a proper grave for our sons who saw the end<br>
+Of God, wasteland<br>
+The flag will fall with the wall we built, wasteland<br>
+<br>
+Apostate to the State, Witness to the Dead<br>
+For you know only a heap of broken image<br>
+And when you rid this earth of God we shall shelter Him underground<br>
+<br>
+Fall into the coldest wastes of humanity<br>
+Darkening circles fed by deepening graves<br>
+"Death solves all problems", your heart is a statistic<br>
+No mother, no resistance, but still she precludes the grave<br>
+<br>
+They saw the end of God, wasteland<br>
+The flag will fall with the walls we built, wasteland</p>
+
+      <h1 id="f11" class="lyrics-test">-Depths II-</h1>
+      <p class="lyrics-test-test">All the world was a dream I couldn't shake<br>
+In a midnight reverie of which I'll never wake<br>
+That started mundane enough with an incessant tapping<br>
+On the windowpane separating me from the storm<br>
+<br>
+Where inside I sat, me the loathsome fool<br>
+With my head cocked sideways in confusion<br>
+As my looking glass³ became a two-way mirror<br>
+And you can watch me hide from everything on this living sphere<br>
+But don't you dare darken my doorstep<br>
+Stranger; never a step more, no, no, nevermore<br>
+You see, I have this reoccurring dream<br>
+Where we snuck past scores of slumbering guards<br>
+And fixed that rustic iron key to that lock to set you free<br>
+"I would bring you liberty!"<br>
+Where in reality I'm a coward<br>
+I'm collateral matter swayed by banalities of time and space<br>
+I'm a name without a face<br>
+<br>
+My trepidation reached threshold and my terror turned to madness<br>
+When I awoke I was swinging at shrouded silhouettes<br>
+And stumbled out the door where my anger<br>
+Was extinguished by this downpour<br>
+Compelled, void of volition, my steps propelled through this chronic storm<br>
+Where there in the clearing; throughout the gaps in the trees<br>
+Dark smoke flickered from fire illuminating my unease<br>
+Like clockwork, seven sisters turned together in a circle<br>
+Autonomy abandoned, they moved singular and perpetual<br>
+Around a dark blue flame where I heard you call my name<br>
+"I am the fire that is never quenched<br>
+And I am the river that will not run dry"<br>
+<br>
+When I slept in that garden<br>
+Lord did you see me as I was dreaming?<br>
+<br>
+This is the end of everything<br>
+We'll lose our divisions and forget our names<br>
+The precipice of eternity<br>
+I caught fire, I caught fire, I caught fire and you'll watch me burn]</p>
+    </div>
+  </div>
+
+  <div class="lyrics-layout">
+    <div class="lyrics-layout_image">
+      <img id="second" class="lyrics-page_image" src="./images/everything.jpg" height= "100%" width="auto"/>
+    </div>
+    <div class="lyrics-page_album-title_wrap">
+      <h1 class="lyrics-page_album-title">Everything Was Sound - 2016</h1>
+    </div>
+      <div class="lyrics-page_album-songs">
+        <h1 id="s1" class="lyrics-test">-Inherit The Earth-</h1>
+        <p class="lyrics-test-test">After the fire, after the rain<br>
+After the sacred kissed the profane<br>
+When you came and left again<br>
+Such a captivating pain<br>
+After that night I left my comfort<br>
+To find where your body lies<br>
+I'd wander upon this grave then fall<br>
+I'd fall inside<br>
+<br>
+I searched the clearing for that spark, hands sifted through the ash<br>
+Knowing what we felt was real but some delusions never pass<br>
+So I took shelter in the woods with the naked shaking trees<br>
+Deciduous, fraternal twins, we're both wilted, stem and leaf<br>
+<br>
+Then the mist turned sleet turned snow<br>
+My senses shook numb, I've nothing to show<br>
+But a rain-stained book that once contained my literary charades<br>
+New blots of ink, archetypal shapes and shades<br>
+Bleed through each and every page and I ask myself<br>
+What's the weight of my life on the scales of eternity?<br>
+<br>
+We inherit the earth, we inherit the war<br>
+I inhabit the wound, I dwell in the harm<br>
+Oh, how far we fall; we're casualties of time<br>
+Oh, how far we fall, begin to forgive existence<br>
+<br>
+Retreat back from reaching trees<br>
+When a frigid shadow climbs right inside of me<br>
+That specter of recompense<br>
+It's a sound I've heard ever since<br>
+<br>
+Amidst the endless mortal strife<br>
+And the constantly dying light<br>
+The truth we felt from the start<br>
+"How can I hold myself together when everything falls apart?"<br>
+<br>
+We inherit the earth, we inherit the war<br>
+I inhabit the wound, I dwell in the harm<br>
+Oh, how far we fall; we're casualties of time<br>
+Oh, how far we fall, forgive existence<br>
+<br>
+I wandered upon the alter of human invention<br>
+An exhibition of erudition, find me here (Son of Man)<br>
+How far we fall</p>
+
+        <h1 id="s2" class="lyrics-test">-Psychescape-</h1>
+        <p class="lyrics-test-test">I sank down the plane of delusion<br>
+It's vast expanses mocked my advances<br>
+And bid me, "Oh fragile mind<br>
+You will learn how to fracture"<br>
+<br>
+Scrawled across the walls<br>
+The suffering saint cries out<br>
+"Is it madness to retreat<br>
+From the myopic gaze that holds us captive?"<br>
+<br>
+Follow me<br>
+I'll take you to the edge of reason<br>
+Fall with me<br>
+We'll make a home in our delusion<br>
+<br>
+I split my mind ten thousand times<br>
+But in every world there's no exit, no exit<br>
+<br>
+No madness in a dream<br>
+No walls surround me to keep me safe<br>
+The straight line you draw for me<br>
+So perfect, so pure (Untie me from reality)<br>
+<br>
+When every word is falling from your mouth<br>
+Don't let it become your escape<br>
+<br>
+Make an escape from the monolith<br>
+Scale the lies of material despondency<br>
+I waited on the tracks for reason<br>
+But my train of thought, it never came, it never came<br>
+<br>
+The straight line you draw for me<br>
+So perfect, so pure<br>
+So perfect, so pure<br>
+<br>
+I'd change the world but I can't change myself<br>
+I saw you shout at the shadows<br>
+I'd change the world but I'm chained to myself<br>
+Define paranoia<br>
+<br>
+Follow me<br>
+I'll take you to the edge of reason<br>
+Fall with me<br>
+But could the lips of God grace a withered fruit?</p>
+
+        <h1 id="s3" class="lyrics-test">-Dying In Circles-</h1>
+        <p class="lyrics-test-test">Beside the shadow of a frozen chapel<br>
+Under the marriage of the cross and crown<br>
+Outside the privilege of the "chosen ones"<br>
+The image of God is sleeping on the ground<br>
+<br>
+Spires pierce the sky like steel through your hands<br>
+Planks from our eyes plunged in your side<br>
+Water poured out but we want wine<br>
+You said, "Take and remember" but we always forget<br>
+<br>
+To the outcast sons, to the sojourners, descendants of loss<br>
+I'll hold my breath until you can breathe<br>
+To truly live I must begin anew and be consumed<br>
+Make a heart of flesh from these hollow stones<br>
+I'm learning what it means to trade my certainty for awe<br>
+<br>
+When you fell to your knees to wash my feet<br>
+Did you see the trampled shadows stained underneath?<br>
+Did you hear the acrimony<br>
+Perpetuated by the puppet sewn to the pulpit?<br>
+<br>
+We forgot your life and became a people of death<br>
+Spellbound by the celibate spectacle, inhabiting mausoleums<br>
+<br>
+We are the eulogy at the funeral of God<br>
+To the outcast sons, to the sojourners<br>
+Descendants of loss: be consumed<br>
+I'll hold my breath, to truly live we must begin anew<br>
+Trade your certainty for awe</p>
+
+        <h1 id="s4" class="lyrics-test">-Understanding Love As Loss-</h1>
+        <p class="lyrics-test-test">Searching for solace in a toxic temple<br>
+Fragments of lead climbing through your head<br>
+Stones load your coat as you wade through the winter current<br>
+Dancing with the dead on the riverbed<br>
+Wanton hanging of the wise pale king<br>
+And I see myself<br>
+<br>
+Here we dream in a bed of seamless sleep<br>
+The rain never wakes you (From your descent)<br>
+Sinking through subtle waves that disguise the current down below<br>
+You're pulled in the undertow<br>
+<br>
+Intricate, I watched the world dance inside your head<br>
+Ephemeral, everything created must expire<br>
+Misery, losing hope for a dying world<br>
+Or did we lose hope in ourselves, my ineffable?<br>
+<br>
+Words lose sound<br>
+With every fathom (Further down)<br>
+<br>
+Torn between two worlds<br>
+Floundering in a state of metaxis<br>
+One is waning one is dead<br>
+In both we feel too much, we feel too much<br>
+<br>
+Intricate, I watched the world dance inside your head<br>
+Ephemeral, everything created must expire<br>
+Misery, losing hope for a dying world<br>
+Or did we lose hope in ourselves, my ineffable?<br>
+<br>
+Most nights we merge into one dream<br>
+You mouth that four word sundering<br>
+Soundless but somehow deafening<br>
+"I can't go on"<br>
+<br>
+I'll strain my voice to make you relent<br>
+But the tide holds me in my dissent<br>
+We're bound to each other in the undertow<br>
+You were my ineffable</p>
+
+        <h1 id="s5" class="lyrics-test">-Tout Comprendre-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s6" class="lyrics-test">-Panic Room-</h1>
+        <p class="lyrics-test-test">Lustrous lines obscured by opaque blinds<br>
+Frozen metacarpals tap, tap, tap the window glass<br>
+Syncopated staccatos with the broken clock<br>
+Synchronized with my post-traumatic ticks, ticks<br>
+<br>
+Talking to the space in the room<br>
+That echoes back indiscernibly to my disconnected self, self<br>
+It's self-consuming, what's ensuing is my undoing<br>
+The nightly casualty of war<br>
+<br>
+And it sounds like this: War, endless war<br>
+<br>
+In my endless dance with entropy<br>
+I must rescind my sentience; the sickness that I know<br>
+<br>
+Rearrange the disarray<br>
+Of disintegrated senses<br>
+Puzzle pieces, spectral splinters<br>
+Of a soldier's worn and tattered soul<br>
+<br>
+In my endless dance with entropy<br>
+I must rescind my sentience; the sickness that I know<br>
+<br>
+Machines of air looking down on us<br>
+The beasts of dust as we grapple heel and hand<br>
+Mud and sand, blood red oil<br>
+The chaff of the harvest<br>
+<br>
+Converted to currencies of wealthy means<br>
+Stepping stones cut from our perforated bones<br>
+Riches are reaped beside our bodies<br>
+Sown just to be thrown back again<br>
+<br>
+And forgotten if we stumble in, laid inside a homeless nest<br>
+Stuck with eager dirty needles, shipped to an early steeple<br>
+Where boxes close; descend with grace<br>
+As you defend yourself, both charitable and chaste<br>
+<br>
+Praise me for my valor, lay me on a crimson tower<br>
+Justify my endless terror as my "finest hour"<br>
+Treat me as a token to deceive the child<br>
+Whom we fatten for this scapegoat slaughter<br>
+<br>
+I learned to fight, I learned to kill, I learned to steal<br>
+I learned that none of this is real, none of this is real<br>
+None of this is real, none of this is real<br>
+But there's a war inside my head<br>
+<br>
+Beleaguered by my breathing, choking, screaming, heaving<br>
+Time drags me back to the desert (This is war)<br>
+A child stumbles from the wreckage holding his salvation<br>
+The trigger to cessation (To end us all)<br>
+<br>
+I took a life that takes mine<br>
+Every quiet moment we collapse<br>
+Have you forsaken us?<br>
+All the darkness comes alive<br>
+Take my hand, drag me to the void</p>
+
+        <h1 id="s7" class="lyrics-test">-REDIVIDEЯ-</h1>
+        <p class="lyrics-test-test">"I am autonomous," You told Father<br>
+First immortal but now fleeting<br>
+All creation reveals me about this said time<br>
+Called Death, cursed the reverse<br>
+All we bought was brokenness<br>
+<br>
+That shelter of illusion<br>
+<br>
+You see me see You splitting myself even<br>
+There is me, forgiving nothing<br>
+Manic then depressive; helplessly sinking<br>
+Sister Moon, Brother Sun<br>
+<br>
+Eclipsed one another<br>
+Forgiving one another<br>
+<br>
+Tides receding<br>
+Death ran away then life flooded in world<br>
+This I am: imbalanced<br>
+Beautifully so, hands connected, perhaps<br>
+Then dead reflections saw You<br>
+I did, didn't I?<br>
+<br>
+I didn't, did I?<br>
+You saw reflections dead then<br>
+Perhaps, connected hands<br>
+So beautifully imbalanced: am I this world?<br>
+In flooded life then ran away Death<br>
+(Receding tides)<br>
+<br>
+Another one forgiving, another one eclipsed<br>
+Sun Brother, Moon Sister, sinking helplessly<br>
+Depressive then manic, nothing forgiving me<br>
+Is there even myself, splitting? You see me see You<br>
+<br>
+Illusion of shelter: that brokenness was bought<br>
+"We all reverse the cursed death called time," said this about me<br>
+Reveals creation, all fleeting now but immortal<br>
+First Father told You, "Autonomous am I"</p>
+
+        <h1 id="s8" class="lyrics-test">-Nervosa-</h1>
+        <p class="lyrics-test-test">Look straight through me, look at the nightmare<br>
+Our past is but a dream that we're trying to escape<br>
+Trying to evade to erase ourselves<br>
+Look through me and see the advent of our obsessions<br>
+Behold, your child; perfection; a rotting shell of atrophy<br>
+<br>
+Watching crowds like crows<br>
+We furiously flock to tragedy<br>
+Observe the hurt then hasten back<br>
+To our peaceful, quiet nests of blasphemy<br>
+<br>
+Scapegoat, rather die and know<br>
+Drag your failing body in tow<br>
+Witnessing the wake<br>
+Conflagrate the ready oil at the stake<br>
+<br>
+Binging, the culmination of purging<br>
+What our lusts have borne<br>
+We hoarded all the world<br>
+To find we'd lost any semblance of ourselves<br>
+<br>
+This dying dance<br>
+<br>
+I am not my own reflection<br>
+I am not myself, I am not myself<br>
+No, I am haunted by a non-existent lover<br>
+The spectre, the ghost, the soul-starving host<br>
+I am haunted by a non-existent lover<br>
+I was gifted with the vision but cursed to be the witness<br>
+(Invisible to me)<br>
+<br>
+I'll be pale to match the walls<br>
+And warped to trace the beams<br>
+Flushed to fit across the floor<br>
+So you can step right over me<br>
+Scouring this filthy slate<br>
+These crooked bones they won't break straight<br>
+Cracked and splintered like our house<br>
+Upended by that first summer squall<br>
+<br>
+Fading, so thin, you could snap me into the shape you need<br>
+Gaunt enough to slide through that wedding dress<br>
+Then stitch me to a fraying matrimony<br>
+Embalmed inside a never-ending ceremony<br>
+<br>
+I am not my own reflection<br>
+I am not myself, I am not myself<br>
+No, I am haunted by a non-existent lover<br>
+The spectre, the ghost, the soul-starving host<br>
+I am haunted by a non-existent lover<br>
+I was gifted with the vision but cursed to be the witness<br>
+<br>
+Invisible to me<br>
+Invisible to me<br>
+Invisible to me</p>
+
+        <h1 id="s9" class="lyrics-test">-C'Est Tout Pardonner-</h1>
+        <p class="lyrics-test-test">[Instrumental]</p>
+
+        <h1 id="s10" class="lyrics-test">-Orphan-</h1>
+        <p class="lyrics-test-test">Respective perspectives worshipping directives<br>
+Blindly killing for our dogma until our sons meet in the garden<br>
+<br>
+Torches scald the night sky<br>
+The youth rise up and set their elders to the gallows<br>
+Fire in the lighthouse<br>
+All our advances, a spark away from conflagration<br>
+<br>
+In the night I saw you fall, oh wicked star<br>
+Illuminate our hate, show us who we really are<br>
+<br>
+Books were burned away, only swords remained<br>
+The prophets died for peace, stabbed by preying priests<br>
+As the wise man said, I'll keep my heart and lose my head<br>
+Without a neck how can I sink<br>
+With a millstone to the bottom of the sea?<br>
+<br>
+The bottom of the sea<br>
+And I'm finding the violence, it looks like me<br>
+<br>
+Singing songs of life when all we know is death<br>
+A world of orphans left empty-handed<br>
+If love's a sin I'll become a heretic<br>
+<br>
+Recurring intervention<br>
+Framing the narrative to cleanse our tainted conscience<br>
+Harvesting destruction<br>
+Reaping the sow from weapons planted in the soil<br>
+<br>
+Terrified little son<br>
+Encumbered by your sword<br>
+You can hide your fear but won't shed the sheer<br>
+Weight of your own humanity, humanity<br>
+You can face me towards the mountains<br>
+Where I meet our mother's gaze<br>
+Too blinded by this hatred<br>
+To recognize your brother's face<br>
+<br>
+Singing songs of life when all we know is death<br>
+A world of orphans left empty-handed<br>
+<br>
+I'll collapse, head parting from my weary shoulders<br>
+Seeds of life spilling from my palms<br>
+Subverting love will take hold in this hateful soil<br>
+My blood is the water, inshallah, shalom<br>
+<br>
+Love will take hold</p>
+
+        <h1 id="s11" class="lyrics-test">-No Place To Breathe-</h1>
+        <p class="lyrics-test-test">I saw you stumble out from the social<br>
+slaughter house<br>
+Oppression's progeny, you lift your head and plead for mercy<br>
+Rocks began as building blocks until they turned to throwing stones<br>
+A monolith of dominance we set atop your plinth of bones<br>
+<br>
+This privilege is a prism, reflecting our indecision<br>
+The iniquities of inhibition, our indifference gave way to a prison<br>
+Classes at war, castes are born, criminals are sworn in<br>
+<br>
+Place your hands to the pulse of this city<br>
+Keep your ear to the ground, hear her gasp<br>
+"I can't breathe, I can't breathe"<br>
+Are we so blind to believe that violence could give birth to peace?<br>
+<br>
+Lay down our weapons and raise our arms<br>
+Make every breath a protest<br>
+In a world where your neighbors cannot breathe<br>
+<br>
+Every second in the shadows, lives are stolen in the sun<br>
+Slowly waking from our apathy to see the fascists have won<br>
+They already won; just ask the child in front of the smoking gun<br>
+<br>
+Are we so blind to believe that violence could give birth to peace?<br>
+<br>
+Place your hands to the pulse of this city<br>
+Keep your ear to the ground, hear him gasp<br>
+"I can't breathe, I can't breathe"<br>
+We shout at fascist hands fixed on asphyxiating those in need<br>
+<br>
+Place your hands to the pulse of this city<br>
+Keep your ear to the ground, hear them gasp<br>
+"I can't breathe, I can't breathe"<br>
+Are we so blind to believe that violence could give birth to peace?<br>
+<br>
+I've seen the end, the tyrant on his knees<br>
+Will we starve our need for retribution<br>
+Or take his eye and all go blind?</p>
+
+        <h1 id="s12" class="lyrics-test">-First Father-</h1>
+        <p class="lyrics-test-test">Do you remember when I said<br>
+You'd never feel the sting of death?<br>
+But now I'm waiting where you left<br>
+Beside that snow-kissed clearing<br>
+<br>
+I pressed a seed through that frozen fleece<br>
+The earth embraced you in the ground<br>
+No invention of my mind<br>
+Will ever compose a melody so profound<br>
+<br>
+I'm a priest afraid to pray<br>
+Terrified at what the silence couldn't say<br>
+Tongue tethered to the skeptic beating in my chest<br>
+<br>
+We're no longer quite ourselves<br>
+Nor reflections of someone else<br>
+Lover, do you feel that tension<br>
+As we drift between silence and eternity?<br>
+<br>
+Death is the road, road to awe<br>
+<br>
+I stood atop the world<br>
+It's asymmetry laid bare in front of me<br>
+Thanatophobic societies<br>
+Taking life to mourn their tragedies<br>
+<br>
+I feared this world would never change<br>
+But you steady your resolve anyway<br>
+Let's set the pen against the sword<br>
+How orphans long for peace before they learn to love the war<br>
+<br>
+Perhaps it's our language<br>
+Perhaps we are incomplete<br>
+Words like shadows to what we see<br>
+Faint flickerings across the cavern in our minds<br>
+<br>
+Candles in the dark<br>
+Defiant to the night<br>
+<br>
+"You pulled me through time", through the edgeless night<br>
+I learned to love as you learned to die<br>
+I'll begin to feel again<br>
+And finish the chapter you couldn't write<br>
+<br>
+Candles in the dark<br>
+Defiant to the night<br>
+Defiant to the shadow<br>
+<br>
+You pull me through time, through the edgeless night<br>
+I learned to love as you learned to die</p>
+
+        <h1 id="s13" class="lyrics-test">-Inhabit The Wound-</h1>
+        <p class="lyrics-test-test">My son, my son<br>
+Borne from the war, we trade shovels for swords<br>
+My son, my son<br>
+Inherit the earth, inhabit the wound<br>
+<br>
+Oh, how far we fall<br>
+We fall<br>
+<br>
+My love, my love<br>
+Captive to lusts: consumed<br>
+My love, my love<br>
+Buried beneath the vile machine<br>
+<br>
+The earth with a final gasp shook free from our inventions<br>
+Grace and nature reconciled, I heard, "It is finished"<br>
+The final seal was broken, the concussion blew me back<br>
+I teetered on the edge of recreation and the wrath<br>
+<br>
+Nine Lovers stumbled out from their shells of brokenness<br>
+They reached inside their wounds<br>
+To find the seeds borne from their suffering<br>
+Coalesce upon me to plant the tree of life<br>
+Inside the heart of the machine<br>
+<br>
+Reach inside, heal the wound<br>
+Make us whole</p>
+      </div>
+    </div>
+
+    <div class="lyrics-layout">
+      <div class="lyrics-layout_image">
+        <img id="third" class="lyrics-page_image" src="./images/whenthe.jpg" height= "100%" width="auto"/>
+      </div>
+      <div class="lyrics-page_album-title_wrap">
+        <h1 class="lyrics-page_album-title">When The End Began - 2018</h1>
+      </div>
+        <div class="lyrics-page_album-songs">
+          <h1 id="t1" class="lyrics-test">-Thus Spoke-</h1>
+          <p class="lyrics-test-test">Two years lost in a lightless sleep<br>
+Not a star in sight since the Fall of the Machine<br>
+Creation and invention collide to provide<br>
+A gap in existence, a ripple in time<br>
+<br>
+As matter collapsed, I fell inside<br>
+Crossing in a distant, deathless, dimensional divide<br>
+Where the sum of gravity granted passage and bowed<br>
+The night God slept, everything was sound<br>
+<br>
+When the end began, when the end began<br>
+When the end began, when the end began<br>
+When the end began, when the end began<br>
+When the end began, when the end began<br>
+<br>
+When the end began, when the end began<br>
+When the end began, when the end began<br>
+When the end began, when the end began<br>
+When the end began, when the end began</p>
+
+          <h1 id="t2" class="lyrics-test">-The New Eternity-</h1>
+          <p class="lyrics-test-test">Mother, tell me,<br>
+why do the waters make us sick?<br>
+Who bleeds the heavens, making the clouds rain pestilence?<br>
+Dropping fever like manna from the morning sky<br>
+Gather your children and hold them as they die<br>
+<br>
+Panic humming in the palm of my hand<br>
+Silent vectors injected with the curse of man<br>
+Bodies dissected, heartbeats redirected<br>
+The past was dead, why did we resurrect it?<br>
+<br>
+Strange fruit grows on the vine of humankind<br>
+Beneath a bright synthetic sky, I saw the future die<br>
+<br>
+A web of wires in our mind<br>
+Weaves an empire down our spine<br>
+I fear we've sealed our fate<br>
+There's no escape, there's no escape: The New Eternity<br>
+<br>
+Strange fruit is growing on the vine<br>
+Beneath a bright synthetic sky<br>
+I fear we've sealed our fate<br>
+There's no escape, there's no escape: The New Eternity<br>
+<br>
+Germinating extinction<br>
+<br>
+The people unite when you dose them with fear<br>
+Relinquish their will, let their objections disappear<br>
+Crowds galvanized by vapid words and septic slurs<br>
+Utterly transfixed by the fiction of the "greater good"<br>
+<br>
+Estranged in this age, we set sail to the stars<br>
+Return to the earth, still unaware of who we are<br>
+We've come too far, we've come too far, we've come too far, it's all I know<br>
+The darkness didn't die, no, we brought it home<br>
+<br>
+I sowed a secret deep in the earth<br>
+But despite the world, it grew<br>
+I knew all things could be made new<br>
+All things will be made new<br>
+<br>
+A web of wires in our mind<br>
+Weaves an empire down our spine<br>
+I fear we've sealed our fate<br>
+There's no escape, there's no escape: The New Eternity<br>
+<br>
+Strange fruit is growing on the vine<br>
+Beneath a bright synthetic sky<br>
+I fear we've sealed our fate<br>
+There's no escape, there's no escape: The New Eternity<br>
+<br>
+Cross the Great Divide and see<br>
+Light and Dark collide in me<br>
+Shake the shroud of secrecy<br>
+Uproot the grim hegemony<br>
+<br>
+The New Eternity</p>
+
+          <h1 id="t3" class="lyrics-test">-Northern Fires (Guernica)-</h1>
+          <p class="lyrics-test-test">Ration my breath,<br>
+terror clandestine in my chest<br>
+Mangled, I lay on a foreign forest floor<br>
+Caught in an instant, divided by distance<br>
+Alone in the fray, clutching my trigger, I pray<br>
+As I make amends with death on a distant shore<br>
+<br>
+Such is the fate of the nation state<br>
+Despite the myths they propagate<br>
+The narrative never fits the crime<br>
+Democracy's died this death a thousand times<br>
+<br>
+The masses kneel before the golden cross<br>
+Held by the priest who bows at the feet of the king<br>
+<br>
+We stand alone in the dust of what could be<br>
+Fighting to find our humanity<br>
+<br>
+Bury me with my name in an unmarked grave<br>
+Another casualty to the vanity of history<br>
+The war marches on after the killing ends<br>
+Take our lives, colonize our minds<br>
+<br>
+I've been digging through timelines, historical bylines<br>
+I find the fatal flaw in our design lies<br>
+Between thoughts we had and words we knew<br>
+Between what we're told and what is true<br>
+<br>
+Who fuels the fascist? A classist<br>
+Inculcating the masses in passes<br>
+Under the contrived countenance of contrition<br>
+<br>
+The victor writes the story, more often burns the manuscript<br>
+Set fire to a pyre, cremate the crimes that they commit<br>
+But the flames kept us warm<br>
+So we bit our tongues and tasted scorn<br>
+<br>
+The bitter stench of finite men<br>
+Betrayed by the thieves they swore to defend<br>
+The bell will toll and in the end<br>
+Lay only echoes of what could have been<br>
+<br>
+We stand alone in the dust of what could be<br>
+Fighting to find our humanity<br>
+We stand alone in the dust of what could be<br>
+Nothing we fought for will set us free<br>
+<br>
+Throw myself headlong to the jaws of the beast<br>
+The war machine that feeds for eternity<br>
+Throw myself headlong to the jaws of the beast<br>
+The war machine that turns for eternity<br>
+<br>
+Throw myself headlong to the jaws of the beast<br>
+The war machine that feeds for eternity<br>
+Throw myself headlong to the jaws of the beast<br>
+The war machine that turns for eternity</p>
+
+          <h1 id="t4" class="lyrics-test">-Afterdusk-</h1>
+          <p class="lyrics-test-test">First the auspices,<br>
+they came dripping from the sky<br>
+Set their course to the coast, black sand blazing in their eyes<br>
+We woke and bore witness to a tarnished veil of gold<br>
+Tiny corpses line the strand, obsolescence unfolds<br>
+<br>
+Intravenously, hypodermic pipelines seep toxins to the sea<br>
+Adorning our shores with negligence<br>
+Suffocate, immolate, cauterize the surface<br>
+Poison dances in the sky<br>
+<br>
+Walk with me, walk with me and see<br>
+Our colonies breeding dystrophy<br>
+Can you feel, feel the disconnect<br>
+Resonate, burn inside your chest?<br>
+<br>
+Palpitating, palpitating pulse<br>
+Failing heart, cardiac convulse<br>
+The violence we love, it's cyclical<br>
+We rise and we fall, it's inevitable<br>
+<br>
+Is it fatal?<br>
+Is the fallout inevitable?<br>
+"It was all for nothing"<br>
+Spiraling out of control<br>
+<br>
+Misdirected decathect, both indirect and circumspect<br>
+Oh architect of disconnect, in retrospect I now suspect<br>
+<br>
+Trace the hills with your hungry eyes<br>
+Witness how, like an orphan's spine<br>
+Cities protrude on the horizon line<br>
+Greed will rise and carve out the sky<br>
+Blinding us to the repercussion<br>
+<br>
+Pull the blood from the earth<br>
+Leave a grave for your sons<br>
+Oil is the ink, fueling missiles like pens<br>
+Writing oblivion<br>
+<br>
+Walk with me, walk with me and see<br>
+Our colonies breeding dystrophy<br>
+Can you feel, feel the disconnect<br>
+Resonate, burn inside your chest?<br>
+<br>
+Palpitating, palpitating pulse<br>
+Failing heart, cardiac convulse<br>
+The violence we love, it's cyclical<br>
+We rise and we fall, it's inevitable<br>
+<br>
+Is it fatal?<br>
+Is the fallout inevitable?<br>
+"It was all for nothing"<br>
+Spiraling out of control<br>
+<br>
+Is it fatal?<br>
+Is the fallout inevitable?<br>
+"It was all for nothing"<br>
+Spiraling out of control<br>
+<br>
+This violence we love, it's cyclical<br>
+We rise and we fall, it's inevitable<br>
+The violence we love, it's cyclical<br>
+We rose just to fall<br>
+<br>
+I followed the harm to the site of infection<br>
+The exit wounds where we made our home<br>
+We were gorged with the earth and drunk off the seas<br>
+And now we die with the taste of decay on our tongues</p>
+
+          <h1 id="t5" class="lyrics-test">-Visible Unseen-</h1>
+          <p class="lyrics-test-test">Speak to me<br>
+In a language only Lovers can understand<br>
+Dance with me<br>
+In a rhythm only Lovers can comprehend<br>
+<br>
+One fist gripping defiance<br>
+Other cradling the sacred inside of our hands<br>
+Pariah<br>
+<br>
+It's the pain of becoming<br>
+Confronting what stirs within<br>
+I wanted to show you apocalypse<br>
+So you could see just how this ends; as it begins<br>
+<br>
+No place to rest your head<br>
+No respite for an anathema<br>
+Banished for the sin of honesty<br>
+From the citadel of little hidden hells<br>
+<br>
+Pyroglyphic, I saw Your face inside the fire<br>
+Monolithic, a dominance that dictates desire<br>
+Ultimatum, dual damnations dichotomize me<br>
+Suffocation, crushed beneath holy hypocrisy<br>
+<br>
+This isn't love, this is escape<br>
+Exiled into the night<br>
+Left to navigate a world that negates our needs<br>
+The Visible Unseen<br>
+<br>
+You're the weight I'll always carry<br>
+Through a world so cold, you'll never walk alone<br>
+We will find a place to lay our heavy heads<br>
+These lonely roads will always lead you home<br>
+<br>
+Am I only flawed when I am alive<br>
+Only Your child if I live denied?<br>
+I ask of You, Benevolence<br>
+Was I made just to be broken?<br>
+<br>
+Our faith became a silver shield<br>
+Insulated from compassion<br>
+Praising the prosperity<br>
+Repressing their identity<br>
+<br>
+I'll show you hell is a place<br>
+It's in the secrets we keep<br>
+Oh God, how those secrets keep me<br>
+This isn't love, this is escape<br>
+<br>
+This isn't love, this is escape<br>
+Coerced conformity<br>
+Fixed on the dust in their eye<br>
+Forest fires rage in mine<br>
+<br>
+I never thought to ask<br>
+When you said she was asleep, did you hear my disbelief?<br>
+The bitter irony<br>
+That I wait for God as she dies beside me<br>
+<br>
+You're the weight I'll always carry<br>
+Through a world so cold, you'll never walk alone<br>
+We will find a place to lay our heavy heads<br>
+These lonely roads will always lead you home<br>
+<br>
+We found our place in the disconnect of neglect<br>
+These lonely roads will always lead you home<br>
+Until our paths converge, give me eyes to see the Visible Unseen<br>
+These lonely roads will always lead you home<br>
+<br>
+Speak to me<br>
+In a language only Lovers can understand<br>
+One fist gripping defiance<br>
+Other cradling the sacred inside of our hands</p>
+
+          <h1 id="t6" class="lyrics-test">-Look Outside: Dream-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t7" class="lyrics-test">-Vanity Of Sleep-</h1>
+          <p class="lyrics-test-test">This is a love affair with consumer despair<br>
+An emptiness I can call my own<br>
+An arbitrary sanctuary<br>
+Where we deposit prayers to a dispensable God<br>
+<br>
+Welcome to the end stage age<br>
+Where joy is a pill and love's a prescription<br>
+Vaccinated with an outward suspicion<br>
+Isolation became our pre-existing condition<br>
+<br>
+Manifested drudge of my<br>
+Mass-manufactured consent<br>
+But there's a gaping hole in my consciousness<br>
+A deep that cries out to deep<br>
+<br>
+This is a love affair with consumer despair<br>
+An emptiness I can call my own<br>
+An antidote for mystery<br>
+Our indifference is deafening<br>
+<br>
+(אהיה אשר אהיה)<br>
+There's a presence here, it stirs inside the static dissonance<br>
+Of discontent that refused to relent<br>
+<br>
+I built a home overlooking a graveyard<br>
+To remind myself I'm still alive<br>
+Yet you see a flaw still abides<br>
+As I witness an ending that I can't contrive<br>
+<br>
+We watched a golden array of a casket parade<br>
+As wealth makes its final display to the ground<br>
+I found it strange, that even in this place<br>
+Death became such a gainful exchange<br>
+<br>
+Give me something to hold, give me something that bleeds<br>
+I'll scour the earth for my identity<br>
+Is there a cure for a sick society?<br>
+<br>
+So rich in this world, so in debt to ourselves<br>
+The network of life in such a disconnect<br>
+How many times must we die this death?<br>
+<br>
+Annihilation is all we are<br>
+Desolation is everything I know<br>
+<br>
+All we are is all we love<br>
+And everything I know is destructible<br>
+Artificial heart, obsidian soul<br>
+Encircled by dreams that are combustible<br>
+<br>
+We trade the Garden for Cities, the Tree for a Tower<br>
+Surrendered our faith, became addicted to power<br>
+I know that hope grows inside of the Wound<br>
+And I know progress is empty, I must Be Consumed<br>
+<br>
+So I'll dig through these masks till I find my face<br>
+Separate from the false pretense I embraced<br>
+It kills me to know that you'll never find peace<br>
+You can have all the world but you'll never be free<br>
+<br>
+Tear the stitches sewn across my existence<br>
+Cut me out from this nothingness<br>
+Dusk will come and lay to rest<br>
+Our fleeting, fading silhouettes</p>
+
+          <h1 id="t8" class="lyrics-test">-In Absence-</h1>
+          <p class="lyrics-test-test">Find me in the silence,<br>
+tell me where I've been<br>
+The air is growing colder, the clouds are caving in<br>
+I lost the sound of your voice in the winter sun<br>
+I dreamed that dawn would wake us but morning never comes<br>
+<br>
+I watched you go away<br>
+I watched the colors fade<br>
+I can't bear the pain of losing yesterday<br>
+To a world of grey<br>
+<br>
+I found you in the shadows, following a ghost<br>
+I thought you felt my presence but we were still alone<br>
+Where do you turn when the corners of the room run from you?<br>
+And how it burns to be a memory lost in a mind you never knew<br>
+<br>
+I watched you go away<br>
+I watched the colors fade<br>
+I can't bear the pain of losing yesterday<br>
+To a world of grey<br>
+<br>
+My fading sunset<br>
+Swaying precarious in the sand<br>
+Every grain a lingering moment<br>
+Slipping through the cracks in my hand<br>
+<br>
+Disintegrating in the predawn light<br>
+A memory eroded by time<br>
+I'll turn with your reversing clock<br>
+And describe the color when you can't see the sunrise<br>
+<br>
+I watched you go away<br>
+<br>
+I watched you go away<br>
+I watched the colors fade<br>
+I can't bear the pain of losing yesterday<br>
+To a world of grey</p>
+
+          <h1 id="t9" class="lyrics-test">-Share The Body-</h1>
+          <p class="lyrics-test-test">Watching from the bottom of a stranger's mind<br>
+Vicarious life, chemical divide<br>
+The epidemic of our time<br>
+A voluntary genocide<br>
+<br>
+He's wielding a needle, it's laced with ambition<br>
+Set on finding forever, blacking out the friction<br>
+She's clutching a bottle; conscripted prescription<br>
+Deaf to my dissent, void of all volition<br>
+<br>
+Injecting fire straight into the vein<br>
+Nothing will cauterize the wound where I remain<br>
+Ingesting tiny stars, one by one<br>
+One by one, I come undone<br>
+<br>
+Passenger to my own life<br>
+Trapped inside, fastened to the vice<br>
+Fading out, fading away<br>
+Burning in a bliss you can't sustain<br>
+<br>
+Am I a hedonist or solipsist?<br>
+Barbiturate tourniquets<br>
+Drip, drip; a sycophant's sea of delusion<br>
+Drowning in an empty conclusion<br>
+<br>
+Come shoot me up into the night<br>
+<br>
+Blood Moon; the shadow in my skin<br>
+The window of my soul was sealed but I'll still let you in<br>
+Blood Moon; shiver through my mind<br>
+Only the need is real, feel whatever I can to ensure I can't feel<br>
+<br>
+All the hell in my veins<br>
+Can't dissipate the pain<br>
+All the hell in my veins<br>
+Won't wash away your face<br>
+<br>
+So let us go then, you and I<br>
+Watch the sky drift into sleep, etherized<br>
+Collapsing stars, condemned to their cosmic graves<br>
+Bleeding light for the gain of some far off race<br>
+<br>
+The fog hangs like thieves, there must be guilt in these streets<br>
+Place your hand on my wrist, it's not like we'll be missed<br>
+Do I dare shake the need from our skin?<br>
+Do I dare rattle the rust corroding me within?<br>
+<br>
+The lechery, the treachery, oh come, Love, sit next to me<br>
+This anatomy is built like tragedy<br>
+Don't you know me by these scars, these marks where I are?<br>
+I mean I am, I mean I was, I was supposed to be someone<br>
+<br>
+Blood Moon; the shadow in my skin<br>
+The window of my soul was sealed but I'll still let you in<br>
+Blood Moon; shiver through my mind<br>
+Only the need is real, feel whatever I can to ensure I can't feel<br>
+<br>
+Every fix is a prayer, every high a sacrifice<br>
+We worship desire at the altar of dependence<br>
+<br>
+I hit the bottom then it hit me back<br>
+<br>
+Incarnation of society<br>
+"The face of evil is the face of need"</p>
+
+          <h1 id="t10" class="lyrics-test">-Firstborn (Ya'aburnee)-</h1>
+          <p class="lyrics-test-test">You bury me<br>
+<br>
+Glass clouds shed their autumn skin<br>
+Kiss the mourning stems as they bow to the wind<br>
+Heads hung like wartime mothers<br>
+As the congregants struggle to console one another<br>
+<br>
+We're bandaged together, soothing the surcease<br>
+Huddled inside the fog, beneath the barren trees<br>
+Budding youth, unfettered by absolutes<br>
+Do branches wither first when there's blood on the roots?<br>
+<br>
+Can you stretch a moment into a thousand?<br>
+"Away from the quiet collapse of it all"<br>
+I know the Know who knows you, I see the See who sees you<br>
+I'll follow you into forever<br>
+<br>
+I memorized your pain<br>
+I put my thoughts inside your name<br>
+Little Light, can't you see?<br>
+You're supposed to be the one who buried me<br>
+<br>
+I tried to stop the flood<br>
+I tried to pull you from the tide<br>
+Now you paint the sky with distant fire<br>
+<br>
+The room lay quiet, sowing silence<br>
+Watching lifelines stream through wilting arteries<br>
+Dreams crash with awe behind your roving eyes<br>
+How I envy the calm that occupies your mind<br>
+<br>
+Drifting just above the flatline<br>
+That keeps your thoughts displaced from mine<br>
+I can't divert the current<br>
+I divide and wash ashore<br>
+<br>
+I'll try to write you to rest<br>
+Plant you inside my prose<br>
+Yet my resolve, does it shake<br>
+Beneath a four foot casket shadow<br>
+<br>
+The ink has spilled across the page<br>
+Shaping surviving sun to shade<br>
+Valleys and peaks, in grief<br>
+Descend into a ceaseless sleep<br>
+<br>
+See how the night unfolds<br>
+Constellations welcome you home<br>
+Adrift in the river beyond our memories<br>
+You bury me<br>
+<br>
+I memorized your pain<br>
+I put my thoughts inside your name<br>
+Little Light, can't you see?<br>
+You're supposed to be the one who buried me<br>
+<br>
+I tried to stop the flood<br>
+I tried to pull you from the tide<br>
+Now you paint the sky with distant fire<br>
+<br>
+I memorized your pain (I memorized your pain)<br>
+I put my thoughts inside your name (Thoughts inside your name)<br>
+Little Light, can't you see? (Can't you see?)<br>
+You're supposed to be the one who buried me (You bury me)<br>
+<br>
+I tried to stop the flood (You bury me)<br>
+I tried to pull you from the tide (You bury me)<br>
+Now you paint the sky with distant fire<br>
+<br>
+(You bury me)</p>
+
+          <h1 id="t11" class="lyrics-test">-Lower Empire-</h1>
+          <p class="lyrics-test-test">Bind the wrist, cut the tongue,<br>
+call it Liberation<br>
+Bind the wrist, cut the tongue, call it Liberation<br>
+<br>
+Invader, you dare make me a stranger<br>
+Invader, you brand me as a traitor<br>
+<br>
+These borders were forged in loss<br>
+Painted with a martyr's forgotten blood<br>
+Legions of stone infecting the land<br>
+Legions we carved into the palm of God's hand<br>
+<br>
+Stigmata cities stitched together with wails intent<br>
+On sanitizing the sedition of our dark traditions<br>
+We begin with the purest of intentions<br>
+Then fabricate the cruelest inventions<br>
+<br>
+Interpret the subtext: S-O-S<br>
+Euthanized with euphemistic lies<br>
+Populace of blank binary minds<br>
+Appetite for endless apathy<br>
+<br>
+Breathing in, in insecurity<br>
+<br>
+Until you see your reflection through the scope of a weapon<br>
+Nothing will ever change<br>
+A revolution stirs in the silence<br>
+The movement defies this negative space<br>
+<br>
+I hear you through the noise<br>
+The truth that speaks in silence<br>
+Scale the divides we devise<br>
+We locked out thee world but we're locked inside<br>
+<br>
+I hear you through the noise<br>
+The hope sung from the margins<br>
+My heartbeat just a step behind<br>
+I didn't know your name but I knew we were out of time<br>
+<br>
+Nuclear families split apart like the atom<br>
+Demagogues proliferate the calloused grip of the state<br>
+The future asphyxiates under nativist suspicions<br>
+Insipid minds, domestic fission<br>
+<br>
+Bind the wrist, cut the tongue, call it Liberation<br>
+Bind the wrist, cut the tongue, call it Liberation<br>
+<br>
+Thirteen, cold as a stillborn<br>
+Wounds still warm in his chest<br>
+Behold the crimson lens, peer through the gaps in the flesh<br>
+Bullets raining from Babylon; the price of wealth<br>
+<br>
+How can you resist this cycle<br>
+If you can't resist yourself?<br>
+<br>
+What a world we knew before we fearfully withdrew<br>
+To our silent cells of solitude but still I hear you, I hear you<br>
+<br>
+I hear you through the noise<br>
+The truth that speaks in silence<br>
+Scale the divides we devise<br>
+We locked out thee world but we're locked inside<br>
+<br>
+I hear you through the noise<br>
+The hope sung from the margins<br>
+My heartbeat just a step behind<br>
+I didn't know your name but I knew we were out of time</p>
+
+          <h1 id="t12" class="lyrics-test">-Look Inside: Awake-</h1>
+          <p class="lyrics-test-test">[Instrumental]</p>
+
+          <h1 id="t13" class="lyrics-test">-The Anatomy Of Time (Babel)-</h1>
+          <p class="lyrics-test-test">Certain was the fear trembling in<br>
+your father's chest<br>
+Encountering the ancients in a graveyard for those who never rest<br>
+Even the wind lay still as time<br>
+Revealed the fools we are<br>
+<br>
+Quiet monoliths appear, suspended in the air<br>
+Solemn in their countenance, impervious to fear<br>
+Marveling at the symmetry that binds and brings us here<br>
+Separating threads of space, distinctions disappear<br>
+<br>
+Take all of your answers, throw them in the flames<br>
+I'll keep the questions, I'll take the rain<br>
+Defend all your doctrines, those lies you had sworn<br>
+I'll wander through the night, I'll sleep in the storm<br>
+<br>
+I'll follow you to the end<br>
+I'll weather the world (I'll sleep in the storm)<br>
+I'll follow you to the end<br>
+Where time has no beginning<br>
+<br>
+I pulled the past apart, futures unraveled with its plans<br>
+To my chagrin, the answers felt hollow in my hands<br>
+Adorned with memories that form the tapestry of life<br>
+Collective accounts of consciousness from virtue to vice<br>
+<br>
+"Where are you now?" My voice echoed in that canyon<br>
+I turned to find you lynched, choking with abandon<br>
+The scope of time, at first profuse, now twisted to the shape of a noose<br>
+We wanted to see forever but instead we saw the truth<br>
+<br>
+Species of the nightmare<br>
+People of the dream<br>
+Language is your prison, but also the key<br>
+Confront the heart of fear, behold the shape of destiny<br>
+<br>
+Spinning in the circles, waltz with the sun<br>
+There's no time, many turn to one<br>
+<br>
+Take all of your answers, throw them in the flames<br>
+I'll keep the questions, I'll take the rain<br>
+Defend all your doctrines, those lies you had sworn<br>
+I'll wander through the night, I'll sleep in the storm<br>
+<br>
+I'll follow you to the end<br>
+I'll weather the world (I'll sleep in the storm)<br>
+I'll follow you to the end<br>
+Where time has no beginning
+</p>
+
+          <h1 id="t14" class="lyrics-test">-Depths III-</h1>
+          <p class="lyrics-test-test">I knew one truth and that truth was the sea<br>
+Cold and knowing, it saw the coward in me<br>
+And as the stain of epochs lines my tongue<br>
+I choked heavy on the past, too numb to speak back<br>
+<br>
+We're each abandoned by the hands of time<br>
+That set us down to sail circles across a straight line<br>
+Sister moon, are we all that's left?<br>
+Just a silent satellite and the sigh of flesh<br>
+<br>
+Come down and rest your lunar head on my breast<br>
+Listen to the terror tear at my chest<br>
+Our masts in tatters, oars shattered, feel free to pull me back<br>
+To the vast, unforgiving mass<br>
+<br>
+Should we call this art, my falling apart?<br>
+The tangents of an imbalanced heart<br>
+As matter multiplied, I divide but I digress<br>
+The deprivation is taking effect<br>
+<br>
+You said if I stood against my darkness<br>
+Not all of me would die<br>
+But all I see on the surface is a shadow<br>
+And it occurs to me this could mean suicide<br>
+<br>
+When you went quiet I turned to silence<br>
+Seven sisters draw me back across the moor<br>
+Could you still love me in my leaving?<br>
+Would you remember me by the moments we forgot?<br>
+<br>
+And as the waves slapped at my raft<br>
+I cursed the fate, like our vows, they broke at the bow<br>
+Flanked by the mist, I inhaled the breath of existence<br>
+Then you called me for one last time<br>
+<br>
+I am the wind, the Be and the Still<br>
+I am the Depths, the Immeasurable Will<br>
+And when I awoke in that Garden<br>
+Lord, did you see me as I was dreaming?<br>
+<br>
+I locked eyes with the storm, the sky sank down<br>
+To receive the fury of the sea<br>
+The abolition of my being<br>
+The precipice of eternity<br>
+<br>
+Incandescence burst through the black<br>
+The veil was torn as the void collapsed<br>
+The rains will subside, be my eyes<br>
+Show me hope in the maw of the night<br>
+<br>
+Our fractured pasts fall into one<br>
+A dozen stars collide as a perpetual sun<br>
+And as we disintegrate<br>
+Will you be the Fire that burns in my lungs?<br>
+<br>
+Breathe me in<br>
+Watch me burn<br>
+Come breath me in, breathe me in<br>
+You'll watch me burn</p>
+        </div>
+      </div>
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_dis">All Lyrics and Album Art Are The Property And Copyright Of Their Respective Owners And Are Provided For Educational And Personal Use Only</h1>
+      </div>
+
+      <div class="lyrics-under">
+      <h1 class="lyrics-under_text">Anything Missing? Anything You Want To Add?<br><br>Email: metalmashupcontact@gmail.com</h1>
+      </div>
+
+          <div class="page-finish">
+            <a href="./security.html">Security Statements</a>
+            <a href="./terms.html">Terms of Service</a>
+            <a href="./privacy.html">Privacy Policy</a>
+            <a href="./contact.html">Contact</a>
+          </div>
+
+      </body>
+      </html>
