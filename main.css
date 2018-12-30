@@ -2998,8 +2998,6 @@ max-height: 700px;
   max-height: 500px;
 }
 
-
-
 .community-video{
   height: 30vw;
   max-height: 500px;
@@ -3008,5 +3006,43 @@ max-height: 700px;
 .community-text{
   height: 30vw;
   max-height: 500px;
-  overflow: auto
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.community-text_title{
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #c2c2c2;
+  color: #434543;
+}
+
+.community-text_text{
+  font-size: 16px;
+  font-family: Arial;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  color: #434543;
+}
+
+@media only screen and (max-width: 700px){
+  .community-wrap{
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 20px;
+    max-height: 3000px;
+  }
+  .community-video{
+    height: 50vw;
+  }
+  .community-text{
+    height: 50vw;
+    max-height: 200px;
+  }
 }
