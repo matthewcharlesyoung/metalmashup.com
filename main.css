@@ -1601,6 +1601,7 @@ button:hover{
 .features-page{
   width: 80%;
   margin: 0 auto;
+  max-width: 1700px;
 }
 
 .space{
@@ -1638,6 +1639,8 @@ button:hover{
 
   height: 50vw;
   width: 100%;
+  max-height: 670px;
+  max-width: 1245px;
 }
 
 
@@ -1666,6 +1669,12 @@ button:hover{
   background-position: center;
 }
 
+.feature-img-lords{
+  background-image: url(./images/news-lords.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .feature-text{
   height: 30vw;
   display: flex;
@@ -1683,7 +1692,7 @@ justify-content: center;
   margin-right: 20px;
 }
 
-@media only screen and (min-width: 550px){
+@media only screen and (min-width: 600px){
   .feature-one{
     height: 31.5vw;
     width: 70%;
@@ -1733,8 +1742,16 @@ justify-content: center;
 
   .feature-text{
     height: 15vw;
+    max-height: 160px;
   }
+}
 
+@media only screen and (min-width: 1300px){
+  .feature-text{
+    height: 12vw;
+    max-height: 160px;
+    max-width: 1350px;
+  }
   .feature-text-title{
     font-size: 20px;
   }
@@ -1743,28 +1760,6 @@ justify-content: center;
   }
   .feature-date{
     font-size:14px;
-  }
-}
-
-@media only screen and (min-width: 1300px){
-  .feature-text{
-    height: 12vw;
-  }
-
-  .feature-text-title{
-    font-size: 22px;
-  }
-  .feature-text-text{
-    font-size: 18px;
-  }
-  .feature-date{
-    font-size:16px;
-  }
-}
-
-@media only screen and (min-width: 1700px){
-  .feature-text{
-    height: 10vw;
   }
 }
 
@@ -3197,4 +3192,58 @@ max-height: 700px;
   width: 75%;
   max-width: 900px;
   margin: 0 auto;
+}
+
+.recomendations-title{
+  font-size: 28px;
+  font-family: Arial;
+  font-weight: 400;
+  color: #434d53;
+  border-bottom: 5px solid #c2c2c2;;
+  width: 402px;
+  letter-spacing: 4px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.recomendations-page{
+width: 90%;
+margin: 0 auto;
+}
+
+.recomendations-wrap{
+  height: 40vw;
+  border: 1px solid red;
+  max-height: 400px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.recomendations-img{
+  height: 22.5vw;
+  width: 24.9%;
+  max-height: 250px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: px;
+}
+
+.recomendations-img-panopticon{
+  background-image: url(./images/pano.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.recomendations-text-title{
+  font-size: 26px;
+  font-family: Arial;
+  font-weight: 400;
+  color: #434d53;
+  letter-spacing: 4px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
 }
