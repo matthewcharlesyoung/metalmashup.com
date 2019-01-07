@@ -3214,10 +3214,17 @@ margin: 0 auto;
 
 .recomendations-wrap{
   height: 60vw;
-  border: 1px solid red;
   max-height: 400px;
   max-width: 1000px;
   margin: 0 auto;
+  border-bottom: 1px solid #c2c2c2;
+  border-right: 1px solid #c2c2c2;
+  overflow: auto;
+  margin-bottom: 20px;
+}
+
+.wrap-end{
+  margin-bottom: 0px;
 }
 
 .recomendations-img{
@@ -3226,11 +3233,24 @@ margin: 0 auto;
   max-height: 250px;
   float: left;
   margin-right: 10px;
-  margin-bottom: px;
 }
 
 .recomendations-img-panopticon{
   background-image: url(./images/pano.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.recomendations-img-unfathomable{
+  background-image: url(./images/finitude.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.recomendations-img-1914{
+  background-image: url(./images/1914.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -3246,4 +3266,28 @@ margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
+}
+
+.recomendations-text{
+  font-size: 18px;
+  font-family: Arial;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+  text-align: justify;
+  margin: 2%;
+}
+
+@media only screen and (max-width: 500px){
+  .recomendations-text{
+    font-size: 14px;
+  }
+  .recomendations-text-title{
+font-size: 20px;
+  }
+  .recomendations-title{
+    letter-spacing: 2px;
+    width: 300px;
+    text-align: center;
+    border-bottom: 2px solid #c2c2c2;
+  }
 }
