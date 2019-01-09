@@ -715,9 +715,8 @@ padding-top: 20px;
 .images-wall{
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 0px 5px;
-
 }
 
 .lyrics-title{
@@ -745,9 +744,9 @@ margin-top: 10px;
 }
 
 
-@media only screen and (min-width:800px){
+@media only screen and (max-width:699px){
   .images-wall{
-    grid-template-columns: repeat(3, 1fr);
+    display: none;
   }
 }
 
@@ -1670,7 +1669,13 @@ button:hover{
 }
 
 .feature-img-lords{
-  background-image: url(./images/news-lords.jpg);
+  background-image: url(./images/lords-cast.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.feature-img-rec-jan{
+  background-image: url(./images/recon.jpg);
   background-size: cover;
   background-position: center;
 }
