@@ -3221,7 +3221,6 @@ max-height: 700px;
 .community-text{
   height: 25vw;
   max-height: 478px;
-  overflow: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -3235,6 +3234,7 @@ max-height: 700px;
   text-decoration: underline;
   text-decoration-color: #c2c2c2;
   color: #434543;
+  margin-top: 10px;
 }
 
 .community-text_text{
@@ -3245,9 +3245,10 @@ max-height: 700px;
   margin-right: 20px;
   margin-top: 10px;
   color: #434543;
+  overflow: scroll;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 700px){
   .community-wrap{
     grid-template-columns: repeat(1, 1fr);
     margin-bottom: 20px;
@@ -3256,6 +3257,11 @@ max-height: 700px;
   .community-video{
     height: 50vw;
   }
+
+  .community-text_title{
+   margin-top: 0px;
+  }
+
   .community-text{
     height: 50vw;
     max-height: 200px;
