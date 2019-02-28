@@ -426,67 +426,120 @@ margin-right: 15px;
 
 .banner{
   width: 100%;
-  height: 400px;
-  background-image: url(./images/therevbig.jpg);
+  height: 30vw;
+  background-image: url(./images/ther.jpg);
   background-position: center;
   background-size: cover;
   display:flex;
-  justify-content: center;
+}
+
+
+.banner-left{
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-image: url(./images/therevbig.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.banner-right{
+  width: 50%;
+  height: 100%;
+  float: right;
+  background-image: url(./images/saorbig.jpg.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row-reverse;
   align-items: center;
 }
 
 
-.banner-test{
-  height: 300px;
-  width: 300px;
+.banner-left_a{
+  height: 26vw;
+  width: 26vw;
   z-index: 2;
+  background-image: url(./images/revking.jpg);
+  background-position: center;
+  background-size: cover;
+  border: none;
+  margin-right: ;
 }
 
-@media only screen and (max-width: 699px){
+.banner-left_a:hover{
+  margin-right:5px;
+  margin-bottom: 5px;
+  transition: ease-in-out, width .35s ease-in-out;
+}
+
+.banner-right_a{
+  height: 26vw;
+  width: 26vw;
+  z-index: 2;
+  background-image: url(./images/saor.jpg);
+  background-position: center;
+  background-size: cover;
+  border: none;
+  margin-left: px;
+}
+
+.banner-right_a:hover{
+  margin-left:5px;
+  margin-bottom: 5px;
+}
+
+.banner-left_album{
+  height: auto;
+  width: 24vw;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #2e734e;
+  opacity: 0.5;
+}
+
+.banner-right_album{
+  height: auto;
+  width: 24vw;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  opacity: 0.6;
+}
+
+.banner-text-text-upper{
+  font-size: 40px;
+  color: #a58e66;
+  -webkit-text-fill-color: #a58e66;
+  -moz-text-fill-color: #a58e66;
+  -ms-text-fill-color:#a58e66;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: 400;
+}
+
+.banner-text-text-lower{
+  font-size: 16px;
+  color: #a58e66;
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 800px){
   .banner{
     display: none;
   }
 }
 
-@media only screen and (min-width: 999px){
-  .banner{
-  height: 650px
-}
-.banner-test{
-  height: 550px;
-  width: 550px;
-}
-}
-
-@media only screen and (min-width:1550px){
-  .banner{
-    height: 900px;
-  }
-  .banner-test{
-    height: 750px;
-    width : 750px;
-  }
-}
-
-@media only screen and (min-width: 2150px){
-  .banner{
-    height: 1000px;
-  }
-  .banner-test{
-    height: 850px;
-    width : 850px;
-  }
-}
-
-@media only screen and (min-width: 2350px){
-  .banner{
-    height: 1050px;
-  }
-  .banner-test{
-    height: 900px;
-    width : 900px;
-  }
-}
 
 
 
