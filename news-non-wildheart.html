@@ -324,9 +324,76 @@ Be sure to check out the video below and stay tuned for more updates on all thin
         <div class="video-one">
           <iframe class="article-right-vid" src="https://www.youtube.com/embed/UhQUyeQf01Q?modestbranding=0&showinfo=0&origin=www.youtube.com" frameborder="0px" allowfullscreen></iframe>
         </div>
+
+
+      <div class="slideshow-container">
+      <div class="mySlides fades">
+        <div class="numbertext">1 / 4</div>
+        <a href="./review-obliteration-cenotaph-obscure.html"><img class="slide-album" src="./images/ceno.jpg"/></a>
+      </div>
+
+      <div class="mySlides fades">
+        <div class="numbertext">2 / 4</div>
+      <a href="./news-review-the-revenant-king.html"><img class="slide-album" src="./images/therevsmall.jpg"/></a>
+      </div>
+
+      <div class="mySlides fades">
+        <div class="numbertext">3 / 4</div>
+      <a href="./news-saor-guardians.html"><img class="slide-album" src="./images/saor.jpg"/></a>
+      </div>
+
+      <div class="mySlides fades">
+        <div class="numbertext">4 / 4</div>
+      <a href="/news-swallow-the-sun-when-a-shadow-is-forced-into-light.html"><img class="slide-album" src="./images/when.jpg"/></a>
+      </div>
+
+      <a class="prev" onclick="plusSlides (-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides (+1)">&#10095;</a>
+
+      <br>
+
+      <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
       </div>
     </div>
   </div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace("active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+
+
+  </div>
+</div>
 
   <div class="additional-content">
   <h1 class="video-title">Additional Articles</h1>
