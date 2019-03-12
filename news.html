@@ -284,10 +284,44 @@ document.getElementById("button-menu").classList.toggle("show");
 </script>
 </nav>
 <body>
+
 <h1 class="news-title news-news">News</h1>
 
 
 <div class="news-wrap">
+
+  <div class="news">
+
+    <script>
+
+    var i = 0;
+    var images = [];
+    var time = 3000;
+
+    images[0] = "./images/infer4.jpg";
+    images[1] = "./images/ceno.jpg";
+    images[2] = "./images/relic.jpg";
+
+    function mashupRec(){
+      document.recom.src = images[i];
+      if(i < images.length-1){
+        i++;
+      }else{
+        i=0;
+      }
+      setTimeout("mashupRec()", time)
+    }
+    window.onload=mashupRec;
+    </script>
+    <div class="news-top news-top-rec3">
+      <img name= "recom" height= "110%" width= "100%" margin=""/>
+    </div>
+    <div class="news-bottom">
+      <h1 class="news-bottom-title"><a class="news-bottom-title" href="./mashup-rec.html">Mashup Recomendations for the month of March are now live</a></h1>
+      <h2 class="news-bottom-text">Featuring <strong>Relics of Humanity</strong>, <strong>Inferi</strong> and <strong>Obliteration</strong>, this month’s recommendations rarely pause to alllow listener Recuperation.</h2>
+      <h3 class="news-bottom-date">13 March 2019</h3>
+    </div>
+  </div>
 
   <div class="news">
     <div class="news-top news-top-anno">
