@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang = "EN-EB"/>
+<head>
+  <title>Secret DND Page</title>
+  <link rel="stylesheet" href="./main.css"/>
+  <meta charset="UTF-8"/>
+  <meta name= "viewport" content="Width=device-width, initial-scale=1.0"/>
+  <link rel="shortcut icon" type="image/png" href="./images/d12.png"/>
+</head>
+<body>
+
+<div class="dnd-page">
+
+<div class="dnd-banner">
+</div>
+
+<div class="dnd-title">
+  <h1>Choose Your Weapon</h1>
+</div>
+
+<div class="dnd-content">
+
+  <script>
+
+    function d20(){
+      var d20Array = Math.floor((Math.random() * 20) +1);
+      if(d20Array > 19){
+        window.alert("Natural 20")
+      }
+
+      if (d20Array < 2){
+        window.alert("You Just Critshit The Bed");
+      } else{
+      window.alert(d20Array);
+    }
+  }
+
+    function d12(){
+      var d12Array = ["12", "11", "10", "9", "8", "7", "6", "5", "4", "3", "2", "1"];
+      var d12Math = Math.floor(Math.random() * d12Array.length);
+      window.alert(d12Array[d12Math]);
+    }
+
+    function d10(){
+      var d10Array = ["10", "9", "8", "7", "6", "5", "4", "3", "2", "1"];
+      var d10Math = Math.floor(Math.random() * d10Array.length);
+      window.alert(d10Array[d10Math]);
+    }
+
+    function d8(){
+      var d8Array = ["8", "7", "6", "5", "4", "3", "2", "1"];
+      var d8Math = Math.floor(Math.random() * d8Array.length);
+      window.alert(d8Array[d8Math]);
+    }
+
+    function d6(){
+      var d6Array = ["6", "5", "4", "3", "2", "1"];
+      var d6Math = Math.floor(Math.random() * d6Array.length);
+      window.alert(d6Array[d6Math]);
+    }
+
+    function d4(){
+      var d4Array = ["4", "3", "2", "1"];
+      var d4Math = Math.floor(Math.random() * d4Array.length);
+      window.alert(d4Array[d4Math]);
+    }
+
+  </script>
+
+  <div class="dnd-dice">
+    <button type="clickme" onclick="d20()"><img src="./images/d201.png" height="100%" width="100%"/></button>
+  </div>
+
+  <div class="dnd-dice">
+    <button type="clickme" onclick="d12()"><img src="./images/d12.png" height="100%" width="100%"/></button>
+  </div>
+
+  <div class="dnd-dice">
+    <button type="clickme" onclick="d10()"><img src="./images/d10.png" height="100%" width="100%"/></button>
+  </div>
+
+  <div class="dnd-dice">
+    <button type="clickme" onclick="d8()"><img src="./images/d8.png" height="100%" width="100%"/></button>
+  </div>
+
+  <div class="dnd-dice">
+    <button type="clickme" onclick="d6()"><img src="./images/d6.png" height="100%" width="100%"/></button>
+  </div>
+
+  <div class="dnd-dice">
+    <button type="clickme" onclick="d4()"><img src="./images/d4.png" height="100%" width="100%"/></button>
+  </div>
+
+</div>
+
+</div>
+  <div class="page-finish">
+
+    <div class="footer-one">
+      <h1 class="footer-title">Navigation</h1>
+
+      <div class="footer_inner">
+        <a href="./index.html">Home</a>
+        <a href="./news.html">News</a>
+        <a href="./review-space.html">Reviews</a>
+        <a href="./features.html">Features</a>
+        <a href="./community.html">Community Page</a>
+        <a href="./lyrics.html">Lyrics</a>
+        <a href="./events.html">Events</a>
+      </div>
+
+    </div>
+
+    <div class="footer-two">
+      <h1 class="footer-title">Metal Mashup</h1>
+
+      <p class="footer-text article-margin">Here at Metal Mashup you will find a site that celebrates all things heavy and metal. Yet in an effort to move away from the more mainstream aspects of our scene, Metal Mashup has a much-needed focus on the more underground achievements of our community. Don’t get us wrong though, while we all love a bit of Metallica and still lose our shit every time Hetfield sneezes or Lars manages to keep time, we just feel that there is more to our clan that needs to be celebrated.</p>
+
+    </div>
+
+    <div class="footer-three">
+      <h1 class="footer-title">Legal</h1>
+
+      <div class="footer_inner">
+        <a href="./terms.html">Terms of Service</a>
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./about.html"> © 2019 - Metal Mashup</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+    </body>
+  </html>
