@@ -5131,10 +5131,10 @@ font-size: 20px;
   height: 40vw;
   width: 100%;
   background-image: url(./images/dnd.jpg);
-  background-position: center;
+  background-position: top;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 140%;
   max-height: 580px;
 }
 
@@ -5179,4 +5179,18 @@ font-size: 20px;
 .dnd-dice button:active{
   transform: rotate(720deg);
   transition:3s;
+}
+
+@media only screen and (max-width: 800px){
+  .dnd-banner{
+    background-attachment: scroll;
+  }
+}
+
+@media only screen and (min-width: 1440px){
+  .dnd-banner{
+    background-image: url(./images/dnd2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
 }
