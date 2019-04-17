@@ -15,7 +15,7 @@
 </div>
 
 <div class="dnd-title">
-  <h1>Choose Your Weapon</h1>
+  <h1 id="here">Choose Your Weapon</h1>
 </div>
 
 <div class="dnd-content">
@@ -38,7 +38,8 @@
     function d12(){
       var d12Array = ["12", "11", "10", "9", "8", "7", "6", "5", "4", "3", "2", "1"];
       var d12Math = Math.floor(Math.random() * d12Array.length);
-      window.alert(d12Array[d12Math]);
+      document.getElementById("here").innerHTML = (d12Array[d12Math]);
+
     }
 
     function d10(){
