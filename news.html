@@ -283,7 +283,7 @@ document.getElementById("button-menu").classList.toggle("show");
 }
 </script>
 </nav>
-<body>
+<body onload="mashupRec(), mashup()">
 
 <h1 class="news-title news-news">News</h1>
 
@@ -294,12 +294,13 @@ document.getElementById("button-menu").classList.toggle("show");
 
     <script>
 
-  var time = 3000;
-  var i = 0;
-  var images = [];
+    var time = 3000;
+    var i = 0;
+
 
     function mashupRec(){
 
+      var images = [];
       images[0] = "./images/fault.jpg";
       images[1] = "./images/purg.jpg";
       images[2] = "./images/sequence.jpg";
@@ -311,7 +312,7 @@ document.getElementById("button-menu").classList.toggle("show");
       }
       setTimeout("mashupRec()", time)
     }
-  window.onload = mashupRec;
+
     </script>
     <div class="news-top news-top-rec3">
       <img name= "recom2" height= "110%" width= "100%" margin=""/>
@@ -455,17 +456,16 @@ document.getElementById("button-menu").classList.toggle("show");
 
     <script>
 
-
+    var time = 3000;
+    var i = 0;
 
     function mashup(){
-      var time = 3000;
-      var i = 0;
-      var images = [];
 
-      im[0] = "./images/fault.jpg";
-      im[1] = "./images/purg.jpg";
-      im[2] = "./images/sequence.jpg";
-      document.recom.src = im[i];
+      var ima = [];
+      ima[0] = "./images/ceno.jpg";
+      ima[1] = "./images/infer4.jpg";
+      ima[2] = "./images/relic.jpg";
+      document.recom.src = ima[i];
       if(i < images.length-1){
         i++;
       }else{
@@ -477,7 +477,7 @@ document.getElementById("button-menu").classList.toggle("show");
     </script>
 
     <div class="news-top news-top-rec3">
-      <img name= "recom" height= "110%" width= "100%" margin="" src = "./images/ceno.jpg"/>
+      <img name= "recom" onload="mashup()" height= "110%" width= "100%" margin="" />
     </div>
     <div class="news-bottom">
       <h1 class="news-bottom-title"><a class="news-bottom-title" href="./mashup-rec.html">Mashup Recomendations for the month of March are now live</a></h1>
