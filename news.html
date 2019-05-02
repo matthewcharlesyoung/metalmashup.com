@@ -291,6 +291,40 @@ document.getElementById("button-menu").classList.toggle("show");
 <div class="news-wrap">
 
   <div class="news">
+
+    <script>
+
+  var time = 3000;
+  var i = 0;
+  var images = [];
+
+    function mashupRec(){
+
+      images[0] = "./images/fault.jpg";
+      images[1] = "./images/purg.jpg";
+      images[2] = "./images/sequence.jpg";
+      document.recom2.src = images[i];
+      if(i < images.length-1){
+        i++;
+      }else{
+        i=0;
+      }
+      setTimeout("mashupRec()", time)
+    }
+  window.onload = mashupRec;
+    </script>
+    <div class="news-top news-top-rec3">
+      <img name= "recom2" height= "110%" width= "100%" margin=""/>
+    </div>
+    <div class="news-bottom">
+      <h1 class="news-bottom-title"><a class="news-bottom-title" href="./mashup-rec.html">Mashup Recomendations for the month of May are now live</a></h1>
+      <h2 class="news-bottom-text">By way of an apology for missing April’s recommendations, this month we bring you the massive sounds of <strong>Alpha Wolf</strong>, <strong>Mental Cruelty</strong> and <strong>Irrita</strong>.</h2>
+      <h3 class="news-bottom-date">2 May 2019</h3>
+    </div>
+  </div>
+
+
+  <div class="news">
     <div class="news-top news-top-thyart">
     </div>
     <div class="news-bottom">
@@ -421,27 +455,29 @@ document.getElementById("button-menu").classList.toggle("show");
 
     <script>
 
-    var i = 0;
-    var images = [];
-    var time = 3000;
 
-    images[0] = "./images/infer4.jpg";
-    images[1] = "./images/ceno.jpg";
-    images[2] = "./images/relic.jpg";
 
-    function mashupRec(){
-      document.recom.src = images[i];
+    function mashup(){
+      var time = 3000;
+      var i = 0;
+      var images = [];
+
+      im[0] = "./images/fault.jpg";
+      im[1] = "./images/purg.jpg";
+      im[2] = "./images/sequence.jpg";
+      document.recom.src = im[i];
       if(i < images.length-1){
         i++;
       }else{
         i=0;
       }
-      setTimeout("mashupRec()", time)
+      setTimeout("mashup()", time)
     }
-    window.onload = mashupRec;
+<!-- window.onload = mashup -->
     </script>
+
     <div class="news-top news-top-rec3">
-      <img name= "recom" height= "110%" width= "100%" margin=""/>
+      <img name= "recom" height= "110%" width= "100%" margin="" src = "./images/ceno.jpg"/>
     </div>
     <div class="news-bottom">
       <h1 class="news-bottom-title"><a class="news-bottom-title" href="./mashup-rec.html">Mashup Recomendations for the month of March are now live</a></h1>
