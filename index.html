@@ -305,6 +305,39 @@ document.getElementById("button-menu").classList.toggle("show");
       <div class="news-wrap">
 
         <div class="news">
+
+          <script>
+
+        var time = 3000;
+        var i = 0;
+        var images = [];
+
+          function mashupRec(){
+
+            images[0] = "./images/fault.jpg";
+            images[1] = "./images/purg.jpg";
+            images[2] = "./images/sequence.jpg";
+            document.recom2.src = images[i];
+            if(i < images.length-1){
+              i++;
+            }else{
+              i=0;
+            }
+            setTimeout("mashupRec()", time)
+          }
+        window.onload = mashupRec;
+          </script>
+          <div class="news-top news-top-rec3">
+            <img name= "recom2" height= "110%" width= "100%" margin=""/>
+          </div>
+          <div class="news-bottom">
+            <h1 class="news-bottom-title"><a class="news-bottom-title" href="./mashup-rec.html">Mashup Recomendations for the month of May are now live</a></h1>
+            <h2 class="news-bottom-text">By way of an apology for missing April’s recommendations, this month we bring you the massive sounds of <strong>Alpha Wolf</strong>, <strong>Mental Cruelty</strong> and <strong>Irrita</strong>.</h2>
+            <h3 class="news-bottom-date">2 May 2019</h3>
+          </div>
+        </div>
+
+        <div class="news">
           <div class="news-top news-top-thyart">
           </div>
           <div class="news-bottom">
@@ -360,15 +393,7 @@ document.getElementById("button-menu").classList.toggle("show");
           </div>
         </div>
 
-        <div class="news">
-          <div class="news-top news-top-war">
-          </div>
-          <div class="news-bottom">
-            <h1 class="news-bottom-title"><a class="news-bottom-title" href="./news-warforged-nightfall-came.html">Blackened progressive metallers Warforged release ‘Nightfall Came’</a></h1>
-            <h2 class="news-bottom-text">Blackened progressive metal newcomers <strong>Warforged</strong> continue to empower their technical compositions with blackened dissonance in their third single <strong>‘Nightfall Came’</strong>.</h2>
-            <h3 class="news-bottom-date">25 April 2019</h3>
-          </div>
-        </div>
+
 
 
     </div>
@@ -408,6 +433,16 @@ document.getElementById("button-menu").classList.toggle("show");
 <h1 class="video-title">Additional Articles</h1>
 
 <div class="news-wrap">
+
+  <div class="news">
+    <div class="news-top news-top-war">
+    </div>
+    <div class="news-bottom">
+      <h1 class="news-bottom-title"><a class="news-bottom-title" href="./news-warforged-nightfall-came.html">Blackened progressive metallers Warforged release ‘Nightfall Came’</a></h1>
+      <h2 class="news-bottom-text">Blackened progressive metal newcomers <strong>Warforged</strong> continue to empower their technical compositions with blackened dissonance in their third single <strong>‘Nightfall Came’</strong>.</h2>
+      <h3 class="news-bottom-date">25 April 2019</h3>
+    </div>
+  </div>
 
   <div class="news">
     <div class="news-top news-top-fractal">
@@ -459,16 +494,6 @@ document.getElementById("button-menu").classList.toggle("show");
   </div>
 </div>
 
-
-<div class="news">
-  <div class="news-top news-top-lee">
-  </div>
-  <div class="news-bottom">
-    <h1 class="news-bottom-title"><a class="news-bottom-title" href="./news-mckinney-solo-album.html">Born Of Osiris guitarist Lee McKinney releases solo material</a></h1>
-    <h2 class="news-bottom-text">Already known for his work with <strong>Born Of Osiris</strong>, <strong>Lee Mckinney</strong> is venturing out on his own with a new solo album entitled <strong>‘Infinite Mind’</strong>.</h2>
-    <h3 class="news-bottom-date">13 March 2019</h3>
-  </div>
-</div>
 
 
 </div>
