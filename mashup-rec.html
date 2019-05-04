@@ -283,7 +283,7 @@ document.getElementById("button-menu").classList.toggle("show");
 }
 </script>
 </nav>
-<body>
+<body onload="mashupRec(), mashup()">
 
   <h1 class="recomendations-title">Mashup Recomendations</h1>
 
@@ -481,62 +481,95 @@ Coming at The Great War from multiple angles, <strong>1914</strong> ultimately c
   <div class="news-wrap">
 
     <div class="news">
-      <div class="news-top news-top-han">
+      <div class="news-top rel">
+        <div class="rel-4 rel-amon">
+        </div>
+        <div class="rel-1 rel-origin">
+        </div>
+        <div class="rel-3 rel-ringworm">
+        </div>
+        <div class="rel-2 rel-kampfar">
+        </div>
       </div>
       <div class="news-bottom">
-        <h1 class="news-bottom-title"><a class="news-bottom-title" href="./news-hannes-grossman-new-single.html">Hannes Grossman releases the first track from ‘Apophenia’</a></h1>
-        <h2 class="news-bottom-text">Due for release on the 11th of March ‘Apophenia’s’ first single entitled <strong>‘The Flying Pizza Conundrum’</strong> throws down the gauntlet at the feet of flat-earthers.</h2>
-        <h3 class="news-bottom-date">14 February 2019</h3>
+        <h1 class="news-bottom-title"><a class="news-bottom-title" href="./best of 03-05-19.html">Mashup’s top four releases out this week</a></h1>
+        <h2 class="news-bottom-text">Featuring <strong>Amon Amarth</strong>, <strong>Origin</strong>, <strong>Ringworm</strong> and <strong>Kampfar</strong> check out the releases that we are most excited about this week.</h2>
+        <h3 class="news-bottom-date">4 May 2019</h3>
       </div>
     </div>
 
     <div class="news">
-      <div class="news-top news-top-visi">
+      <div class="news-top news-top-pnath">
       </div>
       <div class="news-bottom">
-        <h1 class="news-bottom-title"><a class="news-bottom-title" href="./news-visigoth-release-new-video.html">Visigoth release new video for ‘Traitors Gate’</a></h1>
-        <h2 class="news-bottom-text">Returning from the fields of battle with victory in toe, modern heavy metallers Visigoth come to worship at the alters of metal with <strong>‘Traitors Gate’</strong>.</h2>
-        <h3 class="news-bottom-date">13 February 2019</h3>
+        <h1 class="news-bottom-title"><a class="news-bottom-title" href="./news-vale-of-pnath-the-darkest-gate.html">Tech Death titans Vale of Pnath release ‘The Darkest Gate’</a></h1>
+        <h2 class="news-bottom-text">Tech death extremists <strong>Vale of Pnath</strong> return with a new single entitled <strong>‘The Darkest Gate’</strong> taken from their upcoming EP <strong>‘Accursed’</strong>.</h2>
+        <h3 class="news-bottom-date">3 May 2019</h3>
       </div>
     </div>
 
     <div class="news">
-      <div class="news-top news-top-lokust">
+      <div class="news-top news-top-ingested">
       </div>
       <div class="news-bottom">
-        <h1 class="news-bottom-title"><a class="news-bottom-title" href="./news-lokust-advert.html">New project Lokust advertise for a bassist and vocalist</a></h1>
-        <h2 class="news-bottom-text">London based metal project <strong>L O K U S T</strong> advertise for a bassist and vocalist in the best way possible, by releasing a music video of what they could be joining.</h2>
-        <h3 class="news-bottom-date">12 February 2019</h3>
+        <h1 class="news-bottom-title"><a class="news-bottom-title" href="./news-ingested-new single.html">Slaming death metal giants Ingested release ‘Mouth of the Abyss’</a></h1>
+        <h2 class="news-bottom-text">Undisputed titans of the heavy <strong>Ingested</strong> reveal the coming release of a brand new EP entitled <strong>‘Call of the Void’</strong> with the dropping of their first single <strong>‘Mouth of the Abyss’</strong>.</h2>
+        <h3 class="news-bottom-date">3 May 2019</h3>
       </div>
     </div>
 
     <div class="news">
-      <div class="news-top news-top-timlam">
+
+      <script>
+
+      var time = 3000;
+      var i = 0;
+
+
+      function mashupRec(){
+
+        var images = [];
+        images[0] = "./images/fault.jpg";
+        images[1] = "./images/purg.jpg";
+        images[2] = "./images/sequence.jpg";
+        document.recom2.src = images[i];
+        if(i < images.length-1){
+          i++;
+        }else{
+          i=0;
+        }
+        setTimeout("mashupRec()", time)
+      }
+
+      </script>
+      <div class="news-top news-top-rec3">
+        <img name= "recom2" height= "110%" width= "100%" margin=""/>
       </div>
       <div class="news-bottom">
-        <h1 class="news-bottom-title"><a class="news-bottom-title" href="./news-as-i-lay-dying-canceled-show.html">Tim Lambesis issues statement on canceled show</a></h1>
-        <h2 class="news-bottom-text">Following the cancelation of <strong>As I lay Dying’s</strong> scheduled 5th of April show in Memphis, <strong>Tim Lambesis</strong> issues a public statement in response.</h2>
-        <h3 class="news-bottom-date">11 February 2019</h3>
+        <h1 class="news-bottom-title"><a class="news-bottom-title" href="./mashup-rec.html">Mashup Recomendations for the month of May are now live</a></h1>
+        <h2 class="news-bottom-text">By way of an apology for missing April’s recommendations, this month we bring you the massive sounds of <strong>Alpha Wolf</strong>, <strong>Mental Cruelty</strong> and <strong>Irrita</strong>.</h2>
+        <h3 class="news-bottom-date">2 May 2019</h3>
+      </div>
+    </div>
+
+
+    <div class="news">
+      <div class="news-top news-top-thyart">
+      </div>
+      <div class="news-bottom">
+        <h1 class="news-bottom-title"><a class="news-bottom-title" href="./news-thy-art-is-murder-new-single.html">Thy Art Is Murder release the title track from ‘Human Target’</a></h1>
+        <h2 class="news-bottom-text">Australian titans of the heavy <strong>Thy Art Is Murder</strong> have released the title track from their upcoming album entitled <strong>‘Human Target’</strong> set for release on the 26th of July.</h2>
+        <h3 class="news-bottom-date">30 April 2019</h3>
       </div>
     </div>
 
     <div class="news">
-      <div class="news-top news-top-coheed">
+      <div class="news-top feature-img-sum41">
       </div>
       <div class="news-bottom">
-        <h1 class="news-bottom-title"><a class="news-bottom-title" href="./news-non-metal-coheed.html">Non-Metal Monday: Coheed and Cambria interview</a></h1>
-        <h2 class="news-bottom-text">In an interview with <strong>Kerrang</strong> as part of their <strong>In Conversation With</strong> series vocalist <strong>Claudio Sanchez</strong> explains what it was like to open for <strong>Slipknot</strong>.</h2>
-        <h3 class="news-bottom-date">11 February 2019</h3>
-      </div>
-    </div>
-
-    <div class="news">
-      <div class="news-top news-top-nap">
-      </div>
-      <div class="news-bottom">
-        <h1 class="news-bottom-title"><a class="news-bottom-title" href="./news-napoleon-break-up.html">Napoleon have announced their end</a></h1>
-        <h2 class="news-bottom-text">Following almost nine years of standing together as <strong>Napoleon</strong>, the Exeter based giants of melodic hardcore regretfully put the band to bed.</h2>
-        <h3 class="news-bottom-date">10 February 2019</h3>
+        <h1 class="news-bottom-title"><a class="news-bottom-title" href="./news-sum41-new-single.html">Non Metal Monday: Sum 41 return with a new single</a></h1>
+        <h2 class="news-bottom-text">Announced last Thursday with the dropping of a surprise single, punk rock heroes <strong>Sum 41</strong> return with their first single in 3 years entitled <strong>‘Out For Blood’</strong>.</h2>
+        <h3 class="news-bottom-date">29 April 2019</h3>
       </div>
     </div>
 
